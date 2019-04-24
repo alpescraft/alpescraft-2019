@@ -34,17 +34,13 @@
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <a class="btn btn-primary" href="#">Sign In</a>
-    </div>
-  </nav>
 
-  {{ partial "header.html" .Site.Params }}
+  <!-- Navigation -->
+  {{ partial "nav.html" . }}
+
   <!-- Masthead -->
-  
+  {{ partial "header.html" .Site.Params }}
+
 
   <!-- Icons Grid -->
   <section class="features-icons bg-light text-center">

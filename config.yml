@@ -7,7 +7,8 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "Alpes Craft 2019"
+  Name: "Alpes Craft"
+  Year: "2019"
   Description: "Découvrir, apprendre et se perfectionner"
   Date: "13 et 14 Juin 2019"
   #Price: "Only $100" # If your event is free, just comment this line
