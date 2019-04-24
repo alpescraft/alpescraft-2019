@@ -43,6 +43,18 @@ params:
     partners: "Partners"
     contact: "Contact"
 
+  # Icones
+  Icones:
+    - title: "Découvrir"
+      icon: "icon-question"
+      text: "Blablabla je découvre hugo"
+    - title: "Apprendre"
+      icon: "icon-layers"
+      text: "Lorem ipsum is not just random text!"
+    - title: "Se perfectionner"
+      icon: "icon-check"
+      text: "Échanger avec des professionels lors d'une seconde journée en partenariat avec <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>"
+
   # About
   About:
     - title: "Découvrir, apprendre et se perfectionner"
