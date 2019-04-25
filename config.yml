@@ -1,5 +1,5 @@
-baseurl: "https://example.org/"
-title: "Conference name"
+baseurl: "https://alpescraft.github.io/"
+title: "AlpesCraft"
 canonifyurls: true
 
 GoogleAnalytics: ""
