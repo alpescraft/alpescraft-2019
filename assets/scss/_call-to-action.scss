@@ -3,8 +3,8 @@
   background-color: $gray-800;
   background: url('../img/bg-masthead.jpg') no-repeat center center;
   @include background-cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   .overlay {
     position: absolute;
     background-color: $gray-900;
