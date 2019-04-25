@@ -34,9 +34,9 @@ params:
 
   # Titles which you can translate to other languages
   Titles:
-    icons: "Icones"
-    about: "About"
-    location: "Location"
+    icons: "La conférence"
+    about: "À propos"
+    location: "Nous rejoindre"
     speakers: "Speakers"
     schedule: "Schedule"
     sponsors: "Sponsors"
