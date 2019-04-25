@@ -1,0 +1,19 @@
+.twitter-link {
+  color: white;
+  font-weight: bold;
+
+  &:hover {
+    color: #e2e2e2;
+  }
+}
+
+.twitter-link-icon {
+  display: block;
+  margin-top: 20px;
+  font-size: 50px;
+  color: white;
+  
+  &:hover {
+    color: #e2e2e2;
+  }
+}
