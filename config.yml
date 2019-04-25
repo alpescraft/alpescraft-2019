@@ -1,7 +1,6 @@
 baseurl: "https://example.org/"
 title: "Conference name"
 canonifyurls: true
-# theme: "hugo-conference"
 
 GoogleAnalytics: ""
 
