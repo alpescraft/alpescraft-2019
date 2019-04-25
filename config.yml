@@ -1,13 +1,13 @@
-baseurl: "https://example.org/"
-title: "Conference name"
+baseurl: "https://alpescraft.github.io/"
+title: "AlpesCraft"
 canonifyurls: true
-theme: "hugo-conference"
 
 GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "Alpes Craft 2019"
+  Name: "AlpesCraft"
+  Year: "2019"
   Description: "Découvrir, apprendre et se perfectionner"
   Date: "13 et 14 Juin 2019"
   #Price: "Only $100" # If your event is free, just comment this line
@@ -15,32 +15,88 @@ params:
   Address: "3 Parvis Louis Néel"
   City:  "Grenoble"
   State: "France"
+  Twitter: "https://twitter.com/AlpesCraft"
+  Email: "contact@alpescraft.fr"
 #  Images: ["/img/badge.jpg"]
 #  GoogleMapsKey: "my-secret-maps-key"
+
+  Credits:
+    - name: "Ernest Imoesi"
+      url: "https://unsplash.com/photos/Urg2oQ7Q-5c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    - name: "Headway"
+      url: "https://unsplash.com/photos/5QgIuuBxKwM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
+    - icons
     - about
+    # - speakers
+    - mailinglist
     - location
-    - speakers
-    - schedule
-    - sponsors
-    - partners
+    # - schedule
+    # - sponsors
+    # - partners
     #- contact
 
   # Titles which you can translate to other languages
   Titles:
-    about: "About"
-    location: "Location"
+    icons: "La conférence"
+    about: "À propos"
+    location: "Nous rejoindre"
     speakers: "Speakers"
     schedule: "Schedule"
     sponsors: "Sponsors"
     partners: "Partners"
     contact: "Contact"
+    mailinglist: "Billetterie"
 
-  # The Call To Action button at the header,
-  # If you don't want this, just remove the callToAction property.
+  # Icones
+  Icones:
+    - title: "Découvrir"
+      icon: "icon-question"
+      text: "Venez découvrir ce qui se cache derrière le Software Craftsmanship"
+    - title: "Apprendre"
+      icon: "icon-layers"
+      text: "Un lieu d'apprentissage et de partage afin de progresser pour produire des logiciels toujours meilleurs"
+    - title: "Se perfectionner"
+      icon: "icon-check"
+      text: >
+            Échanger avec des professionels lors d'une seconde journée en partenariat avec 
+            <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>
+
+  # About
+  About:
+    - title: "Découvrir, apprendre et se perfectionner"
+      img: "img/bg-showcase-2.jpg"
+      imgInRightSide: true
+      text:
+        - paragraph: "Une nouvelle aventure commence sur Grenoble, venez nous rejoindre les 13 et 14 juin 2019 !"
+        - paragraph: "Réaliser un produit logiciel qui correspond aux besoins de nos utilisateurs et qui soit facile à faire évoluer est un Graal difficile à atteindre."
+        - paragraph: "Cela demande à la fois une excellence technique, une maîtrise des bonnes pratiques sur l'ensemble de la chaîne de production, des compétences de coopération et de communication avec l'ensemble des acteurs, un paradigme de travail d'apprentissage (The Build-Measure-Learn Feedback Loop)... Une quête passionnante qui est facilitée lorsqu'on rencontre des personnes expérimentées qui nous guident sur les chemins à suivre et nous aident à nous améliorer."
+    - title: ""
+      img: "img/bg-showcase-3.jpg"
+      text: 
+        - paragraph: "Cette conférence a pour but d'être un lieu d'apprentissage et d'échanges afin de progresser pour produire des logiciels toujours meilleurs."
+    - title: ""
+      img: "img/bg-showcase-1.jpg"
+      imgInRightSide: true
+      text: 
+        - paragraph: "La conférence est sur 2 jours : un jour sera dédié aux personnes désirant découvrir de nouvelles pratiques et perfectionner leurs compétences et un autre pour les pratiquants réguliers souhaitant approfondir leurs connaissances (en co-organisation avec <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>)"
+
+  # Location
+  Location:
+    - title: "Venir"
+      latitude: "45.195807222"
+      longitude: "5.7096947222"
+      text:
+        - paragraph: >
+                      Vous pouvez y accéder :
+                      <ul class="lead">
+                        <li>par la ligne B du Tram (direction Grenoble Presqu'île), arrêt "Cité Internationale"</li>
+                        <li>en voiture (vous pouvez vous garer aux parkings Doyen Weil ou d'Europole Gare)</li>
+                        <li>en <a href="http://www.metromobilite.fr/velo.html" target="_blank"> vélo</a></li>
+                      </ul>
 
   # List of Sponsors
   Sponsors:
@@ -58,6 +114,18 @@ params:
       url: "http://braziljs.org"
 
   # The entire schedule
+  Speakers:
+    - name: "Margaret E."
+      description: "\"This is fantastic! Thanks so much guys!\""
+      img: "img/testimonials-1.jpg"
+    - name: "Fred S."
+      description: "\"Bootstrap is amazing. I've been using it to create lots of super nice
+            landing pages.\""
+      img: "img/testimonials-2.jpg"
+    - name: "Sarah W."
+      description: "\"Thanks so much for making these free resources available to us!\""
+      img: "img/testimonials-3.jpg"
+
   Schedule:
     - name: "Check-in / Breakfast"
       time: "9h00"

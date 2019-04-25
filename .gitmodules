@@ -1,3 +1,4 @@
-[submodule "themes/hugo-conference"]
-	path = themes/hugo-conference
-	url = https://github.com/jweslley/hugo-conference
+[submodule "public"]
+	path = public
+	url = git@github.com:alpescraft/alpescraft.github.io.git
+	branch = master
