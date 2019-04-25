@@ -47,15 +47,15 @@ params:
   Icones:
     - title: "Découvrir"
       icon: "icon-question"
-      text: "Blablabla je découvre hugo"
+      text: "Venez découvrir ce qui se cache derrière le Software Craftsmanship"
     - title: "Apprendre"
       icon: "icon-layers"
-      text: "Lorem ipsum is not just random text!"
+      text: "Un lieu d'apprentissage et de partage afin de progresser pour produire des logiciels toujours meilleurs"
     - title: "Se perfectionner"
       icon: "icon-check"
       text: >
             Échanger avec des professionels lors d'une seconde journée en partenariat avec 
-            <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>"
+            <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>
 
   # About
   About:
