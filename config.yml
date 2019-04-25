@@ -24,8 +24,8 @@ params:
   Sections:
     - icons
     - about
-    # - location
     - speakers
+    - location
     # - schedule
     # - sponsors
     # - partners
@@ -53,7 +53,9 @@ params:
       text: "Lorem ipsum is not just random text!"
     - title: "Se perfectionner"
       icon: "icon-check"
-      text: "Échanger avec des professionels lors d'une seconde journée en partenariat avec <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>"
+      text: >
+            Échanger avec des professionels lors d'une seconde journée en partenariat avec 
+            <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>"
 
   # About
   About:
@@ -73,7 +75,21 @@ params:
       imgInRightSide: true
       text: 
         - paragraph: "La conférence est sur 2 jours : un jour sera dédié aux personnes désirant découvrir de nouvelles pratiques et perfectionner leurs compétences et un autre pour les pratiquants réguliers souhaitant approfondir leurs connaissances (en co-organisation avec <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>)"
-  
+
+  # Location
+  Location:
+    - title: "Venir"
+      latitude: "45.195807222"
+      longitude: "5.7096947222"
+      text:
+        - paragraph: >
+                      Vous pouvez y accéder :
+                      <ul class="lead">
+                        <li>par la ligne B du Tram (direction Grenoble Presqu'île), arrêt "Cité Internationale"</li>
+                        <li>en voiture (vous pouvez vous garer aux parkings Doyen Weil ou d'Europole Gare)</li>
+                        <li>en <a href="http://www.metromobilite.fr/velo.html" target="_blank"> vélo</a></li>
+                      </ul>
+
   # List of Sponsors
   Sponsors:
     - name: "Hugo"
