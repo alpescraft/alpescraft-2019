@@ -25,6 +25,8 @@ params:
       url: "https://unsplash.com/photos/Urg2oQ7Q-5c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
     - name: "Headway"
       url: "https://unsplash.com/photos/5QgIuuBxKwM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    - name: "Fancycrave"
+      url: "https://unsplash.com/photos/yB5cYEq7y2U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
@@ -32,8 +34,8 @@ params:
     - icons
     - about
     # - speakers
-    - mailinglist
     - location
+    - mailinglist
     # - schedule
     # - sponsors
     # - partners
