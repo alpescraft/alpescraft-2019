@@ -69,7 +69,7 @@ params:
               <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>
     description:
       - paragraph: "AlpesCraft est une conférence technique, agnostique aux technologies"
-      - paragraph: "Nous pensons que le plus important est de bien maîtriser les fondamentaux et d'apprendre les pratiques au delà des frameworks"
+      - paragraph: "Nous pensons que le plus important est de bien maîtriser les fondamentaux et d'apprendre les pratiques au-delà des frameworks"
       - paragraph: >
                    Peut importe votre langage de programmation, votre framework ou librairie préféré,
                    participer à Alpescraft c'est apprendre des choses applicables dès le lendemain
