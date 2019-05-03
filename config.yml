@@ -25,6 +25,8 @@ params:
       url: "https://unsplash.com/photos/Urg2oQ7Q-5c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
     - name: "Headway"
       url: "https://unsplash.com/photos/5QgIuuBxKwM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    - name: "Fancycrave"
+      url: "https://unsplash.com/photos/yB5cYEq7y2U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
@@ -32,8 +34,8 @@ params:
     - icons
     - about
     # - speakers
-    - mailinglist
     - location
+    - mailinglist
     # - schedule
     # - sponsors
     # - partners
@@ -53,17 +55,24 @@ params:
 
   # Icones
   Icones:
-    - title: "Découvrir"
-      icon: "icon-question"
-      text: "Venez découvrir ce qui se cache derrière le Software Craftsmanship"
-    - title: "Apprendre"
-      icon: "icon-layers"
-      text: "Un lieu d'apprentissage et de partage afin de progresser pour produire des logiciels toujours meilleurs"
-    - title: "Se perfectionner"
-      icon: "icon-check"
-      text: >
-            Échanger avec des professionels lors d'une seconde journée en partenariat avec 
-            <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>
+    grid:
+      - title: "Découvrir"
+        icon: "icon-question"
+        text: "Venez découvrir ce qui se cache derrière le Software Craftsmanship"
+      - title: "Apprendre"
+        icon: "icon-layers"
+        text: "Un lieu d'apprentissage et de partage afin de progresser pour produire des logiciels toujours meilleurs"
+      - title: "Se perfectionner"
+        icon: "icon-check"
+        text: >
+              Échanger avec des professionels lors d'une seconde journée en partenariat avec
+              <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>
+    description:
+      - paragraph: "AlpesCraft est une conférence technique, agnostique aux technologies"
+      - paragraph: "Nous pensons que le plus important est de bien maîtriser les fondamentaux et d'apprendre les pratiques au delà des frameworks"
+      - paragraph: >
+                   Peut importe votre langage de programmation, votre framework ou librairie préféré,
+                   participer à Alpescraft c'est apprendre des choses applicables dès le lendemain
 
   # About
   About:
@@ -73,7 +82,10 @@ params:
       text:
         - paragraph: "Une nouvelle aventure commence sur Grenoble, venez nous rejoindre les 13 et 14 juin 2019 !"
         - paragraph: "Réaliser un produit logiciel qui correspond aux besoins de nos utilisateurs et qui soit facile à faire évoluer est un Graal difficile à atteindre."
-        - paragraph: "Cela demande à la fois une excellence technique, une maîtrise des bonnes pratiques sur l'ensemble de la chaîne de production, des compétences de coopération et de communication avec l'ensemble des acteurs, un paradigme de travail d'apprentissage (The Build-Measure-Learn Feedback Loop)... Une quête passionnante qui est facilitée lorsqu'on rencontre des personnes expérimentées qui nous guident sur les chemins à suivre et nous aident à nous améliorer."
+        - paragraph: >
+                      Cela demande à la fois une excellence technique, une maîtrise des bonnes pratiques sur l'ensemble de la chaîne de production,
+                       des compétences de coopération et de communication avec l'ensemble des acteurs, un paradigme de travail d'apprentissage (The Build-Measure-Learn Feedback Loop)...
+                       Une quête passionnante qui est facilitée lorsqu'on rencontre des personnes expérimentées qui nous guident sur les chemins à suivre et nous aident à nous améliorer.
     - title: ""
       img: "img/bg-showcase-3.jpg"
       text: 
