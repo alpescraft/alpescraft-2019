@@ -1,7 +1,7 @@
 <section class="features-icons bg-light text-center">
   <div class="container">
     <div class="row">
-      {{ range .icones }}
+      {{ range .icones.grid }}
       <div class="col-lg-4">
         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
           <div class="features-icons-icon d-flex">
@@ -13,5 +13,10 @@
       </div>
       {{ end }}
     </div>
+  </div>
+  <div class="description lead">
+    {{ range .icones.description }}
+      <p>{{ .paragraph | safeHTML }}</p>
+    {{ end }}
   </div>
 </section>
