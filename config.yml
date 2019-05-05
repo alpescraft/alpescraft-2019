@@ -27,8 +27,8 @@ params:
 #  GoogleMapsKey: "my-secret-maps-key"
 
   Credits:
-    - name: "Ernest Imoesi"
-      url: "https://unsplash.com/photos/Urg2oQ7Q-5c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    - name: "Xavier Nopre"
+      url: "http://alpescraft.fr"
     - name: "Headway"
       url: "https://unsplash.com/photos/5QgIuuBxKwM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
     - name: "Fancycrave"
