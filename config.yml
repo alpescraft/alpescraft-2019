@@ -2,7 +2,13 @@ baseurl: "https://www.alpescraft.fr/"
 title: "AlpesCraft"
 canonifyurls: true
 
-GoogleAnalytics: ""
+GoogleAnalytics: "UA-139631751-1"
+
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+    useSessionStorage: true
 
 params:
   # Conference info
@@ -107,7 +113,7 @@ params:
                       <ul class="lead">
                         <li>par la ligne B du Tram (direction Grenoble Presqu'île), arrêt "Cité Internationale"</li>
                         <li>en voiture (vous pouvez vous garer aux parkings Doyen Weil ou d'Europole Gare)</li>
-                        <li>en <a href="http://www.metromobilite.fr/velo.html" target="_blank"> vélo</a></li>
+                        <li>à <a href="http://www.metromobilite.fr/velo.html" target="_blank"> vélo</a></li>
                       </ul>
 
   # List of Sponsors
