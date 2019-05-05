@@ -2,7 +2,13 @@ baseurl: "https://www.alpescraft.fr/"
 title: "AlpesCraft"
 canonifyurls: true
 
-GoogleAnalytics: ""
+GoogleAnalytics: "UA-139631751-1"
+
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+    useSessionStorage: true
 
 params:
   # Conference info
