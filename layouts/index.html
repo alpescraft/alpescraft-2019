@@ -32,6 +32,8 @@
 
   {{ $styles := resources.Get "scss/landing-page.scss" | toCSS | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
+  {{ template "_internal/google_analytics_async.html" . }}
 </head>
 <body>
 

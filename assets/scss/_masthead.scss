@@ -1,19 +1,19 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/cover.jpg') no-repeat center bottom;
+  background: url('../img/cover.jpg') no-repeat center top;
   background-size: 100% auto;
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
   .overlay {
     position: absolute;
-    background-color: $gray-900;
+    background-color: white;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0.1;
+    opacity: 0.0;
   }
   h1 {
     font-size: 2rem;
