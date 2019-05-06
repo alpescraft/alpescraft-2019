@@ -41,7 +41,7 @@ params:
     - about
     # - speakers
     - location
-    - mailinglist
+    - billeterie
     # - schedule
     # - sponsors
     # - partners
@@ -57,7 +57,7 @@ params:
     sponsors: "Sponsors"
     partners: "Partners"
     contact: "Contact"
-    mailinglist: "Billetterie"
+    billeterie: "Billetterie"
 
   # Icones
   Icones:
@@ -94,12 +94,12 @@ params:
                        Une quête passionnante qui est facilitée lorsqu'on rencontre des personnes expérimentées qui nous guident sur les chemins à suivre et nous aident à nous améliorer.
     - title: ""
       img: "img/bg-showcase-3.jpg"
-      text: 
+      text:
         - paragraph: "Cette conférence a pour but d'être un lieu d'apprentissage et d'échanges afin de progresser pour produire des logiciels toujours meilleurs."
     - title: ""
       img: "img/bg-showcase-1.jpg"
       imgInRightSide: true
-      text: 
+      text:
         - paragraph: "La conférence est sur 2 jours : un jour sera dédié aux personnes désirant découvrir de nouvelles pratiques et perfectionner leurs compétences et un autre pour les pratiquants réguliers souhaitant approfondir leurs connaissances (en co-organisation avec <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>)"
 
   # Location
