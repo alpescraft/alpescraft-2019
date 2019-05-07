@@ -40,8 +40,8 @@ params:
     - icons
     - about
     - speakers
-    - location
     - billeterie
+    - location
     # - schedule
     # - sponsors
     # - partners
