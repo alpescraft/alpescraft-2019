@@ -42,7 +42,7 @@ params:
     - speakers
     - billeterie
     - location
-    # - schedule
+    - schedule
     # - sponsors
     # - partners
     #- contact
