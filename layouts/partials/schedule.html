@@ -3,8 +3,8 @@
 <div class="container-fluid">
     {{ range $slot := .schedule }}
     <div class="row schedule-row text-center p-4">
-        <div class="col-1 schedule-time">{{ .time }}</div>
-        <div class="col-11">
+        <div class="col-lg-1 col-md-2 schedule-time">{{ .time }}</div>
+        <div class="col-lg-11 col-md-10">
             <div class="row">
                 {{ if $slot.conferences }}
                     {{ range $conf := $slot.conferences }}
