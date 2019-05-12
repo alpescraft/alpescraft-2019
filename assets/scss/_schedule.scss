@@ -1,0 +1,33 @@
+.schedule {
+  padding: 30px;
+
+  img {
+    max-width: 6rem;
+  }
+
+  th {
+    font-size: 1.4em;
+  }
+
+  .schedule-time {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  .schedule-break {
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .schedule-row {
+    border-radius: 5px;
+  }
+
+  .schedule-row:nth-of-type(odd){
+    background-color: #efefef;
+  }
+
+  .schedule-row:nth-of-type(even){
+    background-color: #ffffff;
+  }
+}

@@ -1,41 +1,43 @@
 <h2 class="section-title text-center">{{ .titles.schedule }}</h2>
 
-<p class="lead text-center">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-</p>
+<div class="container-fluid">
+    {{ range $slot := .schedule }}
+    <div class="row schedule-row text-center p-4">
+        <div class="col-1 schedule-time">{{ .time }}</div>
+        <div class="col-11">
+            <div class="row">
+                {{ if $slot.conferences }}
+                    {{ range $conf := $slot.conferences }}
+                        <div class="col-lg-{{div 12 (len $slot.conferences) }}">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ .name }}</h5>
+                                    <span class="card-text">
+                                        <span class="row">
+                                            <span class="col-lg-3 text-center">
+                                                <a href="{{ $conf.speaker.href }}" target="_blank">
+                                                    <img class="img-fluid rounded-circle" src="{{ $conf.speaker.photo }}" alt="{{ $conf.speaker.name }}">
+                                                    <p>{{ $conf.speaker.name }}</p>
+                                                    <p class="speakers-company">{{ $conf.speaker.company }}</p>
+                                                </a>
+                                            </span>
+                                            <div class="col-lg-9">
+                                                <p>{{ .description }}</p>
+                                            </div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    {{ end }}
+                {{ else }}
+                    <div class="col-lg-12 schedule-break">
+                        <h3>{{ .name }}</h3>
+                    </div>
 
-<div class="table-responsive text-center">
-    <table class="table table-striped">
-        <thead>
-        <tr class="d-flex">
-            <th class="col-2 schedule-time">Time</th>
-            <th class="col-4 schedule-slot">Slot</th>
-            <th class="col-6 schedule-description">Description</th>
-        </tr>
-        </thead>
-        <tbody>
-        {{ range $slot := .schedule }}
-        <tr class="d-flex">
-            <td class="col-2 schedule-time">{{ .time }}</td>
-            <td class="col-4 schedule-slot">
-                <div class="lead">
-                    <strong>{{ .name }}</strong>
-                </div>
-                {{ with .speaker }}
-                <div>
-                    <a href="{{ $slot.speaker.href }}" target="_blank">
-                        <img class="img-fluid rounded-circle" src="{{ $slot.speaker.photo }}" alt="{{ $slot.speaker.name }}">
-                        <p>{{ $slot.speaker.name }}</p>
-                        <p class="speakers-company">{{ $slot.speaker.company }}</p>
-                    </a>
-
-
-                </div>
                 {{ end }}
-            </td>
-            <td class="col-6 schedule-description">{{ .description }}</td>
-        </tr>
-        {{ end }}
-    </table>
+            </div>
+        </div>
+    </div>
+    {{ end }}
 </div>
