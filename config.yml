@@ -16,15 +16,12 @@ params:
   Year: "2019"
   Description: "Découvrir, apprendre et se perfectionner"
   Date: "13 et 14 Juin 2019"
-  #Price: "Only $100" # If your event is free, just comment this line
   Venue: "Maison Minatec"
   Address: "3 Parvis Louis Néel"
   City:  "Grenoble"
   State: "France"
   Twitter: "https://twitter.com/AlpesCraft"
   Email: "contact@alpescraft.fr"
-#  Images: ["/img/badge.jpg"]
-#  GoogleMapsKey: "my-secret-maps-key"
 
   Credits:
     - name: "Xavier Nopre"
@@ -42,10 +39,10 @@ params:
     - speakers
     - billeterie
     - location
-    - schedule
-    # - sponsors
-    # - partners
-    #- contact
+#    - schedule
+#    - sponsors
+#    - partners
+#    - contact
 
   # Titles which you can translate to other languages
   Titles:

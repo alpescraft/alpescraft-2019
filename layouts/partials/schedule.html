@@ -1,5 +1,8 @@
 <h2 class="section-title text-center schedule-title">{{ .titles.schedule }}</h2>
 
+
+<h3>Journée du Jeudi 13 Juin</h3>
+
 <div class="container-fluid">
     {{ range $slot := .schedule }}
     <div class="row schedule-row text-center p-4 {{ if not $slot.conferences }}schedule-break-container{{ end }}">
