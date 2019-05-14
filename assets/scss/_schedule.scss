@@ -1,0 +1,49 @@
+.schedule {
+  padding: 30px;
+
+  img {
+    max-width: 6rem;
+  }
+
+  th {
+    font-size: 1.4em;
+  }
+
+  .schedule-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .schedule-time {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  .schedule-break {
+    padding: 20px;
+    border-radius: 5px;
+    color:grey;
+  }
+
+  .schedule-row {
+    border-radius: 5px;
+  }
+
+  .schedule-row:nth-of-type(odd){
+    background-color: #efefef;
+  }
+
+  .schedule-row:nth-of-type(even){
+    background-color: #ffffff;
+  }
+
+  .schedule-row.schedule-break-container:nth-of-type(odd){
+    background-image: linear-gradient(45deg, #eeeeee 25%, #ffffff 25%, #ffffff 50%, #eeeeee 50%, #eeeeee 75%, #ffffff 75%, #ffffff 100%);
+    background-size: 11.31px 11.31px;
+  }
+
+  .schedule-row.schedule-break-container:nth-of-type(even){
+    background-image: linear-gradient(45deg, #fafafa 25%, #ffffff 25%, #ffffff 50%, #fafafa 50%, #fafafa 75%, #ffffff 75%, #ffffff 100%);
+    background-size: 11.31px 11.31px;
+  }
+}

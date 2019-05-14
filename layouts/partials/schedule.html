@@ -1,41 +1,48 @@
-<h2 class="section-title">{{ .titles.schedule }}</h2>
+<h2 class="section-title text-center schedule-title">{{ .titles.schedule }}</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-<div class="schedule-tbl">
-  <table>
-    <thead>
-      <tr>
-        <th class="schedule-time">Time</th>
-        <th class="schedule-slot">Slot</th>
-        <th class="schedule-description">Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      {{ range $slot := .schedule }}
-        {{ if ne .presentation nil }}
-          <tr>
-            <td class="schedule-time">{{ .presentation.time }}</td>
-            <td class="schedule-slot">
-            {{ with .photo }}
-              <span class="speaker-photo">
-                <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
-              </span>
-            {{ end }}
 
-              {{ .presentation.title }}
-              <span class="speakers-company">{{ .company }}</span>
-            </td>
-            <td class="schedule-description">{{ .presentation.description }}</td>
-          </tr>
-        {{ else }}
-          <tr class="schedule-other">
-            <td class="schedule-time">{{ .time }}</td>
-            <td class="schedule-slot">{{ .name }}</td>
-            <td class="schedule-description">-</td>
-          </tr>
-        {{ end }}
-      {{ end }}
-    </tbody>
-  </table>
+<h3>Journée du Jeudi 13 Juin</h3>
+
+<div class="container-fluid">
+    {{ range $slot := .schedule }}
+    <div class="row schedule-row text-center p-4 {{ if not $slot.conferences }}schedule-break-container{{ end }}">
+        <div class="col-lg-1 col-md-2 schedule-time">{{ .time }}</div>
+        <div class="col-lg-11 col-md-10">
+            <div class="row">
+                {{ if $slot.conferences }}
+                    {{ range $conf := $slot.conferences }}
+                        <div class="col-lg-{{div 12 (len $slot.conferences) }}">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row justify-content-end">
+                                        <h5 class="card-title col-lg-9">{{ .name }}</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <div class="row">
+                                            <div class="col-lg-3 text-center">
+                                                <a href="{{ $conf.speaker.href }}" target="_blank">
+                                                    <img class="img-fluid rounded-circle" src="{{ $conf.speaker.photo }}" alt="{{ $conf.speaker.name }}">
+                                                    <p>{{ $conf.speaker.name }}</p>
+                                                    <p class="speakers-company">{{ $conf.speaker.company }}</p>
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <p>{{ .description }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {{ end }}
+                {{ else }}
+                    <div class="col-lg-12 schedule-break">
+                        <h4>{{ .name }}</h4>
+                    </div>
+
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
 </div>
