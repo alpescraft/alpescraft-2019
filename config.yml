@@ -38,11 +38,10 @@ params:
     - about
     - speakers
     - billeterie
-    - location
 #    - schedule
-#    - sponsors
-#    - partners
-#    - contact
+    - sponsors
+    - partners
+    - location
 
   # Titles which you can translate to other languages
   Titles:
@@ -52,7 +51,7 @@ params:
     speakers: "Speakers"
     schedule: "Programme"
     sponsors: "Sponsors"
-    partners: "Partners"
+    partners: "Partenaires"
     contact: "Contact"
     billeterie: "Billetterie"
 
@@ -115,48 +114,60 @@ params:
 
   # List of Sponsors
   Sponsors:
-    - name: "Hugo"
-      logo: "/img/hugo.png"
-      url: "http://gohugo.io"
+    - name: "Bonitasoft"
+      logo: "/img/sponsors/bonitasoft.png"
+      url: "https://fr.bonitasoft.com/"
+    - name: "Comarch"
+      logo: "/img/sponsors/comarch.svg"
+      url: "https://www.comarch.fr/"
+    - name: "Salesforce"
+      logo: "/img/sponsors/salesforce.png"
+      url: "https://www.salesforce.com"
+    - name: "Tuleap"
+      logo: "/img/sponsors/tuleap.png"
+      url: "https://www.tuleap.org/"
+    - name: "Zenika"
+      logo: "/img/sponsors/zenika.png"
+      url: "https://www.zenika.com/"
 
   # List of Partners
   Partners:
-    - name: "Hugo"
-      logo: "/img/hugo.jpg"
-      url: "https://gohugo.io"
-    - name: "BrazilJS"
-      logo: "/img/partner.png"
-      url: "http://braziljs.org"
+    - name: "AlpesJUG"
+      logo: "/img/partners/alpesjug.png"
+      url: "http://www.alpesjug.org/"
+    - name: "CARA"
+      logo: "/img/partners/cara.png"
+      url: "https://www.linkedin.com/company/cara-club-agile-rh-ne-alpes-/?originalSubdomain=fr"
 
   # The entire schedule
   Speakers:
     - name: "Thomas Pierrain"
       description: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
-      img: "img/thomas_pierrain.jpeg"
+      img: "img/speakers/thomas_pierrain.jpeg"
     - name: "Christophe Thibaut"
       description: "Christophe est l'un des inventeurs du coding-dojo. Fort de plus de 20 ans d'expérience en développement et direction de projets, Christophe conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles."
-      img: "img/christophe_thibaut.jpg"
+      img: "img/speakers/christophe_thibaut.jpg"
     - name: "Nastasia Saby"
       description: "Développeur, passionnée de programmation en général, consultante Zenika, je suis fan de Software Craftsmanship et de Big Data. J'ai commencé dans le monde PHP avant d'embrasser celui exaltant de la Big Data."
-      img: "img/nastasia_saby.jpg"
+      img: "img/speakers/nastasia_saby.jpg"
     - name: "Manuel Vacelet"
       description: "Manuel is CTO and co-founder of Enalean. Enalean is editor of Tuleap OpenALM. He his developer with a passion for clean code and software craftmenship. Thanks to unique Tuleap history, he likes dealing with legacy code and how to make hudge legacy code base evolve while introducing brand new features."
-      img: "img/manuel_vacelet.jpg"
+      img: "img/speakers/manuel_vacelet.jpg"
     - name: "Clement Bouillier"
       description: "Clément a démarré son parcours professionnel en tant que développeur en 2004, après une formation d'ingénieur de Télécom Sud Paris (ex-Télécom INT). Il est développeur indépendant depuis 2013 en plus de son activité de formation HackYourJob"
-      img: "img/clement_bouillier.jpg"
+      img: "img/speakers/clement_bouillier.jpg"
     - name: "Remy Sanlaville"
       description: "L'ingénierie logicielle est ma passion et je défends le métier de développeur. TDD/Coding Dojo addict, ATDD, amélioration continue..."
-      img: "img/remy_sanlaville.png"
+      img: "img/speakers/remy_sanlaville.png"
     - name: "Xavier Nopre"
       description: "Développeur depuis plus de 20 ans, je suis passionné par le développement logiciel, l'agilité, le software craftmanship, etc... Pour moi, le développement agile nécessite des outils et des méthodes adaptés, et notamment les tests unitaires et le TDD dont j'essaie de partager mes connaissances et expériences avec les développeurs que je rencontre."
-      img: "img/xavier_nopre.png"
+      img: "img/speakers/xavier_nopre.png"
     - name: "Laurent Tardif"
       description: "Agitateur de l 'agilité .... Je suis tombé dans les problématiques search chez Kelkoo, puis dans l'agilité chez Yahoo. Toujours partant pour essayer des nouvelles méthodes ludiques pour progresser. Aujourd'hui expert Devops et Agilité chez Zenika."
-      img: "img/laurent_tardif.png"
+      img: "img/speakers/laurent_tardif.png"
     - name: "Johan Martinsson"
       description: "est un développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
-      img: "img/johan_martinsson.jpg"
+      img: "img/speakers/johan_martinsson.jpg"
 
 
   Schedule:
