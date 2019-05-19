@@ -193,7 +193,7 @@ params:
                                             Nous discuterons de ce genre de pratique, et les mettrons en oeuvre sur un cas d'étude, pour voir tous les bénéfices d'une telle approche."
           speaker:
             name: "Bastien David"
-            photo: "/img/logo.png"
+            photo: "/img/bastien_david.jpeg"
             href: "http://github.com/bastien_david"
             text: "@bastien_david"
             bio: ""
@@ -324,7 +324,7 @@ params:
           description: ""
           speaker:
             name: "Nathalie Cotte"
-            photo: "/img/logo.png"
+            photo: "/img/nathalie_cotte.jpg"
             href: "http://github.com/NathErgo38"
             text: "@NathErgo38"
             bio: ""
@@ -380,7 +380,7 @@ params:
           description: ""
           speaker:
             name: "Mathieu Cans"
-            photo: "/img/logo.png"
+            photo: "/img/mathieu_cans.jpg"
             href: "http://github.com/mathieucans"
             text: "@mathieucans"
             bio: ""
@@ -421,11 +421,11 @@ params:
         - name: "Surprise"
           description: "vous saurez très prochainement"
           speaker:
-            name: "..."
-            photo: "/img/logo.png"
-#            href: "http://twitter.com/JeromeAvoustin"
-#            text: "@JeromeAvoustin"
-            company: ""
+            name: "Thomas Pierrain"
+            photo: "/img/thomas_pierrain.jpeg"
+            href: "http://twitter.com/tpierrain"
+            text: "@tpierrain"
+            company: "42 skillz"
             bio: ""
 
         - name: "Surprise"
