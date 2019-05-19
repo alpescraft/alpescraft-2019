@@ -256,8 +256,8 @@ params:
           speaker:
             name: "..."
             photo: "/img/logo.png"
-            #            href: "http://twitter.com/JeromeAvoustin"
-            #            text: "@JeromeAvoustin"
+#            href: "http://twitter.com/JeromeAvoustin"
+#            text: "@JeromeAvoustin"
             company: ""
             bio: ""
 
@@ -402,7 +402,7 @@ params:
           description: ""
           speaker:
             name: "Jérôme Avoustin"
-            photo: "/img/logo.png"
+            photo: "/img/jerome_avoustin.jpg"
             href: "http://twitter.com/JeromeAvoustin"
             text: "@JeromeAvoustin"
             company: ""
