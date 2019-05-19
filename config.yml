@@ -181,7 +181,7 @@ params:
           description: "Au-delà de la passion, faire du logiciel pour moi c’est aider les autres à résoudre leurs problèmes. Comment aider les autres si on n’est pas déjà clair soi-même avec sa posture, son métier, ses envies, ses ambitions ou bien ses craintes ? C’est la question que je me suis posé à plusieurs reprises durant ma carrière. Et c’est de cela -et des quelques aides trouvées en route- dont je voudrais vous parler."
           speaker:
             name: "Thomas Pierrain"
-            photo: "/img/thomas_pierrain.jpeg"
+            photo: "/img/speakers/thomas_pierrain.jpeg"
             href: "http://twitter.com/tpierrain"
             text: "@tpierrain"
             company: "42 skillz"
@@ -225,7 +225,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/logo.png"
+            photo: "/img/speakers/stealth_speaker.svg"
             #            href: "http://twitter.com/JeromeAvoustin"
             #            text: "@JeromeAvoustin"
             company: ""
@@ -237,7 +237,7 @@ params:
           description: "Comment faire de la programmation fonctionnel quand on a les pieds liés au code impératif et mutable"
           speaker:
             name: "Patrick Giry"
-            photo: "/img/speakers/logo.png"
+            photo: "/img/speakers/patrick_giry.jpeg"
             href: "http://twitter.com/PatrickGIRY"
             text: "@PatrickGIRY"
             company: "Arolla"
@@ -267,7 +267,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/logo.png"
+            photo: "/img/speakers/stealth_speaker.svg"
 #            href: "http://twitter.com/JeromeAvoustin"
 #            text: "@JeromeAvoustin"
             company: ""
@@ -312,7 +312,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/logo.png"
+            photo: "/img/speakers/stealth_speaker.svg"
             #            href: "http://twitter.com/JeromeAvoustin"
             #            text: "@JeromeAvoustin"
             company: ""
@@ -332,7 +332,7 @@ params:
             bio: ""
             company: "ChangIT"
 
-        - name: "Bonne pratiques d'UX pour les devs"
+        - name: "Bonnes pratiques d'UX pour les devs"
           description: ""
           speaker:
             name: "Nathalie Cotte"
@@ -347,7 +347,7 @@ params:
           s'assurer qu'on développait des fonctionnalités que les utilisateurs utilisent réellement?"
           speaker:
             name: "Pierre Chiron"
-            photo: "/img/speakers/logo.png"
+            photo: "/img/speakers/stealth_speaker.svg"
 #            href: "http://twitter.com/linus"
 #            text: "@linus"
             company: "Orange"
@@ -357,7 +357,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/logo.png"
+            photo: "/img/speakers/stealth_speaker.svg"
             #            href: "http://twitter.com/JeromeAvoustin"
             #            text: "@JeromeAvoustin"
             company: ""
@@ -382,7 +382,7 @@ params:
           description: ""
           speaker:
             name: "Christophe Maldivi"
-            photo: "/img/speakers/logo.png"
+            photo: "/img/speakers/stealth_speaker.svg"
             href: "http://twitter.com/chmaldivi"
             text: "@chmaldivi"
             company: "Orange"
@@ -402,7 +402,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/logo.png"
+            photo: "/img/speakers/stealth_speaker.svg"
             #            href: "http://twitter.com/JeromeAvoustin"
             #            text: "@JeromeAvoustin"
             company: ""
@@ -424,7 +424,7 @@ params:
           description: ""
           speaker:
             name: "Christophe Maldivi"
-            photo: "/img/speakers/logo.png"
+            photo: "/img/speakers/stealth_speaker.svg"
             href: "http://twitter.com/chmaldivi"
             text: "@chmaldivi"
             company: "Orange"
@@ -444,7 +444,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/logo.png"
+            photo: "/img/speakers/stealth_speaker.svg"
             #            href: "http://twitter.com/JeromeAvoustin"
             #            text: "@JeromeAvoustin"
             company: ""
@@ -456,7 +456,7 @@ params:
           description: ""
           speaker:
             name: "l'orga"
-            photo: "/img/speakers/logo.png"
+            photo: "/img/speakers/stealth_speaker.svg"
 #            href: "http://twitter.com/linus"
 #            text: "@linus"
 #            company: "Linux Foundation"
