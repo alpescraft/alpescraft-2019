@@ -1,11 +1,13 @@
 <h2 class="section-title">{{ .titles.partners }}</h2>
 
-<ul class="partners-list">
-{{ range $partner := .partners }}
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="{{ .url }}" class="partner-logo partner-link" itemprop="url" target="_blank">
-      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+<div class="row text-center">
+  {{ range $sponsor := .partners }}
+  <div class="col my-auto">
+    <a href="{{ .url }}" target="_blank" about="{{ .name }}">
+      <div class="card border-0">
+        <img class="card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
+      </div>
     </a>
-  </li>
-{{ end }}
-</ul>
+  </div>
+  {{ end }}
+</div>
