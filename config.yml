@@ -135,9 +135,9 @@ params:
     - name: "AlpesJUG"
       logo: "/img/partners/alpesjug.png"
       url: "http://www.alpesjug.org/"
-    - name: "CARA"
-      logo: "/img/partners/cara.png"
-      url: "https://www.linkedin.com/company/cara-club-agile-rh-ne-alpes-/?originalSubdomain=fr"
+#    - name: "CARA"
+#      logo: "/img/partners/cara.png"
+#      url: "https://www.linkedin.com/company/cara-club-agile-rh-ne-alpes-/?originalSubdomain=fr"
 
   # The entire schedule
   Speakers:
