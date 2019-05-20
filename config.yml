@@ -175,7 +175,7 @@ params:
     - time: "8h00"
       name: "Accueil et petit déjeuner"
 
-    - time: "9h00"
+    - time: "9h15"
       conferences:
         - name: "Equiper sa voie"
           description: "Au-delà de la passion, faire du logiciel pour moi c’est aider les autres à résoudre leurs problèmes. Comment aider les autres si on n’est pas déjà clair soi-même avec sa posture, son métier, ses envies, ses ambitions ou bien ses craintes ? C’est la question que je me suis posé à plusieurs reprises durant ma carrière. Et c’est de cela -et des quelques aides trouvées en route- dont je voudrais vous parler."
@@ -187,7 +187,10 @@ params:
             company: "42 skillz"
             bio: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
 
-    - time: "10h00"
+    - time: "10h15"
+      name: "Pause"
+
+    - time: "10h30"
       conferences:
         - name: "En finir avec la dette!"
           description: ""
@@ -231,7 +234,7 @@ params:
             company: ""
             bio: ""
 
-    - time: "11h00"
+    - time: "11h15"
       conferences:
         - name: "D'impératif au fonctionnel"
           description: "Comment faire de la programmation fonctionnel quand on a les pieds liés au code impératif et mutable"
@@ -364,9 +367,9 @@ params:
             bio: ""
 
     - time: "15h00"
-      name: "Pause café"
+      name: "Pause"
 
-    - time: "16h15"
+    - time: "15h30"
       conferences:
         - name: "Code smells et refactoring par l'exemple"
           description: ""
@@ -408,7 +411,7 @@ params:
             company: ""
             bio: ""
 
-    - time: "17h00"
+    - time: "16h15"
       conferences:
         - name: ""
           description: ""
@@ -450,7 +453,7 @@ params:
             company: ""
             bio: ""
 
-    - time: "17h45"
+    - time: "17h00"
       conferences:
         - name: "Cloture et apéro"
           description: ""
