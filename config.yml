@@ -237,7 +237,7 @@ params:
     - time: "11h15"
       conferences:
         - name: "D'impératif au fonctionnel"
-          description: "Comment faire de la programmation fonctionnel quand on a les pieds liés au code impératif et mutable"
+          description: "Comment faire de la programmation fonctionnelle quand on a les pieds liés au code impératif et mutable"
           speaker:
             name: "Patrick Giry"
             photo: "/img/speakers/patrick_giry.jpeg"
@@ -306,8 +306,8 @@ params:
           speaker:
             name: "Nastasia Saby"
             photo: "/img/speakers/nastasia_saby.jpg"
-            href: "http://twitter.com/Ouelcum"
-            text: "@Ouelcum"
+            href: "https://twitter.com/saby_nastasia"
+            text: "@saby_nastasia"
             company: "Zenika"
             bio: ""
 
@@ -455,12 +455,9 @@ params:
 
     - time: "17h00"
       conferences:
-        - name: "Cloture et apéro"
+        - name: "Clôture et apéro"
           description: ""
           speaker:
             name: "l'orga"
             photo: "/img/speakers/minion-pixabay-free.jpg"
-#            href: "http://twitter.com/linus"
-#            text: "@linus"
-#            company: "Linux Foundation"
             bio: ""
