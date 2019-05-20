@@ -225,7 +225,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/stealth_speaker.svg"
+            photo: "/img/speakers/minion-pixabay-free.jpg"
             #            href: "http://twitter.com/JeromeAvoustin"
             #            text: "@JeromeAvoustin"
             company: ""
@@ -267,7 +267,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/stealth_speaker.svg"
+            photo: "/img/speakers/minion-pixabay-free.jpg"
 #            href: "http://twitter.com/JeromeAvoustin"
 #            text: "@JeromeAvoustin"
             company: ""
@@ -312,7 +312,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/stealth_speaker.svg"
+            photo: "/img/speakers/minion-pixabay-free.jpg"
             #            href: "http://twitter.com/JeromeAvoustin"
             #            text: "@JeromeAvoustin"
             company: ""
@@ -347,7 +347,7 @@ params:
           s'assurer qu'on développait des fonctionnalités que les utilisateurs utilisent réellement?"
           speaker:
             name: "Pierre Chiron"
-            photo: "/img/speakers/stealth_speaker.svg"
+            photo: "/img/speakers/minion-pixabay-free.jpg"
 #            href: "http://twitter.com/linus"
 #            text: "@linus"
             company: "Orange"
@@ -357,7 +357,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/stealth_speaker.svg"
+            photo: "/img/speakers/minion-pixabay-free.jpg"
             #            href: "http://twitter.com/JeromeAvoustin"
             #            text: "@JeromeAvoustin"
             company: ""
@@ -382,7 +382,7 @@ params:
           description: ""
           speaker:
             name: "Christophe Maldivi"
-            photo: "/img/speakers/stealth_speaker.svg"
+            photo: "/img/speakers/minion-pixabay-free.jpg"
             href: "http://twitter.com/chmaldivi"
             text: "@chmaldivi"
             company: "Orange"
@@ -402,7 +402,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/stealth_speaker.svg"
+            photo: "/img/speakers/minion-pixabay-free.jpg"
             #            href: "http://twitter.com/JeromeAvoustin"
             #            text: "@JeromeAvoustin"
             company: ""
@@ -424,7 +424,7 @@ params:
           description: ""
           speaker:
             name: "Christophe Maldivi"
-            photo: "/img/speakers/stealth_speaker.svg"
+            photo: "/img/speakers/minion-pixabay-free.jpg"
             href: "http://twitter.com/chmaldivi"
             text: "@chmaldivi"
             company: "Orange"
@@ -444,7 +444,7 @@ params:
           description: "vous saurez très prochainement"
           speaker:
             name: "..."
-            photo: "/img/speakers/stealth_speaker.svg"
+            photo: "/img/speakers/minion-pixabay-free.jpg"
             #            href: "http://twitter.com/JeromeAvoustin"
             #            text: "@JeromeAvoustin"
             company: ""
@@ -456,7 +456,7 @@ params:
           description: ""
           speaker:
             name: "l'orga"
-            photo: "/img/speakers/stealth_speaker.svg"
+            photo: "/img/speakers/minion-pixabay-free.jpg"
 #            href: "http://twitter.com/linus"
 #            text: "@linus"
 #            company: "Linux Foundation"
