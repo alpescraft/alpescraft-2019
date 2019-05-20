@@ -10,4 +10,11 @@
     max-width: 10rem;
   }
 
+  @media (max-width: 768px) {
+    .sponsors-row {
+      display: grid;
+    }
+  }
+
+
 }
