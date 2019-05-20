@@ -8,12 +8,19 @@
 
   img {
     max-width: 10rem;
+    min-width: 10rem;
   }
 
   @media (max-width: 768px) {
     .sponsors-row {
+      padding: 0em 0em 3em 0em;
       display: grid;
     }
+
+    .sponsor-img {
+      padding: 25px 0px;
+    }
+
   }
 
 

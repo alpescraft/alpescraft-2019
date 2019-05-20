@@ -4,7 +4,7 @@
 
 <div class="row sponsors-row text-center">
   {{ range $sponsor := .sponsors }}
-  <div class="col my-auto">
+  <div class="sponsor-img col my-auto">
     <a href="{{ .url }}" target="_blank" about="{{ .name }}">
       <div class="card border-0">
         <img class="card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
