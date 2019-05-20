@@ -192,14 +192,14 @@ params:
 
     - time: "10h30"
       conferences:
-        - name: "En finir avec la dette!"
-          description: ""
+        - name: "Des principes de design à la rescousse des microservices"
+          description: "Les architectures basées sur les microservices ont le vent en poupe. Tout le monde veut en faire. Les promesses en terme de bénéfice sont très séduisantes. Mais implémenter ce type d'architecture n'est pas sans difficulté, c'est peu de le dire. On risque en effet à un monolithe distribué ..."
           speaker:
-            name: "Christophe Thibaut"
-            photo: "/img/speakers/christophe_thibaut.jpg"
-            href: "http://twitter.com/ToF_"
-            text: "@ToF_"
-            company: "Octo"
+            name: "Jérôme Avoustin"
+            photo: "/img/speakers/jerome_avoustin.jpg"
+            href: "http://twitter.com/JeromeAvoustin"
+            text: "@JeromeAvoustin"
+            company: ""
             bio: ""
 
         - name: "Designé pour être jeté!"
@@ -281,8 +281,8 @@ params:
 
     - time: "13h30"
       conferences:
-        - name: "TDD live-coding"
-          description: ""
+        - name: "Petite introduction au TDD par l'exemple"
+          description: "Pour faire du développement itératif et incrémental, nous devons faire évoluer leur code en permanence. Pour cela, il est indispensable d'avoir des tests unitaires, et la meilleure façon de les écrire, c'est le TDD, qui présente bien d'autres avantages ! Après un peu de théorie, je ferai une démo en live coding pour illustrer cette pratique toujours trop peu utilisée."
           speaker:
             name: "Xavier Nopre"
             photo: "/img/speakers/xavier_nopre.png"
@@ -413,14 +413,14 @@ params:
 
     - time: "16h15"
       conferences:
-        - name: ""
+        - name: "En finir avec la «Dette Technique»"
           description: ""
           speaker:
-            name: "Jérôme Avoustin"
-            photo: "/img/speakers/jerome_avoustin.jpg"
-            href: "http://twitter.com/JeromeAvoustin"
-            text: "@JeromeAvoustin"
-            company: ""
+            name: "Christophe Thibaut"
+            photo: "/img/speakers/christophe_thibaut.jpg"
+            href: "http://twitter.com/ToF_"
+            text: "@ToF_"
+            company: "Octo"
             bio: ""
 
         - name: "Carpaccio d'éléphant suite"
