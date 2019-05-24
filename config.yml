@@ -262,13 +262,15 @@ params:
             company: "Zenika"
             bio: ""
 
-        - name: "Surprise"
-          description: "vous saurez très prochainement"
+        - name: "Démarrer vite, tester, apprendre, partager et recommencer !"
+          description: "Nous allons vivre une approche itérative et apprenante du développement basé sur ammonite et scala.
+          Cette approche est basée sur la création d'exemples très facilement exécutable et partageable via les gists de github ou les snippets de gitlab.
+          La session se fera essentiellement en live coding"
           speaker:
-            name: "..."
-            photo: "/img/speakers/minion-pixabay-free.jpg"
-#            href: "http://twitter.com/JeromeAvoustin"
-#            text: "@JeromeAvoustin"
+            name: "David Crosson"
+            photo: "/img/speakers/david_crosson.jpg"
+            href: "http://twitter.com/crodav"
+            text: "@crodav"
             company: ""
             bio: ""
 
