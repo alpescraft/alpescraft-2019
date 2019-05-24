@@ -36,9 +36,8 @@ params:
   Sections:
     - icons
     - about
-    - speakers
-    - billeterie
     - schedule
+    - billeterie
     - sponsors
     - partners
     - location
