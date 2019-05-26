@@ -6,7 +6,12 @@
     padding: 5em;
   }
 
-  img {
+  .img-golden {
+    max-width: 20rem;
+    min-width: 20rem;
+  }
+
+  .img-tdd {
     max-width: 10rem;
     min-width: 10rem;
   }

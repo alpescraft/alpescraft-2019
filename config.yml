@@ -113,18 +113,23 @@ params:
 
   # List of Sponsors
   Sponsors:
-    - name: "Bonitasoft"
-      logo: "/img/sponsors/bonitasoft.png"
-      url: "https://fr.bonitasoft.com/"
-    - name: "Salesforce"
-      logo: "/img/sponsors/salesforce.png"
-      url: "https://www.salesforce.com"
-    - name: "Tuleap"
-      logo: "/img/sponsors/tuleap.png"
-      url: "https://www.tuleap.org/"
-    - name: "Zenika"
-      logo: "/img/sponsors/zenika.png"
-      url: "https://www.zenika.com/"
+    golden:
+      - name: "Bonitasoft"
+        logo: "/img/sponsors/bonitasoft.png"
+        url: "https://fr.bonitasoft.com/"
+    tdd:
+      - name: "Eloquant"
+        logo: "/img/sponsors/eloquant.jpg"
+        url: "https://www.eloquant.com/"
+      - name: "Salesforce"
+        logo: "/img/sponsors/salesforce.png"
+        url: "https://www.salesforce.com"
+      - name: "Tuleap"
+        logo: "/img/sponsors/tuleap.png"
+        url: "https://www.tuleap.org/"
+      - name: "Zenika"
+        logo: "/img/sponsors/zenika.png"
+        url: "https://www.zenika.com/"
 
   # List of Partners
   Partners:
