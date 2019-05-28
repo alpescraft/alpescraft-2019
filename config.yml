@@ -175,7 +175,7 @@ params:
     - time: "8h00"
       name: "Accueil et petit déjeuner"
 
-    - time: "9h15"
+    - time: "9h00"
       conferences:
         - name: "Equiper sa voie"
           description: "Au-delà de la passion, faire du logiciel pour moi c’est aider les autres à résoudre leurs problèmes. Comment aider les autres si on n’est pas déjà clair soi-même avec sa posture, son métier, ses envies, ses ambitions ou bien ses craintes ? C’est la question que je me suis posé à plusieurs reprises durant ma carrière. Et c’est de cela - et des quelques aides trouvées en route - dont je voudrais vous parler."
@@ -187,20 +187,20 @@ params:
             company: "42 skillz"
             bio: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
 
-    - time: "10h15"
+    - time: "10h00"
       name: "Pause"
 
-    - time: "10h30"
+    - time: "10h15"
       conferences:
-        - name: "Des principes de design à la rescousse des microservices"
-          description: "Les architectures basées sur les microservices ont le vent en poupe. Tout le monde veut en faire. Les promesses en terme de bénéfice sont très séduisantes. Mais implémenter ce type d'architecture n'est pas sans difficulté, c'est peu de le dire. On risque en effet à un monolithe distribué ..."
+        - name: "Petite introduction au TDD par l'exemple"
+          description: "Pour faire du développement itératif et incrémental, nous devons faire évoluer leur code en permanence. Pour cela, il est indispensable d'avoir des tests unitaires, et la meilleure façon de les écrire, c'est le TDD, qui présente bien d'autres avantages ! Après un peu de théorie, je ferai une démo en live coding pour illustrer cette pratique toujours trop peu utilisée."
           speaker:
-            name: "Jérôme Avoustin"
-            photo: "/img/speakers/jerome_avoustin.jpg"
-            href: "http://twitter.com/JeromeAvoustin"
-            text: "@JeromeAvoustin"
-            company: ""
+            name: "Xavier Nopre"
+            photo: "/img/speakers/xavier_nopre.png"
+            href: "http://twitter.com/xnopre"
+            text: "@xnopre"
             bio: ""
+            company: ""
 
         - name: "Designé pour être jeté!"
           description: "Au début de sa carrière, on tire une certaine fierté de la quantité de code écrit. Au fil du temps, on prend de plus en plus de fierté à jeter du code, si bien que certains développeurs se vantent parfois d'avoir supprimé plus de code qu'ils en ont écrit sur une journée."
@@ -234,17 +234,19 @@ params:
             company: ""
             bio: ""
 
-    - time: "11h15"
+    - time: "11h00"
       conferences:
-        - name: "D'impératif au fonctionnel"
-          description: "Comment faire de la programmation fonctionnelle quand on a les pieds liés au code impératif et mutable"
+        - name: "Du legacy au TDD"
+          description: "C'est quoi l'obstacle principal à travailler avec les tests ou en TDD. C'est que le code existant n'a pas été concu pour!
+          Voyons à travers un exemple comment on reprend le code, le prépare au travail en TDD à l'aide des tests :) et du refactoring préparatoire
+          afin que cela devienne un jeu d'enfant d'ajouter la nouvelle fonctionnalité en TDD (ou presque :D)"
           speaker:
-            name: "Patrick Giry"
-            photo: "/img/speakers/patrick_giry.jpeg"
-            href: "http://twitter.com/PatrickGIRY"
-            text: "@PatrickGIRY"
-            company: "Arolla"
+            name: "Johan Martinsson"
+            photo: "/img/speakers/johan_martinsson.jpg"
+            href: "http://twitter.com/johan_alps"
+            text: "@johan_alps"
             bio: ""
+            company: "ChangIT"
 
         - name: "La revue de code de l'intérieur"
           description:
@@ -283,25 +285,26 @@ params:
 
     - time: "13h30"
       conferences:
-        - name: "Petite introduction au TDD par l'exemple"
-          description: "Pour faire du développement itératif et incrémental, nous devons faire évoluer leur code en permanence. Pour cela, il est indispensable d'avoir des tests unitaires, et la meilleure façon de les écrire, c'est le TDD, qui présente bien d'autres avantages ! Après un peu de théorie, je ferai une démo en live coding pour illustrer cette pratique toujours trop peu utilisée."
+        - name: "Des principes de design à la rescousse des microservices"
+          description: "Les architectures basées sur les microservices ont le vent en poupe. Tout le monde veut en faire. Les promesses en terme de bénéfice sont très séduisantes. Mais implémenter ce type d'architecture n'est pas sans difficulté, c'est peu de le dire. On risque en effet à un monolithe distribué ..."
           speaker:
-            name: "Xavier Nopre"
-            photo: "/img/speakers/xavier_nopre.png"
-            href: "http://twitter.com/xnopre"
-            text: "@xnopre"
-            bio: ""
+            name: "Jérôme Avoustin"
+            photo: "/img/speakers/jerome_avoustin.jpg"
+            href: "http://twitter.com/JeromeAvoustin"
+            text: "@JeromeAvoustin"
             company: ""
-
-        - name: "Maîtriser son IDE"
-          description: ""
-          speaker:
-            name: "Rémy Sanlaville"
-            photo: "/img/speakers/remy_sanlaville.png"
-            href: "http://github.com/sanlaville"
-            text: "@sanlaville"
             bio: ""
-            company: "Orange"
+
+        - name: "Apprendre à apprendre"
+          description: "vous saurez très prochainement"
+          speaker:
+            name: "Houssam Faikh"
+            photo: "/img/speakers/houssam_faikh.jpg"
+            href: "http://twitter.com/houssamfaikh"
+            text: "@houssamfaikh"
+            company: ""
+            bio: ""
+
 
         - name: "Ping pong pair programming"
           description: "Il s'agit de l'association de 2 pratiques : le pair programming (programmation en binôme) et le TDD (Test Driven Development). Cette pratique qui reprend le rythme du jeu du ping pong est l'occasion de découvrir, tester, expérimenter, progresser, rendre plus pertinents le pair programming, le TDD et ainsi notre pratique quotdienne du développement."
@@ -332,29 +335,27 @@ params:
             company: "Zenika"
             bio: ""
 
-        - name: "Surprise"
-          description: "vous saurez très prochainement"
+        - name: "Maîtriser son IDE"
+          description: "Tout bon artisan se démarque dans la maîtrise de ses outils. En tant que développeur, l'IDE est votre outil quotidien principal. Bien le maîtriser est un atout indéniable pour à aller plus vite et vous concentrer sur l'essentiel. Cela vous apportera rapidité, fluidité et plaisir de coder. Venez vous entraîner sur votre outil préféré (IntelliJ ou Eclipse) afin d'apprendre des fonctionnalités et des astuces insoupçonnés."
           speaker:
-            name: "..."
-            photo: "/img/speakers/minion-pixabay-free.jpg"
-            #            href: "http://twitter.com/JeromeAvoustin"
-            #            text: "@JeromeAvoustin"
-            company: ""
+            name: "Rémy Sanlaville"
+            photo: "/img/speakers/remy_sanlaville.png"
+            href: "http://github.com/sanlaville"
+            text: "@sanlaville"
             bio: ""
+            company: "Orange"
 
-    - time: "14h15"
+    - time: "14h30"
       conferences:
-        - name: "Du legacy au TDD"
-          description: "C'est quoi l'obstacle principal à travailler avec les tests ou en TDD. C'est que le code existant n'a pas été concu pour!
-          Voyons à travers un exemple comment on reprend le code, le prépare au travail en TDD à l'aide des tests :) et du refactoring préparatoire
-          afin que cela devienne un jeu d'enfant d'ajouter la nouvelle fonctionnalité en TDD (ou presque :D)"
+        - name: "D'impératif au fonctionnel"
+          description: "Comment faire de la programmation fonctionnelle quand on a les pieds liés au code impératif et mutable"
           speaker:
-            name: "Johan Martinsson"
-            photo: "/img/speakers/johan_martinsson.jpg"
-            href: "http://twitter.com/johan_alps"
-            text: "@johan_alps"
+            name: "Patrick Giry"
+            photo: "/img/speakers/patrick_giry.jpeg"
+            href: "http://twitter.com/PatrickGIRY"
+            text: "@PatrickGIRY"
+            company: "Arolla"
             bio: ""
-            company: "ChangIT"
 
         - name: "Bonnes pratiques d'UX pour les devs"
           description: ""
@@ -366,31 +367,30 @@ params:
             bio: ""
             company: "BonitaSoft"
 
-        - name: "Metrics Driven Development"
-          description: "Vous vous êtes un jour douté de la pertinence des features proposés? Et si on collectait un peu de données pour
-          s'assurer qu'on développait des fonctionnalités que les utilisateurs utilisent réellement?"
+        - name: "Ping pong pair programming - suite"
+          description: ""
           speaker:
-            name: "Pierre Chiron"
-            photo: "/img/speakers/minion-pixabay-free.jpg"
-#            href: "http://twitter.com/linus"
-#            text: "@linus"
+            name: "Nastasia Saby"
+            photo: "/img/speakers/nastasia_saby.jpg"
+            href: "https://twitter.com/saby_nastasia"
+            text: "@saby_nastasia"
+            company: "Zenika"
+            bio: ""
+
+        - name: "Maîtriser son IDE - suite"
+          description: ""
+          speaker:
+            name: "Rémy Sanlaville"
+            photo: "/img/speakers/remy_sanlaville.png"
+            href: "http://github.com/sanlaville"
+            text: "@sanlaville"
+            bio: ""
             company: "Orange"
-            bio: ""
 
-        - name: "Surprise"
-          description: "vous saurez très prochainement"
-          speaker:
-            name: "..."
-            photo: "/img/speakers/minion-pixabay-free.jpg"
-            #            href: "http://twitter.com/JeromeAvoustin"
-            #            text: "@JeromeAvoustin"
-            company: ""
-            bio: ""
-
-    - time: "15h00"
+    - time: "15h15"
       name: "Pause"
 
-    - time: "15h30"
+    - time: "15h45"
       conferences:
         - name: "Revue de code de différents styles d'architecture"
           description: "On entend souvent parler d'architecture en couche/n-tiers, d'architecture hexagonale/en onion, de patterns divers et variés (Repository, DAO, Active Record, Domain Model anémique ou pas, ORM...), de DDD, de CQRS et d'EventSourcing...ce talk en fait un tour d'horizon sous la forme d'une revue de code de différentes architectures d'un même exemple."
@@ -402,13 +402,14 @@ params:
             bio: ""
             company: "devcrafting"
 
-        - name: "Carpaccio d'éléphant"
-          description: ""
+        - name: "Metrics Driven Development"
+          description: "Vous vous êtes un jour douté de la pertinence des features proposés? Et si on collectait un peu de données pour
+              s'assurer qu'on développait des fonctionnalités que les utilisateurs utilisent réellement?"
           speaker:
-            name: "Christophe Maldivi"
+            name: "Pierre Chiron"
             photo: "/img/speakers/minion-pixabay-free.jpg"
-            href: "http://twitter.com/chmaldivi"
-            text: "@chmaldivi"
+            #            href: "http://twitter.com/linus"
+            #            text: "@linus"
             company: "Orange"
             bio: ""
 
@@ -422,17 +423,17 @@ params:
             bio: ""
             company: "Orange"
 
-        - name: "Surprise"
-          description: "vous saurez très prochainement"
+        - name: "Carpaccio d'éléphant"
+          description: ""
           speaker:
-            name: "..."
+            name: "Christophe Maldivi"
             photo: "/img/speakers/minion-pixabay-free.jpg"
-            #            href: "http://twitter.com/JeromeAvoustin"
-            #            text: "@JeromeAvoustin"
-            company: ""
+            href: "http://twitter.com/chmaldivi"
+            text: "@chmaldivi"
+            company: "Orange"
             bio: ""
 
-    - time: "16h15"
+    - time: "16h45"
       conferences:
         - name: "En finir avec la «Dette Technique»"
           description: ""
@@ -442,16 +443,6 @@ params:
             href: "http://twitter.com/ToF_"
             text: "@ToF_"
             company: "Octo"
-            bio: ""
-
-        - name: "Carpaccio d'éléphant suite"
-          description: ""
-          speaker:
-            name: "Christophe Maldivi"
-            photo: "/img/speakers/minion-pixabay-free.jpg"
-            href: "http://twitter.com/chmaldivi"
-            text: "@chmaldivi"
-            company: "Orange"
             bio: ""
 
         - name: "Surprise"
@@ -464,17 +455,27 @@ params:
             company: "42 skillz"
             bio: ""
 
-        - name: "Surprise"
-          description: "vous saurez très prochainement"
+        - name: "Open Closed Principle - la suite"
+          description: ""
           speaker:
-            name: "..."
+            name: "Mathieu Cans"
+            photo: "/img/speakers/mathieu_cans.jpg"
+            href: "http://github.com/mathieucans"
+            text: "@mathieucans"
+            bio: ""
+            company: "Orange"
+
+        - name: "Carpaccio d'éléphant suite"
+          description: ""
+          speaker:
+            name: "Christophe Maldivi"
             photo: "/img/speakers/minion-pixabay-free.jpg"
-            #            href: "http://twitter.com/JeromeAvoustin"
-            #            text: "@JeromeAvoustin"
-            company: ""
+            href: "http://twitter.com/chmaldivi"
+            text: "@chmaldivi"
+            company: "Orange"
             bio: ""
 
-    - time: "17h00"
+    - time: "17h45"
       conferences:
         - name: "Clôture et apéro"
           description: ""
