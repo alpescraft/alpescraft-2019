@@ -215,7 +215,7 @@ params:
             company: "Orange"
 
         - name: "Pimper sa chaine de build"
-          description: ""
+          description: "Atelier : "
           speaker:
             name: "Laurent Tardif"
             photo: "/img/speakers/laurent_tardif.png"
@@ -311,7 +311,7 @@ params:
 
         - name: "Ping pong pair programming"
           description: "Il s'agit de l'association de 2 pratiques : le pair programming (programmation en binôme) et le TDD (Test Driven Development). Cette pratique qui reprend le rythme du jeu du ping pong est l'occasion de découvrir, tester, expérimenter, progresser, rendre plus pertinents le pair programming, le TDD et ainsi notre pratique quotdienne du développement."
-          details: "Le process est le suivant :
+          details: "Atelier : Le process est le suivant :
 
                     • A écrit un nouveau test et vérifie que ça échoue
 
@@ -374,7 +374,7 @@ params:
             company: "BonitaSoft"
 
         - name: "Ping pong pair programming - suite"
-          description: ""
+          description: "Atelier : "
           speaker:
             name: "Nastasia Saby"
             photo: "/img/speakers/nastasia_saby.jpg"
@@ -384,7 +384,7 @@ params:
             bio: ""
 
         - name: "Maîtriser son IDE - suite"
-          description: ""
+          description: "Atelier : "
           speaker:
             name: "Rémy Sanlaville"
             photo: "/img/speakers/remy_sanlaville.png"
@@ -420,7 +420,7 @@ params:
             bio: ""
 
         - name: "Open Closed Principle - Le challenge"
-          description: ""
+          description: "Atelier : "
           speaker:
             name: "Mathieu Cans"
             photo: "/img/speakers/mathieu_cans.jpg"
@@ -430,10 +430,10 @@ params:
             company: "Orange"
 
         - name: "Carpaccio d'éléphant"
-          description: ""
+          description: "Atelier : Apprenez à découper les users stories de votre produit en tranches très fines, faites un carpaccio d’éléphant !"
           speaker:
             name: "Christophe Maldivi"
-            photo: "/img/speakers/minion-pixabay-free.jpg"
+            photo: "/img/speakers/christophe_maldivi.jpeg"
             href: "http://twitter.com/chmaldivi"
             text: "@chmaldivi"
             company: "Orange"
@@ -462,7 +462,7 @@ params:
             bio: ""
 
         - name: "Open Closed Principle - la suite"
-          description: ""
+          description: "Atelier : "
           speaker:
             name: "Mathieu Cans"
             photo: "/img/speakers/mathieu_cans.jpg"
@@ -471,16 +471,16 @@ params:
             bio: ""
             company: "Orange"
 
-        - name: "Carpaccio d'éléphant suite"
-          description: ""
+
+        - name: "Carpaccio d'éléphant - suite"
+          description: "Atelier : Apprenez à découper les users stories de votre produit en tranches très fines, faites un carpaccio d’éléphant !"
           speaker:
             name: "Christophe Maldivi"
-            photo: "/img/speakers/minion-pixabay-free.jpg"
+            photo: "/img/speakers/christophe_maldivi.jpeg"
             href: "http://twitter.com/chmaldivi"
             text: "@chmaldivi"
             company: "Orange"
             bio: ""
-
     - time: "17h45"
       conferences:
         - name: "Clôture et apéro"
