@@ -442,7 +442,7 @@ params:
     - time: "16h45"
       conferences:
         - name: "En finir avec la «Dette Technique»"
-          description: ""
+          description: "Au delà de subir la dette technique comment pouvons nous trouver le dialogue qui permettra de commencer à en sortir?"
           speaker:
             name: "Christophe Thibaut"
             photo: "/img/speakers/christophe_thibaut.jpg"
