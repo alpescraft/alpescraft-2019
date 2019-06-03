@@ -295,8 +295,11 @@ params:
             company: ""
             bio: ""
 
-        - name: "Apprendre à apprendre"
-          description: "vous saurez très prochainement"
+        - name: "Apprendre et Transmettre le savoir craft"
+          description: "Ce talk est un retour d'expérience sur la mise en place d'un training craft de 4
+                        semaines. Son objectif principal est de transmettre des méthodes, des techniques, des connaissances et un savoir-faire craft à d'autres développeurs.
+
+                        Nous traiterons de tous les aspects liés au training : la préparation, le format, le contenu, l'animation, le suivi, l'amélioration. "
           speaker:
             name: "Houssam Faikh"
             photo: "/img/speakers/houssam_faikh.jpg"
@@ -357,8 +360,11 @@ params:
             company: "Arolla"
             bio: ""
 
-        - name: "Bonnes pratiques d'UX pour les devs"
-          description: ""
+        - name: "Méthodes UX faciles, ou comment l'artisan s'assure qu'il va contenter ses clients"
+          description: "La UX résout un constat évident : le point de vue du client sur un produit n'est pas le même que celui de l'artisan qui l'a conçu.
+                        Pourtant il faut concilier ces points de vue pour transformer l'artiste en artisan.
+                        Il produit ainsi un très beau produit, qui ravit les clients et lui assure sa pérennité.
+                        Nous parlerons donc de la valeur perçue et nous évoquerons en quoi la collaboration Dev / UX ne peut qu'être fructueuse... à quelques conditions près."
           speaker:
             name: "Nathalie Cotte"
             photo: "/img/speakers/nathalie_cotte.jpg"
