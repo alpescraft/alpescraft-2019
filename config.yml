@@ -420,7 +420,14 @@ params:
             bio: ""
 
         - name: "Open Closed Principle - Le challenge"
-          description: "Atelier : "
+          description: "Atelier : Dans cette session, nous apprendrons ensemble à pratiquer la pierre angulaire des principes  S.O.L.I.D. : le Open / Close principle.
+                                  Nous travaillerons en mob programming ce qui nous contraindra à verbaliser les solution et permettra à chacun d’être actif.
+                                  Nous modifierons légèrement le flux du TDD pour nous contraindre à respecter le principe Open/Close.
+                                  Nous essaierons aussi de supprimer tous les if de notre code. "
+          details: "Les participants apprendront :
+                    à mettre en place des conceptions qui permettent d’ajouter des fonctionnalités en changeant très peu de code.
+                    à se passer de if pour rendre leurs logiciels moins complexes.
+                    Autant de bons réflexes directement applicables dans les projets informatiques le tout guidé par les tests."
           speaker:
             name: "Mathieu Cans"
             photo: "/img/speakers/mathieu_cans.jpg"
