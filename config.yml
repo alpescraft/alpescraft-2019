@@ -205,7 +205,7 @@ params:
         - name: "Designé pour être jeté!"
           description: "Au début de sa carrière, on tire une certaine fierté de la quantité de code écrit. Au fil du temps, on prend de plus en plus de fierté à jeter du code, si bien que certains développeurs se vantent parfois d'avoir supprimé plus de code qu'ils en ont écrit sur une journée."
           details: "Et si l'on se concentrait sur le fait de jeter notre code ? Et si l'on designait pour jeter notre code ? Et si l'on se donnait du temps pour écrire du code jetable, supprimé aussitôt qu'écrit ?
-                                            Nous discuterons de ce genre de pratique, et les mettrons en oeuvre sur un cas d'étude, pour voir tous les bénéfices d'une telle approche."
+                    Nous discuterons de ce genre de pratique, et les mettrons en oeuvre sur un cas d'étude, pour voir tous les bénéfices d'une telle approche."
           speaker:
             name: "Bastien David"
             photo: "/img/speakers/bastien_david.jpeg"
@@ -214,8 +214,10 @@ params:
             bio: ""
             company: "Orange"
 
-        - name: "Pimper sa chaine de build"
-          description: "Atelier : "
+        - name: "Pimper sa chaîne de build"
+          description: "Atelier : Installons une chaîne de build complète sur son portable et voir comment interagissent chaque composant de cette forge. Nous discuterons aussi de quels sont les pièges à éviter."
+          details: "Aujourd'hui avoir une chaîne de build pour son projet open source est relativement simple, mais peut on faire de même au sein d'une entreprise avec les contraintes d'intégration entre les différents systèmes (gestion de backlog, déploiement,...), nécessité de stocker ses binaires/images.
+                    Nous discuterons aussi du KISS et YAGNI appliqué à sa forge."
           speaker:
             name: "Laurent Tardif"
             photo: "/img/speakers/laurent_tardif.png"
