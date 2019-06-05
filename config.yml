@@ -248,8 +248,12 @@ params:
             bio: ""
             company: "ChangIT"
 
-        - name: "La revue de code de l'intérieur"
-          description:
+        - name: "La revue de code, sur le terrain"
+          description: "La revue de code est un art difficile, et contrairement à ce que l'on pourrait croire, ça ne va pas en s'arrangeant avec le temps comme par magie.
+                        Cette présentation est un état des leçons apprises sur les 8 années de revue de code pratiquées sur le projet Tuleap."
+          details: "Comment s'y prendre ? Qu'est ce que je revois ? Qui revoit quel code ? Comment faire une revue constructive ? sont parmis les questions qui sont
+                    abordées dans cette présentation. J'essaye de donner un maximum d'outils qui soient utilisables dès le lendemain (ok, le lendemain, c'est encore la conf, donc disons
+                    dès lundi prochain)."
           speaker:
             name: "Manuel Vacelet"
             photo: "/img/speakers/manuel_vacelet.jpg"
