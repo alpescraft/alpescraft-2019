@@ -169,6 +169,13 @@ params:
     - name: "Johan Martinsson"
       description: "est un développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
       img: "img/speakers/johan_martinsson.jpg"
+    - name: "Romain Bioteau"
+      descriptions: ""
+      img: "img/speakers/romain_bioteau.jpg"
+    - name: "Nathalie Cotté"
+      description: ""
+      img: "img/speakers/nathalie_cotte.jpg"
+      twitter: "rbioteau"
 
 
   Schedule:
