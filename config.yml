@@ -411,7 +411,7 @@ params:
 
     - time: "15h45"
       conferences:
-        - name: "Revue de code de différents styles d'architecture"
+        - name: "Exploration de différents styles d'architecture"
           description: "On entend souvent parler d'architecture en couche/n-tiers, d'architecture hexagonale/en onion, de patterns divers et variés (Repository, DAO, Active Record, Domain Model anémique ou pas, ORM...), de DDD, de CQRS et d'EventSourcing...ce talk en fait un tour d'horizon sous la forme d'une revue de code de différentes architectures d'un même exemple."
           speaker:
             name: "Clément Bouillier"
