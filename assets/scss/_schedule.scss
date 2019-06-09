@@ -33,6 +33,10 @@
     overflow-wrap: normal;
   }
 
+  .session-link {
+    cursor: pointer;
+  }
+
   .schedule-row:nth-of-type(odd){
     background-color: #efefef;
   }

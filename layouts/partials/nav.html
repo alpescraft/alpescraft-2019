@@ -9,9 +9,9 @@
           <ul class="navbar-nav">
             {{ range $section := $.Site.Params.Sections }}
             <li class="nav-item">
-              <a class="nav-link" href="#{{ $section }}">
-                {{ index $.Site.Params.Titles $section }}
-              </a>
+                <a class="nav-link" href="{{ $.Site.BaseURL }}#{{ $section }}">
+                    {{ index $.Site.Params.Titles $section }}
+                </a>
             </li>
             {{ end }}
           </ul>
