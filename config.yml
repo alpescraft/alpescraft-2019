@@ -243,7 +243,7 @@ params:
             company: "Zenika"
             bio: ""
 
-    - time: "11h00"
+    - time: "11h15"
       conferences:
         - name: "Du legacy au TDD"
           description: "C'est quoi l'obstacle principal à travailler avec les tests ou en TDD. C'est que le code existant n'a pas été concu pour!
@@ -293,7 +293,7 @@ params:
             company: ""
             bio: ""
 
-    - time: "12h00"
+    - time: "12h05"
       name: "Déjeuner et réseautage"
 
     - time: "13h30"
