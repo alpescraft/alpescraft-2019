@@ -3,6 +3,11 @@
 
 <h3>Journée du Jeudi 13 Juin</h3>
 
+<div class="schedule-pdf">
+    <a href="/schedule/schedule_2019.pdf" target="_blank">Télécharger le programme en version PDF</a>
+</div>
+
+
 <div class="container-fluid">
     {{ range $sched, $slot := .schedule }}
     <div class="row schedule-row text-center p-4 {{ if not $slot.conferences }}schedule-break-container{{ end }}">
@@ -14,20 +19,27 @@
                             <div class="col-lg-{{div 12 (len $slot.conferences) }}">
                                     <div class="card">
                                         <div class="card-body">
-                                            <div class="row justify-content-end session-link" onclick="javascript:location.href='/session?talk={{ $sched }}-{{ $index }}'">
+                                            <div class="row justify-content-end">
                                                     <h5 class="card-title col-lg-9">{{ .name }}</h5>
                                             </div>
                                             <div class="card-text">
                                                 <div class="row">
                                                     <div class="col-lg-3 text-center schedule-who">
-                                                        <a href="{{ $conf.speaker.href }}" target="_blank">
-                                                            <img class="img-fluid rounded-circle" src="{{ $conf.speaker.photo }}" alt="{{ $conf.speaker.name }}">
-                                                            <p class="text-center">{{ $conf.speaker.name }}</p>
-                                                            <p class="speakers-company">{{ $conf.speaker.company }}</p>
-                                                        </a>
+                                                        {{ range $speaker := $conf.speakers }}
+                                                            {{ if $speaker.href }}
+                                                            <a href="{{ $speaker.href }}" target="_blank">
+                                                            {{ end }}
+                                                                <img class="img-fluid rounded-circle" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
+                                                                <p class="text-center">{{ $speaker.name }}</p>
+                                                                <p class="speakers-company">{{ $speaker.company }}</p>
+                                                            {{ if $speaker.href }}
+                                                            </a>
+                                                            {{ end }}
+                                                        {{ end }}
                                                     </div>
-                                                    <div class="col-lg-9 session-link" onclick="javascript:location.href='/session?talk={{ $sched }}-{{ $index }}'">
-                                                        <p class="text-left">{{ .description }}</p>
+                                                    <div class="col-lg-9">
+                                                        <p class="text-left session-description">{{ .description }}</p>
+                                                        <div><a href="/session?talk={{ $sched }}-{{ $index }}" target="_blank">En savoir plus</a></div>
                                                     </div>
                                                 </div>
                                             </div>
