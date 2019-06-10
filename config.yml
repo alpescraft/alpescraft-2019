@@ -139,6 +139,9 @@ params:
     - name: "CARA"
       logo: "/img/partners/cara.png"
       url: "http://grenoble.clubagilerhonealpes.org"
+    - name: "SoCraTes-FR"
+      logo: "/img/partners/SoCraTes-FR.jpg"
+      url: "https://socrates-fr.github.io/"
 
   # The entire schedule
   Speakers:
