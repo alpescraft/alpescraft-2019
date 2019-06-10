@@ -3,6 +3,11 @@
 
 <h3>Journée du Jeudi 13 Juin</h3>
 
+<div class="schedule-pdf">
+    <a href="/schedule/schedule_2019.pdf" target="_blank">Télécharger le programme en version PDF</a>
+</div>
+
+
 <div class="container-fluid">
     {{ range $sched, $slot := .schedule }}
     <div class="row schedule-row text-center p-4 {{ if not $slot.conferences }}schedule-break-container{{ end }}">
@@ -45,7 +50,4 @@
         </div>
     </div>
     {{ end }}
-</div>
-<div>
-    <a href="http://localhost:1313/program/Programme.pdf">Télécharger le programme en version PDF</a>
 </div>
