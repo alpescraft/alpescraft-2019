@@ -151,15 +151,41 @@ params:
 
 
   SpeakersMap:
-    toto: "tata"
-    titi:
-      tata: "hejda"
-    thomas:
-      description: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
-      img: "img/speakers/thomas_pierrain.jpeg"
-    Christophe:
+    thomaspierrain:
+      name: "Thomas Pierrain"
+      photo: "/img/speakers/thomas_pierrain.jpeg"
+      href: "http://twitter.com/tpierrain"
+      text: "@tpierrain"
+      company: "42 skillz"
+      bio: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
+
+    christophethibaut:
+      name: "Christophe Thibaut"
+      photo: "/img/speakers/christophe_thibaut.jpg"
+      href: "http://twitter.com/ToF_"
+      text: "@ToF_"
+      company: "Octo"
+      bio: "Christophe est l'un des inventeurs du coding-dojo. Fort de plus de 20 ans d'expérience en développement et direction de projets, Christophe conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles."
+
       description: "Christophe est l'un des inventeurs du coding-dojo. Fort de plus de 20 ans d'expérience en développement et direction de projets, Christophe conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles."
       img: "img/speakers/christophe_thibaut.jpg"
+
+    nathaliecotte:
+      name: "Nathalie Cotte"
+      photo: "/img/speakers/nathalie_cotte.jpg"
+      href: "http://twitter.com/NathErgo38"
+      text: "@NathErgo38"
+      bio: ""
+      company: "BonitaSoft"
+
+    romainbioteau:
+      name: "Romain Bioteau"
+      photo: "/img/speakers/romain_bioteau.jpeg"
+      href: "https://twitter.com/rbioteau"
+      text: "@rbioteau"
+      company: "BonitaSoft"
+      bio: ""
+
 
   Speakers:
     - name: "Thomas Pierrain"
@@ -208,6 +234,7 @@ params:
           description: "Au-delà de la passion, faire du logiciel pour moi c’est aider les autres à résoudre leurs problèmes. Comment aider les autres si on n’est pas déjà clair soi-même avec sa posture, son métier, ses envies, ses ambitions ou bien ses craintes ? C’est la question que je me suis posé à plusieurs reprises durant ma carrière. Et c’est de cela - et des quelques aides trouvées en route - dont je voudrais vous parler."
           speakers:
             - speaker:
+              id: "thomaspierrain"
               name: "Thomas Pierrain"
               photo: "/img/speakers/thomas_pierrain.jpeg"
               href: "http://twitter.com/tpierrain"
@@ -413,19 +440,9 @@ params:
                         Nous parlerons donc de la valeur perçue et nous évoquerons en quoi la collaboration Dev / UX ne peut qu'être fructueuse... à quelques conditions près."
           speakers:
             - speaker:
-              name: "Nathalie Cotte"
-              photo: "/img/speakers/nathalie_cotte.jpg"
-              href: "http://twitter.com/NathErgo38"
-              text: "@NathErgo38"
-              bio: ""
-              company: "BonitaSoft"
+              speakerid: "nathaliecotte"
             - speaker:
-              name: "Romain Bioteau"
-              photo: "/img/speakers/romain_bioteau.jpeg"
-              href: "https://twitter.com/rbioteau"
-              text: "@rbioteau"
-              company: "BonitaSoft"
-              bio: ""
+              speakerid: "romainbioteau"
 
         - name: "Ping pong pair programming - suite"
           description: "Atelier : "
@@ -518,12 +535,7 @@ params:
           description: "Au delà de subir la dette technique comment pouvons nous trouver le dialogue qui permettra de commencer à en sortir?"
           speakers:
             - speaker:
-              name: "Christophe Thibaut"
-              photo: "/img/speakers/christophe_thibaut.jpg"
-              href: "http://twitter.com/ToF_"
-              text: "@ToF_"
-              company: "Octo"
-              bio: ""
+              speakerid: "christophethibaut"
 
         - name: "Des callbacks à async/await : une histoire asynchrone"
           description: "Pendant longtemps, JavaScript s'en est tenu au principe de callbacks pour la gestion des appels asynchrones. Dans son histoire récente, JS s'est armé pour simplifier l'écriture d'un code qui s'éxecute de manière asynchrone, en lui donnant un aspect synchrone, grâce à async/await.
