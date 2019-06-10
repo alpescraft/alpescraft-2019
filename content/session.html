@@ -48,21 +48,34 @@
                 <!--<div class="col-lg-{{div 12 (len $slot.conferences) }}">-->
                     <div class="card" id="{{ $sched }}-{{ $index }}" style="display: none">
                         <div class="card-body">
-                            <div class="row justify-content-end">
-                                <h1 class="card-title col-lg-9">{{ .name }}</h1>
+                            <h1 class="card-title text-center">{{ .name }}</h1>
+                            <div class="row p-5 lead">
+                                <p>{{ .description }}</p>
+                                {{ if .details }}
+                                <div>
+                                    <p>{{ .details }}</p>
+                                </div>
+                                {{ end }}
                             </div>
-                            <div class="card-text">
-                                <div class="row">
-                                    <div class="col-lg-3 text-center schedule-who">
-                                        <a href="{{ $conf.speaker.href }}" target="_blank">
-                                            <img class="img-fluid rounded-circle" src="{{ $conf.speaker.photo }}" alt="{{ $conf.speaker.name }}">
-                                            <p class="text-center">{{ $conf.speaker.name }}</p>
-                                            <p class="speakers-company">{{ $conf.speaker.company }}</p>
+                                <div class="row text-center">
+                                    {{ range $speaker := $conf.speakers }}
+                                    <div class="col-lg-{{div 12 (len $conf.speakers) }}">
+                                        {{ if $speaker.href }}
+                                        <a href="{{ $speaker.href }}" target="_blank">
+                                        {{ end }}
+                                            <img class="img-fluid rounded-circle" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
+                                            <p>{{ $speaker.name }}</p>
+                                            <p class="speakers-company">{{ $speaker.company }}</p>
+                                        {{ if $speaker.href }}
                                         </a>
+                                        {{ end }}
+                                        {{ if $speaker.bio }}
+                                        <div>
+                                            <p class="speakers-bio">{{ .bio }}</p>
+                                        </div>
+                                        {{ end }}
                                     </div>
-                                    <div class="col-lg-9">
-                                        <p class="text-left">{{ .description }}</p>
-                                    </div>
+                                    {{ end }}
                                 </div>
                             </div>
                         </div>

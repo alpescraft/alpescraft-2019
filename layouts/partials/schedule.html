@@ -25,11 +25,17 @@
                                             <div class="card-text">
                                                 <div class="row">
                                                     <div class="col-lg-3 text-center schedule-who">
-                                                        <a href="{{ $conf.speaker.href }}" target="_blank">
-                                                            <img class="img-fluid rounded-circle" src="{{ $conf.speaker.photo }}" alt="{{ $conf.speaker.name }}">
-                                                            <p class="text-center">{{ $conf.speaker.name }}</p>
-                                                            <p class="speakers-company">{{ $conf.speaker.company }}</p>
-                                                        </a>
+                                                        {{ range $speaker := $conf.speakers }}
+                                                            {{ if $speaker.href }}
+                                                            <a href="{{ $speaker.href }}" target="_blank">
+                                                            {{ end }}
+                                                                <img class="img-fluid rounded-circle" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
+                                                                <p class="text-center">{{ $speaker.name }}</p>
+                                                                <p class="speakers-company">{{ $speaker.company }}</p>
+                                                            {{ if $speaker.href }}
+                                                            </a>
+                                                            {{ end }}
+                                                        {{ end }}
                                                     </div>
                                                     <div class="col-lg-9">
                                                         <p class="text-left session-description">{{ .description }}</p>
