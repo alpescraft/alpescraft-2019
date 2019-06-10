@@ -37,9 +37,13 @@
   .schedule-who {
     overflow-wrap: normal;
   }
-
-  .session-link {
-    cursor: pointer;
+  
+  .session-description {
+    overflow:hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
   }
 
   .schedule-row:nth-of-type(odd){
