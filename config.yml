@@ -208,6 +208,11 @@ params:
       bio: "Agitateur de l 'agilité .... Je suis tombé dans les problématiques search chez Kelkoo, puis dans l'agilité chez Yahoo. Toujours partant pour essayer des nouvelles méthodes ludiques pour progresser. Aujourd'hui expert Devops et Agilité chez Zenika."
 
     nastasiasaby:
+      name: "Nastasia Saby"
+      photo: "/img/speakers/nastasia_saby.jpg"
+      href: "https://twitter.com/saby_nastasia"
+      text: "@saby_nastasia"
+      company: "Zenika"
       bio: "Développeur, passionnée de programmation en général, consultante Zenika, je suis fan de Software Craftsmanship et de Big Data. J'ai commencé dans le monde PHP avant d'embrasser celui exaltant de la Big Data."
 
     manuelvacelet:
@@ -219,10 +224,20 @@ params:
       company: "Tuleap"
 
     clementbouillier:
+      name: "Clément Bouillier"
+      photo: "/img/speakers/clement_bouillier.jpg"
+      href: "http://twitter.com/clem_bouillier"
+      text: "@clem_bouillier"
       bio: "Je suis développeur depuis 15 ans, passionné des pratiques de développement visant à produire de la valeur pour mes clients et leurs utilisateurs. Je m'intéresse notamment à DDD, CQRS, EventSourcing, au refactoring, à TDD, à la programmation fonctionnelle..."
+      company: "devcrafting"
 
     remysanlaville:
+      name: "Rémy Sanlaville"
+      photo: "/img/speakers/remy_sanlaville.png"
+      href: "http://twitter.com/sanlaville"
+      text: "@sanlaville"
       bio: "L'ingénierie logicielle est ma passion et je défends le métier de développeur. TDD/Coding Dojo addict, ATDD, amélioration continue..."
+      company: "Orange"
 
     johanmartinsson:
       name: "Johan Martinsson"
@@ -257,13 +272,51 @@ params:
       company: ""
       bio: ""
 
-    todo:
-      name: "toto"
+    patrickgiry:
+      name: "Patrick Giry"
+      photo: "/img/speakers/patrick_giry.jpeg"
+      href: "http://twitter.com/PatrickGIRY"
+      text: "@PatrickGIRY"
+      company: "Arolla"
+      bio: ""
 
+    pierrechiron:
+      name: "Pierre Chiron"
+      photo: "/img/speakers/minion-pixabay-free.jpg"
+      #            href: "http://twitter.com/linus"
+      #            text: "@linus"
+      company: "Orange"
+      bio: ""
 
+    christophemaldivi:
+      name: "Christophe Maldivi"
+      photo: "/img/speakers/christophe_maldivi.jpeg"
+      href: "http://twitter.com/chmaldivi"
+      text: "@chmaldivi"
+      company: "Orange"
+      bio: ""
 
-  Speakers:
+    emericfontaine:
+      name: "Emeric Fontaine"
+      photo: "/img/speakers/emeric_fontaine.jpeg"
+      href: "https://www.linkedin.com/in/fontaine-emeric-6b38095/"
+      company: "Orange"
+      bio: ""
 
+    mathieucans:
+      name: "Mathieu Cans"
+      photo: "/img/speakers/mathieu_cans.jpg"
+      href: "http://twitter.com/mathieucans"
+      text: "@mathieucans"
+      bio: ""
+      company: "Orange"
+
+    orga:
+      name: "l'orga"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.png"
+      href: "http://twitter.com/alpescraft"
+      text: "@AlpesCraft"
+      bio: ""
 
   Schedule:
     - time: "8h00"
@@ -394,13 +447,7 @@ params:
           description: "Tout bon artisan se démarque dans la maîtrise de ses outils. En tant que développeur, l'IDE est votre outil quotidien principal. Bien le maîtriser est un atout indéniable pour à aller plus vite et vous concentrer sur l'essentiel. Cela vous apportera rapidité, fluidité et plaisir de coder. Venez vous entraîner sur votre outil préféré (IntelliJ ou Eclipse) afin d'apprendre des fonctionnalités et des astuces insoupçonnés."
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "Rémy Sanlaville"
-              photo: "/img/speakers/remy_sanlaville.png"
-              href: "http://twitter.com/sanlaville"
-              text: "@sanlaville"
-              bio: ""
-              company: "Orange"
+              speakerid: "remysanlaville"
 
     - time: "14h30"
       conferences:
@@ -408,13 +455,7 @@ params:
           description: "Comment faire de la programmation fonctionnelle quand on a les pieds liés au code impératif et mutable"
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "Patrick Giry"
-              photo: "/img/speakers/patrick_giry.jpeg"
-              href: "http://twitter.com/PatrickGIRY"
-              text: "@PatrickGIRY"
-              company: "Arolla"
-              bio: ""
+              speakerid: "patrickgiry"
 
         - name: "Méthodes UX faciles, ou comment l'artisan s'assure qu'il va contenter ses clients"
           description: "La UX résout un constat évident : le point de vue du client sur un produit n'est pas le même que celui de l'artisan qui l'a conçu.
@@ -431,25 +472,13 @@ params:
           description: "Atelier : "
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "Nastasia Saby"
-              photo: "/img/speakers/nastasia_saby.jpg"
-              href: "https://twitter.com/saby_nastasia"
-              text: "@saby_nastasia"
-              company: "Zenika"
-              bio: ""
+              speakerid: "nastasiasaby"
 
         - name: "Maîtriser son IDE - suite"
           description: "Atelier : "
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "Rémy Sanlaville"
-              photo: "/img/speakers/remy_sanlaville.png"
-              href: "http://twitter.com/sanlaville"
-              text: "@sanlaville"
-              bio: ""
-              company: "Orange"
+              speakerid: "remysanlaville"
 
     - time: "15h15"
       name: "Pause"
@@ -460,45 +489,22 @@ params:
           description: "On entend souvent parler d'architecture en couche/n-tiers, d'architecture hexagonale/en onion, de patterns divers et variés (Repository, DAO, Active Record, Domain Model anémique ou pas, ORM...), de DDD, de CQRS et d'EventSourcing...ce talk en fait un tour d'horizon sous la forme d'une revue de code de différentes architectures d'un même exemple."
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "Clément Bouillier"
-              photo: "/img/speakers/clement_bouillier.jpg"
-              href: "http://twitter.com/clem_bouillier"
-              text: "@clem_bouillier"
-              bio: ""
-              company: "devcrafting"
+              speakerid: "clementbouillier"
 
         - name: "Metrics Driven Development"
           description: "Vous vous êtes un jour douté de la pertinence des features proposés? Et si on collectait un peu de données pour
               s'assurer qu'on développait des fonctionnalités que les utilisateurs utilisent réellement?"
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "Pierre Chiron"
-              photo: "/img/speakers/minion-pixabay-free.jpg"
-              #            href: "http://twitter.com/linus"
-              #            text: "@linus"
-              company: "Orange"
-              bio: ""
+              speakerid: "pierrechiron"
 
         - name: "Carpaccio d'éléphant"
           description: "Atelier : Apprenez à découper les users stories de votre produit en tranches très fines, faites un carpaccio d’éléphant !"
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "Christophe Maldivi"
-              photo: "/img/speakers/christophe_maldivi.jpeg"
-              href: "http://twitter.com/chmaldivi"
-              text: "@chmaldivi"
-              company: "Orange"
-              bio: ""
+              speakerid: "christophemaldivi"
             - speaker:
-              speakerid: "todo"
-              name: "Emeric Fontaine"
-              photo: "/img/speakers/emeric_fontaine.jpeg"
-              href: "https://www.linkedin.com/in/fontaine-emeric-6b38095/"
-              company: "Orange"
-              bio: ""
+              speakerid: "emericfontaine"
 
         - name: "Open Closed Principle - Le challenge"
           description: "Atelier : Dans cette session, nous apprendrons ensemble à pratiquer la pierre angulaire des principes  S.O.L.I.D. : le Open / Close principle.
@@ -511,13 +517,7 @@ params:
                     Autant de bons réflexes directement applicables dans les projets informatiques le tout guidé par les tests."
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "Mathieu Cans"
-              photo: "/img/speakers/mathieu_cans.jpg"
-              href: "http://twitter.com/mathieucans"
-              text: "@mathieucans"
-              bio: ""
-              company: "Orange"
+              speakerid: "mathieucans"
 
     - time: "16h45"
       conferences:
@@ -535,44 +535,21 @@ params:
                         Nous verrons cela lors d'une session de live coding pour revenir ou présenter quelques concepts clés de JS, comme les promesses, ou la plus belle évolution de JS depuis sa création : les générateurs."
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "Jérôme Avoustin"
-              photo: "/img/speakers/jerome_avoustin.jpg"
-              href: "http://twitter.com/JeromeAvoustin"
-              text: "@JeromeAvoustin"
-              company: ""
-              bio: ""
+              speakerid: "jeromeavoustin"
 
         - name: "Carpaccio d'éléphant - suite"
           description: "Atelier : Apprenez à découper les users stories de votre produit en tranches très fines, faites un carpaccio d’éléphant !"
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "Christophe Maldivi"
-              photo: "/img/speakers/christophe_maldivi.jpeg"
-              href: "http://twitter.com/chmaldivi"
-              text: "@chmaldivi"
-              company: "Orange"
-              bio: ""
+              speakerid: "christophemaldivi"
             - speaker:
-              speakerid: "todo"
-              name: "Emeric Fontaine"
-              photo: "/img/speakers/emeric_fontaine.jpeg"
-              href: "https://www.linkedin.com/in/fontaine-emeric-6b38095/"
-              company: "Orange"
-              bio: ""
+              speakerid: "emericfontaine"
 
         - name: "Open Closed Principle - la suite"
           description: "Atelier : "
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "Mathieu Cans"
-              photo: "/img/speakers/mathieu_cans.jpg"
-              href: "http://twitter.com/mathieucans"
-              text: "@mathieucans"
-              bio: ""
-              company: "Orange"
+              speakerid: "mathieucans"
 
     - time: "17h45"
       conferences:
@@ -580,7 +557,4 @@ params:
           description: ""
           speakers:
             - speaker:
-              speakerid: "todo"
-              name: "l'orga"
-              photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.png"
-              bio: ""
+              speakerid: "orga"
