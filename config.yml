@@ -143,13 +143,6 @@ params:
       logo: "/img/partners/SoCraTes-FR.jpg"
       url: "https://socrates-fr.github.io/"
 
-  # The entire schedule
-  toto:
-    tata : "hej"
-    titi :
-      tata : "hejda"
-
-
   SpeakersMap:
     thomaspierrain:
       name: "Thomas Pierrain"
