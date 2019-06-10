@@ -7,7 +7,7 @@
     <a href="/schedule/schedule_2019.pdf" target="_blank">Télécharger le programme en version PDF</a>
 </div>
 
-
+{{ $speakersmap := .speakersmap }}
 <div class="container-fluid">
     {{ range $sched, $slot := .schedule }}
     <div class="row schedule-row text-center p-4 {{ if not $slot.conferences }}schedule-break-container{{ end }}">
@@ -25,7 +25,9 @@
                                             <div class="card-text">
                                                 <div class="row">
                                                     <div class="col-lg-3 text-center schedule-who">
-                                                        {{ range $speaker := $conf.speakers }}
+                                                        {{ range $spk := $conf.speakers }}
+                                                        {{ $speaker := index $speakersmap (string $spk.speakerid) }}
+
                                                             {{ if $speaker.href }}
                                                             <a href="{{ $speaker.href }}" target="_blank">
                                                             {{ end }}

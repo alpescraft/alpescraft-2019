@@ -58,8 +58,9 @@
                                 {{ end }}
                             </div>
                                 <div class="row text-center">
-                                    {{ range $speaker := $conf.speakers }}
+                                    {{ range $spk := $conf.speakers }}
                                     <div class="col-lg-{{div 12 (len $conf.speakers) }}">
+                                        {{ $speaker := index $.Site.Params.speakersmap (string $spk.speakerid) }}
                                         {{ if $speaker.href }}
                                         <a href="{{ $speaker.href }}" target="_blank">
                                         {{ end }}
@@ -71,7 +72,7 @@
                                         {{ end }}
                                         {{ if $speaker.bio }}
                                         <div>
-                                            <p class="speakers-bio">{{ .bio }}</p>
+                                            <p class="speakers-bio">{{ $speaker.bio }}</p>
                                         </div>
                                         {{ end }}
                                     </div>
