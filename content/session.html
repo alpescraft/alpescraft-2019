@@ -63,6 +63,9 @@
                                     <div class="col-lg-9">
                                         <p class="text-left">{{ .description }}</p>
                                         <p class="text-left">{{ .details }}</p>
+                                        <p class="text-left">{{ index $.Site.Params.SpeakersMap "thomas" "description" }}</p>
+                                        <p class="text-left">{{ index $.Site.Params.SpeakersMap "titi"  "tata" }}</p>
+                                        <p class="text-left">test {{ index $.Site.Params.toto "titi" "tata" }}</p>
                                     </div>
                                 </div>
                             </div>

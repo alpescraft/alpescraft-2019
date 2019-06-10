@@ -141,6 +141,23 @@ params:
       url: "http://grenoble.clubagilerhonealpes.org"
 
   # The entire schedule
+  toto:
+    tata : "hej"
+    titi :
+      tata : "hejda"
+
+
+  SpeakersMap:
+    toto: "tata"
+    titi:
+      tata: "hejda"
+    thomas:
+      description: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
+      img: "img/speakers/thomas_pierrain.jpeg"
+    Christophe:
+      description: "Christophe est l'un des inventeurs du coding-dojo. Fort de plus de 20 ans d'expérience en développement et direction de projets, Christophe conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles."
+      img: "img/speakers/christophe_thibaut.jpg"
+
   Speakers:
     - name: "Thomas Pierrain"
       description: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
