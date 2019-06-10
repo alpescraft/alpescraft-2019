@@ -500,6 +500,9 @@ params:
       conferences:
         - name: "En finir avec la «Dette Technique»"
           description: "Au delà de subir la dette technique comment pouvons nous trouver le dialogue qui permettra de commencer à en sortir?"
+          details: "Ward Cunningham a nommé \"Technical Debt\" le procédé qui consiste, pour une équipe, à déroger temporairement à ses standards de qualité en vue de gagner du temps dans la réalisation d'un objectif intermédiaire. Au cours de la dernière décennie, l'expression est devenue très populaire, tout en perdant son sens initial.  Elle est désormais utilisée pour désigner l'état d'une solution jugée non conforme à l'état de l'art généralement admis dans notre industrie, et pour souligner le fait que c'est cette non-qualité qui ralentit la progression de l'équipe aux prise avec cette solution. La plupart des équipes de développement ne contractent pas délibérément de dette technique. La plupart des équipes subissent de la dette technique.
+
+                     Si pour résoudre un problème il faut d'abord le définir aussi clairement que possible alors nous devons reconnaître que le terme \"Dette Technique\" ne contribue en rien à clarifier l'état de ce qu'il est censé décrire. Nous devons donc trouver un modèle alternatif qui nous donne une meilleure façon de parler de cet état des choses que nous appelons une solution \"endettée\" si nous voulons contribuer à l'améliorer.  C'est ce que je me propose de faire durant cette présentation."
           speakers:
             - speaker:
               name: "Christophe Thibaut"
