@@ -257,11 +257,11 @@ params:
       company: ""
       bio: ""
 
-    houssamfaikh:
-      name: "Houssam Faikh"
+    houssamfakih:
+      name: "Houssam Fakih"
       photo: "/img/speakers/houssam_faikh.jpg"
-      href: "http://twitter.com/houssamfaikh"
-      text: "@houssamfaikh"
+      href: "http://twitter.com/houssamfakih"
+      text: "@houssamfakih"
       company: ""
       bio: ""
 
@@ -408,7 +408,7 @@ params:
                         Nous traiterons de tous les aspects liés au training : la préparation, le format, le contenu, l'animation, le suivi, l'amélioration. "
           speakers:
             - speaker:
-              speakerid: "houssamfaikh"
+              speakerid: "houssamfakih"
 
 
         - name: "Ping pong pair programming"
