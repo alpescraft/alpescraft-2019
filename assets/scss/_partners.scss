@@ -10,4 +10,16 @@
     max-width: 10rem;
   }
 
+  @media (max-width: 768px) {
+    .partners-row {
+      padding: 0em 0em 3em 0em;
+      display: grid;
+    }
+
+    .partner-img {
+      padding: 25px 0px;
+    }
+
+  }
+
 }

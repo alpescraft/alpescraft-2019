@@ -142,6 +142,9 @@ params:
     - name: "SoCraTes-FR"
       logo: "/img/partners/SoCraTes-FR.jpg"
       url: "https://socrates-fr.github.io/"
+    - name: "Une petite mousse"
+      logo: "/img/partners/unepetitemousse.png"
+      url: "https://unepetitemousse.fr/"
 
   SpeakersMap:
     thomaspierrain:

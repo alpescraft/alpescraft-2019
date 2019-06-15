@@ -1,8 +1,8 @@
 <h2 class="section-title">{{ .titles.partners }}</h2>
 
-<div class="row text-center">
+<div class="row partners-row text-center">
   {{ range $sponsor := .partners }}
-  <div class="col my-auto">
+  <div class="col my-auto partner-img">
     <a href="{{ .url }}" target="_blank" about="{{ .name }}">
       <div class="card border-0">
         <img class="card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
