@@ -40,10 +40,10 @@
 <body>
 
   <!-- Navigation -->
-  {{ partial "nav.html" . }}
+  {{ partial "index/nav.html" . }}
 
   <!-- Masthead -->
-  {{ partial "header.html" .Site.Params }}
+  {{ partial "index/header.html" .Site.Params }}
 
   {{ range $section := .Site.Params.Sections }}
     <section class="{{ $section }}" id="{{ $section }}">

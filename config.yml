@@ -16,6 +16,7 @@ params:
   Year: "2019"
   Description: "Découvrir, apprendre et se perfectionner"
   Date: "13 et 14 Juin 2019"
+  NextDate: "Juin 2020"
   Venue: "Maison Minatec"
   Address: "3 Parvis Louis Néel"
   City:  "Grenoble"
@@ -36,23 +37,24 @@ params:
   Sections:
     - icons
     - about
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  SectionsPrevious:
     - schedule
-    - billeterie
     - sponsors
     - partners
-    - location
 
   # Titles which you can translate to other languages
   Titles:
+    previousEdition: "Edition 2019 précédente"
     icons: "La conférence"
     about: "À propos"
-    location: "Nous rejoindre"
     speakers: "Speakers"
     schedule: "Programme"
     sponsors: "Sponsors"
     partners: "Partenaires"
     contact: "Contact"
-    billeterie: "Billetterie"
 
   # Icones
   Icones:
