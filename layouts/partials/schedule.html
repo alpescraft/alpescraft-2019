@@ -1,7 +1,8 @@
-<h2 class="section-title text-center schedule-title">{{ .titles.schedule }}</h2>
+{{ range $key, $value := .titles.schedule }}
+<h2 class="section-title title">{{ $value.title }}</h2>
+{{ end }}
 
-
-<h3>Journée du Jeudi 13 Juin</h3>
+<!--<h3 class="title"></h3>-->
 
 <div class="schedule-pdf">
     <p>Téléchargez le programme en PDF</p>
@@ -61,28 +62,4 @@
         </div>
     </div>
     {{ end }}
-</div>
-
-<div>
-    <h3>Journée du Vendredi 14 Juin</h3>
-    <h4>Socrates Day</h4>
-    <div class="row">
-        <div class="col-lg-4 text-left">
-            Cette journée est une non-conférence. Cela signifie que le programme de la journée sera défini sur place,
-            par les participantes et participants. En début de journée, chaque volontaire propose une ou plusieurs
-            sessions qu'il ou elle aimerait animer (présentation, coding dojo, atelier, échanges sur un sujet donné, ...),
-            ou à laquelle il ou elle souhaiterait participer. Le planning de la journée est établi à partir de ces propositions.
-        </div>
-        <div class="col-lg-4 ">
-            <img class="schedule-socrates-img" src="/img/marketplace.jpg"/>
-
-        </div>
-
-        <div class="col-lg-4 ">
-            <img class="schedule-socrates-img" src="/img/first-day.png"/>
-
-        </div>
-
-    </div>
-
 </div>

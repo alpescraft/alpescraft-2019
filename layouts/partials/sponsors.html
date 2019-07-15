@@ -1,8 +1,9 @@
-<h2 class="section-title">{{ .titles.sponsors }}</h2>
-
 <p class="lead text-center font-weight-bold">Un grand merci à nos sponsors sans qui cette première aventure 2019 n'aurait pas pu voir le jour</p>
+
 <br/>
-<p class="lead">En particulier à notre sponsor Golden Master</p>
+
+<p class="title-golden text-center">Golden Master</p>
+
 <div class="row sponsors-row text-center">
   {{ range $sponsor := .sponsors.golden }}
   <div class="sponsor-img col my-auto">
@@ -15,7 +16,7 @@
   {{ end }}
 </div>
 
-<p class="lead">Et également à nos sponsors TDD</p>
+<p class="title-tdd text-center">TDD</p>
 <div class="row sponsors-row text-center">
   {{ range $sponsor := .sponsors.tdd }}
   <div class="sponsor-img col my-auto">
@@ -31,7 +32,7 @@
 <div class="row my-auto">
   <div class="col text-center">
     <a href="mailto:{{ .email }}">
-      <button type="button" class="btn btn-lg btn-info">Devenir Sponsor</button>
+      <button type="button" class="sponsoring-btn btn btn-lg btn-info">Devenir Sponsor</button>
     </a>
   </div>
 </div>

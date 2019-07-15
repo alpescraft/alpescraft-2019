@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#">
-        <img src="/img/logo/color/04-AlpesCraft_Couleurs-S.png" alt="AlpesCraft logo">
+        <img style="height: 70px; margin-top: -5px" src="/img/logo/color/04-AlpesCraft_Couleurs-S.png" alt="AlpesCraft logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -9,15 +9,21 @@
           <ul class="navbar-nav">
             {{ range $section := $.Site.Params.Sections }}
             <li class="nav-item">
-                <a class="nav-link" href="{{ $.Site.BaseURL }}#{{ $section }}">
-                    {{ index $.Site.Params.Titles $section }}
-                </a>
+                    {{ range $key, $value := (index $.Site.Params.Titles $section) }}
+                    <a class="text-center nav-link" href="{{ $.Site.BaseURL }}#{{ $section }}" about="{{ $value.title }}">
+                        <i class="{{ $value.icon }} nav-icon"></i>
+                        <p>{{ $value.title }}</p>
+                    </a>
+                    {{ end }}
             </li>
             {{ end }}
             {{ range $previous := $.Site.Params.Previous }}
             <li>
-                <a class="nav-link" href="{{ $.Site.BaseURL }}/{{ index $.Site.Params.LinksPrevious $previous }}">
-                    {{ index $.Site.Params.TitlesPrevious $previous }}
+                <a class="text-center nav-link" href="{{ $.Site.BaseURL }}/{{ index $.Site.Params.LinksPrevious $previous }}">
+                    {{ range $key, $value := (index $.Site.Params.TitlesPrevious $previous) }}
+                    <i class="{{ $value.icon }} nav-icon"></i>
+                    <p>{{ $value.title }}</p>
+                    {{ end }}
                 </a>
             </li>
             {{ end }}

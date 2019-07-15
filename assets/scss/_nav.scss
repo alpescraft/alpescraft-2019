@@ -1,0 +1,26 @@
+.navbar {
+
+  .nav-item {
+    padding-right: 30px;
+  }
+
+  .nav-icon {
+    font-size: 1.5rem;
+  }
+}
+
+.top-button {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  font-size: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    font-size: 5rem;
+  }
+}

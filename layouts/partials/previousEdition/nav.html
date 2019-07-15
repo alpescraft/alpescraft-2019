@@ -8,15 +8,21 @@
     <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav">
             <li>
-                <a class="nav-link" href="{{ $.Site.BaseURL }}">
-                      {{ .Site.Params.Titles.icons }}
+                {{ range $key, $value := $.Site.Params.Titles.icons }}
+                <a class="text-center nav-link" href="{{ $.Site.BaseURL }}" about="{{ $value.title }}">
+                    <i class="{{ $value.icon }} nav-icon"></i>
+                    <p>{{ $value.title }}</p>
                 </a>
+                {{ end }}
             </li>
             {{ range $section := $.Site.Params.SectionsPrevious }}
             <li class="nav-item">
-                <a class="nav-link" href="{{ $.Site.BaseURL }}/{{ $.Site.Params.LinksPrevious.edition2019 }}/#{{ $section }}">
-                    {{ index $.Site.Params.Titles $section }}
+                {{ range $key, $value := (index $.Site.Params.Titles $section) }}
+                <a class="text-center nav-link" href="{{ $.Site.BaseURL }}/{{ $.Site.Params.LinksPrevious.edition2019 }}/#{{ $section }}" about="{{ $value.title }}">
+                    <i class="{{ $value.icon }} nav-icon"></i>
+                    <p>{{ $value.title }}</p>
                 </a>
+                {{ end }}
             </li>
             {{ end }}
           </ul>
