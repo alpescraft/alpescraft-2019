@@ -14,7 +14,7 @@
             </li>
             {{ range $section := $.Site.Params.SectionsPrevious }}
             <li class="nav-item">
-                <a class="nav-link" href="{{ $.Site.BaseURL }}/previous_edition/#{{ $section }}">
+                <a class="nav-link" href="{{ $.Site.BaseURL }}/{{ $.Site.Params.LinksPrevious.edition2019 }}/#{{ $section }}">
                     {{ index $.Site.Params.Titles $section }}
                 </a>
             </li>

@@ -37,6 +37,7 @@ params:
   Sections:
     - icons
     - about
+    - location
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
@@ -47,14 +48,24 @@ params:
 
   # Titles which you can translate to other languages
   Titles:
-    previousEdition: "Edition 2019 précédente"
+    edition2019: "Edition 2019"
     icons: "La conférence"
     about: "À propos"
+    location: "Nous rejoindre"
     speakers: "Speakers"
     schedule: "Programme"
     sponsors: "Sponsors"
     partners: "Partenaires"
     contact: "Contact"
+
+  Previous:
+    - edition2019
+
+  TitlesPrevious:
+    edition2019: "Edition 2019"
+
+  LinksPrevious:
+    edition2019: "edition_2019"
 
   # Icones
   Icones:
