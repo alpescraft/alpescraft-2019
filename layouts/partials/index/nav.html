@@ -14,6 +14,13 @@
                 </a>
             </li>
             {{ end }}
+            {{ range $previous := $.Site.Params.Previous }}
+            <li>
+                <a class="nav-link" href="{{ $.Site.BaseURL }}/{{ index $.Site.Params.LinksPrevious $previous }}">
+                    {{ index $.Site.Params.TitlesPrevious $previous }}
+                </a>
+            </li>
+            {{ end }}
           </ul>
     </div>
 </nav>

@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+        <img src="/img/logo/color/04-AlpesCraft_Couleurs-S.png" alt="AlpesCraft logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav">
+            <li>
+                <a class="nav-link" href="{{ $.Site.BaseURL }}">
+                      {{ .Site.Params.Titles.icons }}
+                </a>
+            </li>
+            {{ range $section := $.Site.Params.SectionsPrevious }}
+            <li class="nav-item">
+                <a class="nav-link" href="{{ $.Site.BaseURL }}/{{ $.Site.Params.LinksPrevious.edition2019 }}/#{{ $section }}">
+                    {{ index $.Site.Params.Titles $section }}
+                </a>
+            </li>
+            {{ end }}
+          </ul>
+    </div>
+</nav>

@@ -1,49 +1,15 @@
 <!doctype html>
 <html itemscope itemtype="http://schema.org/Event">
-<head>
-  <title itemprop="name">{{ .Site.Params.Name }}</title>
 
-  <meta charset="utf-8">
-  <meta name="author" content="{{ .Site.Params.Name }}" />
-  <meta name="description" content="{{ .Site.Params.Description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+{{ partial "head.html" . }}
 
-  {{ hugo.Generator }}
-  {{ template "_internal/opengraph.html" . }}
-<!--  {{ template "_internal/twitter_cards.html" . }}-->
-  <meta name="twitter:image" content="https://www.alpescraft.fr/img/logo/color/03-AlpesCraft_Couleurs-M.png" />
-  <meta property="og:image" content="https://www.alpescraft.fr/img/logo/color/03-AlpesCraft_Couleurs-M.png" />
-
-  <link rel="shortcut icon" href="/img/logo/color/04-AlpesCraft_Couleurs-S.png" type="image/x-icon">
-  <link rel="apple-touch-icon" href="/img/logo/color/04-AlpesCraft_Couleurs-S.png">
-
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
-
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <!-- Custom fonts for this template -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-  {{ $styles := resources.Get "scss/landing-page.scss" | toCSS | minify }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-
-  {{ template "_internal/google_analytics_async.html" . }}
-</head>
 <body>
 
   <!-- Navigation -->
-  {{ partial "nav.html" . }}
+  {{ partial "index/nav.html" . }}
 
   <!-- Masthead -->
-  {{ partial "header.html" .Site.Params }}
+  {{ partial "index/header.html" .Site.Params }}
 
   {{ range $section := .Site.Params.Sections }}
     <section class="{{ $section }}" id="{{ $section }}">
