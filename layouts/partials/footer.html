@@ -53,14 +53,20 @@
 
     $('#' + talk).show();
 
-    window.onscroll = function() {scrollFunction()};
+    window.addEventListener('scroll', scrollFunction);
 
     function scrollFunction() {
-        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-            document.getElementById("top-button").style.display = "block";
-        } else {
-            document.getElementById("top-button").style.display = "none";
-        }
+        setTimeout(function() {
+            const distanceY = window.pageYOffset || $(document).scrollTop();
+
+            if (distanceY > 50) {
+                document.getElementById("top-button").style.display = "block";
+                $('nav').addClass('shrink');
+            } else {
+                document.getElementById("top-button").style.display = "none";
+                $('nav').removeClass('shrink');
+            }
+        }, 1000);
     }
 
     // When the user clicks on the button, scroll to the top of the document
@@ -68,12 +74,4 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
-
-    $(window).scroll(function() {
-        if ($(document).scrollTop() > 50) {
-            $('nav').addClass('shrink');
-        } else {
-            $('nav').removeClass('shrink');
-        }
-    });
 </script>
