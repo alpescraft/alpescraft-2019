@@ -37,32 +37,53 @@ params:
   Sections:
     - icons
     - about
+    - sponsors
+    - partners
     - location
+
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   SectionsPrevious:
     - schedule
-    - sponsors
-    - partners
 
   # Titles which you can translate to other languages
   Titles:
-    edition2019: "Edition 2019"
-    icons: "La conférence"
-    about: "À propos"
-    location: "Nous rejoindre"
-    speakers: "Speakers"
-    schedule: "Programme"
-    sponsors: "Sponsors"
-    partners: "Partenaires"
-    contact: "Contact"
+     icons:
+       - title: "La conférence"
+         icon: "icon-home"
+     about:
+       - title: "À propos"
+         icon: "icon-info"
+     location:
+       - title: "Nous rejoindre"
+         icon: "icon-location-pin"
+     speakers:
+       - title: "Speakers"
+         icon: "icon-speech"
+     schedule:
+       - title: "Programme"
+         icon: "icon-book-open"
+     sponsors:
+       - title: "Sponsors"
+         icon: "icon-star"
+     partners:
+       - title: "Partenaires"
+         icon: "icon-heart"
+     billeterie:
+       - title: "Billetterie"
+         icon: "icon-basket"
+     edition2019:
+       - title: "Édition 2019"
+         icon: "icon-control-rewind"
 
   Previous:
     - edition2019
 
   TitlesPrevious:
-    edition2019: "Edition 2019"
+    edition2019:
+       - title: "Édition 2019"
+         icon: "icon-control-rewind"
 
   LinksPrevious:
     edition2019: "edition_2019"
@@ -90,22 +111,22 @@ params:
 
   # About
   About:
-    - title: "Découvrir, apprendre et se perfectionner"
-      img: "img/bg-showcase-2.jpg"
+    - title: "Découvrir"
+      img: "img/2019_keynote.jpg"
+      style: "background-position-y: -5rem"
       imgInRightSide: true
       text:
-        - paragraph: "Une nouvelle aventure commence sur Grenoble, venez nous rejoindre les 13 et 14 juin 2019 !"
         - paragraph: "Réaliser un produit logiciel qui correspond aux besoins de nos utilisateurs et qui soit facile à faire évoluer est un Graal difficile à atteindre."
         - paragraph: >
                       Cela demande à la fois une excellence technique, une maîtrise des bonnes pratiques sur l'ensemble de la chaîne de production,
                        des compétences de coopération et de communication avec l'ensemble des acteurs, un paradigme de travail d'apprentissage (The Build-Measure-Learn Feedback Loop)...
                        Une quête passionnante qui est facilitée lorsqu'on rencontre des personnes expérimentées qui nous guident sur les chemins à suivre et nous aident à nous améliorer.
-    - title: ""
-      img: "img/bg-showcase-3.jpg"
+    - title: "Apprendre"
+      img: "img/workshop.jpg"
       text:
         - paragraph: "Cette conférence a pour but d'être un lieu d'apprentissage et d'échanges afin de progresser pour produire des logiciels toujours meilleurs."
-    - title: ""
-      img: "img/bg-showcase-1.jpg"
+    - title: "Se perfectionner"
+      img: "img/socrates-day.jpg"
       imgInRightSide: true
       text:
         - paragraph: "La conférence est sur 2 jours : un jour sera dédié aux personnes désirant découvrir de nouvelles pratiques et perfectionner leurs compétences et un autre pour les pratiquants réguliers souhaitant approfondir leurs connaissances (en co-organisation avec <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>)"

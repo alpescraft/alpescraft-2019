@@ -1,0 +1,64 @@
+.navbar {
+
+  background-color: white;
+
+  // Animation
+  transition: all 0.3s;
+
+  .nav-item {
+    padding-right: 30px;
+  }
+
+  .nav-icon {
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand-logo {
+    height: 70px;
+    margin-top: -5px;
+    transition: all 0.3s;
+  }
+
+}
+
+.top-button {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  font-size: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar.shrink {
+    max-height: 55px;
+    padding-bottom: 0px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+
+    .nav-item {
+      padding-top: 30px;
+    }
+
+    .navbar-brand-logo {
+      height: 50px;
+      margin-top: -5px;
+      transition: all 0.3s;
+    }
+
+    p {
+      visibility: hidden;
+      opacity: 0;
+
+      transition: visibility 0s linear 0.33s, opacity 0.33s
+    }
+  }
+}

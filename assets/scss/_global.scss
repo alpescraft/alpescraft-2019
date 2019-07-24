@@ -11,3 +11,13 @@ h6 {
   @include body-font;
   font-weight: 700;
 }
+
+.title:before {
+  display: inline-block;
+  content: "";
+  border-top: .3rem solid #007bff;
+  width: 4rem;
+  margin: 0 1rem;
+  transform: translateY(-0.5rem);
+  border-radius: 0 2px 2px 0;
+}
