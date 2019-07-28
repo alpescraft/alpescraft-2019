@@ -16,7 +16,7 @@ params:
   Year: "2019"
   Description: "Découvrir, apprendre et se perfectionner"
   Date: "13 et 14 Juin 2019"
-  NextDate: "Juin 2020"
+  NextDate: "2020"
   Venue: "Maison Minatec"
   Address: "3 Parvis Louis Néel"
   City:  "Grenoble"
@@ -39,7 +39,6 @@ params:
     - about
     - sponsors
     - partners
-    - location
 
 
   # Active sections on the website to deactivate comment out with '#'
@@ -113,7 +112,6 @@ params:
   About:
     - title: "Découvrir"
       img: "img/2019_keynote.jpg"
-      style: "background-position-y: -5rem"
       imgInRightSide: true
       text:
         - paragraph: "Réaliser un produit logiciel qui correspond aux besoins de nos utilisateurs et qui soit facile à faire évoluer est un Graal difficile à atteindre."
