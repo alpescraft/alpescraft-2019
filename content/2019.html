@@ -13,7 +13,11 @@
 
 {{ range $section := .Site.Params.SectionsPrevious }}
 <section class="{{ $section }}" id="{{ $section }}">
-    {{ partial $section $.Site.Params }}
+    {{ if (or (eq $section "schedule") (eq $section "sponsors") (eq $section "partners")) }}
+        {{ partial $section $.Site.Params.edition2019 }}
+    {{ else }}
+        {{ partial $section $.Site.Params }}
+    {{ end }}
 </section>
 {{ end }}
 

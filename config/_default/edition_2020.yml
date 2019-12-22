@@ -1,0 +1,69 @@
+params:
+
+  edition2020:
+
+    year: "2020"
+
+    Sponsors:
+      golden:
+        - name: "Sponsor Master 1"
+          logo: "/img/sponsors/bonitasoft.png"
+          url: "https://fr.bonitasoft.com/"
+        - name: "Sponsor Master 2"
+          logo: "/img/sponsors/bonitasoft.png"
+          url: "https://fr.bonitasoft.com/"
+      tdd:
+        - name: "Sponsor Apprentis"
+          logo: "/img/sponsors/eloquant.jpg"
+          url: "https://www.eloquant.com/"
+        - name: "Salesforce"
+          logo: "/img/sponsors/salesforce.png"
+          url: "https://www.salesforce.com"
+
+    SpeakersMap:
+      firstspeaker:
+        name: "First Speaker"
+        photo: "/img/speakers/thomas_pierrain.jpeg"
+        href: "http://twitter.com/tpierrain"
+        text: "@tpierrain"
+        company: "42 skillz"
+        bio: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
+
+      secondspeaker:
+        name: "Second Speaker"
+        photo: "/img/speakers/christophe_thibaut.jpg"
+        href: "http://twitter.com/ToF_"
+        text: "@ToF_"
+        company: "Octo"
+        bio: "Christophe est l'un des inventeurs du coding-dojo. Fort de plus de 20 ans d'expérience en développement et direction de projets, Christophe conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles."
+
+    Schedule:
+      - time: "8h00"
+        name: "Accueil et petit déjeuner"
+
+      - time: "9h00"
+        conferences:
+          - name: "Equiper sa voie"
+            description: "Au-delà de la passion, faire du logiciel pour moi c’est aider les autres à résoudre leurs problèmes. Comment aider les autres si on n’est pas déjà clair soi-même avec sa posture, son métier, ses envies, ses ambitions ou bien ses craintes ? C’est la question que je me suis posé à plusieurs reprises durant ma carrière. Et c’est de cela - et des quelques aides trouvées en route - dont je voudrais vous parler."
+            speakers:
+              - speaker:
+                speakerid: "firstspeaker"
+
+      - time: "10h00"
+        name: "Pause"
+
+      - time: "10h15"
+        conferences:
+          - name: "Petite introduction au TDD par l'exemple"
+            description: "Pour faire du développement itératif et incrémental, nous devons faire évoluer leur code en permanence. Pour cela, il est indispensable d'avoir des tests unitaires, et la meilleure façon de les écrire, c'est le TDD, qui présente bien d'autres avantages ! Après un peu de théorie, je ferai une démo en live coding pour illustrer cette pratique toujours trop peu utilisée."
+            speakers:
+              - speaker:
+                speakerid: "secondspeaker"
+
+      - time: "17h45"
+        conferences:
+          - name: "Clôture et apéro"
+            description: ""
+            speakers:
+              - speaker:
+                speakerid: "orga"

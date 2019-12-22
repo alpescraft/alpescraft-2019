@@ -1,0 +1,449 @@
+params:
+
+  edition2019:
+
+    year: "2019"
+    # List of Sponsors
+    Sponsors:
+      golden:
+        - name: "Bonitasoft"
+          logo: "/img/sponsors/bonitasoft.png"
+          url: "https://fr.bonitasoft.com/"
+      tdd:
+        - name: "Eloquant"
+          logo: "/img/sponsors/eloquant.jpg"
+          url: "https://www.eloquant.com/"
+        - name: "Salesforce"
+          logo: "/img/sponsors/salesforce.png"
+          url: "https://www.salesforce.com"
+        - name: "Tuleap"
+          logo: "/img/sponsors/tuleap.png"
+          url: "https://www.tuleap.org/"
+        - name: "Zenika"
+          logo: "/img/sponsors/zenika.png"
+          url: "https://www.zenika.com/"
+
+    # List of Partners
+    Partners:
+      - name: "AlpesJUG"
+        logo: "/img/partners/alpesjug.png"
+        url: "http://www.alpesjug.org/"
+      - name: "CARA"
+        logo: "/img/partners/cara.png"
+        url: "http://grenoble.clubagilerhonealpes.org"
+      - name: "SoCraTes-FR"
+        logo: "/img/partners/SoCraTes-FR.jpg"
+        url: "https://socrates-fr.github.io/"
+      - name: "Une petite mousse"
+        logo: "/img/partners/unepetitemousse.png"
+        url: "https://unepetitemousse.fr/"
+
+    SpeakersMap:
+      thomaspierrain:
+        name: "Thomas Pierrain"
+        photo: "/img/speakers/thomas_pierrain.jpeg"
+        href: "http://twitter.com/tpierrain"
+        text: "@tpierrain"
+        company: "42 skillz"
+        bio: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
+
+      christophethibaut:
+        name: "Christophe Thibaut"
+        photo: "/img/speakers/christophe_thibaut.jpg"
+        href: "http://twitter.com/ToF_"
+        text: "@ToF_"
+        company: "Octo"
+        bio: "Christophe est l'un des inventeurs du coding-dojo. Fort de plus de 20 ans d'expérience en développement et direction de projets, Christophe conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles."
+
+      nathaliecotte:
+        name: "Nathalie Cotte"
+        photo: "/img/speakers/nathalie_cotte.jpg"
+        href: "http://twitter.com/NathErgo38"
+        text: "@NathErgo38"
+        bio: ""
+        company: "BonitaSoft"
+
+      romainbioteau:
+        name: "Romain Bioteau"
+        photo: "/img/speakers/romain_bioteau.jpeg"
+        href: "https://twitter.com/rbioteau"
+        text: "@rbioteau"
+        company: "BonitaSoft"
+        bio: ""
+
+      xaviernopre:
+        name: "Xavier Nopre"
+        photo: "/img/speakers/xavier_nopre.png"
+        href: "http://twitter.com/xnopre"
+        text: "@xnopre"
+        bio: "Développeur depuis plus de 20 ans, je suis passionné par le développement logiciel, l'agilité, le software craftmanship, etc... Pour moi, le développement agile nécessite des outils et des méthodes adaptés, et notamment les tests unitaires et le TDD dont j'essaie de partager mes connaissances et expériences avec les développeurs que je rencontre."
+        company: ""
+
+      bastiendavid:
+        name: "Bastien David"
+        photo: "/img/speakers/bastien_david.jpeg"
+        href: "http://twitter.com/bastien_david"
+        text: "@bastien_david"
+        bio: ""
+        company: "Orange"
+
+      laurenttardif:
+        name: "Laurent Tardif"
+        photo: "/img/speakers/laurent_tardif.png"
+        href: "http://twitter.com/Ouelcum"
+        text: "@Ouelcum"
+        company: "Zenika"
+        bio: "Agitateur de l 'agilité .... Je suis tombé dans les problématiques search chez Kelkoo, puis dans l'agilité chez Yahoo. Toujours partant pour essayer des nouvelles méthodes ludiques pour progresser. Aujourd'hui expert Devops et Agilité chez Zenika."
+
+      nastasiasaby:
+        name: "Nastasia Saby"
+        photo: "/img/speakers/nastasia_saby.jpg"
+        href: "https://twitter.com/saby_nastasia"
+        text: "@saby_nastasia"
+        company: "Zenika"
+        bio: "Développeur, passionnée de programmation en général, consultante Zenika, je suis fan de Software Craftsmanship et de Big Data. J'ai commencé dans le monde PHP avant d'embrasser celui exaltant de la Big Data."
+
+      manuelvacelet:
+        name: "Manuel Vacelet"
+        photo: "/img/speakers/manuel_vacelet.jpg"
+        href: "http://twitter.com/vaceletm"
+        text: "@vaceletm"
+        bio: "Directeur technique de Tuleap, je suis un fervent défenseur des logiciels libres et des pratiques agiles. Orateur, j’interviens régulièrement dans des conférences pour parler d’organisation, de technique, de recrutement. Bref, je partage les expériences faites dans l’entreprise."
+        company: "Tuleap"
+
+      clementbouillier:
+        name: "Clément Bouillier"
+        photo: "/img/speakers/clement_bouillier.jpg"
+        href: "http://twitter.com/clem_bouillier"
+        text: "@clem_bouillier"
+        bio: "Je suis développeur depuis 15 ans, passionné des pratiques de développement visant à produire de la valeur pour mes clients et leurs utilisateurs. Je m'intéresse notamment à DDD, CQRS, EventSourcing, au refactoring, à TDD, à la programmation fonctionnelle..."
+        company: "devcrafting"
+
+      remysanlaville:
+        name: "Rémy Sanlaville"
+        photo: "/img/speakers/remy_sanlaville.png"
+        href: "http://twitter.com/sanlaville"
+        text: "@sanlaville"
+        bio: "L'ingénierie logicielle est ma passion et je défends le métier de développeur. TDD/Coding Dojo addict, ATDD, amélioration continue..."
+        company: "Orange"
+
+      johanmartinsson:
+        name: "Johan Martinsson"
+        photo: "/img/speakers/johan_martinsson.jpg"
+        href: "http://twitter.com/johan_alps"
+        text: "@johan_alps"
+        bio: "est un développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
+        company: "ChangIT"
+
+
+      davidcrosson:
+        name: "David Crosson"
+        photo: "/img/speakers/david_crosson.jpg"
+        href: "http://twitter.com/crodav"
+        text: "@crodav"
+        company: ""
+        bio: ""
+
+      jeromeavoustin:
+        name: "Jérôme Avoustin"
+        photo: "/img/speakers/jerome_avoustin.jpg"
+        href: "http://twitter.com/JeromeAvoustin"
+        text: "@JeromeAvoustin"
+        company: ""
+        bio: ""
+
+      houssamfakih:
+        name: "Houssam Fakih"
+        photo: "/img/speakers/houssam_faikh.jpg"
+        href: "http://twitter.com/houssamfakih"
+        text: "@houssamfakih"
+        company: ""
+        bio: ""
+
+      patrickgiry:
+        name: "Patrick Giry"
+        photo: "/img/speakers/patrick_giry.jpeg"
+        href: "http://twitter.com/PatrickGIRY"
+        text: "@PatrickGIRY"
+        company: "Arolla"
+        bio: ""
+
+      pierrechiron:
+        name: "Pierre Chiron"
+        photo: "/img/speakers/minion-pixabay-free.jpg"
+        company: "Orange"
+        bio: ""
+
+      christophemaldivi:
+        name: "Christophe Maldivi"
+        photo: "/img/speakers/christophe_maldivi.jpeg"
+        href: "http://twitter.com/chmaldivi"
+        text: "@chmaldivi"
+        company: "Orange"
+        bio: ""
+
+      emericfontaine:
+        name: "Emeric Fontaine"
+        photo: "/img/speakers/emeric_fontaine.jpeg"
+        href: "https://www.linkedin.com/in/fontaine-emeric-6b38095/"
+        company: "Orange"
+        bio: ""
+
+      mathieucans:
+        name: "Mathieu Cans"
+        photo: "/img/speakers/mathieu_cans.jpg"
+        href: "http://twitter.com/mathieucans"
+        text: "@mathieucans"
+        bio: ""
+        company: "Orange"
+
+      orga:
+        name: "l'orga"
+        photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.png"
+        href: "http://twitter.com/alpescraft"
+        text: "@AlpesCraft"
+        bio: ""
+
+    Schedule:
+      - time: "8h00"
+        name: "Accueil et petit déjeuner"
+
+      - time: "9h00"
+        conferences:
+          - name: "Equiper sa voie"
+            description: "Au-delà de la passion, faire du logiciel pour moi c’est aider les autres à résoudre leurs problèmes. Comment aider les autres si on n’est pas déjà clair soi-même avec sa posture, son métier, ses envies, ses ambitions ou bien ses craintes ? C’est la question que je me suis posé à plusieurs reprises durant ma carrière. Et c’est de cela - et des quelques aides trouvées en route - dont je voudrais vous parler."
+            speakers:
+              - speaker:
+                speakerid: "thomaspierrain"
+
+      - time: "10h00"
+        name: "Pause"
+
+      - time: "10h15"
+        conferences:
+          - name: "Petite introduction au TDD par l'exemple"
+            description: "Pour faire du développement itératif et incrémental, nous devons faire évoluer leur code en permanence. Pour cela, il est indispensable d'avoir des tests unitaires, et la meilleure façon de les écrire, c'est le TDD, qui présente bien d'autres avantages ! Après un peu de théorie, je ferai une démo en live coding pour illustrer cette pratique toujours trop peu utilisée."
+            speakers:
+              - speaker:
+                speakerid: "xaviernopre"
+
+          - name: "Designé pour être jeté!"
+            description: "Au début de sa carrière, on tire une certaine fierté de la quantité de code écrit. Au fil du temps, on prend de plus en plus de fierté à jeter du code, si bien que certains développeurs se vantent parfois d'avoir supprimé plus de code qu'ils en ont écrit sur une journée."
+            details: "Et si l'on se concentrait sur le fait de jeter notre code ? Et si l'on designait pour jeter notre code ? Et si l'on se donnait du temps pour écrire du code jetable, supprimé aussitôt qu'écrit ?
+                      Nous discuterons de ce genre de pratique, et les mettrons en oeuvre sur un cas d'étude, pour voir tous les bénéfices d'une telle approche."
+            speakers:
+              - speaker:
+                speakerid: "bastiendavid"
+
+          - name: "Découvrez l’Example mapping par la pratique"
+            description: "Atelier : Le BDD est trop souvent réduit à de l’outillage, alors que c’est surtout un super moyen de rapprocher le métier et les professionnels du software pour livrer des applications qui font ce dont on a réellement besoin. Malgré sa redoutable efficacité, L’Example Mapping n’est pas encore beaucoup utilisé et demeure plutôt méconnu. Après une rapide introduction à l’Example Mapping nous le pratiquerons ensemble autours d’un cas concret."
+            speakers:
+              - speaker:
+                speakerid: "thomaspierrain"
+
+          - name: "Pimper sa chaîne de build"
+            description: "Atelier : Installons une chaîne de build complète sur son portable et voir comment interagissent chaque composant de cette forge. Nous discuterons aussi de quels sont les pièges à éviter."
+            details: "Aujourd'hui avoir une chaîne de build pour son projet open source est relativement simple, mais peut on faire de même au sein d'une entreprise avec les contraintes d'intégration entre les différents systèmes (gestion de backlog, déploiement,...), nécessité de stocker ses binaires/images.
+                      Nous discuterons aussi du KISS et YAGNI appliqué à sa forge."
+            speakers:
+              - speaker:
+                speakerid: "laurenttardif"
+
+      - time: "11h15"
+        conferences:
+          - name: "Du legacy au TDD"
+            description: "C'est quoi l'obstacle principal à travailler avec les tests ou en TDD. C'est que le code existant n'a pas été concu pour!
+            Voyons à travers un exemple comment on reprend le code, le prépare au travail en TDD à l'aide des tests :) et du refactoring préparatoire
+            afin que cela devienne un jeu d'enfant d'ajouter la nouvelle fonctionnalité en TDD (ou presque :D)"
+            speakers:
+              - speaker:
+                speakerid: "johanmartinsson"
+
+          - name: "La revue de code, sur le terrain"
+            description: "La revue de code est un art difficile, et contrairement à ce que l'on pourrait croire, ça ne va pas en s'arrangeant avec le temps comme par magie.
+                          Cette présentation est un état des leçons apprises sur les 8 années de revue de code pratiquées sur le projet Tuleap."
+            details: "Comment s'y prendre ? Qu'est ce que je revois ? Qui revoit quel code ? Comment faire une revue constructive ? sont parmis les questions qui sont
+                      abordées dans cette présentation. J'essaye de donner un maximum d'outils qui soient utilisables dès le lendemain (ok, le lendemain, c'est encore la conf, donc disons
+                      dès lundi prochain)."
+            speakers:
+              - speaker:
+                speakerid: "manuelvacelet"
+
+          - name: "Découvrez l’Example mapping par la pratique - suite"
+            description: ""
+            speakers:
+              - speaker:
+                speakerid: "thomaspierrain"
+
+          - name: "Démarrer vite, tester, apprendre, partager et recommencer !"
+            description: "Nous allons vivre une approche itérative et apprenante du développement basé sur ammonite et scala.
+            Cette approche est basée sur la création d'exemples très facilement exécutable et partageable via les gists de github ou les snippets de gitlab.
+            La session se fera essentiellement en live coding"
+            speakers:
+              - speaker:
+                speakerid: "davidcrosson"
+
+      - time: "12h05"
+        name: "Déjeuner et réseautage"
+
+      - time: "13h30"
+        conferences:
+          - name: "Des principes de design à la rescousse des microservices"
+            description: "Les architectures basées sur les microservices ont le vent en poupe. Tout le monde veut en faire. Les promesses en terme de bénéfice sont très séduisantes. Mais implémenter ce type d'architecture n'est pas sans difficulté, c'est peu de le dire. On risque en effet à un monolithe distribué ..."
+            speakers:
+              - speaker:
+                speakerid: "jeromeavoustin"
+
+          - name: "Apprendre et Transmettre le savoir craft"
+            description: "Ce talk est un retour d'expérience sur la mise en place d'un training craft de 4
+                          semaines. Son objectif principal est de transmettre des méthodes, des techniques, des connaissances et un savoir-faire craft à d'autres développeurs.
+
+                          Nous traiterons de tous les aspects liés au training : la préparation, le format, le contenu, l'animation, le suivi, l'amélioration. "
+            speakers:
+              - speaker:
+                speakerid: "houssamfakih"
+
+
+          - name: "Ping pong pair programming"
+            description: "Il s'agit de l'association de 2 pratiques : le pair programming (programmation en binôme) et le TDD (Test Driven Development). Cette pratique qui reprend le rythme du jeu du ping pong est l'occasion de découvrir, tester, expérimenter, progresser, rendre plus pertinents le pair programming, le TDD et ainsi notre pratique quotdienne du développement."
+            details: "Atelier : Le process est le suivant :
+
+                      , A écrit un nouveau test et vérifie que ça échoue
+
+                      , B implémente le code voulu pour faire passer le test
+
+                      , B écrit le nouveau test et vérifie que ça échoue
+
+                      A implémente le code voulu pour faire passer le test
+
+                      Il s'agit de l'association de 2 pratiques : le pair programming (programmation en binôme) et le TDD (Test Driven Development). Cette pratique qui reprend le rythme du jeu du ping pong est l'occasion de découvrir, tester, expérimenter, progresser, rendre plus pertinents le pair programming, le TDD et ainsi notre pratique quotdienne du développement.
+
+                      Prérequis:
+
+                      , Un environnement de développement qui fonctionne dans le langage de votre choix.
+
+                      , Un projet vide avec un framework de test qui fonctionne.
+
+                      , Votre bonne humeur :)"
+            speakers:
+              - speaker:
+                speakerid: "nastasiasaby"
+
+          - name: "Maîtriser son IDE"
+            description: "Tout bon artisan se démarque dans la maîtrise de ses outils. En tant que développeur, l'IDE est votre outil quotidien principal. Bien le maîtriser est un atout indéniable pour à aller plus vite et vous concentrer sur l'essentiel. Cela vous apportera rapidité, fluidité et plaisir de coder. Venez vous entraîner sur votre outil préféré (IntelliJ ou Eclipse) afin d'apprendre des fonctionnalités et des astuces insoupçonnées."
+            speakers:
+              - speaker:
+                speakerid: "remysanlaville"
+
+      - time: "14h30"
+        conferences:
+          - name: "D'impératif au fonctionnel"
+            description: "Comment faire de la programmation fonctionnelle quand on a les pieds liés au code impératif et mutable"
+            speakers:
+              - speaker:
+                speakerid: "patrickgiry"
+
+          - name: "Méthodes UX faciles, ou comment l'artisan s'assure qu'il va contenter ses clients"
+            description: "La UX résout un constat évident : le point de vue du client sur un produit n'est pas le même que celui de l'artisan qui l'a conçu.
+                          Pourtant il faut concilier ces points de vue pour transformer l'artiste en artisan.
+                          Il produit ainsi un très beau produit, qui ravit les clients et lui assure sa pérennité.
+                          Nous parlerons donc de la valeur perçue et nous évoquerons en quoi la collaboration Dev / UX ne peut qu'être fructueuse... à quelques conditions près."
+            speakers:
+              - speaker:
+                speakerid: "nathaliecotte"
+              - speaker:
+                speakerid: "romainbioteau"
+
+          - name: "Ping pong pair programming - suite"
+            description: "Atelier : "
+            speakers:
+              - speaker:
+                speakerid: "nastasiasaby"
+
+          - name: "Maîtriser son IDE - suite"
+            description: "Atelier : "
+            speakers:
+              - speaker:
+                speakerid: "remysanlaville"
+
+      - time: "15h15"
+        name: "Pause"
+
+      - time: "15h45"
+        conferences:
+          - name: "Exploration de différents styles d'architecture"
+            description: "On entend souvent parler d'architecture en couche/n-tiers, d'architecture hexagonale/en onion, de patterns divers et variés (Repository, DAO, Active Record, Domain Model anémique ou pas, ORM...), de DDD, de CQRS et d'EventSourcing...ce talk en fait un tour d'horizon sous la forme d'une revue de code de différentes architectures d'un même exemple."
+            speakers:
+              - speaker:
+                speakerid: "clementbouillier"
+
+          - name: "Metrics Driven Development"
+            description: "Vous vous êtes un jour douté de la pertinence des features proposés? Et si on collectait un peu de données pour
+                s'assurer qu'on développait des fonctionnalités que les utilisateurs utilisent réellement?"
+            speakers:
+              - speaker:
+                speakerid: "pierrechiron"
+
+          - name: "Carpaccio d'éléphant"
+            description: "Atelier : Apprenez à découper les users stories de votre produit en tranches très fines, faites un carpaccio d’éléphant !"
+            speakers:
+              - speaker:
+                speakerid: "christophemaldivi"
+              - speaker:
+                speakerid: "emericfontaine"
+
+          - name: "Open Closed Principle - Le challenge"
+            description: "Atelier : Dans cette session, nous apprendrons ensemble à pratiquer la pierre angulaire des principes  S.O.L.I.D. : le Open / Close principle.
+                                    Nous travaillerons en mob programming ce qui nous contraindra à verbaliser les solution et permettra à chacun d’être actif.
+                                    Nous modifierons légèrement le flux du TDD pour nous contraindre à respecter le principe Open/Close.
+                                    Nous essaierons aussi de supprimer tous les if de notre code. "
+            details: "Les participants apprendront :
+                      à mettre en place des conceptions qui permettent d’ajouter des fonctionnalités en changeant très peu de code.
+                      à se passer de if pour rendre leurs logiciels moins complexes.
+                      Autant de bons réflexes directement applicables dans les projets informatiques le tout guidé par les tests."
+            speakers:
+              - speaker:
+                speakerid: "mathieucans"
+
+      - time: "16h45"
+        conferences:
+          - name: "En finir avec la «Dette Technique»"
+            description: "Au delà de subir la dette technique comment pouvons nous trouver le dialogue qui permettra de commencer à en sortir?"
+            details: "Ward Cunningham a nommé \"Technical Debt\" le procédé qui consiste, pour une équipe, à déroger temporairement à ses standards de qualité en vue de gagner du temps dans la réalisation d'un objectif intermédiaire. Au cours de la dernière décennie, l'expression est devenue très populaire, tout en perdant son sens initial.  Elle est désormais utilisée pour désigner l'état d'une solution jugée non conforme à l'état de l'art généralement admis dans notre industrie, et pour souligner le fait que c'est cette non-qualité qui ralentit la progression de l'équipe aux prise avec cette solution. La plupart des équipes de développement ne contractent pas délibérément de dette technique. La plupart des équipes subissent de la dette technique.
+
+                       Si pour résoudre un problème il faut d'abord le définir aussi clairement que possible alors nous devons reconnaître que le terme \"Dette Technique\" ne contribue en rien à clarifier l'état de ce qu'il est censé décrire. Nous devons donc trouver un modèle alternatif qui nous donne une meilleure façon de parler de cet état des choses que nous appelons une solution \"endettée\" si nous voulons contribuer à l'améliorer.  C'est ce que je me propose de faire durant cette présentation."
+            speakers:
+              - speaker:
+                speakerid: "christophethibaut"
+
+          - name: "Des callbacks à async/await : une histoire asynchrone"
+            description: "Pendant longtemps, JavaScript s'en est tenu au principe de callbacks pour la gestion des appels asynchrones. Dans son histoire récente, JS s'est armé pour simplifier l'écriture d'un code qui s'éxecute de manière asynchrone, en lui donnant un aspect synchrone, grâce à async/await.
+
+                          Mais comment en est-on arrivé là ? Quelles avancées ont permis d'obtenir cela ?
+
+                          Nous verrons cela lors d'une session de live coding pour revenir ou présenter quelques concepts clés de JS, comme les promesses, ou la plus belle évolution de JS depuis sa création : les générateurs."
+            speakers:
+              - speaker:
+                speakerid: "jeromeavoustin"
+
+          - name: "Carpaccio d'éléphant - suite"
+            description: "Atelier : Apprenez à découper les users stories de votre produit en tranches très fines, faites un carpaccio d’éléphant !"
+            speakers:
+              - speaker:
+                speakerid: "christophemaldivi"
+              - speaker:
+                speakerid: "emericfontaine"
+
+          - name: "Open Closed Principle - la suite"
+            description: "Atelier : "
+            speakers:
+              - speaker:
+                speakerid: "mathieucans"
+
+      - time: "17h45"
+        conferences:
+          - name: "Clôture et apéro"
+            description: ""
+            speakers:
+              - speaker:
+                speakerid: "orga"

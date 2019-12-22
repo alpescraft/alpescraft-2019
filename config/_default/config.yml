@@ -1,0 +1,147 @@
+baseurl: "https://www.alpescraft.fr/"
+title: "AlpesCraft"
+canonifyurls: true
+
+GoogleAnalytics: "UA-139631751-1"
+
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+    useSessionStorage: true
+
+params:
+  # Conference info
+  Name: "AlpesCraft"
+  Year: "2019"
+  Description: "Découvrir, apprendre et se perfectionner"
+  Date: "13 et 14 Juin 2019"
+  NextDate: "2020"
+  Venue: "Maison Minatec"
+  Address: "3 Parvis Louis Néel"
+  City:  "Grenoble"
+  State: "France"
+  Twitter: "https://twitter.com/AlpesCraft"
+  Email: "contact@alpescraft.fr"
+
+  Credits:
+    - name: "Xavier Nopre"
+      url: "https://twitter.com/xnopre"
+    - name: "Headway"
+      url: "https://unsplash.com/photos/5QgIuuBxKwM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    - name: "Fancycrave"
+      url: "https://unsplash.com/photos/yB5cYEq7y2U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - icons
+    - about
+    - sponsors
+    - partners
+    - schedule
+
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  SectionsPrevious:
+    - sponsors
+    - partners
+    - schedule
+
+  # Titles which you can translate to other languages
+  Titles:
+     icons:
+       - title: "La conférence"
+         icon: "icon-home"
+     about:
+       - title: "À propos"
+         icon: "icon-info"
+     location:
+       - title: "Nous rejoindre"
+         icon: "icon-location-pin"
+     speakers:
+       - title: "Speakers"
+         icon: "icon-speech"
+     sponsors:
+       - title: "Sponsors"
+         icon: "icon-star"
+     partners:
+       - title: "Partenaires"
+         icon: "icon-heart"
+     billeterie:
+       - title: "Billetterie"
+         icon: "icon-basket"
+     schedule:
+       - title: "Programme"
+         icon: "icon-book-open"
+     edition2019:
+       - title: "Édition 2019"
+         icon: "icon-control-rewind"
+
+  Previous:
+    - edition2019
+
+  TitlesPrevious:
+    edition2019:
+       - title: "Édition 2019"
+         icon: "icon-control-rewind"
+
+  LinksPrevious:
+    edition2019: "2019"
+
+  # Icones
+  Icones:
+    grid:
+      - title: "Découvrir"
+        icon: "icon-question"
+        text: "Venez découvrir ce qui se cache derrière le Software Craftsmanship"
+      - title: "Apprendre"
+        icon: "icon-layers"
+        text: "Un lieu d'apprentissage et de partage afin de progresser pour produire des logiciels toujours meilleurs"
+      - title: "Se perfectionner"
+        icon: "icon-check"
+        text: >
+              Échanger avec des professionels lors d'une seconde journée en partenariat avec
+              <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>
+    description:
+      - paragraph: "AlpesCraft est une conférence technique, agnostique aux technologies"
+      - paragraph: "Nous pensons que le plus important est de bien maîtriser les fondamentaux et d'apprendre les pratiques au-delà des frameworks"
+      - paragraph: >
+                   Peu importe votre langage de programmation, votre framework ou librairie préféré,
+                   participer à Alpescraft c'est apprendre des choses applicables dès le lendemain
+
+  # About
+  About:
+    - title: "Découvrir"
+      img: "img/2019_keynote.jpg"
+      imgInRightSide: true
+      text:
+        - paragraph: "Réaliser un produit logiciel qui correspond aux besoins de nos utilisateurs et qui soit facile à faire évoluer est un Graal difficile à atteindre."
+        - paragraph: >
+                      Cela demande à la fois une excellence technique, une maîtrise des bonnes pratiques sur l'ensemble de la chaîne de production,
+                       des compétences de coopération et de communication avec l'ensemble des acteurs, un paradigme de travail d'apprentissage (The Build-Measure-Learn Feedback Loop)...
+                       Une quête passionnante qui est facilitée lorsqu'on rencontre des personnes expérimentées qui nous guident sur les chemins à suivre et nous aident à nous améliorer.
+    - title: "Apprendre"
+      img: "img/workshop.jpg"
+      text:
+        - paragraph: "Cette conférence a pour but d'être un lieu d'apprentissage et d'échanges afin de progresser pour produire des logiciels toujours meilleurs."
+    - title: "Se perfectionner"
+      img: "img/socrates-day.jpg"
+      imgInRightSide: true
+      text:
+        - paragraph: "La conférence est sur 2 jours : un jour sera dédié aux personnes désirant découvrir de nouvelles pratiques et perfectionner leurs compétences et un autre pour les pratiquants réguliers souhaitant approfondir leurs connaissances (en co-organisation avec <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>)"
+
+  # Location
+  Location:
+    - title: "Venir"
+      latitude: "45.195807222"
+      longitude: "5.7096947222"
+      text:
+        - paragraph: >
+                      Vous pouvez y accéder :
+                      <ul class="lead">
+                        <li>par la ligne B du Tram (direction Grenoble Presqu'île), arrêt "Cité Internationale"</li>
+                        <li>en voiture (vous pouvez vous garer aux parkings Doyen Weil ou d'Europole Gare)</li>
+                        <li>à <a href="http://www.metromobilite.fr/velo.html" target="_blank"> vélo</a></li>
+                      </ul>

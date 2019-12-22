@@ -6,10 +6,10 @@
 <body>
 
 <!-- Navigation -->
-{{ partial "previousEdition/nav.html" . }}
+{{ partial "index/nav.html" . }}
 
 <section class="session bg-light">
-    {{ range $sched, $slot := $.Site.Params.schedule }}
+    {{ range $sched, $slot := $.Site.Params.edition2020.schedule }}
         <div class="container-fluid">
             {{ if $slot.conferences }}
                 {{ range  $index, $conf := $slot.conferences }}
@@ -28,7 +28,7 @@
                                 <div class="row text-center">
                                     {{ range $spk := $conf.speakers }}
                                     <div class="col-lg-{{div 12 (len $conf.speakers) }}">
-                                        {{ $speaker := index $.Site.Params.speakersmap (string $spk.speakerid) }}
+                                        {{ $speaker := index $.Site.Params.edition2020.speakersmap (string $spk.speakerid) }}
                                         {{ if $speaker.href }}
                                         <a href="{{ $speaker.href }}" target="_blank">
                                         {{ end }}
