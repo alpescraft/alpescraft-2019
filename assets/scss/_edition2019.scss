@@ -1,0 +1,111 @@
+.edition-2019 {
+
+  .conference {
+    padding: 10px;
+  }
+
+  .icon-youtube:after {
+    background: url('/img/logo/youtube.png') no-repeat center top;
+    background-size: 100% auto;
+    content: '';
+    display: block;
+    position: absolute;
+  }
+
+  .conference-link {
+    font-size: 1.5rem;
+
+    .icon-youtube:after {
+      height: 70px;
+      width: 70px;
+    }
+  }
+
+  .album {
+    display: grid;
+    grid-template-columns: repeat(10, 2fr);
+    grid-template-rows: repeat(7, 5vw);
+    grid-gap: 1rem;
+  }
+
+  .album .item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .album .item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3
+  }
+
+  .album .item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  .album .item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 7;
+  }
+
+  .album .item--5 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 8;
+  }
+
+  .album .item--6 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 6;
+    grid-row-end: 8;
+  }
+
+  .album .item--7 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 8;
+  }
+
+  .album .item--8 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+
+  .album img {
+    //object-fit: cover;
+    //width: 100% !important;
+    //height: auto !important;
+    //display: block;
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    max-height: 100%;
+  }
+
+  .album .item--inner {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 5;
+
+    button {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+}

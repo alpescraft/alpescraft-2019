@@ -3,19 +3,335 @@
 
 {{ partial "head.html" . }}
 
-<body>
+<body class="edition-2019">
 
 <!-- Navigation -->
 {{ partial "previousEdition/nav.html" . }}
 
-<!-- Masthead -->
-{{ partial "previousEdition/header.html" .Site.Params }}
+<header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                // TODO : mise en forme
+                <h2 class="tagline">13 & 14 Juin 2019</h2>
+            </div>
+            <div class="col-sm-2">
+                <img src="/img/logo/color/03-AlpesCraft_Couleurs-M.png" alt="AlpesCraft logo" align="middle">
+            </div>
+            <div class="col-sm-5">
+                // TODO : mise en forme
+                <h2 class="tagline">Édition 2019</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <h1 class="mb-5">AlpesCraft</h1>
+                // TODO : mise en forme
+                <h2 class="tagline">2 jours, 6 atelies, 13 conférences, 110 participants</h2>
+            </div>
+        </div>
+    </div>
+</header>
 
-{{ range $section := .Site.Params.SectionsPrevious }}
-<section class="{{ $section }}" id="{{ $section }}">
-    {{ partial $section $.Site.Params }}
+<section class="conference bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10">
+                <h2 class="title">Revivez les conférences</h2>
+            </div>
+            <div class="col-sm-2">
+                <div class="container">
+                    // TODO : mise en forme
+                    <div class="row conference-link">
+                        <i class="icon-book-open">Ajouter lien téléchargement PDF</i>
+                        <i class="icon-youtube">Ajouter lien chaîne YT</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    // TODO Pour chaque card, ajoutez en hover un lien vers la vidéo YT
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-end">
+                            <h5 class="card-title col-lg-9">Équiper sa voie</h5>
+                        </div>
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-lg-3 text-center schedule-who">
+                                    <a href="http://twitter.com/tpierrain" target="_blank">
+                                        <img class="img-fluid rounded-circle" src="/img/speakers/thomas_pierrain.jpeg"
+                                             alt="thomas pierrain">
+                                        <p class="text-center">thomas pierrain</p>
+                                        <p class="speakers-company">42 skillz</p>
+                                    </a>
+                                </div>
+                                <div class="col-lg-9">
+                                    <p class="text-left session-description">au-delà de la passion, faire du logiciel
+                                        pour moi c’est aider les autres à résoudre leurs problèmes. comment aider les
+                                        autres si on n’est pas déjà clair soi-même avec sa posture, son métier, ses
+                                        envies, ses ambitions ou bien ses craintes ? c’est la question que je me suis
+                                        posé à plusieurs reprises durant ma carrière. et c’est de cela - et des quelques
+                                        aides trouvées en route - dont je voudrais vous parler.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-end">
+                            <h5 class="card-title col-lg-9">En finir avec la «Dette Technique»</h5>
+                        </div>
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-lg-3 text-center schedule-who">
+                                    <a href="http://twitter.com/ToF_" target="_blank">
+                                        <img class="img-fluid rounded-circle" src="/img/speakers/christophe_thibaut.jpg"
+                                             alt="Christophe Thibaut">
+                                        <p class="text-center">Christophe Thibaut</p>
+                                        <p class="speakers-company">Octo</p>
+                                    </a>
+                                </div>
+                                <div class="col-lg-9">
+                                    <p class="text-left session-description">Au delà de subir la dette technique comment
+                                        pouvons nous trouver le dialogue qui permettra de commencer à en sortir?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-end">
+                            <h5 class="card-title col-lg-9">Des principes de design à la rescousse des
+                                microservices</h5>
+                        </div>
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-lg-3 text-center schedule-who">
+                                    <a href="http://twitter.com/JeromeAvoustin" target="_blank">
+                                        <img class="img-fluid rounded-circle"
+                                             src="/img/speakers/jerome_avoustin.jpg"
+                                             alt="Jérôme Avoustin">
+                                        <p class="text-center">Jérôme Avoustin</p>
+                                        <p class="speakers-company"></p>
+                                    </a>
+                                </div>
+                                <div class="col-lg-9">
+                                    <p class="text-left session-description">Les architectures basées sur les
+                                        microservices ont le vent en poupe. Tout le monde veut en faire. Les promesses
+                                        en terme de bénéfice sont très séduisantes. Mais implémenter ce type d&#39;architecture
+                                        n&#39;est pas sans difficulté, c&#39;est peu de le dire. On risque en effet à un
+                                        monolithe distribué ...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-end">
+                            <h5 class="card-title col-lg-9">D&#39;impératif au fonctionnel</h5>
+                        </div>
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-lg-3 text-center schedule-who">
+                                    <a href="http://twitter.com/PatrickGIRY" target="_blank">
+                                        <img class="img-fluid rounded-circle" src="/img/speakers/patrick_giry.jpeg" alt="Patrick Giry">
+                                        <p class="text-center">Patrick Giry</p>
+                                        <p class="speakers-company">Arolla</p>
+                                    </a>
+                                </div>
+                                <div class="col-lg-9">
+                                    <p class="text-left session-description">Comment faire de la programmation fonctionnelle quand on a les pieds liés au code impératif et mutable</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-end">
+                            <h5 class="card-title col-lg-9">Petite introduction au TDD par l&#39;exemple</h5>
+                        </div>
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-lg-3 text-center schedule-who">
+                                    <a href="http://twitter.com/xnopre" target="_blank">
+                                        <img class="img-fluid rounded-circle" src="/img/speakers/xavier_nopre.png" alt="Xavier Nopre">
+                                        <p class="text-center">Xavier Nopre</p>
+                                        <p class="speakers-company"></p>
+                                    </a>
+                                </div>
+                                <div class="col-lg-9">
+                                    <p class="text-left session-description">Pour faire du développement itératif et incrémental, nous devons faire évoluer leur code en permanence. Pour cela, il est indispensable d&#39;avoir des tests unitaires, et la meilleure façon de les écrire, c&#39;est le TDD, qui présente bien d&#39;autres avantages ! Après un peu de théorie, je ferai une démo en live coding pour illustrer cette pratique toujours trop peu utilisée.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-end">
+                            <h5 class="card-title col-lg-9">Exploration de différents styles d&#39;architecture</h5>
+                        </div>
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-lg-3 text-center schedule-who">
+                                    <a href="http://twitter.com/clem_bouillier" target="_blank">
+                                        <img class="img-fluid rounded-circle" src="/img/speakers/clement_bouillier.jpg" alt="Clément Bouillier">
+                                        <p class="text-center">Clément Bouillier</p>
+                                        <p class="speakers-company">devcrafting</p>
+                                    </a>
+                                </div>
+                                <div class="col-lg-9">
+                                    <p class="text-left session-description">On entend souvent parler d&#39;architecture en couche/n-tiers, d&#39;architecture hexagonale/en onion, de patterns divers et variés (Repository, DAO, Active Record, Domain Model anémique ou pas, ORM...), de DDD, de CQRS et d&#39;EventSourcing...ce talk en fait un tour d&#39;horizon sous la forme d&#39;une revue de code de différentes architectures d&#39;un même exemple.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-{{ end }}
+
+<section style="padding: 30px">
+    <div class="album">
+        <img class="item--4" src="https://cutt.ly/Trv3eyW" alt="Keynote de Thomas Pierrain">
+        <img class="item--2" src="https://cutt.ly/hrv3juH" alt="Groupe de personnes discutant">
+        <img class="item--1" src="https://cutt.ly/Grv3QRB" alt="Laurent servant une bière">
+        <img class="item--3" src="https://cutt.ly/mrv3yxa" alt="Talk de Bastien David">
+        <img class="item--5" src="https://cutt.ly/Drv3TtT" alt="Atelier technique">
+        <img class="item--6" src="https://cutt.ly/Srv3Gk1" alt="Groupe Forum ouvert">
+        <img class="item--7" src="https://cutt.ly/VrbekV0" alt="Buvette">
+        <img class="item--8" src="https://cutt.ly/WrbeBMc">
+        <div class="item--inner">
+            <a target="_blank" rel="noopener" href="https://photos.app.goo.gl/qUJc6GgeFSBpoSsGA">
+                <button class="btn btn-lg btn-info">Voir toutes les photos</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="sponsors" id="sponsors">
+    <p class="lead text-center font-weight-bold">Un grand merci à nos sponsors sans qui cette première aventure 2019 n'aurait pas pu voir le jour</p>
+
+    <br/>
+
+    <p class="title-golden text-center">Golden Master</p>
+
+    <div class="row sponsors-row text-center">
+        <div class="sponsor-img col my-auto">
+            <a href="https://fr.bonitasoft.com/" target="_blank" about="Bonitasoft">
+                <div class="card border-0">
+                    <img class="img-golden card-img-top mx-auto" src="/img/sponsors/bonitasoft.png" alt="Bonitasoft">
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <p class="title-tdd text-center">TDD</p>
+
+    <div class="row sponsors-row text-center">
+        <div class="sponsor-img col my-auto">
+            <a href="https://www.eloquant.com/" target="_blank" about="Eloquant">
+                <div class="card border-0">
+                    <img class="img-tdd card-img-top mx-auto" src="/img/sponsors/eloquant.jpg" alt="Eloquant">
+                </div>
+            </a>
+        </div>
+
+        <div class="sponsor-img col my-auto">
+            <a href="https://www.salesforce.com" target="_blank" about="Salesforce">
+                <div class="card border-0">
+                    <img class="img-tdd card-img-top mx-auto" src="/img/sponsors/salesforce.png" alt="Salesforce">
+                </div>
+            </a>
+        </div>
+
+        <div class="sponsor-img col my-auto">
+            <a href="https://www.tuleap.org/" target="_blank" about="Tuleap">
+                <div class="card border-0">
+                    <img class="img-tdd card-img-top mx-auto" src="http://localhost:1313/img/sponsors/tuleap.png" alt="Tuleap">
+                </div>
+            </a>
+        </div>
+
+        <div class="sponsor-img col my-auto">
+            <a href="https://www.zenika.com/" target="_blank" about="Zenika">
+                <div class="card border-0">
+                    <img class="img-tdd card-img-top mx-auto" src="http://localhost:1313/img/sponsors/zenika.png" alt="Zenika">
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="partners" id="partners">
+    <p class="lead text-center font-weight-bold">Merci à nos partenaires de nous faire confiance </p>
+
+    <div class="row partners-row text-center">
+
+        <div class="col my-auto partner-img">
+            <a href="http://www.alpesjug.org/" target="_blank" about="AlpesJUG">
+                <div class="card border-0">
+                    <img class="card-img-top mx-auto" src="/img/partners/alpesjug.png" alt="AlpesJUG">
+                </div>
+            </a>
+        </div>
+
+        <div class="col my-auto partner-img">
+            <a href="http://grenoble.clubagilerhonealpes.org" target="_blank" about="CARA">
+                <div class="card border-0">
+                    <img class="card-img-top mx-auto" src="/img/partners/cara.png" alt="CARA">
+                </div>
+            </a>
+        </div>
+
+        <div class="col my-auto partner-img">
+            <a href="https://socrates-fr.github.io/" target="_blank" about="SoCraTes-FR">
+                <div class="card border-0">
+                    <img class="card-img-top mx-auto" src="/img/partners/SoCraTes-FR.jpg" alt="SoCraTes-FR">
+                </div>
+            </a>
+        </div>
+
+        <div class="col my-auto partner-img">
+            <a href="https://unepetitemousse.fr/" target="_blank" about="Une petite mousse">
+                <div class="card border-0">
+                    <img class="card-img-top mx-auto" src="/img/partners/unepetitemousse.png" alt="Une petite mousse">
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+</section>
 
 <!-- Footer -->
 {{ partial "footer.html" .Site.Params }}
