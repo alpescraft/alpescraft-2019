@@ -4,21 +4,28 @@
     padding: 10px;
   }
 
-  .icon-youtube:after {
-    background: url('/img/logo/youtube.png') no-repeat center top;
-    background-size: 100% auto;
-    content: '';
-    display: block;
-    position: absolute;
+  .card {
+    margin: 10px 0 10px 0;
+  }
+
+  .icon-youtube {
+    max-width: 20%;
+    min-width: 4rem;
+    width: auto;
+    height: auto;
+  }
+
+  .schedule-link {
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    padding: .85em 1em;
+    font-size: .9rem;
+    border: 1px solid #007bff;
   }
 
   .conference-link {
     font-size: 1.5rem;
-
-    .icon-youtube:after {
-      height: 70px;
-      width: 70px;
-    }
   }
 
   .album {
@@ -86,10 +93,6 @@
 
 
   .album img {
-    //object-fit: cover;
-    //width: 100% !important;
-    //height: auto !important;
-    //display: block;
     display: block;
     object-fit: contain;
     width: 100%;
@@ -106,6 +109,31 @@
       width: 100%;
       height: 100%;
     }
+  }
+
+  .youtube-link {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .youtube-background {
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .card:hover .youtube-link {
+    opacity: 1;
+  }
+
+  .card:hover .youtube-background {
+    opacity: 0.1;
+    background-color: gray;
   }
 
 }
