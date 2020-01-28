@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav">
             <li class="nav-item">
-                {{ range $key, $value := $.Site.Params.Titles.icons }}
+                {{ range $key, $value := $.Site.Params.Titles.home }}
                 <a class="text-center nav-link" href="{{ $.Site.BaseURL }}" about="{{ $value.title }}">
                     <i class="{{ $value.icon }} nav-icon"></i>
                     <p>{{ $value.title }}</p>
