@@ -19,6 +19,12 @@ For windows install : https://chocolatey.org/packages/hugo-extended
 hugo server -D
 ```
 
+ou avec Docker, sans installer Hugo :
+
+```
+./startDockerHugo.sh
+```
+
 ## Prod mode
 
 ```
