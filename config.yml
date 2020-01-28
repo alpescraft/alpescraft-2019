@@ -35,20 +35,14 @@ params:
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
-    - icons
+    - home
     - about
     - sponsors
     - partners
 
-
-  # Active sections on the website to deactivate comment out with '#'
-  # you can also change order here and it will reflect on page
-  SectionsPrevious:
-    - schedule
-
   # Titles which you can translate to other languages
   Titles:
-     icons:
+     home:
        - title: "La conférence"
          icon: "icon-home"
      about:
