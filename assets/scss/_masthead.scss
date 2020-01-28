@@ -3,6 +3,7 @@ header.masthead {
   background-color: $gray-800;
   background: url('../img/cover.jpg') no-repeat center top;
   background-size: 100% auto;
+
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -20,7 +21,7 @@ header.masthead {
   }
   @media (min-width: 768px) {
     padding-top: 3rem;
-    padding-bottom: 12rem;
+    padding-bottom: 5rem;
     h1 {
       font-size: 3rem;
     }
