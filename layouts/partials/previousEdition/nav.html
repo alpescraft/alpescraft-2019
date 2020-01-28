@@ -2,12 +2,13 @@
     <a class="navbar-brand" href="#">
         <img src="/img/logo/color/04-AlpesCraft_Couleurs-S.png" class="navbar-brand-logo" alt="AlpesCraft logo">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav">
-              <li class="nav-item">
+        <ul class="navbar-nav">
+            <li class="nav-item">
                 {{ range $key, $value := $.Site.Params.Titles.icons }}
                 <a class="text-center nav-link" href="{{ $.Site.BaseURL }}" about="{{ $value.title }}">
                     <i class="{{ $value.icon }} nav-icon"></i>
@@ -15,16 +16,6 @@
                 </a>
                 {{ end }}
             </li>
-            {{ range $section := $.Site.Params.SectionsPrevious }}
-            <li class="nav-item">
-                {{ range $key, $value := (index $.Site.Params.Titles $section) }}
-                <a class="text-center nav-link" href="{{ $.Site.BaseURL }}/{{ $.Site.Params.LinksPrevious.edition2019 }}/#{{ $section }}" about="{{ $value.title }}">
-                    <i class="{{ $value.icon }} nav-icon"></i>
-                    <p>{{ $value.title }}</p>
-                </a>
-                {{ end }}
-            </li>
-            {{ end }}
-          </ul>
+        </ul>
     </div>
 </nav>
