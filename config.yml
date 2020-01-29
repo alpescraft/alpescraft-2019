@@ -37,8 +37,8 @@ params:
   Sections:
     - home
     - about
-    - sponsors
-    - partners
+#    - sponsors
+#    - partners
 
   # Titles which you can translate to other languages
   Titles:
