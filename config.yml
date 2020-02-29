@@ -22,6 +22,8 @@ params:
   State: "France"
   Twitter: "https://twitter.com/AlpesCraft"
   Email: "contact@alpescraft.fr"
+  images:
+    - "/img/logo/color/03-AlpesCraft_Couleurs-M.png"
 
   Credits:
     - name: "Xavier Nopre"
