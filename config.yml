@@ -38,6 +38,8 @@ params:
   Sections:
     - home
     - about
+    - location
+    - billetterie
 #    - sponsors
 #    - partners
 
@@ -64,7 +66,7 @@ params:
      partners:
        - title: "Partenaires"
          icon: "icon-heart"
-     billeterie:
+     billetterie:
        - title: "Billetterie"
          icon: "icon-basket"
      edition2019:

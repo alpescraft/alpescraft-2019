@@ -1,7 +1,6 @@
 .call-to-action {
   position: relative;
-  background-color: $gray-800;
-  background: url('../img/roll-coupons.jpg') no-repeat center center;
+  background: $gray-800 url('https://images.unsplash.com/photo-1510130315046-1e47cc196aa0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9') no-repeat center center;
   @include background-cover;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -15,5 +14,13 @@
       bottom: 0;
       background: rgba(255, 255, 255, 0.2);
       pointer-events: none;
+  }
+
+  .billetterie-text {
+    font-weight: 700;
+    display: inline-block;
+    padding: 1em 1em;
+    border: 1px solid white;
+    border-radius: 5px;
   }
 }
