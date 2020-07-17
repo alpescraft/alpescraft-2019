@@ -1,11 +1,11 @@
-<p class="lead text-center font-weight-bold">Un grand merci à nos sponsors sans qui cette première aventure 2019 n'aurait pas pu voir le jour</p>
+<p class="lead text-center font-weight-bold">Un grand merci à nos sponsors qui nous soutiennent et sans qui AlpesCraft ne serait pas possible</p>
 
 <br/>
 
-<p class="title-golden text-center">Golden Master</p>
+<p class="title-golden text-center">Mentor</p>
 
 <div class="row sponsors-row text-center">
-  {{ range $sponsor := .sponsors.golden }}
+  {{ range $sponsor := .sponsors.mentor }}
   <div class="sponsor-img col my-auto">
     <a href="{{ .url }}" target="_blank" about="{{ .name }}">
       <div class="card border-0">
@@ -16,18 +16,20 @@
   {{ end }}
 </div>
 
-<p class="title-tdd text-center">TDD</p>
-<div class="row sponsors-row text-center">
-  {{ range $sponsor := .sponsors.tdd }}
-  <div class="sponsor-img col my-auto">
-    <a href="{{ .url }}" target="_blank" about="{{ .name }}">
-      <div class="card border-0">
-        <img class="img-tdd card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
-      </div>
-    </a>
+{{ with .sponsors.apprentice }}
+  <p class="title-tdd text-center">Apprentice</p>
+  <div class="row sponsors-row text-center">
+    {{ range $sponsor := .sponsors.apprentice }}
+    <div class="sponsor-img col my-auto">
+      <a href="{{ .url }}" target="_blank" about="{{ .name }}">
+        <div class="card border-0">
+          <img class="img-tdd card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
+        </div>
+      </a>
+    </div>
+    {{ end }}
   </div>
-  {{ end }}
-</div>
+{{ end }}
 
 <div class="row my-auto">
   <div class="col text-center">

@@ -38,9 +38,9 @@ params:
   Sections:
     - home
     - about
-    - location
+    - sponsors
     - billetterie
-#    - sponsors
+    - location
 #    - partners
 
   # Titles which you can translate to other languages
@@ -142,23 +142,23 @@ params:
 
   # List of Sponsors
   Sponsors:
-    golden:
-      - name: "Bonitasoft"
-        logo: "/img/sponsors/bonitasoft.png"
-        url: "https://fr.bonitasoft.com/"
-    tdd:
-      - name: "Eloquant"
-        logo: "/img/sponsors/eloquant.jpg"
-        url: "https://www.eloquant.com/"
-      - name: "Salesforce"
-        logo: "/img/sponsors/salesforce.png"
-        url: "https://www.salesforce.com"
-      - name: "Tuleap"
-        logo: "/img/sponsors/tuleap.png"
-        url: "https://www.tuleap.org/"
-      - name: "Zenika"
-        logo: "/img/sponsors/zenika.png"
-        url: "https://www.zenika.com/"
+    mentor:
+      - name: "Enalean"
+        logo: "/img/sponsors/enalean.svg"
+        url: "https://www.enalean.com/"
+    apprentice: []
+#      - name: "Eloquant"
+#        logo: "/img/sponsors/eloquant.jpg"
+#        url: "https://www.eloquant.com/"
+#      - name: "Salesforce"
+#        logo: "/img/sponsors/salesforce.png"
+#        url: "https://www.salesforce.com"
+#      - name: "Tuleap"
+#        logo: "/img/sponsors/tuleap.png"
+#        url: "https://www.tuleap.org/"
+#      - name: "Zenika"
+#        logo: "/img/sponsors/zenika.png"
+#        url: "https://www.zenika.com/"
 
   # List of Partners
   Partners:
