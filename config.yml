@@ -15,7 +15,7 @@ params:
   Name: "AlpesCraft"
   Year: "2019"
   Description: "Découvrir, apprendre et se perfectionner"
-  Date: "2 et 3 Novembre 2020"
+  Date: "Juin 2021"
   Venue: "Maison Minatec"
   Address: "3 Parvis Louis Néel"
   City:  "Grenoble"
@@ -38,8 +38,8 @@ params:
   Sections:
     - home
     - about
-    - sponsors
-    - billetterie
+#    - sponsors
+#    - billetterie
     - location
 #    - partners
 
