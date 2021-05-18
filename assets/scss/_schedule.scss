@@ -14,18 +14,18 @@
   }
 
   li.schedule-list-article {
-    width: 30%;
+    width: 45%;
     margin: 2.25rem 1rem;
   }
 
   @media (max-width: 1800px) {
     li.schedule-list-article {
-      width: 30% !important;
+      width: 45% !important;
     }
   }
   @media (max-width: 1200px) {
     li.schedule-list-article {
-      width: 45% !important;
+      width: 100% !important;
     }
   }
   @media (max-width: 768px) {
@@ -80,6 +80,10 @@
     }
   }
 
+    .schedule-link {
+        display: flex;
+        margin-left: auto;
+    }
   section {
     position: relative;
     display: flex;

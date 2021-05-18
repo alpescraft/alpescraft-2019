@@ -238,7 +238,9 @@ params:
       href: "https://twitter.com/saby_nastasia"
       text: "@saby_nastasia"
       company: "Zenika"
-      bio: "Développeur, passionnée de programmation en général, consultante Zenika, je suis fan de Software Craftsmanship et de Big Data. J'ai commencé dans le monde PHP avant d'embrasser celui exaltant de la Big Data."
+      bio: "En bio je propose : Ingénieur en machine learning, j'ai commencé ma carrière en tant que développeur back-end avant de suivre le chemin de la data.
+            Au quotidien, je travaille aujourd'hui dans la mise en production de systèmes prédictifs.
+            Crafting et data sont mes dadas."
 
     manuelvacelet:
       name: "Manuel Vacelet"
@@ -271,7 +273,6 @@ params:
       text: "@johan_alps"
       bio: "est un développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
       company: "ChangIT"
-
 
     davidcrosson:
       name: "David Crosson"
@@ -337,11 +338,53 @@ params:
       company: "Orange"
 
     orga:
-      name: "l'orga"
+      name: ""
       photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.png"
       href: "http://twitter.com/alpescraft"
       text: "@AlpesCraft"
       bio: ""
+
+    romeumoura:
+      name: "Romeu Moura"
+      photo: "/img/speakers/romeu_moura.jpg"
+      href: "https://twitter.com/malk_zameth"
+      text: "@malk_zameth"
+      company: "BCG Platinion"
+      bio: "Endless conversation — with friends, compilers — on art, equivocacy, Symmathesy, methods, absurdism, dialectic, paradigm jumps, serendipity."
+
+    carolalilienthal:
+      name: "Carola Lilienthal"
+      photo: "/img/speakers/carola_lilienthal.jpg"
+      href: "https://twitter.com/cairolali"
+      text: "@malk_zameth"
+      company: "WPS - Workplace Solutions"
+      bio: "Dr. Carola Lilienthal is Managing Director of WPS - Workplace Solutions GmbH and has been regularly analysing the future viability of software architectures on behalf of her customers since 2003. She is author of the book “Sustainable Softwarearchitecture” and translated Vaughn Vernon’s book “Domain-Driven Design Distilled” into German, together with Henning Schwentner."
+
+    martinchoraine:
+      name: "Martin Choraine"
+      photo: "/img/speakers/martin_choraine.jpeg"
+      href: "https://twitter.com/mchoraine"
+      text: "@mchoraine"
+      company: "Zenika"
+      bio: "Développeur backend et frontend depuis plusieurs années, j'aime contribuer sur toutes les facettes du développement d'un produit. En partant de la collecte du besoin en passant par la conception, l’UI/UX, l'architecture, le développement back, le développement front jusqu'au déploiement et l'exploitation.
+            Je suis très attaché aux valeurs prônées par le software craftsmanship car je suis passionné par mon métier. J'apprécie particulièrement de pouvoir continuer à enrichir mes connaissances pour pouvoir les transmettre puis partager leur mise à profit."
+
+    sepehrnamdar:
+      name: "Sepehr Namdar"
+      photo: "/img/speakers/sepehr_namdar.png"
+      href: "https://twitter.com/SepNamdar"
+      text: "@SepNamdar"
+      company: ""
+      bio: ""
+
+    hadiahmadi:
+      name: "Hadi Ahmadi"
+      photo: "/img/speakers/hadi_ahmadi.png"
+      href: "https://twitter.com/SepNamdar"
+      text: "@SepNamdar"
+      company: ""
+      bio: ""
+
 
   Schedule:
     - name: "Fishbowl"
@@ -355,7 +398,7 @@ params:
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "johanmartinsson"
+          speakerid: "orga"
     - name: "TDD Au-delà de l'intro"
       description: "Beyond the “test first, then test guiding then Red green refactor” stuff : what is all the fuss about?
       In this hands-on we’ll cover that. Why do TDD even if you’re doing a hackathon and throwing away the code? TDD as Socratic dialogue, TDD as mindfulness, the design goals behind the tool.
@@ -371,9 +414,7 @@ params:
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "johanmartinsson"
-        - speaker:
-          speakerid: "johanmartinsson"
+          speakerid: "romeumoura"
     - name: "DDD Mob Architecting"
       description: "In this session we will work as a mob – a group with one driver (me) at the mouse and keyboard – to discuss problems in an existing legacy system that could be solved with Domain-Driven Design. We will analyze problems such as: large entities that are used all over the system and how we could divide them into smaller entities, the lack of value objects and what kind of value object could be introduced and how as well as the possibilities to cut the system into bounded contexts. All this will be done with architecture analysis tools that help us work on the level above the source code."
       categories:
@@ -385,7 +426,7 @@ params:
       language: "🇬🇧"
       speakers:
         - speaker:
-          speakerid: "johanmartinsson"
+          speakerid: "carolalilienthal"
     - name: "La clean architecture dans le web"
       description: "Comment se passer au mieux des frameworks front en utilisant une architecte hexagonale en mode TDD, est-ce possible ? Comment changer de frameworks front (Angular, VueJS, React) avec un impact minime, est-ce possible ? C'est le défi de cette session !"
       type: "talk"
@@ -398,9 +439,8 @@ params:
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "johanmartinsson"
-        - speaker:
-          speakerid: "johanmartinsson"
+          speakerid: "martinchoraine"
+
     - name: "La gestion des bonnes pratiques dans le monde de la data"
       description: "MLOps, sans peur ni héroïsme (du cafouillage au bricolage)
       Mettre du machine learning en production paraît facile aux premiers abords. On fait des tests unitaires. On versionne son code. Et le tour est joué.
@@ -416,9 +456,7 @@ params:
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "johanmartinsson"
-        - speaker:
-          speakerid: "johanmartinsson"
+          speakerid: "nastasiasaby"
     - name: "Refactoring avec le pattern sandwich"
       description: "In this session, we’ll try to solve a very common problem in software development teams: dealing with legacy procedural code without tests.
       In the Sandwich pattern, we start from a class (generally an Application Service). We identify where it uses shared state (generally from a database). Then we push that code to its extremes (up and down) between which we have an immutable domain model that we can interact with.
@@ -439,6 +477,6 @@ params:
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "johanmartinsson"
+          speakerid: "sepehrnamdar"
         - speaker:
-          speakerid: "johanmartinsson"
+          speakerid: "hadiahmadi"
