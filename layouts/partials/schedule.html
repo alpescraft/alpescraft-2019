@@ -2,14 +2,13 @@
 <h2 class="section-title title">{{ $value.title }}</h2>
 {{ end }}
 
-<div class="schedule-pdf">
-    <p>Téléchargez le programme en PDF</p>
-    <p><a href="/schedule/schedule_2019.pdf" target="_blank">version <b>simplifiée</b></a></p>
-    <p><a href="/schedule/schedule_2019_detaille.pdf" target="_blank">version <b>détaillée</b></a></p>
-</div>
+<!--<div class="schedule-pdf">-->
+<!--    <p>Téléchargez le programme en PDF</p>-->
+<!--    <p><a href="/schedule/schedule_2019.pdf" target="_blank">version <b>simplifiée</b></a></p>-->
+<!--    <p><a href="/schedule/schedule_2019_detaille.pdf" target="_blank">version <b>détaillée</b></a></p>-->
+<!--</div>-->
 
 {{ $speakersmap := .speakersmap }}
-<!--<div class="container-fluid">-->
     <ul class="schedule-list-article">
     {{ range $slot := .schedule }}
         <li class="schedule-list-article">
@@ -37,6 +36,27 @@
             <section>
                 <h2 class="talk-title">{{ .name }}</h2>
                 <h3 class="talk-date">{{ .date }}</h3>
+                <div class="schedule-calendar" style="display: none;">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle rounded" style="border: 1px solid #212529;" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                            <svg style="margin-right: 0.75rem;" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                            </svg>
+                            Ajouter au calendrier
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a target="_blank" class="dropdown-item" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220112T180000Z%2F20220112T200000Z&details={{ .description | safeHTML }}&text={{ .name | safeHTML }}">
+                                <img src="img/logo/gmail_icon.png" width="32" height="32">
+                            </a>
+                            <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">
+                                <img src="img/logo/outlook.png" width="32" height="32">
+                            </a>
+                            <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&location=New%20Earth&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">
+                                <img src="img/logo/office_365.png" width="32" height="32">
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <p>{{ .description }}</p>
             </section>
             <footer>
@@ -60,11 +80,6 @@
                     </ul>
                     <div class="footer-bottom">
                         {{ .language }}
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-camera-reels" style="margin-left: 0.75rem" viewBox="0 0 16 16">
-                            <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
-                            <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"/>
-                            <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
-                        </svg>
                     </div>
                 </div>
             </footer>
@@ -72,4 +87,3 @@
         </li>
     {{ end }}
     </ul>
-<!--</div>-->

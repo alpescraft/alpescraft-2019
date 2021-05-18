@@ -15,7 +15,7 @@ params:
   Name: "AlpesCraft"
   Year: "2019"
   Description: "Découvrir, apprendre et se perfectionner"
-  Date: "Juin 2021"
+  Date: "Du 7 au 10 Juin 2021"
   Venue: "Maison Minatec"
   Address: "3 Parvis Louis Néel"
   City:  "Grenoble"
@@ -348,9 +348,10 @@ params:
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
       type: "talk"
       categories:
+        - "Talk"
         - "💡 Discovery"
         - "Beginner"
-      date: "Lundi 7 Juin - 20h30"
+      date: "Date à venir"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -360,12 +361,13 @@ params:
       In this hands-on we’ll cover that. Why do TDD even if you’re doing a hackathon and throwing away the code? TDD as Socratic dialogue, TDD as mindfulness, the design goals behind the tool.
       To do that I’ll start by showing you how I teach TDD to people. (If you are a beginner you are also welcome.) We’ll slow down in each part, and we’ll use techniques such as lazy-naming, branch reduction, purposeful-bad-faith, …
       Then we shall dive into the why."
-      type: "talk"
+      type: "workshop"
       categories:
+        - "Workshop"
         - "💡 Discovery"
         - "Beginner"
         - "Mob"
-      date: "Mardi 8 Juin - 12h00"
+      date: "Date à venir"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -375,10 +377,11 @@ params:
     - name: "DDD Mob Architecting"
       description: "In this session we will work as a mob – a group with one driver (me) at the mouse and keyboard – to discuss problems in an existing legacy system that could be solved with Domain-Driven Design. We will analyze problems such as: large entities that are used all over the system and how we could divide them into smaller entities, the lack of value objects and what kind of value object could be introduced and how as well as the possibilities to cut the system into bounded contexts. All this will be done with architecture analysis tools that help us work on the level above the source code."
       categories:
-        - "💡 Discovery"
         - "Workshop"
+        - "💡 Discovery"
+        - "Mob"
       type: "workshop"
-      date: "Mercredi 9 Juin - 20h00"
+      date: "Date à venir"
       language: "🇬🇧"
       speakers:
         - speaker:
@@ -387,10 +390,11 @@ params:
       description: "Comment se passer au mieux des frameworks front en utilisant une architecte hexagonale en mode TDD, est-ce possible ? Comment changer de frameworks front (Angular, VueJS, React) avec un impact minime, est-ce possible ? C'est le défi de cette session !"
       type: "talk"
       categories:
+        - "Talk"
         - "💡 Discovery"
         - "Web"
         - "Beginner"
-      date: "Jeudi 10 Juin - 20h30"
+      date: "Date à venir"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -404,10 +408,11 @@ params:
       Dans cette présentation, je vous propose de voir ce que j'ai pu apprendre pour travailler sans peur ni héroïsme. Je vous montrerai aussi le chemin qu'il reste à parcourir."
       type: "talk"
       categories:
+        - "Talk"
         - "💡 Discovery"
         - "Data"
         - "Beginner"
-      date: "Jeudi 10 Juin - 22h00"
+      date: "Date à venir"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -427,9 +432,10 @@ params:
       The exercises will be available in Java and C#."
       type: "workshop"
       categories:
+        - "Workshop"
         - "💡 Discovery"
         - "Beginner"
-      date: "Vendredi 11 Juin - 12h00"
+      date: "Date à venir"
       language: "🇫🇷"
       speakers:
         - speaker:
