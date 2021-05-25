@@ -15,7 +15,7 @@ params:
   Name: "AlpesCraft"
   Year: "2019"
   Description: "Découvrir, apprendre et se perfectionner"
-  Date: "Juin 2021"
+  Date: "Du 7 au 11 Juin 2021"
   Venue: "Maison Minatec"
   Address: "3 Parvis Louis Néel"
   City:  "Grenoble"
@@ -41,7 +41,7 @@ params:
 #    - sponsors
 #    - billetterie
     - location
-#    - partners
+    - schedule
 
   # Titles which you can translate to other languages
   Titles:
@@ -238,7 +238,9 @@ params:
       href: "https://twitter.com/saby_nastasia"
       text: "@saby_nastasia"
       company: "Zenika"
-      bio: "Développeur, passionnée de programmation en général, consultante Zenika, je suis fan de Software Craftsmanship et de Big Data. J'ai commencé dans le monde PHP avant d'embrasser celui exaltant de la Big Data."
+      bio: "En bio je propose : Ingénieur en machine learning, j'ai commencé ma carrière en tant que développeur back-end avant de suivre le chemin de la data.
+            Au quotidien, je travaille aujourd'hui dans la mise en production de systèmes prédictifs.
+            Crafting et data sont mes dadas."
 
     manuelvacelet:
       name: "Manuel Vacelet"
@@ -271,7 +273,6 @@ params:
       text: "@johan_alps"
       bio: "est un développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
       company: "ChangIT"
-
 
     davidcrosson:
       name: "David Crosson"
@@ -337,252 +338,154 @@ params:
       company: "Orange"
 
     orga:
-      name: "l'orga"
+      name: ""
       photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.png"
       href: "http://twitter.com/alpescraft"
       text: "@AlpesCraft"
       bio: ""
 
+    romeumoura:
+      name: "Romeu Moura"
+      photo: "/img/speakers/romeu_moura.jpg"
+      href: "https://twitter.com/malk_zameth"
+      text: "@malk_zameth"
+      company: "BCG Platinion"
+      bio: "Endless conversation — with friends, compilers — on art, equivocacy, Symmathesy, methods, absurdism, dialectic, paradigm jumps, serendipity."
+
+    carolalilienthal:
+      name: "Carola Lilienthal"
+      photo: "/img/speakers/carola_lilienthal.jpg"
+      href: "https://twitter.com/cairolali"
+      text: "@malk_zameth"
+      company: "WPS - Workplace Solutions"
+      bio: "Dr. Carola Lilienthal is Managing Director of WPS - Workplace Solutions GmbH and has been regularly analysing the future viability of software architectures on behalf of her customers since 2003. She is author of the book “Sustainable Softwarearchitecture” and translated Vaughn Vernon’s book “Domain-Driven Design Distilled” into German, together with Henning Schwentner."
+
+    martinchoraine:
+      name: "Martin Choraine"
+      photo: "/img/speakers/martin_choraine.jpeg"
+      href: "https://twitter.com/mchoraine"
+      text: "@mchoraine"
+      company: "Zenika"
+      bio: "Développeur backend et frontend depuis plusieurs années, j'aime contribuer sur toutes les facettes du développement d'un produit. En partant de la collecte du besoin en passant par la conception, l’UI/UX, l'architecture, le développement back, le développement front jusqu'au déploiement et l'exploitation.
+            Je suis très attaché aux valeurs prônées par le software craftsmanship car je suis passionné par mon métier. J'apprécie particulièrement de pouvoir continuer à enrichir mes connaissances pour pouvoir les transmettre puis partager leur mise à profit."
+
+    sepehrnamdar:
+      name: "Sepehr Namdar"
+      photo: "/img/speakers/sepehr_namdar.png"
+      href: "https://twitter.com/SepNamdar"
+      text: "@SepNamdar"
+      company: ""
+      bio: ""
+
+    hadiahmadi:
+      name: "Hadi Ahmadi"
+      photo: "/img/speakers/hadi_ahmadi.png"
+      href: "https://twitter.com/SepNamdar"
+      text: "@SepNamdar"
+      company: ""
+      bio: ""
+
+
   Schedule:
-    - time: "8h00"
-      name: "Accueil et petit déjeuner"
+    - name: "Fishbowl"
+      description: "Lors de cette session nous vous proposons de participer à plusieurs discussions autour du thème du craft (bonnes pratiques dans le monde du développement logiciel).
+                    Ces discussions se tiendront sous la forme d'un Fishbowl où chaque participant sera libre de participer.
+                    Prérequis : accès à discord.com (accueil et support technique) et à stooa.com (séance).
+                    Pour intervenir il vous faudra un micro et une webcam.
+                    Le rendez-vous se fera à 20h sur le canal #fishbowl de discord."
+      type: "talk"
+      categories:
+        - "Talk"
+        - "💡 Discovery"
+        - "Beginner"
+      date: "Lundi 07 Juin - 20h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+    - name: "TDD Au-delà de l'intro"
+      description: "Beyond the “test first, then test guiding then Red green refactor” stuff : what is all the fuss about?
+            In this hands-on we’ll cover that. Why do TDD even if you’re doing a hackathon and throwing away the code? TDD as Socratic dialogue, TDD as mindfulness, the design goals behind the tool.
+            To do that I’ll start by showing you how I teach TDD to people. (If you are a beginner you are also welcome.) We’ll slow down in each part, and we’ll use techniques such as lazy-naming, branch reduction, purposeful-bad-faith, …
+            Then we shall dive into the why."
+      type: "workshop"
+      categories:
+        - "Workshop"
+        - "💡 Discovery"
+        - "Beginner"
+        - "Mob"
+      date: "Jeudi 10 Juin - 20h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "romeumoura"
+    - name: "DDD Mob Architecting"
+      description: "In this session we will work as a mob – a group with one driver (me) at the mouse and keyboard – to discuss problems in an existing legacy system that could be solved with Domain-Driven Design. We will analyze problems such as: large entities that are used all over the system and how we could divide them into smaller entities, the lack of value objects and what kind of value object could be introduced and how as well as the possibilities to cut the system into bounded contexts. All this will be done with architecture analysis tools that help us work on the level above the source code."
+      categories:
+        - "Workshop"
+        - "💡 Discovery"
+        - "Mob"
+      type: "workshop"
+      date: "Mercredi 09 Juin - 18h"
+      language: "🇬🇧"
+      speakers:
+        - speaker:
+          speakerid: "carolalilienthal"
+    - name: "La clean architecture dans le web"
+      description: "Comment se passer au mieux des frameworks front en utilisant une architecte hexagonale en mode TDD, est-ce possible ? Comment changer de frameworks front (Angular, VueJS, React) avec un impact minime, est-ce possible ? C'est le défi de cette session !"
+      type: "talk"
+      categories:
+        - "Talk"
+        - "💡 Discovery"
+        - "Web"
+        - "Beginner"
+      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "martinchoraine"
 
-    - time: "9h00"
-      conferences:
-        - name: "Equiper sa voie"
-          description: "Au-delà de la passion, faire du logiciel pour moi c’est aider les autres à résoudre leurs problèmes. Comment aider les autres si on n’est pas déjà clair soi-même avec sa posture, son métier, ses envies, ses ambitions ou bien ses craintes ? C’est la question que je me suis posé à plusieurs reprises durant ma carrière. Et c’est de cela - et des quelques aides trouvées en route - dont je voudrais vous parler."
-          speakers:
-            - speaker:
-              speakerid: "thomaspierrain"
+    - name: "La gestion des bonnes pratiques dans le monde de la data"
+      description: "MLOps, sans peur ni héroïsme (du cafouillage au bricolage)
+      Mettre du machine learning en production paraît facile aux premiers abords. On fait des tests unitaires. On versionne son code. Et le tour est joué.
+      En réalité, ce n'est pas si simple que ça. Pour deux raisons principalement : d'abord, le monde de la data science n'est pas aussi rôdé à ces pratiques que le monde du développement back-end par exemple. Ensuite, ça ne suffit pas. Le machine learning a ses spécificités qu'il faut prendre en compte pour une production sereine.
+      Dans cette présentation, je vous propose de voir ce que j'ai pu apprendre pour travailler sans peur ni héroïsme. Je vous montrerai aussi le chemin qu'il reste à parcourir.
+      J'en profiterai aussi pour discuter de ce que cette expérience apporte au développement d'une manière générale : trouver d'autres manières de tester que les classiques proposées ou vendre le crafting à des personnes business."
+      type: "talk"
+      categories:
+        - "Talk"
+        - "💡 Discovery"
+        - "Data"
+        - "Beginner"
+      date: "Mardi 08 Juin - 13h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "nastasiasaby"
+    - name: "Refactoring avec le pattern sandwich"
+      description: "In this session, we’ll try to solve a very common problem in software development teams: dealing with legacy procedural code without tests.
 
-    - time: "10h00"
-      name: "Pause"
+          In the Sandwich pattern, we start from a class (generally an Application Service). We identify where it uses shared state (generally from a database). Then we push that code to its extremes (up and down) between which we have an immutable domain model that we can interact with.
 
-    - time: "10h15"
-      conferences:
-        - name: "Petite introduction au TDD par l'exemple"
-          description: "Pour faire du développement itératif et incrémental, nous devons faire évoluer leur code en permanence. Pour cela, il est indispensable d'avoir des tests unitaires, et la meilleure façon de les écrire, c'est le TDD, qui présente bien d'autres avantages ! Après un peu de théorie, je ferai une démo en live coding pour illustrer cette pratique toujours trop peu utilisée."
-          speakers:
-            - speaker:
-              speakerid: "xaviernopre"
+          The idea is to protect our code using Approval Tests and refactor this procedural code to domain-centric code. We’ll use good practices to finally reach services that correspond to the Sandwich pattern and coherent rich domain objects containing business behaviours.
 
-        - name: "Designé pour être jeté!"
-          description: "Au début de sa carrière, on tire une certaine fierté de la quantité de code écrit. Au fil du temps, on prend de plus en plus de fierté à jeter du code, si bien que certains développeurs se vantent parfois d'avoir supprimé plus de code qu'ils en ont écrit sur une journée."
-          details: "Et si l'on se concentrait sur le fait de jeter notre code ? Et si l'on designait pour jeter notre code ? Et si l'on se donnait du temps pour écrire du code jetable, supprimé aussitôt qu'écrit ?
-                    Nous discuterons de ce genre de pratique, et les mettrons en oeuvre sur un cas d'étude, pour voir tous les bénéfices d'une telle approche."
-          speakers:
-            - speaker:
-              speakerid: "bastiendavid"
+          In between exercises, we’ll discuss:
 
-        - name: "Découvrez l’Example mapping par la pratique"
-          description: "Atelier : Le BDD est trop souvent réduit à de l’outillage, alors que c’est surtout un super moyen de rapprocher le métier et les professionnels du software pour livrer des applications qui font ce dont on a réellement besoin. Malgré sa redoutable efficacité, L’Example Mapping n’est pas encore beaucoup utilisé et demeure plutôt méconnu. Après une rapide introduction à l’Example Mapping nous le pratiquerons ensemble autours d’un cas concret."
-          speakers:
-            - speaker:
-              speakerid: "thomaspierrain"
-
-        - name: "Pimper sa chaîne de build"
-          description: "Atelier : Installons une chaîne de build complète sur son portable et voir comment interagissent chaque composant de cette forge. Nous discuterons aussi de quels sont les pièges à éviter."
-          details: "Aujourd'hui avoir une chaîne de build pour son projet open source est relativement simple, mais peut on faire de même au sein d'une entreprise avec les contraintes d'intégration entre les différents systèmes (gestion de backlog, déploiement,...), nécessité de stocker ses binaires/images.
-                    Nous discuterons aussi du KISS et YAGNI appliqué à sa forge."
-          speakers:
-            - speaker:
-              speakerid: "laurenttardif"
-
-    - time: "11h15"
-      conferences:
-        - name: "Du legacy au TDD"
-          description: "C'est quoi l'obstacle principal à travailler avec les tests ou en TDD. C'est que le code existant n'a pas été concu pour!
-          Voyons à travers un exemple comment on reprend le code, le prépare au travail en TDD à l'aide des tests :) et du refactoring préparatoire
-          afin que cela devienne un jeu d'enfant d'ajouter la nouvelle fonctionnalité en TDD (ou presque :D)"
-          speakers:
-            - speaker:
-              speakerid: "johanmartinsson"
-
-        - name: "La revue de code, sur le terrain"
-          description: "La revue de code est un art difficile, et contrairement à ce que l'on pourrait croire, ça ne va pas en s'arrangeant avec le temps comme par magie.
-                        Cette présentation est un état des leçons apprises sur les 8 années de revue de code pratiquées sur le projet Tuleap."
-          details: "Comment s'y prendre ? Qu'est ce que je revois ? Qui revoit quel code ? Comment faire une revue constructive ? sont parmis les questions qui sont
-                    abordées dans cette présentation. J'essaye de donner un maximum d'outils qui soient utilisables dès le lendemain (ok, le lendemain, c'est encore la conf, donc disons
-                    dès lundi prochain)."
-          speakers:
-            - speaker:
-              speakerid: "manuelvacelet"
-
-        - name: "Découvrez l’Example mapping par la pratique - suite"
-          description: ""
-          speakers:
-            - speaker:
-              speakerid: "thomaspierrain"
-
-        - name: "Démarrer vite, tester, apprendre, partager et recommencer !"
-          description: "Nous allons vivre une approche itérative et apprenante du développement basé sur ammonite et scala.
-          Cette approche est basée sur la création d'exemples très facilement exécutable et partageable via les gists de github ou les snippets de gitlab.
-          La session se fera essentiellement en live coding"
-          speakers:
-            - speaker:
-              speakerid: "davidcrosson"
-
-    - time: "12h05"
-      name: "Déjeuner et réseautage"
-
-    - time: "13h30"
-      conferences:
-        - name: "Des principes de design à la rescousse des microservices"
-          description: "Les architectures basées sur les microservices ont le vent en poupe. Tout le monde veut en faire. Les promesses en terme de bénéfice sont très séduisantes. Mais implémenter ce type d'architecture n'est pas sans difficulté, c'est peu de le dire. On risque en effet à un monolithe distribué ..."
-          speakers:
-            - speaker:
-              speakerid: "jeromeavoustin"
-
-        - name: "Apprendre et Transmettre le savoir craft"
-          description: "Ce talk est un retour d'expérience sur la mise en place d'un training craft de 4
-                        semaines. Son objectif principal est de transmettre des méthodes, des techniques, des connaissances et un savoir-faire craft à d'autres développeurs.
-
-                        Nous traiterons de tous les aspects liés au training : la préparation, le format, le contenu, l'animation, le suivi, l'amélioration. "
-          speakers:
-            - speaker:
-              speakerid: "houssamfakih"
-
-
-        - name: "Ping pong pair programming"
-          description: "Il s'agit de l'association de 2 pratiques : le pair programming (programmation en binôme) et le TDD (Test Driven Development). Cette pratique qui reprend le rythme du jeu du ping pong est l'occasion de découvrir, tester, expérimenter, progresser, rendre plus pertinents le pair programming, le TDD et ainsi notre pratique quotdienne du développement."
-          details: "Atelier : Le process est le suivant :
-
-                    , A écrit un nouveau test et vérifie que ça échoue
-
-                    , B implémente le code voulu pour faire passer le test
-
-                    , B écrit le nouveau test et vérifie que ça échoue
-
-                    A implémente le code voulu pour faire passer le test
-
-                    Il s'agit de l'association de 2 pratiques : le pair programming (programmation en binôme) et le TDD (Test Driven Development). Cette pratique qui reprend le rythme du jeu du ping pong est l'occasion de découvrir, tester, expérimenter, progresser, rendre plus pertinents le pair programming, le TDD et ainsi notre pratique quotdienne du développement.
-
-                    Prérequis:
-
-                    , Un environnement de développement qui fonctionne dans le langage de votre choix.
-
-                    , Un projet vide avec un framework de test qui fonctionne.
-
-                    , Votre bonne humeur :)"
-          speakers:
-            - speaker:
-              speakerid: "nastasiasaby"
-
-        - name: "Maîtriser son IDE"
-          description: "Tout bon artisan se démarque dans la maîtrise de ses outils. En tant que développeur, l'IDE est votre outil quotidien principal. Bien le maîtriser est un atout indéniable pour à aller plus vite et vous concentrer sur l'essentiel. Cela vous apportera rapidité, fluidité et plaisir de coder. Venez vous entraîner sur votre outil préféré (IntelliJ ou Eclipse) afin d'apprendre des fonctionnalités et des astuces insoupçonnées."
-          speakers:
-            - speaker:
-              speakerid: "remysanlaville"
-
-    - time: "14h30"
-      conferences:
-        - name: "D'impératif au fonctionnel"
-          description: "Comment faire de la programmation fonctionnelle quand on a les pieds liés au code impératif et mutable"
-          speakers:
-            - speaker:
-              speakerid: "patrickgiry"
-
-        - name: "Méthodes UX faciles, ou comment l'artisan s'assure qu'il va contenter ses clients"
-          description: "La UX résout un constat évident : le point de vue du client sur un produit n'est pas le même que celui de l'artisan qui l'a conçu.
-                        Pourtant il faut concilier ces points de vue pour transformer l'artiste en artisan.
-                        Il produit ainsi un très beau produit, qui ravit les clients et lui assure sa pérennité.
-                        Nous parlerons donc de la valeur perçue et nous évoquerons en quoi la collaboration Dev / UX ne peut qu'être fructueuse... à quelques conditions près."
-          speakers:
-            - speaker:
-              speakerid: "nathaliecotte"
-            - speaker:
-              speakerid: "romainbioteau"
-
-        - name: "Ping pong pair programming - suite"
-          description: "Atelier : "
-          speakers:
-            - speaker:
-              speakerid: "nastasiasaby"
-
-        - name: "Maîtriser son IDE - suite"
-          description: "Atelier : "
-          speakers:
-            - speaker:
-              speakerid: "remysanlaville"
-
-    - time: "15h15"
-      name: "Pause"
-
-    - time: "15h45"
-      conferences:
-        - name: "Exploration de différents styles d'architecture"
-          description: "On entend souvent parler d'architecture en couche/n-tiers, d'architecture hexagonale/en onion, de patterns divers et variés (Repository, DAO, Active Record, Domain Model anémique ou pas, ORM...), de DDD, de CQRS et d'EventSourcing...ce talk en fait un tour d'horizon sous la forme d'une revue de code de différentes architectures d'un même exemple."
-          speakers:
-            - speaker:
-              speakerid: "clementbouillier"
-
-        - name: "Metrics Driven Development"
-          description: "Vous vous êtes un jour douté de la pertinence des features proposés? Et si on collectait un peu de données pour
-              s'assurer qu'on développait des fonctionnalités que les utilisateurs utilisent réellement?"
-          speakers:
-            - speaker:
-              speakerid: "pierrechiron"
-
-        - name: "Carpaccio d'éléphant"
-          description: "Atelier : Apprenez à découper les users stories de votre produit en tranches très fines, faites un carpaccio d’éléphant !"
-          speakers:
-            - speaker:
-              speakerid: "christophemaldivi"
-            - speaker:
-              speakerid: "emericfontaine"
-
-        - name: "Open Closed Principle - Le challenge"
-          description: "Atelier : Dans cette session, nous apprendrons ensemble à pratiquer la pierre angulaire des principes  S.O.L.I.D. : le Open / Close principle.
-                                  Nous travaillerons en mob programming ce qui nous contraindra à verbaliser les solution et permettra à chacun d’être actif.
-                                  Nous modifierons légèrement le flux du TDD pour nous contraindre à respecter le principe Open/Close.
-                                  Nous essaierons aussi de supprimer tous les if de notre code. "
-          details: "Les participants apprendront :
-                    à mettre en place des conceptions qui permettent d’ajouter des fonctionnalités en changeant très peu de code.
-                    à se passer de if pour rendre leurs logiciels moins complexes.
-                    Autant de bons réflexes directement applicables dans les projets informatiques le tout guidé par les tests."
-          speakers:
-            - speaker:
-              speakerid: "mathieucans"
-
-    - time: "16h45"
-      conferences:
-        - name: "En finir avec la «Dette Technique»"
-          description: "Au delà de subir la dette technique comment pouvons nous trouver le dialogue qui permettra de commencer à en sortir?"
-          details: "Ward Cunningham a nommé \"Technical Debt\" le procédé qui consiste, pour une équipe, à déroger temporairement à ses standards de qualité en vue de gagner du temps dans la réalisation d'un objectif intermédiaire. Au cours de la dernière décennie, l'expression est devenue très populaire, tout en perdant son sens initial.  Elle est désormais utilisée pour désigner l'état d'une solution jugée non conforme à l'état de l'art généralement admis dans notre industrie, et pour souligner le fait que c'est cette non-qualité qui ralentit la progression de l'équipe aux prise avec cette solution. La plupart des équipes de développement ne contractent pas délibérément de dette technique. La plupart des équipes subissent de la dette technique.
-
-                     Si pour résoudre un problème il faut d'abord le définir aussi clairement que possible alors nous devons reconnaître que le terme \"Dette Technique\" ne contribue en rien à clarifier l'état de ce qu'il est censé décrire. Nous devons donc trouver un modèle alternatif qui nous donne une meilleure façon de parler de cet état des choses que nous appelons une solution \"endettée\" si nous voulons contribuer à l'améliorer.  C'est ce que je me propose de faire durant cette présentation."
-          speakers:
-            - speaker:
-              speakerid: "christophethibaut"
-
-        - name: "Des callbacks à async/await : une histoire asynchrone"
-          description: "Pendant longtemps, JavaScript s'en est tenu au principe de callbacks pour la gestion des appels asynchrones. Dans son histoire récente, JS s'est armé pour simplifier l'écriture d'un code qui s'éxecute de manière asynchrone, en lui donnant un aspect synchrone, grâce à async/await.
-
-                        Mais comment en est-on arrivé là ? Quelles avancées ont permis d'obtenir cela ?
-
-                        Nous verrons cela lors d'une session de live coding pour revenir ou présenter quelques concepts clés de JS, comme les promesses, ou la plus belle évolution de JS depuis sa création : les générateurs."
-          speakers:
-            - speaker:
-              speakerid: "jeromeavoustin"
-
-        - name: "Carpaccio d'éléphant - suite"
-          description: "Atelier : Apprenez à découper les users stories de votre produit en tranches très fines, faites un carpaccio d’éléphant !"
-          speakers:
-            - speaker:
-              speakerid: "christophemaldivi"
-            - speaker:
-              speakerid: "emericfontaine"
-
-        - name: "Open Closed Principle - la suite"
-          description: "Atelier : "
-          speakers:
-            - speaker:
-              speakerid: "mathieucans"
-
-    - time: "17h45"
-      conferences:
-        - name: "Clôture et apéro"
-          description: ""
-          speakers:
-            - speaker:
-              speakerid: "orga"
+          How Temporal Coupling can help us to respect our use case
+          What is a pure and isolated Domain model?
+          Understanding Domain Completeness
+          What is the difference between an Application Service & a Domain Service ?
+          Does Sandwich pattern helps us to make clean Domain Services ?
+          The exercises will be available in Java and C#."
+      type: "workshop"
+      categories:
+        - "Workshop"
+        - "💡 Discovery"
+        - "Beginner"
+      date: "Vendredi 11 Juin - 12h15"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "sepehrnamdar"
+        - speaker:
+          speakerid: "hadiahmadi"

@@ -1,71 +1,145 @@
 .schedule {
 
-  padding: 4em 3em 2em;
+  padding: 4rem 3rem 2rem;
 
-  img {
-    max-width: 4rem;
+  ul.schedule-list-article {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    margin: 0;
+
   }
 
-  th {
-    font-size: 1.4em;
+  li.schedule-list-article {
+    width: 45%;
+    margin: 2.25rem 1rem;
   }
 
-  .schedule-socrates-img {
-    max-width: 20rem;
-    margin-top: 5px;
+  @media (max-width: 1800px) {
+    li.schedule-list-article {
+      width: 45% !important;
+    }
+  }
+  @media (max-width: 1200px) {
+    li.schedule-list-article {
+      width: 100% !important;
+    }
+  }
+  @media (max-width: 768px) {
+    li.schedule-list-article {
+      width: 100% !important;
+      margin: 2.25rem 0;
+    }
   }
 
-  .schedule-title {
-    margin-top: 20px;
-    margin-bottom: 40px;
+  .talk {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: $gray-100;
+    border-radius: 5%;
+    padding: 0 1.125rem 1.125rem;
+    height: 100%;
   }
 
-  .schedule-pdf {
-    padding: 15px;
+  .schedule-speaker {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+    li {
+      margin-right: 0.75rem;
+    }
+
+    .speaker {
+      display: flex;
+      align-items: center;
+      --img-size: 90px;
+      margin-top: calc(-1 * var(--img-size) / 2);
+
+      img {
+            width: var(--img-size);
+            height: var(--img-size);
+            border-radius: 50%;
+            border: 2px $gray-400 solid;
+          }
+
+        p {
+            margin: 0 0 0.75rem 0.5rem;
+            align-self: flex-end;
+            font-size: 0.9rem;
+            line-height: 1rem;
+            opacity: 0.8;
+          }
+    }
   }
 
-  .schedule-time {
-    font-size: 1.4em;
+    .schedule-link {
+        display: flex;
+        margin-left: auto;
+    }
+  section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 2rem);
+    height: auto;
+    margin-top: 0.5rem;
+  }
+
+  h2.talk-title {
+    color: #212529;
+    font-size: 1.5rem;
     font-weight: bold;
+    line-height: 1.75rem;
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
   }
 
-  .schedule-break {
-    padding: 20px;
-    border-radius: 5px;
-    color:grey;
+  h3.talk-date {
+    font-size: 1rem;
   }
 
-  .schedule-row {
-    border-radius: 5px;
+  .schedule-calendar {
+      display: flex;
+      align-items: center;
+      padding: 10px 0px;
   }
 
-  .schedule-who {
-    overflow-wrap: normal;
+  footer {
+    width: 100%;
+    margin-top: auto;
+
+    .talk-type {
+        display: flex;
+        align-items: center;
+    }
+
+    ul.schedule-tags {
+        list-style: none;
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding: 0;
+
+        li.schedule-tag {
+            border: 1px solid #212529;
+            border-radius: 1rem;
+            padding: 0.25rem 0.5rem;
+            display: flex;
+            margin: 0.25rem;
+        }
+    }
   }
 
-  .session-description {
-    overflow:hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-  }
-
-  .schedule-row:nth-of-type(odd){
-    background-color: #efefef;
-  }
-
-  .schedule-row:nth-of-type(even){
-    background-color: #ffffff;
-  }
-
-  .schedule-row.schedule-break-container:nth-of-type(odd){
-    background-image: linear-gradient(45deg, #eeeeee 25%, #ffffff 25%, #ffffff 50%, #eeeeee 50%, #eeeeee 75%, #ffffff 75%, #ffffff 100%);
-    background-size: 11.31px 11.31px;
-  }
-
-  .schedule-row.schedule-break-container:nth-of-type(even){
-    background-image: linear-gradient(45deg, #fafafa 25%, #ffffff 25%, #ffffff 50%, #fafafa 50%, #fafafa 75%, #ffffff 75%, #ffffff 100%);
-    background-size: 11.31px 11.31px;
+  .footer-bottom {
+    margin-left: auto;
   }
 }

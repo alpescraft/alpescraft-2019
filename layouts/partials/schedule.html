@@ -2,64 +2,90 @@
 <h2 class="section-title title">{{ $value.title }}</h2>
 {{ end }}
 
-<!--<h3 class="title"></h3>-->
-
-<div class="schedule-pdf">
-    <p>Téléchargez le programme en PDF</p>
-    <p><a href="/schedule/schedule_2019.pdf" target="_blank">version <b>simplifiée</b></a></p>
-    <p><a href="/schedule/schedule_2019_detaille.pdf" target="_blank">version <b>détaillée</b></a></p>
-</div>
+<br/>
 
 {{ $speakersmap := .speakersmap }}
-<div class="container-fluid">
-    {{ range $sched, $slot := .schedule }}
-    <div class="row schedule-row text-center p-4 {{ if not $slot.conferences }}schedule-break-container{{ end }}">
-        <div class="col-lg-1 col-md-2 schedule-time">{{ .time }}</div>
-        <div class="col-lg-11 col-md-10">
-            <div class="row">
-                {{ if $slot.conferences }}
-                    {{ range  $index, $conf := $slot.conferences }}
-                            <div class="col-lg-{{div 12 (len $slot.conferences) }}">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="row justify-content-end">
-                                                    <h5 class="card-title col-lg-9">{{ .name }}</h5>
-                                            </div>
-                                            <div class="card-text">
-                                                <div class="row">
-                                                    <div class="col-lg-3 text-center schedule-who">
-                                                        {{ range $spk := $conf.speakers }}
-                                                        {{ $speaker := index $speakersmap (string $spk.speakerid) }}
-
-                                                            {{ if $speaker.href }}
-                                                            <a href="{{ $speaker.href }}" target="_blank">
-                                                            {{ end }}
-                                                                <img class="img-fluid rounded-circle" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
-                                                                <p class="text-center">{{ $speaker.name }}</p>
-                                                                <p class="speakers-company">{{ $speaker.company }}</p>
-                                                            {{ if $speaker.href }}
-                                                            </a>
-                                                            {{ end }}
-                                                        {{ end }}
-                                                    </div>
-                                                    <div class="col-lg-9">
-                                                        <p class="text-left session-description">{{ .description }}</p>
-                                                        <div><a href="/session?talk={{ $sched }}-{{ $index }}" target="_blank">En savoir plus</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </div>
+    <ul class="schedule-list-article">
+    {{ range $index, $slot := .schedule }}
+        <li class="schedule-list-article">
+            <article class="talk">
+            <header style="width: 100%;">
+                <ul class="schedule-speaker">
+                {{ range $spk := $slot.speakers }}
+                    {{ $speaker := index $speakersmap (string $spk.speakerid) }}
+                    {{ if $speaker.href }}
+                        <a href="{{ $speaker.href }}" target="_blank">
                     {{ end }}
-                {{ else }}
-                    <div class="col-lg-12 schedule-break">
-                        <h4>{{ .name }}</h4>
-                    </div>
+                    <li>
+                        <div class="speaker">
+                                <img src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
+                                <p>{{ $speaker.name }}</p>
 
+                        </div>
+                    </li>
+                    {{ if $speaker.href }}
+                        </a>
+                    {{ end }}
                 {{ end }}
-            </div>
-        </div>
-    </div>
+                <a class="schedule-link" href="/session?talk={{ $index }}" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+                    </svg>
+                </a>
+                </div>
+                </ul>
+            </header>
+            <section>
+                <h2 class="talk-title">{{ .name }}</h2>
+                <h3 class="talk-date">{{ .date }}</h3>
+                <div class="schedule-calendar" style="display: none;">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle rounded" style="border: 1px solid #212529;" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                            <svg style="margin-right: 0.75rem;" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                            </svg>
+                            Ajouter au calendrier
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a target="_blank" class="dropdown-item" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220112T180000Z%2F20220112T200000Z&details={{ .description | safeHTML }}&text={{ .name | safeHTML }}">
+                                <img src="img/logo/gmail_icon.png" width="32" height="32">
+                            </a>
+                            <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">
+                                <img src="img/logo/outlook.png" width="32" height="32">
+                            </a>
+                            <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&location=New%20Earth&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">
+                                <img src="img/logo/office_365.png" width="32" height="32">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p>{{ .description }}</p>
+            </section>
+            <footer>
+                <div class="talk-type">
+                    {{ if eq .type "talk" }}
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" width="30px" fill="currentColor" class="bi bi-mic" style="margin-right: 0.75rem" viewBox="0 0 16 16">
+                            <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
+                            <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>
+                        </svg>
+                    {{ end }}
+                    {{ if eq .type "workshop" }}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="currentColor"  style="margin-right: 0.75rem" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                    </svg>
+                    {{ end }}
+                    <ul class="schedule-tags">
+                        {{ range $category := $slot.categories }}
+                        <li class="schedule-tag">{{ $category }}</li>
+                        {{ end }}
+                    </ul>
+                    <div class="footer-bottom">
+                        {{ .language }}
+                    </div>
+                </div>
+            </footer>
+        </article>
+        </li>
     {{ end }}
-</div>
+    </ul>
