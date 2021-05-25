@@ -15,7 +15,7 @@ params:
   Name: "AlpesCraft"
   Year: "2019"
   Description: "Découvrir, apprendre et se perfectionner"
-  Date: "Du 7 au 10 Juin 2021"
+  Date: "Du 7 au 11 Juin 2021"
   Venue: "Maison Minatec"
   Address: "3 Parvis Louis Néel"
   City:  "Grenoble"
@@ -388,29 +388,33 @@ params:
 
   Schedule:
     - name: "Fishbowl"
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+      description: "Lors de cette session nous vous proposons de participer à plusieurs discussions autour du thème du craft (bonnes pratiques dans le monde du développement logiciel).
+                    Ces discussions se tiendront sous la forme d'un Fishbowl où chaque participant sera libre de participer.
+                    Prérequis : accès à discord.com (accueil et support technique) et à stooa.com (séance).
+                    Pour intervenir il vous faudra un micro et une webcam.
+                    Le rendez-vous se fera à 20h sur le canal #fishbowl de discord."
       type: "talk"
       categories:
         - "Talk"
         - "💡 Discovery"
         - "Beginner"
-      date: "Date à venir"
+      date: "Lundi 07 Juin - 20h"
       language: "🇫🇷"
       speakers:
         - speaker:
           speakerid: "orga"
     - name: "TDD Au-delà de l'intro"
       description: "Beyond the “test first, then test guiding then Red green refactor” stuff : what is all the fuss about?
-      In this hands-on we’ll cover that. Why do TDD even if you’re doing a hackathon and throwing away the code? TDD as Socratic dialogue, TDD as mindfulness, the design goals behind the tool.
-      To do that I’ll start by showing you how I teach TDD to people. (If you are a beginner you are also welcome.) We’ll slow down in each part, and we’ll use techniques such as lazy-naming, branch reduction, purposeful-bad-faith, …
-      Then we shall dive into the why."
+            In this hands-on we’ll cover that. Why do TDD even if you’re doing a hackathon and throwing away the code? TDD as Socratic dialogue, TDD as mindfulness, the design goals behind the tool.
+            To do that I’ll start by showing you how I teach TDD to people. (If you are a beginner you are also welcome.) We’ll slow down in each part, and we’ll use techniques such as lazy-naming, branch reduction, purposeful-bad-faith, …
+            Then we shall dive into the why."
       type: "workshop"
       categories:
         - "Workshop"
         - "💡 Discovery"
         - "Beginner"
         - "Mob"
-      date: "Date à venir"
+      date: "Jeudi 10 Juin - 20h"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -422,7 +426,7 @@ params:
         - "💡 Discovery"
         - "Mob"
       type: "workshop"
-      date: "Date à venir"
+      date: "Mercredi 09 Juin - 18h"
       language: "🇬🇧"
       speakers:
         - speaker:
@@ -435,7 +439,7 @@ params:
         - "💡 Discovery"
         - "Web"
         - "Beginner"
-      date: "Date à venir"
+      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -445,35 +449,40 @@ params:
       description: "MLOps, sans peur ni héroïsme (du cafouillage au bricolage)
       Mettre du machine learning en production paraît facile aux premiers abords. On fait des tests unitaires. On versionne son code. Et le tour est joué.
       En réalité, ce n'est pas si simple que ça. Pour deux raisons principalement : d'abord, le monde de la data science n'est pas aussi rôdé à ces pratiques que le monde du développement back-end par exemple. Ensuite, ça ne suffit pas. Le machine learning a ses spécificités qu'il faut prendre en compte pour une production sereine.
-      Dans cette présentation, je vous propose de voir ce que j'ai pu apprendre pour travailler sans peur ni héroïsme. Je vous montrerai aussi le chemin qu'il reste à parcourir."
+      Dans cette présentation, je vous propose de voir ce que j'ai pu apprendre pour travailler sans peur ni héroïsme. Je vous montrerai aussi le chemin qu'il reste à parcourir.
+      J'en profiterai aussi pour discuter de ce que cette expérience apporte au développement d'une manière générale : trouver d'autres manières de tester que les classiques proposées ou vendre le crafting à des personnes business."
       type: "talk"
       categories:
         - "Talk"
         - "💡 Discovery"
         - "Data"
         - "Beginner"
-      date: "Date à venir"
+      date: "Mardi 08 Juin - 13h"
       language: "🇫🇷"
       speakers:
         - speaker:
           speakerid: "nastasiasaby"
     - name: "Refactoring avec le pattern sandwich"
       description: "In this session, we’ll try to solve a very common problem in software development teams: dealing with legacy procedural code without tests.
-      In the Sandwich pattern, we start from a class (generally an Application Service). We identify where it uses shared state (generally from a database). Then we push that code to its extremes (up and down) between which we have an immutable domain model that we can interact with.
-      The idea is to protect our code using Approval Tests and refactor this procedural code to domain-centric code. We’ll use good practices to finally reach services that correspond to the Sandwich pattern and coherent rich domain objects containing business behaviours.
-      In between exercises, we’ll discuss:
-      How Temporal Coupling can help us to respect our use case
-      What is a pure and isolated Domain model?
-      Understanding Domain Completeness
-      What is the difference between an Application Service & a Domain Service ?
-      Does Sandwich pattern helps us to make clean Domain Services ?
-      The exercises will be available in Java and C#."
+
+          In the Sandwich pattern, we start from a class (generally an Application Service). We identify where it uses shared state (generally from a database). Then we push that code to its extremes (up and down) between which we have an immutable domain model that we can interact with.
+
+          The idea is to protect our code using Approval Tests and refactor this procedural code to domain-centric code. We’ll use good practices to finally reach services that correspond to the Sandwich pattern and coherent rich domain objects containing business behaviours.
+
+          In between exercises, we’ll discuss:
+
+          How Temporal Coupling can help us to respect our use case
+          What is a pure and isolated Domain model?
+          Understanding Domain Completeness
+          What is the difference between an Application Service & a Domain Service ?
+          Does Sandwich pattern helps us to make clean Domain Services ?
+          The exercises will be available in Java and C#."
       type: "workshop"
       categories:
         - "Workshop"
         - "💡 Discovery"
         - "Beginner"
-      date: "Date à venir"
+      date: "Vendredi 11 Juin - 12h15"
       language: "🇫🇷"
       speakers:
         - speaker:

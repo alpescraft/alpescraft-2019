@@ -34,6 +34,13 @@ ou avec Docker, sans installer Hugo :
 ./startDockerHugo.sh
 ```
 
+##### Expose with ngrok
+
+```
+hugo server --bind="0.0.0.0" --baseURL=https://hostname.ngrok.io --appendPort=false
+```
+
+
 #### Prod mode
 
 ```
