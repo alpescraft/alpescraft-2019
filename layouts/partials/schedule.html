@@ -59,7 +59,7 @@
                         </div>
                     </div>
                 </div>
-                <p>{{ .description }}</p>
+                <p>{{ .description | safeHTML }}</p>
             </section>
             <footer>
                 <div class="talk-type">
