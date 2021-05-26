@@ -374,17 +374,8 @@ params:
       photo: "/img/speakers/sepehr_namdar.png"
       href: "https://twitter.com/SepNamdar"
       text: "@SepNamdar"
-      company: ""
-      bio: ""
-
-    hadiahmadi:
-      name: "Hadi Ahmadi"
-      photo: "/img/speakers/hadi_ahmadi.png"
-      href: "https://twitter.com/SepNamdar"
-      text: "@SepNamdar"
-      company: ""
-      bio: ""
-
+      company: "Soat"
+      bio: "Ayant eu l’occasion de travailler sur des missions variées, que ce soit de la pure maintenance ou le suivi complet d’un projet, j’ai pu acquérir des connaissances sur toutes les phases d’un développement logiciel. La réussite d’un projet dépend en grande partie des méthodologies appliquées lors de son déroulement. Celles-ci sont souvent l’Agilité, le Lean, le Behaviour Driven Development et le Clean Code."
 
   Schedule:
     - name: "Fishbowl"
@@ -405,13 +396,13 @@ params:
         - speaker:
           speakerid: "orga"
     - name: "TDD Au-delà de l'intro"
-      description: "Au delà du jargon “test first, then test guiding then Red green refactor”, de quoi parlons nous vraiment?
-            <br /><br />
-                    Dans cette session mains dans le cambouis nous allons au fond des choses. Pourquoi faire du TDD même dans un hackaton où nous allons probablement jeter le code? TDD en tant que dialogue Socratic, TDD en pleine conscience, les objectifs de design derrière l'outil.
-            <br /><br />
-                    Pour ce faire je commencerai par vous montrer comment j'enseigne le TDD aux gens. Les débutants sont évidemment les bienvenus. Nous ralentirons dans chaque partie et nous utiliserons des techniques comme le nommage paresseux, la réduction des branches, la mauvaise foi volontaire, ...
-            <br />
-                    Pour ensuite nous plonger dans le Pourquoi."
+      description: "Ok au-delà du \"test first\", puis \"test guiding\" puis \"Red green refactor\" : de quoi on parle quand on parle de TDD?\"
+        <br /><br />
+        Dans cette session on couvrira pourquoi faire du TDD même si on est dans un hackathon et qu'on va jeter le code: TDD en temps que dialogue socratique, mindfulness & TDD, l'intention de design derriere l'outil.
+        <br /><br />
+        Pour ce faire je vous montrerai d'abord comment j'apprends le TDD aux debutants (du coup, debutants bienvenus aussi!), en ralentissant à chaque partie et faisant les techniques de lazy-naming, branch reduction, purposeful-bad-faith, etc
+        <br /><br />
+        Puis nous plongerons au-delà de l'intro"
       type: "workshop"
       categories:
         - "Workshop"
@@ -424,6 +415,7 @@ params:
       speakers:
         - speaker:
           speakerid: "romeumoura"
+
     - name: "DDD Mob Architecting"
       description: "In this session we will work as a mob – a group with one driver (me) at the mouse and keyboard – to discuss problems in an existing legacy system that could be solved with Domain-Driven Design. We will analyze problems such as: large entities that are used all over the system and how we could divide them into smaller entities, the lack of value objects and what kind of value object could be introduced and how as well as the possibilities to cut the system into bounded contexts. All this will be done with architecture analysis tools that help us work on the level above the source code."
       categories:
@@ -437,6 +429,7 @@ params:
       speakers:
         - speaker:
           speakerid: "carolalilienthal"
+
     - name: "La clean architecture dans le web"
       description: "Comment se passer au mieux des frameworks front en utilisant une architecte hexagonale en mode TDD, est-ce possible ? Comment changer de frameworks front (Angular, VueJS, React) avec un impact minime, est-ce possible ? C'est le défi de cette session !"
       type: "talk"
@@ -473,22 +466,20 @@ params:
         - speaker:
           speakerid: "nastasiasaby"
     - name: "Refactoring avec le pattern sandwich"
-      description: "Dans cette session, nous essaierons de résoudre un problème très courant dans les équipes de développement logiciel : gérer un code legacy procédural sans tests.
-         Dans le pattern Sandwich, nous partons d'une classe (généralement un Application Service). Nous identifions où elle utilise un état partagé (généralement à partir d'une base de données). Ensuite, nous poussons ce code à ses extrêmes (haut et bas) entre lesquels nous avons un modèle du domaine immuable avec lequel nous pouvons interagir.
-          <br /><br />
-         L'idée est de protéger notre code à l'aide d'Approval Test et de refactoriser ce code legacy en code centré sur le domaine. Nous utiliserons les bonnes pratiques pour arriver finalement à des services qui correspondent au pattern Sandwich et à des objets du domaine riches et cohérents contenant des comportements métier.
-          <br /><br />
-         Entre les démos, nous discuterons de :
-          <br />
-         - Comment le couplage temporel peut nous aider à respecter notre use case
-          <br />
-         - Qu'est-ce qu'un modèle du domaine pur et isolé ?
-          <br />
-         - Comprendre la complétude du domaine
-          <br />
-         - Quelle est la différence entre un Application Service et un Domain Service ?
-          <br />
-         - Le pattern Sandwich nous aide-t-il à créer des Domain Services propres ?"
+      description: "Travailler avec un code legacy, procédural et sans tests c’est une tâche quotidienne de beaucoup de développeurs quasiment tous les jours et ce n’est pas très agréable pour nous.
+        C’est pourquoi dans cette session de live coding nous allons nous intéresser au pattern Sandwich qui pourrait nous aider à refactorer ce genres de codes.
+        <br /><br />
+        Dans le pattern Sandwich, nous partons d'une classe (généralement un Application Service). Nous identifions où elle utilise un état partagé (généralement à partir d'une base de données). Ensuite, nous poussons ce code à ses extrêmes (haut et bas) entre lesquels nous avons un modèle du domaine immuable avec lequel nous pouvons interagir.
+        <br /><br />
+        L'idée est de protéger notre code à l'aide d'Approval Test et de refactoriser ce code legacy en code centré sur le domaine. Nous utiliserons les bonnes pratiques de développement pour arriver finalement à des services qui correspondent au pattern Sandwich et à des objets du domaine riches et cohérents contenant des comportements métier.
+        <br /><br />
+        Entre les étapes de Refactoring, nous discuterons de :
+        - Comment gérer le couplage temporel
+        - Domain Model Pureness Vs.Completeness
+        - Quelle est la différence entre un Application Service et un Domain Service ?
+        - Le pattern Sandwich nous aide-t-il à créer des Domain Services propres ?
+        <br /><br />
+        Les étapes de refactoring seront disponibles en Java et C#."
       type: "workshop"
       categories:
         - "Workshop"
