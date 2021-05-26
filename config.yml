@@ -400,6 +400,7 @@ params:
         - "Beginner"
       date: "Lundi 07 Juin - 20h"
       language: "🇫🇷"
+      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406628/"
       speakers:
         - speaker:
           speakerid: "orga"
@@ -419,6 +420,7 @@ params:
         - "Mob"
       date: "Jeudi 10 Juin - 20h"
       language: "🇫🇷"
+      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406793/"
       speakers:
         - speaker:
           speakerid: "romeumoura"
@@ -431,6 +433,7 @@ params:
       type: "workshop"
       date: "Mercredi 09 Juin - 18h"
       language: "🇬🇧"
+      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406781/"
       speakers:
         - speaker:
           speakerid: "carolalilienthal"
@@ -444,6 +447,7 @@ params:
         - "Beginner"
       date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
+      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406777/"
       speakers:
         - speaker:
           speakerid: "martinchoraine"
@@ -464,6 +468,7 @@ params:
         - "Beginner"
       date: "Mardi 08 Juin - 13h"
       language: "🇫🇷"
+      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406777/"
       speakers:
         - speaker:
           speakerid: "nastasiasaby"
@@ -491,6 +496,7 @@ params:
         - "Beginner"
       date: "Vendredi 11 Juin - 12h15"
       language: "🇫🇷"
+      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406815/"
       speakers:
         - speaker:
           speakerid: "sepehrnamdar"

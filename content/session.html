@@ -59,6 +59,10 @@
                         </div>
                     </div>
                     <p>{{ .description | safeHTML }}</p>
+                    
+                    <div class="talk-inscription">
+                        <a href="{{ .meetup }}">Inscription sur Meetup.com</a>
+                    </div>
 
                     {{ range $spk := $slot.speakers }}
                     {{ $speaker := index $speakersmap (string $spk.speakerid) }}
