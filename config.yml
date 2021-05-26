@@ -381,9 +381,10 @@ params:
     - name: "Fishbowl"
       description: "Lors de cette session nous vous proposons de participer à plusieurs discussions autour du thème du craft (bonnes pratiques dans le monde du développement logiciel).
                     Ces discussions se tiendront sous la forme d'un Fishbowl où chaque participant sera libre de participer.
-                    Prérequis : accès à discord.com (accueil et support technique) et à stooa.com (séance).
-                    Pour intervenir il vous faudra un micro et une webcam.
-                    Le rendez-vous se fera à 20h sur le canal #fishbowl de discord."
+                    Prérequis : accès à <a href='https://discord.com' target='_blank'>discord.com</a> (accueil et support technique)
+                     et à <a href='https://stooa.com' target='_blank'>stooa.com</a> (séance). Pour intervenir il vous faudra un micro
+                     et une webcam. Les liens (Discord et Stooa) seront fournis quelques heures avant. Le rendez-vous se fera à 20h
+                     sur le canal #fishbowl de discord."
       type: "talk"
       categories:
         - "Talk"
