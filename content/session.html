@@ -58,7 +58,30 @@
                             </div>
                         </div>
                     </div>
-                    <p>{{ .description }}</p>
+                    <p>{{ .description | safeHTML }}</p>
+
+                    {{ range $spk := $slot.speakers }}
+                    {{ $speaker := index $speakersmap (string $spk.speakerid) }}
+                        {{ if $speaker.name }}
+                            <h3 class="talk-date">
+                                Présentation de {{ $speaker.name }}
+                            </h3>
+
+                            {{ if $speaker.bio }}
+                                <p>{{ $speaker.bio }}</p>
+                            {{else}}
+                                <p>Présentation à venir</p>
+                            {{ end }}
+
+                            {{ if $speaker.company }}
+                                <p><i class="fa fa-building"></i> <span>{{ $speaker.company }}</span></p>
+                            {{ end }}
+                            
+                            {{ if $speaker.text }}
+                                <p><i class="fab fa-twitter-square"></i> <span>{{ $speaker.text }}</span></p>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
                 </section>
                 <footer>
                     <div class="talk-type">
