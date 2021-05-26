@@ -61,7 +61,7 @@
                     <p>{{ .description | safeHTML }}</p>
                     
                     <div class="talk-inscription">
-                        <a href="{{ .meetup }}">Inscription sur Meetup.com</a>
+                        <a href="{{ .meetup }}" target="_blank">Inscription sur Meetup.com</a>
                     </div>
 
                     {{ range $spk := $slot.speakers }}
