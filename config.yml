@@ -395,11 +395,11 @@ params:
         - speaker:
           speakerid: "orga"
     - name: "TDD Au-delà de l'intro"
-      description: "Ok au-delà du \"test first\", puis \"test guiding\" puis \"Red green refactor\" : de quoi on parle quand on parle de TDD?\"
+      description: "Ok au-delà du \"test first\", puis \"test guiding\" puis \"Red green refactor\" : de quoi on parle quand on parle de TDD?
         <br /><br />
-        Dans cette session on couvrira pourquoi faire du TDD même si on est dans un hackathon et qu'on va jeter le code: TDD en temps que dialogue socratique, mindfulness & TDD, l'intention de design derriere l'outil.
+        Dans cette session on couvrira pourquoi faire du TDD même si on est dans un hackathon et qu'on va jeter le code: TDD en tant que dialogue socratique, mindfulness & TDD, l'intention de design derrière l'outil.
         <br /><br />
-        Pour ce faire je vous montrerai d'abord comment j'apprends le TDD aux debutants (du coup, debutants bienvenus aussi!), en ralentissant à chaque partie et faisant les techniques de lazy-naming, branch reduction, purposeful-bad-faith, etc
+        Pour ce faire je vous montrerai d'abord comment j'apprends le TDD aux débutants (du coup, débutants bienvenus aussi!), en ralentissant à chaque partie et faisant les techniques de lazy-naming, branch reduction, purposeful-bad-faith, etc
         <br /><br />
         Puis nous plongerons au-delà de l'intro"
       type: "workshop"
@@ -462,16 +462,16 @@ params:
           speakerid: "nastasiasaby"
     - name: "Refactoring avec le pattern sandwich"
       description: "Travailler avec un code legacy, procédural et sans tests c’est une tâche quotidienne de beaucoup de développeurs quasiment tous les jours et ce n’est pas très agréable pour nous.
-        C’est pourquoi dans cette session de live coding nous allons nous intéresser au pattern Sandwich qui pourrait nous aider à refactorer ce genres de codes.
+        C’est pourquoi dans cette session de live coding nous allons nous intéresser au pattern Sandwich qui pourrait nous aider à refactorer ce genres de code.
         <br /><br />
         Dans le pattern Sandwich, nous partons d'une classe (généralement un Application Service). Nous identifions où elle utilise un état partagé (généralement à partir d'une base de données). Ensuite, nous poussons ce code à ses extrêmes (haut et bas) entre lesquels nous avons un modèle du domaine immuable avec lequel nous pouvons interagir.
         <br /><br />
         L'idée est de protéger notre code à l'aide d'Approval Test et de refactoriser ce code legacy en code centré sur le domaine. Nous utiliserons les bonnes pratiques de développement pour arriver finalement à des services qui correspondent au pattern Sandwich et à des objets du domaine riches et cohérents contenant des comportements métier.
         <br /><br />
-        Entre les étapes de Refactoring, nous discuterons de :
-        - Comment gérer le couplage temporel
-        - Domain Model Pureness Vs.Completeness
-        - Quelle est la différence entre un Application Service et un Domain Service ?
+        Entre les étapes de Refactoring, nous discuterons de :<br />
+        - Comment gérer le couplage temporel<br />
+        - Domain Model Pureness Vs.Completeness<br />
+        - Quelle est la différence entre un Application Service et un Domain Service ?<br />
         - Le pattern Sandwich nous aide-t-il à créer des Domain Services propres ?
         <br /><br />
         Les étapes de refactoring seront disponibles en Java et C#."
