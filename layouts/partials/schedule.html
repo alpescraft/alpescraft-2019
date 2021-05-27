@@ -36,7 +36,9 @@
                 </ul>
             </header>
             <section>
-                <h2 class="talk-title">{{ .name }}</h2>
+                <a href="/session?talk={{ $index }}" target="_blank">
+                    <h2 class="talk-title">{{ .name }}</h2>
+                </a>
                 <h3 class="talk-date">{{ .date }}</h3>
                 <div class="schedule-calendar" style="display: none;">
                     <div class="dropdown">
