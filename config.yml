@@ -348,7 +348,8 @@ params:
       href: "https://twitter.com/malk_zameth"
       text: "@malk_zameth"
       company: "BCG Platinion"
-      bio: "Endless conversation — with friends, compilers — on art, equivocacy, Symmathesy, methods, absurdism, dialectic, paradigm jumps, serendipity."
+      bio: "Endless conversation — with friends, compilers — on art, equivocacy, Symmathesy, methods, absurdism,
+            dialectic, paradigm jumps, serendipity."
 
     carolalilienthal:
       name: "Carola Lilienthal"
@@ -356,7 +357,10 @@ params:
       href: "https://twitter.com/cairolali"
       text: "@cairolali"
       company: "WPS - Workplace Solutions"
-      bio: "Dr. Carola Lilienthal is Managing Director of WPS - Workplace Solutions GmbH and has been regularly analysing the future viability of software architectures on behalf of her customers since 2003. She is author of the book “Sustainable Softwarearchitecture” and translated Vaughn Vernon’s book “Domain-Driven Design Distilled” into German, together with Henning Schwentner."
+      bio: "Dr. Carola Lilienthal is Managing Director of WPS - Workplace Solutions GmbH and has been regularly
+            analysing the future viability of software architectures on behalf of her customers since 2003. She is
+            author of the book “Sustainable Softwarearchitecture” and translated Vaughn Vernon’s book “Domain-Driven
+            Design Distilled” into German, together with Henning Schwentner."
 
     martinchoraine:
       name: "Martin Choraine"
@@ -364,8 +368,12 @@ params:
       href: "https://twitter.com/mchoraine"
       text: "@mchoraine"
       company: "Zenika"
-      bio: "Développeur backend et frontend depuis plusieurs années, j'aime contribuer sur toutes les facettes du développement d'un produit. En partant de la collecte du besoin en passant par la conception, l’UI/UX, l'architecture, le développement back, le développement front jusqu'au déploiement et l'exploitation.
-            Je suis très attaché aux valeurs prônées par le software craftsmanship car je suis passionné par mon métier. J'apprécie particulièrement de pouvoir continuer à enrichir mes connaissances pour pouvoir les transmettre puis partager leur mise à profit."
+      bio: "Développeur backend et frontend depuis plusieurs années, j'aime contribuer sur toutes les facettes du
+            développement d'un produit. En partant de la collecte du besoin en passant par la conception, l’UI/UX,
+            l'architecture, le développement back, le développement front jusqu'au déploiement et l'exploitation.
+            Je suis très attaché aux valeurs prônées par le software craftsmanship car je suis passionné par mon métier.
+            J'apprécie particulièrement de pouvoir continuer à enrichir mes connaissances pour pouvoir les transmettre
+            puis partager leur mise à profit."
 
     sepehrnamdar:
       name: "Sepehr Namdar"
@@ -373,16 +381,29 @@ params:
       href: "https://twitter.com/SepNamdar"
       text: "@SepNamdar"
       company: "Soat"
-      bio: "Ayant eu l’occasion de travailler sur des missions variées, que ce soit de la pure maintenance ou le suivi complet d’un projet, j’ai pu acquérir des connaissances sur toutes les phases d’un développement logiciel. La réussite d’un projet dépend en grande partie des méthodologies appliquées lors de son déroulement. Celles-ci sont souvent l’Agilité, le Lean, le Behaviour Driven Development et le Clean Code."
+      bio: "Ayant eu l’occasion de travailler sur des missions variées, que ce soit de la pure maintenance ou le suivi
+            complet d’un projet, j’ai pu acquérir des connaissances sur toutes les phases d’un développement logiciel.
+            La réussite d’un projet dépend en grande partie des méthodologies appliquées lors de son déroulement.
+            Celles-ci sont souvent l’Agilité, le Lean, le Behaviour Driven Development et le Clean Code."
 
   Schedule:
     - name: "Fishbowl"
-      description: "Lors de cette session nous vous proposons de participer à plusieurs discussions autour du thème du craft (bonnes pratiques dans le monde du développement logiciel).
+      description: "Lors de cette session nous vous proposons de participer à plusieurs discussions autour du thème du
+                    craft (bonnes pratiques dans le monde du développement logiciel).
+                    <br /><br />
                     Ces discussions se tiendront sous la forme d'un Fishbowl où chaque participant sera libre de participer.
-                    Prérequis : accès à <a href='https://discord.com' target='_blank'>discord.com</a> (accueil et support technique)
-                     et à <a href='https://stooa.com' target='_blank'>stooa.com</a> (séance). Pour intervenir il vous faudra un micro
-                     et une webcam. Les liens (Discord et Stooa) seront fournis quelques heures avant. Le rendez-vous se fera à 20h
-                     sur le canal #fishbowl de discord."
+                    <br /><br />
+                    A travers ces discussions, nous espérons faire participer plusieurs profils différents tels que
+                    développeurs, chefs de projets, recruteurs ou encore chefs d'entreprise. Tout le monde est donc
+                    bienvenu, que vous ayez des choses à partager ou plus simplement si vous souhaitez en apprendre
+                    plus sur le sujet.
+                    <br /><br />
+                    Prérequis : accès à <a href='https://discord.com' target='_blank'>discord.com</a> (accueil et
+                    support technique) et à <a href='https://stooa.com' target='_blank'>stooa.com</a> (séance). Pour
+                    intervenir il vous faudra un micro et une webcam.
+                    <br /><br />
+                    Les liens (Discord et Stooa) seront fournis quelques heures avant. Le rendez-vous se fera à 20h
+                    sur le canal #fishbowl de discord."
       type: "talk"
       categories:
         - "Talk"
