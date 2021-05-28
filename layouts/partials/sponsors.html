@@ -2,10 +2,8 @@
 
 <br/>
 
-<p class="title-golden text-center">Mentor</p>
-
 <div class="row sponsors-row text-center">
-  {{ range $sponsor := .sponsors.mentor }}
+  {{ range $sponsor := .sponsors }}
   <div class="sponsor-img col my-auto">
     <a href="{{ .url }}" target="_blank" about="{{ .name }}">
       <div class="card border-0">
@@ -15,21 +13,6 @@
   </div>
   {{ end }}
 </div>
-
-{{ with .sponsors.apprentice }}
-  <p class="title-tdd text-center">Apprentice</p>
-  <div class="row sponsors-row text-center">
-    {{ range $sponsor := .sponsors.apprentice }}
-    <div class="sponsor-img col my-auto">
-      <a href="{{ .url }}" target="_blank" about="{{ .name }}">
-        <div class="card border-0">
-          <img class="img-tdd card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
-        </div>
-      </a>
-    </div>
-    {{ end }}
-  </div>
-{{ end }}
 
 <div class="row my-auto">
   <div class="col text-center">
