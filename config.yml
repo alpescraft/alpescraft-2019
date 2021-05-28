@@ -38,7 +38,7 @@ params:
   Sections:
     - home
     - about
-#    - sponsors
+    - sponsors
 #    - billetterie
 #    - location
     - schedule
@@ -142,23 +142,18 @@ params:
 
   # List of Sponsors
   Sponsors:
-    mentor:
       - name: "Enalean"
         logo: "/img/sponsors/enalean.svg"
         url: "https://www.enalean.com/"
-    apprentice: []
-#      - name: "Eloquant"
-#        logo: "/img/sponsors/eloquant.jpg"
-#        url: "https://www.eloquant.com/"
-#      - name: "Salesforce"
-#        logo: "/img/sponsors/salesforce.png"
-#        url: "https://www.salesforce.com"
-#      - name: "Tuleap"
-#        logo: "/img/sponsors/tuleap.png"
-#        url: "https://www.tuleap.org/"
-#      - name: "Zenika"
-#        logo: "/img/sponsors/zenika.png"
-#        url: "https://www.zenika.com/"
+      - name: "Eloquant"
+        logo: "/img/sponsors/eloquant.jpg"
+        url: "https://www.eloquant.com/"
+      - name: "Salesforce"
+        logo: "/img/sponsors/salesforce.png"
+        url: "https://www.salesforce.com"
+      - name: "Zenika"
+        logo: "/img/sponsors/zenika.png"
+        url: "https://www.zenika.com/"
 
   # List of Partners
   Partners:
@@ -356,7 +351,7 @@ params:
       name: "Carola Lilienthal"
       photo: "/img/speakers/carola_lilienthal.jpg"
       href: "https://twitter.com/cairolali"
-      text: "@malk_zameth"
+      text: "@cairolali"
       company: "WPS - Workplace Solutions"
       bio: "Dr. Carola Lilienthal is Managing Director of WPS - Workplace Solutions GmbH and has been regularly analysing the future viability of software architectures on behalf of her customers since 2003. She is author of the book “Sustainable Softwarearchitecture” and translated Vaughn Vernon’s book “Domain-Driven Design Distilled” into German, together with Henning Schwentner."
 
