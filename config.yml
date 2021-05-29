@@ -437,14 +437,22 @@ params:
           speakerid: "romeumoura"
 
     - name: "DDD Mob Architecting"
-      description: "In this session we will work as a mob – a group with one driver (me) at the mouse and keyboard – to discuss problems in an existing legacy system that could be solved with Domain-Driven Design. We will analyze problems such as: large entities that are used all over the system and how we could divide them into smaller entities, the lack of value objects and what kind of value object could be introduced and how as well as the possibilities to cut the system into bounded contexts. All this will be done with architecture analysis tools that help us work on the level above the source code."
+      description: "Dans cette séance pratique, nous travaillerons en groupe pour discuter des problèmes d’un système de legacy existant qui pourraient être résolus avec le Domain-Driven Design.
+      <br /><br/>
+      Pas à pas, je présenterai les idées utiles que le DDD a pour nous. Nous analyserons et remanierons des problèmes tels que : les grandes entités qui sont utilisées dans tout le système et comment les diviser en plus petites entités qui vivent dans différents bounded contexts, le manque de value objects et quel type de value object pourrait être introduit, et un domain model anémique et comment l’améliorer vers un domain model riche.
+      <br/>
+      Nous utiliserons un outil d’analyse d’architecture pour comprendre les changements à effectuer au niveau supérieur au code source.
+      <br/><br/>
+      Veuillez être présent avec un IDE pour Java en fonctionnement et télécharger au préalable l’étape 1 de cet <a href='https://github.com/lilienth/ddd-banking-example' target='_blank'>l’exemple</a>.
+      <br/>
+      Ce petit exemple de Legacy contient toutes les monstruosités que l’on trouve aujourd’hui dans les Legacy"
       categories:
         - "Workshop"
         - "💡 Discovery"
         - "Mob"
       type: "workshop"
       date: "Mercredi 09 Juin - 18h"
-      language: "🇬🇧"
+      language: "🇫🇷"
       meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406781/"
       speakers:
         - speaker:
