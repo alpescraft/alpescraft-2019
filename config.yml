@@ -387,13 +387,17 @@ params:
             Celles-ci sont souvent l’Agilité, le Lean, le Behaviour Driven Development et le Clean Code."
 
   Schedule:
-    - name: "Fishbowl"
+    - name: "L'adoption du Craft dans le monde professionnel"
       description: "Lors de cette session nous vous proposons de participer à plusieurs discussions autour du thème du
                     craft (bonnes pratiques dans le monde du développement logiciel).
                     <br /><br />
+                    Nous discuterons de l'adoption du Craft dans le monde de l'entreprise afin de prendre du recul sur
+                    cette pratique, de réaliser les difficultés que rencontrent les gens pour les mettre en place ou
+                    encore découvrir si certaines recettes marchent mieux que d'autres.
+                    <br /><br />
                     Ces discussions se tiendront sous la forme d'un Fishbowl où chaque participant sera libre de participer.
                     <br /><br />
-                    A travers ces discussions, nous espérons faire participer plusieurs profils différents tels que
+                    A travers ces discussions, nous espérons la participation de plusieurs profils différents tels que
                     développeurs, chefs de projets, recruteurs ou encore chefs d'entreprise. Tout le monde est donc
                     bienvenu, que vous ayez des choses à partager ou plus simplement si vous souhaitez en apprendre
                     plus sur le sujet.
