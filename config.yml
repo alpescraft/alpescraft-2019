@@ -419,49 +419,6 @@ params:
       speakers:
         - speaker:
           speakerid: "orga"
-    - name: "TDD Au-delà de l'intro"
-      description: "Ok au-delà du \"test first\", puis \"test guiding\" puis \"Red green refactor\" : de quoi on parle quand on parle de TDD?
-        <br /><br />
-        Dans cette session on couvrira pourquoi faire du TDD même si on est dans un hackathon et qu'on va jeter le code: TDD en tant que dialogue socratique, mindfulness & TDD, l'intention de design derrière l'outil.
-        <br /><br />
-        Pour ce faire je vous montrerai d'abord comment j'apprends le TDD aux débutants (du coup, débutants bienvenus aussi!), en ralentissant à chaque partie et faisant les techniques de lazy-naming, branch reduction, purposeful-bad-faith, etc
-        <br /><br />
-        Puis nous plongerons au-delà de l'intro"
-      type: "workshop"
-      categories:
-        - "Workshop"
-        - "💡 Discovery"
-        - "Beginner"
-        - "Mob"
-      date: "Jeudi 10 Juin - 20h"
-      language: "🇫🇷"
-      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406793/"
-      speakers:
-        - speaker:
-          speakerid: "romeumoura"
-
-    - name: "DDD Mob Architecting"
-      description: "Dans cette séance pratique, nous travaillerons en groupe pour discuter des problèmes d’un système de legacy existant qui pourraient être résolus avec le Domain-Driven Design.
-      <br /><br/>
-      Pas à pas, je présenterai les idées utiles que le DDD a pour nous. Nous analyserons et remanierons des problèmes tels que : les grandes entités qui sont utilisées dans tout le système et comment les diviser en plus petites entités qui vivent dans différents bounded contexts, le manque de value objects et quel type de value object pourrait être introduit, et un domain model anémique et comment l’améliorer vers un domain model riche.
-      <br/>
-      Nous utiliserons un outil d’analyse d’architecture pour comprendre les changements à effectuer au niveau supérieur au code source.
-      <br/><br/>
-      Veuillez être présent avec un IDE pour Java en fonctionnement et télécharger au préalable l’étape 1 de cet <a href='https://github.com/lilienth/ddd-banking-example' target='_blank'>l’exemple</a>.
-      <br/>
-      Ce petit exemple de Legacy contient toutes les monstruosités que l’on trouve aujourd’hui dans les Legacy"
-      categories:
-        - "Workshop"
-        - "💡 Discovery"
-        - "Mob"
-      type: "workshop"
-      date: "Mercredi 09 Juin - 18h"
-      language: "🇫🇷"
-      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406781/"
-      speakers:
-        - speaker:
-          speakerid: "carolalilienthal"
-
     - name: "La clean architecture dans le web"
       description: "Comment se passer au mieux des frameworks front en utilisant une architecte hexagonale en mode TDD, est-ce possible ? Comment changer de frameworks front (Angular, VueJS, React) avec un impact minime, est-ce possible ? C'est le défi de cette session !"
       type: "talk"
@@ -497,6 +454,48 @@ params:
       speakers:
         - speaker:
           speakerid: "nastasiasaby"
+    - name: "DDD Mob Architecting"
+      description: "Dans cette séance pratique, nous travaillerons en groupe pour discuter des problèmes d’un système de legacy existant qui pourraient être résolus avec le Domain-Driven Design.
+      <br /><br/>
+      Pas à pas, je présenterai les idées utiles que le DDD a pour nous. Nous analyserons et remanierons des problèmes tels que : les grandes entités qui sont utilisées dans tout le système et comment les diviser en plus petites entités qui vivent dans différents bounded contexts, le manque de value objects et quel type de value object pourrait être introduit, et un domain model anémique et comment l’améliorer vers un domain model riche.
+      <br/>
+      Nous utiliserons un outil d’analyse d’architecture pour comprendre les changements à effectuer au niveau supérieur au code source.
+      <br/><br/>
+      Veuillez être présent avec un IDE pour Java en fonctionnement et télécharger au préalable l’étape 1 de cet <a href='https://github.com/lilienth/ddd-banking-example' target='_blank'>l’exemple</a>.
+      <br/>
+      Ce petit exemple de Legacy contient toutes les monstruosités que l’on trouve aujourd’hui dans les Legacy"
+      categories:
+        - "Workshop"
+        - "💡 Discovery"
+        - "Mob"
+      type: "workshop"
+      date: "Mercredi 09 Juin - 18h"
+      language: "🇫🇷"
+      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406781/"
+      speakers:
+        - speaker:
+          speakerid: "carolalilienthal"
+    - name: "TDD Au-delà de l'intro"
+      description: "Ok au-delà du \"test first\", puis \"test guiding\" puis \"Red green refactor\" : de quoi on parle quand on parle de TDD?
+        <br /><br />
+        Dans cette session on couvrira pourquoi faire du TDD même si on est dans un hackathon et qu'on va jeter le code: TDD en tant que dialogue socratique, mindfulness & TDD, l'intention de design derrière l'outil.
+        <br /><br />
+        Pour ce faire je vous montrerai d'abord comment j'apprends le TDD aux débutants (du coup, débutants bienvenus aussi!), en ralentissant à chaque partie et faisant les techniques de lazy-naming, branch reduction, purposeful-bad-faith, etc
+        <br /><br />
+        Puis nous plongerons au-delà de l'intro"
+      type: "workshop"
+      categories:
+        - "Workshop"
+        - "💡 Discovery"
+        - "Beginner"
+        - "Mob"
+      date: "Jeudi 10 Juin - 20h"
+      language: "🇫🇷"
+      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406793/"
+      speakers:
+        - speaker:
+          speakerid: "romeumoura"
+
     - name: "Refactoring avec le pattern sandwich"
       description: "Travailler avec un code legacy, procédural et sans tests c’est une tâche quotidienne de beaucoup de développeurs quasiment tous les jours et ce n’est pas très agréable pour nous.
         C’est pourquoi dans cette session de live coding nous allons nous intéresser au pattern Sandwich qui pourrait nous aider à refactorer ce genres de code.
