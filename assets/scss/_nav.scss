@@ -24,6 +24,10 @@
     position: relative;
  }
 
+ &.shrink .dropdown-toggle::after {
+    display: none;
+ }
+
  .dropdown-toggle::after {
     position: absolute;
     transform: translateX(-50%);
