@@ -3,7 +3,7 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+docker run --rm -it -v ${PWD}:/src -v ${PWD}/public:/public -e HUGO_DESTINATION=/public -p 1313:1313 klakegg/hugo:0.61.0-ext-alpine
 
 # Go To Public folder
 cd public
