@@ -35,6 +35,11 @@
     left: 50%
  }
 
+ &.shrink .dropdown-item p{
+    visibility: visible;
+    opacity: 1;
+ }
+
 }
 
 .top-button {
