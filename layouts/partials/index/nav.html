@@ -5,7 +5,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarToggler">
+    <div class="collapse navbar-collapse mr-auto" id="navbarToggler">
           <ul class="navbar-nav">
             {{ range $section := $.Site.Params.Sections }}
             <li class="nav-item">
@@ -17,16 +17,21 @@
                     {{ end }}
             </li>
             {{ end }}
-            {{ range $previous := $.Site.Params.Previous }}
-            <li class="nav-item">
-                <a class="text-center nav-link" href="{{ $.Site.BaseURL }}/{{ index $.Site.Params.LinksPrevious $previous }}">
-                    {{ range $key, $value := (index $.Site.Params.TitlesPrevious $previous) }}
-                    <i class="{{ $value.icon }} nav-icon"></i>
-                    <p>{{ $value.title }}</p>
-                    {{ end }}
+            <li class="nav-item dropdown">
+                <a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="icon-control-rewind nav-icon"></i>
+                    <p>Éditions précédentes</p>
                 </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    {{ range $previous := $.Site.Params.Previous }}
+                        {{ range $key, $value := (index $.Site.Params.TitlesPrevious $previous) }}
+                            <a class="dropdown-item" href="{{ $.Site.BaseURL }}/{{ index $.Site.Params.LinksPrevious $previous }}">
+                                <p>{{ $value.title }}</p>
+                            </a>
+                        {{ end }}
+                    {{ end }}
+                </div>
             </li>
-            {{ end }}
           </ul>
     </div>
 </nav>

@@ -20,6 +20,17 @@
     transition: all 0.3s;
   }
 
+ .dropdown-toggle {
+    position: relative;
+ }
+
+ .dropdown-toggle::after {
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 10px;
+    left: 50%
+ }
+
 }
 
 .top-button {

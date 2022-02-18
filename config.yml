@@ -2,22 +2,14 @@ baseurl: "https://www.alpescraft.fr/"
 title: "AlpesCraft"
 canonifyurls: true
 
-GoogleAnalytics: "UA-139631751-1"
-
-privacy:
-  googleAnalytics:
-    anonymizeIP: true
-    respectDoNotTrack: true
-    useSessionStorage: true
-
 params:
   # Conference info
   Name: "AlpesCraft"
-  Year: "2019"
+  Year: "2022"
   Description: "Découvrir, apprendre et se perfectionner"
-  Date: "Du 7 au 11 Juin 2021"
-  Venue: "Maison Minatec"
-  Address: "3 Parvis Louis Néel"
+  Date: "Du 9 au 10 Juin 2022"
+  Venue: "Alpexpo"
+  Address: "2 Av. d'Innsbruck"
   City:  "Grenoble"
   State: "France"
   Twitter: "https://twitter.com/AlpesCraft"
@@ -38,10 +30,10 @@ params:
   Sections:
     - home
     - about
-    - sponsors
+#    - sponsors
 #    - billetterie
-#    - location
-    - schedule
+    - location
+#    - schedule
 
   # Titles which you can translate to other languages
   Titles:
@@ -75,14 +67,19 @@ params:
 
   Previous:
     - edition2019
+    - edition2021
 
   TitlesPrevious:
     edition2019:
-       - title: "Édition 2019"
+       - title: "2019"
          icon: "icon-control-rewind"
+    edition2021:
+      - title: "2021"
+        icon: "icon-control-rewind"
 
   LinksPrevious:
     edition2019: "edition_2019"
+    edition2021: "edition_2021"
 
   # Icones
   Icones:
@@ -129,14 +126,12 @@ params:
   # Location
   Location:
     - title: "Venir"
-      latitude: "45.195807222"
-      longitude: "5.7096947222"
       text:
         - paragraph: >
                       Vous pouvez y accéder :
                       <ul class="lead">
-                        <li>par la ligne B du Tram (direction Grenoble Presqu'île), arrêt "Cité Internationale"</li>
-                        <li>en voiture (vous pouvez vous garer aux parkings Doyen Weil ou d'Europole Gare)</li>
+                        <li>par la ligne C3 du Bus (direction Échirolles, Centre du graphisme), arrêt "Alpexpo"</li>
+                        <li>en voiture, vous pouvez vous garer aux parkings</li>
                         <li>à <a href="http://www.metromobilite.fr/velo.html" target="_blank"> vélo</a></li>
                       </ul>
 
