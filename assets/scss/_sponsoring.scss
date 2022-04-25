@@ -1,0 +1,27 @@
+.sponsoring {
+
+    .description {
+        padding: 2rem;
+
+        table {
+            border-collapse: collapse;
+
+            th {
+              padding-top: 12px;
+              padding-bottom: 12px;
+            }
+
+            td, th {
+              border: 1px solid #ddd;
+              padding: 8px;
+              text-align: center;
+            }
+
+            tr:nth-child(even){
+                background-color: #f2f2f2;
+            }
+
+        }
+    }
+
+}
