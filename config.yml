@@ -30,8 +30,8 @@ params:
   Sections:
     - home
     - about
-    - billetterie
     - sponsors
+    - billetterie
     - location
 #    - schedule
 
