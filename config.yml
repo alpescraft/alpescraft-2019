@@ -30,7 +30,7 @@ params:
   Sections:
     - home
     - about
-#    - billetterie
+    - billetterie
     - sponsors
     - location
 #    - schedule
