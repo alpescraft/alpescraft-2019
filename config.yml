@@ -31,6 +31,7 @@ params:
     - home
     - about
     - sponsors
+    - partners
     - billetterie
     - location
 #    - schedule
@@ -164,10 +165,15 @@ params:
     - name: "SoCraTes-FR"
       logo: "/img/partners/SoCraTes-FR.jpg"
       url: "https://socrates-fr.github.io/"
-    - name: "Une petite mousse"
-      logo: "/img/partners/unepetitemousse.png"
-      url: "https://unepetitemousse.fr/"
-
+    - name: "SNOWCAMP"
+      logo: "/img/partners/snowcamp.png"
+      url: "https://snowcamp.io/fr/"
+#    - name: "Une petite mousse"
+#      logo: "/img/partners/unepetitemousse.png"
+#      url: "https://unepetitemousse.fr/"
+    - name: "Copyright © 2000-2022 JetBrains s.r.o. JetBrains and the JetBrains logo are registered trademarks of JetBrains s.r.o."
+      logo: "/img/partners/jb_beam.png"
+      url: "https://www.jetbrains.com/"
   SpeakersMap:
     thomaspierrain:
       name: "Thomas Pierrain"
