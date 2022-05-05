@@ -60,9 +60,9 @@
                     </div>
                     <p>{{ .description | safeHTML }}</p>
                     
-                    <div class="talk-inscription">
-                        <a href="{{ .meetup }}" target="_blank">Inscription sur Meetup.com</a>
-                    </div>
+<!--                    <div class="talk-inscription">-->
+<!--                        <a href="{{ .meetup }}" target="_blank">Inscription sur Meetup.com</a>-->
+<!--                    </div>-->
 
                     {{ range $spk := $slot.speakers }}
                     {{ $speaker := index $speakersmap (string $spk.speakerid) }}

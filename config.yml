@@ -32,9 +32,9 @@ params:
     - about
     - sponsors
     - partners
+    - schedule
     - billetterie
     - location
-#    - schedule
 
   # Titles which you can translate to other languages
   Titles:
@@ -177,351 +177,72 @@ params:
       logo: "/img/partners/jb_beam.png"
       url: "https://www.jetbrains.com/"
   SpeakersMap:
-    thomaspierrain:
-      name: "Thomas Pierrain"
-      photo: "/img/speakers/thomas_pierrain.jpeg"
-      href: "http://twitter.com/tpierrain"
-      text: "@tpierrain"
-      company: "42 skillz"
-      bio: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
+    sarahscarratt:
+      name: "Sarah Scarratt"
+      photo: "/img/speakers/sarah_scarratt.jpg"
+      href: "https://www.linkedin.com/in/sarahscarratt2020"
+#      text: "@SepNamdar"
+#      company: "Soat"
+      bio: "Sarah est une coach, mentor et formatrice certifiée, seule en France a être spécialisée dans le Clean Language et la modélisation systémique. Elle adore découvrir comment les gens « fonctionnent » et se réjouit de les aider à devenir curieux d'eux-mêmes, sans porter de jugement. Révélant doucement les épaisseurs jusqu'à ce que nous trouvions un trésor. Ou des déchets, auquel cas, on peut les transformer en ressource !
 
-    christophethibaut:
-      name: "Christophe Thibaut"
-      photo: "/img/speakers/christophe_thibaut.jpg"
-      href: "http://twitter.com/ToF_"
-      text: "@ToF_"
-      company: "Octo"
-      bio: "Christophe est l'un des inventeurs du coding-dojo. Fort de plus de 20 ans d'expérience en développement et direction de projets, Christophe conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles."
-
-    nathaliecotte:
-      name: "Nathalie Cotte"
-      photo: "/img/speakers/nathalie_cotte.jpg"
-      href: "http://twitter.com/NathErgo38"
-      text: "@NathErgo38"
-      bio: ""
-      company: "BonitaSoft"
-
-    romainbioteau:
-      name: "Romain Bioteau"
-      photo: "/img/speakers/romain_bioteau.jpeg"
-      href: "https://twitter.com/rbioteau"
-      text: "@rbioteau"
-      company: "BonitaSoft"
-      bio: ""
-
-    xaviernopre:
-      name: "Xavier Nopre"
-      photo: "/img/speakers/xavier_nopre.png"
-      href: "http://twitter.com/xnopre"
-      text: "@xnopre"
-      bio: "Développeur depuis plus de 20 ans, je suis passionné par le développement logiciel, l'agilité, le software craftmanship, etc... Pour moi, le développement agile nécessite des outils et des méthodes adaptés, et notamment les tests unitaires et le TDD dont j'essaie de partager mes connaissances et expériences avec les développeurs que je rencontre."
-      company: ""
-
-    bastiendavid:
-      name: "Bastien David"
-      photo: "/img/speakers/bastien_david.jpeg"
-      href: "http://twitter.com/bastien_david"
-      text: "@bastien_david"
-      bio: ""
-      company: "Orange"
-
-    laurenttardif:
-      name: "Laurent Tardif"
-      photo: "/img/speakers/laurent_tardif.png"
-      href: "http://twitter.com/Ouelcum"
-      text: "@Ouelcum"
-      company: "Zenika"
-      bio: "Agitateur de l 'agilité .... Je suis tombé dans les problématiques search chez Kelkoo, puis dans l'agilité chez Yahoo. Toujours partant pour essayer des nouvelles méthodes ludiques pour progresser. Aujourd'hui expert Devops et Agilité chez Zenika."
-
-    nastasiasaby:
-      name: "Nastasia Saby"
-      photo: "/img/speakers/nastasia_saby.jpg"
-      href: "https://twitter.com/saby_nastasia"
-      text: "@saby_nastasia"
-      company: "Zenika"
-      bio: "Ingénieur en machine learning, j'ai commencé ma carrière en tant que développeur back-end avant de suivre le chemin de la data.
-            Au quotidien, je travaille aujourd'hui dans la mise en production de systèmes prédictifs.
-            Crafting et data sont mes dadas."
-
-    manuelvacelet:
-      name: "Manuel Vacelet"
-      photo: "/img/speakers/manuel_vacelet.jpg"
-      href: "http://twitter.com/vaceletm"
-      text: "@vaceletm"
-      bio: "Directeur technique de Tuleap, je suis un fervent défenseur des logiciels libres et des pratiques agiles. Orateur, j’interviens régulièrement dans des conférences pour parler d’organisation, de technique, de recrutement. Bref, je partage les expériences faites dans l’entreprise."
-      company: "Tuleap"
-
-    clementbouillier:
-      name: "Clément Bouillier"
-      photo: "/img/speakers/clement_bouillier.jpg"
-      href: "http://twitter.com/clem_bouillier"
-      text: "@clem_bouillier"
-      bio: "Je suis développeur depuis 15 ans, passionné des pratiques de développement visant à produire de la valeur pour mes clients et leurs utilisateurs. Je m'intéresse notamment à DDD, CQRS, EventSourcing, au refactoring, à TDD, à la programmation fonctionnelle..."
-      company: "devcrafting"
-
-    remysanlaville:
-      name: "Rémy Sanlaville"
-      photo: "/img/speakers/remy_sanlaville.png"
-      href: "http://twitter.com/sanlaville"
-      text: "@sanlaville"
-      bio: "L'ingénierie logicielle est ma passion et je défends le métier de développeur. TDD/Coding Dojo addict, ATDD, amélioration continue..."
-      company: "Orange"
-
-    johanmartinsson:
-      name: "Johan Martinsson"
-      photo: "/img/speakers/johan_martinsson.jpg"
-      href: "http://twitter.com/johan_alps"
-      text: "@johan_alps"
-      bio: "est un développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
-      company: "ChangIT"
-
-    davidcrosson:
-      name: "David Crosson"
-      photo: "/img/speakers/david_crosson.jpg"
-      href: "http://twitter.com/crodav"
-      text: "@crodav"
-      company: ""
-      bio: ""
-
-    jeromeavoustin:
-      name: "Jérôme Avoustin"
-      photo: "/img/speakers/jerome_avoustin.jpg"
-      href: "http://twitter.com/JeromeAvoustin"
-      text: "@JeromeAvoustin"
-      company: ""
-      bio: ""
-
-    houssamfakih:
-      name: "Houssam Fakih"
-      photo: "/img/speakers/houssam_faikh.jpg"
-      href: "http://twitter.com/houssamfakih"
-      text: "@houssamfakih"
-      company: ""
-      bio: ""
-
-    patrickgiry:
-      name: "Patrick Giry"
-      photo: "/img/speakers/patrick_giry.jpeg"
-      href: "http://twitter.com/PatrickGIRY"
-      text: "@PatrickGIRY"
-      company: "Arolla"
-      bio: ""
-
-    pierrechiron:
-      name: "Pierre Chiron"
-      photo: "/img/speakers/minion-pixabay-free.jpg"
-      #            href: "http://twitter.com/linus"
-      #            text: "@linus"
-      company: "Orange"
-      bio: ""
-
-    christophemaldivi:
-      name: "Christophe Maldivi"
-      photo: "/img/speakers/christophe_maldivi.jpeg"
-      href: "http://twitter.com/chmaldivi"
-      text: "@chmaldivi"
-      company: "Orange"
-      bio: ""
-
-    emericfontaine:
-      name: "Emeric Fontaine"
-      photo: "/img/speakers/emeric_fontaine.jpeg"
-      href: "https://www.linkedin.com/in/fontaine-emeric-6b38095/"
-      company: "Orange"
-      bio: ""
-
-    mathieucans:
-      name: "Mathieu Cans"
-      photo: "/img/speakers/mathieu_cans.jpg"
-      href: "http://twitter.com/mathieucans"
-      text: "@mathieucans"
-      bio: ""
-      company: "Orange"
-
-    orga:
-      name: ""
+            Sarah dirige sa propre entreprise depuis 20 ans et possède une vaste expérience dans le recrutement et la formation, la gestion de petites entreprises ainsi que dans une variété d'autres rôles tels que l'enseignement et l’accompagnement en fin de vie."
+    philippebourgau:
+      name: "Philippe Bourgau"
       photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.png"
-      href: "http://twitter.com/alpescraft"
-      text: "@AlpesCraft"
+      href: "https://www.linkedin.com/in/philippe-bourgau-607a928/?originalSubdomain=fr"
+      #      text: "@SepNamdar"
+      #      company: "Soat"
       bio: ""
-
-    romeumoura:
-      name: "Romeu Moura"
-      photo: "/img/speakers/romeu_moura.jpg"
-      href: "https://twitter.com/malk_zameth"
-      text: "@malk_zameth"
-      company: "BCG Platinion"
-      bio: "Endless conversation — with friends, compilers — on art, equivocacy, Symmathesy, methods, absurdism,
-            dialectic, paradigm jumps, serendipity."
-
-    carolalilienthal:
-      name: "Carola Lilienthal"
-      photo: "/img/speakers/carola_lilienthal.jpg"
-      href: "https://twitter.com/cairolali"
-      text: "@cairolali"
-      company: "WPS - Workplace Solutions"
-      bio: "Dr. Carola Lilienthal is Managing Director of WPS - Workplace Solutions GmbH and has been regularly
-            analysing the future viability of software architectures on behalf of her customers since 2003. She is
-            author of the book “Sustainable Softwarearchitecture” and translated Vaughn Vernon’s book “Domain-Driven
-            Design Distilled” into German, together with Henning Schwentner."
-
-    martinchoraine:
-      name: "Martin Choraine"
-      photo: "/img/speakers/martin_choraine.jpeg"
-      href: "https://twitter.com/mchoraine"
-      text: "@mchoraine"
-      company: "Zenika"
-      bio: "Développeur backend et frontend depuis plusieurs années, j'aime contribuer sur toutes les facettes du
-            développement d'un produit. En partant de la collecte du besoin en passant par la conception, l’UI/UX,
-            l'architecture, le développement back, le développement front jusqu'au déploiement et l'exploitation.
-            Je suis très attaché aux valeurs prônées par le software craftsmanship car je suis passionné par mon métier.
-            J'apprécie particulièrement de pouvoir continuer à enrichir mes connaissances pour pouvoir les transmettre
-            puis partager leur mise à profit."
-
-    sepehrnamdar:
-      name: "Sepehr Namdar"
-      photo: "/img/speakers/sepehr_namdar.png"
-      href: "https://twitter.com/SepNamdar"
-      text: "@SepNamdar"
-      company: "Soat"
-      bio: "Ayant eu l’occasion de travailler sur des missions variées, que ce soit de la pure maintenance ou le suivi
-            complet d’un projet, j’ai pu acquérir des connaissances sur toutes les phases d’un développement logiciel.
-            La réussite d’un projet dépend en grande partie des méthodologies appliquées lors de son déroulement.
-            Celles-ci sont souvent l’Agilité, le Lean, le Behaviour Driven Development et le Clean Code."
 
   Schedule:
-    - name: "L'adoption du Craft dans le monde professionnel"
-      description: "Lors de cette session nous vous proposons de participer à plusieurs discussions autour du thème du
-                    craft (bonnes pratiques dans le monde du développement logiciel).
+    - name: "Introduction au Clean Language"
+      description: "Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits.
+                    <br />
+                    Les questions Clean ont été affinées au fil de nombreuses années et sont conçues pour permettre au coach d'éviter d'ajouter ses propres présupposés ou jugements, et d'écouter de façon exquise. Enseigner ces questions aux équipes les invite à devenir curieux les uns des autres et à ne plus dépendre du ScrumMaster ou du Coach Agile pour communiquer.
+                    <br />
+                    Le Clean Language est simple à comprendre et difficile à maîtriser. Au cours de cette session, nous vous ferons utiliser les questions Clean et vous inviterons à réfléchir à la différence que cela pourrait faire si vous les utilisiez au travail (ou à la maison !).  Il y aura d’autres ateliers vendredi selon la demande.
                     <br /><br />
-                    Nous discuterons de l'adoption du Craft dans le monde de l'entreprise afin de prendre du recul sur
-                    cette pratique, de réaliser les difficultés que rencontrent les gens pour les mettre en place ou
-                    encore découvrir si certaines recettes marchent mieux que d'autres.
-                    <br /><br />
-                    Ces discussions se tiendront sous la forme d'un Fishbowl où chaque participant sera libre de participer.
-                    <br /><br />
-                    A travers ces discussions, nous espérons la participation de plusieurs profils différents tels que
-                    développeurs, chefs de projets, recruteurs ou encore chefs d'entreprise. Tout le monde est donc
-                    bienvenu, que vous ayez des choses à partager ou plus simplement si vous souhaitez en apprendre
-                    plus sur le sujet.
-                    <br /><br />
-                    Prérequis : accès à <a href='https://discord.com' target='_blank'>discord.com</a> (accueil et
-                    support technique) et à <a href='https://stooa.com' target='_blank'>stooa.com</a> (séance). Pour
-                    intervenir il vous faudra un micro et une webcam.
-                    <br /><br />
-                    Les liens (Discord et Stooa) seront fournis quelques heures avant. Le rendez-vous se fera à 20h
-                    sur le canal #fishbowl de discord."
-      type: "talk"
-      categories:
-        - "Talk"
-        - "💡 Discovery"
-        - "Beginner"
-      date: "Lundi 07 Juin - 20h"
-      language: "🇫🇷"
-      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406628/"
-      speakers:
-        - speaker:
-          speakerid: "orga"
-    - name: "La clean architecture dans le web"
-      description: "Comment se passer au mieux des frameworks front en utilisant une architecte hexagonale en mode TDD, est-ce possible ? Comment changer de frameworks front (Angular, VueJS, React) avec un impact minime, est-ce possible ? C'est le défi de cette session !"
-      type: "talk"
-      categories:
-        - "Talk"
-        - "💡 Discovery"
-        - "Web"
-        - "Beginner"
-      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406777/"
-      speakers:
-        - speaker:
-          speakerid: "martinchoraine"
 
-    - name: "La gestion des bonnes pratiques dans le monde de la data"
-      description: "MLOps, sans peur ni héroïsme (du cafouillage au bricolage)
-      <br /><br />
-      Mettre du machine learning en production paraît facile aux premiers abords. On fait des tests unitaires. On versionne son code. Et le tour est joué.
-      En réalité, ce n'est pas si simple que ça. Pour deux raisons principalement : d'abord, le monde de la data science n'est pas aussi rôdé à ces pratiques que le monde du développement back-end par exemple. Ensuite, ça ne suffit pas. Le machine learning a ses spécificités qu'il faut prendre en compte pour une production sereine.
-      <br /><br />
-      Dans cette présentation, je vous propose de voir ce que j'ai pu apprendre pour travailler sans peur ni héroïsme. Je vous montrerai aussi le chemin qu'il reste à parcourir.
-      J'en profiterai aussi pour discuter de ce que cette expérience apporte au développement d'une manière générale : trouver d'autres manières de tester que les classiques proposées ou vendre le crafting à des personnes business."
-      type: "talk"
-      categories:
-        - "Talk"
-        - "💡 Discovery"
-        - "Data"
-        - "Beginner"
-      date: "Mardi 08 Juin - 13h"
-      language: "🇫🇷"
-      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406777/"
-      speakers:
-        - speaker:
-          speakerid: "nastasiasaby"
-    - name: "DDD Mob Architecting"
-      description: "Dans cette séance pratique, nous travaillerons en groupe pour discuter des problèmes d’un système de legacy existant qui pourraient être résolus avec le Domain-Driven Design.
-      <br /><br/>
-      Pas à pas, je présenterai les idées utiles que le DDD a pour nous. Nous analyserons et remanierons des problèmes tels que : les grandes entités qui sont utilisées dans tout le système et comment les diviser en plus petites entités qui vivent dans différents bounded contexts, le manque de value objects et quel type de value object pourrait être introduit, et un domain model anémique et comment l’améliorer vers un domain model riche.
-      <br/>
-      Nous utiliserons un outil d’analyse d’architecture pour comprendre les changements à effectuer au niveau supérieur au code source.
-      <br/><br/>
-      Veuillez être présent avec un IDE pour Java en fonctionnement et télécharger au préalable l’étape 1 de cet <a href='https://github.com/lilienth/ddd-banking-example' target='_blank'>l’exemple</a>.
-      <br/>
-      Ce petit exemple de Legacy contient toutes les monstruosités que l’on trouve aujourd’hui dans les Legacy"
-      categories:
-        - "Workshop"
-        - "💡 Discovery"
-        - "Mob"
-      type: "workshop"
-      date: "Mercredi 09 Juin - 18h"
-      language: "🇫🇷"
-      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406781/"
-      speakers:
-        - speaker:
-          speakerid: "carolalilienthal"
-    - name: "TDD Au-delà de l'intro"
-      description: "Ok au-delà du \"test first\", puis \"test guiding\" puis \"Red green refactor\" : de quoi on parle quand on parle de TDD?
-        <br /><br />
-        Dans cette session on couvrira pourquoi faire du TDD même si on est dans un hackathon et qu'on va jeter le code: TDD en tant que dialogue socratique, mindfulness & TDD, l'intention de design derrière l'outil.
-        <br /><br />
-        Pour ce faire je vous montrerai d'abord comment j'apprends le TDD aux débutants (du coup, débutants bienvenus aussi!), en ralentissant à chaque partie et faisant les techniques de lazy-naming, branch reduction, purposeful-bad-faith, etc
-        <br /><br />
-        Puis nous plongerons au-delà de l'intro"
+                    Si vous souhaitez en savoir plus sur le Clean Language avant la session, ces deux liens vous aideront (en anglais)
+                    <ul>
+                      <li><a href=\"https://www.youtube.com/watch?v=aVvcU5gG4KU\">Caitlin Walker Tedx</a></li>
+                      <li><a href=\"https://www.youtube.com/watch?v=_gSlRqfPT4E\">Qu'est-ce que la modélisation systémique</a></li>
+                    </ul>
+"
       type: "workshop"
       categories:
         - "Workshop"
         - "💡 Discovery"
-        - "Beginner"
-        - "Mob"
-      date: "Jeudi 10 Juin - 20h"
+#      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
-      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406793/"
       speakers:
         - speaker:
-          speakerid: "romeumoura"
+          speakerid: "sarahscarratt"
 
-    - name: "Refactoring avec le pattern sandwich"
-      description: "Travailler avec un code legacy, procédural et sans tests c’est une tâche quotidienne de beaucoup de développeurs quasiment tous les jours et ce n’est pas très agréable pour nous.
-        C’est pourquoi dans cette session de live coding nous allons nous intéresser au pattern Sandwich qui pourrait nous aider à refactorer ce genres de code.
-        <br /><br />
-        Dans le pattern Sandwich, nous partons d'une classe (généralement un Application Service). Nous identifions où elle utilise un état partagé (généralement à partir d'une base de données). Ensuite, nous poussons ce code à ses extrêmes (haut et bas) entre lesquels nous avons un modèle du domaine immuable avec lequel nous pouvons interagir.
-        <br /><br />
-        L'idée est de protéger notre code à l'aide d'Approval Test et de refactoriser ce code legacy en code centré sur le domaine. Nous utiliserons les bonnes pratiques de développement pour arriver finalement à des services qui correspondent au pattern Sandwich et à des objets du domaine riches et cohérents contenant des comportements métier.
-        <br /><br />
-        Entre les étapes de Refactoring, nous discuterons de :<br />
-        - Comment gérer le couplage temporel<br />
-        - Domain Model Pureness Vs.Completeness<br />
-        - Quelle est la différence entre un Application Service et un Domain Service ?<br />
-        - Le pattern Sandwich nous aide-t-il à créer des Domain Services propres ?
-        <br /><br />
-        Les étapes de refactoring seront disponibles en Java et C#."
+    - name: "Testez vos compétences de refactoring sur la machine d'entrainement TCR !"
+      description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?
+                    <br/>
+                    Le design incrémental consiste à arrêter de penser au design comme gravé dans le marbre, mais comme une infinité de petits pas. Maitriser les petit pas est un pré-requis pour le design incrémental. Mais comment enseigner les petits pas à vos collègues expérimentés qui se \"débrouillent\" pour résoudre un kata en une poignée de grands pas?
+                    <br/>
+                     TCR (test && commit || revert) est une machine d'entrainement au petits pas à ajouter à vos katas! En plus d'enseigner les petits pas, cet outil:
+                    <br/>
+                    <ul>
+                       <li>est un coach qui rappel aux participants de prendre des petits pas</li>
+                       <li>est moins énervant qu'un coach humain 😉 parce que ce n'est qu'un script!</li>
+                       <li>est plus \"vendable\" que les katas de TDD, parce que ce n'est qu'un outil d'entrainement!</li>
+                       <li>est amusant grâce à sa touche de gamification</li>
+                       <li>impacte directement votre programmation quotidienne, même dans le code legacy, en enseignant la taille du pas qu'on est capable de faire sans erreur!</li>
+                       <li>fonctionne parfaitement à distance</li>
+                     </ul>
+                     <br/>
+                     Rejoignez cette session, découvrez TCR, pour enseigner le design incrémental à votre équipe MAINTENANT!"
       type: "workshop"
       categories:
         - "Workshop"
         - "💡 Discovery"
         - "Beginner"
-      date: "Vendredi 11 Juin - 12h15"
+#      date: "Mardi 08 Juin - 13h"
       language: "🇫🇷"
-      meetup: "https://www.meetup.com/fr-FR/alpescraft/events/278406815/"
       speakers:
         - speaker:
-          speakerid: "sepehrnamdar"
+          speakerid: "philippebourgau"
