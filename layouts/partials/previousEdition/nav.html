@@ -8,13 +8,30 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav">
+            {{ range $section := $.Site.Params.Sections }}
             <li class="nav-item">
-                {{ range $key, $value := $.Site.Params.Titles.home }}
-                <a class="text-center nav-link" href="{{ $.Site.BaseURL }}" about="{{ $value.title }}">
+                {{ range $key, $value := (index $.Site.Params.Titles $section) }}
+                <a class="text-center nav-link" href="{{ $.Site.BaseURL }}#{{ $section }}" about="{{ $value.title }}">
                     <i class="{{ $value.icon }} nav-icon"></i>
                     <p>{{ $value.title }}</p>
                 </a>
                 {{ end }}
+            </li>
+            {{ end }}
+            <li class="nav-item dropdown">
+                <a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="icon-control-rewind nav-icon"></i>
+                    <p>Éditions précédentes</p>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    {{ range $previous := $.Site.Params.Previous }}
+                    {{ range $key, $value := (index $.Site.Params.TitlesPrevious $previous) }}
+                    <a class="dropdown-item" href="{{ $.Site.BaseURL }}/{{ index $.Site.Params.LinksPrevious $previous }}">
+                        <p>{{ $value.title }}</p>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
             </li>
         </ul>
     </div>
