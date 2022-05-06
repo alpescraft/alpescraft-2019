@@ -196,8 +196,8 @@ params:
 
   Schedule:
     - name: "Introduction au Clean Language"
-      description: "Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits.
-                    <br />
+      description: "<p>Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits.</p>
+
                     Les questions Clean ont été affinées au fil de nombreuses années et sont conçues pour permettre au coach d'éviter d'ajouter ses propres présupposés ou jugements, et d'écouter de façon exquise. Enseigner ces questions aux équipes les invite à devenir curieux les uns des autres et à ne plus dépendre du ScrumMaster ou du Coach Agile pour communiquer.
                     <br />
                     Le Clean Language est simple à comprendre et difficile à maîtriser. Au cours de cette session, nous vous ferons utiliser les questions Clean et vous inviterons à réfléchir à la différence que cela pourrait faire si vous les utilisiez au travail (ou à la maison !).  Il y aura d’autres ateliers vendredi selon la demande.

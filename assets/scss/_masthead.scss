@@ -1,8 +1,24 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/cover.jpg') no-repeat center top;
+  background: url('../img/cover.webp') no-repeat center top;
   background-size: 100% auto;
+
+  @keyframes fadeIn {
+      0% {
+          transform: translateY(50px);
+          opacity: 0;
+      }
+
+      100% {
+           transform: translateY(0);
+            opacity: 1;
+      }
+  }
+
+  #logo, .container {
+    animation: fadeIn 700ms ease-in-out;
+  }
 
   @include background-cover;
   padding-top: 8rem;
