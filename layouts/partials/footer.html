@@ -18,7 +18,7 @@
       <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
         <ul class="list-inline mb-0">
           <li class="list-inline-item mr-3">
-            <a href="{{ .twitter }}">
+            <a aria-label="Compte Twitter" href="{{ .twitter }}">
               <i class="fab fa-twitter-square fa-2x fa-fw"></i>
             </a>
           </li>
@@ -46,7 +46,6 @@
                 return sParameterName[1];
             }
         }
-
     }
 
     var talk = getURLParameter('talk');

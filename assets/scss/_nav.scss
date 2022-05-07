@@ -8,6 +8,10 @@
 
   .nav-item {
     padding-right: 30px;
+
+    p {
+      color: #505050;
+    }
   }
 
   .nav-icon {
@@ -35,7 +39,7 @@
     left: 50%
  }
 
- &.shrink .dropdown-item p{
+ &.shrink .dropdown-item p {
     visibility: visible;
     opacity: 1;
  }
@@ -79,7 +83,6 @@
     p {
       visibility: hidden;
       opacity: 0;
-
       transition: visibility 0s linear 0.33s, opacity 0.33s
     }
   }

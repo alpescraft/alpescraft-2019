@@ -18,7 +18,7 @@
                     {{ end }}
                     <li>
                         <div class="speaker">
-                                <img src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
+                                <img loading="lazy" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
                                 <p>{{ $speaker.name }}</p>
 
                         </div>
@@ -27,7 +27,7 @@
                         </a>
                     {{ end }}
                 {{ end }}
-                <a class="schedule-link" href="/session?talk={{ $index }}" target="_blank">
+                <a aria-label="Ouvrir la session {{ .name }}" class="schedule-link" href="/session?talk={{ $index }}" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
                     </svg>
@@ -40,27 +40,27 @@
                     <h2 class="talk-title">{{ .name }}</h2>
                 </a>
                 <h3 class="talk-date">{{ .date }}</h3>
-                <div class="schedule-calendar" style="display: none;">
-                    <div class="dropdown">
-                        <button class="btn dropdown-toggle rounded" style="border: 1px solid #212529;" type="button" id="dropdownMenuButton" data-toggle="dropdown">
-                            <svg style="margin-right: 0.75rem;" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
-                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-                            </svg>
-                            Ajouter au calendrier
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a target="_blank" class="dropdown-item" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220112T180000Z%2F20220112T200000Z&details={{ .description | safeHTML }}&text={{ .name | safeHTML }}">
-                                <img src="img/logo/gmail_icon.png" width="32" height="32">
-                            </a>
-                            <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">
-                                <img src="img/logo/outlook.png" width="32" height="32">
-                            </a>
-                            <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&location=New%20Earth&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">
-                                <img src="img/logo/office_365.png" width="32" height="32">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+<!--                <div class="schedule-calendar" style="display: none;">-->
+<!--                    <div class="dropdown">-->
+<!--                        <button class="btn dropdown-toggle rounded" style="border: 1px solid #212529;" type="button" id="dropdownMenuButton" data-toggle="dropdown">-->
+<!--                            <svg style="margin-right: 0.75rem;" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">-->
+<!--                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>-->
+<!--                            </svg>-->
+<!--                            Ajouter au calendrier-->
+<!--                        </button>-->
+<!--                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+<!--                            <a target="_blank" class="dropdown-item" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220112T180000Z%2F20220112T200000Z&details={{ .description | safeHTML }}&text={{ .name | safeHTML }}">-->
+<!--                                <img loading="lazy" src="img/logo/gmail_icon.png" width="32" height="32">-->
+<!--                            </a>-->
+<!--                            <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">-->
+<!--                                <img loading="lazy" src="img/logo/outlook.png" width="32" height="32">-->
+<!--                            </a>-->
+<!--                            <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&location=New%20Earth&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">-->
+<!--                                <img loading="lazy" src="img/logo/office_365.png" width="32" height="32">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <p>{{ .description | safeHTML }}</p>
                 
 <!--                <p>-->

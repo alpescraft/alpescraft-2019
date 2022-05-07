@@ -23,7 +23,7 @@
                         {{ end }}
                             <li>
                                 <div class="speaker">
-                                    <img src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
+                                    <img loading="lazy" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
                                     <p>{{ $speaker.name }}</p>
                                 </div>
                             </li>
@@ -47,13 +47,13 @@
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a target="_blank" class="dropdown-item" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220112T180000Z%2F20220112T200000Z&details={{ .description | safeHTML }}&text={{ .name | safeHTML }}">
-                                    <img src="img/logo/gmail_icon.png" width="32" height="32">
+                                    <img loading="lazy" src="img/logo/gmail_icon.png" width="32" height="32">
                                 </a>
                                 <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">
-                                    <img src="img/logo/outlook.png" width="32" height="32">
+                                    <img loading="lazy" src="img/logo/outlook.png" width="32" height="32">
                                 </a>
                                 <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&location=New%20Earth&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">
-                                    <img src="img/logo/office_365.png" width="32" height="32">
+                                    <img loading="lazy" src="img/logo/office_365.png" width="32" height="32">
                                 </a>
                             </div>
                         </div>

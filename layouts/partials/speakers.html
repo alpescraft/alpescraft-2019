@@ -5,7 +5,7 @@
       {{ range .speakers }}
       <div class="col-lg-4">
         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-          <img class="img-fluid rounded-circle mb-3" src="{{ .img }}" alt="">
+          <img loading="lazy" class="img-fluid rounded-circle mb-3" src="{{ .img }}" alt="">
           <h5>{{ .name }}</h5>
           <p class="font-weight-light mb-0">{{ .description | safeHTML }}</p>
         </div>
@@ -22,7 +22,7 @@
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
     {{ with .photo }}
       <span class="speaker-photo">
-        <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
+        <img loading="lazy" class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
       </span>
     {{ end }}
 
