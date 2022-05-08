@@ -15,7 +15,7 @@ params:
   Twitter: "https://twitter.com/AlpesCraft"
   Email: "contact@alpescraft.fr"
   images:
-    - "/img/logo/color/03-AlpesCraft_Couleurs-M.png"
+    - "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
 
   Credits:
     - name: "Xavier Nopre"
@@ -106,7 +106,7 @@ params:
   # About
   About:
     - title: "Découvrir"
-      img: "https://lh3.googleusercontent.com/syzh0Z4UheYfgNWWqXIRtf3qNbC3wg7PVjrLEUXeyaYSEd90FholLBAkFf8BFAdqF-VPdbrcxXj6EA-lSsISmMj3BI0fA6mj_PA8_wnvZEkrwsvA5cNctTw3lyeSCrP1nlX-O-OnEz-0JjZ9_UWBjVM9qUOjYt_Te3fi_UGXYz0ZtPWK3c46lz9aZau-h2zmJq17aPvFl6WU11iPUZ8pTMZMHapSlUljWapr6aQA40eerCTfWxAjso0Bl4jyFxr54c2QU5QDzzrzmKf1LgfaTMwr3aWsjMbLZ1h-iClqtD6MNdCvJPFmd7EiruXvMqjGfiET6XztuwNf6I6dMDlbD5kJHYABBbI_L9dxn8st-icg0j29By1aThIFhs_WvqXa-ERnIhbKXRgKgTQY0h4XbbblO9krRbKoNSVrKIMQ8RANl1KIlcZ5irl6GiqrOXYd6yHQxC2xl0nqlMlPOe1-x0_W6adCMSz9zmMttCVf0Q-W3R99JtWpScE0LG3sHOwAbsg6mBQ6QQoEpTftBdEwtS6vyNMqNiNIDs7lItTsr_OwyCmLK1OP8t5vyNs5ZafjuryHe0YEGhF9KrcIPyHYi9GOYf_hEDFZraDblBeu68yVY3DxpbZ0lmoT_3T_vBj10r9VA5ZPDPPk5W66clnZvxlmrix4p2JlIC-qE3VZbX2v0Iq1EYTq-MYxTDmtoC_k5gjCoQMeqGW8SIzf5vDEUh6cm5yiMzpnzx9UGJXV4GPmMJQ=w1247-h936-no"
+      img: "/img/cover/IMG_20190613_092641.webp"
       imgInRightSide: true
       text:
         - paragraph: "Réaliser un produit logiciel qui correspond aux besoins de nos utilisateurs et qui soit facile à faire évoluer est un Graal difficile à atteindre."
@@ -115,11 +115,11 @@ params:
                        des compétences de coopération et de communication avec l'ensemble des acteurs, un paradigme de travail d'apprentissage (The Build-Measure-Learn Feedback Loop)...
                        Une quête passionnante qui est facilitée lorsqu'on rencontre des personnes expérimentées qui nous guident sur les chemins à suivre et nous aident à nous améliorer.
     - title: "Apprendre"
-      img: "https://lh3.googleusercontent.com/NojKLuH79Y9qQ_vhGGvbmzqq9w2XwFMkgdRft0sx_NnaHn3S43m1sI2WlUB8M__HSWFEVqp-p6VrzAFMuh8pPzN7n57MyC6-vbDjexf28MvOGiYVHnoA8RR2xnIDzQ2CvJf_vVk_se7Gi2zY_YeeJJc3RFjyfYVYM_GarYHqUy5iGr-FImsJOlYo5cKJOfV12wOkThewxGd5076Dd5FD04qq8L8fYTCNTYv-HfEBG1S93iJwmPgIv20aDkAHo0Rkk8GKG2QpvwZYQD698UT894dgxb-8Pl9x5dHNA066XMAFZbtciHheWsFmwL0lPkCrTG2iGRelPWkeNcoTdx3Ss1zWUOXPYjwbMtANKhfGk0C9Dew0ud2w1xDSLbQW9Zm33nyRVZPtcqwMmcXXW0ifYmHnEsB6j3Wd857AWyhSa3tPx3LPMmVpY6hartzNCEx2A-ApMk3dTVeocP-a72eHimZ0C1KcnwCcIWlkmz3gjNRKk887sUj7_R171Kw9DEG9QvmTaeD_Y_fvnAAkTABhV93MfazlepCfvffN89CGH4dGErhq_1pHGXJRd_9pdu4hayLS0MMic7SEzK0en9YvaXondX4EqkYHr8vMajdLqLCNm4LFMZ5sdNU_tT_qE-ahuN72bnEBJ9DbGlMkZScAI_dpWxQmJXFLtjcDxcwT8nPwbZo3PPf9CBedqiwBg1yy5m-9erSWSIK9CTqYkJlas3ChrChknDleBRTiqNZd-uPNNg=w718-h404-no"
+      img: "/img/cover/DSC_0549.webp"
       text:
         - paragraph: "Cette conférence a pour but d'être un lieu d'apprentissage et d'échanges afin de progresser pour produire des logiciels toujours meilleurs."
     - title: "Se perfectionner"
-      img: "https://lh3.googleusercontent.com/VBTPudAyF3aMlmZCQdbA5EdFRECVPNisG5UV54JGJxTgLVEyxdDHp_sfvf6wkY1a4l46g8LGMS0SfVwFie67M_3uZQeUDF_B6895k8zXrm1uJ0onnkc_OwVCj8dr6hKhXRMbY7NT6_beBjQDjhSQPlQm9nOULp0fWK5n6m9nrmf5h7Lo5IRkdueqZLHtlk4Jjafu2DgNiyRGGewl1RIp4P1n9guISsthYXkK63ujdYLXLHDvaQZIIVbgw4ecd1Lr-fF_smoXL65raKk8ucWPVvpl5iXuU37uzhjAd2Il_4RypVhuth609nEfH7h6fmbxMevOINVWtzc0O9eMdDSQ8waJloDXx-n1lZaPt3B1d1Qh3h9zR-0vNvgAq_mN8Y2Kp7tbSxCHB0chQt9Cjr7D8Tb7PAFj3GooccWx9lbCnCdkSxW7axs3UuXs-45lmEaOvt6cR3I46dRVUEp-T9KDXas3S8a7nym2CDy0yvrc65GR9M_oaiPsWQ9ZJjlZ_h-6-FxqBpeKLBl_7hVNSk69ydujV2G-VbwlhklkHvgfeCmeJqslQJAGiBAiRP7SJDc62K57jxSNzSncP6kUXpHasCncXFA_MTNYz-eSYVvd2M2_B-WZdLFwsKcfiK9ulG0gWYe5649-DRaFt6NQx1oJuI_9FZcddMZgiEctaKuu3mJViSjOqjVtvd5MSTyu3c7-tqZfqJyI1oKN40eglzUuhF0GHzbQNzsHlOArzKk4aNGm1KN3=w1247-h935-no"
+      img: "/img/cover/20190614_091734.webp"
       imgInRightSide: true
       text:
         - paragraph: "La conférence est sur 2 jours : un jour sera dédié aux personnes désirant découvrir de nouvelles pratiques et perfectionner leurs compétences et un autre pour les pratiquants réguliers souhaitant approfondir leurs connaissances (en co-organisation avec <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>)"
@@ -159,22 +159,22 @@ params:
   # List of Partners
   Partners:
     - name: "AlpesJUG"
-      logo: "/img/partners/alpesjug.png"
+      logo: "/img/partners/alpesjug.webp"
       url: "http://www.alpesjug.org/"
     - name: "CARA"
-      logo: "/img/partners/cara.png"
+      logo: "/img/partners/cara.webp"
       url: "http://grenoble.clubagilerhonealpes.org"
     - name: "SoCraTes-FR"
-      logo: "/img/partners/SoCraTes-FR.jpg"
+      logo: "/img/partners/SoCraTes-FR.webp"
       url: "https://socrates-fr.github.io/"
     - name: "SNOWCAMP"
-      logo: "/img/partners/snowcamp.png"
+      logo: "/img/partners/snowcamp.webp"
       url: "https://snowcamp.io/fr/"
 #    - name: "Une petite mousse"
-#      logo: "/img/partners/unepetitemousse.png"
+#      logo: "/img/partners/unepetitemousse.webp"
 #      url: "https://unepetitemousse.fr/"
     - name: "Copyright © 2000-2022 JetBrains s.r.o. JetBrains and the JetBrains logo are registered trademarks of JetBrains s.r.o."
-      logo: "/img/partners/jb_beam.png"
+      logo: "/img/partners/jb_beam.webp"
       url: "https://www.jetbrains.com/"
   SpeakersMap:
     sarahscarratt:
@@ -188,7 +188,7 @@ params:
             Sarah dirige sa propre entreprise depuis 20 ans et possède une vaste expérience dans le recrutement et la formation, la gestion de petites entreprises ainsi que dans une variété d'autres rôles tels que l'enseignement et l’accompagnement en fin de vie."
     philippebourgau:
       name: "Philippe Bourgau"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.png"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
       href: "https://www.linkedin.com/in/philippe-bourgau-607a928/?originalSubdomain=fr"
       #      text: "@SepNamdar"
       #      company: "Soat"

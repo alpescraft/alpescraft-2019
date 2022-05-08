@@ -11,14 +11,11 @@
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
 
-    <link rel="shortcut icon" href="/img/logo/color/04-AlpesCraft_Couleurs-S.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/img/logo/color/04-AlpesCraft_Couleurs-S.png">
-
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="shortcut icon" href="/img/logo/color/04-AlpesCraft_Couleurs-S.webp" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/img/logo/color/04-AlpesCraft_Couleurs-S.webp">
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
     <!-- Custom fonts for this template -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -26,8 +23,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
     {{ $styles := resources.Get "scss/landing-page.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+    {{ $css := resources.Get "css/main.css" | minify }}
+    <link href="{{ $css.RelPermalink }}" rel="stylesheet">
 </head>
