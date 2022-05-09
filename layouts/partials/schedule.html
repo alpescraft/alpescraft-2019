@@ -7,7 +7,7 @@
 {{ $speakersmap := .speakersmap }}
     <ul class="schedule-list-article">
     {{ range $index, $slot := .schedule }}
-        <li class="schedule-list-article">
+        <li class="schedule-list-article" style="{{ .style }}">
             <article class="talk">
             <header style="width: 100%;">
                 <ul class="schedule-speaker">

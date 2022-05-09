@@ -193,8 +193,28 @@ params:
       #      text: "@SepNamdar"
       #      company: "Soat"
       bio: ""
+    davidgageot:
+      name: "David Gageot"
+      photo: "/img/speakers/gageot.webp"
+      href: "https://twitter.com/dgageot"
+      text: "@dgageot"
+      company: "Doctolib"
+      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
 
   Schedule:
+    - name: "Keynote : Un monolithe pour 200 développeurs : avantages et défis."
+      style: "width: 100%"
+      description: ""
+      type: "workshop"
+      categories:
+        - "Keynote"
+        - "💡 Discovery"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "davidgageot"
+
     - name: "Introduction au Clean Language"
       description: "<p>Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits.</p>
 
