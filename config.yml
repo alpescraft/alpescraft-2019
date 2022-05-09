@@ -205,7 +205,7 @@ params:
     - name: "Keynote : Un monolithe pour 200 développeurs : avantages et défis."
       style: "width: 100%"
       description: ""
-      type: "workshop"
+      type: "talk"
       categories:
         - "Keynote"
         - "💡 Discovery"
@@ -227,8 +227,8 @@ params:
                     <ul>
                       <li><a href=\"https://www.youtube.com/watch?v=aVvcU5gG4KU\">Caitlin Walker Tedx</a></li>
                       <li><a href=\"https://www.youtube.com/watch?v=_gSlRqfPT4E\">Qu'est-ce que la modélisation systémique</a></li>
-                    </ul>
-"
+                    </ul>"
+      short_description: "Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits."
       type: "workshop"
       categories:
         - "Workshop"
@@ -256,6 +256,7 @@ params:
                      </ul>
                      <br/>
                      Rejoignez cette session, découvrez TCR, pour enseigner le design incrémental à votre équipe MAINTENANT!"
+      short_description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?"
       type: "workshop"
       categories:
         - "Workshop"
