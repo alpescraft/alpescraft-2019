@@ -202,10 +202,11 @@ params:
       bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
 
   Schedule:
-    - name: "Keynote : Un monolithe pour 200 développeurs : avantages et défis."
-      style: "width: 100%"
+    - name: "Keynote - Un monolithe pour 200 développeurs : avantages et défis."
+      style: "width: 100% !important"
       description: ""
       type: "talk"
+      tooltip: "Keynote"
       categories:
         - "Keynote"
         - "💡 Discovery"
