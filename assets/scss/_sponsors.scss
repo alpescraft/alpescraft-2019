@@ -13,14 +13,14 @@
   }
 
   .title-golden {
-    color: #B7935B;
+    color: rgb(80, 80, 80);;
     font-size: 2em;
     font-weight: bold;
 
     &:before {
         display: inline-block;
         content: "";
-        border-top: .3rem solid #B7935B;
+        border-top: .3rem solid rgb(80, 80, 80);
         width: 4rem;
         margin: 0 1rem;
         transform: translateY(-0.5rem);
@@ -30,7 +30,33 @@
     &:after {
       display: inline-block;
       content: "";
-      border-top: .3rem solid #B7935B;
+      border-top: .3rem solid rgb(80, 80, 80);
+      width: 4rem;
+      margin: 0 1rem;
+      transform: translateY(-0.5rem);
+      border-radius: 0 2px 2px 0;
+    }
+  }
+
+  .title-historique {
+    color: rgb(80, 80, 80);;
+    font-size: 2em;
+    font-weight: bold;
+
+    &:before {
+        display: inline-block;
+        content: "";
+        border-top: .3rem solid rgb(80, 80, 80);
+        width: 4rem;
+        margin: 0 1rem;
+        transform: translateY(-0.5rem);
+        border-radius: 0 2px 2px 0;
+    }
+
+    &:after {
+      display: inline-block;
+      content: "";
+      border-top: .3rem solid rgb(80, 80, 80);
       width: 4rem;
       margin: 0 1rem;
       transform: translateY(-0.5rem);
@@ -39,14 +65,14 @@
   }
 
   .title-tdd {
-    color: #28a745;
+    color: rgb(80, 80, 80);;
     font-size: 2em;
     font-weight: bold;
 
     &:before {
       display: inline-block;
       content: "";
-      border-top: .3rem solid #28a745;
+      border-top: .3rem solid rgb(80, 80, 80);
       width: 4rem;
       margin: 0 1rem;
       transform: translateY(-0.5rem);
@@ -56,7 +82,7 @@
     &:after {
       display: inline-block;
       content: "";
-      border-top: .3rem solid #28a745;
+      border-top: .3rem solid rgb(80, 80, 80);
       width: 4rem;
       margin: 0 1rem;
       transform: translateY(-0.5rem);
@@ -64,16 +90,33 @@
     }
   }
 
+  img {
+      transition: transform .1s;
+  }
+
+  img:hover{
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.5);
+  }
+
   .img-golden {
     max-width: 20%;
-    min-width: 15rem;
+    min-width: 10rem;
+    width:auto;
+    height:auto;
+  }
+
+  .img-historique {
+    max-width: 20%;
+    min-width: 10rem;
     width:auto;
     height:auto;
   }
 
   .img-tdd {
-    max-width: 10rem;
-    min-width: 10rem;
+    max-width: 6rem;
+    min-width: 6rem;
     width:auto;
     height:auto;
   }

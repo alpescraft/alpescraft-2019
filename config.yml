@@ -140,21 +140,27 @@ params:
 
   # List of Sponsors
   Sponsors:
+    historique:
       - name: "Enalean"
         logo: "/img/sponsors/enalean.svg"
         url: "https://www.enalean.com/"
-      - name: "Bonita"
-        logo: "/img/sponsors/bonitasoft.png"
-        url: "https://fr.bonitasoft.com/"
-      - name: "Eloquant"
-        logo: "/img/sponsors/eloquant.jpg"
-        url: "https://www.eloquant.com/"
-      - name: "Salesforce"
-        logo: "/img/sponsors/salesforce.png"
-        url: "https://www.salesforce.com"
-      - name: "Zenika"
-        logo: "/img/sponsors/zenika.png"
-        url: "https://www.zenika.com/"
+    master:
+#      - name: "Bonita"
+#        logo: "/img/sponsors/bonitasoft.png"
+#        url: "https://fr.bonitasoft.com/"
+#      - name: "Eloquant"
+#        logo: "/img/sponsors/eloquant.jpg"
+#        url: "https://www.eloquant.com/"
+#      - name: "Salesforce"
+#        logo: "/img/sponsors/salesforce.png"
+#        url: "https://www.salesforce.com"
+#      - name: "Zenika"
+#        logo: "/img/sponsors/zenika.png"
+#        url: "https://www.zenika.com/"
+    apprenti:
+      - name: "HackYourJob"
+        logo: "/img/sponsors/hackyourjob_community.webp"
+        url: "https://www.hackyourjob.com/"
 
   # List of Partners
   Partners:

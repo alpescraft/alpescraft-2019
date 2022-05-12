@@ -2,17 +2,46 @@
 
 <br/>
 
+<!--<p class="title-golden text-center">Master</p>-->
+
 <!--<div class="row sponsors-row text-center">-->
-<!--  {{ range $sponsor := .sponsors }}-->
+<!--  {{ range $sponsor := .sponsors.master }}-->
 <!--  <div class="sponsor-img col my-auto">-->
 <!--    <a href="{{ .url }}" target="_blank" about="{{ .name }}">-->
 <!--      <div class="card border-0">-->
-<!--        <img loading="lazy" class="img-golden card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">-->
+<!--        <img class="img-golden card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">-->
 <!--      </div>-->
 <!--    </a>-->
 <!--  </div>-->
 <!--  {{ end }}-->
 <!--</div>-->
+
+<p class="title-historique text-center">Historique</p>
+
+<div class="row sponsors-row text-center">
+  {{ range $sponsor := .sponsors.historique }}
+  <div class="sponsor-img col my-auto">
+    <a href="{{ .url }}" target="_blank" about="{{ .name }}">
+      <div class="card border-0">
+        <img class="img-historique card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
+      </div>
+    </a>
+  </div>
+  {{ end }}
+</div>
+
+<p class="title-tdd text-center">Apprenti</p>
+<div class="row sponsors-row text-center">
+  {{ range $sponsor := .sponsors.apprenti }}
+  <div class="sponsor-img col my-auto">
+    <a href="{{ .url }}" target="_blank" about="{{ .name }}">
+      <div class="card border-0">
+        <img class="img-tdd card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
+      </div>
+    </a>
+  </div>
+  {{ end }}
+</div>
 
 <div class="row my-auto">
   <div class="col text-center">
