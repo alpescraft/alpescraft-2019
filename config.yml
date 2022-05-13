@@ -189,9 +189,7 @@ params:
       href: "https://www.linkedin.com/in/sarahscarratt2020"
 #      text: "@SepNamdar"
 #      company: "Soat"
-      bio: "Sarah est une coach, mentor et formatrice certifiée, seule en France a être spécialisée dans le Clean Language et la modélisation systémique. Elle adore découvrir comment les gens « fonctionnent » et se réjouit de les aider à devenir curieux d'eux-mêmes, sans porter de jugement. Révélant doucement les épaisseurs jusqu'à ce que nous trouvions un trésor. Ou des déchets, auquel cas, on peut les transformer en ressource !
-
-            Sarah dirige sa propre entreprise depuis 20 ans et possède une vaste expérience dans le recrutement et la formation, la gestion de petites entreprises ainsi que dans une variété d'autres rôles tels que l'enseignement et l’accompagnement en fin de vie."
+      bio: "Sarah est une coach, mentor et formatrice certifiée, seule en France à être spécialisée dans le Clean Language et la modélisation systémique. Elle adore découvrir comment les gens « fonctionnent » et se réjouit de les aider à devenir curieux d'eux-mêmes, sans porter de jugement. Révélant doucement les épaisseurs jusqu'à ce que nous trouvions un trésor."
     philippebourgau:
       name: "Philippe Bourgau"
       photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
@@ -206,6 +204,153 @@ params:
       text: "@dgageot"
       company: "Doctolib"
       bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+    yvesbrissaud:
+      name: "Yves Brissaud"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+#      href: "https://twitter.com/dgageot"
+#      text: "@dgageot"
+#      company: "Doctolib"
+#      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+    xavierdetant:
+      name: "Xavier Detant"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+    #      href: "https://twitter.com/dgageot"
+    #      text: "@dgageot"
+    #      company: "Doctolib"
+    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+    michelgrootjans:
+      name: "Michel Grootjans"
+      photo: "/img/speakers/michelgrootjans.jpeg"
+      href: "https://twitter.com/michelgrootjans"
+      text: "@michelgrootjans"
+#      company: "Doctolib"
+      bio: "<p>Michel Grootjans has been programming since the age of 12. He has programmed strange machines like the TI 99-4A, the Atari 2600, Mac128, HP28, Apple II, Siemens PLC's, using languages like Basic, Pascal, C, HyperTalk, Assembler, ... along the way.</p>
+            <p>His professional experiences include building systems for retail, media, government, chemical plants, telecom, HR, insurance, ... in javascript, C#, java and, ruby.</p>
+            <p>He helps teams with continuous improvement, focusing on outcomes over output.</p>"
+    michelleavomo:
+      name: "Michelle Avomo"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: "https://twitter.com/michelle_avomo"
+      text: "@michelle_avomo"
+    #      company: "Doctolib"
+    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+    thomaspierrain:
+      name: "Thomas Pierrain"
+      photo: "/img/speakers/thomas_pierrain.jpeg"
+      href: "http://twitter.com/tpierrain"
+      text: "@tpierrain"
+      company: "42 skillz"
+      bio: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
+
+    christophethibaut:
+      name: "Christophe Thibaut"
+      photo: "/img/speakers/christophe_thibaut.jpg"
+      href: "http://twitter.com/ToF_"
+      text: "@ToF_"
+      company: "CodeWorks"
+      bio: "Christophe est l'un des inventeurs du coding-dojo. Fort de plus de 20 ans d'expérience en développement et direction de projets, Christophe conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles."
+
+    julientopçu:
+      name: "Julien Topçu"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+    #      href: "https://twitter.com/dgageot"
+    #      text: "@dgageot"
+    #      company: "Doctolib"
+    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+    christophemaldivi:
+      name: "Christophe Maldivi"
+      photo: "/img/speakers/christophe_maldivi.jpeg"
+      href: "http://twitter.com/chmaldivi"
+      text: "@chmaldivi"
+      company: "Orange"
+      bio: ""
+
+    nicolasfedou:
+      name: "Nicolas Fedou"
+      photo: "/img/speakers/nicolasfedou.jpeg"
+      href: "https://twitter.com/CoulasFedou"
+      text: "@CoulasFedou"
+    #      company: "Doctolib"
+      bio: "<p>Je suis Nicolas Fédou, développeur back Java et coach technique.
+            J'aime l'informatique depuis que je compose des commandes avec Linux. Assembler des commandes, des objets, des composants, des pipelines, c'est comme jouer aux Légo pour moi.
+            Depuis mes premières missions, j'ai toujours cherché à améliorer les conditions de travail de l'équipe par des petits scripts, puis de la CI/CD et depuis quelques années avec de la montée en compétence sur les pratiques de développement agile.</p>
+
+            <p>Je travaille généralement avec des entreprises dont le logiciel est victime de son succès et commence à perdre en productivité ou en fiabilité.
+            Je leur permet de reprendre le contrôle sur leur patrimoine logiciel et d'avoir des développeurs qui maîtrisent un savoir-faire proche de l'état de l'art.
+            Le bénéfice principal étant de retrouver un logiciel capable d'évoluer à la vitesse du business du client sans défaut et qu'on ne décommissionne pas.</p>"
+
+    bastiendavid:
+      name: "Bastien David"
+      photo: "/img/speakers/bastien_david.jpeg"
+      href: "http://twitter.com/bastien_david"
+      text: "@bastien_david"
+      bio: ""
+      company: "Orange"
+
+    remysanlaville:
+      name: "Rémy Sanlaville"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: "http://twitter.com/sanlaville"
+      text: "@sanlaville"
+      bio: "L'ingénierie logicielle est ma passion et je défends le métier de développeur. TDD/Coding Dojo addict, ATDD, amélioration continue..."
+      company: "Orange"
+
+    mathieucorbin:
+      name: "Mathieu Corbin"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+    #      href: "https://twitter.com/dgageot"
+    #      text: "@dgageot"
+    #      company: "Doctolib"
+    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+
+    victorlambret:
+      name: "Victor Lambret"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+    #      href: "https://twitter.com/dgageot"
+    #      text: "@dgageot"
+    #      company: "Doctolib"
+    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+
+    mathieucans:
+      name: "Mathieu Cans"
+      photo: "/img/speakers/mathieu_cans.jpg"
+      href: "http://twitter.com/mathieucans"
+      text: "@mathieucans"
+      bio: ""
+      company: "Orange"
+
+    johanmartinsson:
+      name: "Johan Martinsson"
+      photo: "/img/speakers/johan_martinsson.jpg"
+      href: "http://twitter.com/johan_alps"
+      text: "@johan_alps"
+      bio: "est un développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
+      company: "ChangIT"
+
+    xaviernopre:
+      name: "Xavier Nopre"
+      photo: "/img/speakers/xavier_nopre.png"
+      href: "http://twitter.com/xnopre"
+      text: "@xnopre"
+      bio: "Développeur depuis plus de 20 ans, je suis passionné par le développement logiciel, l'agilité, le software craftmanship, etc... Pour moi, le développement agile nécessite des outils et des méthodes adaptés, et notamment les tests unitaires et le TDD dont j'essaie de partager mes connaissances et expériences avec les développeurs que je rencontre."
+      company: ""
+
+    margotperrin:
+      name: "Margot perrin"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+    #      href: "https://twitter.com/dgageot"
+    #      text: "@dgageot"
+    #      company: "Doctolib"
+    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+
+    dorrabartaguiz:
+      name: "Dorra Bartaguiz"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+    #      href: "https://twitter.com/dgageot"
+    #      text: "@dgageot"
+    #      company: "Doctolib"
+    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+
 
   Schedule:
     - name: "Keynote - Un monolithe pour 200 développeurs : avantages et défis."
@@ -213,6 +358,7 @@ params:
       description: ""
       type: "talk"
       tooltip: "Keynote"
+      salle: "Chamrousse"
       categories:
         - "Keynote"
         - "💡 Discovery"
@@ -222,7 +368,66 @@ params:
         - speaker:
           speakerid: "davidgageot"
 
+#    - name: "Et si les micro-services n'avaient rien à voir avec la technique ?"
+#      description: ""
+#      type: "talk"
+#      salle: "Chamrousse"
+#      categories:
+##        - "Keynote"
+##        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "yvesbrissaud"
+
+#    - name: "TCR baby steps ...?"
+#      description: ""
+#      type: "talk"
+#      salle: "Chamrousse"
+#      categories:
+#      #        - "Keynote"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "xavierdetant"
+
+    - name: "Experiencing team flow"
+      short_description: "You will learn to see the effect of your team's organisation on the flow of work. Side note: you will also realise why estimates don't work as expected."
+      description: "You will learn to see the effect of your team's organisation on the flow of work. Side note: you will also realise why estimates don't work as expected."
+      type: "workshop"
+      salle: "Chamrousse"
+      categories:
+        - "Workshop"
+      #        - "💡 Discovery"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇬🇧"
+      speakers:
+        - speaker:
+          speakerid: "michelgrootjans"
+
+    - name: "Jeu du frigo"
+      short_description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>"
+      description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>
+          <p>Si vous avez répondu du tac au tac \"ce sont des systèmes complexes soumis à des forces nombreuses avec des effets et des temporalités souvent difficiles à analyser\", vous devriez apprécier les défis proposés lors de cet atelier. Si vous n'avez pas fait le lien immédiatement, vous pourriez y faire une découverte utile voire salutaire.</p>
+          <p>Le propos de cet atelier est d'explorer ce qui rend les systèmes si difficiles à gouverner, qu'il s'agisse de lignes de code ou de populations exposées à une pandémie, mais aussi de montrer en quoi certaines \"lois\" se retrouvent indépendamment des domaines et nous fournissent des outils et des réflexes à cultiver.</p>"
+      type: "workshop"
+      salle: "Chamrousse"
+      categories:
+        - "Workshop"
+      #        - "💡 Discovery"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "michelleavomo"
+        - speaker:
+          speakerid: "christophethibaut"
+
     - name: "Introduction au Clean Language"
+      salle: "Chamrousse"
       description: "<p>Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits.</p>
 
                     Les questions Clean ont été affinées au fil de nombreuses années et sont conçues pour permettre au coach d'éviter d'ajouter ses propres présupposés ou jugements, et d'écouter de façon exquise. Enseigner ces questions aux équipes les invite à devenir curieux les uns des autres et à ne plus dépendre du ScrumMaster ou du Coach Agile pour communiquer.
@@ -239,12 +444,53 @@ params:
       type: "workshop"
       categories:
         - "Workshop"
-        - "💡 Discovery"
+#        - "💡 Discovery"
 #      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
       speakers:
         - speaker:
           speakerid: "sarahscarratt"
+
+#    - name: "Architecture Hexagonale"
+#      description: ""
+#      type: "workshop"
+#      salle: "Chamrousse"
+#      categories:
+#      #        - "Keynote"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "julientopçu"
+
+#    - name: "Autour des équipes"
+#      description: ""
+#      type: "workshop"
+#      salle: "Chamrousse"
+#      categories:
+#      #        - "Keynote"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "christophemaldivi"
+
+    - name: "Stratégie de tests agile"
+      description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
+      short_description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
+      type: "talk"
+      salle: "Chamrousse"
+      categories:
+        - "Talk"
+#        - "Keynote"
+#        - "💡 Discovery"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "nicolasfedou"
 
     - name: "Testez vos compétences de refactoring sur la machine d'entrainement TCR !"
       description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?
@@ -267,10 +513,121 @@ params:
       type: "workshop"
       categories:
         - "Workshop"
-        - "💡 Discovery"
-        - "Beginner"
+#        - "💡 Discovery"
+#        - "Beginner"
 #      date: "Mardi 08 Juin - 13h"
       language: "🇫🇷"
       speakers:
         - speaker:
           speakerid: "philippebourgau"
+
+#    - name: "Mob is You"
+#      description: ""
+#      type: "workshop"
+#      salle: "Chamrousse"
+#      categories:
+#      #        - "Keynote"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "bastiendavid"
+#        - speaker:
+#          speakerid: "remysanlaville"
+
+#    - name: "Rendez vos développeurs autonomes sur la production"
+#      description: ""
+#      type: "workshop"
+#      salle: "Chamrousse"
+#      categories:
+#      #        - "Keynote"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "mathieucorbin"
+
+#    - name: "Le TDD sans commencer par les tests ?"
+#      description: ""
+#      type: "workshop"
+#      salle: "Chamrousse"
+#      categories:
+#      #        - "Keynote"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "victorlambret"
+
+#    - name: "UX pour devs"
+#      description: ""
+#      type: "workshop"
+#      salle: "Chamrousse"
+#      categories:
+#      #        - "Keynote"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "margotperrin"
+
+#    - name: "Plus du tout de classe abstraite dans mon code"
+#      description: ""
+#      type: "workshop"
+#      salle: "Chamrousse"
+#      categories:
+#      #        - "Keynote"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "dorrabartaguiz"
+
+    - name: "Back To Basics : SRP"
+      short_description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
+      description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
+      type: "talk"
+      salle: "Chamrousse"
+      categories:
+        - "Talk"
+#          - "💡 Discovery"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "michelleavomo"
+        - speaker:
+          speakerid: "christophethibaut"
+
+#    - name: "TDD in real life (orienté débutant)"
+#      description: ""
+#      type: "workshop"
+#      salle: "Chamrousse"
+#      categories:
+#      #        - "Keynote"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "xaviernopre"
+#        - speaker:
+#          speakerid: "johanmartinsson"
+
+#    - name: "Master your IDE"
+#      description: ""
+#      type: "workshop"
+#      salle: "Chamrousse"
+#      categories:
+#      #        - "Keynote"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "mathieucans"

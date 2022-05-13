@@ -16,6 +16,11 @@ En attendant, n’hésitez pas à nous suivre sur <a aria-label="Compte Twitter"
 
 <br/>
 
+<h3 class="subtitle">Journée du Jeudi 9 Juin</h3>
+<p class="lead" style="padding: 0rem 1rem;">
+    La première journée d'AlpesCraft est une journée de conférences et d'ateliers pour découvrir de nouvelles pratiques et perfectionner ses compétences.
+</p>
+
 {{ $speakersmap := .speakersmap }}
     <ul class="schedule-list-article">
     {{ range $index, $slot := .schedule }}
@@ -43,6 +48,7 @@ En attendant, n’hésitez pas à nous suivre sur <a aria-label="Compte Twitter"
                 </ul>
             </header>
             <section>
+<!--                <p>Salle {{ .salle }}</p>-->
                 <a href="/session?talk={{ $index }}" target="_blank">
                     <h2 class="talk-title">{{ .name }}</h2>
                 </a>
@@ -87,3 +93,14 @@ En attendant, n’hésitez pas à nous suivre sur <a aria-label="Compte Twitter"
         </li>
     {{ end }}
     </ul>
+
+<h3 class="subtitle">Journée du Vendredi 10 Juin</h3>
+<p class="lead text-justify" style="padding: 0rem 1rem;">
+    Cette journée est une non-conférence. Cela signifie que le programme de la journée sera défini sur place,
+    par les participantes et participants.
+</p>
+<p class="lead text-justify" style="padding: 0rem 1rem;">
+    En début de journée, chaque volontaire propose une ou plusieurs
+    sessions qu'il ou elle aimerait animer (présentation, coding dojo, atelier, échanges sur un sujet donné, ...),
+    où à laquelle il ou elle souhaiterait participer. Le planning de la journée est établi à partir de ces propositions.
+</p>

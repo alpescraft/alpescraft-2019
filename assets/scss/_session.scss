@@ -8,4 +8,26 @@
   .talk-inscription {
     margin-bottom: 50px;
   }
+
+    li.schedule-list-article {
+      width: 100%;
+      margin: 2rem 1rem;
+    }
+
+    @media (max-width: 1800px) {
+      li.schedule-list-article {
+        width: 100% !important;
+      }
+    }
+    @media (max-width: 1200px) {
+      li.schedule-list-article {
+        width: 100% !important;
+      }
+    }
+    @media (max-width: 768px) {
+      li.schedule-list-article {
+        width: 100% !important;
+        margin: 2.25rem 0;
+      }
+    }
 }

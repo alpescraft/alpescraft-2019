@@ -72,7 +72,7 @@
                             </h3>
 
                             {{ if $speaker.bio }}
-                                <p>{{ $speaker.bio }}</p>
+                                <p>{{ $speaker.bio | safeHTML }}</p>
                             {{else}}
                                 <p>Présentation à venir</p>
                             {{ end }}
