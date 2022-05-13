@@ -348,11 +348,16 @@ params:
 
     dorrabartaguiz:
       name: "Dorra Bartaguiz"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-    #      href: "https://twitter.com/dgageot"
-    #      text: "@dgageot"
-    #      company: "Doctolib"
-    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+      photo: "/img/speakers/dorrabartaguiz.jpg"
+      href: "https://twitter.com/DorraBartaguiz"
+      text: "@DorraBartaguiz"
+      company: "Arolla"
+      bio: "<p>Développeuse depuis 2008, coach technique et formatrice et co-auteure du livre \"Software Craft\" éditions
+      Dunod. Passionnée par le développement et les bonnes pratiques, je partage mon savoir-faire en publiant 
+      des articles et en animant des conférences et des meetups. J'ai aussi enseigné dans une école d'ingénieurs à 
+      Paris pendant des années. Au fil de mon expérience, j'ai acquis des valeurs autour du craft et de l’agilité 
+      que j'adore partager en accompagnant des clients à travers du coaching ou des formations pour aider les équipes 
+      à mieux apporter de la valeur.</p>"
 
 
   Schedule:
@@ -586,19 +591,6 @@ params:
 #        - speaker:
 #          speakerid: "margotperrin"
 
-#    - name: "Plus du tout de classe abstraite dans mon code"
-#      description: ""
-#      type: "workshop"
-#      salle: "Chamrousse"
-#      categories:
-#      #        - "Keynote"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "dorrabartaguiz"
-
     - name: "Back To Basics : SRP"
       id: "srp"
       short_description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
@@ -615,6 +607,26 @@ params:
           speakerid: "michelleavomo"
         - speaker:
           speakerid: "christophethibaut"
+
+
+    - name: "Les classes abstraites c’est fini (et c’est la faute à TDD)"
+      id: "plusdabstrait"
+      short_description: "Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me 
+            suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\". "
+      description: "<p>Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me
+                                suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\".</p>
+        <p>En creusant la question, je me rends compte que c'est depuis que j'ai commencé à appliquer le TDD
+        ( \"Test-Driven Development\" ou développement dirigé par les tests).  Mais quel est le rapport entre les deux ?</p>
+         <p>C'est ce que je vais tenter d'expliquer via ce talk.</p>"
+      categories:
+        - "Talk"
+      type: talk
+      salle: ""
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "dorrabartaguiz"
+
 
 #    - name: "TDD in real life (orienté débutant)"
 #      description: ""
