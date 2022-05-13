@@ -229,11 +229,14 @@ params:
             <p>He helps teams with continuous improvement, focusing on outcomes over output.</p>"
     michelleavomo:
       name: "Michelle Avomo"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/michelleavomo.jpg"
       href: "https://twitter.com/michelle_avomo"
       text: "@michelle_avomo"
-    #      company: "Doctolib"
-    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+      company: "CodeWorks"
+      bio: "<p>Après quelques années à s'auto-former et à former ses collègues d'une ESN parisienne sur les classiques des livres Clean Code et Xtrem programming, Michelle chemine depuis plus de 5 ans avec celles et ceux qui ont envie de faire du Craft au quotidien et qui continuent d'apprendre et transmettre.</p>
+            <p>Michelle forme régulièrement ses clients et ses collègues aux pratiques du craft.</p>
+            <p>Elle vit et travaille à Paris en tant que Developpeuse Senior chez CodeWorks, un modèle d'ESN engagé, équitable & solidaire.</p>
+"
     thomaspierrain:
       name: "Thomas Pierrain"
       photo: "/img/speakers/thomas_pierrain.jpeg"
@@ -248,7 +251,7 @@ params:
       href: "http://twitter.com/ToF_"
       text: "@ToF_"
       company: "CodeWorks"
-      bio: "Christophe est l'un des inventeurs du coding-dojo. Fort de plus de 20 ans d'expérience en développement et direction de projets, Christophe conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles."
+      bio: "Christophe développe et aide à développer du logiciel depuis plus de 30 ans. Il s’intéresse à tout ce qui favorise la création de résultats remarquables dans ce domaine : pratiques techniques, choix d’organisation, communication, relations en équipe. Chemin faisant, il aborde, acquiert et transmet, toujours avec curiosité et enthousiasme, des trésors aussi divers et variés que la Programmation Fonctionnelle, la Revue de Code, la Facilitation, la Modélisation Systémique, les Protocoles de Communication, le Coaching, l'eXtreme Programming.."
 
     julientopçu:
       name: "Julien Topçu"
@@ -412,7 +415,9 @@ params:
       short_description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>"
       description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>
           <p>Si vous avez répondu du tac au tac \"ce sont des systèmes complexes soumis à des forces nombreuses avec des effets et des temporalités souvent difficiles à analyser\", vous devriez apprécier les défis proposés lors de cet atelier. Si vous n'avez pas fait le lien immédiatement, vous pourriez y faire une découverte utile voire salutaire.</p>
-          <p>Le propos de cet atelier est d'explorer ce qui rend les systèmes si difficiles à gouverner, qu'il s'agisse de lignes de code ou de populations exposées à une pandémie, mais aussi de montrer en quoi certaines \"lois\" se retrouvent indépendamment des domaines et nous fournissent des outils et des réflexes à cultiver.</p>"
+          <p>Le propos de cet atelier est d'explorer ce qui rend les systèmes si difficiles à gouverner, qu'il s'agisse de lignes de code ou de populations exposées à une pandémie, mais aussi de montrer en quoi certaines \"lois\" se retrouvent indépendamment des domaines et nous fournissent des outils et des réflexes à cultiver.</p>
+          <p></p>
+          <p><strong>Matériel nécessaire</strong>: les participants doivent avoir un laptop pour 3.</p>"
       type: "workshop"
       salle: "Chamrousse"
       categories:
