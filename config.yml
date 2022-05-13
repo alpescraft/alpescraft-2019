@@ -357,6 +357,7 @@ params:
 
   Schedule:
     - name: "Keynote - Un monolithe pour 200 développeurs : avantages et défis."
+      id: "keynote"
       style: "width: 100% !important"
       description: ""
       type: "talk"
@@ -398,6 +399,7 @@ params:
 #          speakerid: "xavierdetant"
 
     - name: "Experiencing team flow"
+      id: "teamflow"
       short_description: "You will learn to see the effect of your team's organisation on the flow of work. Side note: you will also realise why estimates don't work as expected."
       description: "You will learn to see the effect of your team's organisation on the flow of work. Side note: you will also realise why estimates don't work as expected."
       type: "workshop"
@@ -412,6 +414,7 @@ params:
           speakerid: "michelgrootjans"
 
     - name: "Jeu du frigo"
+      id: "frigo"
       short_description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>"
       description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>
           <p>Si vous avez répondu du tac au tac \"ce sont des systèmes complexes soumis à des forces nombreuses avec des effets et des temporalités souvent difficiles à analyser\", vous devriez apprécier les défis proposés lors de cet atelier. Si vous n'avez pas fait le lien immédiatement, vous pourriez y faire une découverte utile voire salutaire.</p>
@@ -432,6 +435,7 @@ params:
           speakerid: "christophethibaut"
 
     - name: "Introduction au Clean Language"
+      id: "cleanlanguage"
       salle: "Chamrousse"
       description: "<p>Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits.</p>
 
@@ -483,6 +487,7 @@ params:
 #          speakerid: "christophemaldivi"
 
     - name: "Stratégie de tests agile"
+      id: "testagile"
       description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
       short_description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
       type: "talk"
@@ -498,6 +503,7 @@ params:
           speakerid: "nicolasfedou"
 
     - name: "Testez vos compétences de refactoring sur la machine d'entrainement TCR !"
+      id: "tcr"
       description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?
                     <br/>
                     Le design incrémental consiste à arrêter de penser au design comme gravé dans le marbre, mais comme une infinité de petits pas. Maitriser les petit pas est un pré-requis pour le design incrémental. Mais comment enseigner les petits pas à vos collègues expérimentés qui se \"débrouillent\" pour résoudre un kata en une poignée de grands pas?
@@ -594,6 +600,7 @@ params:
 #          speakerid: "dorrabartaguiz"
 
     - name: "Back To Basics : SRP"
+      id: "srp"
       short_description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
       description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
       type: "talk"

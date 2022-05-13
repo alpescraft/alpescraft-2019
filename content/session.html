@@ -12,7 +12,7 @@
     {{ $speakersmap := $.Site.Params.speakersmap }}
     <ul class="schedule-list-article">
         {{ range $index, $slot := $.Site.Params.schedule }}
-        <li class="schedule-list-article" id="{{ $index }}" style="display: none; width: 90%;">
+        <li class="schedule-list-article" id="{{ .id }}" style="display: none; width: 90%;">
             <article class="talk">
                 <header style="width: 100%;">
                     <ul class="schedule-speaker">
