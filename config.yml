@@ -341,10 +341,16 @@ params:
     margotperrin:
       name: "Margot perrin"
       photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-    #      href: "https://twitter.com/dgageot"
-    #      text: "@dgageot"
-    #      company: "Doctolib"
-    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+      href: "https://twitter.com/Margauxlergo"
+      text: "@Margauxlergo"
+      company: "uxShadow"
+      bio: "<p>Après des études en neurosciences cognitives, j'ai fait de l'ux-design mon métier depuis 2014.</p>
+            <p>Mes missions :</p>
+            <ol type=\"1\">
+            <li>Concevoir des parcours utilisateurs intuitifs et adaptés aux besoins ;</li>
+            <li>Transmettre mes compétences pour améliorer le bien-être numérique et réduire l'arrachage de cheveux face à des interfaces incompréhensibles (l'alopécie est un vrai problème de santé publique).</li>
+            </ol>
+            <p>Depuis 2015, je tiens également un blog sur l'ux et l'agilité que j'alimente de manière très irrégulière : <a href=\"http://www.margaux-perrin.com/category/ergonomie/\" aria-label=\"Blog Margaux Perrin\">http://www.margaux-perrin.com/category/ergonomie/</a></p> "
 
     dorrabartaguiz:
       name: "Dorra Bartaguiz"
@@ -358,6 +364,15 @@ params:
       Paris pendant des années. Au fil de mon expérience, j'ai acquis des valeurs autour du craft et de l’agilité 
       que j'adore partager en accompagnant des clients à travers du coaching ou des formations pour aider les équipes 
       à mieux apporter de la valeur.</p>"
+
+    emilienpecoul:
+      name: "Emilien Pecoul"
+      photo: "/img/speakers/emilienpecoul.jpg"
+      href: "https://twitter.com/Ouarzy"
+      text: "@Ouarzy"
+#      company: "Arolla"
+      bio: "<p>Emilien est un développeur passionné qui a démarré sa carrière dans une startup il y'a une dizaine d'années. Suite à divers échecs techniques, il a utilisé la communauté à travers les user groups, les conférences, les livres et les blogs pour apprendre, comprendre et appliquer les bonnes pratiques du développement logiciel.</p>
+               <p>A son compte depuis 2013, il intervient comme consultant notamment pour aider des équipes à améliorer leurs pratiques autour du TDD, BDD et DDD. </p>"
 
 
   Schedule:
@@ -413,7 +428,7 @@ params:
         - "Workshop"
       #        - "💡 Discovery"
       #      date: "Mardi 08 Juin - 12h"
-      language: "🇬🇧"
+      language: "🇫🇷"
       speakers:
         - speaker:
           speakerid: "michelgrootjans"
@@ -578,18 +593,37 @@ params:
 #        - speaker:
 #          speakerid: "victorlambret"
 
-#    - name: "UX pour devs"
-#      description: ""
-#      type: "workshop"
-#      salle: "Chamrousse"
-#      categories:
-#      #        - "Keynote"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "margotperrin"
+    - name: "Le DDD au quotidien"
+      id: "ddd"
+      short_description: "Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence."
+      description: "<p>Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence.</p>
+                    <p>On a tendance à penser que le DDD est complexe, mais c’est au final beaucoup de bon sens. C’est la quantité de chose couverte par le DDD qui le rend difficile à appréhender au début.</p>
+                    <p>Avec des retours d’expériences sur des pratiques concrètes du quotidien, que vous pourrez appliquer dès demain, nous verrons comment rendre votre projet plus centré sur le domaine. Nous verrons également quels principes sont respectés grâce à ces pratiques, et en quoi cela peut être bénéfique pour une équipe, donc pour une entreprise.</p>"
+      type: "Talk"
+      salle: "Chamrousse"
+      categories:
+            - "Talk"
+            - "DDD"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "emilienpecoul"
+
+    - name: "Bonnes pratiques ux pour les devs"
+      id: "bestpracticesux"
+      short_description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez."
+      description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez. "
+      type: "talk"
+      salle: "Chamrousse"
+      categories:
+        - "Talk"
+        - "UX"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "margotperrin"
 
     - name: "Back To Basics : SRP"
       id: "srp"
