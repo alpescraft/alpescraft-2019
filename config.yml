@@ -204,13 +204,13 @@ params:
       text: "@dgageot"
       company: "Doctolib"
       bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+
     yvesbrissaud:
       name: "Yves Brissaud"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-#      href: "https://twitter.com/dgageot"
-#      text: "@dgageot"
-#      company: "Doctolib"
-#      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+      photo: "/img/speakers/yvesbrissaud.jpeg"
+      company: "Docker"
+      bio: "I develop software for software developers to develop software"
+
     xavierdetant:
       name: "Xavier Detant"
       photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
@@ -255,11 +255,12 @@ params:
 
     julientopçu:
       name: "Julien Topçu"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-    #      href: "https://twitter.com/dgageot"
-    #      text: "@dgageot"
+      photo: "/img/speakers/julientopcu.png"
+      href: "https://twitter.com/JulienTopcu"
+      text: "@JulienTopcu"
     #      company: "Doctolib"
-    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+      bio: "Tech Coach chez Shodo, j'accompagne le développement de logiciels à forte valeur métier en usant de techniques issues du Domain-Driven Design, le tout propulsé en Xtreme Programming dans la philosophie Kanban #NoEstimates. Membre de la fondation OWASP, j'évangélise sur les techniques de sécurité applicative afin d'éviter de se faire hacker bien comme il faut."
+
     christophemaldivi:
       name: "Christophe Maldivi"
       photo: "/img/speakers/christophe_maldivi.jpeg"
@@ -308,18 +309,21 @@ params:
 
     victorlambret:
       name: "Victor Lambret"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-    #      href: "https://twitter.com/dgageot"
-    #      text: "@dgageot"
+      photo: "/img/speakers/victorlambret.png"
+      href: "https://twitter.com/VictorLambret"
+      text: "@VictorLambret"
     #      company: "Doctolib"
-    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+      bio: "<p>Quand j'étais jeune, j'ai envisagé deux carrières: l'informatique ou la bande dessinée. Mon compte en banque me remercie d'avoir choisi la première option, mais malgré ça j'ai toujours gardé une tablette graphique à portée de main.</p>
+          <p>Je suis dev embarqué de formation. Depuis 6 ans je travaille pour Sogilis, une boite géniale dans laquelle je me suis éloigné parfois des registres mappés en mémoire pour aller vers des applications plus haut niveau jusqu'au backend. En passant d'un langage à l'autre, un contexte à l'autre, j'en suis venu à prioriser les compétences réutilisables : les méthodes, l'approche des tests et le côté humain.</p>
+          <p>Si je me retrouve dans l'artisanat logiciel, j'ai aussi besoin de garder une distance critique vis à vis de celui-ci. Non pas que j'y trouve un problème de base, mais plutôt parce que mon enthousiasme naturel pour ces pratiques me crée un biais dont je suis conscient.</p>
+          <p>Ma manière d'équilibrer les choses est d'aller lire des papiers scientifiques sur les sujets qui me passionnent. J'y trouve souvent des éléments nouveaux et plein de nouvelles questions. Et pour partager tout ça avec une communauté moins habituée à ce genre de publications, je synthétise mes recherches dans des présentations dessinées (en plus on me paye pour ça :p)</p>"
 
     mathieucans:
       name: "Mathieu Cans"
       photo: "/img/speakers/mathieu_cans.jpg"
       href: "http://twitter.com/mathieucans"
       text: "@mathieucans"
-      bio: ""
+      bio: "Convaincu que la responsabilité collective de la qualité et que l’existence de feedbacks sont au cœur de la réussite des projets informatiques, je développe des produits en équipe par petits incréments."
       company: "Orange"
 
     johanmartinsson:
@@ -371,8 +375,16 @@ params:
       href: "https://twitter.com/Ouarzy"
       text: "@Ouarzy"
 #      company: "Arolla"
-      bio: "<p>Emilien est un développeur passionné qui a démarré sa carrière dans une startup il y'a une dizaine d'années. Suite à divers échecs techniques, il a utilisé la communauté à travers les user groups, les conférences, les livres et les blogs pour apprendre, comprendre et appliquer les bonnes pratiques du développement logiciel.</p>
-               <p>A son compte depuis 2013, il intervient comme consultant notamment pour aider des équipes à améliorer leurs pratiques autour du TDD, BDD et DDD. </p>"
+      bio: "<p>Emilien est un développeur passionné qui a démarré sa carrière dans une startup il y'a une dizaine d'années. Suite à divers échecs techniques, il a utilisé la communauté à travers les user groups, les conférences, les livres et les blogs pour apprendre, comprendre et appliquer les bonnes pratiques du développement logiciel.</p>
+               <p>A son compte depuis 2013, il intervient comme consultant notamment pour aider des équipes à améliorer leurs pratiques autour du TDD, BDD et DDD. </p>"
+
+    mcorbin:
+      name: "Mathieu Corbin"
+      photo: "/img/speakers/mcorbin.jpg"
+      href: "https://twitter.com/_mcorbin"
+      text: "@_mcorbin"
+      company: "Qonto"
+      bio: "J'ai travaillé dans ma carrière aussi bien comme développeur que comme administrateur système. Je suis aujourd'hui Staff SRE chez Qonto où je travaille à la construction de la plateforme gérant les applications de l'entreprise."
 
 
   Schedule:
@@ -392,18 +404,24 @@ params:
         - speaker:
           speakerid: "davidgageot"
 
-#    - name: "Et si les micro-services n'avaient rien à voir avec la technique ?"
-#      description: ""
-#      type: "talk"
-#      salle: "Chamrousse"
-#      categories:
-##        - "Keynote"
-##        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "yvesbrissaud"
+    - name: "Et si les micro-services n'avaient rien à voir avec la technique ?"
+      id: "microservice"
+      short_description: "<p>Encore une conférence sur les micro-services ? c'est tellement pre-pandémie comme sujet. 🤷‍</p>
+          <p>Non, ce n'est pas une conf sur les micro-services. Enfin si... mais c'est pas pareil.</p>"
+      description: "<p>Encore une conférence sur les micro-services ? c'est tellement pre-pandémie comme sujet. 🤷‍</p>
+          <p>Non, ce n'est pas une conf sur les micro-services. Enfin si... mais c'est pas pareil.</p>
+          <p>Ce dont on va parler c'est d'organisation, d'équipes, de communication, de topologie, de rôles, etc. Avec en exemple de nombreux changements qu'on a essayé, testé, implémenté chez Docker.</p>
+          <p>Alors peut-être qu'ensuite vous pourrez répondre à des questions du type \"quelle taille doit faire un micro-service ?\". Ou pas. Et d'ailleurs, tout ceci pourra s'appliquer même si vous ne faites pas de micro-services</p>"
+      type: "talk"
+      salle: "Chamrousse"
+      categories:
+        - "Talk"
+        - "Micro-service"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "yvesbrissaud"
 
 #    - name: "TCR baby steps ...?"
 #      description: ""
@@ -480,18 +498,22 @@ params:
         - speaker:
           speakerid: "sarahscarratt"
 
-#    - name: "Architecture Hexagonale"
-#      description: ""
-#      type: "workshop"
-#      salle: "Chamrousse"
-#      categories:
-#      #        - "Keynote"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "julientopçu"
+    - name: "Architecture Hexagonale : un pattern de gestion de la complexité logicielle et de la dette technique"
+      id: "architecturehexagonale"
+      short_description: "<p>Il arrive toujours un moment où, le logiciel est tellement gros et vieux qu’il devient inmaintenable. Impossible de mettre à jour la stack technique sans tout casser, les nouvelles fonctionnalités deviennent de plus en plus longue à implémenter et la dette technique étant tellement lourde que le refactoring devient exorbitant.</p>"
+      description: "<p>Il arrive toujours un moment où, le logiciel est tellement gros et vieux qu’il devient inmaintenable. Impossible de mettre à jour la stack technique sans tout casser, les nouvelles fonctionnalités deviennent de plus en plus longue à implémenter et la dette technique étant tellement lourde que le refactoring devient exorbitant.</p>
+          <p>Et si on vous disait que tout ça était plus un problème de pratique qu’un problème de vieillesse du logiciel ?</p>
+          <p>Venez découvrir par ce retour d’expérience, comment l’Architecture Hexagonale peut tacler la complexité logicielle en vous permettant d’être évolutif et pérenne tout en vous aidant à mieux gérer votre dette technique.</p>"
+      type: "talk"
+      salle: "Chamrousse"
+      categories:
+        - "Talk"
+        - "Architecture"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "julientopçu"
 
 #    - name: "Autour des équipes"
 #      description: ""
@@ -567,31 +589,47 @@ params:
 #        - speaker:
 #          speakerid: "remysanlaville"
 
-#    - name: "Rendez vos développeurs autonomes sur la production"
-#      description: ""
-#      type: "workshop"
-#      salle: "Chamrousse"
-#      categories:
-#      #        - "Keynote"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "mathieucorbin"
+    - name: "Rendez vos développeurs autonomes sur la production"
+      id: "devproduction"
+      short_description: "<p>Les administrateurs systèmes sont encore traditionnellement les personnes gérant la totalité des applications de l'entreprise en production. Pourtant, et depuis maintenant plusieurs années, une nouvelle tendance apparaît: laisser les développeurs gérer leurs applications en production.</p>"
+      description: "<p>Les administrateurs systèmes sont encore traditionnellement les personnes gérant la totalité des applications de l'entreprise en production. Pourtant, et depuis maintenant plusieurs années, une nouvelle tendance apparaît: laisser les développeurs gérer leurs applications en production.</p>
+          <p>J'expliquerai dans ce talk l'intérêt de cette approche et du rôle des administrateurs systèmes et SRE dans la construction de l'abstraction permettant d'atteindre cet objectif, le but n'étant en effet pas de supprimer les administrateurs systèmes mais de travailler en partenariat avec eux.</p>
+          <p>Je donnerai également des retours d'expérience sur la mise en place de cette approche et des difficultés rencontrées, comme par exemple sur la création d'astreintes dans les équipes de développement</p>"
+      type: "workshop"
+      salle: "Chamrousse"
+      categories:
+        - "Talk"
+        - "DevOps"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "mcorbin"
 
-#    - name: "Le TDD sans commencer par les tests ?"
-#      description: ""
-#      type: "workshop"
-#      salle: "Chamrousse"
-#      categories:
-#      #        - "Keynote"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "victorlambret"
+    - name: "Le TDD sans commencer par les tests"
+      id: "tdd"
+      short_description: "<p>On retient principalement du TDD l'écriture des tests avant le code. On entend aussi dire qu'il est plus efficace. Mais par rapport à quoi ?</p>"
+      description: "<p>On retient principalement du TDD l'écriture des tests avant le code. On entend aussi dire qu'il est plus efficace. Mais par rapport à quoi ?</p>
+        <p>Dans un épisode précédent, \"Artisanat logiciel, un regard zététique\", on avait commencé à confronter nos croyances concernant les bonnes pratiques avec un état de l'art de la recherche scientifique. A cette occasion, on avait fait la connaissance d'ITL (Iterative Test Last) qui semble présenter des résultats similaires.</p>
+        <p>Comment est-il possible d'être aussi efficace que le TDD sans changer sa caractéristique principale ? Et si le secret de l'efficacité était ailleurs ?</p>
+        <p>Dans cette conférence on va:
+          <ul>
+             <li>Décomposer les pratiques du TDD (et revenir sur les problèmes qu'elles résolvent)</li>
+             <li>Creuser l'état de l'art du sujet ITL versus TDD</li>
+             <li>Essayer d'en tirer des conséquences sur l'apprentissage du TDD</li>
+          </ul>
+          </p>
+        <p>Plutôt qu'un débat de spécialistes sur un sujet pointu, l'idée est plutôt d'utiliser ce cas concret pour entraîner notre vigilance intellectuelle et notre esprit critique. Et en dessins s'il vous plaît !</p>"
+      type: "talk"
+      salle: "Chamrousse"
+      categories:
+          - "Talk"
+          - "TDD"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "victorlambret"
 
     - name: "Le DDD au quotidien"
       id: "ddd"
@@ -677,15 +715,27 @@ params:
 #        - speaker:
 #          speakerid: "johanmartinsson"
 
-#    - name: "Master your IDE"
-#      description: ""
-#      type: "workshop"
-#      salle: "Chamrousse"
-#      categories:
-#      #        - "Keynote"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "mathieucans"
+    - name: "Maîtriser son IDE avec Shortcut Aerobic"
+      id: "masteryouride"
+      short_description: "<p>Vous avez envie de gagner en efficacité dans votre travail de tous les jours ?
+         <p>Vous savez qu'il existe des raccourcis claviers mais vous n'arrivez jamais à les retenir ?"
+      description: "<p>Vous avez envie de gagner en efficacité dans votre travail de tous les jours ?
+        <p>Vous savez qu'il existe des raccourcis claviers mais vous n'arrivez jamais à les retenir ?
+        <p>Venez vous entrainer ensemble et découvrir de nouvelles astuces pour programmer plus rapidement.
+        <p>Langages proposés : .net, java, kotlin, typescript.
+        <p>Les exercices sont guidés pour IntelIj et Visual Studio Resharper, mais rien ne vous empêche de participer avec votre IDE préféré.
+        <p>Pré-requis :
+        <ul>
+          <li>Venir avec sa machine et son IDE</li>
+          <li>Avoir récupéré le repository <a href=\"https://github.com/mathieucans/shortcut-aerobic\" aria-label=\"Github shortcut-aerobic\">https://github.com/mathieucans/shortcut-aerobic</a></li>
+          </ul>
+        </p>"
+      type: "workshop"
+      salle: "Chamrousse"
+      categories:
+        - "Workshop"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "mathieucans"

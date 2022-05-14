@@ -49,11 +49,12 @@ En attendant, n’hésitez pas à nous suivre sur <a aria-label="Compte Twitter"
             </header>
             <section>
 <!--                <p>Salle {{ .salle }}</p>-->
-                <a href="/session/?talk={{ .id }}" target="_blank">
+                <a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">
                     <h2 class="talk-title">{{ .name }}</h2>
                 </a>
                 <h3 class="talk-date">{{ .date }}</h3>
                 <p>{{ .short_description | safeHTML }}</p>
+                <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>
 
             </section>
             <footer>
