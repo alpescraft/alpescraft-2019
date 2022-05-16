@@ -8,12 +8,31 @@
 Le programme est en cours de finalisation et sera diffusé d’ici quelques jours.
 </p>
 <p class="lead text-center font-weight-bold">
-En attendant, n’hésitez pas à nous suivre sur <a aria-label="Compte Twitter" href="{{ .twitter }}">Twitter</a>, et à consulter ci-dessous les premières annonces pour la keynote et quelques sessions.
-</p>
-
+En attendant, n’hésitez pas à nous suivre sur <a aria-label="Compte Twitter" href="{{ .twitter }}">Twitter</a>, et voici une sélection des speakers que vous pourrez voir cette année</p>
     </div>
 </div>
 
+{{ $speakersmap := .speakersmap }}
+<div class="centered" style="padding: 0rem 1rem;">
+    <div class="highlightspeakers">
+        {{ range $highlightspeaker := .highlightspeakers }}
+        {{ $speaker := index $speakersmap (string $highlightspeaker.speakerid) }}
+        <div class="card">
+            <a href="{{ $speaker.href }}" aria-label="{{ $speaker.name }}">
+                <img class="card-img-top" src="{{ $highlightspeaker.picture }}" alt="{{ $speaker.name }}">
+                <div class="card-body">
+                    <h6 class="card-title">{{ $speaker.name }}</h6>
+                    <p class="card-text">{{  $highlightspeaker.short_bio }} </p>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+
+<br/>
+<br/>
 <br/>
 
 <h3 class="subtitle">Journée du Jeudi 9 Juin</h3>
@@ -21,7 +40,8 @@ En attendant, n’hésitez pas à nous suivre sur <a aria-label="Compte Twitter"
     La première journée d'AlpesCraft est une journée de conférences et d'ateliers pour découvrir de nouvelles pratiques et perfectionner ses compétences.
 </p>
 
-{{ $speakersmap := .speakersmap }}
+
+
     <ul class="schedule-list-article">
     {{ range $index, $slot := .schedule }}
         <li class="schedule-list-article" style="{{ .style }}">

@@ -242,7 +242,7 @@ params:
       photo: "/img/speakers/thomas_pierrain.jpeg"
       href: "http://twitter.com/tpierrain"
       text: "@tpierrain"
-      company: "42 skillz"
+#      company: "42 skillz"
       bio: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
 
     christophethibaut:
@@ -747,3 +747,21 @@ params:
       speakers:
         - speaker:
           speakerid: "mathieucans"
+
+
+  Highlightspeakers:
+    - speakerid: "davidgageot"
+      picture: "/img/speakers/high_davidgageot.jpeg"
+      short_bio: "Chief Architect @Doctolib"
+    - speakerid: "thomaspierrain"
+      picture: "/img/speakers/high_thomaspierrain.jpg"
+      short_bio: "VP of Engineering & Symmathecist @Agicap"
+    - speakerid: "julientopçu"
+      picture: "/img/speakers/high_julientopcu.png"
+      short_bio: "Tech Coach @SHODO"
+    - speakerid: "michelleavomo"
+      picture: "/img/speakers/high_michelleavomo.jpg"
+      short_bio: "Fullstack dev / software crafter / Trainer @CodeWorks"
+    - speakerid: "xavierdetant"
+      picture: "/img/speakers/high_xavierdetant.jpeg"
+      short_bio: "CTO / DSI @Great Place to Work® France"
