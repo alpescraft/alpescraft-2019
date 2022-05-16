@@ -203,7 +203,7 @@ params:
       href: "https://twitter.com/dgageot"
       text: "@dgageot"
       company: "Doctolib"
-      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+      bio: "Chief Architect @Doctolib"
 
     yvesbrissaud:
       name: "Yves Brissaud"
@@ -263,11 +263,11 @@ params:
 
     christophemaldivi:
       name: "Christophe Maldivi"
-      photo: "/img/speakers/christophe_maldivi.jpeg"
+      photo: "/img/speakers/christophemaldivi.jpeg"
       href: "http://twitter.com/chmaldivi"
       text: "@chmaldivi"
       company: "Orange"
-      bio: ""
+      bio: "Développeur depuis une vingtaine d'années, je travaille actuellement chez Orange"
 
     nicolasfedou:
       name: "Nicolas Fedou"
@@ -391,7 +391,8 @@ params:
     - name: "Keynote - Un monolithe pour 200 développeurs : avantages et défis."
       id: "keynote"
       style: "width: 100% !important"
-      description: ""
+      short_description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
+      description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
       type: "talk"
       tooltip: "Keynote"
       salle: "Chamrousse"
@@ -515,18 +516,25 @@ params:
         - speaker:
           speakerid: "julientopçu"
 
-#    - name: "Autour des équipes"
-#      description: ""
-#      type: "workshop"
-#      salle: "Chamrousse"
-#      categories:
-#      #        - "Keynote"
-#      #        - "💡 Discovery"
+    - name: "Charge mentale: l'ingrédient oublié pour la performance et le bien-être des équipes"
+      id: "chargementale"
+      short_description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
+           <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>"
+      description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
+        <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>
+
+        <p>Quel est le lien entre charge mental et structuration des équipes ?</p>
+        <p>En quoi celle-ci peut avoir un impact sur la performance ?</p>
+        <p>Nous l'explorerons au travers de la découverte de grands noms comme Felienne Hermans, J. Sweller, Yerkes & Dodson, et de références comme le livre Teams Topologies.</p>"
+      type: "talk"
+      salle: "Chamrousse"
+      categories:
+        - "Talk"
 #      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "christophemaldivi"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "christophemaldivi"
 
     - name: "Stratégie de tests agile"
       id: "testagile"
