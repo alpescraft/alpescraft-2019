@@ -214,9 +214,9 @@ params:
     xavierdetant:
       name: "Xavier Detant"
       photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-    #      href: "https://twitter.com/dgageot"
-    #      text: "@dgageot"
-    #      company: "Doctolib"
+      href: "https://twitter.com/XDetant"
+      text: "@XDetant"
+      company: "Great Place to Work® France"
     #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
     michelgrootjans:
       name: "Michel Grootjans"
