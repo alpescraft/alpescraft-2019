@@ -342,8 +342,8 @@ params:
       bio: "Développeur depuis plus de 20 ans, je suis passionné par le développement logiciel, l'agilité, le software craftmanship, etc... Pour moi, le développement agile nécessite des outils et des méthodes adaptés, et notamment les tests unitaires et le TDD dont j'essaie de partager mes connaissances et expériences avec les développeurs que je rencontre."
       company: ""
 
-    margotperrin:
-      name: "Margot perrin"
+    margauxperrin:
+      name: "Margaux perrin"
       photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
       href: "https://twitter.com/Margauxlergo"
       text: "@Margauxlergo"
@@ -669,7 +669,7 @@ params:
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "margotperrin"
+          speakerid: "margauxperrin"
 
     - name: "Back To Basics : SRP"
       id: "srp"
