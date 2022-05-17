@@ -91,13 +91,15 @@
                         </svg>
                     {{ end }}
                     {{ if eq .type "workshop" }}
-                        <img src="/img/schedule/workshop.png" class="img-fluid" alt="workshop">
+                        <img src="/img/schedule/workshop.png" title="Workshop" class="img-fluid" alt="workshop">
                     {{ end }}
                     <ul class="schedule-tags">
                         {{ range $category := $slot.categories }}
                         <li class="schedule-tag">{{ $category }}</li>
                         {{ end }}
-                        <li class="schedule-tag">{{ .language }}</li>
+                        {{ if .language }}
+                            <li class="schedule-tag">{{ .language }}</li>
+                        {{ end }}
                     </ul>
                     <div class="footer-bottom">
                         <a aria-label="Ouvrir la session {{ .name }}" class="schedule-link" href="/session/?talk={{ .id }}" target="_blank">

@@ -183,6 +183,14 @@ params:
       logo: "/img/partners/jb_beam.webp"
       url: "https://www.jetbrains.com/"
   SpeakersMap:
+    orga:
+      name: "Orga"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: "https://twitter.com/AlpesCraft"
+      text: "AlpesCraft"
+      company: "AlpesCraft"
+      bio: ""
+
     sarahscarratt:
       name: "Sarah Scarratt"
       photo: "/img/speakers/sarah_scarratt.jpg"
@@ -299,14 +307,6 @@ params:
       bio: "L'ingénierie logicielle est ma passion et je défends le métier de développeur. TDD/Coding Dojo addict, ATDD, amélioration continue..."
       company: "Orange"
 
-    mathieucorbin:
-      name: "Mathieu Corbin"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-    #      href: "https://twitter.com/dgageot"
-    #      text: "@dgageot"
-    #      company: "Doctolib"
-    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
-
     victorlambret:
       name: "Victor Lambret"
       photo: "/img/speakers/victorlambret.png"
@@ -388,6 +388,20 @@ params:
 
 
   Schedule:
+    - name: "Accueil"
+      id: "accueil"
+      style: "width: 100% !important"
+      short_description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
+      description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
+      salle: "Chamrousse"
+      categories:
+        - "👋"
+        - "🥐"
+        - "☕"
+      date: "Jeudi 09 Juin - 8h15 à 9h00"
+      speakers:
+        - speaker:
+          speakerid: "orga"
     - name: "Keynote - Un monolithe pour 200 développeurs : avantages et défis."
       id: "keynote"
       style: "width: 100% !important"
@@ -747,6 +761,20 @@ params:
       speakers:
         - speaker:
           speakerid: "mathieucans"
+    - name: "Fin de la première journée"
+      id: "cheers"
+      style: "width: 100% !important"
+      short_description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
+      description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
+      type: "closed"
+      salle: "Chamrousse"
+      categories:
+        - "👋"
+        - "🍻"
+      date: "Jeudi 09 Juin - 18h"
+      speakers:
+        - speaker:
+          speakerid: "orga"
 
 
   Highlightspeakers:
