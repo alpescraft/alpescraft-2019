@@ -145,9 +145,9 @@ params:
         logo: "/img/sponsors/enalean.svg"
         url: "https://www.enalean.com/"
     master:
-#      - name: "Bonita"
-#        logo: "/img/sponsors/bonitasoft.png"
-#        url: "https://fr.bonitasoft.com/"
+      - name: "UBIqube"
+        logo: "/img/sponsors/ubiqube.png"
+        url: "https://ubiqube.com/"
 #      - name: "Eloquant"
 #        logo: "/img/sponsors/eloquant.jpg"
 #        url: "https://www.eloquant.com/"
