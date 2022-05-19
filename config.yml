@@ -198,13 +198,16 @@ params:
 #      text: "@SepNamdar"
 #      company: "Soat"
       bio: "Sarah est une coach, mentor et formatrice certifiée, seule en France à être spécialisée dans le Clean Language et la modélisation systémique. Elle adore découvrir comment les gens « fonctionnent » et se réjouit de les aider à devenir curieux d'eux-mêmes, sans porter de jugement. Révélant doucement les épaisseurs jusqu'à ce que nous trouvions un trésor."
+
     philippebourgau:
       name: "Philippe Bourgau"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/philippebourgau.jpeg"
       href: "https://www.linkedin.com/in/philippe-bourgau-607a928/?originalSubdomain=fr"
-      #      text: "@SepNamdar"
-      #      company: "Soat"
-      bio: ""
+#      text: "@SepNamdar"
+      company: "Murex"
+      bio: "<p>XP Coach and Sustainable Pace Hacktivist</p>
+        <p>Let’s not waste our lives on loosy work! I help software engineers to reach an effective and sustainable pace through continuous refactoring of their code and organizations.</p>"
+
     davidgageot:
       name: "David Gageot"
       photo: "/img/speakers/gageot.webp"
@@ -221,11 +224,12 @@ params:
 
     xavierdetant:
       name: "Xavier Detant"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/high_xavierdetant.jpeg"
       href: "https://twitter.com/XDetant"
       text: "@XDetant"
-      company: "Great Place to Work® France"
-    #      bio: "I used to be Java Champion then Go Noob at Docker and Google. Now, I code in Ruby at Doctolib."
+      company: "Great Place to Work®"
+      bio: "Software Crafter and CTO @ Great place to work®"
+
     michelgrootjans:
       name: "Michel Grootjans"
       photo: "/img/speakers/michelgrootjans.jpeg"
@@ -250,8 +254,8 @@ params:
       photo: "/img/speakers/thomas_pierrain.jpeg"
       href: "http://twitter.com/tpierrain"
       text: "@tpierrain"
-#      company: "42 skillz"
-      bio: "Co-organisateur du meetup DDD FR, Thomas est eXtreme Programmeur et architecte technique obsédé par les use cases et le pourquoi (vs. les approches orientées solutions). Co-fondateur de 42 skillz, il aime tout particulièrement utiliser le DDD et le TDD au travail pour booster son efficacité et celle de ses clients. "
+      company: "Agicap"
+      bio: "VP of Engineering dans une scale-up Européenne en plein essor (Agicap), Thomas est un ancien entrepreneur, consultant, architecte et eXtreme Programmer obsédé par les usages (par opposition à l'approche orientée solution qu'on a un peu trop tendance à choisir dans notre métier). Également co-organisateur des meetups DDD FR et anciennement BDD Paris, Thomas aime utiliser le DDD et le TDD pour booster son efficacité et celle des autres au travail."
 
     christophethibaut:
       name: "Christophe Thibaut"
@@ -378,6 +382,24 @@ params:
       bio: "<p>Emilien est un développeur passionné qui a démarré sa carrière dans une startup il y'a une dizaine d'années. Suite à divers échecs techniques, il a utilisé la communauté à travers les user groups, les conférences, les livres et les blogs pour apprendre, comprendre et appliquer les bonnes pratiques du développement logiciel.</p>
                <p>A son compte depuis 2013, il intervient comme consultant notamment pour aider des équipes à améliorer leurs pratiques autour du TDD, BDD et DDD. </p>"
 
+    florentpellet:
+      name: "Florent Pellet"
+      photo: "/img/speakers/florentpellet.webp"
+      href: "https://twitter.com/florentpellet"
+      text: "@florentpellet"
+      company: "HackYourJob"
+      bio: "<p>Software Crafter convaincu et passionné pour les sujets autour de DDD.</p>
+          <p>Co-organisateur du Software Crafter Lyon, du DDD Lyon et du MUG Lyon.</p> 
+          <p>Co-fondateur de HackYourJob.</p>"
+
+    clementbouillier:
+      name: "Clément Bouillier"
+      photo: "/img/speakers/clementbouillier.webp"
+      href: "https://twitter.com/clem_bouillier"
+      company: "Superindep.fr"
+      text: "@clem_bouillier"
+      bio: "<p>Développeur depuis 17 ans, freelance depuis 9 ans, co-fondateur de Superindep.fr. Je suis particulièrement intéressé par les pratiques des software crafters, le DDD et la programmation fonctionnelle.</p>"
+
     mcorbin:
       name: "Mathieu Corbin"
       photo: "/img/speakers/mcorbin.jpg"
@@ -438,18 +460,21 @@ params:
         - speaker:
           speakerid: "yvesbrissaud"
 
-#    - name: "TCR baby steps ...?"
-#      description: ""
-#      type: "talk"
-#      salle: "Chamrousse"
-#      categories:
-#      #        - "Keynote"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "xavierdetant"
+    - name: "REX 2 ans de TCR"
+      id: "REXtcr"
+      short_description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>"
+      description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>
+        <p>Nous y verrons les avantages et les inconvéniants mais aussi les trucs et astuces à connaitre si vous voulez essayer également.</p>"
+      type: "talk"
+      salle: "Chamrousse"
+      categories:
+        - "Talk"
+        - "TCR"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "xavierdetant"
 
     - name: "Experiencing team flow"
       id: "teamflow"
@@ -512,6 +537,42 @@ params:
       speakers:
         - speaker:
           speakerid: "sarahscarratt"
+
+    - name: "Ecrire des tests Antifragiles & orientés métier grâce à l'Outside-in Diamond 🔷 TDD"
+      id: "outsideintdd"
+      short_description: "<p>Le TDD a changé ma vie. Pour de bon.</p>"
+      description: "<p>Le TDD a changé ma vie. Pour de bon.</p>
+       <p>Après avoir commis presque toutes les erreurs possibles lors de ces 15 dernières années à faire du TDD, j’en suis arrivé à pratiquer une forme de TDD qui nous donne, à mes collègues et à moi-même, beaucoup de plaisir et d’efficacité. Une forme particulière de TDD que mon ex-complice Bruno BOUCARD et moi-même avons baptisé Outside-in Diamond 🔷 TDD.</p>
+       <p>C’est quelque chose qui nous permet d’écrire des tests à la fois orientés métier (ce qui n’est pas pour déplaire au passionné de DDD que je suis) mais aussi « Antifragile ». C’est de cela dont je vais vous parler aujourd’hui.</p>"
+      type: "talk"
+      salle: "Chamrousse"
+      categories:
+        - "Talk"
+        - "TDD"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "thomaspierrain"
+
+    - name: "Introduction au T(ype)DD avec F# et web app réactive avec Fable.io"
+      id: "typeDD"
+      short_description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>"
+      description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>
+        <p>Nous vous proposons de partir d’un kata bien connu pour illustrer les différences (implémentations en C# existantes) et dédiaboliser la soi-disant complexité de la programmation fonctionnelle.</p> 
+        <p>Les différences de notation forment le principal obstacle, une fois passée, la programmation fonctionnelle n’est pas plus compliquée. Nous aborderons le langage F# pas à pas en illustrant notamment le système de type (dit de “types algébriques”) pour avoir un design piloté par les types (TypeDD).</p> 
+        <p>En bonus, nous vous montrerons comment créer une web app réactive du kata en F# avec Fable.io (transpiler F# vers JavaScript) et Elmish (oui la référence au langage Elm est fait exprès).</p>"
+      type: "talk"
+      salle: "Chamrousse"
+      categories:
+        - "Talk"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "clementbouillier"
+        - speaker:
+          speakerid: "florentpellet"
 
     - name: "Architecture Hexagonale : un pattern de gestion de la complexité logicielle et de la dette technique"
       id: "architecturehexagonale"
@@ -795,4 +856,4 @@ params:
       short_bio: "Fullstack dev / software crafter / Trainer @CodeWorks"
     - speakerid: "xavierdetant"
       picture: "/img/speakers/high_xavierdetant.jpeg"
-      short_bio: "CTO / DSI @Great Place to Work® France"
+      short_bio: "Software Crafter and CTO @ Great place to work®"
