@@ -142,7 +142,7 @@ params:
   Sponsors:
     historique:
       - name: "Enalean"
-        logo: "/img/sponsors/enalean.svg"
+        logo: "/img/sponsors/tuleap.png"
         url: "https://www.enalean.com/"
     master:
       - name: "UBIqube"
