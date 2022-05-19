@@ -1,24 +1,34 @@
-    window.addEventListener('scroll', scrollFunction);
+/** 
+ * Mix of throttle and debounce function :
+ * execute the callback at most once every {delay}ms but also execute the last call.
+ */
+const throttle = (func, delay = 300) => {
+  let waiting;
 
-    function scrollFunction() {
-        setTimeout(function() {
-            const distanceY = window.pageYOffset || $(document).scrollTop();
+  return function (...args) {
+    if (waiting) return;
 
-            if (distanceY > 55) {
-                document.getElementById("top-button").style.display = "block";
-                $('nav').addClass('shrink');
-            } else {
-                document.getElementById("top-button").style.display = "none";
-                $('nav').removeClass('shrink');
-            }
-        }, 1000);
-    }
+    waiting = true;
+    setTimeout(() => {
+      func(args);
+      waiting = false;
+    }, delay);
+  };
+};
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+window.addEventListener(
+  "scroll",
+  throttle(() => {
+    const distanceY = window.pageYOffset || $(document).scrollTop();
+    document.body.classList.toggle("scrolled", distanceY > 55);
+  }),
+  { passive: true }
+);
+
+function scrollToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 
 // bootstrap 4 breakpoints

@@ -1,51 +1,58 @@
 .navbar {
-
   background-color: white;
-//   padding: 0px 1em;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  transition: all 0.1s;
 
-  // Animation
-//   transition: all 0.3s;
-   -webkit-transition: all 0.6s ease-out;
-   transition: all 0.6s ease-out;
-
-  .nav-item {
-//     padding-right: 30px;
-
-    p {
-      color: #505050;
-    }
+  .navbar-nav {
+    width: 100%;
+    justify-content: space-evenly;
   }
 
-  .nav-icon {
-    font-size: 1.5rem;
+  .navbar-brand {
+    padding: 0;
   }
 
   .navbar-brand-logo {
-    height: 70px;
-    margin-top: -5px;
+    height: 60px;
     transition: all 0.3s;
   }
 
- .dropdown-toggle {
-    position: relative;
- }
+  .nav-icon {
+    width: 12px;
+    color: currentColor;
+  }
 
- &.shrink .dropdown-toggle::after {
-    display: none;
- }
+  .nav-link {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: #505050 !important;
+    border-radius: 4px;
+    transition: background-color 100ms;
 
- .dropdown-toggle::after {
-    position: absolute;
-    transform: translateX(-50%);
-    bottom: 10px;
-    left: 50%
- }
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.08);
+    }
+  }
 
- &.shrink .dropdown-item p {
-    display: block;
-    opacity: 1;
- }
+  .dropdown-toggle {
+    display: grid;
+    grid-template: auto auto / auto auto;
+    gap: 8px 0;
+    place-items: center;
 
+    i {
+      grid-column-end: span 2;
+    }
+  }
+}
+
+.scrolled .navbar {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
 .top-button {
@@ -58,34 +65,13 @@
   border: none;
   outline: none;
   cursor: pointer;
+  transition: transform 100ms;
 
   &:hover {
-    font-size: 5rem;
-    transition: font-size 100ms;
+    transform: scale(1.2);
   }
-}
 
-@media (min-width: 768px) {
-  .navbar.shrink {
-    height: 55px;
-    padding-bottom: 0px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    -webkit-transition: all 0.6s ease-out;
-    transition: all 0.6s ease-out	;
-
-    .nav-item {
-      padding-right: 50px;
-    }
-
-    .navbar-brand-logo {
-      height: 50px;
-      margin-top: -5px;
-      transition: all 0.6s ease-out;
-    }
-
-    p {
-      display: none;
-      transition: visibility 0s linear 0.33s, opacity 0.33s
-    }
+  .scrolled & {
+    display: block;
   }
 }

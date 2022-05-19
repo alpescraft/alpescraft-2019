@@ -1,37 +1,58 @@
-<nav class="navbar navbar-expand-lg navbar-light sticky-top" role="navigation">
-    <a class="navbar-brand" href="/">
-        <img loading="lazy" class="navbar-brand-logo" src="/img/logo/color/04-AlpesCraft_Couleurs-S.webp" alt="AlpesCraft logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse mr-auto" id="navbarToggler" data-target="#navbarToggler">
-          <ul class="navbar-nav navbar-nav-scroll nav-justified w-100">
-            {{ range $section := $.Site.Params.Sections }}
-            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse"s>
-                    {{ range $key, $value := (index $.Site.Params.Titles $section) }}
-                    <a class="text-center nav-link" href="{{ $.Site.BaseURL }}#{{ $section }}" about="{{ $value.title }}" aria-label="{{ $value.title }}">
-                        <i class="{{ $value.icon }} nav-icon"></i>
-                        <p>{{ $value.title }}</p>
-                    </a>
-                    {{ end }}
-            </li>
-            {{ end }}
-            <li class="nav-item dropdown">
-                <a class="nav-link text-center dropdown-toggle" aria-label="Éditions précédentes" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="icon-control-rewind nav-icon"></i>
-                    <p>Éditions précédentes</p>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    {{ range $previous := $.Site.Params.Previous }}
-                        {{ range $key, $value := (index $.Site.Params.TitlesPrevious $previous) }}
-                            <a class="dropdown-item" href="{{ $.Site.BaseURL }}/{{ index $.Site.Params.LinksPrevious $previous }}">
-                                <p>{{ $value.title }}</p>
-                            </a>
-                        {{ end }}
-                    {{ end }}
-                </div>
-            </li>
-          </ul>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">
+    <img
+      loading="lazy"
+      class="navbar-brand-logo"
+      src="/img/logo/color/04-AlpesCraft_Couleurs-S.webp"
+      alt="AlpesCraft logo"
+    />
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      {{ range $section := $.Site.Params.Sections }}
+      <li class="nav-item">
+        {{ range $key, $value := (index $.Site.Params.Titles $section) }}
+        <a class="nav-link" href="{{ $.Site.BaseURL }}#{{ $section }}">
+          <i class="{{ $value.icon }} nav-icon"></i>
+          {{ $value.title }}
+        </a>
+        {{ end }}
+      </li>
+      {{ end }}
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="icon-control-rewind nav-icon"></i>
+          Éditions précédentes
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          {{ range $previous := $.Site.Params.Previous }} {{ range $key, $value
+          := (index $.Site.Params.TitlesPrevious $previous) }}
+          <a
+            class="dropdown-item"
+            href="{{ $.Site.BaseURL }}/{{ index $.Site.Params.LinksPrevious $previous }}"
+            >{{ $value.title }}</a
+          >{{ end }} {{ end }}
+        </div>
+      </li>
+    </ul>
+  </div>
 </nav>
