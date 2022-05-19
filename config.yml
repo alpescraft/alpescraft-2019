@@ -236,9 +236,9 @@ params:
       href: "https://twitter.com/michelgrootjans"
       text: "@michelgrootjans"
 #      company: "Doctolib"
-      bio: "<p>Michel Grootjans has been programming since the age of 12. He has programmed strange machines like the TI 99-4A, the Atari 2600, Mac128, HP28, Apple II, Siemens PLC's, using languages like Basic, Pascal, C, HyperTalk, Assembler, ... along the way.</p>
-            <p>His professional experiences include building systems for retail, media, government, chemical plants, telecom, HR, insurance, ... in javascript, C#, java and, ruby.</p>
-            <p>He helps teams with continuous improvement, focusing on outcomes over output.</p>"
+      bio: "<p>Michel Grootjans programme depuis l'âge de 12 ans. Il a programmé des machines étranges comme le TI 99-4A, l'Atari 2600, le Mac128, le HP28, l'Apple II, les PLC Siemens en utilisant des langages comme le Basic, le Pascal, le C, l'HyperTalk, l'Assembleur.</p>
+        <p>Son expérience professionnelle comprend la création et le développement d'applications pour les médias, le gouvernement, la pétrochimie, le télécom, les RH, les assurances... en javascript, en C#, en java et en ruby.</p>
+        <p>Il aide les équipes à s'améliorer en participant un maximum au travail journalier.</p>"
     michelleavomo:
       name: "Michelle Avomo"
       photo: "/img/speakers/michelleavomo.jpg"
@@ -478,8 +478,16 @@ params:
 
     - name: "Experiencing team flow"
       id: "teamflow"
-      short_description: "You will learn to see the effect of your team's organisation on the flow of work. Side note: you will also realise why estimates don't work as expected."
-      description: "You will learn to see the effect of your team's organisation on the flow of work. Side note: you will also realise why estimates don't work as expected."
+      short_description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>"
+      description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>
+        <p>Nous ferons des simulations d'organisation d'une équipe pour bien comprendre l'effet que cela a sur son flux total du travail.</p>
+        <p>Les sujets que nous aborderons :
+        <ul>
+            <li>Pourquoi limiter le travail en cours ?</li>
+            <li>Pourquoi préférons-nous des membres d'équipe en forme de T ?</li>
+            <li>Pourquoi avons-nous du mal à estimer quand le travail sera fini ?</li>
+            <li>En quoi la collaboration peut-elle nous aider ?</li>
+        </ul></p>"
       type: "workshop"
       salle: "Chamrousse"
       categories:
