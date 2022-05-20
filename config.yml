@@ -563,13 +563,12 @@ params:
         - speaker:
           speakerid: "thomaspierrain"
 
-    - name: "Introduction au T(ype)DD avec F# et web app réactive avec Fable.io"
+    - name: "Introduction au T(ype)DD avec F#"
       id: "typeDD"
       short_description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>"
       description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>
         <p>Nous vous proposons de partir d’un kata bien connu pour illustrer les différences (implémentations en C# existantes) et dédiaboliser la soi-disant complexité de la programmation fonctionnelle.</p> 
-        <p>Les différences de notation forment le principal obstacle, une fois passée, la programmation fonctionnelle n’est pas plus compliquée. Nous aborderons le langage F# pas à pas en illustrant notamment le système de type (dit de “types algébriques”) pour avoir un design piloté par les types (TypeDD).</p> 
-        <p>En bonus, nous vous montrerons comment créer une web app réactive du kata en F# avec Fable.io (transpiler F# vers JavaScript) et Elmish (oui la référence au langage Elm est fait exprès).</p>"
+        <p>Les différences de notation forment le principal obstacle, une fois passée, la programmation fonctionnelle n’est pas plus compliquée. Nous aborderons le langage F# pas à pas en illustrant notamment le système de type (dit de “types algébriques”) pour avoir un design piloté par les types (TypeDD).</p>"
       type: "talk"
       salle: "Chamrousse"
       categories:
