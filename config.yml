@@ -141,9 +141,9 @@ params:
   # List of Sponsors
   Sponsors:
     historique:
-      - name: "Enalean"
+      - name: "Tuleap"
         logo: "/img/sponsors/tuleap.png"
-        url: "https://www.enalean.com/"
+        url: "https://www.tuleap.org/"
     master:
       - name: "UBIqube"
         logo: "/img/sponsors/ubiqube.png"
