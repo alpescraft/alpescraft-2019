@@ -2,12 +2,21 @@
   background-color: white;
   position: sticky;
   top: 0;
-  z-index: 1;
-  transition: all 0.1s;
+  z-index: 2;
+  transition: all 0.3s;
 
   .navbar-nav {
     width: 100%;
     justify-content: space-evenly;
+  }
+
+  .navbar-collapse {
+    max-height: 80vh;
+    overscroll-behavior: contain;
+
+    &.show {
+      overflow: auto;
+    }
   }
 
   .navbar-brand {
@@ -25,7 +34,7 @@
   }
 
   .nav-link {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
@@ -38,11 +47,22 @@
     }
   }
 
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+
   .dropdown-toggle {
     display: grid;
     grid-template: auto auto / auto auto;
     gap: 8px 0;
     place-items: center;
+
+    &[aria-expanded="true"]::after {
+      transform: rotate(180deg);
+    }
 
     i {
       grid-column-end: span 2;
@@ -60,7 +80,7 @@
   position: fixed;
   bottom: 15px;
   right: 15px;
-  z-index: 99;
+  z-index: 1;
   font-size: 3rem;
   border: none;
   outline: none;
