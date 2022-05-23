@@ -154,9 +154,6 @@ params:
 #      - name: "Salesforce"
 #        logo: "/img/sponsors/salesforce.png"
 #        url: "https://www.salesforce.com"
-#      - name: "Zenika"
-#        logo: "/img/sponsors/zenika.png"
-#        url: "https://www.zenika.com/"
     apprenti:
       - name: "HackYourJob"
         logo: "/img/sponsors/hackyourjob_community.webp"
@@ -164,6 +161,9 @@ params:
       - name: "CodeWorks"
         logo: "/img/sponsors/codeworks.jpg"
         url: "https://www.codeworks.fr/"
+      - name: "Zenika"
+        logo: "/img/sponsors/zenika.png"
+        url: "https://www.zenika.com/"
 
   # List of Partners
   Partners:
