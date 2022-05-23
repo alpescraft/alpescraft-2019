@@ -130,13 +130,16 @@ params:
       text:
         - paragraph: >
                       Vous pouvez y accéder :
-                      <ul class="lead">
+                      <ul>
                         <li>par les lignes de Bus Chrono 6, 12, 65 et 77, arrêt "Grand Place"</li>
                         <li>par la ligne de Bus Chrono 3, arrêt "Alpexpo"</li>
                         <li>en Tram par la Ligne A, arrêt Pôle Sud – Alpexpo</li>
                         <li>en voiture, un grand parking gratuit est à votre disposition en face de l’entrée</li>
                         <li>à <a href="http://www.metromobilite.fr/velo.html" target="_blank"> vélo</a> ou à moto, un parking sera à votre disposition une fois passé les grilles</li>
                       </ul>
+                      <p class="text-justify">
+                        Attention, si vous venez en voiture depuis le Nord (Saint-Egrève) ou le Sud (Vif), par l’A480, les travaux en cours notamment au Rondeau (gros échangeur routier Autoroute/Rocade situé entre Grenoble, Echirolles et Seyssins) entrainent de nombreuses et importantes difficultés de circulation dans ce secteur (bouchons). Pensez à anticiper pour arriver à l’heure à la conférence!
+                      </p>
 
   # List of Sponsors
   Sponsors:

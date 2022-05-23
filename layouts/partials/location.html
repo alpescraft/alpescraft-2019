@@ -10,12 +10,12 @@
             <div class='col-lg-6 order-lg-2 location-text'>
                 <h2 class="title">{{ .title }}</h2>
 
-                <p class="lead">Les deux jours se dérouleront à :</p>
-                <p class="lead text-center"><strong><a target="_blank" href="https://alpexpo.com/acces/" aria-label="Accès Alpexpo">{{ $.venue }}</a></strong></p>
-                <p class="lead text-center">{{ $.address }}, {{ $.city }}</p>
+                <p>Les deux jours se dérouleront à :</p>
+                <p class="text-center"><strong><a target="_blank" href="https://alpexpo.com/acces/" aria-label="Accès Alpexpo">{{ $.venue }}</a></strong></p>
+                <p class="text-center">{{ $.address }}, {{ $.city }}</p>
 
                 {{ range .text }}
-                <p class="lead">{{ .paragraph | safeHTML }}</p>
+                <p>{{ .paragraph | safeHTML }}</p>
                 {{ end }}
             </div>
         </div>
