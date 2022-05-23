@@ -161,6 +161,9 @@ params:
       - name: "HackYourJob"
         logo: "/img/sponsors/hackyourjob_community.webp"
         url: "https://www.hackyourjob.com/"
+      - name: "CodeWorks"
+        logo: "/img/sponsors/codeworks.jpg"
+        url: "https://www.codeworks.fr/"
 
   # List of Partners
   Partners:
