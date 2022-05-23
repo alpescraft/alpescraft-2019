@@ -33,6 +33,13 @@
     color: currentColor;
   }
 
+  @media screen and (min-width: 1600px) {
+    .nav-item {
+      flex-basis: 100%;
+      max-width: 200px;
+    }
+  }
+
   .nav-link {
     display: flex;
     flex-direction: column;
@@ -87,8 +94,11 @@
   cursor: pointer;
   transition: transform 100ms;
 
-  &:hover {
-    transform: scale(1.2);
+  // only devices with a pointer (avoid scaling when touching on mobile)
+  @media (hover: hover) {
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   .scrolled & {

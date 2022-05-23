@@ -1,23 +1,24 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/cover.webp') no-repeat center top;
+  background: url("../img/cover.webp") no-repeat center top;
   background-size: 100% auto;
 
   @keyframes fadeIn {
-      0% {
-          transform: translateY(50px);
-          opacity: 0;
-      }
-
-      100% {
-           transform: translateY(0);
-            opacity: 1;
-      }
+    from {
+      opacity: 0;
+    }
   }
 
-  #logo, .container {
-    animation: fadeIn 700ms ease-in-out;
+  @keyframes slideIn {
+    from {
+      transform: translateY(20px);
+    }
+  }
+
+  #logo,
+  .container {
+    animation: fadeIn 600ms, slideIn 800ms;
   }
 
   @include background-cover;
@@ -30,7 +31,7 @@ header.masthead {
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0.0;
+    opacity: 0;
   }
   h1 {
     font-size: 2rem;
