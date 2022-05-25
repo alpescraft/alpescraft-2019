@@ -1,4 +1,21 @@
-/** 
+window.onload = () => {
+  setupNavbarToggle();
+  updateNavbarStyleOnScroll();
+};
+
+function updateNavbarStyleOnScroll() {
+  updateNavbarStyle();
+  window.addEventListener("scroll", throttle(updateNavbarStyle), {
+    passive: true,
+  });
+}
+
+function updateNavbarStyle() {
+  const distanceY = window.pageYOffset || $(document).scrollTop();
+  document.body.classList.toggle("scrolled", distanceY > 55);
+}
+
+/**
  * Mix of throttle and debounce function :
  * execute the callback at most once every {delay}ms but also execute the last call.
  */
@@ -16,18 +33,22 @@ const throttle = (func, delay = 300) => {
   };
 };
 
-window.addEventListener(
-  "scroll",
-  throttle(() => {
-    const distanceY = window.pageYOffset || $(document).scrollTop();
-    document.body.classList.toggle("scrolled", distanceY > 55);
-  }),
-  { passive: true }
-);
-
 function scrollToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+/**
+ * Collapse the mobile navbar when clicking on an item.
+ * We do this programatically instead of using the data-toggle attribute
+ * because it causes glitches on large screens.
+ */
+ function setupNavbarToggle() {
+  document.querySelectorAll(".nav-item").forEach((l) => {
+    l.addEventListener("click", () => {
+      $("#navbarSupportedContent").collapse("hide");
+    });
+  });
 }
 
 
