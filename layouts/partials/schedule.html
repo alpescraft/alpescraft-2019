@@ -11,23 +11,32 @@
 </div>
 
 {{ $speakersmap := .speakersmap }}
-<div class="centered" style="padding: 0rem 1rem;">
-    <div class="highlightspeakers">
-        {{ range $highlightspeaker := .highlightspeakers }}
-        {{ $speaker := index $speakersmap (string $highlightspeaker.speakerid) }}
-        <div class="card">
-            <a href="{{ $speaker.href }}" aria-label="{{ $speaker.name }}">
-                <img class="card-img-top" src="{{ $highlightspeaker.picture }}" alt="{{ $speaker.name }}">
-                <div class="card-body">
-                    <h6 class="card-title">{{ $speaker.name }}</h6>
-                    <p class="card-text">{{  $highlightspeaker.short_bio }} </p>
-                </div>
-            </a>
-        </div>
-        {{ end }}
+
+<div class="container-fluid">
+    <div id="slick">
+            {{ range $key, $speaker := $speakersmap }}
+            {{ if and  (ne $key "orga") (ne $key "bastiendavid") (ne $key "mathieucans") }}
+                    <div class="slide">
+                        <div class="card">
+                            <a href="{{ $speaker.href }}" aria-label="{{ $speaker.name }}">
+                                <img class="card-img-top img-fluid" src="{{ $speaker.high_picture }}" alt="{{ $speaker.name }}">
+                                <div class="card-body">
+                                    <h6 class="card-title">{{ $speaker.name }}</h6>
+                                    <p class="card-text">
+                                         {{ if $speaker.short_bio }}
+                                          {{ $speaker.short_bio | safeHTML }}
+                                        {{ else }}
+                                            {{ $speaker.bio | safeHTML }}
+                                        {{ end }}
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+            {{ end }}
+            {{ end }}
     </div>
 </div>
-
 
 <br/>
 <br/>

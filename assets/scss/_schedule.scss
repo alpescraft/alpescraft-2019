@@ -2,15 +2,85 @@
 
   padding: 2rem 1rem;
 
-    .highlightspeakers {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
+/* bootstrap 4 multi-col carousel */
+#slick {
 
-       .card {
-           flex: 0 1 calc(15% - 1em);
-       }
+  display: none;
+
+  &.slick-initialized {
+    display: block;
+  }
+
+  /* .slick-list emulates .row */
+  .slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  /* .slick-slide emulates .col- */
+  .slick-slide {
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: initial;
+
+    &:focus {
+      outline: none;
     }
+
+  }
+
+    .slick-track {
+        display: flex;
+
+        .slick-slide {
+          display: flex;
+          height: auto;
+        }
+    }
+
+  /* slick dots */
+  .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 0;
+    list-style: none;
+    z-index: 1;
+    margin: 0;
+    display: block;
+    transform: translate(-50%,calc(100% + 15px));
+
+    > LI {
+      display: inline-block;
+      margin: 10px 3px;
+
+      BUTTON {
+        display: block;
+        width: 30px;
+        height: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background: #212529;
+        opacity: .5;
+        transition: opacity .5s ease;
+        padding: 0;
+        overflow: hidden;
+        border: 0;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      &.slick-active BUTTON {
+        opacity: 1;
+      }
+    }
+  }
+
+}
+
+
 
   .subtitle::before {
     display: inline-block;
@@ -43,48 +113,22 @@
       width: 30% !important;
     }
 
-    .highlightspeakers {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-
-       .card {
-           flex: 0 1 calc(15% - 1em);
-       }
-    }
   }
+
   @media (max-width: 1200px) {
     li.schedule-list-article {
       width: 45% !important;
     }
-
-    .highlightspeakers {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-
-       .card {
-            margin-bottom: 10px;
-            flex: 0 1 calc(33% - 1em);
-       }
-    }
   }
+
   @media (max-width: 768px) {
     li.schedule-list-article {
       width: 100% !important;
       margin: 2.25rem 0;
     }
 
-    .highlightspeakers {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-
-       .card {
-            margin-bottom: 10px;
-            margin-right: 10px;
-           flex: 0 1 calc(50% - 1em);
-       }
+    .container-fluid {
+        padding: 0em 3em;
     }
   }
 
@@ -196,3 +240,4 @@
     margin-left: auto;
   }
 }
+
