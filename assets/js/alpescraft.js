@@ -40,7 +40,7 @@ $('#slick').slick({
   pauseOnHover: true,
   infinite: true,
   dots: false,
-  arrows: false,
+  arrows: true,
   speed: 1000,
   variableWidth: false,
 
