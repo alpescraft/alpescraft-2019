@@ -1,4 +1,10 @@
-<i class="icon-arrow-up-circle m-auto text-primary top-button" id="top-button" onclick="topFunction()"></i>
+<button
+  class="m-auto text-primary top-button"
+  title="scroll to top"
+  onclick="scrollToTop()"
+>
+  <i class="icon-arrow-up-circle"></i>
+</button>
 
 <footer class="footer">
   <div class="container">
@@ -9,10 +15,14 @@
             <a href="mailto:{{ .email }}">Contact</a>
           </li>
         </ul>
-        <p class="text-muted small mb-4 mb-lg-0">&copy; AlpesCraft 2019. All Rights Reserved.</p>
+        <p class="text-muted small mb-4 mb-lg-0">
+          &copy; AlpesCraft 2019. All Rights Reserved.
+        </p>
         <p class="text-muted small mb-4 mb-lg-0">Crédits photos :</p>
         {{ range .credits }}
-        <p class="text-muted small mb-4 mb-lg-0">- <a class="credit-photo-link" href="{{ .url }}">{{ .name }}</a></p>
+        <p class="text-muted small mb-4 mb-lg-0">
+          - <a class="credit-photo-link" href="{{ .url }}">{{ .name }}</a>
+        </p>
         {{ end }}
       </div>
       <div class="col-lg-6 h-100 text-center text-lg-right my-auto">

@@ -3,6 +3,10 @@ body {
   height: 100%;
 }
 
+html {
+  scroll-padding-top: 76px;
+}
+
 h1,
 h2,
 h3,
@@ -16,7 +20,7 @@ h6 {
 .title:before {
   display: inline-block;
   content: "";
-  border-top: .3rem solid #007bff;
+  border-top: 0.3rem solid #007bff;
   width: 4rem;
   margin: 0 1rem;
   transform: translateY(-0.5rem);

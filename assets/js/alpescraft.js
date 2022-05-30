@@ -1,24 +1,55 @@
-    window.addEventListener('scroll', scrollFunction);
+window.onload = () => {
+  setupNavbarToggle();
+  updateNavbarStyleOnScroll();
+};
 
-    function scrollFunction() {
-        setTimeout(function() {
-            const distanceY = window.pageYOffset || $(document).scrollTop();
+function updateNavbarStyleOnScroll() {
+  updateNavbarStyle();
+  window.addEventListener("scroll", throttle(updateNavbarStyle), {
+    passive: true,
+  });
+}
 
-            if (distanceY > 55) {
-                document.getElementById("top-button").style.display = "block";
-                $('nav').addClass('shrink');
-            } else {
-                document.getElementById("top-button").style.display = "none";
-                $('nav').removeClass('shrink');
-            }
-        }, 1000);
-    }
+function updateNavbarStyle() {
+  const distanceY = window.pageYOffset || $(document).scrollTop();
+  document.body.classList.toggle("scrolled", distanceY > 55);
+}
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+/**
+ * Mix of throttle and debounce function :
+ * execute the callback at most once every {delay}ms but also execute the last call.
+ */
+const throttle = (func, delay = 300) => {
+  let waiting;
+
+  return function (...args) {
+    if (waiting) return;
+
+    waiting = true;
+    setTimeout(() => {
+      func(args);
+      waiting = false;
+    }, delay);
+  };
+};
+
+function scrollToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+/**
+ * Collapse the mobile navbar when clicking on an item.
+ * We do this programatically instead of using the data-toggle attribute
+ * because it causes glitches on large screens.
+ */
+ function setupNavbarToggle() {
+  document.querySelectorAll(".nav-item").forEach((l) => {
+    l.addEventListener("click", () => {
+      $("#navbarSupportedContent").collapse("hide");
+    });
+  });
+}
 
 
 // bootstrap 4 breakpoints
