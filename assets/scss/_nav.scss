@@ -90,8 +90,9 @@
   z-index: 1;
   font-size: 3rem;
   border: none;
-  outline: none;
+  background: transparent;
   cursor: pointer;
+  padding: 0;
   transition: transform 100ms;
 
   // only devices with a pointer (avoid scaling when touching on mobile)
@@ -102,6 +103,6 @@
   }
 
   .scrolled & {
-    display: block;
+    display: inline-flex;
   }
 }

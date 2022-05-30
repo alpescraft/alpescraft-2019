@@ -44,8 +44,7 @@
           Éditions précédentes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          {{ range $previous := $.Site.Params.Previous }} {{ range $key, $value
-          := (index $.Site.Params.TitlesPrevious $previous) }}
+          {{ range $previous := $.Site.Params.Previous }} {{ range $key, $value := (index $.Site.Params.TitlesPrevious $previous) }}
           <a
             class="dropdown-item"
             href="{{ $.Site.BaseURL }}/{{ index $.Site.Params.LinksPrevious $previous }}"
