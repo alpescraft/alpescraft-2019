@@ -35,6 +35,7 @@ params:
     - schedule
     - billetterie
     - location
+    - newsletter
 
   # Titles which you can translate to other languages
   Titles:
@@ -62,6 +63,9 @@ params:
      billetterie:
        - title: "Billetterie"
          icon: "icon-basket"
+     newsletter:
+       - title: "Newsletter"
+         icon: "icon-envelope"
      edition2019:
        - title: "Édition 2019"
          icon: "icon-control-rewind"
