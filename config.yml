@@ -155,12 +155,9 @@ params:
       - name: "UBIqube"
         logo: "/img/sponsors/ubiqube.png"
         url: "https://ubiqube.com/"
-#      - name: "Eloquant"
-#        logo: "/img/sponsors/eloquant.jpg"
-#        url: "https://www.eloquant.com/"
-#      - name: "Salesforce"
-#        logo: "/img/sponsors/salesforce.png"
-#        url: "https://www.salesforce.com"
+      - name: "Salesforce"
+        logo: "/img/sponsors/salesforce.png"
+        url: "https://www.salesforce.com"
     apprenti:
       - name: "HackYourJob"
         logo: "/img/sponsors/hackyourjob_community.webp"
@@ -171,6 +168,16 @@ params:
       - name: "Zenika"
         logo: "/img/sponsors/zenika.png"
         url: "https://www.zenika.com/"
+      - name: "Eloquant"
+        logo: "/img/sponsors/eloquant.jpg"
+        url: "https://www.eloquant.com/"
+      - name: "Positive Thinking Company"
+        logo: "/img/sponsors/positivethinking.png"
+        url: "https://positivethinking.tech/"
+      - name: "Ateme"
+        logo: "/img/sponsors/ateme.png"
+        url: "https://www.ateme.com/"
+
 
   # List of Partners
   Partners:
