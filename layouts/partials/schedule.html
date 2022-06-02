@@ -51,7 +51,7 @@
 
     <ul class="schedule-list-article">
     {{ range $index, $slot := .schedule }}
-        <li class="schedule-list-article" style="{{ .style }}">
+        <li class="schedule-list-article" style="{{ .style | safeCSS }}">
             <article class="talk">
             <header style="width: 100%;">
                 <ul class="schedule-speaker">
@@ -75,11 +75,15 @@
                 </ul>
             </header>
             <section>
-<!--                <p>Salle {{ .salle }}</p>-->
                 <a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">
                     <h2 class="talk-title">{{ .name }}</h2>
                 </a>
+                <h3 class="talk-date">{{ if .salle }} Salle {{ .salle }} {{ end }}</h3>
                 <h3 class="talk-date">{{ .date }}</h3>
+                {{ if eq .type "workshop" }}
+                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
+                    <br/>
+                {{ end }}
                 <p>{{ .short_description | safeHTML }}</p>
                 <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>
 

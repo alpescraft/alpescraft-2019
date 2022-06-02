@@ -476,26 +476,28 @@ params:
   Schedule:
     - name: "Accueil"
       id: "accueil"
-      style: "width: 100% !important"
+      style: "grid-column: 1 / -1;"
       short_description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
       description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
       salle: "Chamrousse"
+      date: "8h15 à 9h00"
       categories:
         - "👋"
         - "🥐"
         - "☕"
-      date: "Jeudi 09 Juin - 8h15 à 9h00"
       speakers:
         - speaker:
           speakerid: "orga"
+
     - name: "Keynote - Un monolithe pour 200 développeurs : avantages et défis."
       id: "keynote"
-      style: "width: 100% !important"
+      style: "grid-column: 1 / -1;"
+      salle: "Chamrousse"
+      date: "9h30 - 10h15"
       short_description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
       description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
       type: "talk"
       tooltip: "Keynote"
-      salle: "Chamrousse"
       categories:
         - "Keynote"
         - "💡 Discovery"
@@ -515,6 +517,7 @@ params:
           <p>Alors peut-être qu'ensuite vous pourrez répondre à des questions du type \"quelle taille doit faire un micro-service ?\". Ou pas. Et d'ailleurs, tout ceci pourra s'appliquer même si vous ne faites pas de micro-services</p>"
       type: "talk"
       salle: "Chamrousse"
+      date: "10h30 - 11h15"
       categories:
         - "Talk"
         - "Micro-service"
@@ -530,7 +533,8 @@ params:
       description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>
         <p>Nous y verrons les avantages et les inconvéniants mais aussi les trucs et astuces à connaitre si vous voulez essayer également.</p>"
       type: "talk"
-      salle: "Chamrousse"
+      salle: "Villard de Lans 2"
+      date: "10h30 - 11h15"
       categories:
         - "Talk"
         - "TCR"
@@ -540,8 +544,27 @@ params:
         - speaker:
           speakerid: "xavierdetant"
 
+    - name: "Mob is You"
+      id: "mobisu"
+      style: "grid-row: span 2;"
+      short_description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>"
+      description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>
+          <p>Que vous développiez ou quotidien ou pas, vous aurez des choses à apprendre sur la dynamique de groupe et comment il est possible de co-créer du logiciel en tant que groupe.</p>"
+      salle: "Autrans 1"
+      date: "10h30 - 12h15"
+      type: "workshop"
+      categories:
+        - "Workshop"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "bastiendavid"
+        - speaker:
+          speakerid: "remysanlaville"
+
     - name: "Experiencing team flow"
       id: "teamflow"
+      style: "grid-row: span 2;"
       short_description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>"
       description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>
         <p>Nous ferons des simulations d'organisation d'une équipe pour bien comprendre l'effet que cela a sur son flux total du travail.</p>
@@ -553,7 +576,8 @@ params:
             <li>En quoi la collaboration peut-elle nous aider ?</li>
         </ul></p>"
       type: "workshop"
-      salle: "Chamrousse"
+      salle: "Villard de Lans 1"
+      date: "10h30 - 12h15"
       categories:
         - "Workshop"
       #        - "💡 Discovery"
@@ -563,30 +587,11 @@ params:
         - speaker:
           speakerid: "michelgrootjans"
 
-    - name: "Jeu du frigo"
-      id: "frigo"
-      short_description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>"
-      description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>
-          <p>Si vous avez répondu du tac au tac \"ce sont des systèmes complexes soumis à des forces nombreuses avec des effets et des temporalités souvent difficiles à analyser\", vous devriez apprécier les défis proposés lors de cet atelier. Si vous n'avez pas fait le lien immédiatement, vous pourriez y faire une découverte utile voire salutaire.</p>
-          <p>Le propos de cet atelier est d'explorer ce qui rend les systèmes si difficiles à gouverner, qu'il s'agisse de lignes de code ou de populations exposées à une pandémie, mais aussi de montrer en quoi certaines \"lois\" se retrouvent indépendamment des domaines et nous fournissent des outils et des réflexes à cultiver.</p>
-          <p></p>
-          <p><strong>Matériel nécessaire</strong>: les participants doivent avoir un laptop pour 3.</p>"
-      type: "workshop"
-      salle: "Chamrousse"
-      categories:
-        - "Workshop"
-      #        - "💡 Discovery"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "michelleavomo"
-        - speaker:
-          speakerid: "christophethibaut"
-
     - name: "Introduction au Clean Language"
       id: "cleanlanguage"
-      salle: "Chamrousse"
+      style: "grid-row: span 2;"
+      salle: "Autrans 2"
+      date: "10h30 - 12h15"
       description: "<p>Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits.</p>
 
                     Les questions Clean ont été affinées au fil de nombreuses années et sont conçues pour permettre au coach d'éviter d'ajouter ses propres présupposés ou jugements, et d'écouter de façon exquise. Enseigner ces questions aux équipes les invite à devenir curieux les uns des autres et à ne plus dépendre du ScrumMaster ou du Coach Agile pour communiquer.
@@ -618,6 +623,7 @@ params:
        <p>C’est quelque chose qui nous permet d’écrire des tests à la fois orientés métier (ce qui n’est pas pour déplaire au passionné de DDD que je suis) mais aussi « Antifragile ». C’est de cela dont je vais vous parler aujourd’hui.</p>"
       type: "talk"
       salle: "Chamrousse"
+      date: "11h30 - 12h15"
       categories:
         - "Talk"
         - "TDD"
@@ -627,23 +633,51 @@ params:
         - speaker:
           speakerid: "thomaspierrain"
 
-    - name: "Introduction au T(ype)DD avec F#"
-      id: "typeDD"
-      short_description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>"
-      description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>
-        <p>Nous vous proposons de partir d’un kata bien connu pour illustrer les différences (implémentations en C# existantes) et dédiaboliser la soi-disant complexité de la programmation fonctionnelle.</p> 
-        <p>Les différences de notation forment le principal obstacle, une fois passée, la programmation fonctionnelle n’est pas plus compliquée. Nous aborderons le langage F# pas à pas en illustrant notamment le système de type (dit de “types algébriques”) pour avoir un design piloté par les types (TypeDD).</p>"
+    - name: "Le DDD au quotidien"
+      id: "ddd"
+      short_description: "Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence."
+      description: "<p>Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence.</p>
+                    <p>On a tendance à penser que le DDD est complexe, mais c’est au final beaucoup de bon sens. C’est la quantité de chose couverte par le DDD qui le rend difficile à appréhender au début.</p>
+                    <p>Avec des retours d’expériences sur des pratiques concrètes du quotidien, que vous pourrez appliquer dès demain, nous verrons comment rendre votre projet plus centré sur le domaine. Nous verrons également quels principes sont respectés grâce à ces pratiques, et en quoi cela peut être bénéfique pour une équipe, donc pour une entreprise.</p>"
       type: "talk"
-      salle: "Chamrousse"
+      salle: "Villard de Lans 2"
+      date: "11h30 à 12h15"
       categories:
         - "Talk"
+        - "DDD"
       #      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "clementbouillier"
+          speakerid: "emilienpecoul"
+
+    - name: "Déjeuner"
+      id: "dejeuner"
+      style: "grid-column: 1 / -1;"
+      short_description: ""
+      description: ""
+      salle: ""
+      date: "12h15 à 13h50"
+      categories:
+        - "🍽️"
+        - "🥪"
+        - "☕"
+      speakers:
         - speaker:
-          speakerid: "florentpellet"
+          speakerid: "orga"
+
+#    - name: "Mot du sponsor"
+#      id: "sponsor2"
+#      style: "grid-column: 1 / -1;"
+#      short_description: ""
+#      description: ""
+#      salle: "Chamrousse"
+#      date: "13h50 à 14h15"
+#      categories:
+#        - "❤"
+#      speakers:
+#        - speaker:
+#          speakerid: "orga"
 
     - name: "Architecture Hexagonale : un pattern de gestion de la complexité logicielle et de la dette technique"
       id: "architecturehexagonale"
@@ -653,6 +687,7 @@ params:
           <p>Venez découvrir par ce retour d’expérience, comment l’Architecture Hexagonale peut tacler la complexité logicielle en vous permettant d’être évolutif et pérenne tout en vous aidant à mieux gérer votre dette technique.</p>"
       type: "talk"
       salle: "Chamrousse"
+      date: "14h15 à 15h00"
       categories:
         - "Talk"
         - "Architecture"
@@ -673,7 +708,8 @@ params:
         <p>En quoi celle-ci peut avoir un impact sur la performance ?</p>
         <p>Nous l'explorerons au travers de la découverte de grands noms comme Felienne Hermans, J. Sweller, Yerkes & Dodson, et de références comme le livre Teams Topologies.</p>"
       type: "talk"
-      salle: "Chamrousse"
+      salle: "Villard de Lans 2"
+      date: "14h15 à 15h00"
       categories:
         - "Talk"
 #      #      date: "Mardi 08 Juin - 12h"
@@ -682,24 +718,9 @@ params:
         - speaker:
           speakerid: "christophemaldivi"
 
-    - name: "Stratégie de tests agile"
-      id: "testagile"
-      description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
-      short_description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
-      type: "talk"
-      salle: "Chamrousse"
-      categories:
-        - "Talk"
-#        - "Keynote"
-#        - "💡 Discovery"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "nicolasfedou"
-
     - name: "Testez vos compétences de refactoring sur la machine d'entrainement TCR !"
       id: "tcr"
+      style: "grid-row: span 2;"
       description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?
                     <br/>
                     Le design incrémental consiste à arrêter de penser au design comme gravé dans le marbre, mais comme une infinité de petits pas. Maitriser les petit pas est un pré-requis pour le design incrémental. Mais comment enseigner les petits pas à vos collègues expérimentés qui se \"débrouillent\" pour résoudre un kata en une poignée de grands pas?
@@ -718,30 +739,56 @@ params:
                      Rejoignez cette session, découvrez TCR, pour enseigner le design incrémental à votre équipe MAINTENANT!"
       short_description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?"
       type: "workshop"
+      salle: "Autrans 1"
+      date: "14h15 à 16h00"
       categories:
         - "Workshop"
-#        - "💡 Discovery"
-#        - "Beginner"
-#      date: "Mardi 08 Juin - 13h"
+      #        - "💡 Discovery"
+      #        - "Beginner"
+      #      date: "Mardi 08 Juin - 13h"
       language: "🇫🇷"
       speakers:
         - speaker:
           speakerid: "philippebourgau"
 
-#    - name: "Mob is You"
-#      description: ""
-#      type: "workshop"
-#      salle: "Chamrousse"
-#      categories:
-#      #        - "Keynote"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "bastiendavid"
-#        - speaker:
-#          speakerid: "remysanlaville"
+    - name: "Bonnes pratiques ux pour les devs"
+      id: "bestpracticesux"
+      short_description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez."
+      description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez. "
+      type: "talk"
+      salle: "Villard de Lans 1"
+      date: "14h15 à 15h00"
+      categories:
+        - "Talk"
+        - "UX"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "margauxperrin"
+
+    - name: "Jeu du frigo"
+      id: "frigo"
+      style: "grid-row: span 2;"
+      short_description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>"
+      description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>
+          <p>Si vous avez répondu du tac au tac \"ce sont des systèmes complexes soumis à des forces nombreuses avec des effets et des temporalités souvent difficiles à analyser\", vous devriez apprécier les défis proposés lors de cet atelier. Si vous n'avez pas fait le lien immédiatement, vous pourriez y faire une découverte utile voire salutaire.</p>
+          <p>Le propos de cet atelier est d'explorer ce qui rend les systèmes si difficiles à gouverner, qu'il s'agisse de lignes de code ou de populations exposées à une pandémie, mais aussi de montrer en quoi certaines \"lois\" se retrouvent indépendamment des domaines et nous fournissent des outils et des réflexes à cultiver.</p>
+          <p></p>
+          <p><strong>Matériel nécessaire</strong>: les participants doivent avoir un laptop pour 3.</p>"
+      type: "workshop"
+      salle: "Autrans 2"
+      date: "14h15 à 16h00"
+      categories:
+        - "Workshop"
+      #        - "💡 Discovery"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "michelleavomo"
+        - speaker:
+          speakerid: "christophethibaut"
 
     - name: "Rendez vos développeurs autonomes sur la production"
       id: "devproduction"
@@ -749,8 +796,9 @@ params:
       description: "<p>Les administrateurs systèmes sont encore traditionnellement les personnes gérant la totalité des applications de l'entreprise en production. Pourtant, et depuis maintenant plusieurs années, une nouvelle tendance apparaît: laisser les développeurs gérer leurs applications en production.</p>
           <p>J'expliquerai dans ce talk l'intérêt de cette approche et du rôle des administrateurs systèmes et SRE dans la construction de l'abstraction permettant d'atteindre cet objectif, le but n'étant en effet pas de supprimer les administrateurs systèmes mais de travailler en partenariat avec eux.</p>
           <p>Je donnerai également des retours d'expérience sur la mise en place de cette approche et des difficultés rencontrées, comme par exemple sur la création d'astreintes dans les équipes de développement</p>"
-      type: "workshop"
+      type: "talk"
       salle: "Chamrousse"
+      date: "15h15 à 16h00"
       categories:
         - "Talk"
         - "DevOps"
@@ -759,6 +807,62 @@ params:
       speakers:
         - speaker:
           speakerid: "mcorbin"
+
+    - name: "Introduction au T(ype)DD avec F#"
+      id: "typeDD"
+      short_description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>"
+      description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>
+        <p>Nous vous proposons de partir d’un kata bien connu pour illustrer les différences (implémentations en C# existantes) et dédiaboliser la soi-disant complexité de la programmation fonctionnelle.</p>
+        <p>Les différences de notation forment le principal obstacle, une fois passée, la programmation fonctionnelle n’est pas plus compliquée. Nous aborderons le langage F# pas à pas en illustrant notamment le système de type (dit de “types algébriques”) pour avoir un design piloté par les types (TypeDD).</p>"
+      type: "talk"
+      salle: "Villard de Lans 2"
+      date: "15h15 - 16h"
+      categories:
+        - "Talk"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "clementbouillier"
+        - speaker:
+          speakerid: "florentpellet"
+
+
+    - name: "Stratégie de tests agile"
+      id: "testagile"
+      description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
+      short_description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
+      type: "talk"
+      salle: "Villard de Lans 1"
+      date: "15h15 à 16h00"
+      categories:
+        - "Talk"
+      #        - "Keynote"
+      #        - "💡 Discovery"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "nicolasfedou"
+
+    - name: "Les classes abstraites c’est fini (et c’est la faute à TDD)"
+      id: "plusdabstrait"
+      short_description: "Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me
+            suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\". "
+      description: "<p>Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me
+                                suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\".</p>
+        <p>En creusant la question, je me rends compte que c'est depuis que j'ai commencé à appliquer le TDD
+        ( \"Test-Driven Development\" ou développement dirigé par les tests).  Mais quel est le rapport entre les deux ?</p>
+         <p>C'est ce que je vais tenter d'expliquer via ce talk.</p>"
+      categories:
+        - "Talk"
+      type: "talk"
+      salle: "Chamrousse"
+      date: "16h15 à 17h00"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "dorrabartaguiz"
 
     - name: "Le TDD sans commencer par les tests"
       id: "tdd"
@@ -775,7 +879,8 @@ params:
           </p>
         <p>Plutôt qu'un débat de spécialistes sur un sujet pointu, l'idée est plutôt d'utiliser ce cas concret pour entraîner notre vigilance intellectuelle et notre esprit critique. Et en dessins s'il vous plaît !</p>"
       type: "talk"
-      salle: "Chamrousse"
+      salle: "Villard de Lans 2"
+      date: "16h15 à 17h00"
       categories:
           - "Talk"
           - "TDD"
@@ -785,44 +890,31 @@ params:
         - speaker:
           speakerid: "victorlambret"
 
-    - name: "Le DDD au quotidien"
-      id: "ddd"
-      short_description: "Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence."
-      description: "<p>Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence.</p>
-                    <p>On a tendance à penser que le DDD est complexe, mais c’est au final beaucoup de bon sens. C’est la quantité de chose couverte par le DDD qui le rend difficile à appréhender au début.</p>
-                    <p>Avec des retours d’expériences sur des pratiques concrètes du quotidien, que vous pourrez appliquer dès demain, nous verrons comment rendre votre projet plus centré sur le domaine. Nous verrons également quels principes sont respectés grâce à ces pratiques, et en quoi cela peut être bénéfique pour une équipe, donc pour une entreprise.</p>"
-      type: "Talk"
-      salle: "Chamrousse"
-      categories:
-            - "Talk"
-            - "DDD"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "emilienpecoul"
-
-    - name: "Bonnes pratiques ux pour les devs"
-      id: "bestpracticesux"
-      short_description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez."
-      description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez. "
+    - name: "TDD in real life"
+      id: "tddreallife"
+      short_description: ""
+      description: ""
+      salle: "Autrans 1"
+      date: "16h15 à 17h00"
       type: "talk"
-      salle: "Chamrousse"
       categories:
         - "Talk"
-        - "UX"
+      #        - "💡 Discovery"
       #      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "margauxperrin"
+          speakerid: "xaviernopre"
+        - speaker:
+          speakerid: "johanmartinsson"
 
     - name: "Back To Basics : SRP"
       id: "srp"
       short_description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
       description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
       type: "talk"
-      salle: "Chamrousse"
+      salle: "Villard de Lans 1"
+      date: "16h15 à 17h00"
       categories:
         - "Talk"
 #          - "💡 Discovery"
@@ -833,41 +925,6 @@ params:
           speakerid: "michelleavomo"
         - speaker:
           speakerid: "christophethibaut"
-
-
-    - name: "Les classes abstraites c’est fini (et c’est la faute à TDD)"
-      id: "plusdabstrait"
-      short_description: "Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me 
-            suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\". "
-      description: "<p>Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me
-                                suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\".</p>
-        <p>En creusant la question, je me rends compte que c'est depuis que j'ai commencé à appliquer le TDD
-        ( \"Test-Driven Development\" ou développement dirigé par les tests).  Mais quel est le rapport entre les deux ?</p>
-         <p>C'est ce que je vais tenter d'expliquer via ce talk.</p>"
-      categories:
-        - "Talk"
-      type: talk
-      salle: ""
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "dorrabartaguiz"
-
-
-#    - name: "TDD in real life (orienté débutant)"
-#      description: ""
-#      type: "workshop"
-#      salle: "Chamrousse"
-#      categories:
-#      #        - "Keynote"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "xaviernopre"
-#        - speaker:
-#          speakerid: "johanmartinsson"
 
     - name: "Maîtriser son IDE avec Shortcut Aerobic"
       id: "masteryouride"
@@ -885,7 +942,8 @@ params:
           </ul>
         </p>"
       type: "workshop"
-      salle: "Chamrousse"
+      salle: "Autrans 2"
+      date: "16h15 à 17h00"
       categories:
         - "Workshop"
       #      date: "Mardi 08 Juin - 12h"
@@ -893,9 +951,10 @@ params:
       speakers:
         - speaker:
           speakerid: "mathieucans"
+
     - name: "Fin de la première journée"
       id: "cheers"
-      style: "width: 100% !important"
+      style: "grid-column: 1 / -1;"
       short_description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
       description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
       type: "closed"

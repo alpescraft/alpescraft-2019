@@ -36,6 +36,7 @@
                 </header>
                 <section>
                     <h2 class="talk-title">{{ .name }}</h2>
+                    <h3 class="talk-date">{{ if .salle }} Salle {{ .salle }} {{ end }}</h3>
                     <h3 class="talk-date">{{ .date }}</h3>
                     <div class="schedule-calendar" style="display: none;">
                         <div class="dropdown">
