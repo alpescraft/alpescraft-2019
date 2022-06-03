@@ -344,7 +344,7 @@ params:
       href: "http://twitter.com/bastien_david"
       text: "@bastien_david"
       bio: ""
-      company: "Sunday"
+      company: "sunday"
       short_bio: "Software Engineer at sunday"
 
     remysanlaville:
@@ -354,7 +354,7 @@ params:
       href: "http://twitter.com/sanlaville"
       text: "@sanlaville"
       bio: "L'ingénierie logicielle est ma passion et je défends le métier de développeur. TDD/Coding Dojo addict, ATDD, amélioration continue..."
-      company: "Sunday"
+      company: "sunday"
       short_bio: "Software Engineer at sunday"
 
     victorlambret:
