@@ -527,66 +527,6 @@ params:
         - speaker:
           speakerid: "yvesbrissaud"
 
-    - name: "REX 2 ans de TCR"
-      id: "REXtcr"
-      short_description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>"
-      description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>
-        <p>Nous y verrons les avantages et les inconvéniants mais aussi les trucs et astuces à connaitre si vous voulez essayer également.</p>"
-      type: "talk"
-      salle: "Villard de Lans 2"
-      date: "10h30 - 11h15"
-      categories:
-        - "Talk"
-        - "TCR"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "xavierdetant"
-
-    - name: "Mob is You"
-      id: "mobisu"
-      style: "grid-row: span 2;"
-      short_description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>"
-      description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>
-          <p>Que vous développiez ou quotidien ou pas, vous aurez des choses à apprendre sur la dynamique de groupe et comment il est possible de co-créer du logiciel en tant que groupe.</p>"
-      salle: "Autrans 1"
-      date: "10h30 - 12h15"
-      type: "workshop"
-      categories:
-        - "Workshop"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "bastiendavid"
-        - speaker:
-          speakerid: "remysanlaville"
-
-    - name: "Experiencing team flow"
-      id: "teamflow"
-      style: "grid-row: span 2;"
-      short_description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>"
-      description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>
-        <p>Nous ferons des simulations d'organisation d'une équipe pour bien comprendre l'effet que cela a sur son flux total du travail.</p>
-        <p>Les sujets que nous aborderons :
-        <ul>
-            <li>Pourquoi limiter le travail en cours ?</li>
-            <li>Pourquoi préférons-nous des membres d'équipe en forme de T ?</li>
-            <li>Pourquoi avons-nous du mal à estimer quand le travail sera fini ?</li>
-            <li>En quoi la collaboration peut-elle nous aider ?</li>
-        </ul></p>"
-      type: "workshop"
-      salle: "Villard de Lans 1"
-      date: "10h30 - 12h15"
-      categories:
-        - "Workshop"
-      #        - "💡 Discovery"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "michelgrootjans"
-
     - name: "Introduction au Clean Language"
       id: "cleanlanguage"
       style: "grid-row: span 2;"
@@ -614,6 +554,67 @@ params:
       speakers:
         - speaker:
           speakerid: "sarahscarratt"
+
+    - name: "Mob is You"
+      id: "mobisu"
+      style: "grid-row: span 2;"
+      short_description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>"
+      description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>
+          <p>Que vous développiez ou quotidien ou pas, vous aurez des choses à apprendre sur la dynamique de groupe et comment il est possible de co-créer du logiciel en tant que groupe.</p>"
+      salle: "Autrans 1"
+      date: "10h30 - 12h15"
+      type: "workshop"
+      categories:
+        - "Workshop"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "bastiendavid"
+        - speaker:
+          speakerid: "remysanlaville"
+
+    - name: "REX 2 ans de TCR"
+      id: "REXtcr"
+      short_description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>"
+      description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>
+        <p>Nous y verrons les avantages et les inconvéniants mais aussi les trucs et astuces à connaitre si vous voulez essayer également.</p>"
+      type: "talk"
+      salle: "Villard de Lans 2"
+      date: "10h30 - 11h15"
+      categories:
+        - "Talk"
+        - "TCR"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "xavierdetant"
+
+    - name: "Experiencing team flow"
+      id: "teamflow"
+      style: "grid-row: span 2;"
+      short_description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>"
+      description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>
+        <p>Nous ferons des simulations d'organisation d'une équipe pour bien comprendre l'effet que cela a sur son flux total du travail.</p>
+        <p>Les sujets que nous aborderons :
+        <ul>
+            <li>Pourquoi limiter le travail en cours ?</li>
+            <li>Pourquoi préférons-nous des membres d'équipe en forme de T ?</li>
+            <li>Pourquoi avons-nous du mal à estimer quand le travail sera fini ?</li>
+            <li>En quoi la collaboration peut-elle nous aider ?</li>
+        </ul></p>"
+      type: "workshop"
+      salle: "Villard de Lans 1"
+      date: "10h30 - 12h15"
+      categories:
+        - "Workshop"
+      #        - "💡 Discovery"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "michelgrootjans"
+
 
     - name: "Ecrire des tests Antifragiles & orientés métier grâce à l'Outside-in Diamond 🔷 TDD"
       id: "outsideintdd"
@@ -697,26 +698,28 @@ params:
         - speaker:
           speakerid: "julientopçu"
 
-    - name: "Charge mentale: l'ingrédient oublié pour la performance et le bien-être des équipes"
-      id: "chargementale"
-      short_description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
-           <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>"
-      description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
-        <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>
-
-        <p>Quel est le lien entre charge mental et structuration des équipes ?</p>
-        <p>En quoi celle-ci peut avoir un impact sur la performance ?</p>
-        <p>Nous l'explorerons au travers de la découverte de grands noms comme Felienne Hermans, J. Sweller, Yerkes & Dodson, et de références comme le livre Teams Topologies.</p>"
-      type: "talk"
-      salle: "Villard de Lans 2"
-      date: "14h15 à 15h00"
+    - name: "Jeu du frigo"
+      id: "frigo"
+      style: "grid-row: span 2;"
+      short_description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>"
+      description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>
+          <p>Si vous avez répondu du tac au tac \"ce sont des systèmes complexes soumis à des forces nombreuses avec des effets et des temporalités souvent difficiles à analyser\", vous devriez apprécier les défis proposés lors de cet atelier. Si vous n'avez pas fait le lien immédiatement, vous pourriez y faire une découverte utile voire salutaire.</p>
+          <p>Le propos de cet atelier est d'explorer ce qui rend les systèmes si difficiles à gouverner, qu'il s'agisse de lignes de code ou de populations exposées à une pandémie, mais aussi de montrer en quoi certaines \"lois\" se retrouvent indépendamment des domaines et nous fournissent des outils et des réflexes à cultiver.</p>
+          <p></p>
+          <p><strong>Matériel nécessaire</strong>: les participants doivent avoir un laptop pour 3.</p>"
+      type: "workshop"
+      salle: "Autrans 2"
+      date: "14h15 à 16h00"
       categories:
-        - "Talk"
-#      #      date: "Mardi 08 Juin - 12h"
+        - "Workshop"
+      #        - "💡 Discovery"
+      #      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "christophemaldivi"
+          speakerid: "michelleavomo"
+        - speaker:
+          speakerid: "christophethibaut"
 
     - name: "Testez vos compétences de refactoring sur la machine d'entrainement TCR !"
       id: "tcr"
@@ -751,6 +754,28 @@ params:
         - speaker:
           speakerid: "philippebourgau"
 
+    - name: "Charge mentale: l'ingrédient oublié pour la performance et le bien-être des équipes"
+      id: "chargementale"
+      short_description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
+           <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>"
+      description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
+        <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>
+
+        <p>Quel est le lien entre charge mental et structuration des équipes ?</p>
+        <p>En quoi celle-ci peut avoir un impact sur la performance ?</p>
+        <p>Nous l'explorerons au travers de la découverte de grands noms comme Felienne Hermans, J. Sweller, Yerkes & Dodson, et de références comme le livre Teams Topologies.</p>"
+      type: "talk"
+      salle: "Villard de Lans 2"
+      date: "14h15 à 15h00"
+      categories:
+        - "Talk"
+#      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "christophemaldivi"
+
+
     - name: "Bonnes pratiques ux pour les devs"
       id: "bestpracticesux"
       short_description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez."
@@ -767,28 +792,6 @@ params:
         - speaker:
           speakerid: "margauxperrin"
 
-    - name: "Jeu du frigo"
-      id: "frigo"
-      style: "grid-row: span 2;"
-      short_description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>"
-      description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>
-          <p>Si vous avez répondu du tac au tac \"ce sont des systèmes complexes soumis à des forces nombreuses avec des effets et des temporalités souvent difficiles à analyser\", vous devriez apprécier les défis proposés lors de cet atelier. Si vous n'avez pas fait le lien immédiatement, vous pourriez y faire une découverte utile voire salutaire.</p>
-          <p>Le propos de cet atelier est d'explorer ce qui rend les systèmes si difficiles à gouverner, qu'il s'agisse de lignes de code ou de populations exposées à une pandémie, mais aussi de montrer en quoi certaines \"lois\" se retrouvent indépendamment des domaines et nous fournissent des outils et des réflexes à cultiver.</p>
-          <p></p>
-          <p><strong>Matériel nécessaire</strong>: les participants doivent avoir un laptop pour 3.</p>"
-      type: "workshop"
-      salle: "Autrans 2"
-      date: "14h15 à 16h00"
-      categories:
-        - "Workshop"
-      #        - "💡 Discovery"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "michelleavomo"
-        - speaker:
-          speakerid: "christophethibaut"
 
     - name: "Rendez vos développeurs autonomes sur la production"
       id: "devproduction"
@@ -864,6 +867,50 @@ params:
         - speaker:
           speakerid: "dorrabartaguiz"
 
+    - name: "Maîtriser son IDE avec Shortcut Aerobic"
+      id: "masteryouride"
+      short_description: "<p>Vous avez envie de gagner en efficacité dans votre travail de tous les jours ?
+         <p>Vous savez qu'il existe des raccourcis claviers mais vous n'arrivez jamais à les retenir ?"
+      description: "<p>Vous avez envie de gagner en efficacité dans votre travail de tous les jours ?
+        <p>Vous savez qu'il existe des raccourcis claviers mais vous n'arrivez jamais à les retenir ?
+        <p>Venez vous entrainer ensemble et découvrir de nouvelles astuces pour programmer plus rapidement.
+        <p>Langages proposés : .net, java, kotlin, typescript.
+        <p>Les exercices sont guidés pour IntelIj et Visual Studio Resharper, mais rien ne vous empêche de participer avec votre IDE préféré.
+        <p>Pré-requis :
+        <ul>
+          <li>Venir avec sa machine et son IDE</li>
+          <li>Avoir récupéré le repository <a href=\"https://github.com/mathieucans/shortcut-aerobic\" aria-label=\"Github shortcut-aerobic\">https://github.com/mathieucans/shortcut-aerobic</a></li>
+          </ul>
+        </p>"
+      type: "workshop"
+      salle: "Autrans 2"
+      date: "16h15 à 17h00"
+      categories:
+        - "Workshop"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "mathieucans"
+
+    - name: "TDD in real life"
+      id: "tddreallife"
+      short_description: ""
+      description: ""
+      salle: "Autrans 1"
+      date: "16h15 à 17h00"
+      type: "talk"
+      categories:
+        - "Talk"
+      #        - "💡 Discovery"
+      #      date: "Mardi 08 Juin - 12h"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "xaviernopre"
+        - speaker:
+          speakerid: "johanmartinsson"
+
     - name: "Le TDD sans commencer par les tests"
       id: "tdd"
       short_description: "<p>On retient principalement du TDD l'écriture des tests avant le code. On entend aussi dire qu'il est plus efficace. Mais par rapport à quoi ?</p>"
@@ -890,23 +937,6 @@ params:
         - speaker:
           speakerid: "victorlambret"
 
-    - name: "TDD in real life"
-      id: "tddreallife"
-      short_description: ""
-      description: ""
-      salle: "Autrans 1"
-      date: "16h15 à 17h00"
-      type: "talk"
-      categories:
-        - "Talk"
-      #        - "💡 Discovery"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "xaviernopre"
-        - speaker:
-          speakerid: "johanmartinsson"
 
     - name: "Back To Basics : SRP"
       id: "srp"
@@ -926,31 +956,6 @@ params:
         - speaker:
           speakerid: "christophethibaut"
 
-    - name: "Maîtriser son IDE avec Shortcut Aerobic"
-      id: "masteryouride"
-      short_description: "<p>Vous avez envie de gagner en efficacité dans votre travail de tous les jours ?
-         <p>Vous savez qu'il existe des raccourcis claviers mais vous n'arrivez jamais à les retenir ?"
-      description: "<p>Vous avez envie de gagner en efficacité dans votre travail de tous les jours ?
-        <p>Vous savez qu'il existe des raccourcis claviers mais vous n'arrivez jamais à les retenir ?
-        <p>Venez vous entrainer ensemble et découvrir de nouvelles astuces pour programmer plus rapidement.
-        <p>Langages proposés : .net, java, kotlin, typescript.
-        <p>Les exercices sont guidés pour IntelIj et Visual Studio Resharper, mais rien ne vous empêche de participer avec votre IDE préféré.
-        <p>Pré-requis :
-        <ul>
-          <li>Venir avec sa machine et son IDE</li>
-          <li>Avoir récupéré le repository <a href=\"https://github.com/mathieucans/shortcut-aerobic\" aria-label=\"Github shortcut-aerobic\">https://github.com/mathieucans/shortcut-aerobic</a></li>
-          </ul>
-        </p>"
-      type: "workshop"
-      salle: "Autrans 2"
-      date: "16h15 à 17h00"
-      categories:
-        - "Workshop"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "mathieucans"
 
     - name: "Fin de la première journée"
       id: "cheers"
