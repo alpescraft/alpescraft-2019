@@ -385,7 +385,7 @@ params:
       high_picture: "/img/speakers/johan_martinsson.jpg"
       href: "http://twitter.com/johan_alps"
       text: "@johan_alps"
-      bio: "est un développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
+      bio: "Développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
       company: "ChangIT"
       short_bio: "Continuous delivery, TDD and crafting coach"
 
@@ -895,15 +895,24 @@ params:
 
     - name: "TDD in real life"
       id: "tddreallife"
-      short_description: ""
-      description: ""
+      short_description: "<p>Tout le monde s’accorde pour dire que le TDD c’est bien, mais peu de personnes le pratiquent au quotidien.</p>
+         <p>Cette pratique semble bien sympa quand on voit une démo sur un petit algo, mais finalement
+         le code de nos projets ne ressemble pas trop à ça.</p>"
+      description: "<p>Tout le monde s’accorde pour dire que le TDD c’est bien, mais peu de personnes le pratiquent au quotidien.</p>
+             <p>Cette pratique semble bien sympa quand on voit une démo sur un petit algo, mais finalement
+             le code de nos projets ne ressemble pas trop à ça. Notre quotidien est plutôt rempli de contrôleurs,
+             bases de données, classes de service et divers dépendances difficiles à tester.</p>
+
+             <p>Nous vous proposons de montrer comment nous travaillons avec des tests en TDD
+             pour construire une petite application REST connectée avec une base de données.</p>
+
+             <p>Nous discuterons aussi de ce que nous considérons être un test utile et comment cela change avec l’âge du projet.</p>"
       salle: "Autrans 1"
       date: "16h15 à 17h00"
       type: "talk"
       categories:
         - "Talk"
-      #        - "💡 Discovery"
-      #      date: "Mardi 08 Juin - 12h"
+        - "TDD"
       language: "🇫🇷"
       speakers:
         - speaker:
