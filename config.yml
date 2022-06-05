@@ -479,7 +479,6 @@ params:
       style: "grid-column: 1 / -1;"
       short_description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
       description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
-      salle: "Chamrousse"
       date: "8h15 à 9h00"
       categories:
         - "👋"
@@ -489,11 +488,11 @@ params:
         - speaker:
           speakerid: "orga"
 
-    - name: "Keynote - Un monolithe pour 200 développeurs : avantages et défis."
+    - name: "Mot d'accueil & Keynote - Un monolithe pour 200 développeurs : avantages et défis."
       id: "keynote"
       style: "grid-column: 1 / -1;"
       salle: "Chamrousse"
-      date: "9h30 - 10h15"
+      date: "9h00 - 10h15"
       short_description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
       description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
       type: "talk"
