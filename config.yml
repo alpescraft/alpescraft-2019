@@ -971,7 +971,6 @@ params:
       short_description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
       description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
       type: "closed"
-      salle: "Chamrousse"
       categories:
         - "👋"
         - "🍻"
