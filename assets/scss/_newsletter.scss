@@ -1,0 +1,12 @@
+.newsletter {
+
+    .newsletter-iframe {
+        height: 40vh;
+    }
+
+    @media (max-width: 768px) {
+        .newsletter-iframe {
+            height: 75vh;
+        }
+    }
+}
