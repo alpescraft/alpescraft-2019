@@ -22,7 +22,7 @@
                                 <a href="{{ $speaker.href }}" target="_blank">
                         {{ end }}
                             <li>
-                                <div class="speaker">
+                                <div class="speaker {{ $speaker.class_sponsor }}">
                                     <img loading="lazy" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
                                     <p>{{ $speaker.name }}</p>
                                 </div>
@@ -71,14 +71,12 @@
                     {{ range $spk := $slot.speakers }}
                     {{ $speaker := index $speakersmap (string $spk.speakerid) }}
                         {{ if $speaker.name }}
-                            <h3 class="talk-date">
-                                Présentation de {{ $speaker.name }}
-                            </h3>
 
                             {{ if $speaker.bio }}
+                                <h3 class="talk-date">
+                                    Présentation de {{ $speaker.name }}
+                                </h3>
                                 <p>{{ $speaker.bio | safeHTML }}</p>
-                            {{else}}
-                                <p>Présentation à venir</p>
                             {{ end }}
 
                             {{ if $speaker.company }}

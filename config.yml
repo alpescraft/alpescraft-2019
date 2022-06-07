@@ -209,13 +209,29 @@ params:
       company: "AlpesCraft"
       bio: ""
 
+    salesforce:
+      name: "Salesforce"
+      photo: "/img/sponsors/salesforce.png"
+      href: "https://www.salesforce.com"
+      text: "salesforce"
+      company: "Salesforce"
+      class_sponsor: "sponsor"
+      bio: ""
+
+    tuleap:
+      name: "Tuleap"
+      photo: "/img/sponsors/tuleap.png"
+      href: "https://www.tuleap.org/"
+      text: "TuleapOpenALM"
+      company: "Tuleap"
+      class_sponsor: "sponsor"
+      bio: ""
+
     sarahscarratt:
       name: "Sarah Scarratt"
       photo: "/img/speakers/sarah_scarratt.jpg"
       high_picture: "/img/speakers/high_sarah_scarratt.jpg"
       href: "https://www.linkedin.com/in/sarahscarratt2020"
-#      text: "@SepNamdar"
-#      company: "Soat"
       bio: "Sarah est une coach, mentor et formatrice certifiée, seule en France à être spécialisée dans le Clean Language et la modélisation systémique. Elle adore découvrir comment les gens « fonctionnent » et se réjouit de les aider à devenir curieux d'eux-mêmes, sans porter de jugement. Révélant doucement les épaisseurs jusqu'à ce que nous trouvions un trésor."
       short_bio: "Trainer, Facilitator & Coach"
 
@@ -488,11 +504,24 @@ params:
         - speaker:
           speakerid: "orga"
 
+    - name: "Mot d'acceuil & Mot du sponsor - Salesforce"
+      id: "salesforce"
+      style: "grid-column: 1 / -1;"
+      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement 'Craft' lors de la conférence.</p>"
+      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement 'Craft' lors de la conférence.</p>"
+      salle: "Chamrousse"
+      date: "9h00 à 9h30"
+      categories:
+        - "❤"
+      speakers:
+        - speaker:
+          speakerid: "salesforce"
+
     - name: "Mot d'accueil & Keynote - Un monolithe pour 200 développeurs : avantages et défis."
       id: "keynote"
       style: "grid-column: 1 / -1;"
       salle: "Chamrousse"
-      date: "9h00 - 10h15"
+      date: "9h30 - 10h15"
       short_description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
       description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
       type: "talk"
@@ -501,7 +530,6 @@ params:
       categories:
         - "Keynote"
         - "💡 Discovery"
-      #      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -522,7 +550,6 @@ params:
       categories:
         - "Talk"
         - "Micro-service"
-      #      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -550,8 +577,6 @@ params:
       roti: "https://roti.express/r/alp-06"
       categories:
         - "Workshop"
-#        - "💡 Discovery"
-#      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -588,7 +613,6 @@ params:
       categories:
         - "Talk"
         - "TCR"
-      #      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -674,18 +698,18 @@ params:
         - speaker:
           speakerid: "orga"
 
-#    - name: "Mot du sponsor"
-#      id: "sponsor2"
-#      style: "grid-column: 1 / -1;"
-#      short_description: ""
-#      description: ""
-#      salle: "Chamrousse"
-#      date: "13h50 à 14h15"
-#      categories:
-#        - "❤"
-#      speakers:
-#        - speaker:
-#          speakerid: "orga"
+    - name: "Rétro Matinée & Mot du sponsor - Tuleap"
+      id: "tuleap"
+      style: "grid-column: 1 / -1;"
+      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement 'Craft' lors de la conférence.</p>"
+      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement 'Craft' lors de la conférence.</p>"
+      salle: "Chamrousse"
+      date: "13h50 à 14h15"
+      categories:
+        - "❤"
+      speakers:
+        - speaker:
+          speakerid: "tuleap"
 
     - name: "Architecture Hexagonale : un pattern de gestion de la complexité logicielle et de la dette technique"
       id: "architecturehexagonale"
