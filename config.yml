@@ -497,6 +497,7 @@ params:
       description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
       type: "talk"
       tooltip: "Keynote"
+      roti: "https://roti.express/r/alp-01"
       categories:
         - "Keynote"
         - "💡 Discovery"
@@ -517,6 +518,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "10h30 - 11h15"
+      roti: "https://roti.express/r/alp-02"
       categories:
         - "Talk"
         - "Micro-service"
@@ -545,6 +547,7 @@ params:
                     </ul>"
       short_description: "Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits."
       type: "workshop"
+      roti: "https://roti.express/r/alp-06"
       categories:
         - "Workshop"
 #        - "💡 Discovery"
@@ -562,6 +565,7 @@ params:
           <p>Que vous développiez ou quotidien ou pas, vous aurez des choses à apprendre sur la dynamique de groupe et comment il est possible de co-créer du logiciel en tant que groupe.</p>"
       salle: "Autrans 1"
       date: "10h30 - 12h15"
+      roti: "https://roti.express/r/alp-04"
       type: "workshop"
       categories:
         - "Workshop"
@@ -579,6 +583,7 @@ params:
         <p>Nous y verrons les avantages et les inconvéniants mais aussi les trucs et astuces à connaitre si vous voulez essayer également.</p>"
       type: "talk"
       salle: "Villard de Lans 2"
+      roti: "https://roti.express/r/alp-03"
       date: "10h30 - 11h15"
       categories:
         - "Talk"
@@ -605,6 +610,7 @@ params:
       type: "workshop"
       salle: "Villard de Lans 1"
       date: "10h30 - 12h15"
+      roti: "https://roti.express/r/alp-05"
       categories:
         - "Workshop"
       #        - "💡 Discovery"
@@ -624,6 +630,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "11h30 - 12h15"
+      roti: "https://roti.express/r/alp-07"
       categories:
         - "Talk"
         - "TDD"
@@ -641,6 +648,7 @@ params:
                     <p>Avec des retours d’expériences sur des pratiques concrètes du quotidien, que vous pourrez appliquer dès demain, nous verrons comment rendre votre projet plus centré sur le domaine. Nous verrons également quels principes sont respectés grâce à ces pratiques, et en quoi cela peut être bénéfique pour une équipe, donc pour une entreprise.</p>"
       type: "talk"
       salle: "Villard de Lans 2"
+      roti: "https://roti.express/r/alp-08"
       date: "11h30 à 12h15"
       categories:
         - "Talk"
@@ -688,6 +696,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "14h15 à 15h00"
+      roti: "https://roti.express/r/alp-09"
       categories:
         - "Talk"
         - "Architecture"
@@ -709,6 +718,7 @@ params:
       type: "workshop"
       salle: "Autrans 2"
       date: "14h15 à 16h00"
+      roti: "https://roti.express/r/alp-13"
       categories:
         - "Workshop"
       #        - "💡 Discovery"
@@ -742,6 +752,7 @@ params:
       short_description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?"
       type: "workshop"
       salle: "Autrans 1"
+      roti: "https://roti.express/r/alp-12"
       date: "14h15 à 16h00"
       categories:
         - "Workshop"
@@ -765,6 +776,7 @@ params:
         <p>Nous l'explorerons au travers de la découverte de grands noms comme Felienne Hermans, J. Sweller, Yerkes & Dodson, et de références comme le livre Teams Topologies.</p>"
       type: "talk"
       salle: "Villard de Lans 2"
+      roti: "https://roti.express/r/alp-10"
       date: "14h15 à 15h00"
       categories:
         - "Talk"
@@ -782,6 +794,7 @@ params:
       type: "talk"
       salle: "Villard de Lans 1"
       date: "14h15 à 15h00"
+      roti: "https://roti.express/r/alp-11"
       categories:
         - "Talk"
         - "UX"
@@ -801,6 +814,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "15h15 à 16h00"
+      roti: "https://roti.express/r/alp-15"
       categories:
         - "Talk"
         - "DevOps"
@@ -818,6 +832,7 @@ params:
         <p>Les différences de notation forment le principal obstacle, une fois passée, la programmation fonctionnelle n’est pas plus compliquée. Nous aborderons le langage F# pas à pas en illustrant notamment le système de type (dit de “types algébriques”) pour avoir un design piloté par les types (TypeDD).</p>"
       type: "talk"
       salle: "Villard de Lans 2"
+      roti: "https://roti.express/r/alp-16"
       date: "15h15 - 16h"
       categories:
         - "Talk"
@@ -836,6 +851,7 @@ params:
       short_description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
       type: "talk"
       salle: "Villard de Lans 1"
+      roti: "https://roti.express/r/alp-14"
       date: "15h15 à 16h00"
       categories:
         - "Talk"
@@ -861,6 +877,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-19"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -884,6 +901,7 @@ params:
       type: "workshop"
       salle: "Autrans 2"
       date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-20"
       categories:
         - "Workshop"
       #      date: "Mardi 08 Juin - 12h"
@@ -908,6 +926,7 @@ params:
              <p>Nous discuterons aussi de ce que nous considérons être un test utile et comment cela change avec l’âge du projet.</p>"
       salle: "Autrans 1"
       date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-21"
       type: "talk"
       categories:
         - "Talk"
@@ -936,10 +955,10 @@ params:
       type: "talk"
       salle: "Villard de Lans 2"
       date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-17"
       categories:
           - "Talk"
           - "TDD"
-      #      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -953,10 +972,9 @@ params:
       type: "talk"
       salle: "Villard de Lans 1"
       date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-18"
       categories:
         - "Talk"
-#          - "💡 Discovery"
-      #      date: "Mardi 08 Juin - 12h"
       language: "🇫🇷"
       speakers:
         - speaker:

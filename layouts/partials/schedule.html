@@ -81,6 +81,11 @@
                 </a>
                 <h3 class="talk-date">{{ if .salle }} Salle {{ .salle }} {{ end }}</h3>
                 <h3 class="talk-date">{{ .date }}</h3>
+                {{ if .roti }}
+                    <h3 class="talk-date">
+                        <a href="{{ .roti }}" aria-label="feedback">Donnez votre feedback!</a>
+                    </h3>
+                {{ end }}
                 {{ if eq .type "workshop" }}
                     <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
                     <br/>
