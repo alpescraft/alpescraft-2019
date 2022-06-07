@@ -507,8 +507,8 @@ params:
     - name: "Mot d'acceuil & Mot du sponsor - Salesforce"
       id: "salesforce"
       style: "grid-column: 1 / -1;"
-      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement 'Craft' lors de la conférence.</p>"
-      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement 'Craft' lors de la conférence.</p>"
+      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
+      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
       salle: "Chamrousse"
       date: "9h00 à 9h30"
       categories:
@@ -701,8 +701,8 @@ params:
     - name: "Rétro Matinée & Mot du sponsor - Tuleap"
       id: "tuleap"
       style: "grid-column: 1 / -1;"
-      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement 'Craft' lors de la conférence.</p>"
-      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement 'Craft' lors de la conférence.</p>"
+      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
+      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
       salle: "Chamrousse"
       date: "13h50 à 14h15"
       categories:
