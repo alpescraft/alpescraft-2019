@@ -15,7 +15,7 @@
 <div class="container-fluid">
     <div id="slick">
             {{ range $key, $speaker := $speakersmap }}
-            {{ if and  (ne $key "orga") (ne $key "bastiendavid") (ne $key "mathieucans") }}
+            {{ if and  (ne $key "orga") (ne $key "bastiendavid") (ne $key "mathieucans") (ne $key "salesforce") (ne $key "tuleap")}}
                     <div class="slide">
                         <div class="card">
                             <a href="{{ $speaker.href }}" aria-label="{{ $speaker.name }}">

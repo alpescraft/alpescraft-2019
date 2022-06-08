@@ -379,7 +379,6 @@ params:
       high_picture: "/img/speakers/high_victor_lambret.png"
       href: "https://twitter.com/VictorLambret"
       text: "@VictorLambret"
-    #      company: "Doctolib"
       bio: "<p>Quand j'étais jeune, j'ai envisagé deux carrières: l'informatique ou la bande dessinée. Mon compte en banque me remercie d'avoir choisi la première option, mais malgré ça j'ai toujours gardé une tablette graphique à portée de main.</p>
           <p>Je suis dev embarqué de formation. Depuis 6 ans je travaille pour Sogilis, une boite géniale dans laquelle je me suis éloigné parfois des registres mappés en mémoire pour aller vers des applications plus haut niveau jusqu'au backend. En passant d'un langage à l'autre, un contexte à l'autre, j'en suis venu à prioriser les compétences réutilisables : les méthodes, l'approche des tests et le côté humain.</p>
           <p>Si je me retrouve dans l'artisanat logiciel, j'ai aussi besoin de garder une distance critique vis à vis de celui-ci. Non pas que j'y trouve un problème de base, mais plutôt parce que mon enthousiasme naturel pour ces pratiques me crée un biais dont je suis conscient.</p>
@@ -488,6 +487,16 @@ params:
       company: "Qonto"
       bio: "J'ai travaillé dans ma carrière aussi bien comme développeur que comme administrateur système. Je suis aujourd'hui Staff SRE chez Qonto où je travaille à la construction de la plateforme gérant les applications de l'entreprise."
       short_bio: "Staff Site Reliability Engineer at Qonto"
+
+    mirnamahfoud:
+      name: "Mirna Mahfoud"
+      photo: "/img/speakers/mirna_mahfoud.jpg"
+      high_picture: "/img/speakers/mirna_mahfoud.jpg"
+      href: "https://twitter.com/mirna_mahfoud"
+      text: "@mirna_mahfoud"
+      bio: "Software engineer, technical coach, world traveler, poetry and art lover, Jane Austen fan, tea fanatic."
+      short_bio: "Software engineer, technical coach, world traveler, poetry and art lover, Jane Austen fan, tea fanatic."
+
 
   Schedule:
     - name: "Accueil"
@@ -787,6 +796,8 @@ params:
       speakers:
         - speaker:
           speakerid: "philippebourgau"
+        - speaker:
+          speakerid: "mirnamahfoud"
 
     - name: "Charge mentale: l'ingrédient oublié pour la performance et le bien-être des équipes"
       id: "chargementale"
