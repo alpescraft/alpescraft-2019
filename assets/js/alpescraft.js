@@ -64,53 +64,54 @@ const breakpoint = {
 };
 
 // bootstrap 4 responsive multi column slick carousel
-$('#slick').slick({
-  autoplay: true,
-  autoplaySpeed: 5000,
-  draggable: false,
-  pauseOnHover: true,
-  infinite: true,
-  dots: false,
-  arrows: true,
-  speed: 1000,
-  variableWidth: false,
+var slickParams = {
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    draggable: false,
+                    pauseOnHover: true,
+                    infinite: true,
+                    dots: false,
+                    arrows: true,
+                    speed: 1000,
+                    variableWidth: false,
 
-  mobileFirst: true,
+                    mobileFirst: true,
 
-  slidesToShow: 1,
-  slidesToScroll: 1,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
 
-  responsive: [{
-      breakpoint: breakpoint.sm,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        variableWidth: false
-      }
-    },
-    {
-      breakpoint: breakpoint.md,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        variableWidth: false
-      }
-    },
-    {
-      breakpoint: breakpoint.lg,
-      settings: {
-        slidesToShow: 5,
-        slidesToScroll: 5,
-        variableWidth: false
-      }
-    },
-    {
-      breakpoint: breakpoint.xl,
-      settings: {
-        slidesToShow: 6,
-        slidesToScroll: 6,
-        variableWidth: false
-      }
-    }
-  ]
-});
+                    responsive: [{
+                        breakpoint: breakpoint.sm,
+                        settings: {
+                          slidesToShow: 2,
+                          slidesToScroll: 2,
+                          variableWidth: false
+                        }
+                      },
+                      {
+                        breakpoint: breakpoint.md,
+                        settings: {
+                          slidesToShow: 3,
+                          slidesToScroll: 3,
+                          variableWidth: false
+                        }
+                      },
+                      {
+                        breakpoint: breakpoint.lg,
+                        settings: {
+                          slidesToShow: 5,
+                          slidesToScroll: 5,
+                          variableWidth: false
+                        }
+                      },
+                      {
+                        breakpoint: breakpoint.xl,
+                        settings: {
+                          slidesToShow: 6,
+                          slidesToScroll: 6,
+                          variableWidth: false
+                        }
+                      }
+                    ]
+                  }
+$('#slick').slick(slickParams);

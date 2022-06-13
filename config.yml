@@ -30,11 +30,11 @@ params:
   Sections:
     - home
     - about
-    - sponsors
-    - partners
-    - schedule
-    - billetterie
-    - location
+#    - sponsors
+#    - partners
+#    - schedule
+#    - billetterie
+#    - location
     - newsletter
 
   # Titles which you can translate to other languages
@@ -73,6 +73,7 @@ params:
   Previous:
     - edition2019
     - edition2021
+    - edition2022
 
   TitlesPrevious:
     edition2019:
@@ -81,10 +82,14 @@ params:
     edition2021:
       - title: "2021"
         icon: "icon-control-rewind"
+    edition2022:
+      - title: "2022"
+        icon: "icon-control-rewind"
 
   LinksPrevious:
     edition2019: "edition_2019"
     edition2021: "edition_2021"
+    edition2022: "edition_2022"
 
   # Icones
   Icones:

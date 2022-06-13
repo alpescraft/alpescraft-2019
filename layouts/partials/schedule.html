@@ -79,19 +79,19 @@
                 <a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">
                     <h2 class="talk-title">{{ .name }}</h2>
                 </a>
-                <h3 class="talk-date">{{ if .salle }} Salle {{ .salle }} {{ end }}</h3>
-                <h3 class="talk-date">{{ .date }}</h3>
+<!--                <h3 class="talk-date">{{ if .salle }} Salle {{ .salle }} {{ end }}</h3>-->
+<!--                <h3 class="talk-date">{{ .date }}</h3>-->
                 {{ if .roti }}
-                    <h3 class="talk-date">
-                        <a href="{{ .roti }}" aria-label="feedback">Donnez votre feedback!</a>
-                    </h3>
+<!--                    <h3 class="talk-date">-->
+<!--                        <a href="{{ .roti }}" aria-label="feedback">Donnez votre feedback!</a>-->
+<!--                    </h3>-->
                 {{ end }}
-                {{ if eq .type "workshop" }}
-                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
-                    <br/>
-                {{ end }}
-                <p>{{ .short_description | safeHTML }}</p>
-                <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>
+<!--                {{ if eq .type "workshop" }}-->
+<!--                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>-->
+<!--                    <br/>-->
+<!--                {{ end }}-->
+                <p>{{ .description | safeHTML }}</p>
+<!--                <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>-->
 
             </section>
             <footer>
