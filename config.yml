@@ -7,7 +7,7 @@ params:
   Name: "AlpesCraft"
   Year: "2022"
   Description: "Découvrir, apprendre et se perfectionner"
-#  Date: "Les 9 et 10 Juin 2022"
+  Date: "Les 1 et 2 Juin 2023"
   Venue: "Alpexpo"
   Address: "2 Av. d'Innsbruck"
   City:  "Grenoble"
@@ -33,8 +33,8 @@ params:
 #    - sponsors
 #    - partners
 #    - schedule
-#    - billetterie
-#    - location
+    - billetterie
+    - location
     - newsletter
 
   # Titles which you can translate to other languages
