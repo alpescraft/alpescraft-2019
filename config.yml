@@ -30,9 +30,9 @@ params:
   Sections:
     - home
     - about
-#    - sponsors
 #    - partners
     - schedule
+    - sponsors
     - billetterie
     - location
     - newsletter
