@@ -1,0 +1,51 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Event">
+
+{{ partial "head.html" . }}
+
+<body class="sponsoring">
+
+<!-- Navigation -->
+{{ partial "previousEdition/nav.html" . }}
+
+<header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <img loading="lazy" src="/img/logo/color/03-AlpesCraft_Couleurs-M.webp" alt="AlpesCraft logo" align="middle">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <h1 class="mb-5">AlpesCraft</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    </div>
+</header>
+
+<section>
+
+    <h2 class="title" style="padding-top: 1em;">L'Association AlpesCraft</h2>
+
+    <div class="description lead">
+        <p class="lead mb-0">
+            Cette association a pour objet de promouvoir l’artisanat logiciel (“craft”) pour tous, et donc les bonnes pratiques pour développer de bons produits logiciels, dans la région Grenobloise et dans les Alpes, avec notamment les actions ou activités suivantes :
+            <ul>
+                <li>L’organisation de la conférence annuelle “AlpesCraft”</li>
+                <li>L’organisation de rencontres régulières “meetup” autour du Software Crafting</li>
+                <li>L’animation d’ateliers de mise en pratique et d’échanges entre développeurs (“coding-dojo”)</li>
+                <li>Et toute autre animation, activité ou intervention en lien avec la promotion de l’artisanat logiciel (“craft”) pour tous</li>
+            </ul>
+        </p>
+    </div>
+
+</section>
+
+<!-- Footer -->
+{{ partial "footer.html" .Site.Params }}
+
+</body>
+</html>
