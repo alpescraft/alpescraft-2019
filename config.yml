@@ -157,16 +157,16 @@ params:
         logo: "/img/sponsors/tuleap.png"
         url: "https://www.tuleap.org/"
     master:
-      - name: "UBIqube"
-        logo: "/img/sponsors/ubiqube.png"
-        url: "https://ubiqube.com/"
-      - name: "Salesforce"
-        logo: "/img/sponsors/salesforce.png"
-        url: "https://www.salesforce.com"
-    apprenti:
       - name: "HackYourJob"
         logo: "/img/sponsors/hackyourjob_community.webp"
         url: "https://www.hackyourjob.com/"
+#      - name: "UBIqube"
+#        logo: "/img/sponsors/ubiqube.png"
+#        url: "https://ubiqube.com/"
+#      - name: "Salesforce"
+#        logo: "/img/sponsors/salesforce.png"
+#        url: "https://www.salesforce.com"
+    apprenti:
       - name: "CodeWorks"
         logo: "/img/sponsors/codeworks.png"
         url: "https://www.codeworks.fr/"
