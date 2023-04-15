@@ -214,717 +214,841 @@ params:
       company: "AlpesCraft"
       bio: ""
 
-    salesforce:
-      name: "Salesforce"
-      photo: "/img/sponsors/salesforce.png"
+    hackyourjob:
+      name: "HackYourJob"
+      photo: "/img/sponsors/hackyourjob_community.webp"
       href: "https://www.salesforce.com"
-      text: "salesforce"
-      company: "Salesforce"
+      text: "HackYourJob"
+      company: "HackYourJob"
       class_sponsor: "sponsor"
       bio: ""
 
-    tuleap:
-      name: "Tuleap"
-      photo: "/img/sponsors/tuleap.png"
-      href: "https://www.tuleap.org/"
-      text: "TuleapOpenALM"
-      company: "Tuleap"
-      class_sponsor: "sponsor"
-      bio: ""
+#    tuleap:
+#      name: "Tuleap"
+#      photo: "/img/sponsors/tuleap.png"
+#      href: "https://www.tuleap.org/"
+#      text: "TuleapOpenALM"
+#      company: "Tuleap"
+#      class_sponsor: "sponsor"
+#      bio: ""
 
-    sarahscarratt:
-      name: "Sarah Scarratt"
-      photo: "/img/speakers/sarah_scarratt.jpg"
-      high_picture: "/img/speakers/high_sarah_scarratt.jpg"
-      href: "https://www.linkedin.com/in/sarahscarratt2020"
-      bio: "Sarah est une coach, mentor et formatrice certifiée, seule en France à être spécialisée dans le Clean Language et la modélisation systémique. Elle adore découvrir comment les gens « fonctionnent » et se réjouit de les aider à devenir curieux d'eux-mêmes, sans porter de jugement. Révélant doucement les épaisseurs jusqu'à ce que nous trouvions un trésor."
-      short_bio: "Trainer, Facilitator & Coach"
+    manoncarbonnel:
+      name: "Manon Carbonnel"
+      photo: "/img/speakers/manon_carbonnel.jpg"
+      high_picture: "/img/speakers/manon_carbonnel.jpg"
+      text: "@manoncarbonnel_"
+      href: "https://twitter.com/manoncarbonnel_"
+      bio: "Développeuse web (PHP, Python, JS), experte en intégration web et Scrum Master.
+            Je suis passionnée par le HTML/CSS et j'ai créé @Csscade, une communauté française sur l'intégration web.
+            J'aime apprendre le software craft et les tests, et je crois énormément aux cultures Agile et DevOps."
+      short_bio: "Développeuse web (PHP, Python, JS), experte en intégration web et Scrum Master"
 
-    philippebourgau:
-      name: "Philippe Bourgau"
-      photo: "/img/speakers/philippebourgau.jpeg"
-      high_picture: "/img/speakers/philippebourgau.jpeg"
-      href: "https://www.linkedin.com/in/philippe-bourgau-607a928/?originalSubdomain=fr"
-#      text: "@SepNamdar"
-      company: "Murex"
-      bio: "<p>XP Coach and Sustainable Pace Hacktivist</p>
-        <p>Let’s not waste our lives on loosy work! I help software engineers to reach an effective and sustainable pace through continuous refactoring of their code and organizations.</p>"
-      short_bio: "#Refactoring coach, helping teams to ship new features again by reaching a sustainable pace with #legacyCode"
+    nicolassavois:
+      name: "Nicolas Savois"
+      photo: "/img/speakers/nicolas_savois.jpeg"
+      high_picture: "/img/speakers/nicolas_savois.jpeg"
+      href: "https://twitter.com/NicoSavois"
+      text: "@NicoSavois"
+      bio: "CTO depuis quelques années.
 
-    davidgageot:
-      name: "David Gageot"
-      photo: "/img/speakers/gageot.webp"
-      href: "https://twitter.com/dgageot"
-      text: "@dgageot"
-      company: "Doctolib"
-      bio: "Chief Architect @Doctolib"
-      high_picture: "/img/speakers/high_davidgageot.jpeg"
-      short_bio: "Chief Architect @Doctolib"
+            D’abord d'une startup interne dans une grand banque puis dans une ESN pour la transformer en ESN 2.0. Maintenant CTO chez Pix.
 
-    yvesbrissaud:
-      name: "Yves Brissaud"
-      photo: "/img/speakers/yvesbrissaud.jpeg"
-      high_picture: "/img/speakers/high_yvesbrissaud.jpeg"
-      company: "Docker"
-      bio: "I develop software for software developers to develop software"
-      short_bio: "I develop software for software developers to develop software"
+            Fan d’Elixir, de Programmation Fonctionnel, et d'Agilité.
 
-    xavierdetant:
-      name: "Xavier Detant"
-      photo: "/img/speakers/high_xavierdetant.jpeg"
-      href: "https://twitter.com/XDetant"
-      text: "@XDetant"
-      company: "Great Place to Work®"
-      bio: "Software Crafter and CTO @ Great place to work®"
-      high_picture: "/img/speakers/high_xavierdetant.jpeg"
-      short_bio: "Software Crafter and CTO @ Great place to work®"
+            Je pense que l'IT en France a raté pas mal de virage technologique et méthodologique et n'est pas en train de prendre de virage du tout... j'essaye d’éduquer mes clients et collègues pour que ça change !"
+      short_bio: "Craftman Dev! CTO @Pix_officiel, @elixirlang Fanboy! CoOrga de@Paris_ex!"
 
-    michelgrootjans:
-      name: "Michel Grootjans"
-      photo: "/img/speakers/michelgrootjans.jpeg"
-      high_picture: "/img/speakers/high_michelgrootjans.jpeg"
-      href: "https://twitter.com/michelgrootjans"
-      text: "@michelgrootjans"
-      bio: "<p>Michel Grootjans programme depuis l'âge de 12 ans. Il a programmé des machines étranges comme le TI 99-4A, l'Atari 2600, le Mac128, le HP28, l'Apple II, les PLC Siemens en utilisant des langages comme le Basic, le Pascal, le C, l'HyperTalk, l'Assembleur.</p>
-        <p>Son expérience professionnelle comprend la création et le développement d'applications pour les médias, le gouvernement, la pétrochimie, le télécom, les RH, les assurances... en javascript, en C#, en java et en ruby.</p>
-        <p>Il aide les équipes à s'améliorer en participant un maximum au travail journalier.</p>"
-      short_bio: "Technical Agile Coach"
+    tdpauw:
+      name: "Thierry de Pauw"
+      photo: "/img/speakers/thierry_de_pauw.jpg"
+      high_picture: "/img/speakers/thierry_de_pauw.jpg"
+      href: "https://twitter.com/tdpauw"
+      text: "@tdpauw"
+      company: "Abovve"
+      bio: "Thierry est ingénieur informatique chez la startup fintech Abbove.
 
-    michelleavomo:
-      name: "Michelle Avomo"
-      photo: "/img/speakers/michelleavomo.jpg"
-      href: "https://twitter.com/michelle_avomo"
-      text: "@michelle_avomo"
-      company: "CodeWorks"
-      bio: "<p>Après quelques années à s'auto-former et à former ses collègues d'une ESN parisienne sur les classiques des livres Clean Code et Xtrem programming, Michelle chemine depuis plus de 5 ans avec celles et ceux qui ont envie de faire du Craft au quotidien et qui continuent d'apprendre et transmettre.</p>
-            <p>Michelle forme régulièrement ses clients et ses collègues aux pratiques du craft.</p>
-            <p>Elle vit et travaille à Paris en tant que Developpeuse Senior chez CodeWorks, un modèle d'ESN engagé, équitable & solidaire.</p>"
-      high_picture: "/img/speakers/high_michelleavomo.jpg"
-      short_bio: "Fullstack dev / software crafter / Trainer @CodeWorks"
+            Sur le côté, il a fondé ThinkingLabs, une société de conseil sur l'optimisation de la livraison informatique.
 
-    thomaspierrain:
-      name: "Thomas Pierrain"
-      photo: "/img/speakers/thomas_pierrain.jpeg"
-      href: "http://twitter.com/tpierrain"
-      text: "@tpierrain"
-      company: "Agicap"
-      bio: "VP of Engineering dans une scale-up Européenne en plein essor (Agicap), Thomas est un ancien entrepreneur, consultant, architecte et eXtreme Programmer obsédé par les usages (par opposition à l'approche orientée solution qu'on a un peu trop tendance à choisir dans notre métier). Également co-organisateur des meetups DDD FR et anciennement BDD Paris, Thomas aime utiliser le DDD et le TDD pour booster son efficacité et celle des autres au travail."
-      high_picture: "/img/speakers/high_thomaspierrain.jpg"
-      short_bio: "VP of Engineering & Symmathecist @Agicap"
+            De temps en temps, il effectue des audits technologiques afin d'évaluer les capacités technologiques d'organisations pour des investisseurs.
 
-    christophethibaut:
-      name: "Christophe Thibaut"
-      photo: "/img/speakers/christophe_thibaut.jpg"
-      high_picture: "/img/speakers/high_christophe_thibaut.jpg"
-      href: "http://twitter.com/ToF_"
-      text: "@ToF_"
-      company: "CodeWorks"
-      bio: "Christophe développe et aide à développer du logiciel depuis plus de 30 ans. Il s’intéresse à tout ce qui favorise la création de résultats remarquables dans ce domaine : pratiques techniques, choix d’organisation, communication, relations en équipe. Chemin faisant, il aborde, acquiert et transmet, toujours avec curiosité et enthousiasme, des trésors aussi divers et variés que la Programmation Fonctionnelle, la Revue de Code, la Facilitation, la Modélisation Systémique, les Protocoles de Communication, le Coaching, l'eXtreme Programming.."
-      short_bio: "Technical Advisor at CodeWorks"
+            Thierry est un défenseur de l'intégration continue et de la livraison continue et un touche-à-tout. Au lieu d'équilibrer qualité et livraison, il croit et pratique qu'une meilleure qualité est en fait un moyen d'obtenir des livraisons plus nombreuses et de meilleure qualité."
+      short_bio: "consulting CTO - IT Delivery Consultant - IT Engineer"
 
-    julientopçu:
-      name: "Julien Topçu"
-      photo: "/img/speakers/julientopcu.png"
-      href: "https://twitter.com/JulienTopcu"
-      text: "@JulienTopcu"
-      company: "Shodo"
-      bio: "Tech Coach chez Shodo, j'accompagne le développement de logiciels à forte valeur métier en usant de techniques issues du Domain-Driven Design, le tout propulsé en Xtreme Programming dans la philosophie Kanban #NoEstimates. Membre de la fondation OWASP, j'évangélise sur les techniques de sécurité applicative afin d'éviter de se faire hacker bien comme il faut."
-      high_picture: "/img/speakers/high_julientopcu.png"
-      short_bio: "Tech Coach @SHODO"
+    ndionisi:
+      name: "Nelson Dionisi"
+      photo: "/img/speakers/nelson_dionisi.png"
+      high_picture: "/img/speakers/nelson_dionisi.png"
+      href: "https://www.linkedin.com/in/nelson-dionisi-84a00472/"
+      company: "Mirakl"
+      bio: "Je suis passionné par Java et son éco-système, avec toujours à coeur de développer des applications utiles et fonctionnelles. Je travaille depuis maintenant 10 ans chez Mirakl, en tant qu'Engineering Director. Les sujets autour de l'architecture, la persistence et la communication entre différentes applications me tiennent particulièrement à coeur."
+      short_bio: "Lead Developer Java at Mirakl"
 
-    christophemaldivi:
-      name: "Christophe Maldivi"
-      photo: "/img/speakers/christophemaldivi.jpeg"
-      high_picture: "/img/speakers/christophemaldivi.jpeg"
-      href: "http://twitter.com/chmaldivi"
-      text: "@chmaldivi"
-      company: "Orange"
-      bio: "Développeur depuis une vingtaine d'années, je travaille actuellement chez Orange"
-      short_bio: "Développeur depuis une vingtaine d'années, je travaille actuellement chez Orange"
-
-    nicolasfedou:
-      name: "Nicolas Fedou"
-      photo: "/img/speakers/nicolasfedou.jpeg"
-      high_picture: "/img/speakers/high_nicolasfedou.jpeg"
-      href: "https://twitter.com/CoulasFedou"
-      text: "@CoulasFedou"
-    #      company: "Doctolib"
-      bio: "<p>Je suis Nicolas Fédou, développeur back Java et coach technique.
-            J'aime l'informatique depuis que je compose des commandes avec Linux. Assembler des commandes, des objets, des composants, des pipelines, c'est comme jouer aux Légo pour moi.
-            Depuis mes premières missions, j'ai toujours cherché à améliorer les conditions de travail de l'équipe par des petits scripts, puis de la CI/CD et depuis quelques années avec de la montée en compétence sur les pratiques de développement agile.</p>
-
-            <p>Je travaille généralement avec des entreprises dont le logiciel est victime de son succès et commence à perdre en productivité ou en fiabilité.
-            Je leur permet de reprendre le contrôle sur leur patrimoine logiciel et d'avoir des développeurs qui maîtrisent un savoir-faire proche de l'état de l'art.
-            Le bénéfice principal étant de retrouver un logiciel capable d'évoluer à la vitesse du business du client sans défaut et qu'on ne décommissionne pas.</p>"
-      short_bio: "Coach de Développeurs Java, d'Architectes Logiciels et de CTO en Pratiques Crafts - XP - Agile / Coding Architect / Stratégie IT en indépendant"
-
-    bastiendavid:
-      name: "Bastien David"
-      photo: "/img/speakers/bastien_david.jpeg"
-      high_picture: "/img/speakers/bastien_david.jpeg"
-      href: "http://twitter.com/bastien_david"
-      text: "@bastien_david"
-      bio: ""
-      company: "sunday"
-      short_bio: "Software Engineer at sunday"
-
-    remysanlaville:
-      name: "Rémy Sanlaville"
-      photo: "/img/speakers/remy_sanlaville.png"
-      high_picture: "/img/speakers/remy_sanlaville.jpeg"
-      href: "http://twitter.com/sanlaville"
-      text: "@sanlaville"
-      bio: "L'ingénierie logicielle est ma passion et je défends le métier de développeur. TDD/Coding Dojo addict, ATDD, amélioration continue..."
-      company: "sunday"
-      short_bio: "Software Engineer at sunday"
-
-    victorlambret:
-      name: "Victor Lambret"
-      photo: "/img/speakers/victorlambret.png"
-      high_picture: "/img/speakers/high_victor_lambret.png"
-      href: "https://twitter.com/VictorLambret"
-      text: "@VictorLambret"
-      bio: "<p>Quand j'étais jeune, j'ai envisagé deux carrières: l'informatique ou la bande dessinée. Mon compte en banque me remercie d'avoir choisi la première option, mais malgré ça j'ai toujours gardé une tablette graphique à portée de main.</p>
-          <p>Je suis dev embarqué de formation. Depuis 6 ans je travaille pour Sogilis, une boite géniale dans laquelle je me suis éloigné parfois des registres mappés en mémoire pour aller vers des applications plus haut niveau jusqu'au backend. En passant d'un langage à l'autre, un contexte à l'autre, j'en suis venu à prioriser les compétences réutilisables : les méthodes, l'approche des tests et le côté humain.</p>
-          <p>Si je me retrouve dans l'artisanat logiciel, j'ai aussi besoin de garder une distance critique vis à vis de celui-ci. Non pas que j'y trouve un problème de base, mais plutôt parce que mon enthousiasme naturel pour ces pratiques me crée un biais dont je suis conscient.</p>
-          <p>Ma manière d'équilibrer les choses est d'aller lire des papiers scientifiques sur les sujets qui me passionnent. J'y trouve souvent des éléments nouveaux et plein de nouvelles questions. Et pour partager tout ça avec une communauté moins habituée à ce genre de publications, je synthétise mes recherches dans des présentations dessinées (en plus on me paye pour ça :p)</p>"
-      short_bio: "Embedded Software Engineer"
-
+#    sarahscarratt:
+#      name: "Sarah Scarratt"
+#      photo: "/img/speakers/sarah_scarratt.jpg"
+#      high_picture: "/img/speakers/high_sarah_scarratt.jpg"
+#      href: "https://www.linkedin.com/in/sarahscarratt2020"
+#      bio: "Sarah est une coach, mentor et formatrice certifiée, seule en France à être spécialisée dans le Clean Language et la modélisation systémique. Elle adore découvrir comment les gens « fonctionnent » et se réjouit de les aider à devenir curieux d'eux-mêmes, sans porter de jugement. Révélant doucement les épaisseurs jusqu'à ce que nous trouvions un trésor."
+#      short_bio: "Trainer, Facilitator & Coach"
+#
+#    philippebourgau:
+#      name: "Philippe Bourgau"
+#      photo: "/img/speakers/philippebourgau.jpeg"
+#      high_picture: "/img/speakers/philippebourgau.jpeg"
+#      href: "https://www.linkedin.com/in/philippe-bourgau-607a928/?originalSubdomain=fr"
+##      text: "@SepNamdar"
+#      company: "Murex"
+#      bio: "<p>XP Coach and Sustainable Pace Hacktivist</p>
+#        <p>Let’s not waste our lives on loosy work! I help software engineers to reach an effective and sustainable pace through continuous refactoring of their code and organizations.</p>"
+#      short_bio: "#Refactoring coach, helping teams to ship new features again by reaching a sustainable pace with #legacyCode"
+#
+#    davidgageot:
+#      name: "David Gageot"
+#      photo: "/img/speakers/gageot.webp"
+#      href: "https://twitter.com/dgageot"
+#      text: "@dgageot"
+#      company: "Doctolib"
+#      bio: "Chief Architect @Doctolib"
+#      high_picture: "/img/speakers/high_davidgageot.jpeg"
+#      short_bio: "Chief Architect @Doctolib"
+#
+#    yvesbrissaud:
+#      name: "Yves Brissaud"
+#      photo: "/img/speakers/yvesbrissaud.jpeg"
+#      high_picture: "/img/speakers/high_yvesbrissaud.jpeg"
+#      company: "Docker"
+#      bio: "I develop software for software developers to develop software"
+#      short_bio: "I develop software for software developers to develop software"
+#
+#    xavierdetant:
+#      name: "Xavier Detant"
+#      photo: "/img/speakers/high_xavierdetant.jpeg"
+#      href: "https://twitter.com/XDetant"
+#      text: "@XDetant"
+#      company: "Great Place to Work®"
+#      bio: "Software Crafter and CTO @ Great place to work®"
+#      high_picture: "/img/speakers/high_xavierdetant.jpeg"
+#      short_bio: "Software Crafter and CTO @ Great place to work®"
+#
+#    michelgrootjans:
+#      name: "Michel Grootjans"
+#      photo: "/img/speakers/michelgrootjans.jpeg"
+#      high_picture: "/img/speakers/high_michelgrootjans.jpeg"
+#      href: "https://twitter.com/michelgrootjans"
+#      text: "@michelgrootjans"
+#      bio: "<p>Michel Grootjans programme depuis l'âge de 12 ans. Il a programmé des machines étranges comme le TI 99-4A, l'Atari 2600, le Mac128, le HP28, l'Apple II, les PLC Siemens en utilisant des langages comme le Basic, le Pascal, le C, l'HyperTalk, l'Assembleur.</p>
+#        <p>Son expérience professionnelle comprend la création et le développement d'applications pour les médias, le gouvernement, la pétrochimie, le télécom, les RH, les assurances... en javascript, en C#, en java et en ruby.</p>
+#        <p>Il aide les équipes à s'améliorer en participant un maximum au travail journalier.</p>"
+#      short_bio: "Technical Agile Coach"
+#
+#    michelleavomo:
+#      name: "Michelle Avomo"
+#      photo: "/img/speakers/michelleavomo.jpg"
+#      href: "https://twitter.com/michelle_avomo"
+#      text: "@michelle_avomo"
+#      company: "CodeWorks"
+#      bio: "<p>Après quelques années à s'auto-former et à former ses collègues d'une ESN parisienne sur les classiques des livres Clean Code et Xtrem programming, Michelle chemine depuis plus de 5 ans avec celles et ceux qui ont envie de faire du Craft au quotidien et qui continuent d'apprendre et transmettre.</p>
+#            <p>Michelle forme régulièrement ses clients et ses collègues aux pratiques du craft.</p>
+#            <p>Elle vit et travaille à Paris en tant que Developpeuse Senior chez CodeWorks, un modèle d'ESN engagé, équitable & solidaire.</p>"
+#      high_picture: "/img/speakers/high_michelleavomo.jpg"
+#      short_bio: "Fullstack dev / software crafter / Trainer @CodeWorks"
+#
+#    thomaspierrain:
+#      name: "Thomas Pierrain"
+#      photo: "/img/speakers/thomas_pierrain.jpeg"
+#      href: "http://twitter.com/tpierrain"
+#      text: "@tpierrain"
+#      company: "Agicap"
+#      bio: "VP of Engineering dans une scale-up Européenne en plein essor (Agicap), Thomas est un ancien entrepreneur, consultant, architecte et eXtreme Programmer obsédé par les usages (par opposition à l'approche orientée solution qu'on a un peu trop tendance à choisir dans notre métier). Également co-organisateur des meetups DDD FR et anciennement BDD Paris, Thomas aime utiliser le DDD et le TDD pour booster son efficacité et celle des autres au travail."
+#      high_picture: "/img/speakers/high_thomaspierrain.jpg"
+#      short_bio: "VP of Engineering & Symmathecist @Agicap"
+#
+#    christophethibaut:
+#      name: "Christophe Thibaut"
+#      photo: "/img/speakers/christophe_thibaut.jpg"
+#      high_picture: "/img/speakers/high_christophe_thibaut.jpg"
+#      href: "http://twitter.com/ToF_"
+#      text: "@ToF_"
+#      company: "CodeWorks"
+#      bio: "Christophe développe et aide à développer du logiciel depuis plus de 30 ans. Il s’intéresse à tout ce qui favorise la création de résultats remarquables dans ce domaine : pratiques techniques, choix d’organisation, communication, relations en équipe. Chemin faisant, il aborde, acquiert et transmet, toujours avec curiosité et enthousiasme, des trésors aussi divers et variés que la Programmation Fonctionnelle, la Revue de Code, la Facilitation, la Modélisation Systémique, les Protocoles de Communication, le Coaching, l'eXtreme Programming.."
+#      short_bio: "Technical Advisor at CodeWorks"
+#
+#    julientopçu:
+#      name: "Julien Topçu"
+#      photo: "/img/speakers/julientopcu.png"
+#      href: "https://twitter.com/JulienTopcu"
+#      text: "@JulienTopcu"
+#      company: "Shodo"
+#      bio: "Tech Coach chez Shodo, j'accompagne le développement de logiciels à forte valeur métier en usant de techniques issues du Domain-Driven Design, le tout propulsé en Xtreme Programming dans la philosophie Kanban #NoEstimates. Membre de la fondation OWASP, j'évangélise sur les techniques de sécurité applicative afin d'éviter de se faire hacker bien comme il faut."
+#      high_picture: "/img/speakers/high_julientopcu.png"
+#      short_bio: "Tech Coach @SHODO"
+#
+#    christophemaldivi:
+#      name: "Christophe Maldivi"
+#      photo: "/img/speakers/christophemaldivi.jpeg"
+#      high_picture: "/img/speakers/christophemaldivi.jpeg"
+#      href: "http://twitter.com/chmaldivi"
+#      text: "@chmaldivi"
+#      company: "Orange"
+#      bio: "Développeur depuis une vingtaine d'années, je travaille actuellement chez Orange"
+#      short_bio: "Développeur depuis une vingtaine d'années, je travaille actuellement chez Orange"
+#
+#    nicolasfedou:
+#      name: "Nicolas Fedou"
+#      photo: "/img/speakers/nicolasfedou.jpeg"
+#      high_picture: "/img/speakers/high_nicolasfedou.jpeg"
+#      href: "https://twitter.com/CoulasFedou"
+#      text: "@CoulasFedou"
+#    #      company: "Doctolib"
+#      bio: "<p>Je suis Nicolas Fédou, développeur back Java et coach technique.
+#            J'aime l'informatique depuis que je compose des commandes avec Linux. Assembler des commandes, des objets, des composants, des pipelines, c'est comme jouer aux Légo pour moi.
+#            Depuis mes premières missions, j'ai toujours cherché à améliorer les conditions de travail de l'équipe par des petits scripts, puis de la CI/CD et depuis quelques années avec de la montée en compétence sur les pratiques de développement agile.</p>
+#
+#            <p>Je travaille généralement avec des entreprises dont le logiciel est victime de son succès et commence à perdre en productivité ou en fiabilité.
+#            Je leur permet de reprendre le contrôle sur leur patrimoine logiciel et d'avoir des développeurs qui maîtrisent un savoir-faire proche de l'état de l'art.
+#            Le bénéfice principal étant de retrouver un logiciel capable d'évoluer à la vitesse du business du client sans défaut et qu'on ne décommissionne pas.</p>"
+#      short_bio: "Coach de Développeurs Java, d'Architectes Logiciels et de CTO en Pratiques Crafts - XP - Agile / Coding Architect / Stratégie IT en indépendant"
+#
+#    bastiendavid:
+#      name: "Bastien David"
+#      photo: "/img/speakers/bastien_david.jpeg"
+#      high_picture: "/img/speakers/bastien_david.jpeg"
+#      href: "http://twitter.com/bastien_david"
+#      text: "@bastien_david"
+#      bio: ""
+#      company: "sunday"
+#      short_bio: "Software Engineer at sunday"
+#
+#    remysanlaville:
+#      name: "Rémy Sanlaville"
+#      photo: "/img/speakers/remy_sanlaville.png"
+#      high_picture: "/img/speakers/remy_sanlaville.jpeg"
+#      href: "http://twitter.com/sanlaville"
+#      text: "@sanlaville"
+#      bio: "L'ingénierie logicielle est ma passion et je défends le métier de développeur. TDD/Coding Dojo addict, ATDD, amélioration continue..."
+#      company: "sunday"
+#      short_bio: "Software Engineer at sunday"
+#
+#    victorlambret:
+#      name: "Victor Lambret"
+#      photo: "/img/speakers/victorlambret.png"
+#      high_picture: "/img/speakers/high_victor_lambret.png"
+#      href: "https://twitter.com/VictorLambret"
+#      text: "@VictorLambret"
+#      bio: "<p>Quand j'étais jeune, j'ai envisagé deux carrières: l'informatique ou la bande dessinée. Mon compte en banque me remercie d'avoir choisi la première option, mais malgré ça j'ai toujours gardé une tablette graphique à portée de main.</p>
+#          <p>Je suis dev embarqué de formation. Depuis 6 ans je travaille pour Sogilis, une boite géniale dans laquelle je me suis éloigné parfois des registres mappés en mémoire pour aller vers des applications plus haut niveau jusqu'au backend. En passant d'un langage à l'autre, un contexte à l'autre, j'en suis venu à prioriser les compétences réutilisables : les méthodes, l'approche des tests et le côté humain.</p>
+#          <p>Si je me retrouve dans l'artisanat logiciel, j'ai aussi besoin de garder une distance critique vis à vis de celui-ci. Non pas que j'y trouve un problème de base, mais plutôt parce que mon enthousiasme naturel pour ces pratiques me crée un biais dont je suis conscient.</p>
+#          <p>Ma manière d'équilibrer les choses est d'aller lire des papiers scientifiques sur les sujets qui me passionnent. J'y trouve souvent des éléments nouveaux et plein de nouvelles questions. Et pour partager tout ça avec une communauté moins habituée à ce genre de publications, je synthétise mes recherches dans des présentations dessinées (en plus on me paye pour ça :p)</p>"
+#      short_bio: "Embedded Software Engineer"
+#
     mathieucans:
       name: "Mathieu Cans"
-      photo: "/img/speakers/mathieu_cans.jpg"
+      photo: "/img/speakers/mathieu_cans.jpeg"
+      high_picture:  "/img/speakers/mathieu_cans.jpeg"
       href: "http://twitter.com/mathieucans"
       text: "@mathieucans"
       bio: "Convaincu que la responsabilité collective de la qualité et que l’existence de feedbacks sont au cœur de la réussite des projets informatiques, je développe des produits en équipe par petits incréments."
       company: "Orange"
       short_bio: "Software Engineer at Orange"
-
-    johanmartinsson:
-      name: "Johan Martinsson"
-      photo: "/img/speakers/johan_martinsson.jpg"
-      high_picture: "/img/speakers/johan_martinsson.jpg"
-      href: "http://twitter.com/johan_alps"
-      text: "@johan_alps"
-      bio: "Développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
-      company: "ChangIT"
-      short_bio: "Continuous delivery, TDD and crafting coach"
-
-    xaviernopre:
-      name: "Xavier Nopre"
-      photo: "/img/speakers/xavier_nopre.png"
-      high_picture: "/img/speakers/xavier_nopre.jpg"
-      href: "http://twitter.com/xnopre"
-      text: "@xnopre"
-      bio: "Développeur depuis plus de 20 ans, je suis passionné par le développement logiciel, l'agilité, le software craftmanship, etc... Pour moi, le développement agile nécessite des outils et des méthodes adaptés, et notamment les tests unitaires et le TDD dont j'essaie de partager mes connaissances et expériences avec les développeurs que je rencontre."
-      company: ""
-      short_bio: "Artisan-développeur / Co-fondateur et CTO chez vrtice"
-
-    margauxperrin:
-      name: "Margaux perrin"
-      photo: "/img/speakers/margauxperring.jpg"
-      high_picture: "/img/speakers/margauxperring.jpg"
-      href: "https://twitter.com/Margauxlergo"
-      text: "@Margauxlergo"
-      company: "uxShadow"
-      bio: "<p>Après des études en neurosciences cognitives, j'ai fait de l'ux-design mon métier depuis 2014.</p>
-            <p>Mes missions :</p>
-            <ol type=\"1\">
-            <li>Concevoir des parcours utilisateurs intuitifs et adaptés aux besoins ;</li>
-            <li>Transmettre mes compétences pour améliorer le bien-être numérique et réduire l'arrachage de cheveux face à des interfaces incompréhensibles (l'alopécie est un vrai problème de santé publique).</li>
-            </ol>
-            <p>Depuis 2015, je tiens également un blog sur l'ux et l'agilité que j'alimente de manière très irrégulière : <a href=\"http://www.margaux-perrin.com/category/ergonomie/\" aria-label=\"Blog Margaux Perrin\">http://www.margaux-perrin.com/category/ergonomie/</a></p> "
-      short_bio: "UX-research consultant | UX-design | Proxy Product Owner"
-
-    dorrabartaguiz:
-      name: "Dorra Bartaguiz"
-      photo: "/img/speakers/dorrabartaguiz.jpg"
-      href: "https://twitter.com/DorraBartaguiz"
-      text: "@DorraBartaguiz"
-      company: "Arolla"
-      bio: "<p>Développeuse depuis 2008, coach technique et formatrice et co-auteure du livre \"Software Craft\" éditions
-      Dunod. Passionnée par le développement et les bonnes pratiques, je partage mon savoir-faire en publiant 
-      des articles et en animant des conférences et des meetups. J'ai aussi enseigné dans une école d'ingénieurs à 
-      Paris pendant des années. Au fil de mon expérience, j'ai acquis des valeurs autour du craft et de l’agilité 
-      que j'adore partager en accompagnant des clients à travers du coaching ou des formations pour aider les équipes 
-      à mieux apporter de la valeur.</p>"
-      high_picture: "/img/speakers/high_dorra.jpg"
-      short_bio: "Technical coach @Arolla, speaker, co-auteure livre \"Software Craft\" chez Dunod"
-
-    emilienpecoul:
-      name: "Emilien Pecoul"
-      photo: "/img/speakers/emilienpecoul.jpg"
-      high_picture: "/img/speakers/high_emilienpecoul.jpg"
-      href: "https://twitter.com/Ouarzy"
-      text: "@Ouarzy"
+#
+#    johanmartinsson:
+#      name: "Johan Martinsson"
+#      photo: "/img/speakers/johan_martinsson.jpg"
+#      high_picture: "/img/speakers/johan_martinsson.jpg"
+#      href: "http://twitter.com/johan_alps"
+#      text: "@johan_alps"
+#      bio: "Développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
+#      company: "ChangIT"
+#      short_bio: "Continuous delivery, TDD and crafting coach"
+#
+#    xaviernopre:
+#      name: "Xavier Nopre"
+#      photo: "/img/speakers/xavier_nopre.png"
+#      high_picture: "/img/speakers/xavier_nopre.jpg"
+#      href: "http://twitter.com/xnopre"
+#      text: "@xnopre"
+#      bio: "Développeur depuis plus de 20 ans, je suis passionné par le développement logiciel, l'agilité, le software craftmanship, etc... Pour moi, le développement agile nécessite des outils et des méthodes adaptés, et notamment les tests unitaires et le TDD dont j'essaie de partager mes connaissances et expériences avec les développeurs que je rencontre."
+#      company: ""
+#      short_bio: "Artisan-développeur / Co-fondateur et CTO chez vrtice"
+#
+#    margauxperrin:
+#      name: "Margaux perrin"
+#      photo: "/img/speakers/margauxperring.jpg"
+#      high_picture: "/img/speakers/margauxperring.jpg"
+#      href: "https://twitter.com/Margauxlergo"
+#      text: "@Margauxlergo"
+#      company: "uxShadow"
+#      bio: "<p>Après des études en neurosciences cognitives, j'ai fait de l'ux-design mon métier depuis 2014.</p>
+#            <p>Mes missions :</p>
+#            <ol type=\"1\">
+#            <li>Concevoir des parcours utilisateurs intuitifs et adaptés aux besoins ;</li>
+#            <li>Transmettre mes compétences pour améliorer le bien-être numérique et réduire l'arrachage de cheveux face à des interfaces incompréhensibles (l'alopécie est un vrai problème de santé publique).</li>
+#            </ol>
+#            <p>Depuis 2015, je tiens également un blog sur l'ux et l'agilité que j'alimente de manière très irrégulière : <a href=\"http://www.margaux-perrin.com/category/ergonomie/\" aria-label=\"Blog Margaux Perrin\">http://www.margaux-perrin.com/category/ergonomie/</a></p> "
+#      short_bio: "UX-research consultant | UX-design | Proxy Product Owner"
+#
+#    dorrabartaguiz:
+#      name: "Dorra Bartaguiz"
+#      photo: "/img/speakers/dorrabartaguiz.jpg"
+#      href: "https://twitter.com/DorraBartaguiz"
+#      text: "@DorraBartaguiz"
 #      company: "Arolla"
-      bio: "<p>Emilien est un développeur passionné qui a démarré sa carrière dans une startup il y'a une dizaine d'années. Suite à divers échecs techniques, il a utilisé la communauté à travers les user groups, les conférences, les livres et les blogs pour apprendre, comprendre et appliquer les bonnes pratiques du développement logiciel.</p>
-               <p>A son compte depuis 2013, il intervient comme consultant notamment pour aider des équipes à améliorer leurs pratiques autour du TDD, BDD et DDD. </p>"
-      short_bio: "J’aide les auto entrepreneurs à sortir de l'enfer administratif avec Superindep.fr, auteur de #CodeFreelance"
-
-    florentpellet:
-      name: "Florent Pellet"
-      photo: "/img/speakers/florentpellet.webp"
-      high_picture: "/img/speakers/florentpellet.webp"
-      href: "https://twitter.com/florentpellet"
-      text: "@florentpellet"
-      company: "HackYourJob"
-      bio: "<p>Software Crafter convaincu et passionné pour les sujets autour de DDD.</p>
-          <p>Co-organisateur du Software Crafter Lyon, du DDD Lyon et du MUG Lyon.</p> 
-          <p>Co-fondateur de HackYourJob.</p>"
-      short_bio: "CTO & Co-fondateur chez Superindep.fr"
-
-    clementbouillier:
-      name: "Clément Bouillier"
-      photo: "/img/speakers/clementbouillier.webp"
-      high_picture: "/img/speakers/clementbouillier.webp"
-      href: "https://twitter.com/clem_bouillier"
-      company: "Superindep.fr"
-      text: "@clem_bouillier"
-      bio: "<p>Développeur depuis 17 ans, freelance depuis 9 ans, co-fondateur de Superindep.fr. Je suis particulièrement intéressé par les pratiques des software crafters, le DDD et la programmation fonctionnelle.</p>"
-      short_bio: "Co-founder COO/CFO Superindep.fr & Software Crafter/Generalizing Specialist"
-
-    mcorbin:
-      name: "Mathieu Corbin"
-      photo: "/img/speakers/mcorbin.jpg"
-      high_picture: "/img/speakers/high_mcorbin.jpg"
-      href: "https://twitter.com/_mcorbin"
-      text: "@_mcorbin"
-      company: "Qonto"
-      bio: "J'ai travaillé dans ma carrière aussi bien comme développeur que comme administrateur système. Je suis aujourd'hui Staff SRE chez Qonto où je travaille à la construction de la plateforme gérant les applications de l'entreprise."
-      short_bio: "Staff Site Reliability Engineer at Qonto"
-
-    mirnamahfoud:
-      name: "Mirna Mahfoud"
-      photo: "/img/speakers/mirna_mahfoud.jpg"
-      high_picture: "/img/speakers/mirna_mahfoud.jpg"
-      href: "https://twitter.com/mirna_mahfoud"
-      text: "@mirna_mahfoud"
-      bio: "Software engineer, technical coach, world traveler, poetry and art lover, Jane Austen fan, tea fanatic."
-      short_bio: "Software engineer, technical coach, world traveler, poetry and art lover, Jane Austen fan, tea fanatic."
+#      bio: "<p>Développeuse depuis 2008, coach technique et formatrice et co-auteure du livre \"Software Craft\" éditions
+#      Dunod. Passionnée par le développement et les bonnes pratiques, je partage mon savoir-faire en publiant
+#      des articles et en animant des conférences et des meetups. J'ai aussi enseigné dans une école d'ingénieurs à
+#      Paris pendant des années. Au fil de mon expérience, j'ai acquis des valeurs autour du craft et de l’agilité
+#      que j'adore partager en accompagnant des clients à travers du coaching ou des formations pour aider les équipes
+#      à mieux apporter de la valeur.</p>"
+#      high_picture: "/img/speakers/high_dorra.jpg"
+#      short_bio: "Technical coach @Arolla, speaker, co-auteure livre \"Software Craft\" chez Dunod"
+#
+#    emilienpecoul:
+#      name: "Emilien Pecoul"
+#      photo: "/img/speakers/emilienpecoul.jpg"
+#      high_picture: "/img/speakers/high_emilienpecoul.jpg"
+#      href: "https://twitter.com/Ouarzy"
+#      text: "@Ouarzy"
+##      company: "Arolla"
+#      bio: "<p>Emilien est un développeur passionné qui a démarré sa carrière dans une startup il y'a une dizaine d'années. Suite à divers échecs techniques, il a utilisé la communauté à travers les user groups, les conférences, les livres et les blogs pour apprendre, comprendre et appliquer les bonnes pratiques du développement logiciel.</p>
+#               <p>A son compte depuis 2013, il intervient comme consultant notamment pour aider des équipes à améliorer leurs pratiques autour du TDD, BDD et DDD. </p>"
+#      short_bio: "J’aide les auto entrepreneurs à sortir de l'enfer administratif avec Superindep.fr, auteur de #CodeFreelance"
+#
+#    florentpellet:
+#      name: "Florent Pellet"
+#      photo: "/img/speakers/florentpellet.webp"
+#      high_picture: "/img/speakers/florentpellet.webp"
+#      href: "https://twitter.com/florentpellet"
+#      text: "@florentpellet"
+#      company: "HackYourJob"
+#      bio: "<p>Software Crafter convaincu et passionné pour les sujets autour de DDD.</p>
+#          <p>Co-organisateur du Software Crafter Lyon, du DDD Lyon et du MUG Lyon.</p>
+#          <p>Co-fondateur de HackYourJob.</p>"
+#      short_bio: "CTO & Co-fondateur chez Superindep.fr"
+#
+#    clementbouillier:
+#      name: "Clément Bouillier"
+#      photo: "/img/speakers/clementbouillier.webp"
+#      high_picture: "/img/speakers/clementbouillier.webp"
+#      href: "https://twitter.com/clem_bouillier"
+#      company: "Superindep.fr"
+#      text: "@clem_bouillier"
+#      bio: "<p>Développeur depuis 17 ans, freelance depuis 9 ans, co-fondateur de Superindep.fr. Je suis particulièrement intéressé par les pratiques des software crafters, le DDD et la programmation fonctionnelle.</p>"
+#      short_bio: "Co-founder COO/CFO Superindep.fr & Software Crafter/Generalizing Specialist"
+#
+#    mcorbin:
+#      name: "Mathieu Corbin"
+#      photo: "/img/speakers/mcorbin.jpg"
+#      high_picture: "/img/speakers/high_mcorbin.jpg"
+#      href: "https://twitter.com/_mcorbin"
+#      text: "@_mcorbin"
+#      company: "Qonto"
+#      bio: "J'ai travaillé dans ma carrière aussi bien comme développeur que comme administrateur système. Je suis aujourd'hui Staff SRE chez Qonto où je travaille à la construction de la plateforme gérant les applications de l'entreprise."
+#      short_bio: "Staff Site Reliability Engineer at Qonto"
+#
+#    mirnamahfoud:
+#      name: "Mirna Mahfoud"
+#      photo: "/img/speakers/mirna_mahfoud.jpg"
+#      high_picture: "/img/speakers/mirna_mahfoud.jpg"
+#      href: "https://twitter.com/mirna_mahfoud"
+#      text: "@mirna_mahfoud"
+#      bio: "Software engineer, technical coach, world traveler, poetry and art lover, Jane Austen fan, tea fanatic."
+#      short_bio: "Software engineer, technical coach, world traveler, poetry and art lover, Jane Austen fan, tea fanatic."
 
 
   Schedule:
-    - name: "Accueil"
-      id: "accueil"
-      style: "grid-column: 1 / -1;"
-      short_description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
-      description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
-      date: "8h15 à 9h00"
-      categories:
-        - "👋"
-        - "🥐"
-        - "☕"
-      speakers:
-        - speaker:
-          speakerid: "orga"
-
-    - name: "Mot d'acceuil & Mot du sponsor - Salesforce"
-      id: "salesforce"
-      style: "grid-column: 1 / -1;"
-      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
-      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
-      salle: "Chamrousse"
-      date: "9h00 à 9h30"
-      categories:
-        - "❤"
-      speakers:
-        - speaker:
-          speakerid: "salesforce"
-
-    - name: "Mot d'accueil & Keynote - Un monolithe pour 200 développeurs : avantages et défis."
-      id: "keynote"
-      style: "grid-column: 1 / -1;"
-      salle: "Chamrousse"
-      date: "9h30 - 10h15"
-      short_description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
-      description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
-      type: "talk"
-      tooltip: "Keynote"
-      roti: "https://roti.express/r/alp-01"
-      categories:
-        - "Keynote"
-        - "💡 Discovery"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "davidgageot"
-
-    - name: "Et si les micro-services n'avaient rien à voir avec la technique ?"
-      id: "microservice"
-      short_description: "<p>Encore une conférence sur les micro-services ? c'est tellement pre-pandémie comme sujet. 🤷‍</p>
-          <p>Non, ce n'est pas une conf sur les micro-services. Enfin si... mais c'est pas pareil.</p>"
-      description: "<p>Encore une conférence sur les micro-services ? c'est tellement pre-pandémie comme sujet. 🤷‍</p>
-          <p>Non, ce n'est pas une conf sur les micro-services. Enfin si... mais c'est pas pareil.</p>
-          <p>Ce dont on va parler c'est d'organisation, d'équipes, de communication, de topologie, de rôles, etc. Avec en exemple de nombreux changements qu'on a essayé, testé, implémenté chez Docker.</p>
-          <p>Alors peut-être qu'ensuite vous pourrez répondre à des questions du type \"quelle taille doit faire un micro-service ?\". Ou pas. Et d'ailleurs, tout ceci pourra s'appliquer même si vous ne faites pas de micro-services</p>"
+#    - name: "Accueil"
+#      id: "accueil"
+#      style: "grid-column: 1 / -1;"
+#      short_description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
+#      description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
+#      date: "8h15 à 9h00"
+#      categories:
+#        - "👋"
+#        - "🥐"
+#        - "☕"
+#      speakers:
+#        - speaker:
+#          speakerid: "orga"
+#
+#    - name: "Mot d'acceuil & Mot du sponsor - Salesforce"
+#      id: "salesforce"
+#      style: "grid-column: 1 / -1;"
+#      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
+#      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
+#      salle: "Chamrousse"
+#      date: "9h00 à 9h30"
+#      categories:
+#        - "❤"
+#      speakers:
+#        - speaker:
+#          speakerid: "salesforce"
+#
+#    - name: "Mot d'accueil & Keynote - Un monolithe pour 200 développeurs : avantages et défis."
+#      id: "keynote"
+#      style: "grid-column: 1 / -1;"
+#      salle: "Chamrousse"
+#      date: "9h30 - 10h15"
+#      short_description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
+#      description: "Développer sur un gros monolith Rails ne se fait pas sans embûche. Chez Doctolib, nous tentons de toujours nous souvenir des gains apportés par le monolith et de contrecarrer autant que possible tous les inconvénients. Alors, à près de 200 développeurs, ça se passe comment ?"
+#      type: "talk"
+#      tooltip: "Keynote"
+#      roti: "https://roti.express/r/alp-01"
+#      categories:
+#        - "Keynote"
+#        - "💡 Discovery"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "davidgageot"
+#
+    - name: "L’Intégration Continue en Quatorze Pratiques"
+      id: "integrationcontinue"
+      style: "grid-column: span 2"
+      short_description: "<p>L'intégration continue est déjà une pratique en soi. C'est l'une des plus importantes à adopter pour permettre le flux rapide dans la chaîne de valeur.</p>
+        <p>Cependant, de nombreuses équipes pensent que l'intégration continue n'est qu'un problème d'outillage, pour ensuite dire qu'elles pratiquent l'intégration continue.
+                                                                                                                                                                                               Pourtant, elles ne le font souvent pas et elles passent donc à côté de tous les avantages qui en découlent.</p>"
+      description: "<p>L'intégration continue est déjà une pratique en soi. C'est l'une des plus importantes à adopter pour permettre le flux rapide dans la chaîne de valeur.
+          <br/>
+           Cependant, de nombreuses équipes pensent que l'intégration continue n'est qu'un problème d'outillage, pour ensuite dire qu'elles pratiquent l'intégration continue.
+           Pourtant, elles ne le font souvent pas et elles passent donc à côté de tous les avantages qui en découlent.</p>
+          <p>Cette session approfondit les pratiques qui, chacune en soi à leur manière, activent l'intégration continue ainsi que leurs relations entre eux.
+          Apprenez comment obtenir un retour d'information rapide, une stabilité accrue et un débit de livraison plus élevé!</p>"
       type: "talk"
       salle: "Chamrousse"
       date: "10h30 - 11h15"
-      roti: "https://roti.express/r/alp-02"
+      roti: ""
       categories:
         - "Talk"
-        - "Micro-service"
+        - "Intégration Continue"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "yvesbrissaud"
+          speakerid: "tdpauw"
 
-    - name: "Introduction au Clean Language"
-      id: "cleanlanguage"
-      style: "grid-row: span 2;"
-      salle: "Autrans 2"
-      date: "10h30 - 12h15"
-      description: "<p>Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits.</p>
-
-                    Les questions Clean ont été affinées au fil de nombreuses années et sont conçues pour permettre au coach d'éviter d'ajouter ses propres présupposés ou jugements, et d'écouter de façon exquise. Enseigner ces questions aux équipes les invite à devenir curieux les uns des autres et à ne plus dépendre du ScrumMaster ou du Coach Agile pour communiquer.
-                    <br />
-                    Le Clean Language est simple à comprendre et difficile à maîtriser. Au cours de cette session, nous vous ferons utiliser les questions Clean et vous inviterons à réfléchir à la différence que cela pourrait faire si vous les utilisiez au travail (ou à la maison !).  Il y aura d’autres ateliers vendredi selon la demande.
-                    <br /><br />
-
-                    Si vous souhaitez en savoir plus sur le Clean Language avant la session, ces deux liens vous aideront (en anglais)
-                    <ul>
-                      <li><a href=\"https://www.youtube.com/watch?v=aVvcU5gG4KU\">Caitlin Walker Tedx</a></li>
-                      <li><a href=\"https://www.youtube.com/watch?v=_gSlRqfPT4E\">Qu'est-ce que la modélisation systémique</a></li>
-                    </ul>"
-      short_description: "Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits."
+    - name: "Event Storming par la Pratique"
+      id: "eventstorming"
+      style: "grid-column: span 2"
+      short_description: "<p>L'Event Storming est un atelier permettant de modéliser les domaines métier présents dans une application, voire même une entreprise au global. Cet atelier permet d'aligner le langage et les concepts d'une équipe entière autour de ces concepts métiers</p>"
+      description: "<p>L'Event Storming est un atelier permettant de modéliser les domaines métier présents dans une application, voire même une entreprise au global.
+        <br/>
+        Cet atelier permet d'aligner le langage et les concepts d'une équipe entière autour de ces concepts métiers. Nous utiliserons les différents éléments de l'event storming, autour d'un sujet simple mais pas simpliste, qui permettra d'utiliser toutes les techniques présentées par Alberto Brandolini dans son livre.</p>
+        <p>De la Chaotic Exploration à l'Enforce the timeline en passant par l'Explicit Walk-through, et finir par le Reverse Narrative, nous poserons des stickers partout. On finira l'atelier en identifiant les domaines métiers et les bounded contextes associés.</p>"
       type: "workshop"
-      roti: "https://roti.express/r/alp-06"
-      categories:
-        - "Workshop"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "sarahscarratt"
-
-    - name: "Mob is You"
-      id: "mobisu"
-      style: "grid-row: span 2;"
-      short_description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>"
-      description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>
-          <p>Que vous développiez ou quotidien ou pas, vous aurez des choses à apprendre sur la dynamique de groupe et comment il est possible de co-créer du logiciel en tant que groupe.</p>"
       salle: "Autrans 1"
-      date: "10h30 - 12h15"
-      roti: "https://roti.express/r/alp-04"
-      type: "workshop"
-      categories:
-        - "Workshop"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "bastiendavid"
-        - speaker:
-          speakerid: "remysanlaville"
-
-    - name: "REX 2 ans de TCR"
-      id: "REXtcr"
-      short_description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>"
-      description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>
-        <p>Nous y verrons les avantages et les inconvéniants mais aussi les trucs et astuces à connaitre si vous voulez essayer également.</p>"
-      type: "talk"
-      salle: "Villard de Lans 2"
-      roti: "https://roti.express/r/alp-03"
       date: "10h30 - 11h15"
-      categories:
-        - "Talk"
-        - "TCR"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "xavierdetant"
-
-    - name: "Experiencing team flow"
-      id: "teamflow"
-      style: "grid-row: span 2;"
-      short_description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>"
-      description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>
-        <p>Nous ferons des simulations d'organisation d'une équipe pour bien comprendre l'effet que cela a sur son flux total du travail.</p>
-        <p>Les sujets que nous aborderons :
-        <ul>
-            <li>Pourquoi limiter le travail en cours ?</li>
-            <li>Pourquoi préférons-nous des membres d'équipe en forme de T ?</li>
-            <li>Pourquoi avons-nous du mal à estimer quand le travail sera fini ?</li>
-            <li>En quoi la collaboration peut-elle nous aider ?</li>
-        </ul></p>"
-      type: "workshop"
-      salle: "Villard de Lans 1"
-      date: "10h30 - 12h15"
-      roti: "https://roti.express/r/alp-05"
+      roti: ""
       categories:
         - "Workshop"
-      #        - "💡 Discovery"
-      #      date: "Mardi 08 Juin - 12h"
+        - "Event Storming"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "michelgrootjans"
+          speakerid: "nicolassavois"
 
+    - name: "Montée de version sans interruption"
+      id: "interruption"
+      style: "grid-column: span 2"
+      short_description: "<p>Beaucoup d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.</p>"
+      description: "<p>Beaucoup d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.</p>
 
-    - name: "Ecrire des tests Antifragiles & orientés métier grâce à l'Outside-in Diamond 🔷 TDD"
-      id: "outsideintdd"
-      short_description: "<p>Le TDD a changé ma vie. Pour de bon.</p>"
-      description: "<p>Le TDD a changé ma vie. Pour de bon.</p>
-       <p>Après avoir commis presque toutes les erreurs possibles lors de ces 15 dernières années à faire du TDD, j’en suis arrivé à pratiquer une forme de TDD qui nous donne, à mes collègues et à moi-même, beaucoup de plaisir et d’efficacité. Une forme particulière de TDD que mon ex-complice Bruno BOUCARD et moi-même avons baptisé Outside-in Diamond 🔷 TDD.</p>
-       <p>C’est quelque chose qui nous permet d’écrire des tests à la fois orientés métier (ce qui n’est pas pour déplaire au passionné de DDD que je suis) mais aussi « Antifragile ». C’est de cela dont je vais vous parler aujourd’hui.</p>"
+           <p>Les techniques classiques de Rolling Update permettent de réaliser une montée de version sans interruption de service facilement. La complexité intervient lorsque l'on gère une base de données relationnelle, et que l'on souhaite faire évoluer son schéma, toujours sans interruption de service.</p>
+
+           <p>Ce talk est un retour d'expérience présentant les mécanismes que j'ai eu l'occasion de mettre en place pour réaliser ces montées de version sans interruption. Il se concentre sur la partie applicative, et les problématiques engendrées par un tel process. Le but est d'être le plus concret possible, avec des exemples de \"la vraie vie\", notamment quelques astuces pour réaliser ses migrations sans douleur avec des frameworks comme Hibernate ou jOOQ. Les exemples sont donnés en Java avec une base de données PostgreSQL, mais les principes s'appliquent à n'importe quel language et à la plupart des bases de données relationnelles.</p>"
       type: "talk"
       salle: "Chamrousse"
       date: "11h30 - 12h15"
-      roti: "https://roti.express/r/alp-07"
+      roti: ""
       categories:
         - "Talk"
-        - "TDD"
-      #      date: "Mardi 08 Juin - 12h"
+        - "Continuous Delivery"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "thomaspierrain"
+          speakerid: "ndionisi"
 
-    - name: "Le DDD au quotidien"
-      id: "ddd"
-      short_description: "Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence."
-      description: "<p>Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence.</p>
-                    <p>On a tendance à penser que le DDD est complexe, mais c’est au final beaucoup de bon sens. C’est la quantité de chose couverte par le DDD qui le rend difficile à appréhender au début.</p>
-                    <p>Avec des retours d’expériences sur des pratiques concrètes du quotidien, que vous pourrez appliquer dès demain, nous verrons comment rendre votre projet plus centré sur le domaine. Nous verrons également quels principes sont respectés grâce à ces pratiques, et en quoi cela peut être bénéfique pour une équipe, donc pour une entreprise.</p>"
-      type: "talk"
-      salle: "Villard de Lans 2"
-      roti: "https://roti.express/r/alp-08"
-      date: "11h30 à 12h15"
-      categories:
-        - "Talk"
-        - "DDD"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "emilienpecoul"
+    - name: "Crafter de meilleures UI, en pensant le DOM comme une API"
+      id: "domasapi"
+      style: "grid-column: span 2"
+      short_description: "<p>Arrivant souvent sur les projets en \"mode pompier\", j'ai acquis des réflexes lorsqu'il s'agit de rapidement corriger ou terminer l'intégration d'application web.</p>
+          <p>Mais comment faire pour maintenir ces bonnes pratiques une fois le feu éteint ? Comment améliorer le code sans casser l'UI ? Comment bien démarrer l'intégration d'une nouvelle application ?</p>"
+      description: "<p>Arrivant souvent sur les projets en \"mode pompier\", j'ai acquis des réflexes lorsqu'il s'agit de rapidement corriger ou terminer l'intégration d'application web.</p>
 
-    - name: "Déjeuner"
-      id: "dejeuner"
-      style: "grid-column: 1 / -1;"
-      short_description: ""
-      description: ""
-      salle: ""
-      date: "12h15 à 13h50"
-      categories:
-        - "🍽️"
-        - "🥪"
-        - "☕"
-      speakers:
-        - speaker:
-          speakerid: "orga"
+         <p>Mais comment faire pour maintenir ces bonnes pratiques une fois le feu éteint ? Comment améliorer le code sans casser l'UI ? Comment bien démarrer l'intégration d'une nouvelle application ?</p>
 
-    - name: "Rétro Matinée & Mot du sponsor - Tuleap"
-      id: "tuleap"
-      style: "grid-column: 1 / -1;"
-      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
-      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
-      salle: "Chamrousse"
-      date: "13h50 à 14h15"
-      categories:
-        - "❤"
-      speakers:
-        - speaker:
-          speakerid: "tuleap"
+         <p>Nos UI sont autant utilisées par des humains que par des lecteurs d'écran, ou encore des outils de test et des robots... il faut donc penser le DOM comme une API, et pas seulement reproduire une maquette.
+         Autour de cet axe, je vous propose quelques outils et idées d'ateliers collaboratifs pour développer des interfaces testables, modulaires et accessibles. Et pourquoi pas un Design System ?</p>
 
-    - name: "Architecture Hexagonale : un pattern de gestion de la complexité logicielle et de la dette technique"
-      id: "architecturehexagonale"
-      short_description: "<p>Il arrive toujours un moment où, le logiciel est tellement gros et vieux qu’il devient inmaintenable. Impossible de mettre à jour la stack technique sans tout casser, les nouvelles fonctionnalités deviennent de plus en plus longue à implémenter et la dette technique étant tellement lourde que le refactoring devient exorbitant.</p>"
-      description: "<p>Il arrive toujours un moment où, le logiciel est tellement gros et vieux qu’il devient inmaintenable. Impossible de mettre à jour la stack technique sans tout casser, les nouvelles fonctionnalités deviennent de plus en plus longue à implémenter et la dette technique étant tellement lourde que le refactoring devient exorbitant.</p>
-          <p>Et si on vous disait que tout ça était plus un problème de pratique qu’un problème de vieillesse du logiciel ?</p>
-          <p>Venez découvrir par ce retour d’expérience, comment l’Architecture Hexagonale peut tacler la complexité logicielle en vous permettant d’être évolutif et pérenne tout en vous aidant à mieux gérer votre dette technique.</p>"
+         <p>Vous repartirez avec une nouvelle vision du métier de l'intégration web, des pratiques et quelques outils à utiliser dès demain pour améliorer le quotidien de votre projet.</p>"
       type: "talk"
       salle: "Chamrousse"
-      date: "14h15 à 15h00"
-      roti: "https://roti.express/r/alp-09"
+      date: "11h30 - 12h15"
+      roti: ""
       categories:
         - "Talk"
-        - "Architecture"
-      #      date: "Mardi 08 Juin - 12h"
+        - "Intégration Web"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "julientopçu"
+          speakerid: "manoncarbonnel"
 
-    - name: "Jeu du frigo"
-      id: "frigo"
-      style: "grid-row: span 2;"
-      short_description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>"
-      description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>
-          <p>Si vous avez répondu du tac au tac \"ce sont des systèmes complexes soumis à des forces nombreuses avec des effets et des temporalités souvent difficiles à analyser\", vous devriez apprécier les défis proposés lors de cet atelier. Si vous n'avez pas fait le lien immédiatement, vous pourriez y faire une découverte utile voire salutaire.</p>
-          <p>Le propos de cet atelier est d'explorer ce qui rend les systèmes si difficiles à gouverner, qu'il s'agisse de lignes de code ou de populations exposées à une pandémie, mais aussi de montrer en quoi certaines \"lois\" se retrouvent indépendamment des domaines et nous fournissent des outils et des réflexes à cultiver.</p>
-          <p></p>
-          <p><strong>Matériel nécessaire</strong>: les participants doivent avoir un laptop pour 3.</p>"
-      type: "workshop"
-      salle: "Autrans 2"
-      date: "14h15 à 16h00"
-      roti: "https://roti.express/r/alp-13"
-      categories:
-        - "Workshop"
-      #        - "💡 Discovery"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "michelleavomo"
-        - speaker:
-          speakerid: "christophethibaut"
-
-    - name: "Testez vos compétences de refactoring sur la machine d'entrainement TCR !"
-      id: "tcr"
-      style: "grid-row: span 2;"
-      description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?
-                    <br/>
-                    Le design incrémental consiste à arrêter de penser au design comme gravé dans le marbre, mais comme une infinité de petits pas. Maitriser les petit pas est un pré-requis pour le design incrémental. Mais comment enseigner les petits pas à vos collègues expérimentés qui se \"débrouillent\" pour résoudre un kata en une poignée de grands pas?
-                    <br/>
-                     TCR (test && commit || revert) est une machine d'entrainement au petits pas à ajouter à vos katas! En plus d'enseigner les petits pas, cet outil:
-                    <br/>
-                    <ul>
-                       <li>est un coach qui rappel aux participants de prendre des petits pas</li>
-                       <li>est moins énervant qu'un coach humain 😉 parce que ce n'est qu'un script!</li>
-                       <li>est plus \"vendable\" que les katas de TDD, parce que ce n'est qu'un outil d'entrainement!</li>
-                       <li>est amusant grâce à sa touche de gamification</li>
-                       <li>impacte directement votre programmation quotidienne, même dans le code legacy, en enseignant la taille du pas qu'on est capable de faire sans erreur!</li>
-                       <li>fonctionne parfaitement à distance</li>
-                     </ul>
-                     <br/>
-                     Rejoignez cette session, découvrez TCR, pour enseigner le design incrémental à votre équipe MAINTENANT!"
-      short_description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?"
-      type: "workshop"
-      salle: "Autrans 1"
-      roti: "https://roti.express/r/alp-12"
-      date: "14h15 à 16h00"
-      categories:
-        - "Workshop"
-      #        - "💡 Discovery"
-      #        - "Beginner"
-      #      date: "Mardi 08 Juin - 13h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "philippebourgau"
-        - speaker:
-          speakerid: "mirnamahfoud"
-
-    - name: "Charge mentale: l'ingrédient oublié pour la performance et le bien-être des équipes"
-      id: "chargementale"
-      short_description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
-           <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>"
-      description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
-        <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>
-
-        <p>Quel est le lien entre charge mental et structuration des équipes ?</p>
-        <p>En quoi celle-ci peut avoir un impact sur la performance ?</p>
-        <p>Nous l'explorerons au travers de la découverte de grands noms comme Felienne Hermans, J. Sweller, Yerkes & Dodson, et de références comme le livre Teams Topologies.</p>"
-      type: "talk"
-      salle: "Villard de Lans 2"
-      roti: "https://roti.express/r/alp-10"
-      date: "14h15 à 15h00"
-      categories:
-        - "Talk"
+#
+#    - name: "Introduction au Clean Language"
+#      id: "cleanlanguage"
+#      style: "grid-row: span 2;"
+#      salle: "Autrans 2"
+#      date: "10h30 - 12h15"
+#      description: "<p>Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits.</p>
+#
+#                    Les questions Clean ont été affinées au fil de nombreuses années et sont conçues pour permettre au coach d'éviter d'ajouter ses propres présupposés ou jugements, et d'écouter de façon exquise. Enseigner ces questions aux équipes les invite à devenir curieux les uns des autres et à ne plus dépendre du ScrumMaster ou du Coach Agile pour communiquer.
+#                    <br />
+#                    Le Clean Language est simple à comprendre et difficile à maîtriser. Au cours de cette session, nous vous ferons utiliser les questions Clean et vous inviterons à réfléchir à la différence que cela pourrait faire si vous les utilisiez au travail (ou à la maison !).  Il y aura d’autres ateliers vendredi selon la demande.
+#                    <br /><br />
+#
+#                    Si vous souhaitez en savoir plus sur le Clean Language avant la session, ces deux liens vous aideront (en anglais)
+#                    <ul>
+#                      <li><a href=\"https://www.youtube.com/watch?v=aVvcU5gG4KU\">Caitlin Walker Tedx</a></li>
+#                      <li><a href=\"https://www.youtube.com/watch?v=_gSlRqfPT4E\">Qu'est-ce que la modélisation systémique</a></li>
+#                    </ul>"
+#      short_description: "Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits."
+#      type: "workshop"
+#      roti: "https://roti.express/r/alp-06"
+#      categories:
+#        - "Workshop"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "sarahscarratt"
+#
+#    - name: "Mob is You"
+#      id: "mobisu"
+#      style: "grid-row: span 2;"
+#      short_description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>"
+#      description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>
+#          <p>Que vous développiez ou quotidien ou pas, vous aurez des choses à apprendre sur la dynamique de groupe et comment il est possible de co-créer du logiciel en tant que groupe.</p>"
+#      salle: "Autrans 1"
+#      date: "10h30 - 12h15"
+#      roti: "https://roti.express/r/alp-04"
+#      type: "workshop"
+#      categories:
+#        - "Workshop"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "bastiendavid"
+#        - speaker:
+#          speakerid: "remysanlaville"
+#
+#    - name: "REX 2 ans de TCR"
+#      id: "REXtcr"
+#      short_description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>"
+#      description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>
+#        <p>Nous y verrons les avantages et les inconvéniants mais aussi les trucs et astuces à connaitre si vous voulez essayer également.</p>"
+#      type: "talk"
+#      salle: "Villard de Lans 2"
+#      roti: "https://roti.express/r/alp-03"
+#      date: "10h30 - 11h15"
+#      categories:
+#        - "Talk"
+#        - "TCR"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "xavierdetant"
+#
+#    - name: "Experiencing team flow"
+#      id: "teamflow"
+#      style: "grid-row: span 2;"
+#      short_description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>"
+#      description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>
+#        <p>Nous ferons des simulations d'organisation d'une équipe pour bien comprendre l'effet que cela a sur son flux total du travail.</p>
+#        <p>Les sujets que nous aborderons :
+#        <ul>
+#            <li>Pourquoi limiter le travail en cours ?</li>
+#            <li>Pourquoi préférons-nous des membres d'équipe en forme de T ?</li>
+#            <li>Pourquoi avons-nous du mal à estimer quand le travail sera fini ?</li>
+#            <li>En quoi la collaboration peut-elle nous aider ?</li>
+#        </ul></p>"
+#      type: "workshop"
+#      salle: "Villard de Lans 1"
+#      date: "10h30 - 12h15"
+#      roti: "https://roti.express/r/alp-05"
+#      categories:
+#        - "Workshop"
+#      #        - "💡 Discovery"
 #      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "christophemaldivi"
-
-
-    - name: "Bonnes pratiques ux pour les devs"
-      id: "bestpracticesux"
-      short_description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez."
-      description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez. "
-      type: "talk"
-      salle: "Villard de Lans 1"
-      date: "14h15 à 15h00"
-      roti: "https://roti.express/r/alp-11"
-      categories:
-        - "Talk"
-        - "UX"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "margauxperrin"
-
-
-    - name: "Rendez vos développeurs autonomes sur la production"
-      id: "devproduction"
-      short_description: "<p>Les administrateurs systèmes sont encore traditionnellement les personnes gérant la totalité des applications de l'entreprise en production. Pourtant, et depuis maintenant plusieurs années, une nouvelle tendance apparaît: laisser les développeurs gérer leurs applications en production.</p>"
-      description: "<p>Les administrateurs systèmes sont encore traditionnellement les personnes gérant la totalité des applications de l'entreprise en production. Pourtant, et depuis maintenant plusieurs années, une nouvelle tendance apparaît: laisser les développeurs gérer leurs applications en production.</p>
-          <p>J'expliquerai dans ce talk l'intérêt de cette approche et du rôle des administrateurs systèmes et SRE dans la construction de l'abstraction permettant d'atteindre cet objectif, le but n'étant en effet pas de supprimer les administrateurs systèmes mais de travailler en partenariat avec eux.</p>
-          <p>Je donnerai également des retours d'expérience sur la mise en place de cette approche et des difficultés rencontrées, comme par exemple sur la création d'astreintes dans les équipes de développement</p>"
-      type: "talk"
-      salle: "Chamrousse"
-      date: "15h15 à 16h00"
-      roti: "https://roti.express/r/alp-15"
-      categories:
-        - "Talk"
-        - "DevOps"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "mcorbin"
-
-    - name: "Introduction au T(ype)DD avec F#"
-      id: "typeDD"
-      short_description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>"
-      description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>
-        <p>Nous vous proposons de partir d’un kata bien connu pour illustrer les différences (implémentations en C# existantes) et dédiaboliser la soi-disant complexité de la programmation fonctionnelle.</p>
-        <p>Les différences de notation forment le principal obstacle, une fois passée, la programmation fonctionnelle n’est pas plus compliquée. Nous aborderons le langage F# pas à pas en illustrant notamment le système de type (dit de “types algébriques”) pour avoir un design piloté par les types (TypeDD).</p>"
-      type: "talk"
-      salle: "Villard de Lans 2"
-      roti: "https://roti.express/r/alp-16"
-      date: "15h15 - 16h"
-      categories:
-        - "Talk"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "clementbouillier"
-        - speaker:
-          speakerid: "florentpellet"
-
-
-    - name: "Stratégie de tests agile"
-      id: "testagile"
-      description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
-      short_description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
-      type: "talk"
-      salle: "Villard de Lans 1"
-      roti: "https://roti.express/r/alp-14"
-      date: "15h15 à 16h00"
-      categories:
-        - "Talk"
-      #        - "Keynote"
-      #        - "💡 Discovery"
-      #      date: "Mardi 08 Juin - 12h"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "nicolasfedou"
-
-    - name: "Les classes abstraites c’est fini (et c’est la faute à TDD)"
-      id: "plusdabstrait"
-      short_description: "Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me
-            suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\". "
-      description: "<p>Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me
-                                suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\".</p>
-        <p>En creusant la question, je me rends compte que c'est depuis que j'ai commencé à appliquer le TDD
-        ( \"Test-Driven Development\" ou développement dirigé par les tests).  Mais quel est le rapport entre les deux ?</p>
-         <p>C'est ce que je vais tenter d'expliquer via ce talk.</p>"
-      categories:
-        - "Talk"
-      type: "talk"
-      salle: "Chamrousse"
-      date: "16h15 à 17h00"
-      roti: "https://roti.express/r/alp-19"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "dorrabartaguiz"
-
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "michelgrootjans"
+#
+#
+#    - name: "Ecrire des tests Antifragiles & orientés métier grâce à l'Outside-in Diamond 🔷 TDD"
+#      id: "outsideintdd"
+#      short_description: "<p>Le TDD a changé ma vie. Pour de bon.</p>"
+#      description: "<p>Le TDD a changé ma vie. Pour de bon.</p>
+#       <p>Après avoir commis presque toutes les erreurs possibles lors de ces 15 dernières années à faire du TDD, j’en suis arrivé à pratiquer une forme de TDD qui nous donne, à mes collègues et à moi-même, beaucoup de plaisir et d’efficacité. Une forme particulière de TDD que mon ex-complice Bruno BOUCARD et moi-même avons baptisé Outside-in Diamond 🔷 TDD.</p>
+#       <p>C’est quelque chose qui nous permet d’écrire des tests à la fois orientés métier (ce qui n’est pas pour déplaire au passionné de DDD que je suis) mais aussi « Antifragile ». C’est de cela dont je vais vous parler aujourd’hui.</p>"
+#      type: "talk"
+#      salle: "Chamrousse"
+#      date: "11h30 - 12h15"
+#      roti: "https://roti.express/r/alp-07"
+#      categories:
+#        - "Talk"
+#        - "TDD"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "thomaspierrain"
+#
+#    - name: "Le DDD au quotidien"
+#      id: "ddd"
+#      short_description: "Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence."
+#      description: "<p>Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence.</p>
+#                    <p>On a tendance à penser que le DDD est complexe, mais c’est au final beaucoup de bon sens. C’est la quantité de chose couverte par le DDD qui le rend difficile à appréhender au début.</p>
+#                    <p>Avec des retours d’expériences sur des pratiques concrètes du quotidien, que vous pourrez appliquer dès demain, nous verrons comment rendre votre projet plus centré sur le domaine. Nous verrons également quels principes sont respectés grâce à ces pratiques, et en quoi cela peut être bénéfique pour une équipe, donc pour une entreprise.</p>"
+#      type: "talk"
+#      salle: "Villard de Lans 2"
+#      roti: "https://roti.express/r/alp-08"
+#      date: "11h30 à 12h15"
+#      categories:
+#        - "Talk"
+#        - "DDD"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "emilienpecoul"
+#
+#    - name: "Déjeuner"
+#      id: "dejeuner"
+#      style: "grid-column: 1 / -1;"
+#      short_description: ""
+#      description: ""
+#      salle: ""
+#      date: "12h15 à 13h50"
+#      categories:
+#        - "🍽️"
+#        - "🥪"
+#        - "☕"
+#      speakers:
+#        - speaker:
+#          speakerid: "orga"
+#
+#    - name: "Rétro Matinée & Mot du sponsor - Tuleap"
+#      id: "tuleap"
+#      style: "grid-column: 1 / -1;"
+#      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
+#      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
+#      salle: "Chamrousse"
+#      date: "13h50 à 14h15"
+#      categories:
+#        - "❤"
+#      speakers:
+#        - speaker:
+#          speakerid: "tuleap"
+#
+#    - name: "Architecture Hexagonale : un pattern de gestion de la complexité logicielle et de la dette technique"
+#      id: "architecturehexagonale"
+#      short_description: "<p>Il arrive toujours un moment où, le logiciel est tellement gros et vieux qu’il devient inmaintenable. Impossible de mettre à jour la stack technique sans tout casser, les nouvelles fonctionnalités deviennent de plus en plus longue à implémenter et la dette technique étant tellement lourde que le refactoring devient exorbitant.</p>"
+#      description: "<p>Il arrive toujours un moment où, le logiciel est tellement gros et vieux qu’il devient inmaintenable. Impossible de mettre à jour la stack technique sans tout casser, les nouvelles fonctionnalités deviennent de plus en plus longue à implémenter et la dette technique étant tellement lourde que le refactoring devient exorbitant.</p>
+#          <p>Et si on vous disait que tout ça était plus un problème de pratique qu’un problème de vieillesse du logiciel ?</p>
+#          <p>Venez découvrir par ce retour d’expérience, comment l’Architecture Hexagonale peut tacler la complexité logicielle en vous permettant d’être évolutif et pérenne tout en vous aidant à mieux gérer votre dette technique.</p>"
+#      type: "talk"
+#      salle: "Chamrousse"
+#      date: "14h15 à 15h00"
+#      roti: "https://roti.express/r/alp-09"
+#      categories:
+#        - "Talk"
+#        - "Architecture"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "julientopçu"
+#
+#    - name: "Jeu du frigo"
+#      id: "frigo"
+#      style: "grid-row: span 2;"
+#      short_description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>"
+#      description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>
+#          <p>Si vous avez répondu du tac au tac \"ce sont des systèmes complexes soumis à des forces nombreuses avec des effets et des temporalités souvent difficiles à analyser\", vous devriez apprécier les défis proposés lors de cet atelier. Si vous n'avez pas fait le lien immédiatement, vous pourriez y faire une découverte utile voire salutaire.</p>
+#          <p>Le propos de cet atelier est d'explorer ce qui rend les systèmes si difficiles à gouverner, qu'il s'agisse de lignes de code ou de populations exposées à une pandémie, mais aussi de montrer en quoi certaines \"lois\" se retrouvent indépendamment des domaines et nous fournissent des outils et des réflexes à cultiver.</p>
+#          <p></p>
+#          <p><strong>Matériel nécessaire</strong>: les participants doivent avoir un laptop pour 3.</p>"
+#      type: "workshop"
+#      salle: "Autrans 2"
+#      date: "14h15 à 16h00"
+#      roti: "https://roti.express/r/alp-13"
+#      categories:
+#        - "Workshop"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "michelleavomo"
+#        - speaker:
+#          speakerid: "christophethibaut"
+#
+#    - name: "Testez vos compétences de refactoring sur la machine d'entrainement TCR !"
+#      id: "tcr"
+#      style: "grid-row: span 2;"
+#      description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?
+#                    <br/>
+#                    Le design incrémental consiste à arrêter de penser au design comme gravé dans le marbre, mais comme une infinité de petits pas. Maitriser les petit pas est un pré-requis pour le design incrémental. Mais comment enseigner les petits pas à vos collègues expérimentés qui se \"débrouillent\" pour résoudre un kata en une poignée de grands pas?
+#                    <br/>
+#                     TCR (test && commit || revert) est une machine d'entrainement au petits pas à ajouter à vos katas! En plus d'enseigner les petits pas, cet outil:
+#                    <br/>
+#                    <ul>
+#                       <li>est un coach qui rappel aux participants de prendre des petits pas</li>
+#                       <li>est moins énervant qu'un coach humain 😉 parce que ce n'est qu'un script!</li>
+#                       <li>est plus \"vendable\" que les katas de TDD, parce que ce n'est qu'un outil d'entrainement!</li>
+#                       <li>est amusant grâce à sa touche de gamification</li>
+#                       <li>impacte directement votre programmation quotidienne, même dans le code legacy, en enseignant la taille du pas qu'on est capable de faire sans erreur!</li>
+#                       <li>fonctionne parfaitement à distance</li>
+#                     </ul>
+#                     <br/>
+#                     Rejoignez cette session, découvrez TCR, pour enseigner le design incrémental à votre équipe MAINTENANT!"
+#      short_description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?"
+#      type: "workshop"
+#      salle: "Autrans 1"
+#      roti: "https://roti.express/r/alp-12"
+#      date: "14h15 à 16h00"
+#      categories:
+#        - "Workshop"
+#      #        - "💡 Discovery"
+#      #        - "Beginner"
+#      #      date: "Mardi 08 Juin - 13h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "philippebourgau"
+#        - speaker:
+#          speakerid: "mirnamahfoud"
+#
+#    - name: "Charge mentale: l'ingrédient oublié pour la performance et le bien-être des équipes"
+#      id: "chargementale"
+#      short_description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
+#           <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>"
+#      description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
+#        <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>
+#
+#        <p>Quel est le lien entre charge mental et structuration des équipes ?</p>
+#        <p>En quoi celle-ci peut avoir un impact sur la performance ?</p>
+#        <p>Nous l'explorerons au travers de la découverte de grands noms comme Felienne Hermans, J. Sweller, Yerkes & Dodson, et de références comme le livre Teams Topologies.</p>"
+#      type: "talk"
+#      salle: "Villard de Lans 2"
+#      roti: "https://roti.express/r/alp-10"
+#      date: "14h15 à 15h00"
+#      categories:
+#        - "Talk"
+##      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "christophemaldivi"
+#
+#
+#    - name: "Bonnes pratiques ux pour les devs"
+#      id: "bestpracticesux"
+#      short_description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez."
+#      description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez. "
+#      type: "talk"
+#      salle: "Villard de Lans 1"
+#      date: "14h15 à 15h00"
+#      roti: "https://roti.express/r/alp-11"
+#      categories:
+#        - "Talk"
+#        - "UX"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "margauxperrin"
+#
+#
+#    - name: "Rendez vos développeurs autonomes sur la production"
+#      id: "devproduction"
+#      short_description: "<p>Les administrateurs systèmes sont encore traditionnellement les personnes gérant la totalité des applications de l'entreprise en production. Pourtant, et depuis maintenant plusieurs années, une nouvelle tendance apparaît: laisser les développeurs gérer leurs applications en production.</p>"
+#      description: "<p>Les administrateurs systèmes sont encore traditionnellement les personnes gérant la totalité des applications de l'entreprise en production. Pourtant, et depuis maintenant plusieurs années, une nouvelle tendance apparaît: laisser les développeurs gérer leurs applications en production.</p>
+#          <p>J'expliquerai dans ce talk l'intérêt de cette approche et du rôle des administrateurs systèmes et SRE dans la construction de l'abstraction permettant d'atteindre cet objectif, le but n'étant en effet pas de supprimer les administrateurs systèmes mais de travailler en partenariat avec eux.</p>
+#          <p>Je donnerai également des retours d'expérience sur la mise en place de cette approche et des difficultés rencontrées, comme par exemple sur la création d'astreintes dans les équipes de développement</p>"
+#      type: "talk"
+#      salle: "Chamrousse"
+#      date: "15h15 à 16h00"
+#      roti: "https://roti.express/r/alp-15"
+#      categories:
+#        - "Talk"
+#        - "DevOps"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "mcorbin"
+#
+#    - name: "Introduction au T(ype)DD avec F#"
+#      id: "typeDD"
+#      short_description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>"
+#      description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>
+#        <p>Nous vous proposons de partir d’un kata bien connu pour illustrer les différences (implémentations en C# existantes) et dédiaboliser la soi-disant complexité de la programmation fonctionnelle.</p>
+#        <p>Les différences de notation forment le principal obstacle, une fois passée, la programmation fonctionnelle n’est pas plus compliquée. Nous aborderons le langage F# pas à pas en illustrant notamment le système de type (dit de “types algébriques”) pour avoir un design piloté par les types (TypeDD).</p>"
+#      type: "talk"
+#      salle: "Villard de Lans 2"
+#      roti: "https://roti.express/r/alp-16"
+#      date: "15h15 - 16h"
+#      categories:
+#        - "Talk"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "clementbouillier"
+#        - speaker:
+#          speakerid: "florentpellet"
+#
+#
+#    - name: "Stratégie de tests agile"
+#      id: "testagile"
+#      description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
+#      short_description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
+#      type: "talk"
+#      salle: "Villard de Lans 1"
+#      roti: "https://roti.express/r/alp-14"
+#      date: "15h15 à 16h00"
+#      categories:
+#        - "Talk"
+#      #        - "Keynote"
+#      #        - "💡 Discovery"
+#      #      date: "Mardi 08 Juin - 12h"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "nicolasfedou"
+#
+#    - name: "Les classes abstraites c’est fini (et c’est la faute à TDD)"
+#      id: "plusdabstrait"
+#      short_description: "Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me
+#            suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\". "
+#      description: "<p>Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me
+#                                suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\".</p>
+#        <p>En creusant la question, je me rends compte que c'est depuis que j'ai commencé à appliquer le TDD
+#        ( \"Test-Driven Development\" ou développement dirigé par les tests).  Mais quel est le rapport entre les deux ?</p>
+#         <p>C'est ce que je vais tenter d'expliquer via ce talk.</p>"
+#      categories:
+#        - "Talk"
+#      type: "talk"
+#      salle: "Chamrousse"
+#      date: "16h15 à 17h00"
+#      roti: "https://roti.express/r/alp-19"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "dorrabartaguiz"
+#
     - name: "Maîtriser son IDE avec Shortcut Aerobic"
       id: "masteryouride"
+      style: "grid-column: span 2"
       short_description: "<p>Vous avez envie de gagner en efficacité dans votre travail de tous les jours ?
          <p>Vous savez qu'il existe des raccourcis claviers mais vous n'arrivez jamais à les retenir ?"
       description: "<p>Vous avez envie de gagner en efficacité dans votre travail de tous les jours ?
@@ -944,95 +1068,95 @@ params:
       roti: "https://roti.express/r/alp-20"
       categories:
         - "Workshop"
-      #      date: "Mardi 08 Juin - 12h"
+        - "IDE"
       language: "🇫🇷"
       speakers:
         - speaker:
           speakerid: "mathieucans"
-
-    - name: "TDD in real life"
-      id: "tddreallife"
-      short_description: "<p>Tout le monde s’accorde pour dire que le TDD c’est bien, mais peu de personnes le pratiquent au quotidien.</p>
-         <p>Cette pratique semble bien sympa quand on voit une démo sur un petit algo, mais finalement
-         le code de nos projets ne ressemble pas trop à ça.</p>"
-      description: "<p>Tout le monde s’accorde pour dire que le TDD c’est bien, mais peu de personnes le pratiquent au quotidien.</p>
-             <p>Cette pratique semble bien sympa quand on voit une démo sur un petit algo, mais finalement
-             le code de nos projets ne ressemble pas trop à ça. Notre quotidien est plutôt rempli de contrôleurs,
-             bases de données, classes de service et divers dépendances difficiles à tester.</p>
-
-             <p>Nous vous proposons de montrer comment nous travaillons avec des tests en TDD
-             pour construire une petite application REST connectée avec une base de données.</p>
-
-             <p>Nous discuterons aussi de ce que nous considérons être un test utile et comment cela change avec l’âge du projet.</p>"
-      salle: "Autrans 1"
-      date: "16h15 à 17h00"
-      roti: "https://roti.express/r/alp-21"
-      type: "talk"
-      categories:
-        - "Talk"
-        - "TDD"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "xaviernopre"
-        - speaker:
-          speakerid: "johanmartinsson"
-
-    - name: "Le TDD sans commencer par les tests"
-      id: "tdd"
-      short_description: "<p>On retient principalement du TDD l'écriture des tests avant le code. On entend aussi dire qu'il est plus efficace. Mais par rapport à quoi ?</p>"
-      description: "<p>On retient principalement du TDD l'écriture des tests avant le code. On entend aussi dire qu'il est plus efficace. Mais par rapport à quoi ?</p>
-        <p>Dans un épisode précédent, \"Artisanat logiciel, un regard zététique\", on avait commencé à confronter nos croyances concernant les bonnes pratiques avec un état de l'art de la recherche scientifique. A cette occasion, on avait fait la connaissance d'ITL (Iterative Test Last) qui semble présenter des résultats similaires.</p>
-        <p>Comment est-il possible d'être aussi efficace que le TDD sans changer sa caractéristique principale ? Et si le secret de l'efficacité était ailleurs ?</p>
-        <p>Dans cette conférence on va:
-          <ul>
-             <li>Décomposer les pratiques du TDD (et revenir sur les problèmes qu'elles résolvent)</li>
-             <li>Creuser l'état de l'art du sujet ITL versus TDD</li>
-             <li>Essayer d'en tirer des conséquences sur l'apprentissage du TDD</li>
-          </ul>
-          </p>
-        <p>Plutôt qu'un débat de spécialistes sur un sujet pointu, l'idée est plutôt d'utiliser ce cas concret pour entraîner notre vigilance intellectuelle et notre esprit critique. Et en dessins s'il vous plaît !</p>"
-      type: "talk"
-      salle: "Villard de Lans 2"
-      date: "16h15 à 17h00"
-      roti: "https://roti.express/r/alp-17"
-      categories:
-          - "Talk"
-          - "TDD"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "victorlambret"
-
-
-    - name: "Back To Basics : SRP"
-      id: "srp"
-      short_description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
-      description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
-      type: "talk"
-      salle: "Villard de Lans 1"
-      date: "16h15 à 17h00"
-      roti: "https://roti.express/r/alp-18"
-      categories:
-        - "Talk"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "michelleavomo"
-        - speaker:
-          speakerid: "christophethibaut"
-
-
-    - name: "Fin de la première journée"
-      id: "cheers"
-      style: "grid-column: 1 / -1;"
-      short_description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
-      description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
-      type: "closed"
-      categories:
-        - "👋"
-        - "🍻"
-      date: "Jeudi 09 Juin - 18h"
-      speakers:
-        - speaker:
-          speakerid: "orga"
+#
+#    - name: "TDD in real life"
+#      id: "tddreallife"
+#      short_description: "<p>Tout le monde s’accorde pour dire que le TDD c’est bien, mais peu de personnes le pratiquent au quotidien.</p>
+#         <p>Cette pratique semble bien sympa quand on voit une démo sur un petit algo, mais finalement
+#         le code de nos projets ne ressemble pas trop à ça.</p>"
+#      description: "<p>Tout le monde s’accorde pour dire que le TDD c’est bien, mais peu de personnes le pratiquent au quotidien.</p>
+#             <p>Cette pratique semble bien sympa quand on voit une démo sur un petit algo, mais finalement
+#             le code de nos projets ne ressemble pas trop à ça. Notre quotidien est plutôt rempli de contrôleurs,
+#             bases de données, classes de service et divers dépendances difficiles à tester.</p>
+#
+#             <p>Nous vous proposons de montrer comment nous travaillons avec des tests en TDD
+#             pour construire une petite application REST connectée avec une base de données.</p>
+#
+#             <p>Nous discuterons aussi de ce que nous considérons être un test utile et comment cela change avec l’âge du projet.</p>"
+#      salle: "Autrans 1"
+#      date: "16h15 à 17h00"
+#      roti: "https://roti.express/r/alp-21"
+#      type: "talk"
+#      categories:
+#        - "Talk"
+#        - "TDD"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "xaviernopre"
+#        - speaker:
+#          speakerid: "johanmartinsson"
+#
+#    - name: "Le TDD sans commencer par les tests"
+#      id: "tdd"
+#      short_description: "<p>On retient principalement du TDD l'écriture des tests avant le code. On entend aussi dire qu'il est plus efficace. Mais par rapport à quoi ?</p>"
+#      description: "<p>On retient principalement du TDD l'écriture des tests avant le code. On entend aussi dire qu'il est plus efficace. Mais par rapport à quoi ?</p>
+#        <p>Dans un épisode précédent, \"Artisanat logiciel, un regard zététique\", on avait commencé à confronter nos croyances concernant les bonnes pratiques avec un état de l'art de la recherche scientifique. A cette occasion, on avait fait la connaissance d'ITL (Iterative Test Last) qui semble présenter des résultats similaires.</p>
+#        <p>Comment est-il possible d'être aussi efficace que le TDD sans changer sa caractéristique principale ? Et si le secret de l'efficacité était ailleurs ?</p>
+#        <p>Dans cette conférence on va:
+#          <ul>
+#             <li>Décomposer les pratiques du TDD (et revenir sur les problèmes qu'elles résolvent)</li>
+#             <li>Creuser l'état de l'art du sujet ITL versus TDD</li>
+#             <li>Essayer d'en tirer des conséquences sur l'apprentissage du TDD</li>
+#          </ul>
+#          </p>
+#        <p>Plutôt qu'un débat de spécialistes sur un sujet pointu, l'idée est plutôt d'utiliser ce cas concret pour entraîner notre vigilance intellectuelle et notre esprit critique. Et en dessins s'il vous plaît !</p>"
+#      type: "talk"
+#      salle: "Villard de Lans 2"
+#      date: "16h15 à 17h00"
+#      roti: "https://roti.express/r/alp-17"
+#      categories:
+#          - "Talk"
+#          - "TDD"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "victorlambret"
+#
+#
+#    - name: "Back To Basics : SRP"
+#      id: "srp"
+#      short_description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
+#      description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
+#      type: "talk"
+#      salle: "Villard de Lans 1"
+#      date: "16h15 à 17h00"
+#      roti: "https://roti.express/r/alp-18"
+#      categories:
+#        - "Talk"
+#      language: "🇫🇷"
+#      speakers:
+#        - speaker:
+#          speakerid: "michelleavomo"
+#        - speaker:
+#          speakerid: "christophethibaut"
+#
+#
+#    - name: "Fin de la première journée"
+#      id: "cheers"
+#      style: "grid-column: 1 / -1;"
+#      short_description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
+#      description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
+#      type: "closed"
+#      categories:
+#        - "👋"
+#        - "🍻"
+#      date: "Jeudi 09 Juin - 18h"
+#      speakers:
+#        - speaker:
+#          speakerid: "orga"

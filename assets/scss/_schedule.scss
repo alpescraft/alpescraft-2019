@@ -85,7 +85,7 @@
       display: grid;
        padding: 0px;
        list-style-type: none;
-      grid-template-columns: repeat(5, 20%);
+      grid-template-columns: repeat(4, 25%);
   }
 
   li.schedule-list-article {
@@ -128,7 +128,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     background-color: $gray-100;
-    border-radius: 5%;
+    border-radius: 3%;
     padding: 0 1.125rem 1.125rem;
     height: 100%;
   }
