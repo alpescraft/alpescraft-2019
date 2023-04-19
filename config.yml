@@ -283,6 +283,17 @@ params:
       bio: "Je suis passionné par Java et son éco-système, avec toujours à coeur de développer des applications utiles et fonctionnelles. Je travaille depuis maintenant 10 ans chez Mirakl, en tant qu'Engineering Director. Les sujets autour de l'architecture, la persistence et la communication entre différentes applications me tiennent particulièrement à coeur."
       short_bio: "Lead Developer Java at Mirakl"
 
+    carolinedesplanques:
+      name: "Caroline Desplanques"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: "https://twitter.com/@carolinedpl"
+      text: "@carolinedpl"
+      company: "Agicap"
+      bio: "Happy dev at Agicap"
+      short_bio: "Happy dev at Agicap"
+
+
 #    sarahscarratt:
 #      name: "Sarah Scarratt"
 #      photo: "/img/speakers/sarah_scarratt.jpg"
@@ -441,6 +452,26 @@ params:
 #          <p>Ma manière d'équilibrer les choses est d'aller lire des papiers scientifiques sur les sujets qui me passionnent. J'y trouve souvent des éléments nouveaux et plein de nouvelles questions. Et pour partager tout ça avec une communauté moins habituée à ce genre de publications, je synthétise mes recherches dans des présentations dessinées (en plus on me paye pour ça :p)</p>"
 #      short_bio: "Embedded Software Engineer"
 #
+    jpdenis:
+      name: "DENIS Jean-Philippe"
+      photo: "/img/speakers/jpdenis.jpeg"
+      high_picture:  "/img/speakers/jpdenis.jpeg"
+      href: "https://www.linkedin.com/in/jean-philippe-denis-aa470555/"
+      bio: "<p><Je suis aujourd'hui en charge de l'ensemble des standards et workflows tech en collaboration directe avec le CTO et les différents responsables des équipes.</p>
+            <p>J ai été développeur Android pendant 8 ans, dans plusieurs startups et pour des grands groupes. J'ai rejoint Qonto en tant que 1er dev Android et j'ai vecu cette transformation</p>"
+      company: "Qonto"
+      short_bio: "Senior Staff Tech Operations"
+
+    pascallemerrer:
+      name: "Pascal Le Merrer"
+      photo: "/img/speakers/pascallemerrer.jpeg"
+      high_picture:  "/img/speakers/pascallemerrer.jpeg"
+      href: " https://www.linkedin.com/in/pascal-le-merrer-872a478/"
+      bio: "<p>Développeur de longue date, Pascal a découvert l'eXtreme Programming en 2001.
+               Convaincu par la méthode, il fera sienne ses valeurs et en adoptera les pratiques dans différents contextes.</p>"
+      company: "Alma"
+      short_bio: "Software Crafter"
+
     mathieucans:
       name: "Mathieu Cans"
       photo: "/img/speakers/mathieu_cans.jpeg"
@@ -692,134 +723,6 @@ params:
           speakerid: "manoncarbonnel"
 
 #
-#    - name: "Introduction au Clean Language"
-#      id: "cleanlanguage"
-#      style: "grid-row: span 2;"
-#      salle: "Autrans 2"
-#      date: "10h30 - 12h15"
-#      description: "<p>Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits.</p>
-#
-#                    Les questions Clean ont été affinées au fil de nombreuses années et sont conçues pour permettre au coach d'éviter d'ajouter ses propres présupposés ou jugements, et d'écouter de façon exquise. Enseigner ces questions aux équipes les invite à devenir curieux les uns des autres et à ne plus dépendre du ScrumMaster ou du Coach Agile pour communiquer.
-#                    <br />
-#                    Le Clean Language est simple à comprendre et difficile à maîtriser. Au cours de cette session, nous vous ferons utiliser les questions Clean et vous inviterons à réfléchir à la différence que cela pourrait faire si vous les utilisiez au travail (ou à la maison !).  Il y aura d’autres ateliers vendredi selon la demande.
-#                    <br /><br />
-#
-#                    Si vous souhaitez en savoir plus sur le Clean Language avant la session, ces deux liens vous aideront (en anglais)
-#                    <ul>
-#                      <li><a href=\"https://www.youtube.com/watch?v=aVvcU5gG4KU\">Caitlin Walker Tedx</a></li>
-#                      <li><a href=\"https://www.youtube.com/watch?v=_gSlRqfPT4E\">Qu'est-ce que la modélisation systémique</a></li>
-#                    </ul>"
-#      short_description: "Au cours de cet atelier interactif, nous explorerons le Clean Language et comment il peut être utilisé pour en savoir plus sur vous-même et sur les autres afin de célébrer nos différences au lieu de réagir avec tensions et non-dits."
-#      type: "workshop"
-#      roti: "https://roti.express/r/alp-06"
-#      categories:
-#        - "Workshop"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "sarahscarratt"
-#
-#    - name: "Mob is You"
-#      id: "mobisu"
-#      style: "grid-row: span 2;"
-#      short_description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>"
-#      description: "<p>Vous pratiquez le mob programming ? Vous n'avez aucune idée de ce que c'est ? Venez découvrir le concept et expérimenter une approche par le jeu, qui vous questionnera profondément sur vos interactions avec vos équipiers, et changera la façon dont vous percevez votre façon de travailler.</p>
-#          <p>Que vous développiez ou quotidien ou pas, vous aurez des choses à apprendre sur la dynamique de groupe et comment il est possible de co-créer du logiciel en tant que groupe.</p>"
-#      salle: "Autrans 1"
-#      date: "10h30 - 12h15"
-#      roti: "https://roti.express/r/alp-04"
-#      type: "workshop"
-#      categories:
-#        - "Workshop"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "bastiendavid"
-#        - speaker:
-#          speakerid: "remysanlaville"
-#
-#    - name: "REX 2 ans de TCR"
-#      id: "REXtcr"
-#      short_description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>"
-#      description: "<p>Retour d’expérience sur 2 ans de dev sur du code legacy en utilisant le process « Test && Commit || Revert »</p>
-#        <p>Nous y verrons les avantages et les inconvéniants mais aussi les trucs et astuces à connaitre si vous voulez essayer également.</p>"
-#      type: "talk"
-#      salle: "Villard de Lans 2"
-#      roti: "https://roti.express/r/alp-03"
-#      date: "10h30 - 11h15"
-#      categories:
-#        - "Talk"
-#        - "TCR"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "xavierdetant"
-#
-#    - name: "Experiencing team flow"
-#      id: "teamflow"
-#      style: "grid-row: span 2;"
-#      short_description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>"
-#      description: "<p>Dans cet atelier, vous allez expérimenter et apprendre comment l'organisation d'une équipe influe sur son flux de travail, quelles sont les bonnes pratiques et les pièges à éviter.</p>
-#        <p>Nous ferons des simulations d'organisation d'une équipe pour bien comprendre l'effet que cela a sur son flux total du travail.</p>
-#        <p>Les sujets que nous aborderons :
-#        <ul>
-#            <li>Pourquoi limiter le travail en cours ?</li>
-#            <li>Pourquoi préférons-nous des membres d'équipe en forme de T ?</li>
-#            <li>Pourquoi avons-nous du mal à estimer quand le travail sera fini ?</li>
-#            <li>En quoi la collaboration peut-elle nous aider ?</li>
-#        </ul></p>"
-#      type: "workshop"
-#      salle: "Villard de Lans 1"
-#      date: "10h30 - 12h15"
-#      roti: "https://roti.express/r/alp-05"
-#      categories:
-#        - "Workshop"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "michelgrootjans"
-#
-#
-#    - name: "Ecrire des tests Antifragiles & orientés métier grâce à l'Outside-in Diamond 🔷 TDD"
-#      id: "outsideintdd"
-#      short_description: "<p>Le TDD a changé ma vie. Pour de bon.</p>"
-#      description: "<p>Le TDD a changé ma vie. Pour de bon.</p>
-#       <p>Après avoir commis presque toutes les erreurs possibles lors de ces 15 dernières années à faire du TDD, j’en suis arrivé à pratiquer une forme de TDD qui nous donne, à mes collègues et à moi-même, beaucoup de plaisir et d’efficacité. Une forme particulière de TDD que mon ex-complice Bruno BOUCARD et moi-même avons baptisé Outside-in Diamond 🔷 TDD.</p>
-#       <p>C’est quelque chose qui nous permet d’écrire des tests à la fois orientés métier (ce qui n’est pas pour déplaire au passionné de DDD que je suis) mais aussi « Antifragile ». C’est de cela dont je vais vous parler aujourd’hui.</p>"
-#      type: "talk"
-#      salle: "Chamrousse"
-#      date: "11h30 - 12h15"
-#      roti: "https://roti.express/r/alp-07"
-#      categories:
-#        - "Talk"
-#        - "TDD"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "thomaspierrain"
-#
-#    - name: "Le DDD au quotidien"
-#      id: "ddd"
-#      short_description: "Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence."
-#      description: "<p>Le Domain Driven Design (DDD) a la particularité d’être compliqué à expliquer. Ce sera donc exactement le but de cette conférence.</p>
-#                    <p>On a tendance à penser que le DDD est complexe, mais c’est au final beaucoup de bon sens. C’est la quantité de chose couverte par le DDD qui le rend difficile à appréhender au début.</p>
-#                    <p>Avec des retours d’expériences sur des pratiques concrètes du quotidien, que vous pourrez appliquer dès demain, nous verrons comment rendre votre projet plus centré sur le domaine. Nous verrons également quels principes sont respectés grâce à ces pratiques, et en quoi cela peut être bénéfique pour une équipe, donc pour une entreprise.</p>"
-#      type: "talk"
-#      salle: "Villard de Lans 2"
-#      roti: "https://roti.express/r/alp-08"
-#      date: "11h30 à 12h15"
-#      categories:
-#        - "Talk"
-#        - "DDD"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "emilienpecoul"
-#
 #    - name: "Déjeuner"
 #      id: "dejeuner"
 #      style: "grid-column: 1 / -1;"
@@ -848,204 +751,7 @@ params:
 #        - speaker:
 #          speakerid: "tuleap"
 #
-#    - name: "Architecture Hexagonale : un pattern de gestion de la complexité logicielle et de la dette technique"
-#      id: "architecturehexagonale"
-#      short_description: "<p>Il arrive toujours un moment où, le logiciel est tellement gros et vieux qu’il devient inmaintenable. Impossible de mettre à jour la stack technique sans tout casser, les nouvelles fonctionnalités deviennent de plus en plus longue à implémenter et la dette technique étant tellement lourde que le refactoring devient exorbitant.</p>"
-#      description: "<p>Il arrive toujours un moment où, le logiciel est tellement gros et vieux qu’il devient inmaintenable. Impossible de mettre à jour la stack technique sans tout casser, les nouvelles fonctionnalités deviennent de plus en plus longue à implémenter et la dette technique étant tellement lourde que le refactoring devient exorbitant.</p>
-#          <p>Et si on vous disait que tout ça était plus un problème de pratique qu’un problème de vieillesse du logiciel ?</p>
-#          <p>Venez découvrir par ce retour d’expérience, comment l’Architecture Hexagonale peut tacler la complexité logicielle en vous permettant d’être évolutif et pérenne tout en vous aidant à mieux gérer votre dette technique.</p>"
-#      type: "talk"
-#      salle: "Chamrousse"
-#      date: "14h15 à 15h00"
-#      roti: "https://roti.express/r/alp-09"
-#      categories:
-#        - "Talk"
-#        - "Architecture"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "julientopçu"
-#
-#    - name: "Jeu du frigo"
-#      id: "frigo"
-#      style: "grid-row: span 2;"
-#      short_description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>"
-#      description: "<p>Quel est le point commun entre une base de code entre les mains d'une équipe de dév, une équipe de dév au sein d'une entreprise, un produit vis-à-vis de ses utilisateurs, une entreprise vis-à-vis de son marché ?</p>
-#          <p>Si vous avez répondu du tac au tac \"ce sont des systèmes complexes soumis à des forces nombreuses avec des effets et des temporalités souvent difficiles à analyser\", vous devriez apprécier les défis proposés lors de cet atelier. Si vous n'avez pas fait le lien immédiatement, vous pourriez y faire une découverte utile voire salutaire.</p>
-#          <p>Le propos de cet atelier est d'explorer ce qui rend les systèmes si difficiles à gouverner, qu'il s'agisse de lignes de code ou de populations exposées à une pandémie, mais aussi de montrer en quoi certaines \"lois\" se retrouvent indépendamment des domaines et nous fournissent des outils et des réflexes à cultiver.</p>
-#          <p></p>
-#          <p><strong>Matériel nécessaire</strong>: les participants doivent avoir un laptop pour 3.</p>"
-#      type: "workshop"
-#      salle: "Autrans 2"
-#      date: "14h15 à 16h00"
-#      roti: "https://roti.express/r/alp-13"
-#      categories:
-#        - "Workshop"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "michelleavomo"
-#        - speaker:
-#          speakerid: "christophethibaut"
-#
-#    - name: "Testez vos compétences de refactoring sur la machine d'entrainement TCR !"
-#      id: "tcr"
-#      style: "grid-row: span 2;"
-#      description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?
-#                    <br/>
-#                    Le design incrémental consiste à arrêter de penser au design comme gravé dans le marbre, mais comme une infinité de petits pas. Maitriser les petit pas est un pré-requis pour le design incrémental. Mais comment enseigner les petits pas à vos collègues expérimentés qui se \"débrouillent\" pour résoudre un kata en une poignée de grands pas?
-#                    <br/>
-#                     TCR (test && commit || revert) est une machine d'entrainement au petits pas à ajouter à vos katas! En plus d'enseigner les petits pas, cet outil:
-#                    <br/>
-#                    <ul>
-#                       <li>est un coach qui rappel aux participants de prendre des petits pas</li>
-#                       <li>est moins énervant qu'un coach humain 😉 parce que ce n'est qu'un script!</li>
-#                       <li>est plus \"vendable\" que les katas de TDD, parce que ce n'est qu'un outil d'entrainement!</li>
-#                       <li>est amusant grâce à sa touche de gamification</li>
-#                       <li>impacte directement votre programmation quotidienne, même dans le code legacy, en enseignant la taille du pas qu'on est capable de faire sans erreur!</li>
-#                       <li>fonctionne parfaitement à distance</li>
-#                     </ul>
-#                     <br/>
-#                     Rejoignez cette session, découvrez TCR, pour enseigner le design incrémental à votre équipe MAINTENANT!"
-#      short_description: "Que faites vous si votre entrainement devient trop facile? Ajoutez des poids! Peut-on faire cela avec des code katas?"
-#      type: "workshop"
-#      salle: "Autrans 1"
-#      roti: "https://roti.express/r/alp-12"
-#      date: "14h15 à 16h00"
-#      categories:
-#        - "Workshop"
-#      #        - "💡 Discovery"
-#      #        - "Beginner"
-#      #      date: "Mardi 08 Juin - 13h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "philippebourgau"
-#        - speaker:
-#          speakerid: "mirnamahfoud"
-#
-#    - name: "Charge mentale: l'ingrédient oublié pour la performance et le bien-être des équipes"
-#      id: "chargementale"
-#      short_description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
-#           <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>"
-#      description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.</p>
-#        <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>
-#
-#        <p>Quel est le lien entre charge mental et structuration des équipes ?</p>
-#        <p>En quoi celle-ci peut avoir un impact sur la performance ?</p>
-#        <p>Nous l'explorerons au travers de la découverte de grands noms comme Felienne Hermans, J. Sweller, Yerkes & Dodson, et de références comme le livre Teams Topologies.</p>"
-#      type: "talk"
-#      salle: "Villard de Lans 2"
-#      roti: "https://roti.express/r/alp-10"
-#      date: "14h15 à 15h00"
-#      categories:
-#        - "Talk"
-##      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "christophemaldivi"
-#
-#
-#    - name: "Bonnes pratiques ux pour les devs"
-#      id: "bestpracticesux"
-#      short_description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez."
-#      description: "Vous avez envie de développer des IHM de bonne qualité ? Utilisables ? Intuitives ? Venez découvrir quelques recommandations basiques pour améliorer l'ergonomie de ce que vous produisez. "
-#      type: "talk"
-#      salle: "Villard de Lans 1"
-#      date: "14h15 à 15h00"
-#      roti: "https://roti.express/r/alp-11"
-#      categories:
-#        - "Talk"
-#        - "UX"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "margauxperrin"
-#
-#
-#    - name: "Rendez vos développeurs autonomes sur la production"
-#      id: "devproduction"
-#      short_description: "<p>Les administrateurs systèmes sont encore traditionnellement les personnes gérant la totalité des applications de l'entreprise en production. Pourtant, et depuis maintenant plusieurs années, une nouvelle tendance apparaît: laisser les développeurs gérer leurs applications en production.</p>"
-#      description: "<p>Les administrateurs systèmes sont encore traditionnellement les personnes gérant la totalité des applications de l'entreprise en production. Pourtant, et depuis maintenant plusieurs années, une nouvelle tendance apparaît: laisser les développeurs gérer leurs applications en production.</p>
-#          <p>J'expliquerai dans ce talk l'intérêt de cette approche et du rôle des administrateurs systèmes et SRE dans la construction de l'abstraction permettant d'atteindre cet objectif, le but n'étant en effet pas de supprimer les administrateurs systèmes mais de travailler en partenariat avec eux.</p>
-#          <p>Je donnerai également des retours d'expérience sur la mise en place de cette approche et des difficultés rencontrées, comme par exemple sur la création d'astreintes dans les équipes de développement</p>"
-#      type: "talk"
-#      salle: "Chamrousse"
-#      date: "15h15 à 16h00"
-#      roti: "https://roti.express/r/alp-15"
-#      categories:
-#        - "Talk"
-#        - "DevOps"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "mcorbin"
-#
-#    - name: "Introduction au T(ype)DD avec F#"
-#      id: "typeDD"
-#      short_description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>"
-#      description: "<p>La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?</p>
-#        <p>Nous vous proposons de partir d’un kata bien connu pour illustrer les différences (implémentations en C# existantes) et dédiaboliser la soi-disant complexité de la programmation fonctionnelle.</p>
-#        <p>Les différences de notation forment le principal obstacle, une fois passée, la programmation fonctionnelle n’est pas plus compliquée. Nous aborderons le langage F# pas à pas en illustrant notamment le système de type (dit de “types algébriques”) pour avoir un design piloté par les types (TypeDD).</p>"
-#      type: "talk"
-#      salle: "Villard de Lans 2"
-#      roti: "https://roti.express/r/alp-16"
-#      date: "15h15 - 16h"
-#      categories:
-#        - "Talk"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "clementbouillier"
-#        - speaker:
-#          speakerid: "florentpellet"
-#
-#
-#    - name: "Stratégie de tests agile"
-#      id: "testagile"
-#      description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
-#      short_description: "Tout travail que l'on termine est vérifié au moins manuellement en local dans son coin, mais cette pratique ne résiste pas dans le temps. Voyons pourquoi et comment lutter contre l'apparition des régressions qui fragilisent notre système, ralentissent notre productivité et mettent à mal la maintenabilité de nos logiciels."
-#      type: "talk"
-#      salle: "Villard de Lans 1"
-#      roti: "https://roti.express/r/alp-14"
-#      date: "15h15 à 16h00"
-#      categories:
-#        - "Talk"
-#      #        - "Keynote"
-#      #        - "💡 Discovery"
-#      #      date: "Mardi 08 Juin - 12h"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "nicolasfedou"
-#
-#    - name: "Les classes abstraites c’est fini (et c’est la faute à TDD)"
-#      id: "plusdabstrait"
-#      short_description: "Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me
-#            suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\". "
-#      description: "<p>Depuis des années, j'ai constaté que je n'écris plus de classes abstraites dans mon code et je me
-#                                suis donc posé la question \"Pourquoi je n'ai plus de classes abstraites dans mon code ?\".</p>
-#        <p>En creusant la question, je me rends compte que c'est depuis que j'ai commencé à appliquer le TDD
-#        ( \"Test-Driven Development\" ou développement dirigé par les tests).  Mais quel est le rapport entre les deux ?</p>
-#         <p>C'est ce que je vais tenter d'expliquer via ce talk.</p>"
-#      categories:
-#        - "Talk"
-#      type: "talk"
-#      salle: "Chamrousse"
-#      date: "16h15 à 17h00"
-#      roti: "https://roti.express/r/alp-19"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "dorrabartaguiz"
-#
+
     - name: "Maîtriser son IDE avec Shortcut Aerobic"
       id: "masteryouride"
       style: "grid-column: span 2"
@@ -1073,6 +779,64 @@ params:
       speakers:
         - speaker:
           speakerid: "mathieucans"
+
+    - name: "De code legacy à l'archi hexagonale - immersion dans l'univers du mob programming"
+      id: "legacytohexa"
+      style: "grid-column: span 2"
+      short_description: "<p>Le code legacy, souvent complexe et rigide, n'a pas forcément besoin d'être transformé, surtout s'il fonctionne correctement. Mais comment aborder l'intégration de nouvelles fonctionnalités ? Devons-nous bricoler rapidement et intégrer les nouveautés sans accorder d'attention à ce vieux code ou plutôt lui offrir une cure de jouvence bien méritée ?</p>"
+      description: "<p>Le code legacy, souvent complexe et rigide, n'a pas forcément besoin d'être transformé, surtout s'il fonctionne correctement. Mais comment aborder l'intégration de nouvelles fonctionnalités ? Devons-nous bricoler rapidement et intégrer les nouveautés sans accorder d'attention à ce vieux code ou plutôt lui offrir une cure de jouvence bien méritée ?</p>
+            <p>Plongez dans cette session de live coding où nous partagerons trucs et astuces pour repenser un code legacy en en une base de code modulable et évolutive. Avec l'architecture hexagonale comme guide, nous vous montrerons les bénéfices de cette approche à chaque étape du processus.</p>
+            <p>Et embarquez avec nous pour découvrir notre façon préférée de coder en exploitant la puissance du mob programming et d'autres outils et techniques qui rendront ce live-coding mémorable.</p>
+        "
+      type: "talk"
+      salle: "Autrans 2"
+      date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-20"
+      categories:
+        - "Talk"
+        - "Legacy"
+        - "Mob"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "carolinedesplanques"
+
+    - name: "L'amelioration continue au coeur du Qonto Way"
+      id: "qontoway"
+      style: "grid-column: span 2"
+      description: "<p>Comment notre culture de problem solving nous permet de continuer a shipper aussi vite (et mieux) qu'une startup.</p>"
+      short_description: "<p>Comment notre culture de problem solving nous permet de continuer a shipper aussi vite (et mieux) qu'une startup.</p>"
+      type: "talk"
+      salle: "Autrans 2"
+      date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-20"
+      categories:
+        - "Talk"
+        - "Startup"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "jpdenis"
+
+    - name: "eXtreme Programming : LA méthode Agile ?"
+      id: "eXtreme"
+      style: "grid-column: span 2"
+      description: "<p>Moins populaire que Kanban et Scrum de nos jours, cette méthode mériterait pourtant d'être connue par tous les développeurs.</p>
+         En effet, l'eXtreme Programming, qui est l'une des sources d'inspiration du Manifeste Agile, a popularisé de nombreuses pratiques incontournables de notre métier. Nous verrons lesquelles, ainsi que des idées qui pourraient, aujourd'hui encore, vous aider à rendre vos équipes plus efficaces. Ce sera aussi l'occasion de découvrir comment cette méthode a évolué, après son succès initial.
+      </p>"
+      short_description: "<p>Moins populaire que Kanban et Scrum de nos jours, cette méthode mériterait pourtant d'être connue par tous les développeurs.</p>"
+      type: "talk"
+      salle: "Autrans 2"
+      date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-20"
+      categories:
+        - "Talk"
+        - "eXtreme Programming"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "pascallemerrer"
+
 #
 #    - name: "TDD in real life"
 #      id: "tddreallife"
