@@ -293,6 +293,15 @@ params:
       bio: "Happy dev at Agicap"
       short_bio: "Happy dev at Agicap"
 
+    arnaudthiefaine:
+      name: "Arnaud Thiéfaine"
+      photo: "/img/speakers/arnaud_thiefaine.jpeg"
+      high_picture: "/img/speakers/arnaud_thiefaine.jpeg"
+      href: "https://www.linkedin.com/in/arnaudthiefaine/"
+      text: "@ArnaudThiefaine"
+      company: "Arolla"
+      bio: "Arnaud est développeur, coach craft et formateur chez Arolla. Passionné par la transmission des bonnes pratiques, il est également co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\" aux éditions Dunod et anime régulièrement des meetups et BBL autour du Craft."
+      short_bio: "Coach Craft @Arolla, co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\""
 
 #    sarahscarratt:
 #      name: "Sarah Scarratt"
@@ -518,21 +527,16 @@ params:
 #            <p>Depuis 2015, je tiens également un blog sur l'ux et l'agilité que j'alimente de manière très irrégulière : <a href=\"http://www.margaux-perrin.com/category/ergonomie/\" aria-label=\"Blog Margaux Perrin\">http://www.margaux-perrin.com/category/ergonomie/</a></p> "
 #      short_bio: "UX-research consultant | UX-design | Proxy Product Owner"
 #
-#    dorrabartaguiz:
-#      name: "Dorra Bartaguiz"
-#      photo: "/img/speakers/dorrabartaguiz.jpg"
-#      href: "https://twitter.com/DorraBartaguiz"
-#      text: "@DorraBartaguiz"
-#      company: "Arolla"
-#      bio: "<p>Développeuse depuis 2008, coach technique et formatrice et co-auteure du livre \"Software Craft\" éditions
-#      Dunod. Passionnée par le développement et les bonnes pratiques, je partage mon savoir-faire en publiant
-#      des articles et en animant des conférences et des meetups. J'ai aussi enseigné dans une école d'ingénieurs à
-#      Paris pendant des années. Au fil de mon expérience, j'ai acquis des valeurs autour du craft et de l’agilité
-#      que j'adore partager en accompagnant des clients à travers du coaching ou des formations pour aider les équipes
-#      à mieux apporter de la valeur.</p>"
-#      high_picture: "/img/speakers/high_dorra.jpg"
-#      short_bio: "Technical coach @Arolla, speaker, co-auteure livre \"Software Craft\" chez Dunod"
-#
+    dorrabartaguiz:
+      name: "Dorra Bartaguiz"
+      photo: "/img/speakers/dorrabartaguiz.jpg"
+      href: "https://twitter.com/DorraBartaguiz"
+      text: "@DorraBartaguiz"
+      company: "Arolla"
+      bio: "<p>Dorra est VP Tech chez Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez! (245 Janvier 2022). Elle est passionnée par le développement et les bonnes pratiques. Elle partage son savoir-faire en publiant des articles et en animant des conférences et meetups. Elle a aussi enseigné dans une école d'ingénieurs à Paris pendant des années.</p>"
+      high_picture: "/img/speakers/high_dorra.jpg"
+      short_bio: "VP Tech @Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez!"
+
 #    emilienpecoul:
 #      name: "Emilien Pecoul"
 #      photo: "/img/speakers/emilienpecoul.jpg"
@@ -722,6 +726,27 @@ params:
         - speaker:
           speakerid: "manoncarbonnel"
 
+    - name: "Rendons le DDD aux devs !"
+      id: "ddddev"
+      style: "grid-column: span 2"
+      short_description: "<p>Bien qu’étant proche de souffler ses 20 bougies, et malgré de nombreuses tentatives de vulgarisation, Domain-Driven Design (DDD) reste un sujet sur lequel il est difficile de se sentir à l'aise quand on est développeur ou développeuse, et qui semble trop souvent réservé à une élite d'architectes et aux cercles de pouvoir d'une direction informatique. Pourtant, c'est bien dans le rapport direct au code que DDD prend tout son sens !</p>"
+      description: "<p>
+        Bien qu’étant proche de souffler ses 20 bougies, et malgré de nombreuses tentatives de vulgarisation, Domain-Driven Design (DDD) reste un sujet sur lequel il est difficile de se sentir à l'aise quand on est développeur ou développeuse, et qui semble trop souvent réservé à une élite d'architectes et aux cercles de pouvoir d'une direction informatique. Pourtant, c'est bien dans le rapport direct au code que DDD prend tout son sens !</p>
+        <p>Dans cette université, nous proposons quelques pratiques précises de code pour vous aider à exprimer davantage de couleur métier dans votre code. Pas à pas, à partir d'une base de code existante et concrète, vous découvrirez comment une série de refactorings simples permet de faire émerger le raisonnement métier au cœur de DDD, et vous serez surpris de pouvoir dire que vous avez enfin vraiment compris et pratiqué DDD !
+      </p>"
+      type: "workshop"
+      salle: "Chamrousse"
+      date: "11h30 - 12h15"
+      roti: ""
+      categories:
+        - "Workshop"
+        - "DDD"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "dorrabartaguiz"
+        - speaker:
+          speakerid: "arnaudthiefaine"
 #
 #    - name: "Déjeuner"
 #      id: "dejeuner"
