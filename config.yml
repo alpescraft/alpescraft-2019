@@ -303,6 +303,18 @@ params:
       bio: "Arnaud est développeur, coach craft et formateur chez Arolla. Passionné par la transmission des bonnes pratiques, il est également co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\" aux éditions Dunod et anime régulièrement des meetups et BBL autour du Craft."
       short_bio: "Coach Craft @Arolla, co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\""
 
+    arnaudlanglade:
+      name: "Arnaud Langlade"
+      photo: "/img/speakers/arnaudlanglade.webp"
+      high_picture: "/img/speakers/arnaudlanglade.webp"
+      href: "https://www.linkedin.com/in/arnolanglade/"
+      text: "@arnolanglade"
+      company: ""
+      bio: "Je suis ingénieur logiciel en freelance. Je suis un grand fan d'ateliers comme l’event storming ou l’example mapping car comprendre le problème que j'essaie de résoudre est essentiel pour moi. J'aime tout ce qui se termine par *DD (DDD, BDD et TDD), ces outils et toutes les valeurs d'eXtreme Programming m'aident à développer des applications depuis pas mal d’années."
+      short_bio: "👨‍💻 Software engineer | ⚒️ Architect | 🎓 Technical coach | 🏡 Freelancer"
+
+
+
 #    sarahscarratt:
 #      name: "Sarah Scarratt"
 #      photo: "/img/speakers/sarah_scarratt.jpg"
@@ -747,6 +759,25 @@ params:
           speakerid: "dorrabartaguiz"
         - speaker:
           speakerid: "arnaudthiefaine"
+
+    - name: "Tests unitaires: essentiels et compliqués à la fois."
+      id: "testu"
+      style: "grid-column: span 2"
+      short_description: "<p>Je me souviens lorsque j’ai commencé à développer que je pouvais coder pendant des heures sans exécuter mon code. La suite était moins marrante, je passais des heures à le débugger.</p>"
+      description: "<p>
+        Je me souviens lorsque j’ai commencé à développer que je pouvais coder pendant des heures sans exécuter mon code. La suite était moins marrante, je passais des heures à le débugger. J’ai découvert les tests par la suite et j’ai rapidement compris les avantages qu’ils apportaient. Cependant, ça n’a pas été facile d’écrire mes premiers tests. On peut commettre beaucoup d'erreurs qui rendent difficile à écrire et à maintenir. Je souhaite vous présenter ce que j’ai appris durant ces dernières années afin de faciliter l’écriture de vos tests.
+      </p>"
+      type: "talk"
+      salle: "Chamrousse"
+      date: "11h30 - 12h15"
+      roti: ""
+      categories:
+        - "Talk"
+        - "Test"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "arnaudlanglade"
 #
 #    - name: "Déjeuner"
 #      id: "dejeuner"
