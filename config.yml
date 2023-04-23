@@ -395,15 +395,21 @@ params:
 #      high_picture: "/img/speakers/high_thomaspierrain.jpg"
 #      short_bio: "VP of Engineering & Symmathecist @Agicap"
 #
-#    christophethibaut:
-#      name: "Christophe Thibaut"
-#      photo: "/img/speakers/christophe_thibaut.jpg"
-#      high_picture: "/img/speakers/high_christophe_thibaut.jpg"
-#      href: "http://twitter.com/ToF_"
-#      text: "@ToF_"
-#      company: "CodeWorks"
-#      bio: "Christophe développe et aide à développer du logiciel depuis plus de 30 ans. Il s’intéresse à tout ce qui favorise la création de résultats remarquables dans ce domaine : pratiques techniques, choix d’organisation, communication, relations en équipe. Chemin faisant, il aborde, acquiert et transmet, toujours avec curiosité et enthousiasme, des trésors aussi divers et variés que la Programmation Fonctionnelle, la Revue de Code, la Facilitation, la Modélisation Systémique, les Protocoles de Communication, le Coaching, l'eXtreme Programming.."
-#      short_bio: "Technical Advisor at CodeWorks"
+    christophethibaut:
+      name: "Christophe Thibaut"
+      photo: "/img/speakers/christophe_thibaut.png"
+      high_picture: "/img/speakers/high_christophe_thibaut.png"
+      href: "https://www.linkedin.com/in/christophe-thibaut-35b4657/"
+      text: "@ToF_"
+      company: "CodeWorks"
+      bio: "<p>Christophe Thibaut travaille en tant que consultant depuis 2005. Il a 32 ans d'expérience dans le développement, la gestion de projet, la direction de projet, ainsi que le conseil auprès de grandes entreprises. Il pratique et enseigne les méthodes agiles depuis 2001, aidant les développeurs, les leaders techniques ainsi que les managers à comprendre et adoptes ces méthodes.</p>
+
+            <p>Christophe est intéressé par tout ce qui permet à une équipe de résoudre des problèmes complexes ensemble à l'aide de la technologie, que ce soit sur le plan des techniques (TDD, refactoring, programmation fonctionnelle) ou des relations. Il a à cœur d'aider les équipes à puiser dans leur propre génie collectif, et les managers à créer les conditions de l'amélioration continue.</p>
+
+            <p>Son expertise repose sur un processus d'apprentissage en continu des modèles et des outils : XP, Scrum, Lean, méthodes de coaching et outils de création de vision partagée. C'est un excellent communiquant à l'oral comme à l'écrit. C'est un facilitateur et un coach, ainsi qu'un observateur attentif, qui pratique l'écoute active.</p>
+
+            <p>Christophe contribue à répandre les pratiques TDD et XP, le développement en agile, le coaching et le leadership. Il facilite, enseigne, conseille, et se nourrit de tout ce qui aide les équipes à créer et maintenir du code vivant.</p>"
+      short_bio: "Technical Advisor at CodeWorks | Coach Tech | Facilitateur | Auteur"
 #
 #    julientopçu:
 #      name: "Julien Topçu"
@@ -949,22 +955,27 @@ params:
 #          speakerid: "victorlambret"
 #
 #
-#    - name: "Back To Basics : SRP"
-#      id: "srp"
-#      short_description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
-#      description: "On dit que pour être un·e professionel·le du code il faut respecter le Single Responsibility Principle. Comme d’habitude, les exemples et les tutoriels sont simples, et la vie réelle est compliquée. Avec cette session nous montrerons en live coding, comment mettre en œuvre ce principe de responsabilité unique et les possibilités qu’il ouvre au quotidien."
-#      type: "talk"
-#      salle: "Villard de Lans 1"
-#      date: "16h15 à 17h00"
-#      roti: "https://roti.express/r/alp-18"
-#      categories:
-#        - "Talk"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "michelleavomo"
-#        - speaker:
-#          speakerid: "christophethibaut"
+    - name: "L'Escape Game du Legacy. Patterns et Stratégies pour maintenir l'existant."
+      id: "escapegame"
+      style: "grid-column: span 2"
+      short_description: "<p>\"Merci d'avoir pu venir si vite, c'est un peu le feu en ce moment. On a pas mal de problèmes de régression. Ah oui, les tests, On y a pensé un moment, mais avec le départ du tech lead, on a mis le sujet en stand by. Heureusement on arrive à déployer assez vite, c'est presse bouton. Ça au moins ça marche. Bon eh bien tu sais tout: y a plus qu'à ! Faut que je te laisse: j'ai un comité de pilotage.\"</p>"
+      description: "<p>\"Merci d'avoir pu venir si vite, c'est un peu le feu en ce moment. On a pas mal de problèmes de régression. Ah oui, les tests, On y a pensé un moment, mais avec le départ du tech lead, on a mis le sujet en stand by. Heureusement on arrive à déployer assez vite, c'est presse bouton. Ça au moins ça marche. Bon eh bien tu sais tout: y a plus qu'à ! Faut que je te laisse: j'ai un comité de pilotage.\"</p>
+
+        <p>Nous sommes prêts pour le challenge, et la porte va se refermer. Stop ! Est-que nous avons les bonnes techniques ? TDD ? hmmm… DDD ? Si on pouvait… Hexagonal Architecture ? Un jour, peut-être.</p>
+
+        <p>Venez aiguiser votre kid de survie en Legacy.</p>
+      "
+      type: "workshop"
+      salle: "Villard de Lans 1"
+      date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-18"
+      categories:
+        - "Workshop"
+        - "Legacy"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "christophethibaut"
 #
 #
 #    - name: "Fin de la première journée"
