@@ -237,11 +237,33 @@ params:
       photo: "/img/speakers/manon_carbonnel.jpg"
       high_picture: "/img/speakers/manon_carbonnel.jpg"
       text: "@manoncarbonnel_"
-      href: "https://twitter.com/manoncarbonnel_"
-      bio: "Développeuse web (PHP, Python, JS), experte en intégration web et Scrum Master.
-            Je suis passionnée par le HTML/CSS et j'ai créé @Csscade, une communauté française sur l'intégration web.
-            J'aime apprendre le software craft et les tests, et je crois énormément aux cultures Agile et DevOps."
+      href: "https://www.linkedin.com/in/manon-carbonnel/"
+      bio: "<p>Je suis développeuse web (PHP, Python, JS), experte en intégration web et Scrum Master.</p>
+            <p>Je suis passionnée par le HTML/CSS et j'ai créé @Csscade, une communauté française sur l'intégration web.</p>"
       short_bio: "Développeuse web (PHP, Python, JS), experte en intégration web et Scrum Master"
+
+    thomascarpaye:
+      name: "Thomas Carpaye"
+      photo: "/img/speakers/thomas_carpaye.jpeg"
+      high_picture: "/img/speakers/thomas_carpaye.jpeg"
+      text: "@tarcay"
+      href: "https://www.linkedin.com/in/thomascarpaye/"
+      bio: "<p>Développeur, coach craft et cofondateur de @Shodo_Nantes.</p>
+            <p>Je suis passionné par les bonnes pratiques de développement et ce qui touche à l'eXtreme Programming comme le pair/mob programming, TDD, BDD, DDD, etc.</p>
+            <p>Cofondateur du meetup @MobProgFr.</p>"
+      company: "Shodo"
+      short_bio: "Développeur | Cofondateur @Shodo Nantes"
+
+    hadrienmenspellen:
+      name: "Hadrien MENS-PELLEN"
+      photo: "/img/speakers/Hadrien_MENS-PELLEN.png"
+      high_picture: "/img/speakers/Hadrien_MENS-PELLEN.png"
+      text: "@HadrienMP"
+      href: "https://twitter.com/@HadrienMP"
+      bio: "<p>Développeur freelance full-stack et amoureux du craft. J'aime notamment tout ce qui touche au travail à plusieurs. En particulier, le développement en équipe (alias Mob Programming). J'en ai notamment fait à temps plein pendant deux ans dans une équipe avec Thomas Carpaye. Ça m'a appris beaucoup de choses sur cette pratique que j'aime partager.</p>
+            <p>Je suis aussi fan de programmation fonctionnelle avec Elm et de NoEstimates 😇.</p>
+            <p>Avec Thomas, on anime une fois par mois, le meetup \"Mob Programming Francophone\", si vous voulez nous retrouver. Et sur Nantes, je suis souvent aux meetups Software Crafters et Human Talks.</p>"
+      short_bio: "Développeur freelance full-stack et amoureux du craft"
 
     nicolassavois:
       name: "Nicolas Savois"
@@ -744,6 +766,28 @@ params:
         - speaker:
           speakerid: "manoncarbonnel"
 
+    - name: "Always-Green Refactoring : Retravailler sa codebase en douceur et sans stress"
+      id: "alwaysgreen"
+      style: "grid-column: span 2"
+      short_description: "<p>Est-ce que toi aussi dans ta codebase tu as des morceaux de code qui te donnent des sueurs froides ? Des territoires anxiogènes que tu fuis comme la peste et que personne n'ose toucher ?
+         D'habitude, le refactoring c’est des semaines de frustration et de souffrance, avec la CI en PLS et des bugs en abondance.</p>"
+      description: "<p>Est-ce que toi aussi dans ta codebase tu as des morceaux de code qui te donnent des sueurs froides ? Des territoires anxiogènes que tu fuis comme la peste et que personne n'ose toucher ?
+                       D'habitude, le refactoring c’est des semaines de frustration et de souffrance, avec la CI en PLS et des bugs en abondance.</p>
+          <p>De toutes façons, personne ne t'accorde du temps pour retravailler ce code qui a l'air de fonctionner en production.</p>
+          <p>Viens coder avec nous pour apprendre des techniques simples comme la méthode mikado, les baby step, etc. tout en restant toujours au  vert.
+            Découvre nos outils pour te ré approprier l'enfer de ton legacy en un minimum de temps et en faire un terrain de jeu où tu pourras refactorer avec confiance.</p>"
+      type: "talk"
+      salle: "Chamrousse"
+      date: "10h30 - 11h15"
+      roti: ""
+      categories:
+        - "Talk"
+        - "Refactoring"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "thomascarpaye"
+
     - name: "Rendons le DDD aux devs !"
       id: "ddddev"
       style: "grid-column: span 2"
@@ -976,7 +1020,33 @@ params:
       speakers:
         - speaker:
           speakerid: "christophethibaut"
-#
+
+    - name: "Mob programming : ça vaut le coût"
+      id: "mob"
+      style: "grid-column: span 2"
+      short_description: "<p>Ça fait des mois que votre manager ne dors plus, iel en fait des cauchemars 😱. Le Mob Programming, une équipe sur un SEUL poste! Vous voulez couler la boîte ?</p>"
+      description: "<p>Ça fait des mois que votre manager ne dors plus, iel en fait des cauchemars 😱. Le Mob Programming, une équipe sur un SEUL poste! Vous voulez couler la boîte ?</p>
+           <p>Détrompez-vous. Correctement mis en œuvre, le mob programming peut faire des miracles. Peut-être même former votre meilleure équipe.</p>
+           <p>À l'issue de cette session vous saurez :</p>
+               <ul>
+               <li>si c'est viable économiquement pour vous</li>
+               <li>faciliter votre première session programmation en équipe !</li>
+               </ul>
+      "
+      type: "talk"
+      salle: "Villard de Lans 1"
+      date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-18"
+      categories:
+        - "Talk"
+        - "Mob"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "hadrienmenspellen"
+        - speaker:
+          speakerid: "thomascarpaye"
+
 #
 #    - name: "Fin de la première journée"
 #      id: "cheers"
