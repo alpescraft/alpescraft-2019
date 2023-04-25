@@ -254,6 +254,18 @@ params:
       company: "Shodo"
       short_bio: "Développeur | Cofondateur @Shodo Nantes"
 
+
+    mohammedlamzira:
+      name: "Mohammed Lamzira"
+      photo: "/img/speakers/mohammed_lamzira.jpg"
+      high_picture: "/img/speakers/mohammed_lamzira.jpg"
+      text: "@mlamzira"
+      href: "https://www.twitter.com/@mlamzira"
+      bio: "<p>Développeur, Formateur TDD et Legacy remediation.</p>
+           <p>Je suis passionné par les bonnes pratiques de développement et ce qui touche à l'eXtreme Programming comme le pair/mob programming, TDD, BDD, DDD, etc.</p>"
+      company: "Shodo"
+      short_bio: "Développeur, Formateur TDD et Legacy remediation"
+
     hadrienmenspellen:
       name: "Hadrien MENS-PELLEN"
       photo: "/img/speakers/Hadrien_MENS-PELLEN.png"
@@ -787,6 +799,8 @@ params:
       speakers:
         - speaker:
           speakerid: "thomascarpaye"
+        - speaker:
+          speakerid: "mohammedlamzira"
 
     - name: "Rendons le DDD aux devs !"
       id: "ddddev"
