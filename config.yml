@@ -350,6 +350,17 @@ params:
       bio: "Je suis ingénieur logiciel en freelance. Je suis un grand fan d'ateliers comme l’event storming ou l’example mapping car comprendre le problème que j'essaie de résoudre est essentiel pour moi. J'aime tout ce qui se termine par *DD (DDD, BDD et TDD), ces outils et toutes les valeurs d'eXtreme Programming m'aident à développer des applications depuis pas mal d’années."
       short_bio: "👨‍💻 Software engineer | ⚒️ Architect | 🎓 Technical coach | 🏡 Freelancer"
 
+    marjorieaubert:
+      name: "Marjorie Aubert"
+      photo: "/img/speakers/marjorieaubert.jpeg"
+      high_picture: "/img/speakers/marjorieaubert.jpeg"
+      href: "https://www.linkedin.com/in/marjorie-aubert-full-stack-developer/"
+      text: "@Tagada2022"
+      bio: "<p>Bonjour à toutes et à tous,</p>
+            <p>Je m’appelle Marjorie, développeuse full-stack chez Comet. Cela n’a pas toujours été mon métier. Après 6 années en tant que conseillère nationale en prévention des risques professionnels pour le monde agricole durant lesquelles j’ai effectué des missions de PO, je suis tombée dans le terminal avec joie il y a un an.</p>
+            <p>Très heureuse de pouvoir vous rencontrer, et de partager ensemble à AlpesCraft.</p>"
+      company: "Comet"
+      short_bio: "Développeuse Web Full-stack"
 
 
 #    sarahscarratt:
@@ -954,7 +965,7 @@ params:
       roti: "https://roti.express/r/alp-20"
       categories:
         - "Talk"
-        - "eXtreme Programming"
+        - "XP"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -1063,6 +1074,47 @@ params:
           speakerid: "hadrienmenspellen"
         - speaker:
           speakerid: "thomascarpaye"
+
+    - name: "Mob et Extreme programming : REX d’une développeuse junior"
+      id: "mobextremee"
+      style: "grid-column: span 2"
+      short_description: "<p>Le cycle de vie d'une équipe rime avec l'arrivée de nouvelles personnes dont possiblement des profils juniors. Si mob et extreme programming ont plutôt une image d'outils de développeurs expérimentés, sont-ils pourtant adaptés aux développeurs juniors ?</p>"
+      description: "
+      <p>Le cycle de vie d'une équipe rime avec l'arrivée de nouvelles personnes dont possiblement des profils juniors. Si mob et extreme programming ont plutôt une image d'outils de développeurs expérimentés, sont-ils pourtant adaptés aux développeurs juniors ?</p>
+      <p>Au-delà de cette image, quels sont les écueils et les bénéfices pour chacun des membres d'une équipe ? Extreme programming nous parle de TDD, d’intégration continue mais également de pair programming. En prolongement, le mob propose de coder à plusieurs. Pratiquer le mob lorsque l’on mélange les niveaux d’expériences, est-ce profitable et dans quelles conditions ?</p>
+      <p>Je vous invite à (re)découvrir le mob et l'extreme programming à travers le retour d'expérience de mon équipe qui le pratique depuis 3 ans. Une occasion de vous partager nos essais et ajustements, une façon d’intégrer des profils juniors, d'échanger pour prendre du recul sur nos pratiques, et pourquoi pas repartir avec l’envie de travailler ensemble autrement.</p>"
+      type: "talk"
+      salle: "Villard de Lans 1"
+      date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-18"
+      categories:
+        - "Talk"
+        - "Mob"
+        - "XP"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "marjorieaubert"
+
+    - name: "Des jouets pour mieux construire ensemble"
+      id: "empathytoys"
+      style: "grid-column: span 2"
+      short_description: "<p>Dans une équipe de développement logiciel, nous communiquons à travers le code et à propos du code, et souvent derrière des enjeux \"purement techniques\" se cachent de nombreux obstacles en vue desquels il est recommandé de cultiver ses \"soft skills\".</p>"
+      description: "
+        <p>Dans une équipe de développement logiciel, nous communiquons à travers le code et à propos du code, et souvent derrière des enjeux \"purement techniques\" se cachent de nombreux obstacles en vue desquels il est recommandé de cultiver ses \"soft skills\".</p>
+        <p>Les Empathy Toys sont un puzzle collaboratif dont la solution n'est possible que lorsque les joueurs apprennent à se comprendre mutuellement et à communiquer avec fluidité. À travers cette session pratico-pratique et ludique, nous explorerons en quoi consiste nos propres barrières de communication, et la façon la plus efficace de lever ces barrières en équipe. En participant et/ou en observant des parties, nous aurons ainsi l'occasion d'approfondir de nombreux parallèles avec le développement de logiciel et la résolution de problèmes en équipe.</p>
+        <p>Chaque partie fera l'objet de debriefs en petits groupes et en collectif avant de jouer à nouveau. Nous essaierons de modéliser ce qui fonctionne bien pour certains, ce qui est différents pour d'autres, et ce que nous pouvons en tirer pour nos projets.</p>"
+      type: "workshop"
+      salle: "Villard de Lans 1"
+      date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-18"
+      categories:
+        - "Workshop"
+        - "Soft skills"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "christophethibaut"
 
 #
 #    - name: "Fin de la première journée"
