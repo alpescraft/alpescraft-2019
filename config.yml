@@ -302,13 +302,13 @@ params:
       href: "https://twitter.com/tdpauw"
       text: "@tdpauw"
       company: "Abovve"
-      bio: "Thierry est ingénieur informatique chez la startup fintech Abbove.
+      bio: "<p>Thierry est ingénieur informatique chez la startup fintech Abbove.</p>
 
-            Sur le côté, il a fondé ThinkingLabs, une société de conseil sur l'optimisation de la livraison informatique.
+            <p>Sur le côté, il a fondé ThinkingLabs, une société de conseil sur l'optimisation de la livraison informatique.</p>
 
-            De temps en temps, il effectue des audits technologiques afin d'évaluer les capacités technologiques d'organisations pour des investisseurs.
+            <p>De temps en temps, il effectue des audits technologiques afin d'évaluer les capacités technologiques d'organisations pour des investisseurs.</p>
 
-            Thierry est un défenseur de l'intégration continue et de la livraison continue et un touche-à-tout. Au lieu d'équilibrer qualité et livraison, il croit et pratique qu'une meilleure qualité est en fait un moyen d'obtenir des livraisons plus nombreuses et de meilleure qualité."
+            <p>Thierry est un défenseur de l'intégration continue et de la livraison continue et un touche-à-tout. Au lieu d'équilibrer qualité et livraison, il croit et pratique qu'une meilleure qualité est en fait un moyen d'obtenir des livraisons plus nombreuses et de meilleure qualité.</p>"
       short_bio: "consulting CTO - IT Delivery Consultant - IT Engineer"
 
     ndionisi:
@@ -329,6 +329,16 @@ params:
       company: "Agicap"
       bio: "Happy dev at Agicap"
       short_bio: "Happy dev at Agicap"
+
+    paulinejamin:
+      name: "Pauline Jamin"
+      photo: "/img/speakers/paulinejamin.jpeg"
+      high_picture: "/img/speakers/paulinejamin.jpeg"
+      href: "https://twitter.com/@jaminpauline"
+      text: "@jaminpauline"
+      company: "Agicap"
+      bio: ""
+      short_bio: ""
 
     arnaudthiefaine:
       name: "Arnaud Thiéfaine"
@@ -708,12 +718,10 @@ params:
       short_description: "<p>L'intégration continue est déjà une pratique en soi. C'est l'une des plus importantes à adopter pour permettre le flux rapide dans la chaîne de valeur.</p>
         <p>Cependant, de nombreuses équipes pensent que l'intégration continue n'est qu'un problème d'outillage, pour ensuite dire qu'elles pratiquent l'intégration continue.
                                                                                                                                                                                                Pourtant, elles ne le font souvent pas et elles passent donc à côté de tous les avantages qui en découlent.</p>"
-      description: "<p>L'intégration continue est déjà une pratique en soi. C'est l'une des plus importantes à adopter pour permettre le flux rapide dans la chaîne de valeur.
-          <br/>
-           Cependant, de nombreuses équipes pensent que l'intégration continue n'est qu'un problème d'outillage, pour ensuite dire qu'elles pratiquent l'intégration continue.
-           Pourtant, elles ne le font souvent pas et elles passent donc à côté de tous les avantages qui en découlent.</p>
-          <p>Cette session approfondit les pratiques qui, chacune en soi à leur manière, activent l'intégration continue ainsi que leurs relations entre eux.
-          Apprenez comment obtenir un retour d'information rapide, une stabilité accrue et un débit de livraison plus élevé!</p>"
+      description: "<p>L'intégration continue est déjà une pratique en soi. C'est l'une des plus importantes à adopter pour permettre le flux rapide dans la chaîne de valeur.</p>
+           <p>Cependant, de nombreuses équipes pensent que l'intégration continue n'est qu'un problème d'outillage, pour ensuite dire qu'elles pratiquent l'intégration continue. Pourtant, elles ne le font souvent pas et elles passent donc à côté de tous les avantages qui en découlent.</p>
+           <p>Cette session approfondit les pratiques qui, chacune en soi à leur manière, activent l'intégration continue ainsi que leurs relations entre eux.</p>
+           <p>Apprenez comment obtenir un retour d'information rapide, une stabilité accrue et un débit de livraison plus élevé!</p>"
       type: "talk"
       salle: "Chamrousse"
       date: "10h30 - 11h15"
@@ -934,6 +942,8 @@ params:
       speakers:
         - speaker:
           speakerid: "carolinedesplanques"
+        - speaker:
+          speakerid: "paulinejamin"
 
     - name: "L'amelioration continue au coeur du Qonto Way"
       id: "qontoway"
@@ -1035,7 +1045,7 @@ params:
 
         <p>Nous sommes prêts pour le challenge, et la porte va se refermer. Stop ! Est-que nous avons les bonnes techniques ? TDD ? hmmm… DDD ? Si on pouvait… Hexagonal Architecture ? Un jour, peut-être.</p>
 
-        <p>Venez aiguiser votre kid de survie en Legacy.</p>
+        <p>Venez aiguiser votre kit de survie en Legacy.</p>
       "
       type: "workshop"
       salle: "Villard de Lans 1"

@@ -72,10 +72,10 @@
                     {{ $speaker := index $speakersmap (string $spk.speakerid) }}
                         {{ if $speaker.name }}
 
+                            <h3 class="talk-date">
+                                Présentation de {{ $speaker.name }}
+                            </h3>
                             {{ if $speaker.bio }}
-                                <h3 class="talk-date">
-                                    Présentation de {{ $speaker.name }}
-                                </h3>
                                 <p>{{ $speaker.bio | safeHTML }}</p>
                             {{ end }}
 
@@ -84,7 +84,7 @@
                             {{ end }}
 
                             {{ if $speaker.text }}
-                                <p><i class="fab fa-twitter-square"></i> <span>{{ $speaker.text }}</span></p>
+                                <p><i class="fab fa-twitter-square"></i> <span><a href="https://twitter.com/{{ $speaker.text }}" about="twitter {{ $speaker.text }}">{{ $speaker.text }}</a></span></p>
                             {{ end }}
                         {{ end }}
                     {{ end }}
