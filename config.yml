@@ -249,7 +249,7 @@ params:
       name: "Thomas Carpaye"
       photo: "/img/speakers/thomas_carpaye.jpeg"
       high_picture: "/img/speakers/thomas_carpaye.jpeg"
-      text: "@tarcay"
+      text: "@tarcaye"
       href: "https://www.linkedin.com/in/thomascarpaye/"
       bio: "<p>Développeur, coach craft et cofondateur de @Shodo_Nantes.</p>
             <p>Je suis passionné par les bonnes pratiques de développement et ce qui touche à l'eXtreme Programming comme le pair/mob programming, TDD, BDD, DDD, etc.</p>
