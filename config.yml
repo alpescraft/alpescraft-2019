@@ -538,12 +538,12 @@ params:
 #      short_bio: "Embedded Software Engineer"
 #
     jpdenis:
-      name: "DENIS Jean-Philippe"
+      name: "Jean-Philippe DENIS"
       photo: "/img/speakers/jpdenis.jpeg"
       high_picture:  "/img/speakers/jpdenis.jpeg"
       href: "https://www.linkedin.com/in/jean-philippe-denis-aa470555/"
-      bio: "<p><Je suis aujourd'hui en charge de l'ensemble des standards et workflows tech en collaboration directe avec le CTO et les différents responsables des équipes.</p>
-            <p>J ai été développeur Android pendant 8 ans, dans plusieurs startups et pour des grands groupes. J'ai rejoint Qonto en tant que 1er dev Android et j'ai vecu cette transformation</p>"
+      bio: "<p>Je suis aujourd'hui en charge de l'ensemble des standards et workflows tech en collaboration directe avec le CTO et les différents responsables des équipes.</p>
+            <p>J'ai été développeur Android pendant 8 ans, dans plusieurs startups et pour des grands groupes. J'ai rejoint Qonto en tant que 1er dev Android et j'ai vecu cette transformation</p>"
       company: "Qonto"
       short_bio: "Senior Staff Tech Operations"
 
