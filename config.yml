@@ -322,8 +322,8 @@ params:
 
     carolinedesplanques:
       name: "Caroline Desplanques"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/carolinedesplanques.jpg"
+      high_picture: "/img/speakers/carolinedesplanques.jpg"
       href: "https://twitter.com/@carolinedpl"
       text: "@carolinedpl"
       company: "Agicap"
