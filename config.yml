@@ -30,9 +30,9 @@ params:
   Sections:
     - home
     - about
-#    - partners
     - schedule
     - sponsors
+    - partners
     - billetterie
     - location
     - newsletter
@@ -189,24 +189,27 @@ params:
 
   # List of Partners
   Partners:
-    - name: "AlpesJUG"
-      logo: "/img/partners/alpesjug.webp"
-      url: "http://www.alpesjug.org/"
-    - name: "CARA"
-      logo: "/img/partners/cara.webp"
-      url: "http://grenoble.clubagilerhonealpes.org"
-    - name: "SoCraTes-FR"
-      logo: "/img/partners/SoCraTes-FR.webp"
-      url: "https://socrates-fr.github.io/"
-    - name: "SNOWCAMP"
-      logo: "/img/partners/snowcamp.webp"
-      url: "https://snowcamp.io/fr/"
-#    - name: "Une petite mousse"
-#      logo: "/img/partners/unepetitemousse.webp"
-#      url: "https://unepetitemousse.fr/"
-    - name: "Copyright © 2000-2022 JetBrains s.r.o. JetBrains and the JetBrains logo are registered trademarks of JetBrains s.r.o."
-      logo: "/img/partners/jb_beam.webp"
-      url: "https://www.jetbrains.com/"
+    - name: "néosoft"
+      logo: "/img/partners/neosoft.png"
+      url: "https://www.neosoft.fr/"
+#      - name: "AlpesJUG"
+#      logo: "/img/partners/alpesjug.webp"
+#      url: "http://www.alpesjug.org/"
+#    - name: "CARA"
+#      logo: "/img/partners/cara.webp"
+#      url: "http://grenoble.clubagilerhonealpes.org"
+#    - name: "SoCraTes-FR"
+#      logo: "/img/partners/SoCraTes-FR.webp"
+#      url: "https://socrates-fr.github.io/"
+#    - name: "SNOWCAMP"
+#      logo: "/img/partners/snowcamp.webp"
+#      url: "https://snowcamp.io/fr/"
+##    - name: "Une petite mousse"
+##      logo: "/img/partners/unepetitemousse.webp"
+##      url: "https://unepetitemousse.fr/"
+#    - name: "Copyright © 2000-2022 JetBrains s.r.o. JetBrains and the JetBrains logo are registered trademarks of JetBrains s.r.o."
+#      logo: "/img/partners/jb_beam.webp"
+#      url: "https://www.jetbrains.com/"
 
   SpeakersMap:
     orga:
