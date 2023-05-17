@@ -580,15 +580,15 @@ params:
 #      company: "ChangIT"
 #      short_bio: "Continuous delivery, TDD and crafting coach"
 #
-#    xaviernopre:
-#      name: "Xavier Nopre"
-#      photo: "/img/speakers/xavier_nopre.png"
-#      high_picture: "/img/speakers/xavier_nopre.jpg"
-#      href: "http://twitter.com/xnopre"
-#      text: "@xnopre"
-#      bio: "Développeur depuis plus de 20 ans, je suis passionné par le développement logiciel, l'agilité, le software craftmanship, etc... Pour moi, le développement agile nécessite des outils et des méthodes adaptés, et notamment les tests unitaires et le TDD dont j'essaie de partager mes connaissances et expériences avec les développeurs que je rencontre."
-#      company: ""
-#      short_bio: "Artisan-développeur / Co-fondateur et CTO chez vrtice"
+    xaviernopre:
+      name: "Xavier Nopre"
+      photo: "/img/speakers/xavier_nopre.png"
+      high_picture: "/img/speakers/xavier_nopre.jpg"
+      href: "http://twitter.com/xnopre"
+      text: "@xnopre"
+      bio: "Artisan développeur - Passionné par le développement et l'agilité, j'aime partager et échanger, surtout autour des bonnes pratiques qui nous permettent de produire, en professionnel du logiciel, des applications de qualité et qui répondent aux attentes des utilisateurs."
+      company: "vrtice"
+      short_bio: "Artisan-développeur / Co-fondateur et CTO chez vrtice"
 #
 #    margauxperrin:
 #      name: "Margaux perrin"
@@ -1128,6 +1128,25 @@ params:
       speakers:
         - speaker:
           speakerid: "christophethibaut"
+
+    - name: "Je développe des apps front et pourtant j'aime le TDD"
+      id: "frontTDD"
+      style: "grid-column: span 2"
+      short_description: "<p>Bon nombre de développeurs sont maintenant convaincus de l'intérêt d'avoir des tests automatisés pour du développement professionnel et de qualité. Mais de plus en plus, une question récurrente est de savoir comment faire des tests dans des applications front et sur des composants visuels.</p>"
+      description: "
+        <p>Bon nombre de développeurs sont maintenant convaincus de l'intérêt d'avoir des tests automatisés pour du développement professionnel et de qualité. Mais de plus en plus, une question récurrente est de savoir comment faire des tests dans des applications front et sur des composants visuels.</p>
+        <p>Lors de cette session, je vous propose de vous présenter ma solution actuelle pour avoir des tests automatisés dans mes apps front, et je vous donnerai ma réponse à la question \"Et le TDD dans le front ?\"</p>"
+      type: "talk"
+      salle: "Villard de Lans 1"
+      date: "16h15 à 17h00"
+      roti: "https://roti.express/r/alp-18"
+      categories:
+        - "TDD"
+        - "Frontend"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "xaviernopre"
 
 #
 #    - name: "Fin de la première journée"
