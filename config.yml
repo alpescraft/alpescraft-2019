@@ -152,10 +152,6 @@ params:
 
   # List of Sponsors
   Sponsors:
-    historique:
-      - name: "Tuleap"
-        logo: "/img/sponsors/tuleap.png"
-        url: "https://www.tuleap.org/"
     master:
       - name: "HackYourJob"
         logo: "/img/sponsors/hackyourjob_community.webp"
@@ -179,9 +175,9 @@ params:
        - name: "VRTICE"
          logo: "/img/sponsors/vrtice.png"
          url: "https://vrtice.com/"
-#      - name: "Positive Thinking Company"
-#        logo: "/img/sponsors/positivethinking.png"
-#        url: "https://positivethinking.tech/"
+       - name: "Tuleap"
+         logo: "/img/sponsors/tuleap.png"
+         url: "https://www.tuleap.org/"
 #      - name: "Ateme"
 #        logo: "/img/sponsors/ateme.png"
 #        url: "https://www.ateme.com/"
