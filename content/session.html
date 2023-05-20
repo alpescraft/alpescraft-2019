@@ -24,7 +24,9 @@
                             <li>
                                 <div class="speaker {{ $speaker.class_sponsor }}">
                                     <img loading="lazy" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
-                                    <p>{{ $speaker.name }}</p>
+                                    {{ if ne $speaker.name "Orga" }}
+                                        <p>{{ $speaker.name }}</p>
+                                    {{ end }}
                                 </div>
                             </li>
                         {{ if $speaker.href }}
@@ -36,8 +38,8 @@
                 </header>
                 <section>
                     <h2 class="talk-title">{{ .name }}</h2>
-<!--                    <h3 class="talk-date">{{ if .salle }} Salle {{ .salle }} {{ end }}</h3>-->
-<!--                    <h3 class="talk-date">{{ .date }}</h3>-->
+                    <h3 class="talk-date"> {{ if .salle }}📍  Salle {{ .salle }} {{ end }}</h3>
+                    <h3 class="talk-date"> 🕒 {{ .date }}</h3>
 <!--                    <h3 class="talk-date">-->
 <!--                        <a href="{{ .roti }}" aria-label="feedback">Donnez votre feedback!</a>-->
 <!--                    </h3>-->
