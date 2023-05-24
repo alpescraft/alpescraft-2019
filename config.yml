@@ -165,7 +165,7 @@ params:
 #      - name: "Salesforce"
 #        logo: "/img/sponsors/salesforce.png"
 #        url: "https://www.salesforce.com"
-    apprenti:
+    apprenti1:
        - name: "MAX Digital Services"
          logo: "/img/sponsors/max.png"
          url: "https://maxds.fr/"
@@ -175,12 +175,16 @@ params:
        - name: "VRTICE"
          logo: "/img/sponsors/vrtice.png"
          url: "https://vrtice.com/"
+    apprenti2:
        - name: "Tuleap"
          logo: "/img/sponsors/tuleap.png"
          url: "https://www.tuleap.org/"
-#      - name: "Ateme"
-#        logo: "/img/sponsors/ateme.png"
-#        url: "https://www.ateme.com/"
+       - name: "POSITIVE THINKING COMPANY"
+         logo: "/img/sponsors/positivethinking.png"
+         url: "https://positivethinking.tech/"
+       - name: "Bonitasoft"
+         logo: "/img/sponsors/bonitasoft.png"
+         url: "https://fr.bonitasoft.com/"
 
 
   # List of Partners

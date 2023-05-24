@@ -32,7 +32,18 @@
 
 <p class="title-tdd text-center">Apprenti</p>
 <div class="row sponsors-row text-center">
-  {{ range $sponsor := .sponsors.apprenti }}
+  {{ range $sponsor := .sponsors.apprenti1 }}
+  <div class="sponsor-img col my-auto">
+    <a href="{{ .url }}" target="_blank" about="{{ .name }}">
+      <div class="card border-0">
+        <img class="img-tdd card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
+      </div>
+    </a>
+  </div>
+  {{ end }}
+</div>
+<div class="row sponsors-row text-center">
+  {{ range $sponsor := .sponsors.apprenti2 }}
   <div class="sponsor-img col my-auto">
     <a href="{{ .url }}" target="_blank" about="{{ .name }}">
       <div class="card border-0">
