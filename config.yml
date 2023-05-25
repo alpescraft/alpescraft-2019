@@ -833,7 +833,7 @@ params:
         - speaker:
           speakerid: "ndionisi"
 
-    - name: "The baby step challenge"
+    - name: "The baby steps challenge"
       id: "babysteps"
       style: "grid-row: span 2;"
       short_description: "<p>Faire des pas toujours plus petits, jusqu'à l'extrême, en refactorant une code base. Tel est le challenge qui vous est proposé par cet atelier qui vous amènera à pousser aux limites la pratique des petites mutations du code. Observez votre progression en temps réel et découvrez si vous parviendrez à faire les pas les plus petits.</p>"
