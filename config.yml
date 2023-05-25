@@ -714,6 +714,7 @@ params:
       short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
       description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
       salle: "Chamrousse"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/6DKkcbEep8FTMwOMN2KC"
       date: "9h00 à 9h30"
       categories:
         - "❤"
@@ -731,7 +732,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "9h30 - 10h15"
-      roti: "https://roti.express/r/alp-20"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/GvtQlxeKjfy5DinKu1Cr"
       categories:
         - "Keynote"
         - "XP"
@@ -761,7 +762,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "10h30 à 11h15"
-      roti: "https://roti.express/r/alp-20"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/qigVfvXpnunQDL498rL5"
       categories:
         - "Talk"
         - "Startup"
@@ -781,7 +782,7 @@ params:
       type: "workshop"
       salle: "Autrans 2"
       date: "10h30 - 12h15"
-      roti: ""
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/E5HSLwxPllY9itd6Vdk4"
       categories:
         - "Workshop"
         - "Event Storming"
@@ -803,7 +804,7 @@ params:
       type: "workshop"
       salle: "Autrans 1"
       date: "10h30 - 12h15"
-      roti: "https://roti.express/r/alp-18"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/r9w75ktfRv2RzpIi0T6b"
       categories:
         - "Workshop"
         - "Legacy"
@@ -823,7 +824,7 @@ params:
       type: "talk"
       salle: "Villard de Lans 2"
       date: "10h30 - 11h15"
-      roti: ""
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/ofm0t0RNYmEfNMGProUq"
       categories:
         - "Talk"
         - "Performance"
@@ -841,7 +842,7 @@ params:
       type: "workshop"
       salle: "Villard de Lans 1"
       date: "10h30 à 12h30"
-      roti: "https://roti.express/r/alp-18"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/fQ6Ogecdrmz0rpiUVrPA"
       categories:
         - "Workshop"
         - "Legacy"
@@ -863,7 +864,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "11h30 - 12h15"
-      roti: ""
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/rSuRz3lmuyRsEfswGKf9"
       categories:
         - "Talk"
         - "Continuous Delivery"
@@ -888,7 +889,7 @@ params:
       type: "talk"
       salle: "Villard de Lans 2"
       date: "11h30 - 12h15"
-      roti: ""
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/bbIeGpUgYCA2UI8kU4Gg"
       categories:
         - "Talk"
         - "Intégration Web"
@@ -912,13 +913,14 @@ params:
         - speaker:
           speakerid: "orga"
 
-    - name: "Mot du sponsor"
+    - name: "Mot du sponsor - HackYourJob"
       id: "sponsor2"
       style: "grid-column: 1 / -1;"
       short_description: ""
       description: ""
       salle: "Chamrousse"
       date: "13h50 à 14h15"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/WIUeayHrZviy3pDqMFXL"
       categories:
         - "❤"
       speakers:
@@ -935,7 +937,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "14h15 - 15h00"
-      roti: ""
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/jXAfHx7iZcwa37uTMXKA"
       categories:
         - "Talk"
         - "Test"
@@ -955,7 +957,7 @@ params:
       type: "workshop"
       salle: "Autrans 2"
       date: "14h15 à 16h00"
-      roti: "https://roti.express/r/alp-18"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/dxHWlegWlKaLDUETSPyh"
       categories:
         - "Workshop"
         - "Soft skills"
@@ -975,7 +977,7 @@ params:
       type: "workshop"
       salle: "Autrans 1"
       date: "14h15 à 16h00"
-      roti: ""
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/uCw1jJcoJeckIssBcxJq"
       categories:
         - "Workshop"
         - "DDD"
@@ -997,7 +999,7 @@ params:
       type: "talk"
       salle: "Villard de Lans 2"
       date: "14h15 à 16h00"
-      roti: "https://roti.express/r/alp-20"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/qCx5BrVTDtpQkseF84Qo"
       categories:
         - "Talk"
         - "Legacy"
@@ -1021,7 +1023,7 @@ params:
       type: "talk"
       salle: "Villard de Lans 1"
       date: "14h15 - 15h00"
-      roti: ""
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/Ah3PlYBipaFS0sTB4J8d"
       categories:
         - "Talk"
         - "Refactoring"
@@ -1046,7 +1048,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "15h15 à 16h00"
-      roti: "https://roti.express/r/alp-18"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/u0NfItTd9tzGS82E8dy3"
       categories:
         - "Talk"
         - "Mob"
@@ -1066,7 +1068,7 @@ params:
       type: "talk"
       salle: "Villard de Lans 1"
       date: "15h15 à 16h00"
-      roti: "https://roti.express/r/alp-18"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/U8Er6smwgGSTsE0AltMN"
       categories:
         - "TDD"
         - "Frontend"
@@ -1101,7 +1103,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "16h15 - 17h00"
-      roti: ""
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/5utF1BtMOyEknnkjUD7P"
       categories:
         - "Talk"
         - "Intégration Continue"
@@ -1118,7 +1120,7 @@ params:
       type: "workshop"
       salle: "Autrans 2"
       date: "16h15 à 17h00"
-      roti: "https://roti.express/r/alp-18"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/xX0dLELfTbgMuYqkRai1"
       categories:
         - "Fishbowl"
       language: "🇫🇷"
@@ -1144,7 +1146,7 @@ params:
       type: "workshop"
       salle: "Autrans 1"
       date: "16h15 à 17h00"
-      roti: "https://roti.express/r/alp-20"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/Bq5Tv6yHwGCP8nkLQsuz"
       categories:
         - "Workshop"
         - "IDE"
@@ -1163,7 +1165,7 @@ params:
       type: "talk"
       salle: "Villard de Lans 2"
       date: "16h15 à 17h00"
-      roti: "https://roti.express/r/alp-18"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/c00KLEfGRWDhsC1yMmjm"
       categories:
         - "Talk"
         - "Mob"
@@ -1183,7 +1185,7 @@ params:
       type: "workshop"
       salle: "Villard de Lans 1"
       date: "16h15 à 17h00"
-      roti: "https://roti.express/r/alp-18"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/l8gDCM1Qdr5jfeCzK4eU"
       categories:
         - "Talk"
         - "Design"

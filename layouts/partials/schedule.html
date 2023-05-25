@@ -55,7 +55,7 @@
 <p class="lead pl-3">
     La première journée d'AlpesCraft est une journée de conférences et d'ateliers pour découvrir de nouvelles pratiques
     et perfectionner ses compétences.
-    <!--    <a href="/schedule/schedule_2022.pdf" target="_blank">Télécharger le programme en PDF</a>-->
+    <!--    <a href="/schedule/planning_2023.pdf" target="_blank">Télécharger le programme en PDF</a>-->
 </p>
 <p class="lead pl-3">
     Le programme sera publié quelques semaines avant la conférence.
@@ -94,11 +94,11 @@
                 </a>
                 <h3 class="talk-date"> {{ if .salle }} 📍 Salle {{ .salle }} {{ end }}</h3>
                 <h3 class="talk-date"> 🕒 {{ .date }}</h3>
-<!--                {{ if .roti }}-->
-<!--                    <h3 class="talk-date">-->
-<!--                        <a href="{{ .roti }}" aria-label="feedback">Donnez votre feedback!</a>-->
-<!--                    </h3>-->
-<!--                {{ end }}-->
+                {{ if .roti }}
+                    <h3 class="talk-date">
+                        <a href="{{ .roti }}" aria-label="feedback">💌 Donnez votre feedback!</a>
+                    </h3>
+                {{ end }}
                 {{ if eq .type "workshop" }}
                     <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
                     <br/>
