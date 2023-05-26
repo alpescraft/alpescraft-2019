@@ -1182,7 +1182,7 @@ params:
       description: "<p>Designers et développeurs vivent aujourd'hui sur les deux rives opposées d'un profond fossé. Des différences culturelles \"irréconciliables\" semblent les opposer.
                      Mais si on creuse un peu ce point on découvre vite que cette situation \"chats contre chiens\" est essentiellement la conséquence de méthodes de production peu adaptées (voire imbéciles) basée sur l'ultra-taylorisation des projets et l'individualisation des tâches.
                      Une possible approche pour renouer (créer?) le dialogue est de quitter la logique des \"usines digitales\" pour retrouver celle des ateliers d'intelligence collective. Intégrer les principes Craft dans le Design d'Experience (UX) pourrait être un moyen d'y parvenir...</p>"
-      type: "workshop"
+      type: "talk"
       salle: "Villard de Lans 1"
       date: "16h15 à 17h00"
       roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/l8gDCM1Qdr5jfeCzK4eU"
