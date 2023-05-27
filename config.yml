@@ -757,6 +757,7 @@ params:
 
     - name: "L'amelioration continue au coeur du Qonto Way"
       id: "qontoway"
+      menu: "others"
       description: "<p>Comment notre culture de problem solving nous permet de continuer a shipper aussi vite (et mieux) qu'une startup.</p>"
       short_description: "<p>Comment notre culture de problem solving nous permet de continuer a shipper aussi vite (et mieux) qu'une startup.</p>"
       type: "talk"
@@ -774,6 +775,7 @@ params:
     - name: "Event Storming par la Pratique"
       id: "eventstorming"
       style: "grid-row: span 2;"
+      menu: "babystep"
       short_description: "<p>L'Event Storming est un atelier permettant de modéliser les domaines métier présents dans une application, voire même une entreprise au global. Cet atelier permet d'aligner le langage et les concepts d'une équipe entière autour de ces concepts métiers</p>"
       description: "<p>L'Event Storming est un atelier permettant de modéliser les domaines métier présents dans une application, voire même une entreprise au global.
         <br/>
@@ -793,6 +795,7 @@ params:
 
     - name: "L'Escape Game du Legacy. Patterns et Stratégies pour maintenir l'existant."
       id: "escapegame"
+      menu: "perfect"
       style: "grid-row: span 2;"
       short_description: "<p>\"Merci d'avoir pu venir si vite, c'est un peu le feu en ce moment. On a pas mal de problèmes de régression. Ah oui, les tests, On y a pensé un moment, mais avec le départ du tech lead, on a mis le sujet en stand by. Heureusement on arrive à déployer assez vite, c'est presse bouton. Ça au moins ça marche. Bon eh bien tu sais tout: y a plus qu'à ! Faut que je te laisse: j'ai un comité de pilotage.\"</p>"
       description: "<p>\"Merci d'avoir pu venir si vite, c'est un peu le feu en ce moment. On a pas mal de problèmes de régression. Ah oui, les tests, On y a pensé un moment, mais avec le départ du tech lead, on a mis le sujet en stand by. Heureusement on arrive à déployer assez vite, c'est presse bouton. Ça au moins ça marche. Bon eh bien tu sais tout: y a plus qu'à ! Faut que je te laisse: j'ai un comité de pilotage.\"</p>
@@ -815,6 +818,7 @@ params:
 
     - name: "Ce que les développeurs doivent savoir sur les index"
       id: "index"
+      menu: "open"
       short_description: "<p>Les développeurs sont très souvent amenés à écrire des requêtes SQL pour communiquer avec des bases de données relationnelles. Pour les cas simples, connaître la syntaxe et le principe du SQL est amplement suffisant. Par contre, quand la volumétrie augmente et que les performances sont importantes, la question des indexes se pose rapidement.</p>"
       description: "<p>Les développeurs sont très souvent amenés à écrire des requêtes SQL pour communiquer avec des bases de données relationnelles. Pour les cas simples, connaître la syntaxe et le principe du SQL est amplement suffisant. Par contre, quand la volumétrie augmente et que les performances sont importantes, la question des indexes se pose rapidement.</p>
 
@@ -835,6 +839,7 @@ params:
 
     - name: "The baby steps challenge"
       id: "babysteps"
+      menu: "decode"
       style: "grid-row: span 2;"
       short_description: "<p>Faire des pas toujours plus petits, jusqu'à l'extrême, en refactorant une code base. Tel est le challenge qui vous est proposé par cet atelier qui vous amènera à pousser aux limites la pratique des petites mutations du code. Observez votre progression en temps réel et découvrez si vous parviendrez à faire les pas les plus petits.</p>"
       description: "<p>Faire des pas toujours plus petits, jusqu'à l'extrême, en refactorant une code base. Tel est le challenge qui vous est proposé par cet atelier qui vous amènera à pousser aux limites la pratique des petites mutations du code. Observez votre progression en temps réel et découvrez si vous parviendrez à faire les pas les plus petits.</p>
@@ -855,6 +860,7 @@ params:
 
     - name: "Montée de version sans interruption"
       id: "interruption"
+      menu: "others"
       short_description: "<p>Beaucoup d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.</p>"
       description: "<p>Beaucoup d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.</p>
 
@@ -875,6 +881,7 @@ params:
 
     - name: "Crafter de meilleures UI, en pensant le DOM comme une API"
       id: "domasapi"
+      menu: "open"
       #      style: "grid-column: span 2"
       short_description: "<p>Arrivant souvent sur les projets en \"mode pompier\", j'ai acquis des réflexes lorsqu'il s'agit de rapidement corriger ou terminer l'intégration d'application web.</p>
           <p>Mais comment faire pour maintenir ces bonnes pratiques une fois le feu éteint ? Comment améliorer le code sans casser l'UI ? Comment bien démarrer l'intégration d'une nouvelle application ?</p>"
@@ -930,6 +937,7 @@ params:
     - name: "Tests unitaires: essentiels et compliqués à la fois."
       id: "testu"
       style: "grid-row: span 1"
+      menu: "babystep"
       short_description: "<p>Je me souviens lorsque j’ai commencé à développer que je pouvais coder pendant des heures sans exécuter mon code. La suite était moins marrante, je passais des heures à le débugger.</p>"
       description: "<p>
         Je me souviens lorsque j’ai commencé à développer que je pouvais coder pendant des heures sans exécuter mon code. La suite était moins marrante, je passais des heures à le débugger. J’ai découvert les tests par la suite et j’ai rapidement compris les avantages qu’ils apportaient. Cependant, ça n’a pas été facile d’écrire mes premiers tests. On peut commettre beaucoup d'erreurs qui rendent difficile à écrire et à maintenir. Je souhaite vous présenter ce que j’ai appris durant ces dernières années afin de faciliter l’écriture de vos tests.
@@ -948,6 +956,7 @@ params:
 
     - name: "Des jouets pour mieux construire ensemble"
       id: "empathytoys"
+      menu: "open"
       style: "grid-row: span 2"
       short_description: "<p>Dans une équipe de développement logiciel, nous communiquons à travers le code et à propos du code, et souvent derrière des enjeux \"purement techniques\" se cachent de nombreux obstacles en vue desquels il est recommandé de cultiver ses \"soft skills\".</p>"
       description: "
@@ -969,6 +978,7 @@ params:
     - name: "Rendons le DDD aux devs !"
       id: "ddddev"
       style: "grid-row: span 2"
+      menu: "decode"
       short_description: "<p>Bien qu’étant proche de souffler ses 20 bougies, et malgré de nombreuses tentatives de vulgarisation, Domain-Driven Design (DDD) reste un sujet sur lequel il est difficile de se sentir à l'aise quand on est développeur ou développeuse, et qui semble trop souvent réservé à une élite d'architectes et aux cercles de pouvoir d'une direction informatique. Pourtant, c'est bien dans le rapport direct au code que DDD prend tout son sens !</p>"
       description: "<p>
         Bien qu’étant proche de souffler ses 20 bougies, et malgré de nombreuses tentatives de vulgarisation, Domain-Driven Design (DDD) reste un sujet sur lequel il est difficile de se sentir à l'aise quand on est développeur ou développeuse, et qui semble trop souvent réservé à une élite d'architectes et aux cercles de pouvoir d'une direction informatique. Pourtant, c'est bien dans le rapport direct au code que DDD prend tout son sens !</p>
@@ -990,6 +1000,7 @@ params:
 
     - name: "De code legacy à l'archi hexagonale - immersion dans l'univers du mob programming"
       id: "legacytohexa"
+      menu: "others"
       style: "grid-row: span 2"
       short_description: "<p>Le code legacy, souvent complexe et rigide, n'a pas forcément besoin d'être transformé, surtout s'il fonctionne correctement. Mais comment aborder l'intégration de nouvelles fonctionnalités ? Devons-nous bricoler rapidement et intégrer les nouveautés sans accorder d'attention à ce vieux code ou plutôt lui offrir une cure de jouvence bien méritée ?</p>"
       description: "<p>Le code legacy, souvent complexe et rigide, n'a pas forcément besoin d'être transformé, surtout s'il fonctionne correctement. Mais comment aborder l'intégration de nouvelles fonctionnalités ? Devons-nous bricoler rapidement et intégrer les nouveautés sans accorder d'attention à ce vieux code ou plutôt lui offrir une cure de jouvence bien méritée ?</p>
@@ -1013,6 +1024,7 @@ params:
 
     - name: "Always-Green Refactoring : Retravailler sa codebase en douceur et sans stress"
       id: "alwaysgreen"
+      menu: "perfect"
       short_description: "<p>Est-ce que toi aussi dans ta codebase tu as des morceaux de code qui te donnent des sueurs froides ? Des territoires anxiogènes que tu fuis comme la peste et que personne n'ose toucher ?
          D'habitude, le refactoring c’est des semaines de frustration et de souffrance, avec la CI en PLS et des bugs en abondance.</p>"
       description: "<p>Est-ce que toi aussi dans ta codebase tu as des morceaux de code qui te donnent des sueurs froides ? Des territoires anxiogènes que tu fuis comme la peste et que personne n'ose toucher ?
@@ -1036,6 +1048,7 @@ params:
 
     - name: "Mob programming : ça vaut le coût"
       id: "mob"
+      menu: "perfect"
       short_description: "<p>Ça fait des mois que votre manager ne dors plus, iel en fait des cauchemars 😱. Le Mob Programming, une équipe sur un SEUL poste! Vous voulez couler la boîte ?</p>"
       description: "<p>Ça fait des mois que votre manager ne dors plus, iel en fait des cauchemars 😱. Le Mob Programming, une équipe sur un SEUL poste! Vous voulez couler la boîte ?</p>
            <p>Détrompez-vous. Correctement mis en œuvre, le mob programming peut faire des miracles. Peut-être même former votre meilleure équipe.</p>
@@ -1066,6 +1079,7 @@ params:
         <p>Bon nombre de développeurs sont maintenant convaincus de l'intérêt d'avoir des tests automatisés pour du développement professionnel et de qualité. Mais de plus en plus, une question récurrente est de savoir comment faire des tests dans des applications front et sur des composants visuels.</p>
         <p>Lors de cette session, je vous propose de vous présenter ma solution actuelle pour avoir des tests automatisés dans mes apps front, et je vous donnerai ma réponse à la question \"Et le TDD dans le front ?\"</p>"
       type: "talk"
+      menu: "babystep"
       salle: "Villard de Lans 1"
       date: "15h15 à 16h00"
       roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/U8Er6smwgGSTsE0AltMN"
@@ -1093,6 +1107,7 @@ params:
 
     - name: "L’Intégration Continue en Quatorze Pratiques"
       id: "integrationcontinue"
+      menu: "perfect"
       short_description: "<p>L'intégration continue est déjà une pratique en soi. C'est l'une des plus importantes à adopter pour permettre le flux rapide dans la chaîne de valeur.</p>
         <p>Cependant, de nombreuses équipes pensent que l'intégration continue n'est qu'un problème d'outillage, pour ensuite dire qu'elles pratiquent l'intégration continue.
                                                                                                                                                                                                Pourtant, elles ne le font souvent pas et elles passent donc à côté de tous les avantages qui en découlent.</p>"
@@ -1114,6 +1129,7 @@ params:
 
     - name: "Fishbowl : le craft, votre quotidien, et vous"
       id: "fishbowl"
+      menu: "others"
       short_description: "<p>Vous vous demandez si c'est vraiment possible de faire du craft au quotidien dans votre travail ? Comment mettre en place du pair programing dans votre équipe ? Vous ne savez plus comment grandir ? Vous avez l'impression de travailler avec David Goodenough alors que vous rêveriez de travailler avec Kent Beck ?</p>"
       description: "<p>Vous vous demandez si c'est vraiment possible de faire du craft au quotidien dans votre travail ? Comment mettre en place du pair programing dans votre équipe ? Vous ne savez plus comment grandir ? Vous avez l'impression de travailler avec David Goodenough alors que vous rêveriez de travailler avec Kent Beck ?</p>
                    <p>Autour d'un format de discussion atypique, le fishbowl, prenons un moment ensemble pour échanger sur la place que prend le craft dans notre quotidien, des difficultés rencontrées, des questions, mais aussi des réussites.</p>"
@@ -1130,6 +1146,7 @@ params:
 
     - name: "Maîtriser son IDE avec Shortcut Aerobic"
       id: "masteryouride"
+      menu: "decode"
       short_description: "<p>Vous avez envie de gagner en efficacité dans votre travail de tous les jours ?
          <p>Vous savez qu'il existe des raccourcis claviers mais vous n'arrivez jamais à les retenir ?"
       description: "<p>Vous avez envie de gagner en efficacité dans votre travail de tous les jours ?
@@ -1163,6 +1180,7 @@ params:
       <p>Au-delà de cette image, quels sont les écueils et les bénéfices pour chacun des membres d'une équipe ? Extreme programming nous parle de TDD, d’intégration continue mais également de pair programming. En prolongement, le mob propose de coder à plusieurs. Pratiquer le mob lorsque l’on mélange les niveaux d’expériences, est-ce profitable et dans quelles conditions ?</p>
       <p>Je vous invite à (re)découvrir le mob et l'extreme programming à travers le retour d'expérience de mon équipe qui le pratique depuis 3 ans. Une occasion de vous partager nos essais et ajustements, une façon d’intégrer des profils juniors, d'échanger pour prendre du recul sur nos pratiques, et pourquoi pas repartir avec l’envie de travailler ensemble autrement.</p>"
       type: "talk"
+      menu: "babystep"
       salle: "Villard de Lans 2"
       date: "16h15 à 17h00"
       roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/c00KLEfGRWDhsC1yMmjm"
@@ -1177,6 +1195,7 @@ params:
 
     - name: "Design / Dev : à la recherche du dialogue perdu"
       id: "chatchien"
+      menu: "open"
       short_description: "<p>Designers et développeurs vivent aujourd'hui sur les deux rives opposées d'un profond fossé. Des différences culturelles \"irréconciliables\" semblent les opposer.
       Mais si on creuse un peu ce point on découvre vite que cette situation \"chats contre chiens\" est essentiellement la conséquence de méthodes de production peu adaptées (voire imbéciles) basée sur l'ultra-taylorisation des projets et l'individualisation des tâches."
       description: "<p>Designers et développeurs vivent aujourd'hui sur les deux rives opposées d'un profond fossé. Des différences culturelles \"irréconciliables\" semblent les opposer.

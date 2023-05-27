@@ -13,7 +13,7 @@
     <ul class="schedule-list-article">
         {{ range $index, $slot := $.Site.Params.schedule }}
         <li class="schedule-list-article" id="{{ .id }}" style="display: none; width: 90%;">
-            <article class="talk">
+            <article class="talk {{ .menu }}">
                 <header style="width: 100%;">
                     <ul class="schedule-speaker">
                         {{ range $spk := $slot.speakers }}
@@ -40,9 +40,23 @@
                     <h2 class="talk-title">{{ .name }}</h2>
                     <h3 class="talk-date"> {{ if .salle }}📍  Salle {{ .salle }} {{ end }}</h3>
                     <h3 class="talk-date"> 🕒 {{ .date }}</h3>
+                    <h3 class="talk-date">🍽️
+                        {{ if eq .menu "babystep" }}
+                        Premier pas dans le craft
+                        {{ else if eq .menu "decode" }}
+                        Faut pas décoder quand même
+                        {{ else if eq .menu "open" }}
+                        Vers de nouveaux horizons
+                        {{ else if eq .menu "perfect" }}
+                        Un pas de plus dans le craft
+                        {{ else if eq .menu "others" }}
+                        Et ailleurs, ça se passe comment ?
+                        {{ end }}
+                    </h3>
                     <h3 class="talk-date">
                         <a href="{{ .roti }}" aria-label="feedback">💌 Donnez votre feedback!</a>
                     </h3>
+
                     <div class="schedule-calendar" style="display: none;">
                         <div class="dropdown">
                             <button class="btn dropdown-toggle rounded" style="border: 1px solid #212529;" type="button" id="dropdownMenuButton" data-toggle="dropdown">

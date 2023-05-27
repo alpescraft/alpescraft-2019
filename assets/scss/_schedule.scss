@@ -128,9 +128,26 @@
     align-items: flex-start;
     justify-content: flex-start;
     background-color: $gray-100;
-    border-radius: 3%;
+    border-radius: 20px;
     padding: 0 1.125rem 1.125rem;
     height: 100%;
+
+    &.babystep {
+      background-color: #e0f2f1;
+    }
+    &.decode {
+      background-color: #e1f5fe;
+    }
+    &.open {
+      background-color: #fff8e1;
+    }
+    &.perfect {
+      background-color: #f3e5f5;
+    }
+    &.others {
+      background-color: #fce4ec;
+    }
+
   }
 
   .schedule-speaker {
