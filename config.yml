@@ -845,6 +845,7 @@ params:
       description: "<p>Faire des pas toujours plus petits, jusqu'à l'extrême, en refactorant une code base. Tel est le challenge qui vous est proposé par cet atelier qui vous amènera à pousser aux limites la pratique des petites mutations du code. Observez votre progression en temps réel et découvrez si vous parviendrez à faire les pas les plus petits.</p>
                    <p>En travaillant en pair, vous explorerez les différentes techniques pour toujours faire changer le code par petits incréments, et vous repartirez avec un regard changé sur vos commits sur votre projet quotidien.</p>"
       type: "workshop"
+      laptop: "yes"
       salle: "Villard de Lans 1"
       date: "10h30 à 12h30"
       roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/fQ6Ogecdrmz0rpiUVrPA"
@@ -985,6 +986,7 @@ params:
         <p>Dans cette université, nous proposons quelques pratiques précises de code pour vous aider à exprimer davantage de couleur métier dans votre code. Pas à pas, à partir d'une base de code existante et concrète, vous découvrirez comment une série de refactorings simples permet de faire émerger le raisonnement métier au cœur de DDD, et vous serez surpris de pouvoir dire que vous avez enfin vraiment compris et pratiqué DDD !
       </p>"
       type: "workshop"
+      laptop: "yes"
       salle: "Autrans 1"
       date: "14h15 à 16h00"
       roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/uCw1jJcoJeckIssBcxJq"
@@ -1161,6 +1163,7 @@ params:
           </ul>
         </p>"
       type: "workshop"
+      laptop: "yes"
       salle: "Autrans 1"
       date: "16h15 à 17h00"
       roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/Bq5Tv6yHwGCP8nkLQsuz"
