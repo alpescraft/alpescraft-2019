@@ -58,42 +58,61 @@
     <a href="/schedule/planning_2023.pdf" target="_blank">Télécharger le programme en PDF</a>
 </p>
 
-<p class="lead pl-3">
-    Si vous êtes en manque d’inspiration pour choisir les sessions ou que vous hésitez, nous vous avons préparé des menus. Ils ne sont là qu’à titre indicatif et nous vous encourageons à suivre vos envies et inspirations du moment.
-</p>
 
-<div class="text-center" style="padding: 20px">
-    <div class="row">
-        <div class="col" style="marging:5px;border-radius: 20px;background-color: #e0f2f1">
-            <h6>Premiers pas dans le craft</h6>
-            <p>Vous découvrez le craft et vous chercher un ensemble de pratiques ou d’idées pour vous permettre de découvrir ce nouvel univers qui s’ouvre à vous.
-            Ce menu vous permettra de découvrir les bases des tests et des pratiques, et de découvrir et d’expérimenter des pratiques collaboratives de travail</p>
-        </div>
-        <div class="col" style="margin:5px;border-radius: 20px;background-color: #f3e5f5">
-            <h6>Un pas de plus dans le craft</h6>
-            <p>Vous avez déjà une bonne idée du craft et vous pratiquez déjà, mais vous voulez aller plus loin.
-            Ce menu vous permettra de prendre du recul sur vos pratiques, et d’entrevoir de potentielles nouvelles étapes dans votre voyage</p>
-        </div>
-        <div class="col" style="margin:5px;border-radius: 20px;background-color: #fff8e1">
-            <h6>Vers de nouveaux horizons</h6>
-            <p>Vous ne savez pas ce que vous cherchez, et quoi de mieux pour faire de belles découvertes ?
-            Ce menu vous permettra de découvrir des choses inattendues, mais qui vous serviront sans aucun doute quand vous en aurez besoin.</p>
-        </div>
-        <div class="col" style="margin:5px;border-radius: 20px;background-color: #fce4ec">
-            <h6>Et ailleurs, ça se passe comment ?</h6>
-            <p>Vous avez des pratiques établies, mais vous vous demandez comment font les autres ? Comment ça se passe ailleurs ?
-            Ce menu vous permettra de découvrir des pratiques éprouvées par d’autres au quotidien, et de repartir avec des idées de choses à expérimenter dans le votre.</p>
-        </div>
-        <div class="col" style="border-radius: 20px;background-color: #e1f5fe">
-            <h6>Faut pas décoder quand même</h6>
-            Une journée sans coder n’est pas concevable pour vous, conférence ou pas.
-            Ce menu vous permettra de ne pas décrocher de votre clavier de la journée, avec de beaux challenges en vue, qui vous permettront d’améliorer votre base de code dès le lendemain.
-        </div>
-    </div>
-</div>
 
     <ul class="schedule-list-article">
     {{ range $index, $slot := .schedule }}
+
+        {{ if eq $index 4 }}
+        <p class="lead pl-3" style="grid-column: 1 / -1;">
+            Si vous êtes en manque d’inspiration pour choisir les sessions ou que vous hésitez, nous vous avons préparé des menus. Ils ne sont là qu’à titre indicatif et nous vous encourageons à suivre vos envies et inspirations du moment.
+        </p>
+        <li class="schedule-list-article">
+            <article class="talk babystep">
+                <section>
+                    <h2 class="talk-title">Premiers pas dans le craft</h2>
+                    <p>Vous découvrez le craft et vous chercher un ensemble de pratiques ou d’idées pour vous permettre de découvrir ce nouvel univers qui s’ouvre à vous.
+                        Ce menu vous permettra de découvrir les bases des tests et des pratiques, et de découvrir et d’expérimenter des pratiques collaboratives de travail</p>
+                </section>
+            </article>
+        </li>
+        <li class="schedule-list-article">
+            <article class="talk perfect">
+                <section>
+                    <h2 class="talk-title">Un pas de plus dans le craft</h2>
+                    <p>Vous avez déjà une bonne idée du craft et vous pratiquez déjà, mais vous voulez aller plus loin.
+                        Ce menu vous permettra de prendre du recul sur vos pratiques, et d’entrevoir de potentielles nouvelles étapes dans votre voyage</p>
+                </section>
+            </article>
+        </li>
+        <li class="schedule-list-article">
+            <article class="talk open">
+                <section>
+                    <h2 class="talk-title">Vers de nouveaux horizons</h2>
+                    <p>Vous ne savez pas ce que vous cherchez, et quoi de mieux pour faire de belles découvertes ?
+                        Ce menu vous permettra de découvrir des choses inattendues, mais qui vous serviront sans aucun doute quand vous en aurez besoin.</p>
+                </section>
+            </article>
+        </li>
+        <li class="schedule-list-article">
+            <article class="talk others">
+                <section>
+                    <h2 class="talk-title">Et ailleurs, ça se passe comment ?</h2>
+                    <p>Vous ne savez pas ce que vous cherchez, et quoi de mieux pour faire de belles découvertes ?
+                        Ce menu vous permettra de découvrir des choses inattendues, mais qui vous serviront sans aucun doute quand vous en aurez besoin.</p>
+                </section>
+            </article>
+        </li>
+        <li class="schedule-list-article">
+            <article class="talk decode">
+                <section>
+                    <h2 class="talk-title">Faut pas décoder quand même</h2>
+                    <p>Une journée sans coder n’est pas concevable pour vous, conférence ou pas.
+                        Ce menu vous permettra de ne pas décrocher de votre clavier de la journée, avec de beaux challenges en vue, qui vous permettront d’améliorer votre base de code dès le lendemain.</p>
+                </section>
+            </article>
+        </li>
+        {{ end }}
         <li class="schedule-list-article" style="{{ .style | safeCSS }}">
             <article class="talk {{ .menu }}">
             <header style="width: 100%;">
