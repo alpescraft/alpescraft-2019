@@ -164,8 +164,9 @@
                 {{ end }}
                 {{ if (eq .laptop "yes") }}
                     <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
+                    <br/>
                 {{ else if eq .type "workshop" }}
-                    <p class=""> 💡  Ce workshop ne nécessite pas votre machine, uniquement votre envie de découvrir de nouvelles choses et votre bonne humeur!</p>
+                    <p class=""> 💡  Ce workshop ne nécessite pas votre machine, uniquement votre envie de découvrir de nouvelles choses et votre bonne humeur !</p>
                     <br/>
                 {{ end }}
                 <p>{{ .short_description | safeHTML }}</p>
