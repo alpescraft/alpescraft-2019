@@ -805,6 +805,7 @@ params:
         <p>Venez aiguiser votre kit de survie en Legacy.</p>
       "
       type: "workshop"
+      laptop: "yes"
       salle: "Autrans 1"
       date: "10h30 - 12h15"
       roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/r9w75ktfRv2RzpIi0T6b"
