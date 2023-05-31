@@ -491,17 +491,27 @@ params:
 #      high_picture: "/img/speakers/high_julientopcu.png"
 #      short_bio: "Tech Coach @SHODO"
 #
-#    christophemaldivi:
-#      name: "Christophe Maldivi"
-#      photo: "/img/speakers/christophemaldivi.jpeg"
-#      high_picture: "/img/speakers/christophemaldivi.jpeg"
-#      href: "http://twitter.com/chmaldivi"
-#      text: "@chmaldivi"
-#      company: "Orange"
-#      bio: "Développeur depuis une vingtaine d'années, je travaille actuellement chez Orange"
-#      short_bio: "Développeur depuis une vingtaine d'années, je travaille actuellement chez Orange"
-#
-#    nicolasfedou:
+    christophemaldivi:
+      name: "Christophe Maldivi"
+      photo: "/img/speakers/christophemaldivi.jpeg"
+      high_picture: "/img/speakers/christophemaldivi.jpeg"
+      href: "http://twitter.com/chmaldivi"
+      text: "@chmaldivi"
+      company: "Orange"
+      bio: "Développeur chez Orange, je m'intéresse aussi aux problématiques humaines de notre métier"
+      short_bio: "Développeur chez Orange, je m'intéresse aussi aux problématiques humaines de notre métier"
+
+    khaledsouf:
+      name: "Khaled Souf"
+      photo: "/img/speakers/khaledsouf.jpg"
+      high_picture: "/img/speakers/khaledsouf.jpg"
+      href: "https://www.linkedin.com/in/khaledsouf/"
+      text: "@khaledsouf"
+      company: ""
+      bio: "Khaled Souf est un Globe-trotter et développeur passionné. Il a vécu à Paris où il a travaillé pour des sociétés de conseil telles que Zenika et Arolla. il a participé à la communauté des software crafters à Paris, Montréal en Suisse Il vit actuellement à Annecy co-organise le Meetup Software Crafters Romandie. Il aime parler de Domain Driven Design, d’architecture, d’artisanat du code, de Clean Code, des pratiques eXtreme Programming et DevOps."
+      short_bio: "Khaled Souf est un Globe-trotter et développeur passionné. Il a vécu à Paris où il a travaillé pour des sociétés de conseil telles que Zenika et Arolla. il a participé à la communauté des software crafters à Paris, Montréal en Suisse Il vit actuellement à Annecy co-organise le Meetup Software Crafters Romandie. Il aime parler de Domain Driven Design, d’architecture, d’artisanat du code, de Clean Code, des pratiques eXtreme Programming et DevOps."
+
+    #    nicolasfedou:
 #      name: "Nicolas Fedou"
 #      photo: "/img/speakers/nicolasfedou.jpeg"
 #      high_picture: "/img/speakers/high_nicolasfedou.jpeg"
@@ -817,26 +827,31 @@ params:
         - speaker:
           speakerid: "christophethibaut"
 
-    - name: "Ce que les développeurs doivent savoir sur les index"
-      id: "index"
+    - name: "Crafter de meilleures UI, en pensant le DOM comme une API"
+      id: "domasapi"
       menu: "open"
-      short_description: "<p>Les développeurs sont très souvent amenés à écrire des requêtes SQL pour communiquer avec des bases de données relationnelles. Pour les cas simples, connaître la syntaxe et le principe du SQL est amplement suffisant. Par contre, quand la volumétrie augmente et que les performances sont importantes, la question des indexes se pose rapidement.</p>"
-      description: "<p>Les développeurs sont très souvent amenés à écrire des requêtes SQL pour communiquer avec des bases de données relationnelles. Pour les cas simples, connaître la syntaxe et le principe du SQL est amplement suffisant. Par contre, quand la volumétrie augmente et que les performances sont importantes, la question des indexes se pose rapidement.</p>
+      #      style: "grid-column: span 2"
+      short_description: "<p>Arrivant souvent sur les projets en \"mode pompier\", j'ai acquis des réflexes lorsqu'il s'agit de rapidement corriger ou terminer l'intégration d'application web.</p>
+          <p>Mais comment faire pour maintenir ces bonnes pratiques une fois le feu éteint ? Comment améliorer le code sans casser l'UI ? Comment bien démarrer l'intégration d'une nouvelle application ?</p>"
+      description: "<p>Arrivant souvent sur les projets en \"mode pompier\", j'ai acquis des réflexes lorsqu'il s'agit de rapidement corriger ou terminer l'intégration d'application web.</p>
 
-         <p>On demande souvent aux DBA d'aider à indexer correctement nos tables car on considère que créer les index et comprendre leur fonctionnement est un travail de DBA. C'est faux ! Les développeurs connaissent le métier des applications sur lesquelles ils travaillent, et ce sont eux les mieux placés pour comprendre quelles données doivent être indexées et comment.</p>
+         <p>Mais comment faire pour maintenir ces bonnes pratiques une fois le feu éteint ? Comment améliorer le code sans casser l'UI ? Comment bien démarrer l'intégration d'une nouvelle application ?</p>
 
-         <p>Ce talk présente les principes de bases des index, leur fonctionnement, et comment les utiliser de manière efficace en fonction des cas d'utilisation. Il n'a pas pour but de rentrer dans un niveau de détail extrêmement pointus sur les mécanismes internes des SGBD, puisqu'il existe des DBA pour ça ! Par contre, il donne un tour d'horizon des notions importantes à avoir en tête en tant que développeur pour écrire des requêtes performantes et scalables.</p>"
+         <p>Nos UI sont autant utilisées par des humains que par des lecteurs d'écran, ou encore des outils de test et des robots... il faut donc penser le DOM comme une API, et pas seulement reproduire une maquette.
+         Autour de cet axe, je vous propose quelques outils et idées d'ateliers collaboratifs pour développer des interfaces testables, modulaires et accessibles. Et pourquoi pas un Design System ?</p>
+
+         <p>Vous repartirez avec une nouvelle vision du métier de l'intégration web, des pratiques et quelques outils à utiliser dès demain pour améliorer le quotidien de votre projet.</p>"
       type: "talk"
       salle: "Villard de Lans 2"
       date: "10h30 - 11h15"
-      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/ofm0t0RNYmEfNMGProUq"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/bbIeGpUgYCA2UI8kU4Gg"
       categories:
         - "Talk"
-        - "Performance"
+        - "Intégration Web"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "ndionisi"
+          speakerid: "manoncarbonnel"
 
     - name: "The baby steps challenge"
       id: "babysteps"
@@ -860,52 +875,45 @@ params:
         - speaker:
           speakerid: "bastiendavid"
 
-    - name: "Montée de version sans interruption"
-      id: "interruption"
-      menu: "others"
-      short_description: "<p>Beaucoup d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.</p>"
-      description: "<p>Beaucoup d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.</p>
-
-           <p>Les techniques classiques de Rolling Update permettent de réaliser une montée de version sans interruption de service facilement. La complexité intervient lorsque l'on gère une base de données relationnelle, et que l'on souhaite faire évoluer son schéma, toujours sans interruption de service.</p>
-
-           <p>Ce talk est un retour d'expérience présentant les mécanismes que j'ai eu l'occasion de mettre en place pour réaliser ces montées de version sans interruption. Il se concentre sur la partie applicative, et les problématiques engendrées par un tel process. Le but est d'être le plus concret possible, avec des exemples de \"la vraie vie\", notamment quelques astuces pour réaliser ses migrations sans douleur avec des frameworks comme Hibernate ou jOOQ. Les exemples sont donnés en Java avec une base de données PostgreSQL, mais les principes s'appliquent à n'importe quel language et à la plupart des bases de données relationnelles.</p>"
+    - name: "Charge mentale : l'ingrédient oublié pour la performance et le bien-être des équipes"
+      id: "chargementale"
+      menu: "open"
+      short_description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.
+           <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>"
+      description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.
+          <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>
+          <p>Quel est le lien entre charge mental et structuration des équipes ?</p>
+          <p>En quoi celle-ci peut avoir un impact sur la performance ?</p>
+          <p>Nous l'explorerons au travers de la découverte de grands noms comme Felienne Hermans, J. Sweller, Yerkes & Dodson, et de références comme le livre Teams Topologies.</p>
+      </p>"
       type: "talk"
       salle: "Chamrousse"
       date: "11h30 - 12h15"
-      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/rSuRz3lmuyRsEfswGKf9"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/YtJw2psb5jfZeCROcxeS"
       categories:
         - "Talk"
-        - "Continuous Delivery"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "ndionisi"
+          speakerid: "christophemaldivi"
 
-    - name: "Crafter de meilleures UI, en pensant le DOM comme une API"
-      id: "domasapi"
-      menu: "open"
-      #      style: "grid-column: span 2"
-      short_description: "<p>Arrivant souvent sur les projets en \"mode pompier\", j'ai acquis des réflexes lorsqu'il s'agit de rapidement corriger ou terminer l'intégration d'application web.</p>
-          <p>Mais comment faire pour maintenir ces bonnes pratiques une fois le feu éteint ? Comment améliorer le code sans casser l'UI ? Comment bien démarrer l'intégration d'une nouvelle application ?</p>"
-      description: "<p>Arrivant souvent sur les projets en \"mode pompier\", j'ai acquis des réflexes lorsqu'il s'agit de rapidement corriger ou terminer l'intégration d'application web.</p>
-
-         <p>Mais comment faire pour maintenir ces bonnes pratiques une fois le feu éteint ? Comment améliorer le code sans casser l'UI ? Comment bien démarrer l'intégration d'une nouvelle application ?</p>
-
-         <p>Nos UI sont autant utilisées par des humains que par des lecteurs d'écran, ou encore des outils de test et des robots... il faut donc penser le DOM comme une API, et pas seulement reproduire une maquette.
-         Autour de cet axe, je vous propose quelques outils et idées d'ateliers collaboratifs pour développer des interfaces testables, modulaires et accessibles. Et pourquoi pas un Design System ?</p>
-
-         <p>Vous repartirez avec une nouvelle vision du métier de l'intégration web, des pratiques et quelques outils à utiliser dès demain pour améliorer le quotidien de votre projet.</p>"
+    - name: "Microservices : ce que j'aurai voulu savoir avant"
+      id: "microservice"
+      menu: "others"
+      short_description: "<p>Avez-vous souffert lors de la mise en œuvre de l'architecture de microservices (comme moi) ? Avez-vous échoué (comme moi) à les mettre en œuvre ?</p>"
+      description: "<p>Avez-vous souffert lors de la mise en œuvre de l'architecture de microservices (comme moi) ? Avez-vous échoué (comme moi) à les mettre en œuvre ?</p>
+                   <p>Dans ce talk, je vais vous parler de tous les effets indésirables inconnus et comment tirer parti d'une telle architecture basée sur mes expériences réelles ratées et réussies avec plusieurs clients entre des applications nouvelles et existantes.</p>"
       type: "talk"
       salle: "Villard de Lans 2"
       date: "11h30 - 12h15"
-      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/bbIeGpUgYCA2UI8kU4Gg"
+      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/e3j4wkXapgY8CuSCLnxi"
       categories:
         - "Talk"
-        - "Intégration Web"
+        - "Microservice"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "manoncarbonnel"
+          speakerid: "khaledsouf"
 
     - name: "Déjeuner"
       id: "dejeuner"
