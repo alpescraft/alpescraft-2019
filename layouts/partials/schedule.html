@@ -60,13 +60,13 @@
 
 
 
-    <ul class="schedule-list-article">
+    <ul class="schedule-list-article" style="grid-template-columns: repeat(3,33%);">
     {{ range $index, $slot := .schedule }}
 
-        {{ if eq $index 4 }}
-        <p class="lead pl-3" style="grid-column: 1 / -1;">
-            Si vous êtes en manque d’inspiration pour choisir les sessions ou que vous hésitez, nous vous avons préparé des menus. Ils ne sont là qu’à titre indicatif et nous vous encourageons à suivre vos envies et inspirations du moment.
-        </p>
+<!--        {{ if eq $index 4 }}-->
+<!--        <p class="lead pl-3" style="grid-column: 1 / -1;">-->
+<!--            Si vous êtes en manque d’inspiration pour choisir les sessions ou que vous hésitez, nous vous avons préparé des menus. Ils ne sont là qu’à titre indicatif et nous vous encourageons à suivre vos envies et inspirations du moment.-->
+<!--        </p>-->
         <li class="schedule-list-article">
             <article class="talk babystep">
                 <section>
@@ -112,8 +112,8 @@
                 </section>
             </article>
         </li>
-        {{ end }}
-        <li class="schedule-list-article" style="{{ .style | safeCSS }}">
+<!--        {{ end }}-->
+        <li class="schedule-list-article">
             <article class="talk {{ .menu }}">
             <header style="width: 100%;">
                 <ul class="schedule-speaker">
@@ -139,11 +139,11 @@
                 </ul>
             </header>
             <section>
-                <a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">
+<!--                <a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">-->
                     <h2 class="talk-title">{{ .name }}</h2>
-                </a>
-                <h3 class="talk-date"> {{ if .salle }} 📍 Salle {{ .salle }} {{ end }}</h3>
-                <h3 class="talk-date"> 🕒 {{ .date }}</h3>
+<!--                </a>-->
+<!--                <h3 class="talk-date"> {{ if .salle }} 📍 Salle {{ .salle }} {{ end }}</h3>-->
+<!--                <h3 class="talk-date"> 🕒 {{ .date }}</h3>-->
                 <h3 class="talk-date">🍽️
                     {{ if eq .menu "babystep" }}
                         Premier pas dans le craft
@@ -159,18 +159,18 @@
                 </h3>
                 {{ if .roti }}
                 <h3 class="talk-date">
-                    <a href="{{ .roti }}" aria-label="feedback">💌 Donnez votre feedback!</a>
+                    <a href="{{ .roti }}" aria-label="feedback">💌 Consultez les feedbacks !</a>
                 </h3>
                 {{ end }}
-                {{ if (eq .laptop "yes") }}
-                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
-                    <br/>
-                {{ else if eq .type "workshop" }}
-                    <p class=""> 💡  Ce workshop ne nécessite pas votre machine, uniquement votre envie de découvrir de nouvelles choses et votre bonne humeur !</p>
-                    <br/>
-                {{ end }}
-                <p>{{ .short_description | safeHTML }}</p>
-                <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>
+<!--                {{ if (eq .laptop "yes") }}-->
+<!--                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>-->
+<!--                    <br/>-->
+<!--                {{ else if eq .type "workshop" }}-->
+<!--                    <p class=""> 💡  Ce workshop ne nécessite pas votre machine, uniquement votre envie de découvrir de nouvelles choses et votre bonne humeur !</p>-->
+<!--                    <br/>-->
+<!--                {{ end }}-->
+                <p>{{ .description | safeHTML }}</p>
+<!--                <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>-->
 
             </section>
             <footer>
