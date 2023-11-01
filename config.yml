@@ -7,7 +7,7 @@ params:
   Name: "AlpesCraft"
   Year: "2022"
   Description: "Découvrir, apprendre et se perfectionner"
-  Date: "À bientôt en 2024"
+  Date: "Les 6 et 7 Juin 2024"
   Venue: "Alpexpo"
   Address: "2 Av. d'Innsbruck"
   City:  "Grenoble"
@@ -34,7 +34,7 @@ params:
 #    - sponsors
 #    - partners
 #    - billetterie
-#    - location
+    - location
     - newsletter
 
   # Titles which you can translate to other languages
@@ -120,7 +120,7 @@ params:
   # About
   About:
     - title: "Découvrir"
-      img: "/img/cover/IMG_20190613_092641.webp"
+      img: "/img/cover/DSC02049.webp"
       imgInRightSide: true
       text:
         - paragraph: "Réaliser un produit logiciel qui correspond aux besoins de nos utilisateurs et qui soit facile à faire évoluer est un Graal difficile à atteindre."
@@ -129,11 +129,11 @@ params:
                        des compétences de coopération et de communication avec l'ensemble des acteurs, un paradigme de travail d'apprentissage (The Build-Measure-Learn Feedback Loop)...
                        Une quête passionnante qui est facilitée lorsqu'on rencontre des personnes expérimentées qui nous guident sur les chemins à suivre et nous aident à nous améliorer.
     - title: "Apprendre"
-      img: "/img/cover/DSC_0549.webp"
+      img: "/img/cover/lp1_5183_52944033685_o.webp"
       text:
         - paragraph: "Cette conférence a pour but d'être un lieu d'apprentissage et d'échanges afin de progresser pour produire des logiciels toujours meilleurs."
     - title: "Se perfectionner"
-      img: "/img/cover/20190614_091734.webp"
+      img: "/img/cover/lp1_5107_52944009300_o.webp"
       imgInRightSide: true
       text:
         - paragraph: "La conférence est sur 2 jours : un jour sera dédié aux personnes désirant découvrir de nouvelles pratiques et perfectionner leurs compétences et un autre pour les pratiquants réguliers souhaitant approfondir leurs connaissances (en co-organisation avec <a href='https://socrates-fr.github.io/'' target='_blank'>SoCraTes-FR</a>)"
