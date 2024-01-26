@@ -33,7 +33,7 @@ params:
 #    - schedule
 #    - sponsors
 #    - partners
-#    - billetterie
+    - billetterie
     - location
     - newsletter
 
