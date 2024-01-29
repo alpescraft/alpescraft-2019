@@ -1,63 +1,63 @@
-<p class="lead text-center font-weight-bold">Un grand merci à nos sponsors qui nous soutiennent et sans qui AlpesCraft ne serait pas possible</p>
+<!--<p class="lead text-center font-weight-bold">Un grand merci à nos sponsors qui nous soutiennent et sans qui AlpesCraft ne serait pas possible</p>-->
 
-<br/>
+<!--<br/>-->
 
-<p class="title-golden text-center">Mentor</p>
-
-<div class="row sponsors-row text-center">
-  {{ range $sponsor := .sponsors.master }}
-  <div class="sponsor-img col my-auto">
-    <a href="{{ .url }}" target="_blank" about="{{ .name }}">
-      <div class="card border-0">
-        <img class="img-golden card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
-      </div>
-    </a>
-  </div>
-  {{ end }}
-</div>
-
-<!--<p class="title-historique text-center">Historique</p>-->
+<!--<p class="title-golden text-center">Mentor</p>-->
 
 <!--<div class="row sponsors-row text-center">-->
-<!--  {{ range $sponsor := .sponsors.historique }}-->
+<!--  {{ range $sponsor := .sponsors.master }}-->
 <!--  <div class="sponsor-img col my-auto">-->
 <!--    <a href="{{ .url }}" target="_blank" about="{{ .name }}">-->
 <!--      <div class="card border-0">-->
-<!--        <img class="img-historique card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">-->
+<!--        <img class="img-golden card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">-->
 <!--      </div>-->
 <!--    </a>-->
 <!--  </div>-->
 <!--  {{ end }}-->
 <!--</div>-->
 
-<p class="title-tdd text-center">Apprenti</p>
-<div class="row sponsors-row text-center">
-  {{ range $sponsor := .sponsors.apprenti1 }}
-  <div class="sponsor-img col my-auto">
-    <a href="{{ .url }}" target="_blank" about="{{ .name }}">
-      <div class="card border-0">
-        <img class="img-tdd card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
-      </div>
-    </a>
-  </div>
-  {{ end }}
-</div>
-<div class="row sponsors-row text-center">
-  {{ range $sponsor := .sponsors.apprenti2 }}
-  <div class="sponsor-img col my-auto">
-    <a href="{{ .url }}" target="_blank" about="{{ .name }}">
-      <div class="card border-0">
-        <img class="img-tdd card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">
-      </div>
-    </a>
-  </div>
-  {{ end }}
-</div>
+<!--&lt;!&ndash;<p class="title-historique text-center">Historique</p>&ndash;&gt;-->
 
-<div class="row my-auto">
+<!--&lt;!&ndash;<div class="row sponsors-row text-center">&ndash;&gt;-->
+<!--&lt;!&ndash;  {{ range $sponsor := .sponsors.historique }}&ndash;&gt;-->
+<!--&lt;!&ndash;  <div class="sponsor-img col my-auto">&ndash;&gt;-->
+<!--&lt;!&ndash;    <a href="{{ .url }}" target="_blank" about="{{ .name }}">&ndash;&gt;-->
+<!--&lt;!&ndash;      <div class="card border-0">&ndash;&gt;-->
+<!--&lt;!&ndash;        <img class="img-historique card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">&ndash;&gt;-->
+<!--&lt;!&ndash;      </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    </a>&ndash;&gt;-->
+<!--&lt;!&ndash;  </div>&ndash;&gt;-->
+<!--&lt;!&ndash;  {{ end }}&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--<p class="title-tdd text-center">Apprenti</p>-->
+<!--<div class="row sponsors-row text-center">-->
+<!--  {{ range $sponsor := .sponsors.apprenti1 }}-->
+<!--  <div class="sponsor-img col my-auto">-->
+<!--    <a href="{{ .url }}" target="_blank" about="{{ .name }}">-->
+<!--      <div class="card border-0">-->
+<!--        <img class="img-tdd card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">-->
+<!--      </div>-->
+<!--    </a>-->
+<!--  </div>-->
+<!--  {{ end }}-->
+<!--</div>-->
+<!--<div class="row sponsors-row text-center">-->
+<!--  {{ range $sponsor := .sponsors.apprenti2 }}-->
+<!--  <div class="sponsor-img col my-auto">-->
+<!--    <a href="{{ .url }}" target="_blank" about="{{ .name }}">-->
+<!--      <div class="card border-0">-->
+<!--        <img class="img-tdd card-img-top mx-auto" src="{{ .logo }}" alt="{{ .name }}">-->
+<!--      </div>-->
+<!--    </a>-->
+<!--  </div>-->
+<!--  {{ end }}-->
+<!--</div>-->
+
+<!--<div class="row my-auto">-->
   <div class="col text-center">
     <a class="sponsoring-btn btn btn-lg btn-info" href="{{ $.Site.BaseURL }}/sponsoring">
       Devenir Sponsor
     </a>
   </div>
-</div>
+<!--</div>-->
