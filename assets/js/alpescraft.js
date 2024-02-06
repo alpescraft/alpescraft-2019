@@ -63,55 +63,20 @@ const breakpoint = {
   xl: 1200
 };
 
-// bootstrap 4 responsive multi column slick carousel
-var slickParams = {
-                    autoplay: true,
-                    autoplaySpeed: 5000,
-                    draggable: false,
-                    pauseOnHover: true,
-                    infinite: true,
-                    dots: false,
-                    arrows: true,
-                    speed: 1000,
-                    variableWidth: false,
+$('.carousel .carousel-item').each(function() {
+    var minPerSlide = 4;
+    var next = $(this).next();
+    if (!next.length) {
+        next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
 
-                    mobileFirst: true,
+    for (var i = 0; i < minPerSlide; i++) {
+        next = next.next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
 
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-
-                    responsive: [{
-                        breakpoint: breakpoint.sm,
-                        settings: {
-                          slidesToShow: 2,
-                          slidesToScroll: 2,
-                          variableWidth: false
-                        }
-                      },
-                      {
-                        breakpoint: breakpoint.md,
-                        settings: {
-                          slidesToShow: 3,
-                          slidesToScroll: 3,
-                          variableWidth: false
-                        }
-                      },
-                      {
-                        breakpoint: breakpoint.lg,
-                        settings: {
-                          slidesToShow: 5,
-                          slidesToScroll: 5,
-                          variableWidth: false
-                        }
-                      },
-                      {
-                        breakpoint: breakpoint.xl,
-                        settings: {
-                          slidesToShow: 6,
-                          slidesToScroll: 6,
-                          variableWidth: false
-                        }
-                      }
-                    ]
-                  }
-$('#slick').slick(slickParams);
+        next.children(':first-child').clone().appendTo($(this));
+    }
+});

@@ -30,8 +30,8 @@ params:
   Sections:
     - home
     - about
-#    - schedule
     - sponsors
+    - schedule
 #    - partners
     - billetterie
     - location
@@ -151,9 +151,6 @@ params:
                         <li>en voiture, un grand parking gratuit est à votre disposition en face de l’entrée</li>
                         <li>à <a href="http://www.metromobilite.fr/velo.html" target="_blank"> vélo</a> ou à moto, un parking sera à votre disposition une fois passé les grilles</li>
                       </ul>
-                      <p class="text-justify">
-                        Attention, si vous venez en voiture depuis le Nord (Saint-Egrève) ou le Sud (Vif), par l’A480, les travaux en cours notamment au Rondeau (gros échangeur routier Autoroute/Rocade situé entre Grenoble, Echirolles et Seyssins) entrainent de nombreuses et importantes difficultés de circulation dans ce secteur (bouchons). Pensez à anticiper pour arriver à l’heure à la conférence!
-                      </p>
 
   # List of Sponsors
   Sponsors:
@@ -252,101 +249,101 @@ params:
 #      class_sponsor: "sponsor"
 #      bio: ""
 
-    manoncarbonnel:
-      name: "Manon Carbonnel"
-      photo: "/img/speakers/manon_carbonnel.jpg"
-      high_picture: "/img/speakers/manon_carbonnel.jpg"
-      text: "@manoncarbonnel_"
-      href: "https://www.linkedin.com/in/manon-carbonnel/"
-      bio: "<p>Je suis développeuse web (PHP, Python, JS), experte en intégration web et Scrum Master.</p>
-            <p>Je suis passionnée par le HTML/CSS et j'ai créé @Csscade, une communauté française sur l'intégration web.</p>"
-      short_bio: "Développeuse web (PHP, Python, JS), experte en intégration web et Scrum Master"
-
-    thomascarpaye:
-      name: "Thomas Carpaye"
-      photo: "/img/speakers/thomas_carpaye.jpeg"
-      high_picture: "/img/speakers/thomas_carpaye.jpeg"
-      text: "@tarcaye"
-      href: "https://www.linkedin.com/in/thomascarpaye/"
-      bio: "<p>Développeur, coach craft et cofondateur de @Shodo_Nantes.</p>
-            <p>Je suis passionné par les bonnes pratiques de développement et ce qui touche à l'eXtreme Programming comme le pair/mob programming, TDD, BDD, DDD, etc.</p>
-            <p>Cofondateur du meetup @MobProgFr.</p>"
-      company: "Shodo"
-      short_bio: "Développeur | Cofondateur @Shodo Nantes"
-
-
-    mohammedlamzira:
-      name: "Mohammed Lamzira"
-      photo: "/img/speakers/mohammed_lamzira.jpg"
-      high_picture: "/img/speakers/mohammed_lamzira.jpg"
-      text: "@mlamzira"
-      href: "https://www.twitter.com/@mlamzira"
-      bio: "<p>Développeur, Formateur TDD et Legacy remediation.</p>
-           <p>Je suis passionné par les bonnes pratiques de développement et ce qui touche à l'eXtreme Programming comme le pair/mob programming, TDD, BDD, DDD, etc.</p>"
-      company: "Shodo"
-      short_bio: "Développeur, Formateur TDD et Legacy remediation"
-
-    hadrienmenspellen:
-      name: "Hadrien MENS-PELLEN"
-      photo: "/img/speakers/Hadrien_MENS-PELLEN.png"
-      high_picture: "/img/speakers/Hadrien_MENS-PELLEN.png"
-      text: "@HadrienMP"
-      href: "https://twitter.com/@HadrienMP"
-      bio: "<p>Développeur freelance full-stack et amoureux du craft. J'aime notamment tout ce qui touche au travail à plusieurs. En particulier, le développement en équipe (alias Mob Programming). J'en ai notamment fait à temps plein pendant deux ans dans une équipe avec Thomas Carpaye. Ça m'a appris beaucoup de choses sur cette pratique que j'aime partager.</p>
-            <p>Je suis aussi fan de programmation fonctionnelle avec Elm et de NoEstimates 😇.</p>
-            <p>Avec Thomas, on anime une fois par mois, le meetup \"Mob Programming Francophone\", si vous voulez nous retrouver. Et sur Nantes, je suis souvent aux meetups Software Crafters et Human Talks.</p>"
-      short_bio: "Développeur freelance full-stack et amoureux du craft"
-
-    nicolassavois:
-      name: "Nicolas Savois"
-      photo: "/img/speakers/nicolas_savois.jpeg"
-      high_picture: "/img/speakers/nicolas_savois.jpeg"
-      href: "https://twitter.com/NicoSavois"
-      text: "@NicoSavois"
-      bio: "CTO depuis quelques années.
-
-            D’abord d'une startup interne dans une grand banque puis dans une ESN pour la transformer en ESN 2.0. Maintenant CTO chez Pix.
-
-            Fan d’Elixir, de Programmation Fonctionnel, et d'Agilité.
-
-            Je pense que l'IT en France a raté pas mal de virage technologique et méthodologique et n'est pas en train de prendre de virage du tout... j'essaye d’éduquer mes clients et collègues pour que ça change !"
-      short_bio: "Craftman Dev! CTO @Pix_officiel, @elixirlang Fanboy! CoOrga de@Paris_ex!"
-
-    tdpauw:
-      name: "Thierry de Pauw"
-      photo: "/img/speakers/thierry_de_pauw.jpg"
-      high_picture: "/img/speakers/thierry_de_pauw.jpg"
-      href: "https://twitter.com/tdpauw"
-      text: "@tdpauw"
-      company: "ThinkingLabs"
-      bio: "<p>Thierry est ingénieur informatique chez la startup fintech Abbove.</p>
-
-            <p>Sur le côté, il a fondé ThinkingLabs, une société de conseil sur l'optimisation de la livraison informatique.</p>
-
-            <p>De temps en temps, il effectue des audits technologiques afin d'évaluer les capacités technologiques d'organisations pour des investisseurs.</p>
-
-            <p>Thierry est un défenseur de l'intégration continue et de la livraison continue et un touche-à-tout. Au lieu d'équilibrer qualité et livraison, il croit et pratique qu'une meilleure qualité est en fait un moyen d'obtenir des livraisons plus nombreuses et de meilleure qualité.</p>"
-      short_bio: "consulting CTO - IT Delivery Consultant - IT Engineer"
-
-    ndionisi:
-      name: "Nelson Dionisi"
-      photo: "/img/speakers/nelson_dionisi.png"
-      high_picture: "/img/speakers/nelson_dionisi.png"
-      href: "https://www.linkedin.com/in/nelson-dionisi-84a00472/"
-      company: "Mirakl"
-      bio: "Je suis passionné par Java et son éco-système, avec toujours à coeur de développer des applications utiles et fonctionnelles. Je travaille depuis maintenant 10 ans chez Mirakl, en tant qu'Engineering Director. Les sujets autour de l'architecture, la persistence et la communication entre différentes applications me tiennent particulièrement à coeur."
-      short_bio: "Lead Developer Java at Mirakl"
-
-    carolinedesplanques:
-      name: "Caroline Desplanques"
-      photo: "/img/speakers/carolinedesplanques.jpg"
-      high_picture: "/img/speakers/carolinedesplanques.jpg"
-      href: "https://twitter.com/@carolinedpl"
-      text: "@carolinedpl"
-      company: "Agicap"
-      bio: "Happy dev at Agicap"
-      short_bio: "Happy dev at Agicap"
-
+#    manoncarbonnel:
+#      name: "Manon Carbonnel"
+#      photo: "/img/speakers/manon_carbonnel.jpg"
+#      high_picture: "/img/speakers/manon_carbonnel.jpg"
+#      text: "@manoncarbonnel_"
+#      href: "https://www.linkedin.com/in/manon-carbonnel/"
+#      bio: "<p>Je suis développeuse web (PHP, Python, JS), experte en intégration web et Scrum Master.</p>
+#            <p>Je suis passionnée par le HTML/CSS et j'ai créé @Csscade, une communauté française sur l'intégration web.</p>"
+#      short_bio: "Développeuse web (PHP, Python, JS), experte en intégration web et Scrum Master"
+#
+#    thomascarpaye:
+#      name: "Thomas Carpaye"
+#      photo: "/img/speakers/thomas_carpaye.jpeg"
+#      high_picture: "/img/speakers/thomas_carpaye.jpeg"
+#      text: "@tarcaye"
+#      href: "https://www.linkedin.com/in/thomascarpaye/"
+#      bio: "<p>Développeur, coach craft et cofondateur de @Shodo_Nantes.</p>
+#            <p>Je suis passionné par les bonnes pratiques de développement et ce qui touche à l'eXtreme Programming comme le pair/mob programming, TDD, BDD, DDD, etc.</p>
+#            <p>Cofondateur du meetup @MobProgFr.</p>"
+#      company: "Shodo"
+#      short_bio: "Développeur | Cofondateur @Shodo Nantes"
+#
+#
+#    mohammedlamzira:
+#      name: "Mohammed Lamzira"
+#      photo: "/img/speakers/mohammed_lamzira.jpg"
+#      high_picture: "/img/speakers/mohammed_lamzira.jpg"
+#      text: "@mlamzira"
+#      href: "https://www.twitter.com/@mlamzira"
+#      bio: "<p>Développeur, Formateur TDD et Legacy remediation.</p>
+#           <p>Je suis passionné par les bonnes pratiques de développement et ce qui touche à l'eXtreme Programming comme le pair/mob programming, TDD, BDD, DDD, etc.</p>"
+#      company: "Shodo"
+#      short_bio: "Développeur, Formateur TDD et Legacy remediation"
+#
+#    hadrienmenspellen:
+#      name: "Hadrien MENS-PELLEN"
+#      photo: "/img/speakers/Hadrien_MENS-PELLEN.png"
+#      high_picture: "/img/speakers/Hadrien_MENS-PELLEN.png"
+#      text: "@HadrienMP"
+#      href: "https://twitter.com/@HadrienMP"
+#      bio: "<p>Développeur freelance full-stack et amoureux du craft. J'aime notamment tout ce qui touche au travail à plusieurs. En particulier, le développement en équipe (alias Mob Programming). J'en ai notamment fait à temps plein pendant deux ans dans une équipe avec Thomas Carpaye. Ça m'a appris beaucoup de choses sur cette pratique que j'aime partager.</p>
+#            <p>Je suis aussi fan de programmation fonctionnelle avec Elm et de NoEstimates 😇.</p>
+#            <p>Avec Thomas, on anime une fois par mois, le meetup \"Mob Programming Francophone\", si vous voulez nous retrouver. Et sur Nantes, je suis souvent aux meetups Software Crafters et Human Talks.</p>"
+#      short_bio: "Développeur freelance full-stack et amoureux du craft"
+#
+#    nicolassavois:
+#      name: "Nicolas Savois"
+#      photo: "/img/speakers/nicolas_savois.jpeg"
+#      high_picture: "/img/speakers/nicolas_savois.jpeg"
+#      href: "https://twitter.com/NicoSavois"
+#      text: "@NicoSavois"
+#      bio: "CTO depuis quelques années.
+#
+#            D’abord d'une startup interne dans une grand banque puis dans une ESN pour la transformer en ESN 2.0. Maintenant CTO chez Pix.
+#
+#            Fan d’Elixir, de Programmation Fonctionnel, et d'Agilité.
+#
+#            Je pense que l'IT en France a raté pas mal de virage technologique et méthodologique et n'est pas en train de prendre de virage du tout... j'essaye d’éduquer mes clients et collègues pour que ça change !"
+#      short_bio: "Craftman Dev! CTO @Pix_officiel, @elixirlang Fanboy! CoOrga de@Paris_ex!"
+#
+#    tdpauw:
+#      name: "Thierry de Pauw"
+#      photo: "/img/speakers/thierry_de_pauw.jpg"
+#      high_picture: "/img/speakers/thierry_de_pauw.jpg"
+#      href: "https://twitter.com/tdpauw"
+#      text: "@tdpauw"
+#      company: "ThinkingLabs"
+#      bio: "<p>Thierry est ingénieur informatique chez la startup fintech Abbove.</p>
+#
+#            <p>Sur le côté, il a fondé ThinkingLabs, une société de conseil sur l'optimisation de la livraison informatique.</p>
+#
+#            <p>De temps en temps, il effectue des audits technologiques afin d'évaluer les capacités technologiques d'organisations pour des investisseurs.</p>
+#
+#            <p>Thierry est un défenseur de l'intégration continue et de la livraison continue et un touche-à-tout. Au lieu d'équilibrer qualité et livraison, il croit et pratique qu'une meilleure qualité est en fait un moyen d'obtenir des livraisons plus nombreuses et de meilleure qualité.</p>"
+#      short_bio: "consulting CTO - IT Delivery Consultant - IT Engineer"
+#
+#    ndionisi:
+#      name: "Nelson Dionisi"
+#      photo: "/img/speakers/nelson_dionisi.png"
+#      high_picture: "/img/speakers/nelson_dionisi.png"
+#      href: "https://www.linkedin.com/in/nelson-dionisi-84a00472/"
+#      company: "Mirakl"
+#      bio: "Je suis passionné par Java et son éco-système, avec toujours à coeur de développer des applications utiles et fonctionnelles. Je travaille depuis maintenant 10 ans chez Mirakl, en tant qu'Engineering Director. Les sujets autour de l'architecture, la persistence et la communication entre différentes applications me tiennent particulièrement à coeur."
+#      short_bio: "Lead Developer Java at Mirakl"
+#
+#    carolinedesplanques:
+#      name: "Caroline Desplanques"
+#      photo: "/img/speakers/carolinedesplanques.jpg"
+#      high_picture: "/img/speakers/carolinedesplanques.jpg"
+#      href: "https://twitter.com/@carolinedpl"
+#      text: "@carolinedpl"
+#      company: "Agicap"
+#      bio: "Happy dev at Agicap"
+#      short_bio: "Happy dev at Agicap"
+#
     paulinejamin:
       name: "Pauline Jamin"
       photo: "/img/speakers/paulinejamin.jpeg"
@@ -357,37 +354,47 @@ params:
       bio: ""
       short_bio: ""
 
-    arnaudthiefaine:
-      name: "Arnaud Thiéfaine"
-      photo: "/img/speakers/arnaud_thiefaine.jpeg"
-      high_picture: "/img/speakers/arnaud_thiefaine.jpeg"
-      href: "https://www.linkedin.com/in/arnaudthiefaine/"
-      text: "@ArnaudThiefaine"
-      company: "Arolla"
-      bio: "Arnaud est développeur, coach craft et formateur chez Arolla. Passionné par la transmission des bonnes pratiques, il est également co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\" aux éditions Dunod et anime régulièrement des meetups et BBL autour du Craft."
-      short_bio: "Coach Craft @Arolla, co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\""
-
-    arnaudlanglade:
-      name: "Arnaud Langlade"
-      photo: "/img/speakers/arnaudlanglade.webp"
-      high_picture: "/img/speakers/arnaudlanglade.webp"
-      href: "https://www.linkedin.com/in/arnolanglade/"
-      text: "@arnolanglade"
-      company: ""
-      bio: "Je suis ingénieur logiciel en freelance. Je suis un grand fan d'ateliers comme l’event storming ou l’example mapping car comprendre le problème que j'essaie de résoudre est essentiel pour moi. J'aime tout ce qui se termine par *DD (DDD, BDD et TDD), ces outils et toutes les valeurs d'eXtreme Programming m'aident à développer des applications depuis pas mal d’années."
-      short_bio: "👨‍💻 Software engineer | ⚒️ Architect | 🎓 Technical coach | 🏡 Freelancer"
-
-    marjorieaubert:
-      name: "Marjorie Aubert"
-      photo: "/img/speakers/marjorieaubert.jpeg"
-      high_picture: "/img/speakers/marjorieaubert.jpeg"
-      href: "https://www.linkedin.com/in/marjorie-aubert-full-stack-developer/"
-      text: "@Tagada2022"
-      bio: "<p>Bonjour à toutes et à tous,</p>
-            <p>Je m’appelle Marjorie, développeuse full-stack chez Comet. Cela n’a pas toujours été mon métier. Après 6 années en tant que conseillère nationale en prévention des risques professionnels pour le monde agricole durant lesquelles j’ai effectué des missions de PO, je suis tombée dans le terminal avec joie il y a un an.</p>
-            <p>Très heureuse de pouvoir vous rencontrer, et de partager ensemble à AlpesCraft.</p>"
-      company: "Comet"
-      short_bio: "Développeuse Web Full-stack"
+    jeromeavoustin:
+      name: "Jérôme Avoustin"
+      photo: "/img/speakers/jerome_avoustin.jpeg"
+      high_picture: "/img/speakers/jerome_avoustin.jpeg"
+      href: "https://twitter.com/@JeromeAvoustin"
+      text: "@JeromeAvoustin"
+      company: "sunday"
+      bio: ""
+      short_bio: ""
+#
+#    arnaudthiefaine:
+#      name: "Arnaud Thiéfaine"
+#      photo: "/img/speakers/arnaud_thiefaine.jpeg"
+#      high_picture: "/img/speakers/arnaud_thiefaine.jpeg"
+#      href: "https://www.linkedin.com/in/arnaudthiefaine/"
+#      text: "@ArnaudThiefaine"
+#      company: "Arolla"
+#      bio: "Arnaud est développeur, coach craft et formateur chez Arolla. Passionné par la transmission des bonnes pratiques, il est également co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\" aux éditions Dunod et anime régulièrement des meetups et BBL autour du Craft."
+#      short_bio: "Coach Craft @Arolla, co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\""
+#
+#    arnaudlanglade:
+#      name: "Arnaud Langlade"
+#      photo: "/img/speakers/arnaudlanglade.webp"
+#      high_picture: "/img/speakers/arnaudlanglade.webp"
+#      href: "https://www.linkedin.com/in/arnolanglade/"
+#      text: "@arnolanglade"
+#      company: ""
+#      bio: "Je suis ingénieur logiciel en freelance. Je suis un grand fan d'ateliers comme l’event storming ou l’example mapping car comprendre le problème que j'essaie de résoudre est essentiel pour moi. J'aime tout ce qui se termine par *DD (DDD, BDD et TDD), ces outils et toutes les valeurs d'eXtreme Programming m'aident à développer des applications depuis pas mal d’années."
+#      short_bio: "👨‍💻 Software engineer | ⚒️ Architect | 🎓 Technical coach | 🏡 Freelancer"
+#
+#    marjorieaubert:
+#      name: "Marjorie Aubert"
+#      photo: "/img/speakers/marjorieaubert.jpeg"
+#      high_picture: "/img/speakers/marjorieaubert.jpeg"
+#      href: "https://www.linkedin.com/in/marjorie-aubert-full-stack-developer/"
+#      text: "@Tagada2022"
+#      bio: "<p>Bonjour à toutes et à tous,</p>
+#            <p>Je m’appelle Marjorie, développeuse full-stack chez Comet. Cela n’a pas toujours été mon métier. Après 6 années en tant que conseillère nationale en prévention des risques professionnels pour le monde agricole durant lesquelles j’ai effectué des missions de PO, je suis tombée dans le terminal avec joie il y a un an.</p>
+#            <p>Très heureuse de pouvoir vous rencontrer, et de partager ensemble à AlpesCraft.</p>"
+#      company: "Comet"
+#      short_bio: "Développeuse Web Full-stack"
 
 
 #    sarahscarratt:
@@ -398,16 +405,16 @@ params:
 #      bio: "Sarah est une coach, mentor et formatrice certifiée, seule en France à être spécialisée dans le Clean Language et la modélisation systémique. Elle adore découvrir comment les gens « fonctionnent » et se réjouit de les aider à devenir curieux d'eux-mêmes, sans porter de jugement. Révélant doucement les épaisseurs jusqu'à ce que nous trouvions un trésor."
 #      short_bio: "Trainer, Facilitator & Coach"
 #
-#    philippebourgau:
-#      name: "Philippe Bourgau"
-#      photo: "/img/speakers/philippebourgau.jpeg"
-#      high_picture: "/img/speakers/philippebourgau.jpeg"
-#      href: "https://www.linkedin.com/in/philippe-bourgau-607a928/?originalSubdomain=fr"
-##      text: "@SepNamdar"
-#      company: "Murex"
-#      bio: "<p>XP Coach and Sustainable Pace Hacktivist</p>
-#        <p>Let’s not waste our lives on loosy work! I help software engineers to reach an effective and sustainable pace through continuous refactoring of their code and organizations.</p>"
-#      short_bio: "#Refactoring coach, helping teams to ship new features again by reaching a sustainable pace with #legacyCode"
+    philippebourgau:
+      name: "Philippe Bourgau"
+      photo: "/img/speakers/philippebourgau.jpeg"
+      high_picture: "/img/speakers/philippebourgau.jpeg"
+      href: "https://www.linkedin.com/in/philippe-bourgau-607a928/?originalSubdomain=fr"
+      text: "@pbourgau"
+      company: "Murex"
+      bio: "<p>XP Coach and Sustainable Pace Hacktivist</p>
+        <p>Let’s not waste our lives on loosy work! I help software engineers to reach an effective and sustainable pace through continuous refactoring of their code and organizations.</p>"
+      short_bio: "#Refactoring coach, helping teams to ship new features again by reaching a sustainable pace with #legacyCode"
 #
 #    davidgageot:
 #      name: "David Gageot"
@@ -473,7 +480,7 @@ params:
     christophethibaut:
       name: "Christophe Thibaut"
       photo: "/img/speakers/christophe_thibaut.png"
-      high_picture: "/img/speakers/high_christophe_thibaut.png"
+      high_picture: "/img/speakers/high_christophe_thibaut.jpg"
       href: "https://www.linkedin.com/in/christophe-thibaut-35b4657/"
       text: "@ToF_"
       company: "CodeWorks"
@@ -486,35 +493,45 @@ params:
             <p>Christophe contribue à répandre les pratiques TDD et XP, le développement en agile, le coaching et le leadership. Il facilite, enseigne, conseille, et se nourrit de tout ce qui aide les équipes à créer et maintenir du code vivant.</p>"
       short_bio: "Technical Advisor at CodeWorks | Coach Tech | Facilitateur | Auteur"
 #
-#    julientopçu:
-#      name: "Julien Topçu"
-#      photo: "/img/speakers/julientopcu.png"
-#      href: "https://twitter.com/JulienTopcu"
-#      text: "@JulienTopcu"
-#      company: "Shodo"
-#      bio: "Tech Coach chez Shodo, j'accompagne le développement de logiciels à forte valeur métier en usant de techniques issues du Domain-Driven Design, le tout propulsé en Xtreme Programming dans la philosophie Kanban #NoEstimates. Membre de la fondation OWASP, j'évangélise sur les techniques de sécurité applicative afin d'éviter de se faire hacker bien comme il faut."
-#      high_picture: "/img/speakers/high_julientopcu.png"
-#      short_bio: "Tech Coach @SHODO"
-#
-    christophemaldivi:
-      name: "Christophe Maldivi"
-      photo: "/img/speakers/christophemaldivi.jpeg"
-      high_picture: "/img/speakers/christophemaldivi.jpeg"
-      href: "http://twitter.com/chmaldivi"
-      text: "@chmaldivi"
-      company: "Orange"
-      bio: "Développeur chez Orange, je m'intéresse aussi aux problématiques humaines de notre métier"
-      short_bio: "Développeur chez Orange, je m'intéresse aussi aux problématiques humaines de notre métier"
+    romeumoura:
+      name: "Romeu Moura"
+      photo: "/img/speakers/romeu_moura.jpeg"
+      href: "https://www.linkedin.com/in/romeu/"
+      text: "@malk_zameth"
+      company: "Azaé"
+      bio: ""
+      high_picture: "/img/speakers/romeu_moura.jpeg"
+      short_bio: "Agility & Systems thinking Evangelist"
 
-    khaledsouf:
-      name: "Khaled Souf"
-      photo: "/img/speakers/khaledsouf.jpg"
-      high_picture: "/img/speakers/khaledsouf.jpg"
-      href: "https://www.linkedin.com/in/khaledsouf/"
-      text: "@khaledsouf"
-      company: ""
-      bio: "Khaled Souf est un Globe-trotter et développeur passionné. Il a vécu à Paris où il a travaillé pour des sociétés de conseil telles que Zenika et Arolla. il a participé à la communauté des software crafters à Paris, Montréal en Suisse Il vit actuellement à Annecy co-organise le Meetup Software Crafters Romandie. Il aime parler de Domain Driven Design, d’architecture, d’artisanat du code, de Clean Code, des pratiques eXtreme Programming et DevOps."
-      short_bio: "Khaled Souf est un Globe-trotter et développeur passionné. Il a vécu à Paris où il a travaillé pour des sociétés de conseil telles que Zenika et Arolla. il a participé à la communauté des software crafters à Paris, Montréal en Suisse Il vit actuellement à Annecy co-organise le Meetup Software Crafters Romandie. Il aime parler de Domain Driven Design, d’architecture, d’artisanat du code, de Clean Code, des pratiques eXtreme Programming et DevOps."
+    julientopçu:
+      name: "Julien Topçu"
+      photo: "/img/speakers/julientopcu.png"
+      href: "https://twitter.com/JulienTopcu"
+      text: "@JulienTopcu"
+      company: "Shodo"
+      bio: "Tech Coach chez Shodo, j'accompagne le développement de logiciels à forte valeur métier en usant de techniques issues du Domain-Driven Design, le tout propulsé en Xtreme Programming dans la philosophie Kanban #NoEstimates. Membre de la fondation OWASP, j'évangélise sur les techniques de sécurité applicative afin d'éviter de se faire hacker bien comme il faut."
+      high_picture: "/img/speakers/high_julientopcu.png"
+      short_bio: "Tech Coach @SHODO"
+#
+#    christophemaldivi:
+#      name: "Christophe Maldivi"
+#      photo: "/img/speakers/christophemaldivi.jpeg"
+#      high_picture: "/img/speakers/christophemaldivi.jpeg"
+#      href: "http://twitter.com/chmaldivi"
+#      text: "@chmaldivi"
+#      company: "Orange"
+#      bio: "Développeur chez Orange, je m'intéresse aussi aux problématiques humaines de notre métier"
+#      short_bio: "Développeur chez Orange, je m'intéresse aussi aux problématiques humaines de notre métier"
+#
+#    khaledsouf:
+#      name: "Khaled Souf"
+#      photo: "/img/speakers/khaledsouf.jpg"
+#      high_picture: "/img/speakers/khaledsouf.jpg"
+#      href: "https://www.linkedin.com/in/khaledsouf/"
+#      text: "@khaledsouf"
+#      company: ""
+#      bio: "Khaled Souf est un Globe-trotter et développeur passionné. Il a vécu à Paris où il a travaillé pour des sociétés de conseil telles que Zenika et Arolla. il a participé à la communauté des software crafters à Paris, Montréal en Suisse Il vit actuellement à Annecy co-organise le Meetup Software Crafters Romandie. Il aime parler de Domain Driven Design, d’architecture, d’artisanat du code, de Clean Code, des pratiques eXtreme Programming et DevOps."
+#      short_bio: "Khaled Souf est un Globe-trotter et développeur passionné. Il a vécu à Paris où il a travaillé pour des sociétés de conseil telles que Zenika et Arolla. il a participé à la communauté des software crafters à Paris, Montréal en Suisse Il vit actuellement à Annecy co-organise le Meetup Software Crafters Romandie. Il aime parler de Domain Driven Design, d’architecture, d’artisanat du code, de Clean Code, des pratiques eXtreme Programming et DevOps."
 
     #    nicolasfedou:
 #      name: "Nicolas Fedou"
@@ -532,29 +549,29 @@ params:
 #            Le bénéfice principal étant de retrouver un logiciel capable d'évoluer à la vitesse du business du client sans défaut et qu'on ne décommissionne pas.</p>"
 #      short_bio: "Coach de Développeurs Java, d'Architectes Logiciels et de CTO en Pratiques Crafts - XP - Agile / Coding Architect / Stratégie IT en indépendant"
 #
-    bastiendavid:
-      name: "Bastien David"
-      photo: "/img/speakers/bastien_david.jpeg"
-      high_picture: "/img/speakers/bastien_david.jpeg"
-      href: "http://twitter.com/bastien_david"
-      text: "@bastien_david"
-      bio: ""
-      company: "sunday"
-      short_bio: "Software Engineer at sunday"
-
-    olivierlefevre:
-      name: "Olivier Lefèvre"
-      photo: "/img/speakers/olivierlefevre.jpeg"
-      high_picture: "/img/speakers/olivierlefevre.jpeg"
-      href: "https://www.linkedin.com/in/olivierlefevre1/"
-      text: ""
-      bio: "<p>Dinosaure du web (1995) ayant échappé à l'extinction. Design Manager freelance.</p>
-             <p>Expert du design thinking et de la facilitation dans les contextes d'innovation.</p>
-             <p>Enseignant.</p>
-             \"UX is not part of the process: UX is the process\"
-             ;)"
-      company: ""
-      short_bio: "Lead Craft UX Designer / Design Manager / Design Thinking Expert / Senseil"
+#    bastiendavid:
+#      name: "Bastien David"
+#      photo: "/img/speakers/bastien_david.jpeg"
+#      high_picture: "/img/speakers/bastien_david.jpeg"
+#      href: "http://twitter.com/bastien_david"
+#      text: "@bastien_david"
+#      bio: ""
+#      company: "sunday"
+#      short_bio: "Software Engineer at sunday"
+#
+#    olivierlefevre:
+#      name: "Olivier Lefèvre"
+#      photo: "/img/speakers/olivierlefevre.jpeg"
+#      high_picture: "/img/speakers/olivierlefevre.jpeg"
+#      href: "https://www.linkedin.com/in/olivierlefevre1/"
+#      text: ""
+#      bio: "<p>Dinosaure du web (1995) ayant échappé à l'extinction. Design Manager freelance.</p>
+#             <p>Expert du design thinking et de la facilitation dans les contextes d'innovation.</p>
+#             <p>Enseignant.</p>
+#             \"UX is not part of the process: UX is the process\"
+#             ;)"
+#      company: ""
+#      short_bio: "Lead Craft UX Designer / Design Manager / Design Thinking Expert / Senseil"
 
 #
 #    remysanlaville:
@@ -579,55 +596,55 @@ params:
 #          <p>Ma manière d'équilibrer les choses est d'aller lire des papiers scientifiques sur les sujets qui me passionnent. J'y trouve souvent des éléments nouveaux et plein de nouvelles questions. Et pour partager tout ça avec une communauté moins habituée à ce genre de publications, je synthétise mes recherches dans des présentations dessinées (en plus on me paye pour ça :p)</p>"
 #      short_bio: "Embedded Software Engineer"
 #
-    jpdenis:
-      name: "Jean-Philippe DENIS"
-      photo: "/img/speakers/jpdenis.jpeg"
-      high_picture:  "/img/speakers/jpdenis.jpeg"
-      href: "https://www.linkedin.com/in/jean-philippe-denis-aa470555/"
-      bio: "<p>Je suis aujourd'hui en charge de l'ensemble des standards et workflows tech en collaboration directe avec le CTO et les différents responsables des équipes.</p>
-            <p>J’ai été développeur Android pendant 8 ans, dans plusieurs startups et pour des grands groupes. J’ai rejoint Qonto en tant que 1er dev Android et j’ai vécu  de l’intérieur la transformation de cette startup en licorne, que j’ai vu grandir de 15 a plus de 1000 personnes. On va aborder ensemble comment on a installé notre culture de problem solving et comment elle se concrétise en pratique.</p>"
-      company: "Qonto"
-      short_bio: "Senior Staff Tech Operations"
-
-    pascallemerrer:
-      name: "Pascal Le Merrer"
-      photo: "/img/speakers/pascallemerrer.jpeg"
-      high_picture:  "/img/speakers/pascallemerrer.jpeg"
-      href: " https://www.linkedin.com/in/pascal-le-merrer-872a478/"
-      bio: "<p>Développeur de longue date, Pascal a découvert l'eXtreme Programming en 2001.
-               Convaincu par la méthode, il fera sienne ses valeurs et en adoptera les pratiques dans différents contextes.</p>"
-      company: "Alma"
-      short_bio: "Software Crafter"
-
-    mathieucans:
-      name: "Mathieu Cans"
-      photo: "/img/speakers/mathieu_cans.jpeg"
-      high_picture:  "/img/speakers/mathieu_cans.jpeg"
-      href: "http://twitter.com/mathieucans"
-      text: "@mathieucans"
-      bio: "Convaincu que la responsabilité collective de la qualité et que l’existence de feedbacks sont au cœur de la réussite des projets informatiques, je développe des produits en équipe par petits incréments."
-      company: "Orange"
-      short_bio: "Software Engineer at Orange"
-
-    johanmartinsson:
-      name: "Johan Martinsson"
-      photo: "/img/speakers/johan_martinsson.jpg"
-      high_picture: "/img/speakers/johan_martinsson.jpg"
-      href: "http://twitter.com/johan_alps"
-      text: "@johan_alps"
-      bio: "Développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
-      company: "ChangIT"
-      short_bio: "Continuous delivery, TDD and crafting coach"
-
-    xaviernopre:
-      name: "Xavier Nopre"
-      photo: "/img/speakers/xavier_nopre.png"
-      high_picture: "/img/speakers/xavier_nopre.jpg"
-      href: "http://twitter.com/xnopre"
-      text: "@xnopre"
-      bio: "Artisan développeur - Passionné par le développement et l'agilité, j'aime partager et échanger, surtout autour des bonnes pratiques qui nous permettent de produire, en professionnel du logiciel, des applications de qualité et qui répondent aux attentes des utilisateurs."
-      company: "vrtice"
-      short_bio: "Artisan-développeur / Co-fondateur et CTO chez vrtice"
+#    jpdenis:
+#      name: "Jean-Philippe DENIS"
+#      photo: "/img/speakers/jpdenis.jpeg"
+#      high_picture:  "/img/speakers/jpdenis.jpeg"
+#      href: "https://www.linkedin.com/in/jean-philippe-denis-aa470555/"
+#      bio: "<p>Je suis aujourd'hui en charge de l'ensemble des standards et workflows tech en collaboration directe avec le CTO et les différents responsables des équipes.</p>
+#            <p>J’ai été développeur Android pendant 8 ans, dans plusieurs startups et pour des grands groupes. J’ai rejoint Qonto en tant que 1er dev Android et j’ai vécu  de l’intérieur la transformation de cette startup en licorne, que j’ai vu grandir de 15 a plus de 1000 personnes. On va aborder ensemble comment on a installé notre culture de problem solving et comment elle se concrétise en pratique.</p>"
+#      company: "Qonto"
+#      short_bio: "Senior Staff Tech Operations"
+#
+#    pascallemerrer:
+#      name: "Pascal Le Merrer"
+#      photo: "/img/speakers/pascallemerrer.jpeg"
+#      high_picture:  "/img/speakers/pascallemerrer.jpeg"
+#      href: " https://www.linkedin.com/in/pascal-le-merrer-872a478/"
+#      bio: "<p>Développeur de longue date, Pascal a découvert l'eXtreme Programming en 2001.
+#               Convaincu par la méthode, il fera sienne ses valeurs et en adoptera les pratiques dans différents contextes.</p>"
+#      company: "Alma"
+#      short_bio: "Software Crafter"
+#
+#    mathieucans:
+#      name: "Mathieu Cans"
+#      photo: "/img/speakers/mathieu_cans.jpeg"
+#      high_picture:  "/img/speakers/mathieu_cans.jpeg"
+#      href: "http://twitter.com/mathieucans"
+#      text: "@mathieucans"
+#      bio: "Convaincu que la responsabilité collective de la qualité et que l’existence de feedbacks sont au cœur de la réussite des projets informatiques, je développe des produits en équipe par petits incréments."
+#      company: "Orange"
+#      short_bio: "Software Engineer at Orange"
+#
+#    johanmartinsson:
+#      name: "Johan Martinsson"
+#      photo: "/img/speakers/johan_martinsson.jpg"
+#      high_picture: "/img/speakers/johan_martinsson.jpg"
+#      href: "http://twitter.com/johan_alps"
+#      text: "@johan_alps"
+#      bio: "Développeur freelance qui se passionne entre autres pour le design du code. Avec 17 ans d’expérience, il a passé les 8 dernières années à aider des équipes de maîtriser le développement accompagné de tests dans de multiples langages. Régulièrement il trouve des (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs."
+#      company: "ChangIT"
+#      short_bio: "Continuous delivery, TDD and crafting coach"
+#
+#    xaviernopre:
+#      name: "Xavier Nopre"
+#      photo: "/img/speakers/xavier_nopre.png"
+#      high_picture: "/img/speakers/xavier_nopre.jpg"
+#      href: "http://twitter.com/xnopre"
+#      text: "@xnopre"
+#      bio: "Artisan développeur - Passionné par le développement et l'agilité, j'aime partager et échanger, surtout autour des bonnes pratiques qui nous permettent de produire, en professionnel du logiciel, des applications de qualité et qui répondent aux attentes des utilisateurs."
+#      company: "vrtice"
+#      short_bio: "Artisan-développeur / Co-fondateur et CTO chez vrtice"
 #
 #    margauxperrin:
 #      name: "Margaux perrin"
@@ -645,15 +662,15 @@ params:
 #            <p>Depuis 2015, je tiens également un blog sur l'ux et l'agilité que j'alimente de manière très irrégulière : <a href=\"http://www.margaux-perrin.com/category/ergonomie/\" aria-label=\"Blog Margaux Perrin\">http://www.margaux-perrin.com/category/ergonomie/</a></p> "
 #      short_bio: "UX-research consultant | UX-design | Proxy Product Owner"
 #
-    dorrabartaguiz:
-      name: "Dorra Bartaguiz"
-      photo: "/img/speakers/dorrabartaguiz.jpg"
-      href: "https://twitter.com/DorraBartaguiz"
-      text: "@DorraBartaguiz"
-      company: "Arolla"
-      bio: "<p>Dorra est VP Tech chez Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez! (245 Janvier 2022). Elle est passionnée par le développement et les bonnes pratiques. Elle partage son savoir-faire en publiant des articles et en animant des conférences et meetups. Elle a aussi enseigné dans une école d'ingénieurs à Paris pendant des années.</p>"
-      high_picture: "/img/speakers/high_dorra.jpg"
-      short_bio: "VP Tech @Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez!"
+#    dorrabartaguiz:
+#      name: "Dorra Bartaguiz"
+#      photo: "/img/speakers/dorrabartaguiz.jpg"
+#      href: "https://twitter.com/DorraBartaguiz"
+#      text: "@DorraBartaguiz"
+#      company: "Arolla"
+#      bio: "<p>Dorra est VP Tech chez Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez! (245 Janvier 2022). Elle est passionnée par le développement et les bonnes pratiques. Elle partage son savoir-faire en publiant des articles et en animant des conférences et meetups. Elle a aussi enseigné dans une école d'ingénieurs à Paris pendant des années.</p>"
+#      high_picture: "/img/speakers/high_dorra.jpg"
+#      short_bio: "VP Tech @Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez!"
 
 #    emilienpecoul:
 #      name: "Emilien Pecoul"

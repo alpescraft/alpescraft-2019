@@ -2,218 +2,227 @@
 <h2 class="section-title title">{{ $value.title }}</h2>
 {{ end }}
 
-<!--<div class="row my-auto">-->
-<!--    <div class="col text-center">-->
-<!--        <p class="lead text-center font-weight-bold">-->
-<!--            De nombreuses sessions de qualité avec des speakers reconnu.e.s-->
-<!--        </p>-->
-<!--    </div>-->
-<!--</div>-->
-
-{{ $speakersmap := .speakersmap }}
-
-<!--<div class="container-fluid">-->
-<!--    <div id="slick">-->
-<!--            {{ range $key, $speaker := $speakersmap }}-->
-<!--            {{ if and  (ne $key "orga") }}-->
-<!--                {{ with $speaker.class_sponsor }}-->
-<!--                {{ else }}-->
-<!--                    <div class="slide">-->
-<!--                        <div class="card">-->
-<!--                            <a href="{{ $speaker.href }}" aria-label="{{ $speaker.name }}">-->
-<!--                                <img class="card-img-top img-fluid" loading="lazy" src="{{ $speaker.high_picture }}" alt="{{ $speaker.name }}">-->
-<!--                                <div class="card-body">-->
-<!--                                    <h6 class="card-title">{{ $speaker.name }}</h6>-->
-<!--                                    <p class="card-text">-->
-<!--                                         {{ if $speaker.short_bio }}-->
-<!--                                          {{ $speaker.short_bio | safeHTML }}-->
-<!--                                        {{ else }}-->
-<!--                                            {{ $speaker.bio | safeHTML }}-->
-<!--                                        {{ end }}-->
-<!--                                    </p>-->
-<!--                                </div>-->
-<!--                            </a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--            {{ end }}-->
-<!--            {{ end }}-->
-<!--            {{ end }}-->
-<!--    </div>-->
-<!--</div>-->
-
-<!--<br/>-->
-<!--<br/>-->
-<!--<br/>-->
-
 <p class="lead pl-3">
     La conférence se déroule sur 2 journées avec 2 formats différents.
     <br/>
-    La conférence ouvrira ses portes à partir de 8h15 avec un accueil et un petit déjeuner. Les sessions débuteront à 9h et se poursuivront jusqu'à 18h.
+<!--    La conférence ouvrira ses portes à partir de 8h15 avec un accueil et un petit déjeuner. Les sessions débuteront à 9h et se poursuivront jusqu'à 18h.-->
 </p>
 
-<h3 class="subtitle">Journée du Jeudi 1er Juin</h3>
+<h3 class="subtitle">Journée du Jeudi 6 Juin</h3>
 <p class="lead pl-3">
     La première journée d'AlpesCraft est une journée de conférences et d'ateliers pour découvrir de nouvelles pratiques
     et perfectionner ses compétences.
-    <a href="/schedule/planning_2023.pdf" target="_blank">Télécharger le programme en PDF</a>
+<!--    <a href="/schedule/planning_2023.pdf" target="_blank">Télécharger le programme en PDF</a>-->
 </p>
 
+<div class="row my-auto">
+    <div class="col text-center">
+        <p class="lead text-center font-weight-bold">
+            De nombreuses sessions de qualité avec des speakers reconnu.e.s
+        </p>
+    </div>
+</div>
+
+<br/>
+
+{{ $speakersmap := .speakersmap }}
 
 
-    <ul class="schedule-list-article" style="grid-template-columns: repeat(3,33%);">
-    {{ range $index, $slot := .schedule }}
-
-<!--        {{ if eq $index 4 }}-->
-<!--        <p class="lead pl-3" style="grid-column: 1 / -1;">-->
-<!--            Si vous êtes en manque d’inspiration pour choisir les sessions ou que vous hésitez, nous vous avons préparé des menus. Ils ne sont là qu’à titre indicatif et nous vous encourageons à suivre vos envies et inspirations du moment.-->
-<!--        </p>-->
-        <li class="schedule-list-article">
-            <article class="talk babystep">
-                <section>
-                    <h2 class="talk-title">Premiers pas dans le craft</h2>
-                    <p>Vous découvrez le craft et vous chercher un ensemble de pratiques ou d’idées pour vous permettre de découvrir ce nouvel univers qui s’ouvre à vous.
-                        Ce menu vous permettra de découvrir les bases des tests et des pratiques, et de découvrir et d’expérimenter des pratiques collaboratives de travail</p>
-                </section>
-            </article>
-        </li>
-        <li class="schedule-list-article">
-            <article class="talk perfect">
-                <section>
-                    <h2 class="talk-title">Un pas de plus dans le craft</h2>
-                    <p>Vous avez déjà une bonne idée du craft et vous pratiquez déjà, mais vous voulez aller plus loin.
-                        Ce menu vous permettra de prendre du recul sur vos pratiques, et d’entrevoir de potentielles nouvelles étapes dans votre voyage</p>
-                </section>
-            </article>
-        </li>
-        <li class="schedule-list-article">
-            <article class="talk open">
-                <section>
-                    <h2 class="talk-title">Vers de nouveaux horizons</h2>
-                    <p>Vous ne savez pas ce que vous cherchez, et quoi de mieux pour faire de belles découvertes ?
-                        Ce menu vous permettra de découvrir des choses inattendues, mais qui vous serviront sans aucun doute quand vous en aurez besoin.</p>
-                </section>
-            </article>
-        </li>
-        <li class="schedule-list-article">
-            <article class="talk others">
-                <section>
-                    <h2 class="talk-title">Et ailleurs, ça se passe comment ?</h2>
-                    <p>Vous avez des pratiques établies, mais vous vous demandez comment font les autres ? Comment ça se passe ailleurs ?
-                        Ce menu vous permettra de découvrir des pratiques éprouvées par d’autres au quotidien, et de repartir avec des idées de choses à expérimenter dans le vôtre.</p>
-                </section>
-            </article>
-        </li>
-        <li class="schedule-list-article">
-            <article class="talk decode">
-                <section>
-                    <h2 class="talk-title">Faut pas décoder quand même</h2>
-                    <p>Une journée sans coder n’est pas concevable pour vous, conférence ou pas.
-                        Ce menu vous permettra de ne pas décrocher de votre clavier de la journée, avec de beaux challenges en vue, qui vous permettront d’améliorer votre base de code dès le lendemain.</p>
-                </section>
-            </article>
-        </li>
-<!--        {{ end }}-->
-        <li class="schedule-list-article">
-            <article class="talk {{ .menu }}">
-            <header style="width: 100%;">
-                <ul class="schedule-speaker">
-                {{ range $spk := $slot.speakers }}
-                    {{ $speaker := index $speakersmap (string $spk.speakerid) }}
-                    {{ if $speaker.href }}
-                        <a href="{{ $speaker.href }}" target="_blank">
-                    {{ end }}
-                    <li>
-                        <div class="speaker {{ $speaker.class_sponsor }}">
-                                <img loading="lazy" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
-                                {{ if ne $speaker.name "Orga" }}
-                                    <p>{{ $speaker.name }}</p>
-                                {{ end }}
-
+<div class="container-fluid text-center my-3">
+    <div class="row mx-auto my-auto">
+        <div id="carousel" class="carousel slide w-100" data-ride="carousel" data-interval="2500">
+            <div class="carousel-inner w-100" role="listbox">
+                {{ range $key, $speaker := $speakersmap }}
+                {{ if and  (ne $key "orga") }}
+                    {{ with $speaker.class_sponsor }}
+                    {{ else }}
+                    <div class="carousel-item">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card text-center border-0">
+                                <a href="{{ $speaker.href }}" aria-label="{{ $speaker.name }}">
+                                    <img class="card-img-top img-fluid img-thumbnail rounded-circle shadow-4-strong" loading="lazy" src="{{ $speaker.high_picture }}" alt="{{ $speaker.name }}">
+                                    <div class="card-body">
+                                        <h6 class="card-title">{{ $speaker.name }}</h6>
+                                        <p class="card-text">
+                                            {{ if $speaker.company }}
+                                                <p>{{ $speaker.company | safeHTML }}</p>
+                                            {{ end }}
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </li>
-                    {{ if $speaker.href }}
-                        </a>
-                    {{ end }}
-                {{ end }}
-                </div>
-                </ul>
-            </header>
-            <section>
-<!--                <a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">-->
-                    <h2 class="talk-title">{{ .name }}</h2>
-<!--                </a>-->
-<!--                <h3 class="talk-date"> {{ if .salle }} 📍 Salle {{ .salle }} {{ end }}</h3>-->
-<!--                <h3 class="talk-date"> 🕒 {{ .date }}</h3>-->
-                <h3 class="talk-date">🍽️
-                    {{ if eq .menu "babystep" }}
-                        Premier pas dans le craft
-                    {{ else if eq .menu "decode" }}
-                        Faut pas décoder quand même
-                    {{ else if eq .menu "open" }}
-                        Vers de nouveaux horizons
-                    {{ else if eq .menu "perfect" }}
-                        Un pas de plus dans le craft
-                    {{ else if eq .menu "others" }}
-                        Et ailleurs, ça se passe comment ?
-                    {{ end }}
-                </h3>
-                {{ if .roti }}
-                <h3 class="talk-date">
-                    <a href="{{ .roti }}" aria-label="feedback">💌 Consultez les feedbacks !</a>
-                </h3>
-                {{ end }}
-<!--                {{ if (eq .laptop "yes") }}-->
-<!--                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>-->
-<!--                    <br/>-->
-<!--                {{ else if eq .type "workshop" }}-->
-<!--                    <p class=""> 💡  Ce workshop ne nécessite pas votre machine, uniquement votre envie de découvrir de nouvelles choses et votre bonne humeur !</p>-->
-<!--                    <br/>-->
-<!--                {{ end }}-->
-                <p>{{ .description | safeHTML }}</p>
-<!--                <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>-->
-
-            </section>
-            <footer>
-                <div class="talk-type">
-                    {{ if eq .type "talk" }}
-                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" width="30px" fill="currentColor" class="bi bi-mic" style="margin-right: 0.75rem" viewBox="0 0 16 16">
-                            <title>
-                                {{ if .tooltip }}
-                                    {{ .tooltip }}
-                                {{ else }}
-                                    Talk
-                                {{ end }}
-                            </title>
-                            <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
-                            <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>
-                        </svg>
-                    {{ end }}
-                    {{ if eq .type "workshop" }}
-                        <img src="/img/schedule/workshop.png" title="Workshop" class="img-fluid" alt="workshop">
-                    {{ end }}
-                    <ul class="schedule-tags">
-                        {{ range $category := $slot.categories }}
-                        <li class="schedule-tag">{{ $category }}</li>
-                        {{ end }}
-                        {{ if .language }}
-                            <li class="schedule-tag">{{ .language }}</li>
-                        {{ end }}
-                    </ul>
-                    <div class="footer-bottom">
-                        <a aria-label="Ouvrir la session {{ .name }}" class="schedule-link" href="/session/?talk={{ .id }}" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
-                            </svg>
-                        </a>
                     </div>
-                </div>
-            </footer>
-        </article>
-        </li>
-    {{ end }}
-    </ul>
+                    {{ end }}
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var addActive = document.getElementsByClassName('carousel')[0].getElementsByClassName('carousel-item')[0];
+    addActive.classList.add("active");
+</script>
 
-<h3 class="subtitle">Journée du Vendredi 2 Juin</h3>
+<br/>
+<br/>
+<!--<br/>-->
+
+<!--    <ul class="schedule-list-article" style="grid-template-columns: repeat(3,33%);">-->
+<!--    {{ range $index, $slot := .schedule }}-->
+
+<!--&lt;!&ndash;        {{ if eq $index 4 }}&ndash;&gt;-->
+<!--&lt;!&ndash;        <p class="lead pl-3" style="grid-column: 1 / -1;">&ndash;&gt;-->
+<!--&lt;!&ndash;            Si vous êtes en manque d’inspiration pour choisir les sessions ou que vous hésitez, nous vous avons préparé des menus. Ils ne sont là qu’à titre indicatif et nous vous encourageons à suivre vos envies et inspirations du moment.&ndash;&gt;-->
+<!--&lt;!&ndash;        </p>&ndash;&gt;-->
+<!--        <li class="schedule-list-article">-->
+<!--            <article class="talk babystep">-->
+<!--                <section>-->
+<!--                    <h2 class="talk-title">Premiers pas dans le craft</h2>-->
+<!--                    <p>Vous découvrez le craft et vous chercher un ensemble de pratiques ou d’idées pour vous permettre de découvrir ce nouvel univers qui s’ouvre à vous.-->
+<!--                        Ce menu vous permettra de découvrir les bases des tests et des pratiques, et de découvrir et d’expérimenter des pratiques collaboratives de travail</p>-->
+<!--                </section>-->
+<!--            </article>-->
+<!--        </li>-->
+<!--        <li class="schedule-list-article">-->
+<!--            <article class="talk perfect">-->
+<!--                <section>-->
+<!--                    <h2 class="talk-title">Un pas de plus dans le craft</h2>-->
+<!--                    <p>Vous avez déjà une bonne idée du craft et vous pratiquez déjà, mais vous voulez aller plus loin.-->
+<!--                        Ce menu vous permettra de prendre du recul sur vos pratiques, et d’entrevoir de potentielles nouvelles étapes dans votre voyage</p>-->
+<!--                </section>-->
+<!--            </article>-->
+<!--        </li>-->
+<!--        <li class="schedule-list-article">-->
+<!--            <article class="talk open">-->
+<!--                <section>-->
+<!--                    <h2 class="talk-title">Vers de nouveaux horizons</h2>-->
+<!--                    <p>Vous ne savez pas ce que vous cherchez, et quoi de mieux pour faire de belles découvertes ?-->
+<!--                        Ce menu vous permettra de découvrir des choses inattendues, mais qui vous serviront sans aucun doute quand vous en aurez besoin.</p>-->
+<!--                </section>-->
+<!--            </article>-->
+<!--        </li>-->
+<!--        <li class="schedule-list-article">-->
+<!--            <article class="talk others">-->
+<!--                <section>-->
+<!--                    <h2 class="talk-title">Et ailleurs, ça se passe comment ?</h2>-->
+<!--                    <p>Vous avez des pratiques établies, mais vous vous demandez comment font les autres ? Comment ça se passe ailleurs ?-->
+<!--                        Ce menu vous permettra de découvrir des pratiques éprouvées par d’autres au quotidien, et de repartir avec des idées de choses à expérimenter dans le vôtre.</p>-->
+<!--                </section>-->
+<!--            </article>-->
+<!--        </li>-->
+<!--        <li class="schedule-list-article">-->
+<!--            <article class="talk decode">-->
+<!--                <section>-->
+<!--                    <h2 class="talk-title">Faut pas décoder quand même</h2>-->
+<!--                    <p>Une journée sans coder n’est pas concevable pour vous, conférence ou pas.-->
+<!--                        Ce menu vous permettra de ne pas décrocher de votre clavier de la journée, avec de beaux challenges en vue, qui vous permettront d’améliorer votre base de code dès le lendemain.</p>-->
+<!--                </section>-->
+<!--            </article>-->
+<!--        </li>-->
+<!--&lt;!&ndash;        {{ end }}&ndash;&gt;-->
+<!--        <li class="schedule-list-article">-->
+<!--            <article class="talk {{ .menu }}">-->
+<!--            <header style="width: 100%;">-->
+<!--                <ul class="schedule-speaker">-->
+<!--                {{ range $spk := $slot.speakers }}-->
+<!--                    {{ $speaker := index $speakersmap (string $spk.speakerid) }}-->
+<!--                    {{ if $speaker.href }}-->
+<!--                        <a href="{{ $speaker.href }}" target="_blank">-->
+<!--                    {{ end }}-->
+<!--                    <li>-->
+<!--                        <div class="speaker {{ $speaker.class_sponsor }}">-->
+<!--                                <img loading="lazy" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">-->
+<!--                                {{ if ne $speaker.name "Orga" }}-->
+<!--                                    <p>{{ $speaker.name }}</p>-->
+<!--                                {{ end }}-->
+
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                    {{ if $speaker.href }}-->
+<!--                        </a>-->
+<!--                    {{ end }}-->
+<!--                {{ end }}-->
+<!--                </div>-->
+<!--                </ul>-->
+<!--            </header>-->
+<!--            <section>-->
+<!--&lt;!&ndash;                <a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">&ndash;&gt;-->
+<!--                    <h2 class="talk-title">{{ .name }}</h2>-->
+<!--&lt;!&ndash;                </a>&ndash;&gt;-->
+<!--&lt;!&ndash;                <h3 class="talk-date"> {{ if .salle }} 📍 Salle {{ .salle }} {{ end }}</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;                <h3 class="talk-date"> 🕒 {{ .date }}</h3>&ndash;&gt;-->
+<!--                <h3 class="talk-date">🍽️-->
+<!--                    {{ if eq .menu "babystep" }}-->
+<!--                        Premier pas dans le craft-->
+<!--                    {{ else if eq .menu "decode" }}-->
+<!--                        Faut pas décoder quand même-->
+<!--                    {{ else if eq .menu "open" }}-->
+<!--                        Vers de nouveaux horizons-->
+<!--                    {{ else if eq .menu "perfect" }}-->
+<!--                        Un pas de plus dans le craft-->
+<!--                    {{ else if eq .menu "others" }}-->
+<!--                        Et ailleurs, ça se passe comment ?-->
+<!--                    {{ end }}-->
+<!--                </h3>-->
+<!--                {{ if .roti }}-->
+<!--                <h3 class="talk-date">-->
+<!--                    <a href="{{ .roti }}" aria-label="feedback">💌 Consultez les feedbacks !</a>-->
+<!--                </h3>-->
+<!--                {{ end }}-->
+<!--&lt;!&ndash;                {{ if (eq .laptop "yes") }}&ndash;&gt;-->
+<!--&lt;!&ndash;                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                {{ else if eq .type "workshop" }}&ndash;&gt;-->
+<!--&lt;!&ndash;                    <p class=""> 💡  Ce workshop ne nécessite pas votre machine, uniquement votre envie de découvrir de nouvelles choses et votre bonne humeur !</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                {{ end }}&ndash;&gt;-->
+<!--                <p>{{ .description | safeHTML }}</p>-->
+<!--&lt;!&ndash;                <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>&ndash;&gt;-->
+
+<!--            </section>-->
+<!--            <footer>-->
+<!--                <div class="talk-type">-->
+<!--                    {{ if eq .type "talk" }}-->
+<!--                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" width="30px" fill="currentColor" class="bi bi-mic" style="margin-right: 0.75rem" viewBox="0 0 16 16">-->
+<!--                            <title>-->
+<!--                                {{ if .tooltip }}-->
+<!--                                    {{ .tooltip }}-->
+<!--                                {{ else }}-->
+<!--                                    Talk-->
+<!--                                {{ end }}-->
+<!--                            </title>-->
+<!--                            <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>-->
+<!--                            <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>-->
+<!--                        </svg>-->
+<!--                    {{ end }}-->
+<!--                    {{ if eq .type "workshop" }}-->
+<!--                        <img src="/img/schedule/workshop.png" title="Workshop" class="img-fluid" alt="workshop">-->
+<!--                    {{ end }}-->
+<!--                    <ul class="schedule-tags">-->
+<!--                        {{ range $category := $slot.categories }}-->
+<!--                        <li class="schedule-tag">{{ $category }}</li>-->
+<!--                        {{ end }}-->
+<!--                        {{ if .language }}-->
+<!--                            <li class="schedule-tag">{{ .language }}</li>-->
+<!--                        {{ end }}-->
+<!--                    </ul>-->
+<!--                    <div class="footer-bottom">-->
+<!--                        <a aria-label="Ouvrir la session {{ .name }}" class="schedule-link" href="/session/?talk={{ .id }}" target="_blank">-->
+<!--                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">-->
+<!--                                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>-->
+<!--                            </svg>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </footer>-->
+<!--        </article>-->
+<!--        </li>-->
+<!--    {{ end }}-->
+<!--    </ul>-->
+
+<h3 class="subtitle">Journée du Vendredi 7 Juin</h3>
 <p class="lead text-justify pl-3">
     Cette journée est une non-conférence. Cela signifie que le programme de la journée sera défini sur place,
     par les participantes et participants.
@@ -224,9 +233,9 @@
     où à laquelle il ou elle souhaiterait participer. Le planning de la journée est établi à partir de ces propositions.
 </p>
 
-<p class="lead text-justify" style="padding: 0rem 1rem;">
-    L'accueil des participants commence à <strong>8h15</strong>. L'Open Forum démarre à 9h.
-</p>
-<p class="lead text-justify" style="padding: 0rem 1rem;">
-    La journée se termine à <strong>17h30</strong>.
-</p>
+<!--<p class="lead text-justify" style="padding: 0rem 1rem;">-->
+<!--    L'accueil des participants commence à <strong>8h15</strong>. L'Open Forum démarre à 9h.-->
+<!--</p>-->
+<!--<p class="lead text-justify" style="padding: 0rem 1rem;">-->
+<!--    La journée se termine à <strong>17h30</strong>.-->
+<!--</p>-->
