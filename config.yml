@@ -503,6 +503,16 @@ params:
       high_picture: "/img/speakers/romeu_moura.jpeg"
       short_bio: "Agility & Systems thinking Evangelist"
 
+    thibaudcourtoison:
+      name: "Thibaud Courtoison"
+      photo: "/img/speakers/thibaud-courtoison.jpeg"
+      href: "https://www.linkedin.com/in/thibaud-courtoison"
+      text: "@errorname_"
+      company: "Prolong"
+      bio: ""
+      high_picture: "/img/speakers/thibaud-courtoison.jpeg"
+      short_bio: "Co-Founder & CTO @ Prolong"
+
     julientopçu:
       name: "Julien Topçu"
       photo: "/img/speakers/julientopcu.png"
