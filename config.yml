@@ -155,9 +155,9 @@ params:
   # List of Sponsors
   Sponsors:
     master:
-#      - name: "HackYourJob"
-#        logo: "/img/sponsors/hackyourjob_community.webp"
-#        url: "https://www.hackyourjob.com/"
+      - name: "KAIZEN Solutions"
+        logo: "/img/sponsors/kaizen.png"
+        url: "https://kaizen-solutions.net/"
 #      - name: "Zenika"
 #        logo: "/img/sponsors/zenika.png"
 #        url: "https://www.zenika.com/"
