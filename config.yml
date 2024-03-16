@@ -286,16 +286,26 @@ params:
 #      company: "Shodo"
 #      short_bio: "Développeur, Formateur TDD et Legacy remediation"
 #
-#    hadrienmenspellen:
-#      name: "Hadrien MENS-PELLEN"
-#      photo: "/img/speakers/Hadrien_MENS-PELLEN.png"
-#      high_picture: "/img/speakers/Hadrien_MENS-PELLEN.png"
-#      text: "@HadrienMP"
-#      href: "https://twitter.com/@HadrienMP"
-#      bio: "<p>Développeur freelance full-stack et amoureux du craft. J'aime notamment tout ce qui touche au travail à plusieurs. En particulier, le développement en équipe (alias Mob Programming). J'en ai notamment fait à temps plein pendant deux ans dans une équipe avec Thomas Carpaye. Ça m'a appris beaucoup de choses sur cette pratique que j'aime partager.</p>
-#            <p>Je suis aussi fan de programmation fonctionnelle avec Elm et de NoEstimates 😇.</p>
-#            <p>Avec Thomas, on anime une fois par mois, le meetup \"Mob Programming Francophone\", si vous voulez nous retrouver. Et sur Nantes, je suis souvent aux meetups Software Crafters et Human Talks.</p>"
-#      short_bio: "Développeur freelance full-stack et amoureux du craft"
+    hadrienmenspellen:
+      name: "Hadrien MENS-PELLEN"
+      photo: "/img/speakers/Hadrien_MENS-PELLEN.png"
+      high_picture: "/img/speakers/Hadrien_MENS-PELLEN.png"
+      text: "@HadrienMP"
+      href: "https://twitter.com/@HadrienMP"
+      bio: "<p>Développeur freelance full-stack et amoureux du craft. J'aime notamment tout ce qui touche au travail à plusieurs. En particulier, le développement en équipe (alias Mob Programming). J'en ai notamment fait à temps plein pendant deux ans dans une équipe avec Thomas Carpaye. Ça m'a appris beaucoup de choses sur cette pratique que j'aime partager.</p>
+            <p>Je suis aussi fan de programmation fonctionnelle avec Elm et de NoEstimates 😇.</p>
+            <p>Avec Thomas, on anime une fois par mois, le meetup \"Mob Programming Francophone\", si vous voulez nous retrouver. Et sur Nantes, je suis souvent aux meetups Software Crafters et Human Talks.</p>"
+      short_bio: "Développeur freelance full-stack et amoureux du craft"
+
+    regismedina:
+      name: "Régis Médina"
+      photo: "/img/speakers/regismedina.jpg"
+      high_picture: "/img/speakers/regismedina.jpg"
+      text: ""
+      company: "Keenly & aïno"
+      href: "https://www.regismedina.com/"
+      bio: "Co-founder at Keenly & aïno"
+      short_bio: "Co-founder at Keenly & aïno"
 #
 #    nicolassavois:
 #      name: "Nicolas Savois"
@@ -337,16 +347,16 @@ params:
 #      bio: "Je suis passionné par Java et son éco-système, avec toujours à coeur de développer des applications utiles et fonctionnelles. Je travaille depuis maintenant 10 ans chez Mirakl, en tant qu'Engineering Director. Les sujets autour de l'architecture, la persistence et la communication entre différentes applications me tiennent particulièrement à coeur."
 #      short_bio: "Lead Developer Java at Mirakl"
 #
-#    carolinedesplanques:
-#      name: "Caroline Desplanques"
-#      photo: "/img/speakers/carolinedesplanques.jpg"
-#      high_picture: "/img/speakers/carolinedesplanques.jpg"
-#      href: "https://twitter.com/@carolinedpl"
-#      text: "@carolinedpl"
-#      company: "Agicap"
-#      bio: "Happy dev at Agicap"
-#      short_bio: "Happy dev at Agicap"
-#
+    carolinedesplanques:
+      name: "Caroline Desplanques"
+      photo: "/img/speakers/carolinedesplanques.jpg"
+      high_picture: "/img/speakers/carolinedesplanques.jpg"
+      href: "https://twitter.com/@carolinedpl"
+      text: "@carolinedpl"
+      company: "Agicap"
+      bio: "Happy dev at Agicap"
+      short_bio: "Happy dev at Agicap"
+
     paulinejamin:
       name: "Pauline Jamin"
       photo: "/img/speakers/paulinejamin.jpeg"
@@ -357,6 +367,16 @@ params:
       bio: ""
       short_bio: ""
 
+    regismarteau:
+      name: "Régis Marteau"
+      photo: "/img/speakers/regismarteau.jpeg"
+      high_picture: "/img/speakers/regismarteau.jpeg"
+      href: "https://www.linkedin.com/in/marteau-regis"
+      text: ""
+      company: "Agicap"
+      bio: "Full Stack Tech Lead - Engineering Manager @ Agicap"
+      short_bio: "Full Stack Tech Lead - Engineering Manager @ Agicap"
+
     jeromeavoustin:
       name: "Jérôme Avoustin"
       photo: "/img/speakers/jerome_avoustin.jpeg"
@@ -366,16 +386,16 @@ params:
       company: "sunday"
       bio: ""
       short_bio: ""
-#
-#    arnaudthiefaine:
-#      name: "Arnaud Thiéfaine"
-#      photo: "/img/speakers/arnaud_thiefaine.jpeg"
-#      high_picture: "/img/speakers/arnaud_thiefaine.jpeg"
-#      href: "https://www.linkedin.com/in/arnaudthiefaine/"
-#      text: "@ArnaudThiefaine"
-#      company: "Arolla"
-#      bio: "Arnaud est développeur, coach craft et formateur chez Arolla. Passionné par la transmission des bonnes pratiques, il est également co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\" aux éditions Dunod et anime régulièrement des meetups et BBL autour du Craft."
-#      short_bio: "Coach Craft @Arolla, co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\""
+
+    arnaudthiefaine:
+      name: "Arnaud Thiéfaine"
+      photo: "/img/speakers/arnaud_thiefaine.jpeg"
+      high_picture: "/img/speakers/arnaud_thiefaine.jpeg"
+      href: "https://www.linkedin.com/in/arnaudthiefaine/"
+      text: "@ArnaudThiefaine"
+      company: "Arolla"
+      bio: "Arnaud est développeur, coach craft et formateur chez Arolla. Passionné par la transmission des bonnes pratiques, il est également co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\" aux éditions Dunod et anime régulièrement des meetups et BBL autour du Craft."
+      short_bio: "Coach Craft @Arolla, co-auteur du livre \"Software Craft : TDD, Clean Code et autres pratiques essentielles\""
 #
 #    arnaudlanglade:
 #      name: "Arnaud Langlade"
@@ -470,16 +490,16 @@ params:
 #      high_picture: "/img/speakers/high_michelleavomo.jpg"
 #      short_bio: "Fullstack dev / software crafter / Trainer @CodeWorks"
 #
-#    thomaspierrain:
-#      name: "Thomas Pierrain"
-#      photo: "/img/speakers/thomas_pierrain.jpeg"
-#      href: "http://twitter.com/tpierrain"
-#      text: "@tpierrain"
-#      company: "Agicap"
-#      bio: "VP of Engineering dans une scale-up Européenne en plein essor (Agicap), Thomas est un ancien entrepreneur, consultant, architecte et eXtreme Programmer obsédé par les usages (par opposition à l'approche orientée solution qu'on a un peu trop tendance à choisir dans notre métier). Également co-organisateur des meetups DDD FR et anciennement BDD Paris, Thomas aime utiliser le DDD et le TDD pour booster son efficacité et celle des autres au travail."
-#      high_picture: "/img/speakers/high_thomaspierrain.jpg"
-#      short_bio: "VP of Engineering & Symmathecist @Agicap"
-#
+    thomaspierrain:
+      name: "Thomas Pierrain"
+      photo: "/img/speakers/thomas_pierrain.jpeg"
+      href: "http://twitter.com/tpierrain"
+      text: "@tpierrain"
+      company: "Agicap"
+      bio: "VP of Engineering dans une scale-up Européenne en plein essor (Agicap), Thomas est un ancien entrepreneur, consultant, architecte et eXtreme Programmer obsédé par les usages (par opposition à l'approche orientée solution qu'on a un peu trop tendance à choisir dans notre métier). Également co-organisateur des meetups DDD FR et anciennement BDD Paris, Thomas aime utiliser le DDD et le TDD pour booster son efficacité et celle des autres au travail."
+      high_picture: "/img/speakers/high_thomaspierrain.jpg"
+      short_bio: "VP of Engineering & Symmathecist @Agicap"
+
     christophethibaut:
       name: "Christophe Thibaut"
       photo: "/img/speakers/christophe_thibaut.png"
@@ -675,15 +695,15 @@ params:
 #            <p>Depuis 2015, je tiens également un blog sur l'ux et l'agilité que j'alimente de manière très irrégulière : <a href=\"http://www.margaux-perrin.com/category/ergonomie/\" aria-label=\"Blog Margaux Perrin\">http://www.margaux-perrin.com/category/ergonomie/</a></p> "
 #      short_bio: "UX-research consultant | UX-design | Proxy Product Owner"
 #
-#    dorrabartaguiz:
-#      name: "Dorra Bartaguiz"
-#      photo: "/img/speakers/dorrabartaguiz.jpg"
-#      href: "https://twitter.com/DorraBartaguiz"
-#      text: "@DorraBartaguiz"
-#      company: "Arolla"
-#      bio: "<p>Dorra est VP Tech chez Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez! (245 Janvier 2022). Elle est passionnée par le développement et les bonnes pratiques. Elle partage son savoir-faire en publiant des articles et en animant des conférences et meetups. Elle a aussi enseigné dans une école d'ingénieurs à Paris pendant des années.</p>"
-#      high_picture: "/img/speakers/high_dorra.jpg"
-#      short_bio: "VP Tech @Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez!"
+    dorrabartaguiz:
+      name: "Dorra Bartaguiz"
+      photo: "/img/speakers/dorrabartaguiz.jpg"
+      href: "https://twitter.com/DorraBartaguiz"
+      text: "@DorraBartaguiz"
+      company: "Arolla"
+      bio: "<p>Dorra est VP Tech chez Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez! (245 Janvier 2022). Elle est passionnée par le développement et les bonnes pratiques. Elle partage son savoir-faire en publiant des articles et en animant des conférences et meetups. Elle a aussi enseigné dans une école d'ingénieurs à Paris pendant des années.</p>"
+      high_picture: "/img/speakers/high_dorra.jpg"
+      short_bio: "VP Tech @Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez!"
 
 #    emilienpecoul:
 #      name: "Emilien Pecoul"
