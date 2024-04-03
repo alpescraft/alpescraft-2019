@@ -31,8 +31,8 @@ params:
     - home
     - about
     - sponsors
+    - partners
     - schedule
-#    - partners
     - billetterie
     - location
     - newsletter
@@ -197,9 +197,9 @@ params:
 #    - name: "néosoft"
 #      logo: "/img/partners/neosoft.png"
 #      url: "https://www.neosoft.fr/"
-#    - name: "SoCraTes-FR"
-#      logo: "/img/partners/SoCraTes-FR.webp"
-#      url: "https://socrates-fr.github.io/"
+    - name: "SoCraTes-FR"
+      logo: "/img/partners/SoCraTes-FR.webp"
+      url: "https://socrates-fr.github.io/"
 #      - name: "AlpesJUG"
 #      logo: "/img/partners/alpesjug.webp"
 #      url: "http://www.alpesjug.org/"
