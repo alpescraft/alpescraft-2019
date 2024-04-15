@@ -2,6 +2,13 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
   color: #505050;
+
+  .with-separator {
+     &.list-inline li:after {
+        content:'|';
+        margin:0 5px;
+     }
+  }
 }
 
 footer .credit-photo-link {
