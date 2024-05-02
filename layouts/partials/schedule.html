@@ -69,13 +69,13 @@
 <br/>
 <!--<br/>-->
 
-<!--    <ul class="schedule-list-article" style="grid-template-columns: repeat(3,33%);">-->
-<!--    {{ range $index, $slot := .schedule }}-->
+    <ul class="schedule-list-article" style="grid-template-columns: repeat(3,33%);">
+    {{ range $index, $slot := .schedule }}
 
-<!--&lt;!&ndash;        {{ if eq $index 4 }}&ndash;&gt;-->
-<!--&lt;!&ndash;        <p class="lead pl-3" style="grid-column: 1 / -1;">&ndash;&gt;-->
-<!--&lt;!&ndash;            Si vous êtes en manque d’inspiration pour choisir les sessions ou que vous hésitez, nous vous avons préparé des menus. Ils ne sont là qu’à titre indicatif et nous vous encourageons à suivre vos envies et inspirations du moment.&ndash;&gt;-->
-<!--&lt;!&ndash;        </p>&ndash;&gt;-->
+<!--        {{ if eq $index 4 }}-->
+<!--        <p class="lead pl-3" style="grid-column: 1 / -1;">-->
+<!--            Si vous êtes en manque d’inspiration pour choisir les sessions ou que vous hésitez, nous vous avons préparé des menus. Ils ne sont là qu’à titre indicatif et nous vous encourageons à suivre vos envies et inspirations du moment.-->
+<!--        </p>-->
 <!--        <li class="schedule-list-article">-->
 <!--            <article class="talk babystep">-->
 <!--                <section>-->
@@ -121,38 +121,38 @@
 <!--                </section>-->
 <!--            </article>-->
 <!--        </li>-->
-<!--&lt;!&ndash;        {{ end }}&ndash;&gt;-->
-<!--        <li class="schedule-list-article">-->
-<!--            <article class="talk {{ .menu }}">-->
-<!--            <header style="width: 100%;">-->
-<!--                <ul class="schedule-speaker">-->
-<!--                {{ range $spk := $slot.speakers }}-->
-<!--                    {{ $speaker := index $speakersmap (string $spk.speakerid) }}-->
-<!--                    {{ if $speaker.href }}-->
-<!--                        <a href="{{ $speaker.href }}" target="_blank">-->
-<!--                    {{ end }}-->
-<!--                    <li>-->
-<!--                        <div class="speaker {{ $speaker.class_sponsor }}">-->
-<!--                                <img loading="lazy" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">-->
-<!--                                {{ if ne $speaker.name "Orga" }}-->
-<!--                                    <p>{{ $speaker.name }}</p>-->
-<!--                                {{ end }}-->
+<!--        {{ end }}-->
+        <li class="schedule-list-article">
+            <article class="talk {{ .menu }}">
+            <header style="width: 100%;">
+                <ul class="schedule-speaker">
+                {{ range $spk := $slot.speakers }}
+                    {{ $speaker := index $speakersmap (string $spk.speakerid) }}
+                    {{ if $speaker.href }}
+                        <a href="{{ $speaker.href }}" target="_blank">
+                    {{ end }}
+                    <li>
+                        <div class="speaker {{ $speaker.class_sponsor }}">
+                                <img loading="lazy" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
+                                {{ if ne $speaker.name "Orga" }}
+                                    <p>{{ $speaker.name }}</p>
+                                {{ end }}
 
-<!--                        </div>-->
-<!--                    </li>-->
-<!--                    {{ if $speaker.href }}-->
-<!--                        </a>-->
-<!--                    {{ end }}-->
-<!--                {{ end }}-->
-<!--                </div>-->
-<!--                </ul>-->
-<!--            </header>-->
-<!--            <section>-->
-<!--&lt;!&ndash;                <a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">&ndash;&gt;-->
-<!--                    <h2 class="talk-title">{{ .name }}</h2>-->
-<!--&lt;!&ndash;                </a>&ndash;&gt;-->
-<!--&lt;!&ndash;                <h3 class="talk-date"> {{ if .salle }} 📍 Salle {{ .salle }} {{ end }}</h3>&ndash;&gt;-->
-<!--&lt;!&ndash;                <h3 class="talk-date"> 🕒 {{ .date }}</h3>&ndash;&gt;-->
+                        </div>
+                    </li>
+                    {{ if $speaker.href }}
+                        </a>
+                    {{ end }}
+                {{ end }}
+                </div>
+                </ul>
+            </header>
+            <section>
+<!--                <a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">-->
+                    <h2 class="talk-title">{{ .name }}</h2>
+<!--                </a>-->
+<!--                <h3 class="talk-date"> {{ if .salle }} 📍 Salle {{ .salle }} {{ end }}</h3>-->
+<!--                <h3 class="talk-date"> 🕒 {{ .date }}</h3>-->
 <!--                <h3 class="talk-date">🍽️-->
 <!--                    {{ if eq .menu "babystep" }}-->
 <!--                        Premier pas dans le craft-->
@@ -166,61 +166,61 @@
 <!--                        Et ailleurs, ça se passe comment ?-->
 <!--                    {{ end }}-->
 <!--                </h3>-->
-<!--                {{ if .roti }}-->
-<!--                <h3 class="talk-date">-->
-<!--                    <a href="{{ .roti }}" aria-label="feedback">💌 Consultez les feedbacks !</a>-->
-<!--                </h3>-->
+                {{ if .roti }}
+                <h3 class="talk-date">
+                    <a href="{{ .roti }}" aria-label="feedback">💌 Consultez les feedbacks !</a>
+                </h3>
+                {{ end }}
+<!--                {{ if (eq .laptop "yes") }}-->
+<!--                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>-->
+<!--                    <br/>-->
+<!--                {{ else if eq .type "workshop" }}-->
+<!--                    <p class=""> 💡  Ce workshop ne nécessite pas votre machine, uniquement votre envie de découvrir de nouvelles choses et votre bonne humeur !</p>-->
+<!--                    <br/>-->
 <!--                {{ end }}-->
-<!--&lt;!&ndash;                {{ if (eq .laptop "yes") }}&ndash;&gt;-->
-<!--&lt;!&ndash;                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <br/>&ndash;&gt;-->
-<!--&lt;!&ndash;                {{ else if eq .type "workshop" }}&ndash;&gt;-->
-<!--&lt;!&ndash;                    <p class=""> 💡  Ce workshop ne nécessite pas votre machine, uniquement votre envie de découvrir de nouvelles choses et votre bonne humeur !</p>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <br/>&ndash;&gt;-->
-<!--&lt;!&ndash;                {{ end }}&ndash;&gt;-->
-<!--                <p>{{ .description | safeHTML }}</p>-->
-<!--&lt;!&ndash;                <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>&ndash;&gt;-->
+                <p>{{ .short_description | safeHTML }}</p>
+                <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>
 
-<!--            </section>-->
-<!--            <footer>-->
-<!--                <div class="talk-type">-->
-<!--                    {{ if eq .type "talk" }}-->
-<!--                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" width="30px" fill="currentColor" class="bi bi-mic" style="margin-right: 0.75rem" viewBox="0 0 16 16">-->
-<!--                            <title>-->
-<!--                                {{ if .tooltip }}-->
-<!--                                    {{ .tooltip }}-->
-<!--                                {{ else }}-->
-<!--                                    Talk-->
-<!--                                {{ end }}-->
-<!--                            </title>-->
-<!--                            <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>-->
-<!--                            <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>-->
-<!--                        </svg>-->
-<!--                    {{ end }}-->
-<!--                    {{ if eq .type "workshop" }}-->
-<!--                        <img src="/img/schedule/workshop.png" title="Workshop" class="img-fluid" alt="workshop">-->
-<!--                    {{ end }}-->
-<!--                    <ul class="schedule-tags">-->
-<!--                        {{ range $category := $slot.categories }}-->
-<!--                        <li class="schedule-tag">{{ $category }}</li>-->
-<!--                        {{ end }}-->
-<!--                        {{ if .language }}-->
-<!--                            <li class="schedule-tag">{{ .language }}</li>-->
-<!--                        {{ end }}-->
-<!--                    </ul>-->
-<!--                    <div class="footer-bottom">-->
-<!--                        <a aria-label="Ouvrir la session {{ .name }}" class="schedule-link" href="/session/?talk={{ .id }}" target="_blank">-->
-<!--                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">-->
-<!--                                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>-->
-<!--                            </svg>-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </footer>-->
-<!--        </article>-->
-<!--        </li>-->
-<!--    {{ end }}-->
-<!--    </ul>-->
+            </section>
+            <footer>
+                <div class="talk-type">
+                    {{ if eq .type "talk" }}
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" width="30px" fill="currentColor" class="bi bi-mic" style="margin-right: 0.75rem" viewBox="0 0 16 16">
+                            <title>
+                                {{ if .tooltip }}
+                                    {{ .tooltip }}
+                                {{ else }}
+                                    Talk
+                                {{ end }}
+                            </title>
+                            <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
+                            <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>
+                        </svg>
+                    {{ end }}
+                    {{ if eq .type "workshop" }}
+                        <img src="/img/schedule/workshop.png" title="Workshop" class="img-fluid" alt="workshop">
+                    {{ end }}
+                    <ul class="schedule-tags">
+                        {{ range $category := $slot.categories }}
+                        <li class="schedule-tag">{{ $category }}</li>
+                        {{ end }}
+                        {{ if .language }}
+                            <li class="schedule-tag">{{ .language }}</li>
+                        {{ end }}
+                    </ul>
+                    <div class="footer-bottom">
+                        <a aria-label="Ouvrir la session {{ .name }}" class="schedule-link" href="/session/?talk={{ .id }}" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </article>
+        </li>
+    {{ end }}
+    </ul>
 
 <h3 class="subtitle">Journée du Vendredi 7 Juin</h3>
 <p class="lead text-justify pl-3">
