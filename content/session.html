@@ -57,27 +57,6 @@
 <!--                        <a href="{{ .roti }}" aria-label="feedback">💌 Donnez votre feedback!</a>-->
 <!--                    </h3>-->
 
-                    <div class="schedule-calendar" style="display: none;">
-                        <div class="dropdown">
-                            <button class="btn dropdown-toggle rounded" style="border: 1px solid #212529;" type="button" id="dropdownMenuButton" data-toggle="dropdown">
-                                <svg style="margin-right: 0.75rem;" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
-                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-                                </svg>
-                                Ajouter au calendrier
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a target="_blank" class="dropdown-item" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220112T180000Z%2F20220112T200000Z&details={{ .description | safeHTML }}&text={{ .name | safeHTML }}">
-                                    <img loading="lazy" src="img/logo/gmail_icon.png" width="32" height="32">
-                                </a>
-                                <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">
-                                    <img loading="lazy" src="img/logo/outlook.png" width="32" height="32">
-                                </a>
-                                <a target="_blank" class="dropdown-item" href="https://outlook.office.com/calendar/0/deeplink/compose?body={{ .description | safeHTML }}&enddt=2022-01-12T20%3A00%3A00%2B00%3A00&location=New%20Earth&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-12T18%3A00%3A00%2B00%3A00&subject={{ .name | safeHTML }}">
-                                    <img loading="lazy" src="img/logo/office_365.png" width="32" height="32">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                     <p>{{ .description | safeHTML }}</p>
                     
 <!--                    <div class="talk-inscription">-->
@@ -101,6 +80,9 @@
 
                             {{ if $speaker.text }}
                                 <p><i class="fab fa-twitter-square"></i> <span><a href="https://twitter.com/{{ $speaker.text }}" about="twitter {{ $speaker.text }}">{{ $speaker.text }}</a></span></p>
+                            {{ end }}
+                            {{ if $speaker.mastodon }}
+                            <p><i class="fab fa-mastodon"></i> <span><a href="{{ $speaker.mastodon }}" about="mastodon {{ $speaker.mastodon }}">{{ $speaker.name }}</a></span></p>
                             {{ end }}
                         {{ end }}
                     {{ end }}

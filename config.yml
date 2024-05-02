@@ -293,11 +293,16 @@ params:
       photo: "/img/speakers/Hadrien_MENS-PELLEN.png"
       high_picture: "/img/speakers/Hadrien_MENS-PELLEN.png"
       text: "@HadrienMP"
-      href: "https://twitter.com/@HadrienMP"
-      bio: "<p>Développeur freelance full-stack et amoureux du craft. J'aime notamment tout ce qui touche au travail à plusieurs. En particulier, le développement en équipe (alias Mob Programming). J'en ai notamment fait à temps plein pendant deux ans dans une équipe avec Thomas Carpaye. Ça m'a appris beaucoup de choses sur cette pratique que j'aime partager.</p>
-            <p>Je suis aussi fan de programmation fonctionnelle avec Elm et de NoEstimates 😇.</p>
-            <p>Avec Thomas, on anime une fois par mois, le meetup \"Mob Programming Francophone\", si vous voulez nous retrouver. Et sur Nantes, je suis souvent aux meetups Software Crafters et Human Talks.</p>"
-      short_bio: "Développeur freelance full-stack et amoureux du craft"
+      mastodon: "https://mastodon.top/@hadrienmp"
+      href: "http://www.linkedin.com/pub/hadrien-mens-pellen/31/712/390"
+      bio: "<p>Passionné de code et payé pour le faire depuis 14 ans déjà.
+
+               J'ai travaillé dans de nombreux contextes, de la micro startup aux grand ministères français.
+
+               J'aime expérimenter et trouver des meilleurs façons de travailler autour du logiciel. Je travaille et partage sur tout ce qui touche à l'eXtreme Programming: TDD, Ensembles, NoEstimates, BDD, DDD, Programmation fonctionnelle (Elm, Rescript, Erlang) etc.
+
+               Vous pourrez me retrouver sur le meetup que j'anime @MobProgFr et dans les meetups de craft/dev en ligne et sur Nantes!</p>"
+      short_bio: "Développeur Freelance / Software Crafter"
 
     regismedina:
       name: "Régis Médina"
@@ -438,6 +443,7 @@ params:
       high_picture: "/img/speakers/philippebourgau.jpeg"
       href: "https://www.linkedin.com/in/philippe-bourgau-607a928/?originalSubdomain=fr"
       text: "@pbourgau"
+      mastodon: "https://piaille.fr/@pbourgau"
       company: "Murex"
       bio: "Je suis un coach craft et agile.
             Au travers d'ateliers interactifs et d'outils j'aide les développeurs à se sentir plus en sécurité et plus fiers de leur travail !"
@@ -1159,31 +1165,31 @@ params:
 #        - speaker:
 #          speakerid: "mohammedlamzira"
 
-#    - name: "Mob programming : ça vaut le coût"
-#      id: "mob"
+    - name: "Guerilla Programming : Petit manuel de craft en milieu hostile"
+      id: "Guerilla"
 #      menu: "perfect"
-#      short_description: "<p>Ça fait des mois que votre manager ne dors plus, iel en fait des cauchemars 😱. Le Mob Programming, une équipe sur un SEUL poste! Vous voulez couler la boîte ?</p>"
-#      description: "<p>Ça fait des mois que votre manager ne dors plus, iel en fait des cauchemars 😱. Le Mob Programming, une équipe sur un SEUL poste! Vous voulez couler la boîte ?</p>
-#           <p>Détrompez-vous. Correctement mis en œuvre, le mob programming peut faire des miracles. Peut-être même former votre meilleure équipe.</p>
-#           <p>À l'issue de cette session vous saurez :</p>
-#               <ul>
-#               <li>si c'est viable économiquement pour vous</li>
-#               <li>faciliter votre première session programmation en équipe !</li>
-#               </ul>
-#      "
-#      type: "talk"
+      short_description: "<p>Tu investis du temps pour te former aux pratiques craft et agiles. Mais dans ton équipe c'est pas toujours si simple. Certaines pratiques sont mal vues, voire carrément interdites. Tu te sens frustré·e.</p>"
+      description: "<p>Tu investis du temps pour te former aux pratiques craft et agiles. Mais dans ton équipe c'est pas toujours si simple. Certaines pratiques sont mal vues, voire carrément interdites. Tu te sens frustré·e.</p>
+
+      <p>Faut-il jeter l’éponge ? Attendre la bonne équipe ?</p>
+
+      <p>Ou est-ce qu’il est temps de se rebeller ?</p>
+
+      <p>Dans ce talk on va trouver comment utiliser tes pratiques préférées en environnement hostile. On verra comment ça peut être éthique et bénéfique pour ta carrière. Et comment te protéger.</p>
+
+      <p>Alors camarade, enfile ton camouflage de dev et rejoint la guérilla.</p>
+      "
+      type: "talk"
 #      salle: "Chamrousse"
 #      date: "15h15 à 16h00"
 #      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/u0NfItTd9tzGS82E8dy3"
-#      categories:
-#        - "Talk"
-#        - "Mob"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "hadrienmenspellen"
-#        - speaker:
-#          speakerid: "thomascarpaye"
+      categories:
+        - "Talk"
+        - "Guerilla"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "hadrienmenspellen"
 
 #    - name: "Je développe des apps front et pourtant j'aime le TDD"
 #      id: "frontTDD"
