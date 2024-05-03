@@ -506,9 +506,9 @@ params:
       href: "http://twitter.com/tpierrain"
       text: "@tpierrain"
       company: "Agicap"
-      bio: "VP of Engineering dans une scale-up Européenne en plein essor (Agicap), Thomas est un ancien entrepreneur, consultant, architecte et eXtreme Programmer obsédé par les usages (par opposition à l'approche orientée solution qu'on a un peu trop tendance à choisir dans notre métier). Également co-organisateur des meetups DDD FR et anciennement BDD Paris, Thomas aime utiliser le DDD et le TDD pour booster son efficacité et celle des autres au travail."
       high_picture: "/img/speakers/high_thomaspierrain.jpg"
-      short_bio: "VP of Engineering & Symmathecist @Agicap"
+      short_bio: "VP of Engineering au sein d'une scale-up européenne en plein essor (Agicap)"
+      bio: "VP of Engineering au sein d'une scale-up européenne en plein essor (Agicap), Thomas est un ancien entrepreneur, consultant, architecte et programmeur eXtreme obsédé par les cas d'usage (par opposition à l'approche orienté solution) depuis plus de 25 ans. Egalement co-organisateur des meetups DDD France (et ancien BDD Paris), Thomas aime utiliser l'autonomie, le DDD et le TDD pour booster son efficacité et celle des autres au travail."
 
     christophethibaut:
       name: "Christophe Thibaut"
@@ -1405,6 +1405,28 @@ params:
       speakers:
         - speaker:
           speakerid: "ndionisi"
+
+    - name: "Équilibrez le Stress, Maximisez la Collaboration : communiquez sans heurts à l’aide de la Process Communication"
+      id: "processcom"
+      #      menu: "open"
+      short_description: "<p>Process Communication (PCM) est un modèle redoutablement efficace dans la gestion du stress et de la collaboration, y compris entre des gens que tout semble opposer. Que ce soit au bureau ou à la maison, celui-ci nous offre des outils pratiques pour naviguer à travers diverses situations, en minimisant les conflits potentiels.</p>"
+      description: "<p>
+      Process Communication (PCM) est un modèle redoutablement efficace dans la gestion du stress et de la collaboration, y compris entre des gens que tout semble opposer. Que ce soit au bureau ou à la maison, celui-ci nous offre des outils pratiques pour naviguer à travers diverses situations, en minimisant les conflits potentiels.</p>
+
+      <p>Cette introduction à PCM vous donnera des outils concrets pour cibler votre communication, régler vos conflits et détendre l'atmosphère au quotidien. Aucun pré-requis n'est nécessaire, venez simplement comme vous êtes, prêt à découvrir comment optimiser vos interactions et réduire les conflits, que ce soit en réunion, en pair ou en mob/ensemble programming.
+      </p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      #      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/l8gDCM1Qdr5jfeCzK4eU"
+      categories:
+        - "Talk"
+        - "PCM"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "thomaspierrain"
+
 #
 #    - name: "Fin de la première journée"
 #      id: "cheers"
