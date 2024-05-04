@@ -382,9 +382,9 @@ params:
       high_picture: "/img/speakers/regismarteau.jpeg"
       href: "https://www.linkedin.com/in/marteau-regis"
       text: ""
-      company: "Agicap"
-      bio: "Full Stack Tech Lead - Engineering Manager @ Agicap"
-      short_bio: "Full Stack Tech Lead - Engineering Manager @ Agicap"
+      company: ""
+      short_bio: "Tech Lead et Engineering manager pendant presque 5 ans chez Agicap"
+      bio: "Tech Lead et Engineering manager pendant presque 5 ans chez Agicap, je suis développeur fullstack dans l’écosystème Microsoft depuis plus de 10 ans, drivé par l’impact utilisateur, les challenges fonctionnels, l’architecture et avant tout les stratégies de test. J’ai récemment quitté l’aventure pour me lancer à mon compte afin d’accompagner les entreprises et les équipes tech à se développer, à construire un logiciel scalable et maintenable en consolidant la qualité logiciel."
 
     jeromeavoustin:
       name: "Jérôme Avoustin"
@@ -1426,6 +1426,27 @@ params:
       speakers:
         - speaker:
           speakerid: "thomaspierrain"
+
+    - name: "Continuous Delivery : Straight to the Prod"
+      id: "straighttotheprod"
+      #      menu: "open"
+      short_description: "<p>Nous vous proposons un retour d’expérience sur le thème du continuous delivery, de ses avantages et de pratiques permettant d’y parvenir avec le maximum de sérénité, en vous partageant les problèmes rencontrés sur le chemin.</p>"
+      description: "<p>
+      Nous vous proposons un retour d’expérience sur le thème du continuous delivery, de ses avantages et de pratiques permettant d’y parvenir avec le maximum de sérénité, en vous partageant les problèmes rencontrés sur le chemin.</p>
+
+      <p>Cela sera l’occasion de passer en revue quelques exemples de flow de CI/CD, des stratégies de tests, mais aussi de parler de zero-downtime deployment, de monitoring et d’alerting afin de garantir notre qualité de service.
+      </p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      #      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/l8gDCM1Qdr5jfeCzK4eU"
+      categories:
+        - "Talk"
+        - "Continuous Delivery"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "regismarteau"
 
 #
 #    - name: "Fin de la première journée"
