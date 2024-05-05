@@ -1,11 +1,11 @@
 {{ range $key, $value := .titles.schedule }}
-<h2 class="section-title title">{{ $value.title }}</h2>
+<h2 class="section-title title" xmlns="http://www.w3.org/1999/html">{{ $value.title }}</h2>
 {{ end }}
 
 <p class="lead pl-3">
     La conférence se déroule sur 2 journées avec 2 formats différents.
     <br/>
-<!--    La conférence ouvrira ses portes à partir de 8h15 avec un accueil et un petit déjeuner. Les sessions débuteront à 9h et se poursuivront jusqu'à 18h.-->
+    La conférence ouvrira ses portes à partir de <strong>8h15</strong> avec un accueil et un petit déjeuner. Les sessions débuteront à <strong>9h</strong> et se poursuivront jusqu'à <strong>17h45</strong>.
 </p>
 
 <h3 class="subtitle">Journée du Jeudi 6 Juin</h3>
@@ -233,9 +233,10 @@
     où à laquelle il ou elle souhaiterait participer. Le planning de la journée est établi à partir de ces propositions.
 </p>
 
-<!--<p class="lead text-justify" style="padding: 0rem 1rem;">-->
-<!--    L'accueil des participants commence à <strong>8h15</strong>. L'Open Forum démarre à 9h.-->
-<!--</p>-->
-<!--<p class="lead text-justify" style="padding: 0rem 1rem;">-->
-<!--    La journée se termine à <strong>17h30</strong>.-->
-<!--</p>-->
+<p class="lead text-justify" style="padding: 0rem 1rem;">
+    L'accueil des participants commence à <strong>8h15</strong>.
+<!--    L'Open Forum démarre à 9h.-->
+</p>
+<p class="lead text-justify" style="padding: 0rem 1rem;">
+    La journée se termine à <strong>17h30</strong>.
+</p>
