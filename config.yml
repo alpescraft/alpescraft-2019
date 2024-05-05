@@ -852,7 +852,7 @@ params:
       type: "talk"
       #      salle: "Villard de Lans 1"
       #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/l8gDCM1Qdr5jfeCzK4eU"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/0MspqZwtBEPc28aamIPe"
       categories:
         - "Keynote"
         - "Lean"
@@ -1111,7 +1111,7 @@ params:
 #      laptop: "yes"
 #      salle: "Autrans 1"
 #      date: "14h15 à 16h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/uCw1jJcoJeckIssBcxJq"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/9Z4oGwkttGIywIH5kwFK"
       categories:
         - "Talk"
         - "Clean Code"
@@ -1132,7 +1132,7 @@ params:
       type: "talk"
 #      salle: "Villard de Lans 2"
 #      date: "14h15 à 16h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/qCx5BrVTDtpQkseF84Qo"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/xhdUvie8CVaKOyFi7JzA"
       categories:
         - "Talk"
         - "DDD"
@@ -1182,7 +1182,7 @@ params:
       type: "talk"
 #      salle: "Chamrousse"
 #      date: "15h15 à 16h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/u0NfItTd9tzGS82E8dy3"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/srtiEffhguNkVELFoo4V"
       categories:
         - "Talk"
         - "Guerilla"
@@ -1291,7 +1291,7 @@ params:
       type: "talk"
 #      salle: "Autrans 1"
 #      date: "16h15 à 17h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/Bq5Tv6yHwGCP8nkLQsuz"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/mYmx3b9Qgli6NngMNGyC"
       categories:
         - "Talk"
         - "Test"
@@ -1328,7 +1328,7 @@ params:
 #      menu: "babystep"
 #      salle: "Villard de Lans 2"
 #      date: "16h15 à 17h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/c00KLEfGRWDhsC1yMmjm"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
       categories:
         - "Workshop"
         - "Petits Pas"
@@ -1355,7 +1355,7 @@ params:
       type: "talk"
 #      salle: "Villard de Lans 1"
 #      date: "16h15 à 17h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/l8gDCM1Qdr5jfeCzK4eU"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/IpgZ7Jkh3m6vXadAXfpT"
       categories:
         - "Talk"
         - "Cold Case"
@@ -1375,7 +1375,7 @@ params:
       type: "talk"
       #      salle: "Villard de Lans 1"
       #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/l8gDCM1Qdr5jfeCzK4eU"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uimjbclpGIUbZ8ei1mrm"
       categories:
         - "Talk"
         - "Microservice"
@@ -1397,7 +1397,7 @@ params:
       type: "talk"
       #      salle: "Villard de Lans 1"
       #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/l8gDCM1Qdr5jfeCzK4eU"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/GXlYzzzCJatAy7oYtXVD"
       categories:
         - "Talk"
         - "Continuous Delivery"
@@ -1418,7 +1418,7 @@ params:
       type: "talk"
       #      salle: "Villard de Lans 1"
       #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/l8gDCM1Qdr5jfeCzK4eU"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/llOUSjWwyWSGDT7GaKyy"
       categories:
         - "Talk"
         - "PCM"
