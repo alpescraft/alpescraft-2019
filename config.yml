@@ -782,14 +782,27 @@ params:
 #      bio: "J'ai travaillé dans ma carrière aussi bien comme développeur que comme administrateur système. Je suis aujourd'hui Staff SRE chez Qonto où je travaille à la construction de la plateforme gérant les applications de l'entreprise."
 #      short_bio: "Staff Site Reliability Engineer at Qonto"
 #
-#    mirnamahfoud:
-#      name: "Mirna Mahfoud"
-#      photo: "/img/speakers/mirna_mahfoud.jpg"
-#      high_picture: "/img/speakers/mirna_mahfoud.jpg"
-#      href: "https://twitter.com/mirna_mahfoud"
-#      text: "@mirna_mahfoud"
-#      bio: "Software engineer, technical coach, world traveler, poetry and art lover, Jane Austen fan, tea fanatic."
-#      short_bio: "Software engineer, technical coach, world traveler, poetry and art lover, Jane Austen fan, tea fanatic."
+    mirnamahfoud:
+      name: "Mirna Mahfoud"
+      photo: "/img/speakers/mirna_mahfoud.jpg"
+      high_picture: "/img/speakers/mirna_mahfoud.jpg"
+      href: "https://twitter.com/mirna_mahfoud"
+      text: "@mirna_mahfoud"
+      bio: "Software engineer, technical coach, world traveler, poetry and art lover, Jane Austen fan, tea fanatic."
+      short_bio: "Software engineer, technical coach, world traveler, poetry and art lover, Jane Austen fan, tea fanatic."
+
+
+    cyrillemartraire:
+      name: "Cyrille Martraire"
+      photo: "/img/speakers/cyrille_martraire.jpg"
+      high_picture: "/img/speakers/cyrille_martraire.jpg"
+      href: "https://www.linkedin.com/in/martrair"
+      text: ""
+      company: "Arolla"
+      mastodon: "https://mastodon.social/@cyriux"
+      short_bio: "CTO co-fondateur d'Arolla"
+      bio: "Cyrille est CTO co-fondateur d'Arolla, un cabinet de conseil qui rassemble 120 enthousiastes de l'ingénierie logicielle moderne (Software Craft). Il est le fondateur de la communauté Paris Software Crafters, qui compte aujourd'hui plus près de 5000 membres, et est auteur et co-auteur de deux livres: \"Living Documentation\", chez Addison-Wesley et \"Software Craft\" chez Dunod. Cyrille est orateur régulier dans des conférences en Europe et au-delà.
+         Avec plus de 20 ans d'expérience en développement logiciel, Cyrille intervient toujours en conseil et formations en architecture et en conception, avec l'aide de Domain-Driven Design et avec une vraie curiosité pour tous les métiers, de la finance à la logistique ou au médical."
 
 
   Schedule:
@@ -1447,6 +1460,24 @@ params:
       speakers:
         - speaker:
           speakerid: "regismarteau"
+
+    - name: "La Théorie de la Residualité : une perspective nouvelle de l'architecture logicielle"
+      id: "theoriedelaresidulatite"
+      #      menu: "open"
+      short_description: "<p>La théorie de la résidualité est une approche novatrice où l'architecture logicielle d'un système émerge en tant que résultat de l'application de multiples stressors sur ce dernier. Il est bien entendu possible avec de l'expérience de concevoir une architecture solide sans connaître cette théorie, mais il y a des raisons de croire que les heuristiques des approches de conception modernes, telles que le Domain-Driven Design (DDD), pourraient être congruentes, dans une certaine mesure, avec ce que suggère la théorie de la résidualité.</p>"
+      description: "<p>La théorie de la résidualité est une approche novatrice où l'architecture logicielle d'un système émerge en tant que résultat de l'application de multiples stressors sur ce dernier. Il est bien entendu possible avec de l'expérience de concevoir une architecture solide sans connaître cette théorie, mais il y a des raisons de croire que les heuristiques des approches de conception modernes, telles que le Domain-Driven Design (DDD), pourraient être congruentes, dans une certaine mesure, avec ce que suggère la théorie de la résidualité.</p>
+      <p>Dans ce talk avec Cyrille, qui a collaboré avec Barry O'Reilly, l'inventeur de la théorie de la résidualité, vous découvrirez les grandes idées ainsi que les difficultés pour bien comprendre cette théorie initialement déstabilisante, en la comparant à l'état de l'art actuel. L'objectif sera de vous donner une compréhension de cette théorie qui peut sembler familière mais qui s'écarte pourtant des schémas de pensée habituels.</p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      #      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/TtdSRMSzc7KYHXYsXN5m"
+      categories:
+        - "Talk"
+        - "Architecture"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "cyrillemartraire"
 
 #
 #    - name: "Fin de la première journée"
