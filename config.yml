@@ -390,11 +390,11 @@ params:
       name: "Jérôme Avoustin"
       photo: "/img/speakers/jerome_avoustin.jpeg"
       high_picture: "/img/speakers/jerome_avoustin.jpeg"
-      href: "https://twitter.com/@JeromeAvoustin"
-      text: "@JeromeAvoustin"
-      company: "sunday"
-      bio: ""
-      short_bio: ""
+      href: ""
+      text: ""
+      company: ""
+      short_bio: "Produit des bugs depuis 20 ans, à l'aide de tests, d'exploration du domaine et de quelques fonctions."
+      bio: "Produit des bugs depuis 20 ans, à l'aide de tests, d'exploration du domaine et de quelques fonctions."
 
     arnaudthiefaine:
       name: "Arnaud Thiéfaine"
@@ -1478,6 +1478,26 @@ params:
       speakers:
         - speaker:
           speakerid: "cyrillemartraire"
+
+    - name: "Functional Habits"
+      id: "functionalhabits"
+      #      menu: "open"
+      short_description: "<p>Certains principes de programmation fonctionnelle sont devenus mainstream dans la plupart des langages. On pense notamment aux lambdas, qui donnent un autre statut aux fonctions. D'autres principes ont été amenés par des librairies, avec plus ou moins de succès. Plus récemment, on voit d'autre formes de typage être intégrées au langage, comme les sealed interfaces/classes en Java, associées au pattern matching.</p>"
+      description: "<p>
+      <p>Certains principes de programmation fonctionnelle sont devenus mainstream dans la plupart des langages. On pense notamment aux lambdas, qui donnent un autre statut aux fonctions. D'autres principes ont été amenés par des librairies, avec plus ou moins de succès. Plus récemment, on voit d'autre formes de typage être intégrées au langage, comme les sealed interfaces/classes en Java, associées au pattern matching.</p>
+      <p>Toutes les équipes ne s'approprient pas ces principes, pour différentes raisons. Parmi elle, j'ai pu constater la peur qu'engendre la programmation fonctionnelle, et particulièrement son rapport aux mathématiques.</p>
+      <p>J'aimerais démystifier cela, et montrer qu'il n'est pas nécessaire de maitriser cet aspect pour s'y engager. J'aimerais aussi partager comment certains de ces principes sont devenus des habitudes dans mon quotidien de développeur, les bénéfices que j'en retire, et comment cela m'a permis de voir mon métier autrement.</p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      #      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/8lxhLEZgCOuy3KQ9vcGx"
+      categories:
+        - "Talk"
+        - "Programmation Fonctionnelle"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "jeromeavoustin"
 
 #
 #    - name: "Fin de la première journée"
