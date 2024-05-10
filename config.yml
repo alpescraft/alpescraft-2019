@@ -439,6 +439,19 @@ params:
       bio: "Cyrille est CTO co-fondateur d'Arolla, un cabinet de conseil qui rassemble 120 enthousiastes de l'ingénierie logicielle moderne (Software Craft). Il est le fondateur de la communauté Paris Software Crafters, qui compte aujourd'hui plus près de 5000 membres, et est auteur et co-auteur de deux livres: \"Living Documentation\", chez Addison-Wesley et \"Software Craft\" chez Dunod. Cyrille est orateur régulier dans des conférences en Europe et au-delà.
          Avec plus de 20 ans d'expérience en développement logiciel, Cyrille intervient toujours en conseil et formations en architecture et en conception, avec l'aide de Domain-Driven Design et avec une vraie curiosité pour tous les métiers, de la finance à la logistique ou au médical."
 
+    sebastienpencreach:
+      name: "Sébastien PENCREACH"
+      photo: "/img/speakers/sebastien_pencreach.jpg"
+      high_picture: "/img/speakers/sebastien_pencreach.jpg"
+      href: "https://fr.linkedin.com/in/sebpen"
+      text: "@sebdia"
+      company: ""
+      mastodon: ""
+      short_bio: "CTO co-fondateur d'Arolla"
+      bio: "Développeur depuis 2009"
+
+
+
   Schedule:
 #    - name: "Accueil"
 #      id: "accueil"
@@ -1132,6 +1145,25 @@ params:
       speakers:
         - speaker:
           speakerid: "jeromeavoustin"
+
+    - name: "Comprendre et valoriser la sensibilité dans vos équipes grâce au craft."
+      id: "sensibilitecraft"
+      #      menu: "open"
+      short_description: "<p>C’est bien connu, nous avons tous des personnalités différentes ! nos expériences personnelles ou professionnelles nous ont façonné jour après jour, ont fait de nous qui nous sommes, nous ont donné cette personnalité avec cette sensibilité qui nous est propre. Quelle soit plus ou moins exacerbée, notre sensibilité nous guide tous les jours dans nos choix, nous influence inconsciemment dans nos réactions et nos interactions avec autrui.</p>"
+      description: "<p>C’est bien connu, nous avons tous des personnalités différentes ! nos expériences personnelles ou professionnelles nous ont façonné jour après jour, ont fait de nous qui nous sommes, nous ont donné cette personnalité avec cette sensibilité qui nous est propre. Quelle soit plus ou moins exacerbée, notre sensibilité nous guide tous les jours dans nos choix, nous influence inconsciemment dans nos réactions et nos interactions avec autrui.</p>
+        <p>Mais au fait, qu’entendons nous par « sensibilité » ? quel impact peut-elle avoir dans l’organisation d’une équipe ? Et si la pratique du craft aidait a tirer partie de nos différences de sensibilité ?</p>
+        <p>Ensemble, explorons cette facette de nos personnalités et réfléchissons comment le craft peut nous aider à la valoriser.</p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      #      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/0D1KpzG6GuOevVZzaDdW"
+      categories:
+        - "Talk"
+        - "Sensibilité"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "sebastienpencreach"
 
 #
 #    - name: "Fin de la première journée"
