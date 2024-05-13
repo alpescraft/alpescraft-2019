@@ -450,7 +450,16 @@ params:
       short_bio: "CTO co-fondateur d'Arolla"
       bio: "Développeur depuis 2009"
 
-
+    yacinehmito:
+      name: "Yacine Hmito"
+      photo: "/img/speakers/yacine_hmito.jpg"
+      high_picture: "/img/speakers/yacine_hmito.jpg"
+      href: "https://twitter.com/yacinehmito"
+      text: "@yacinehmito"
+      company: "Fabriq"
+      mastodon: ""
+      short_bio: "Yacine est Head of Technology chez Fabriq. Originaire de Rouen, il a travaillé auparavant chez Spendesk, où il y a amorcé l'adoption du DDD."
+      bio: "Yacine est Head of Technology chez Fabriq. Originaire de Rouen, il a travaillé auparavant chez Spendesk, où il y a amorcé l'adoption du DDD."
 
   Schedule:
 #    - name: "Accueil"
@@ -1164,6 +1173,26 @@ params:
       speakers:
         - speaker:
           speakerid: "sebastienpencreach"
+
+    - name: "Réconcilier Craft et Data-oriented programming"
+      id: "dataoriented"
+      #      menu: "open"
+      short_description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
+      C'est une discipline particulièrement adaptée aux application Web métier, mais elle jure avec la façon dont sont communément présentées certaines pratiques de Craft.</p>"
+      description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
+        C'est une discipline particulièrement adaptée aux application Web métier, mais elle jure avec la façon dont sont communément présentées certaines pratiques de Craft.</p>
+        <p>Découvrez comment les adapter, afin de bénéficier tout aussi bien des avantages du Data-oriented programming que de ceux du DDD, TDD, Clean code, etc.</p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      #      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/7Hs8eLlUpQhOV6xnF6K1"
+      categories:
+        - "Talk"
+        - "Data"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "yacinehmito"
 
 #
 #    - name: "Fin de la première journée"
