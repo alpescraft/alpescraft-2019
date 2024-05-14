@@ -339,9 +339,9 @@ params:
     christophethibaut:
       name: "Christophe Thibaut"
       photo: "/img/speakers/christophe_thibaut.png"
-      high_picture: "/img/speakers/high_christophe_thibaut.jpg"
+      high_picture: "/img/speakers/christophe_thibaut.png"
       href: "https://www.linkedin.com/in/christophe-thibaut-35b4657/"
-      text: "@ToF_"
+      text: ""
       company: "Freelance - XP Consultant"
       bio: "<p>Christophe Thibaut travaille en tant que consultant depuis 2005. Il a 32 ans d'expérience dans le développement, la gestion de projet, la direction de projet, ainsi que le conseil auprès de grandes entreprises. Il pratique et enseigne les méthodes agiles depuis 2001, aidant les développeurs, les leaders techniques ainsi que les managers à comprendre et adoptes ces méthodes.</p>
 
@@ -350,7 +350,7 @@ params:
             <p>Son expertise repose sur un processus d'apprentissage en continu des modèles et des outils : XP, Scrum, Lean, méthodes de coaching et outils de création de vision partagée. C'est un excellent communiquant à l'oral comme à l'écrit. C'est un facilitateur et un coach, ainsi qu'un observateur attentif, qui pratique l'écoute active.</p>
 
             <p>Christophe contribue à répandre les pratiques TDD et XP, le développement en agile, le coaching et le leadership. Il facilite, enseigne, conseille, et se nourrit de tout ce qui aide les équipes à créer et maintenir du code vivant.</p>"
-      short_bio: "Technical Advisor at CodeWorks | Coach Tech | Facilitateur | Auteur"
+      short_bio: "XP Coach | Coach Tech | Facilitateur | Auteur"
 
     romeumoura:
       name: "Romeu Moura"
@@ -582,29 +582,47 @@ params:
 #        - speaker:
 #          speakerid: "nicolassavois"
 
-#    - name: "L'Escape Game du Legacy. Patterns et Stratégies pour maintenir l'existant."
-#      id: "escapegame"
+    - name: "Test Driven Development et Code Legacy : (re)partir sur de bonnes bases."
+      id: "legacytdd"
 #      menu: "perfect"
 #      style: "grid-row: span 2;"
-#      short_description: "<p>\"Merci d'avoir pu venir si vite, c'est un peu le feu en ce moment. On a pas mal de problèmes de régression. Ah oui, les tests, On y a pensé un moment, mais avec le départ du tech lead, on a mis le sujet en stand by. Heureusement on arrive à déployer assez vite, c'est presse bouton. Ça au moins ça marche. Bon eh bien tu sais tout: y a plus qu'à ! Faut que je te laisse: j'ai un comité de pilotage.\"</p>"
-#      description: "<p>\"Merci d'avoir pu venir si vite, c'est un peu le feu en ce moment. On a pas mal de problèmes de régression. Ah oui, les tests, On y a pensé un moment, mais avec le départ du tech lead, on a mis le sujet en stand by. Heureusement on arrive à déployer assez vite, c'est presse bouton. Ça au moins ça marche. Bon eh bien tu sais tout: y a plus qu'à ! Faut que je te laisse: j'ai un comité de pilotage.\"</p>
-#
-#        <p>Nous sommes prêts pour le challenge, et la porte va se refermer. Stop ! Est-que nous avons les bonnes techniques ? TDD ? hmmm… DDD ? Si on pouvait… Hexagonal Architecture ? Un jour, peut-être.</p>
-#
-#        <p>Venez aiguiser votre kit de survie en Legacy.</p>
-#      "
-#      type: "workshop"
-#      laptop: "yes"
+      short_description: "<p>Dans cette session spéciale débutants en TDD, je vous invite à découvrir et pratiquer cette technique particulière qui fait tant parler… et à la démystifier.</p>
+                           <p>Deux ateliers consécutifs de 90 minutes !</p>"
+      description: "<p>Dans cette session spéciale débutants en TDD, je vous invite à découvrir et pratiquer cette technique particulière qui fait tant parler… et à la démystifier.</p>
+          <p>Deux ateliers consécutifs de 90 minutes !</p>
+          <p>le premier pour découvrir les éléments de base:</p>
+          <ul>
+               <li> ToDo List</li>
+               <li> 0,1,N</li>
+               <li> Fake it</li>
+               <li> Triangulate</li>
+               <li> Obvious Implementation</li>
+               <li> Test Doubles</li>
+          </ul>
+          <p>le second pour adapter la pratique au code legacy:</p>
+          <ul>
+               <li>Seam/Command</li>
+               <li>Characterization Test</li>
+               <li>Approval Testing</li>
+               <li>Test/Legacy 5 steps strategy</li>
+          </ul>
+          <p>Modalité: présentation + pratique en binômes (venez avec votre laptop)</p>
+
+           <p>Langage: Java / typescript / python… à déterminer en fonction des participants.</p>
+      "
+      type: "workshop"
+      laptop: "yes"
 #      salle: "Autrans 1"
 #      date: "10h30 - 12h15"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/r9w75ktfRv2RzpIi0T6b"
-#      categories:
-#        - "Workshop"
-#        - "Legacy"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "christophethibaut"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/KljhuVnGCIweFs4iIIC4"
+      categories:
+        - "Workshop"
+        - "TDD"
+        - "Legacy"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "christophethibaut"
 
 #    - name: "Crafter de meilleures UI, en pensant le DOM comme une API"
 #      id: "domasapi"

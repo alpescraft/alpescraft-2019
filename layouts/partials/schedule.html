@@ -171,13 +171,13 @@
                     <a href="{{ .roti }}" aria-label="feedback">💌 Consultez les feedbacks !</a>
                 </h3>
                 {{ end }}
-<!--                {{ if (eq .laptop "yes") }}-->
-<!--                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>-->
-<!--                    <br/>-->
-<!--                {{ else if eq .type "workshop" }}-->
+                {{ if (eq .laptop "yes") }}
+                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
+                    <br/>
+                {{ end }}
+<!--                {{/* else if eq .type "workshop" */}}-->
 <!--                    <p class=""> 💡  Ce workshop ne nécessite pas votre machine, uniquement votre envie de découvrir de nouvelles choses et votre bonne humeur !</p>-->
 <!--                    <br/>-->
-<!--                {{ end }}-->
                 <p>{{ .short_description | safeHTML }}</p>
                 <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>
 
