@@ -271,8 +271,8 @@ params:
       href: "https://twitter.com/@carolinedpl"
       text: "@carolinedpl"
       company: "Agicap"
-      bio: "Happy dev at Agicap"
-      short_bio: "Happy dev at Agicap"
+      bio: "Happy dev depuis 12 ans. Tech Lead et Engineering Manager chez Agicap. Co-organisatrice des Human Talks Lyon. Motivée par la qualité de service pour les utilisateurs. J'emploie quotidiennement des méthodologies telles que xDD et d'autres pratiques permettant de livrer rapidement et avec un nombre minimal de bugs."
+      short_bio: "Happy dev depuis 12 ans. Tech Lead et Engineering Manager chez Agicap. Co-organisatrice des Human Talks Lyon"
 
     paulinejamin:
       name: "Pauline Jamin"
@@ -420,11 +420,11 @@ params:
     dorrabartaguiz:
       name: "Dorra Bartaguiz"
       photo: "/img/speakers/dorrabartaguiz.jpg"
+      high_picture: "/img/speakers/high_dorra.jpg"
       href: "https://twitter.com/DorraBartaguiz"
       text: "@DorraBartaguiz"
       company: "Arolla"
-      bio: "<p>Dorra est VP Tech chez Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez! (245 Janvier 2022). Elle est passionnée par le développement et les bonnes pratiques. Elle partage son savoir-faire en publiant des articles et en animant des conférences et meetups. Elle a aussi enseigné dans une école d'ingénieurs à Paris pendant des années.</p>"
-      high_picture: "/img/speakers/high_dorra.jpg"
+      bio: "Dorra est VP Tech chez Arolla, co-auteure du livre Software Craft (édition Dunod). Elle est passionnée par le développement et les bonnes pratiques. Elle partage son savoir-faire en publiant des articles et en animant des conférences et meetups. Elle accompagne des équipes pour monter en compétence sur les sujets crafts. Elle a aussi enseigné dans une école d'ingénieurs à Paris."
       short_bio: "VP Tech @Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en chef du numéro spécial 100% féminin chez Programmez!"
 
     cyrillemartraire:
@@ -1126,12 +1126,14 @@ params:
       type: "talk"
       #      salle: "Villard de Lans 1"
       #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/l8gDCM1Qdr5jfeCzK4eU"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/cuYQo9qYBbNQ0kC53n8c"
       categories:
         - "Talk"
         - "Continuous Delivery"
       language: "🇫🇷"
       speakers:
+        - speaker:
+          speakerid: "carolinedesplanques"
         - speaker:
           speakerid: "regismarteau"
 
@@ -1211,6 +1213,26 @@ params:
       speakers:
         - speaker:
           speakerid: "yacinehmito"
+
+    - name: "Modern Craft Experience avec Github Copilot"
+      id: "moderncraft"
+      #      menu: "open"
+      short_description: "<p>Plongez dans l'univers du Software Craft avec notre atelier intensif dédié à Github Copilot. Découvrez comment utiliser cet outil pour optimiser vos pratiques de développement (Test-Driven Development : TDD et de Behavior-Driven Development : BDD), allant de la génération d'exemples et de tests unitaires à la création de documentation, en passant par la génération et le refactoring de code.</p>"
+      description: "<p>Plongez dans l'univers du Software Craft avec notre atelier intensif dédié à Github Copilot. Découvrez comment utiliser cet outil pour optimiser vos pratiques de développement (Test-Driven Development : TDD et de Behavior-Driven Development : BDD), allant de la génération d'exemples et de tests unitaires à la création de documentation, en passant par la génération et le refactoring de code. À travers un kata pratique, en binôme ou en groupe selon le nombre de participant.e.s, vous apprendrez à intégrer Github Copilot dans vos projets.</p>
+      <p>Merci de venir avec un ordinateur et une license Github Copilot ou équivalent, si vous ne l'avez pas ce n'est pas grave, on se débrouillera autrement.</p>"
+      type: "workshop"
+      #      salle: "Villard de Lans 1"
+      #      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/OoPMXbPetonvzaRrEOHp"
+      laptop: "yes"
+      categories:
+        - "Workshop"
+        - "AI"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "dorrabartaguiz"
+
 
 #
 #    - name: "Fin de la première journée"
