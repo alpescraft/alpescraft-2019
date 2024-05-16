@@ -472,19 +472,19 @@ params:
       bio: "Yacine est Head of Technology chez Fabriq. Originaire de Rouen, il a travaillé auparavant chez Spendesk, où il y a amorcé l'adoption du DDD."
 
   Schedule:
-#    - name: "Accueil"
-#      id: "accueil"
-#      style: "grid-column: 1 / -1;"
-#      short_description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
-#      description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
-#      date: "8h15 à 9h00"
-#      categories:
-#        - "👋"
-#        - "🥐"
-#        - "☕"
-#      speakers:
-#        - speaker:
-#          speakerid: "orga"
+    - name: "Accueil"
+      id: "accueil"
+      style: "grid-column: 1 / -1;"
+      short_description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
+      description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
+      date: "8h15 à 9h00"
+      categories:
+        - "👋"
+        - "🥐"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
 #
 #    - name: "Mot d'acceuil & Mot du sponsor - Zenika"
 #      id: "zenika"
@@ -522,6 +522,7 @@ params:
     - name: "Manager par les “pièces” : le fondement du lean qui transforme toute l’entreprise "
       id: "lean"
       #      menu: "open"
+      style: "grid-column: 1 / -1;"
       short_description: "<p>Le travail en entreprise donne le sentiment d’un paradoxe : tout est urgent, donc tout le monde prend des raccourcis pour aller vite, et pourtant tout semble aller de plus en plus lentement pour les clients et en interne. Pire encore, on a la frustration grandissante de ne pas avoir le temps de faire un travail de qualité.</p>"
       description: "<p>Le travail en entreprise donne le sentiment d’un paradoxe : tout est urgent, donc tout le monde prend des raccourcis pour aller vite, et pourtant tout semble aller de plus en plus lentement pour les clients et en interne. Pire encore, on a la frustration grandissante de ne pas avoir le temps de faire un travail de qualité.</p>
          <p>Il est pourtant possible de faire un travail soigné en un temps record : il suffit d’être très fort ! C’est tout l’objectif du lean.</p>
@@ -530,7 +531,7 @@ params:
       </p>"
       type: "talk"
       #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
+      date: "9h30 - 10h15"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/0MspqZwtBEPc28aamIPe"
       categories:
         - "Keynote"
@@ -539,63 +540,43 @@ params:
       speakers:
         - speaker:
           speakerid: "regismedina"
-#
-#    - name: "Pause"
-#      id: "pause"
-#      style: "grid-column: 1 / -1;"
-#      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
-#      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
-#      date: "10h15 à 10h30"
-#      categories:
-#        - "⍩⃝"
-#        - "🥐"
-#        - "☕"
-#      speakers:
-#        - speaker:
-#          speakerid: "orga"
 
-#    - name: "L'amelioration continue au coeur du Qonto Way"
-#      id: "qontoway"
-#      menu: "others"
-#      description: "<p>Comment notre culture de problem solving nous permet de continuer a shipper aussi vite (et mieux) qu'une startup.</p>"
-#      short_description: "<p>Comment notre culture de problem solving nous permet de continuer a shipper aussi vite (et mieux) qu'une startup.</p>"
-#      type: "talk"
-#      salle: "Chamrousse"
-#      date: "10h30 à 11h15"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/qigVfvXpnunQDL498rL5"
-#      categories:
-#        - "Talk"
-#        - "Startup"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "jpdenis"
+    - name: "Pause"
+      id: "pause"
+      style: "grid-column: 1 / -1;"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "10h15 à 10h30"
+      categories:
+        - "⍩⃝"
+        - "🥐"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
 
-#    - name: "Event Storming par la Pratique"
-#      id: "eventstorming"
-#      style: "grid-row: span 2;"
-#      menu: "babystep"
-#      short_description: "<p>L'Event Storming est un atelier permettant de modéliser les domaines métier présents dans une application, voire même une entreprise au global. Cet atelier permet d'aligner le langage et les concepts d'une équipe entière autour de ces concepts métiers</p>"
-#      description: "<p>L'Event Storming est un atelier permettant de modéliser les domaines métier présents dans une application, voire même une entreprise au global.
-#        <br/>
-#        Cet atelier permet d'aligner le langage et les concepts d'une équipe entière autour de ces concepts métiers. Nous utiliserons les différents éléments de l'event storming, autour d'un sujet simple mais pas simpliste, qui permettra d'utiliser toutes les techniques présentées par Alberto Brandolini dans son livre.</p>
-#        <p>De la Chaotic Exploration à l'Enforce the timeline en passant par l'Explicit Walk-through, et finir par le Reverse Narrative, nous poserons des stickers partout. On finira l'atelier en identifiant les domaines métiers et les bounded contextes associés.</p>"
-#      type: "workshop"
-#      salle: "Autrans 2"
-#      date: "10h30 - 12h15"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/E5HSLwxPllY9itd6Vdk4"
-#      categories:
-#        - "Workshop"
-#        - "Event Storming"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "nicolassavois"
+    - name: "La Théorie de la Residualité : une perspective nouvelle de l'architecture logicielle"
+      id: "theoriedelaresidulatite"
+      #      menu: "open"
+      short_description: "<p>La théorie de la résidualité est une approche novatrice où l'architecture logicielle d'un système émerge en tant que résultat de l'application de multiples stressors sur ce dernier. Il est bien entendu possible avec de l'expérience de concevoir une architecture solide sans connaître cette théorie, mais il y a des raisons de croire que les heuristiques des approches de conception modernes, telles que le Domain-Driven Design (DDD), pourraient être congruentes, dans une certaine mesure, avec ce que suggère la théorie de la résidualité.</p>"
+      description: "<p>La théorie de la résidualité est une approche novatrice où l'architecture logicielle d'un système émerge en tant que résultat de l'application de multiples stressors sur ce dernier. Il est bien entendu possible avec de l'expérience de concevoir une architecture solide sans connaître cette théorie, mais il y a des raisons de croire que les heuristiques des approches de conception modernes, telles que le Domain-Driven Design (DDD), pourraient être congruentes, dans une certaine mesure, avec ce que suggère la théorie de la résidualité.</p>
+      <p>Dans ce talk avec Cyrille, qui a collaboré avec Barry O'Reilly, l'inventeur de la théorie de la résidualité, vous découvrirez les grandes idées ainsi que les difficultés pour bien comprendre cette théorie initialement déstabilisante, en la comparant à l'état de l'art actuel. L'objectif sera de vous donner une compréhension de cette théorie qui peut sembler familière mais qui s'écarte pourtant des schémas de pensée habituels.</p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      date: "10h30 à 11h15"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/TtdSRMSzc7KYHXYsXN5m"
+      categories:
+        - "Talk"
+        - "Architecture"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "cyrillemartraire"
 
     - name: "Test Driven Development et Code Legacy : (re)partir sur de bonnes bases."
       id: "legacytdd"
 #      menu: "perfect"
-#      style: "grid-row: span 2;"
+      style: "grid-row: span 3;"
       short_description: "<p>Dans cette session spéciale débutants en TDD, je vous invite à découvrir et pratiquer cette technique particulière qui fait tant parler… et à la démystifier.</p>
                            <p>Deux ateliers consécutifs de 90 minutes !</p>"
       description: "<p>Dans cette session spéciale débutants en TDD, je vous invite à découvrir et pratiquer cette technique particulière qui fait tant parler… et à la démystifier.</p>
@@ -623,7 +604,7 @@ params:
       type: "workshop"
       laptop: "yes"
 #      salle: "Autrans 1"
-#      date: "10h30 - 12h15"
+      date: "10h30 - 12h15"
 #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/KljhuVnGCIweFs4iIIC4"
       categories:
         - "Workshop"
@@ -634,606 +615,16 @@ params:
         - speaker:
           speakerid: "christophethibaut"
 
-#    - name: "Crafter de meilleures UI, en pensant le DOM comme une API"
-#      id: "domasapi"
-#      menu: "open"
-#      #      style: "grid-column: span 2"
-#      short_description: "<p>Arrivant souvent sur les projets en \"mode pompier\", j'ai acquis des réflexes lorsqu'il s'agit de rapidement corriger ou terminer l'intégration d'application web.</p>
-#          <p>Mais comment faire pour maintenir ces bonnes pratiques une fois le feu éteint ? Comment améliorer le code sans casser l'UI ? Comment bien démarrer l'intégration d'une nouvelle application ?</p>"
-#      description: "<p>Arrivant souvent sur les projets en \"mode pompier\", j'ai acquis des réflexes lorsqu'il s'agit de rapidement corriger ou terminer l'intégration d'application web.</p>
-#
-#         <p>Mais comment faire pour maintenir ces bonnes pratiques une fois le feu éteint ? Comment améliorer le code sans casser l'UI ? Comment bien démarrer l'intégration d'une nouvelle application ?</p>
-#
-#         <p>Nos UI sont autant utilisées par des humains que par des lecteurs d'écran, ou encore des outils de test et des robots... il faut donc penser le DOM comme une API, et pas seulement reproduire une maquette.
-#         Autour de cet axe, je vous propose quelques outils et idées d'ateliers collaboratifs pour développer des interfaces testables, modulaires et accessibles. Et pourquoi pas un Design System ?</p>
-#
-#         <p>Vous repartirez avec une nouvelle vision du métier de l'intégration web, des pratiques et quelques outils à utiliser dès demain pour améliorer le quotidien de votre projet.</p>"
-#      type: "talk"
-#      salle: "Villard de Lans 2"
-#      date: "10h30 - 11h15"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/bbIeGpUgYCA2UI8kU4Gg"
-#      categories:
-#        - "Talk"
-#        - "Intégration Web"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "manoncarbonnel"
-
-#    - name: "The baby steps challenge"
-#      id: "babysteps"
-#      menu: "decode"
-#      style: "grid-row: span 2;"
-#      short_description: "<p>Faire des pas toujours plus petits, jusqu'à l'extrême, en refactorant une code base. Tel est le challenge qui vous est proposé par cet atelier qui vous amènera à pousser aux limites la pratique des petites mutations du code. Observez votre progression en temps réel et découvrez si vous parviendrez à faire les pas les plus petits.</p>"
-#      description: "<p>Faire des pas toujours plus petits, jusqu'à l'extrême, en refactorant une code base. Tel est le challenge qui vous est proposé par cet atelier qui vous amènera à pousser aux limites la pratique des petites mutations du code. Observez votre progression en temps réel et découvrez si vous parviendrez à faire les pas les plus petits.</p>
-#                   <p>En travaillant en pair, vous explorerez les différentes techniques pour toujours faire changer le code par petits incréments, et vous repartirez avec un regard changé sur vos commits sur votre projet quotidien.</p>"
-#      type: "workshop"
-#      laptop: "yes"
-#      salle: "Villard de Lans 1"
-#      date: "10h30 à 12h30"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/fQ6Ogecdrmz0rpiUVrPA"
-#      categories:
-#        - "Workshop"
-#        - "Legacy"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "johanmartinsson"
-#        - speaker:
-#          speakerid: "bastiendavid"
-
-#    - name: "Charge mentale : l'ingrédient oublié pour la performance et le bien-être des équipes"
-#      id: "chargementale"
-#      menu: "open"
-#      short_description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.
-#           <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>"
-#      description: "<p>La charge mentale est un facteur humain peu ou pas assez considéré dans l'organisation des projets logiciels.
-#          <p>Nous verrons en quoi celle-ci est pourtant un élément clé de la performance et du bien-être des équipes.</p>
-#          <p>Quel est le lien entre charge mental et structuration des équipes ?</p>
-#          <p>En quoi celle-ci peut avoir un impact sur la performance ?</p>
-#          <p>Nous l'explorerons au travers de la découverte de grands noms comme Felienne Hermans, J. Sweller, Yerkes & Dodson, et de références comme le livre Teams Topologies.</p>
-#      </p>"
-#      type: "talk"
-#      salle: "Chamrousse"
-#      date: "11h30 - 12h15"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/YtJw2psb5jfZeCROcxeS"
-#      categories:
-#        - "Talk"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "christophemaldivi"
-
-#    - name: "Microservices : ce que j'aurai voulu savoir avant"
-#      id: "microservice"
-#      menu: "others"
-#      short_description: "<p>Avez-vous souffert lors de la mise en œuvre de l'architecture de microservices (comme moi) ? Avez-vous échoué (comme moi) à les mettre en œuvre ?</p>"
-#      description: "<p>Avez-vous souffert lors de la mise en œuvre de l'architecture de microservices (comme moi) ? Avez-vous échoué (comme moi) à les mettre en œuvre ?</p>
-#                   <p>Dans ce talk, je vais vous parler de tous les effets indésirables inconnus et comment tirer parti d'une telle architecture basée sur mes expériences réelles ratées et réussies avec plusieurs clients entre des applications nouvelles et existantes.</p>"
-#      type: "talk"
-#      salle: "Villard de Lans 2"
-#      date: "11h30 - 12h15"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/e3j4wkXapgY8CuSCLnxi"
-#      categories:
-#        - "Talk"
-#        - "Microservice"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "khaledsouf"
-#
-#    - name: "Déjeuner"
-#      id: "dejeuner"
-#      style: "grid-column: 1 / -1;"
-#      short_description: ""
-#      description: ""
-#      salle: ""
-#      date: "12h15 à 13h50"
-#      categories:
-#        - "🍽️"
-#        - "🥪"
-#        - "☕"
-#      speakers:
-#        - speaker:
-#          speakerid: "orga"
-#
-#    - name: "Mot du sponsor - HackYourJob"
-#      id: "sponsor2"
-#      style: "grid-column: 1 / -1;"
-#      short_description: ""
-#      description: ""
-#      salle: "Chamrousse"
-#      date: "13h50 à 14h15"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/WIUeayHrZviy3pDqMFXL"
-#      categories:
-#        - "❤"
-#      speakers:
-#        - speaker:
-#          speakerid: "hackyourjob"
-
-#    - name: "Tests unitaires: essentiels et compliqués à la fois."
-#      id: "testu"
-#      style: "grid-row: span 1"
-#      menu: "babystep"
-#      short_description: "<p>Je me souviens lorsque j’ai commencé à développer que je pouvais coder pendant des heures sans exécuter mon code. La suite était moins marrante, je passais des heures à le débugger.</p>"
-#      description: "<p>
-#        Je me souviens lorsque j’ai commencé à développer que je pouvais coder pendant des heures sans exécuter mon code. La suite était moins marrante, je passais des heures à le débugger. J’ai découvert les tests par la suite et j’ai rapidement compris les avantages qu’ils apportaient. Cependant, ça n’a pas été facile d’écrire mes premiers tests. On peut commettre beaucoup d'erreurs qui rendent difficile à écrire et à maintenir. Je souhaite vous présenter ce que j’ai appris durant ces dernières années afin de faciliter l’écriture de vos tests.
-#      </p>"
-#      type: "talk"
-#      salle: "Chamrousse"
-#      date: "14h15 - 15h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/jXAfHx7iZcwa37uTMXKA"
-#      categories:
-#        - "Talk"
-#        - "Test"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "arnaudlanglade"
-
-#    - name: "Des jouets pour mieux construire ensemble"
-#      id: "empathytoys"
-#      menu: "open"
-#      style: "grid-row: span 2"
-#      short_description: "<p>Dans une équipe de développement logiciel, nous communiquons à travers le code et à propos du code, et souvent derrière des enjeux \"purement techniques\" se cachent de nombreux obstacles en vue desquels il est recommandé de cultiver ses \"soft skills\".</p>"
-#      description: "
-#        <p>Dans une équipe de développement logiciel, nous communiquons à travers le code et à propos du code, et souvent derrière des enjeux \"purement techniques\" se cachent de nombreux obstacles en vue desquels il est recommandé de cultiver ses \"soft skills\".</p>
-#        <p>Les Empathy Toys sont un puzzle collaboratif dont la solution n'est possible que lorsque les joueurs apprennent à se comprendre mutuellement et à communiquer avec fluidité. À travers cette session pratico-pratique et ludique, nous explorerons en quoi consiste nos propres barrières de communication, et la façon la plus efficace de lever ces barrières en équipe. En participant et/ou en observant des parties, nous aurons ainsi l'occasion d'approfondir de nombreux parallèles avec le développement de logiciel et la résolution de problèmes en équipe.</p>
-#        <p>Chaque partie fera l'objet de debriefs en petits groupes et en collectif avant de jouer à nouveau. Nous essaierons de modéliser ce qui fonctionne bien pour certains, ce qui est différents pour d'autres, et ce que nous pouvons en tirer pour nos projets.</p>"
-#      type: "workshop"
-#      salle: "Autrans 2"
-#      date: "14h15 à 16h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/dxHWlegWlKaLDUETSPyh"
-#      categories:
-#        - "Workshop"
-#        - "Soft skills"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "christophethibaut"
-
-    - name: "'Tidy First?' de Kent Beck, un guide pratique pour un code durable et rentable"
-      id: "tidyfirst"
-#      style: "grid-row: span 2"
-#      menu: "decode"
-      short_description: "<p>
-                                 \"Tidy First?\", le dernier ouvrage de Kent Beck, est le fruit de plusieurs années de réflexion sur le métier de développeur.</p>
-                                  <p>À travers une quinzaine de patterns, il nous enseigne comment réaliser de petits nettoyages de code qui peuvent considérablement simplifier notre travail quotidien. </p>"
-      description: "<p>
-        \"Tidy First?\", le dernier ouvrage de Kent Beck, est le fruit de plusieurs années de réflexion sur le métier de développeur.</p>
-         <p>À travers une quinzaine de patterns, il nous enseigne comment réaliser de petits nettoyages de code qui peuvent considérablement simplifier notre travail quotidien. </p>
-         <p>En illustrant ces patterns, nous montrerons comment les intégrer de manière efficace dans notre flux de travail. Nous aborderons également les aspects économiques souvent négligés du nettoyage de code : comment investir judicieusement dans la propreté du code pour garantir plus d'options et une valeur à long terme, même si cela signifie parfois sacrifier un peu de valeur immédiate. Que vous soyez un développeur débutant ou un expert chevronné, cette conférence vous fournira des stratégies pratiques pour maintenir un code propre et rentable tout au long de votre parcours de développement logiciel.
-      </p>"
-      type: "talk"
-#      laptop: "yes"
-#      salle: "Autrans 1"
-#      date: "14h15 à 16h00"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/9Z4oGwkttGIywIH5kwFK"
-      categories:
-        - "Talk"
-        - "Clean Code"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "arnaudthiefaine"
-
-    - name: "DDD et ReBAC : Révolutionner l'access management avec une approche métier"
-      id: "rebac"
-#      menu: "others"
-      style: "grid-row: span 2"
-      short_description: "<p>Lors de cette présentation, explorez comment le Domain Driven Design (DDD) et le Relationship Based Access Control (ReBAC) peuvent révolutionner la gestion des accès en mettant l'accent sur le métier et la collaboration entre les parties prenantes.</p>"
-      description: "<p>Lors de cette présentation, explorez comment le Domain Driven Design (DDD) et le Relationship Based Access Control (ReBAC) peuvent révolutionner la gestion des accès en mettant l'accent sur le métier et la collaboration entre les parties prenantes.</p>
-                    <p>Je partagerai notre expérience chez AGICAP lors de la transition d'un modèle d'autorisation basé sur les rôles (RBAC) vers un modèle ReBAC, en accord avec les dernières recommandations de l'OWASP. Découvrez comment nous avons appliqué les principes du DDD pour mieux appréhender et modéliser les besoins métier en matière d'autorisation, favorisant ainsi un système de gestion des accès plus performant et adaptable.</p>
-                    <p>Ce talk mettra en avant les concepts clés du DDD et du ReBAC, ainsi que les défis et enseignements tirés lors de leur mise en œuvre. Vous repartirez avec une compréhension approfondie de l'importance de placer le domaine métier au cœur de vos systèmes d'autorisation, vous permettant de créer une stratégie de gestion des accès plus solide et flexible.</p>
-        "
-      type: "talk"
-#      salle: "Villard de Lans 2"
-#      date: "14h15 à 16h00"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/xhdUvie8CVaKOyFi7JzA"
-      categories:
-        - "Talk"
-        - "DDD"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "paulinejamin"
-
-#    - name: "Always-Green Refactoring : Retravailler sa codebase en douceur et sans stress"
-#      id: "alwaysgreen"
-#      menu: "perfect"
-#      short_description: "<p>Est-ce que toi aussi dans ta codebase tu as des morceaux de code qui te donnent des sueurs froides ? Des territoires anxiogènes que tu fuis comme la peste et que personne n'ose toucher ?
-#         D'habitude, le refactoring c’est des semaines de frustration et de souffrance, avec la CI en PLS et des bugs en abondance.</p>"
-#      description: "<p>Est-ce que toi aussi dans ta codebase tu as des morceaux de code qui te donnent des sueurs froides ? Des territoires anxiogènes que tu fuis comme la peste et que personne n'ose toucher ?
-#                       D'habitude, le refactoring c’est des semaines de frustration et de souffrance, avec la CI en PLS et des bugs en abondance.</p>
-#          <p>De toutes façons, personne ne t'accorde du temps pour retravailler ce code qui a l'air de fonctionner en production.</p>
-#          <p>Viens coder avec nous pour apprendre des techniques simples comme la méthode mikado, les baby step, etc. tout en restant toujours au  vert.
-#            Découvre nos outils pour te ré approprier l'enfer de ton legacy en un minimum de temps et en faire un terrain de jeu où tu pourras refactorer avec confiance.</p>"
-#      type: "talk"
-#      salle: "Villard de Lans 1"
-#      date: "14h15 - 15h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/Ah3PlYBipaFS0sTB4J8d"
-#      categories:
-#        - "Talk"
-#        - "Refactoring"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "thomascarpaye"
-#        - speaker:
-#          speakerid: "mohammedlamzira"
-
-    - name: "Guerilla Programming : Petit manuel de craft en milieu hostile"
-      id: "Guerilla"
-#      menu: "perfect"
-      short_description: "<p>Tu investis du temps pour te former aux pratiques craft et agiles. Mais dans ton équipe c'est pas toujours si simple. Certaines pratiques sont mal vues, voire carrément interdites. Tu te sens frustré·e.</p>"
-      description: "<p>Tu investis du temps pour te former aux pratiques craft et agiles. Mais dans ton équipe c'est pas toujours si simple. Certaines pratiques sont mal vues, voire carrément interdites. Tu te sens frustré·e.</p>
-
-      <p>Faut-il jeter l’éponge ? Attendre la bonne équipe ?</p>
-
-      <p>Ou est-ce qu’il est temps de se rebeller ?</p>
-
-      <p>Dans ce talk on va trouver comment utiliser tes pratiques préférées en environnement hostile. On verra comment ça peut être éthique et bénéfique pour ta carrière. Et comment te protéger.</p>
-
-      <p>Alors camarade, enfile ton camouflage de dev et rejoint la guérilla.</p>
-      "
-      type: "talk"
-#      salle: "Chamrousse"
-#      date: "15h15 à 16h00"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/srtiEffhguNkVELFoo4V"
-      categories:
-        - "Talk"
-        - "Guerilla"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "hadrienmenspellen"
-
-#    - name: "Je développe des apps front et pourtant j'aime le TDD"
-#      id: "frontTDD"
-#      short_description: "<p>Bon nombre de développeurs sont maintenant convaincus de l'intérêt d'avoir des tests automatisés pour du développement professionnel et de qualité. Mais de plus en plus, une question récurrente est de savoir comment faire des tests dans des applications front et sur des composants visuels.</p>"
-#      description: "
-#        <p>Bon nombre de développeurs sont maintenant convaincus de l'intérêt d'avoir des tests automatisés pour du développement professionnel et de qualité. Mais de plus en plus, une question récurrente est de savoir comment faire des tests dans des applications front et sur des composants visuels.</p>
-#        <p>Lors de cette session, je vous propose de vous présenter ma solution actuelle pour avoir des tests automatisés dans mes apps front, et je vous donnerai ma réponse à la question \"Et le TDD dans le front ?\"</p>"
-#      type: "talk"
-#      menu: "babystep"
-#      salle: "Villard de Lans 1"
-#      date: "15h15 à 16h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/U8Er6smwgGSTsE0AltMN"
-#      categories:
-#        - "TDD"
-#        - "Frontend"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "xaviernopre"
-
-#    - name: "Pause"
-#      id: "pause"
-#      style: "grid-column: 1 / -1;"
-#      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
-#      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
-#      date: "16h00 à 16h15"
-#      categories:
-#        - "⍩⃝"
-#        - "🥐"
-#        - "☕"
-#      speakers:
-#        - speaker:
-#          speakerid: "orga"
-#
-#    - name: "L’Intégration Continue en Quatorze Pratiques"
-#      id: "integrationcontinue"
-#      menu: "perfect"
-#      short_description: "<p>L'intégration continue est déjà une pratique en soi. C'est l'une des plus importantes à adopter pour permettre le flux rapide dans la chaîne de valeur.</p>
-#        <p>Cependant, de nombreuses équipes pensent que l'intégration continue n'est qu'un problème d'outillage, pour ensuite dire qu'elles pratiquent l'intégration continue.
-#                                                                                                                                                                                               Pourtant, elles ne le font souvent pas et elles passent donc à côté de tous les avantages qui en découlent.</p>"
-#      description: "<p>L'intégration continue est déjà une pratique en soi. C'est l'une des plus importantes à adopter pour permettre le flux rapide dans la chaîne de valeur.</p>
-#           <p>Cependant, de nombreuses équipes pensent que l'intégration continue n'est qu'un problème d'outillage, pour ensuite dire qu'elles pratiquent l'intégration continue. Pourtant, elles ne le font souvent pas et elles passent donc à côté de tous les avantages qui en découlent.</p>
-#           <p>Cette session approfondit les pratiques qui, chacune en soi à leur manière, activent l'intégration continue ainsi que leurs relations entre eux.</p>
-#           <p>Apprenez comment obtenir un retour d'information rapide, une stabilité accrue et un débit de livraison plus élevé!</p>"
-#      type: "talk"
-#      salle: "Chamrousse"
-#      date: "16h15 - 17h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/5utF1BtMOyEknnkjUD7P"
-#      categories:
-#        - "Talk"
-#        - "Intégration Continue"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "tdpauw"
-
-#    - name: "Fishbowl : le craft, votre quotidien, et vous"
-#      id: "fishbowl"
-#      menu: "others"
-#      short_description: "<p>Vous vous demandez si c'est vraiment possible de faire du craft au quotidien dans votre travail ? Comment mettre en place du pair programing dans votre équipe ? Vous ne savez plus comment grandir ? Vous avez l'impression de travailler avec David Goodenough alors que vous rêveriez de travailler avec Kent Beck ?</p>"
-#      description: "<p>Vous vous demandez si c'est vraiment possible de faire du craft au quotidien dans votre travail ? Comment mettre en place du pair programing dans votre équipe ? Vous ne savez plus comment grandir ? Vous avez l'impression de travailler avec David Goodenough alors que vous rêveriez de travailler avec Kent Beck ?</p>
-#                   <p>Autour d'un format de discussion atypique, le fishbowl, prenons un moment ensemble pour échanger sur la place que prend le craft dans notre quotidien, des difficultés rencontrées, des questions, mais aussi des réussites.</p>"
-#      type: "workshop"
-#      salle: "Autrans 2"
-#      date: "16h15 à 17h00"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/xX0dLELfTbgMuYqkRai1"
-#      categories:
-#        - "Fishbowl"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "orga"
-#
-    - name: " Les tests E2E : une opportunité pour combiner toutes les compétences de l'équipe"
-      id: "testsE2E"
-#      menu: "decode"
-      short_description: "<p>
-                                Notre équipe est répartie principalement à Meylan et à Tunis.
-                                Cela ne nous empêche pas de travailler en étroite collaboration tous les jours.
-                                Pour apporter de la valeur à nos clients, nous déployons en production plusieurs fois par jour.
-                                Cela a beaucoup d’impact sur notre mode de fonctionnement et notre stratégie de test
-                                Nous vous invitons à écouter l'histoire de la mise en place collégiale des tests bout en bout.</p>"
-      description: "<p>
-      Notre équipe est répartie principalement à Meylan et à Tunis.
-      Cela ne nous empêche pas de travailler en étroite collaboration tous les jours.
-      Pour apporter de la valeur à nos clients, nous déployons en production plusieurs fois par jour.
-      Cela a beaucoup d’impact sur notre mode de fonctionnement et notre stratégie de test
-      Nous vous invitons à écouter l'histoire de la mise en place collégiale des tests bout en bout.</p>
-
-      <p>Dans cette session, vous allez découvrir :
-      <ul>
-        <li> Quels types de tests utilisons-nous dans quel contexte (unitaire, intégration, contrat, bout en bout,...).</li>
-        <li> Comment nous avons profité de toutes les compétences de l'équipe pour mettre en place des tests bout en bout.</li>
-        <li> Comment nous nous sommes partagés les responsabilités.</li>
-        <li> Comment la collaboration nous a ouvert des opportunités pour faire mieux.</li>
-        <li> Pourquoi nous ne gardons que peu de tests de bout en bout.</li>
-      </ul>
-      </p>"
-      type: "talk"
-#      salle: "Autrans 1"
-#      date: "16h15 à 17h00"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/mYmx3b9Qgli6NngMNGyC"
-      categories:
-        - "Talk"
-        - "Test"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "besmaelechi"
-        - speaker:
-          speakerid: "mathieucans"
-
-    - name: "L'étonnante efficacité des petits pas"
-      id: "babystep"
-      short_description: "<p>\"Qui va lentement va sûrement !\"<p>
-                          <p>Changement de spécifications, changement de code, perte de connaissances, changement de technologie, changement d'équipes, changement de marché... Écrire un logiciel est complexe ! Dans un tel environnement, nous devons avancer par de petits pas. Coder avec des petits pas, c'est diviser le développement en de minuscules incréments.</p>
-                          <p>Et si je vous disais que les petits pas sont la clé pour obtenir à la fois des fonctionnalités ET de la qualité ?</p>"
-      description: "
-      <p>\"Qui va lentement va sûrement !\"<p>
-      <p>Changement de spécifications, changement de code, perte de connaissances, changement de technologie, changement d'équipes, changement de marché... Écrire un logiciel est complexe ! Dans un tel environnement, nous devons avancer par de petits pas. Coder avec des petits pas, c'est diviser le développement en de minuscules incréments.</p>
-      <p>Et si je vous disais que les petits pas sont la clé pour obtenir à la fois des fonctionnalités ET de la qualité ?</p>
-
-      <p>Assistez à cette conférence pour comprendre pourquoi vous devriez apprendre à coder par petits pas MAINTENANT ! De plus:</p>
-      <ul>
-         <li> Vous partagerez vos propres histoires de programmation par petits pas</li>
-         <li> Vous entendrez l'histoire de comment je suis devenu accro aux petits pas</li>
-         <li> Vous découvrirez tous les sujets que les petits pas améliorent: Commits, Risques, Efforts, Tests, CI, CD, Priorisation, Travail d'équipe, Suivi des statuts, Héritage et Refactoring… !</li>
-         <li> Vous comprendrez pourquoi les petits pas sont importants d'un point de vue de la complexité</li>
-         <li> Vous apprendrez qu'on peut faire des petits pas, même dans des environnements difficiles !</li>
-         <li> Vous mettrez votre pied sur le chemin des pas de plus en plus petits</li>
-         <li> Vous vous entraînerez sur une piste de golf de petits pas !</li>
-         <li> ... et je vous reserve une surprise !</li>
-        </ul>
-      <p>Assistez à cette conférence pour (re)découvrir la pratique la plus négligée dans le développement de logiciels !</p>"
-      type: "workshop"
-#      menu: "babystep"
-#      salle: "Villard de Lans 2"
-#      date: "16h15 à 17h00"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
-      categories:
-        - "Workshop"
-        - "Petits Pas"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "philippebourgau"
-
-    - name: "Code Case : les méthodes de la crim adaptées au code!"
-      id: "codecase"
-#      menu: "open"
-      short_description: "<p>Et si nous nous mettions à tracker nos pain-points comme on track des criminels?</p>
-                               <p>Et si notre historique git recelait plus d'informations sur notre architecture que nous ne le pensions?</p>
-                               <p>Et si toutes les traces qui y sont laissées étaient autant d'indices exploitables au même titre qu'une empreinte digitale ou une trace ADN?</p>"
-      description: "<p>Et si nous nous mettions à tracker nos pain-points comme on track des criminels?</p>
-      <p>Et si notre historique git recelait plus d'informations sur notre architecture que nous ne le pensions?</p>
-      <p>Et si toutes les traces qui y sont laissées étaient autant d'indices exploitables au même titre qu'une empreinte digitale ou une trace ADN?</p>
-
-      <p>\"Your code as a crime scene\" est un livre de Adam Tornhill qui propose de transposer des techniques d'investigations criminelles reconnues dans le but de débusquer les problématiques de notre code.</p>
-      <p>L'auteur fournit en parallèle un ensemble d'outils qui prennent tout leur sens à la lecture des méthodes évoquées.</p>
-
-      <p>Retour d'expérience sur l'utilisation de quelques unes de ces techniques sur un projet réel, ce qu'elles ont permis d'identifier, de prendre comme action et les premiers bénéfices qui ont pu en ressortir.</p>
-      </p>"
-      type: "talk"
-#      salle: "Villard de Lans 1"
-#      date: "16h15 à 17h00"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/IpgZ7Jkh3m6vXadAXfpT"
-      categories:
-        - "Talk"
-        - "Cold Case"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "sylvaincoudert"
-
-    - name: "Model Mitosis : ne plus se tromper entre les microservices et le monolithe"
-      id: "mitosis"
-      #      menu: "open"
-      short_description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>"
-      description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>
-      <p>Finalement, il atteint une masse critique et devient un monolithe de code en spaghetti... Comment pouvons nous déterminer quand il est temps de modulariser notre logiciel ? Comment prendre la décision de le scinder en plusieurs modules ou services ? Comment gérer la différenciation progressive de nos modèles métiers tout en évitant les couplages inutiles ? Il n'est pas facile de découper son logiciel en deux car déterminer les bonnes frontières peut s'avérer être compliqué.</p>
-      <p>Découvrez avec nous le Model Mitosis, une approche dynamique utilisée pour diviser un modèle métier en plusieurs modèles qui seront façonnés et découplés de manière itérative. Gagnez en flexibilité afin de mieux déterminer quand diviser votre logiciel en plusieurs services tout en évitant de payer les coût d'échelle des microservices ou bien de devenir un monolithe distribué.</p>
-      </p>"
-      type: "talk"
-      #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uimjbclpGIUbZ8ei1mrm"
-      categories:
-        - "Talk"
-        - "Microservice"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "julientopçu"
-
-    - name: "Montée de version sans interruption"
-      id: "continuousdelivery"
-      #      menu: "open"
-      short_description: "<p>De plus en plus d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Pour cela, les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.<p>
-           <p>Les techniques classiques de Rolling Update permettent de réaliser une montée de version sans interruption de service assez facilement. La complexité intervient lorsque l'on gère une base de données relationnelle, et que l'on souhaite faire évoluer son schéma, le tout, toujours sans interruption de service.<p>"
-      description: "<p>De plus en plus d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Pour cela, les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.<p>
-        <p>Les techniques classiques de Rolling Update permettent de réaliser une montée de version sans interruption de service assez facilement. La complexité intervient lorsque l'on gère une base de données relationnelle, et que l'on souhaite faire évoluer son schéma, le tout, toujours sans interruption de service.<p>
-        <p>Depuis 8 ans, au sein de Mirakl, nous avons mis en place un système de montée de version sans interruption de service avec une base relationnelle.</p>
-        <p>Ce talk est un retour d'expérience présentant les mécanismes que nous avons mis en place pour réaliser ces montées de version sans interruption. Il se concentre sur la partie applicative, et les problématiques engendrées par un tel process. Le but est d'être le plus concret possible, avec des exemples de \"la vraie vie\", notamment quelques astuces pour réaliser ses migrations sans douleur avec des frameworks comme Hibernate ou jOOQ. Les exemples sont donnés en Java avec une base de données PostgreSQL, mais les principes s'appliquent à n'importe quel language et à la plupart des bases de données relationnelles.</p>
-      </p>"
-      type: "talk"
-      #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/GXlYzzzCJatAy7oYtXVD"
-      categories:
-        - "Talk"
-        - "Continuous Delivery"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "ndionisi"
-
-    - name: "Équilibrez le Stress, Maximisez la Collaboration : communiquez sans heurts à l’aide de la Process Communication"
-      id: "processcom"
-      #      menu: "open"
-      short_description: "<p>Process Communication (PCM) est un modèle redoutablement efficace dans la gestion du stress et de la collaboration, y compris entre des gens que tout semble opposer. Que ce soit au bureau ou à la maison, celui-ci nous offre des outils pratiques pour naviguer à travers diverses situations, en minimisant les conflits potentiels.</p>"
-      description: "<p>
-      Process Communication (PCM) est un modèle redoutablement efficace dans la gestion du stress et de la collaboration, y compris entre des gens que tout semble opposer. Que ce soit au bureau ou à la maison, celui-ci nous offre des outils pratiques pour naviguer à travers diverses situations, en minimisant les conflits potentiels.</p>
-
-      <p>Cette introduction à PCM vous donnera des outils concrets pour cibler votre communication, régler vos conflits et détendre l'atmosphère au quotidien. Aucun pré-requis n'est nécessaire, venez simplement comme vous êtes, prêt à découvrir comment optimiser vos interactions et réduire les conflits, que ce soit en réunion, en pair ou en mob/ensemble programming.
-      </p>"
-      type: "talk"
-      #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/llOUSjWwyWSGDT7GaKyy"
-      categories:
-        - "Talk"
-        - "PCM"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "thomaspierrain"
-
-    - name: "Continuous Delivery : Straight to the Prod"
-      id: "straighttotheprod"
-      #      menu: "open"
-      short_description: "<p>Nous vous proposons un retour d’expérience sur le thème du continuous delivery, de ses avantages et de pratiques permettant d’y parvenir avec le maximum de sérénité, en vous partageant les problèmes rencontrés sur le chemin.</p>"
-      description: "<p>
-      Nous vous proposons un retour d’expérience sur le thème du continuous delivery, de ses avantages et de pratiques permettant d’y parvenir avec le maximum de sérénité, en vous partageant les problèmes rencontrés sur le chemin.</p>
-
-      <p>Cela sera l’occasion de passer en revue quelques exemples de flow de CI/CD, des stratégies de tests, mais aussi de parler de zero-downtime deployment, de monitoring et d’alerting afin de garantir notre qualité de service.
-      </p>"
-      type: "talk"
-      #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/cuYQo9qYBbNQ0kC53n8c"
-      categories:
-        - "Talk"
-        - "Continuous Delivery"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "carolinedesplanques"
-        - speaker:
-          speakerid: "regismarteau"
-
-    - name: "La Théorie de la Residualité : une perspective nouvelle de l'architecture logicielle"
-      id: "theoriedelaresidulatite"
-      #      menu: "open"
-      short_description: "<p>La théorie de la résidualité est une approche novatrice où l'architecture logicielle d'un système émerge en tant que résultat de l'application de multiples stressors sur ce dernier. Il est bien entendu possible avec de l'expérience de concevoir une architecture solide sans connaître cette théorie, mais il y a des raisons de croire que les heuristiques des approches de conception modernes, telles que le Domain-Driven Design (DDD), pourraient être congruentes, dans une certaine mesure, avec ce que suggère la théorie de la résidualité.</p>"
-      description: "<p>La théorie de la résidualité est une approche novatrice où l'architecture logicielle d'un système émerge en tant que résultat de l'application de multiples stressors sur ce dernier. Il est bien entendu possible avec de l'expérience de concevoir une architecture solide sans connaître cette théorie, mais il y a des raisons de croire que les heuristiques des approches de conception modernes, telles que le Domain-Driven Design (DDD), pourraient être congruentes, dans une certaine mesure, avec ce que suggère la théorie de la résidualité.</p>
-      <p>Dans ce talk avec Cyrille, qui a collaboré avec Barry O'Reilly, l'inventeur de la théorie de la résidualité, vous découvrirez les grandes idées ainsi que les difficultés pour bien comprendre cette théorie initialement déstabilisante, en la comparant à l'état de l'art actuel. L'objectif sera de vous donner une compréhension de cette théorie qui peut sembler familière mais qui s'écarte pourtant des schémas de pensée habituels.</p>"
-      type: "talk"
-      #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/TtdSRMSzc7KYHXYsXN5m"
-      categories:
-        - "Talk"
-        - "Architecture"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "cyrillemartraire"
-
-    - name: "Functional Habits"
-      id: "functionalhabits"
-      #      menu: "open"
-      short_description: "<p>Certains principes de programmation fonctionnelle sont devenus mainstream dans la plupart des langages. On pense notamment aux lambdas, qui donnent un autre statut aux fonctions. D'autres principes ont été amenés par des librairies, avec plus ou moins de succès. Plus récemment, on voit d'autre formes de typage être intégrées au langage, comme les sealed interfaces/classes en Java, associées au pattern matching.</p>"
-      description: "<p>
-      <p>Certains principes de programmation fonctionnelle sont devenus mainstream dans la plupart des langages. On pense notamment aux lambdas, qui donnent un autre statut aux fonctions. D'autres principes ont été amenés par des librairies, avec plus ou moins de succès. Plus récemment, on voit d'autre formes de typage être intégrées au langage, comme les sealed interfaces/classes en Java, associées au pattern matching.</p>
-      <p>Toutes les équipes ne s'approprient pas ces principes, pour différentes raisons. Parmi elle, j'ai pu constater la peur qu'engendre la programmation fonctionnelle, et particulièrement son rapport aux mathématiques.</p>
-      <p>J'aimerais démystifier cela, et montrer qu'il n'est pas nécessaire de maitriser cet aspect pour s'y engager. J'aimerais aussi partager comment certains de ces principes sont devenus des habitudes dans mon quotidien de développeur, les bénéfices que j'en retire, et comment cela m'a permis de voir mon métier autrement.</p>"
-      type: "talk"
-      #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/8lxhLEZgCOuy3KQ9vcGx"
-      categories:
-        - "Talk"
-        - "Programmation Fonctionnelle"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "jeromeavoustin"
-
-    - name: "Comprendre et valoriser la sensibilité dans vos équipes grâce au craft."
-      id: "sensibilitecraft"
-      #      menu: "open"
-      short_description: "<p>C’est bien connu, nous avons tous des personnalités différentes ! nos expériences personnelles ou professionnelles nous ont façonné jour après jour, ont fait de nous qui nous sommes, nous ont donné cette personnalité avec cette sensibilité qui nous est propre. Quelle soit plus ou moins exacerbée, notre sensibilité nous guide tous les jours dans nos choix, nous influence inconsciemment dans nos réactions et nos interactions avec autrui.</p>"
-      description: "<p>C’est bien connu, nous avons tous des personnalités différentes ! nos expériences personnelles ou professionnelles nous ont façonné jour après jour, ont fait de nous qui nous sommes, nous ont donné cette personnalité avec cette sensibilité qui nous est propre. Quelle soit plus ou moins exacerbée, notre sensibilité nous guide tous les jours dans nos choix, nous influence inconsciemment dans nos réactions et nos interactions avec autrui.</p>
-        <p>Mais au fait, qu’entendons nous par « sensibilité » ? quel impact peut-elle avoir dans l’organisation d’une équipe ? Et si la pratique du craft aidait a tirer partie de nos différences de sensibilité ?</p>
-        <p>Ensemble, explorons cette facette de nos personnalités et réfléchissons comment le craft peut nous aider à la valoriser.</p>"
-      type: "talk"
-      #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/0D1KpzG6GuOevVZzaDdW"
-      categories:
-        - "Talk"
-        - "Sensibilité"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "sebastienpencreach"
-
-    - name: "Réconcilier Craft et Data-oriented programming"
-      id: "dataoriented"
-      #      menu: "open"
-      short_description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
-      C'est une discipline particulièrement adaptée aux application Web métier, mais elle jure avec la façon dont sont communément présentées certaines pratiques de Craft.</p>"
-      description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
-        C'est une discipline particulièrement adaptée aux application Web métier, mais elle jure avec la façon dont sont communément présentées certaines pratiques de Craft.</p>
-        <p>Découvrez comment les adapter, afin de bénéficier tout aussi bien des avantages du Data-oriented programming que de ceux du DDD, TDD, Clean code, etc.</p>"
-      type: "talk"
-      #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/7Hs8eLlUpQhOV6xnF6K1"
-      categories:
-        - "Talk"
-        - "Data"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "yacinehmito"
-
     - name: "Modern Craft Experience avec Github Copilot"
       id: "moderncraft"
-      #      menu: "open"
+      style: "grid-row: span 3;"
       short_description: "<p>Plongez dans l'univers du Software Craft avec notre atelier intensif dédié à Github Copilot. Découvrez comment utiliser cet outil pour optimiser vos pratiques de développement (Test-Driven Development : TDD et de Behavior-Driven Development : BDD), allant de la génération d'exemples et de tests unitaires à la création de documentation, en passant par la génération et le refactoring de code.</p>"
       description: "<p>Plongez dans l'univers du Software Craft avec notre atelier intensif dédié à Github Copilot. Découvrez comment utiliser cet outil pour optimiser vos pratiques de développement (Test-Driven Development : TDD et de Behavior-Driven Development : BDD), allant de la génération d'exemples et de tests unitaires à la création de documentation, en passant par la génération et le refactoring de code. À travers un kata pratique, en binôme ou en groupe selon le nombre de participant.e.s, vous apprendrez à intégrer Github Copilot dans vos projets.</p>
       <p>Merci de venir avec un ordinateur et une license Github Copilot ou équivalent, si vous ne l'avez pas ce n'est pas grave, on se débrouillera autrement.</p>"
       type: "workshop"
       #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/OoPMXbPetonvzaRrEOHp"
+      date: "10h30 à 12h15"
+    #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/OoPMXbPetonvzaRrEOHp"
       laptop: "yes"
       categories:
         - "Workshop"
@@ -1242,27 +633,6 @@ params:
       speakers:
         - speaker:
           speakerid: "dorrabartaguiz"
-
-    - name: "Art & Entropie: Du chaos dans ton frontend"
-      id: "chaosfrontend"
-      #      menu: "open"
-      short_description: "<p>Tendance du moment, le Chaos Engineering consiste à étudier le comportement d'un système face à des évènements externes souvent peu probables, mais ici provoqués (crash d'un serveur ou load-balancer, perte du DNS, ...)</p>
-                           <p>Le désordre ainsi généré apporte de nombreux enseignements sur le fonctionnement de nos systèmes, nous permettant par la suite d'améliorer leurs robustesses.</p>"
-      description: "<p>Tendance du moment, le Chaos Engineering consiste à étudier le comportement d'un système face à des évènements externes souvent peu probables, mais ici provoqués (crash d'un serveur ou load-balancer, perte du DNS, ...)</p>
-      <p>Le désordre ainsi généré apporte de nombreux enseignements sur le fonctionnement de nos systèmes, nous permettant par la suite d'améliorer leurs robustesses.</p>
-      <p>Mais étrangement, tous les livres, talks, tutoriels parlant de Chaos Engineering oublient un composant important de nos systèmes. Et pourtant, si il y a bien un périmètre dont l'imprévisibilité, l'incohérence, et le besoin de résilience sont au centre des préoccupations, il s'agit bien du frontend.</p>
-      <p>💥Chaos, frontend, art ancestral japonais 👘: 3 notions qui n’ont à priori rien à voir, mais qui ensemble ouvrent de nouvelles perspectives dans le développement de nos applications.</p>"
-      type: "Talk"
-      #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/A3BSkVAzbKTkq3G8R3Pw"
-      categories:
-        - "Talk"
-        - "Chaos Engineering"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "thibaudcourtoison"
 
     - name: "Vous n'êtes pas passionné(e). Et alors ?!"
       id: "leadbypassion"
@@ -1294,8 +664,8 @@ params:
       <p>Bonus: Si vous aimez les vikings, cette conférence est faite pour vous !</p>"
       type: "Talk"
       #      salle: "Villard de Lans 1"
-      #      date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/Ws5guzbt2XXbvsijlK8r"
+      date: "10h30 à 11h15"
+    #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/Ws5guzbt2XXbvsijlK8r"
       categories:
         - "Talk"
         - "Passion"
@@ -1304,17 +674,492 @@ params:
         - speaker:
           speakerid: "helviragoma"
 
+    - name: "Code Case : les méthodes de la crim adaptées au code!"
+      id: "codecase"
+      #      menu: "open"
+      short_description: "<p>Et si nous nous mettions à tracker nos pain-points comme on track des criminels?</p>
+                               <p>Et si notre historique git recelait plus d'informations sur notre architecture que nous ne le pensions?</p>
+                               <p>Et si toutes les traces qui y sont laissées étaient autant d'indices exploitables au même titre qu'une empreinte digitale ou une trace ADN?</p>"
+      description: "<p>Et si nous nous mettions à tracker nos pain-points comme on track des criminels?</p>
+      <p>Et si notre historique git recelait plus d'informations sur notre architecture que nous ne le pensions?</p>
+      <p>Et si toutes les traces qui y sont laissées étaient autant d'indices exploitables au même titre qu'une empreinte digitale ou une trace ADN?</p>
+
+      <p>\"Your code as a crime scene\" est un livre de Adam Tornhill qui propose de transposer des techniques d'investigations criminelles reconnues dans le but de débusquer les problématiques de notre code.</p>
+      <p>L'auteur fournit en parallèle un ensemble d'outils qui prennent tout leur sens à la lecture des méthodes évoquées.</p>
+
+      <p>Retour d'expérience sur l'utilisation de quelques unes de ces techniques sur un projet réel, ce qu'elles ont permis d'identifier, de prendre comme action et les premiers bénéfices qui ont pu en ressortir.</p>
+      </p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      date: "10h30 à 11h15"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/IpgZ7Jkh3m6vXadAXfpT"
+      categories:
+        - "Talk"
+        - "Cold Case"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "sylvaincoudert"
+
+    - name: "Pause"
+      id: "pause"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "11h15 à 11h30"
+      categories:
+        - "⍩⃝"
+        - "🥐"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "Pause"
+      id: "pause"
+      style: "grid-column: span 2;"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "11h15 à 11h30"
+      categories:
+        - "⍩⃝"
+        - "🥐"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
 #
-#    - name: "Fin de la première journée"
-#      id: "cheers"
+#    - name: "Mot du sponsor - HackYourJob"
+#      id: "sponsor2"
 #      style: "grid-column: 1 / -1;"
-#      short_description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
-#      description: "AlpesCraft ferme ses portes à 18h, en espérant vous retrouver pour la seconde journée"
-#      type: "closed"
+#      short_description: ""
+#      description: ""
+#      salle: "Chamrousse"
+#      date: "13h50 à 14h15"
+#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/WIUeayHrZviy3pDqMFXL"
 #      categories:
-#        - "👋"
-#        - "🍻"
-#      date: "Jeudi 01 Juin - 18h"
+#        - "❤"
 #      speakers:
 #        - speaker:
-#          speakerid: "orga"
+#          speakerid: "hackyourjob"
+
+
+    - name: "Réconcilier Craft et Data-oriented programming"
+      id: "dataoriented"
+      #      menu: "open"
+      short_description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
+      C'est une discipline particulièrement adaptée aux application Web métier, mais elle jure avec la façon dont sont communément présentées certaines pratiques de Craft.</p>"
+      description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
+        C'est une discipline particulièrement adaptée aux application Web métier, mais elle jure avec la façon dont sont communément présentées certaines pratiques de Craft.</p>
+        <p>Découvrez comment les adapter, afin de bénéficier tout aussi bien des avantages du Data-oriented programming que de ceux du DDD, TDD, Clean code, etc.</p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      date: "11h30 à 12h15"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/7Hs8eLlUpQhOV6xnF6K1"
+      categories:
+        - "Talk"
+        - "Data"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "yacinehmito"
+
+    - name: "'Tidy First?' de Kent Beck, un guide pratique pour un code durable et rentable"
+      id: "tidyfirst"
+#      style: "grid-row: span 2"
+#      menu: "decode"
+      short_description: "<p>
+                                 \"Tidy First?\", le dernier ouvrage de Kent Beck, est le fruit de plusieurs années de réflexion sur le métier de développeur.</p>
+                                  <p>À travers une quinzaine de patterns, il nous enseigne comment réaliser de petits nettoyages de code qui peuvent considérablement simplifier notre travail quotidien. </p>"
+      description: "<p>
+        \"Tidy First?\", le dernier ouvrage de Kent Beck, est le fruit de plusieurs années de réflexion sur le métier de développeur.</p>
+         <p>À travers une quinzaine de patterns, il nous enseigne comment réaliser de petits nettoyages de code qui peuvent considérablement simplifier notre travail quotidien. </p>
+         <p>En illustrant ces patterns, nous montrerons comment les intégrer de manière efficace dans notre flux de travail. Nous aborderons également les aspects économiques souvent négligés du nettoyage de code : comment investir judicieusement dans la propreté du code pour garantir plus d'options et une valeur à long terme, même si cela signifie parfois sacrifier un peu de valeur immédiate. Que vous soyez un développeur débutant ou un expert chevronné, cette conférence vous fournira des stratégies pratiques pour maintenir un code propre et rentable tout au long de votre parcours de développement logiciel.
+      </p>"
+      type: "talk"
+#      laptop: "yes"
+#      salle: "Autrans 1"
+      date: "11h30 à 12h15"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/9Z4oGwkttGIywIH5kwFK"
+      categories:
+        - "Talk"
+        - "Clean Code"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "arnaudthiefaine"
+
+    - name: "Montée de version sans interruption"
+      id: "continuousdelivery"
+      #      menu: "open"
+      short_description: "<p>De plus en plus d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Pour cela, les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.<p>
+           <p>Les techniques classiques de Rolling Update permettent de réaliser une montée de version sans interruption de service assez facilement. La complexité intervient lorsque l'on gère une base de données relationnelle, et que l'on souhaite faire évoluer son schéma, le tout, toujours sans interruption de service.<p>"
+      description: "<p>De plus en plus d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Pour cela, les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.<p>
+        <p>Les techniques classiques de Rolling Update permettent de réaliser une montée de version sans interruption de service assez facilement. La complexité intervient lorsque l'on gère une base de données relationnelle, et que l'on souhaite faire évoluer son schéma, le tout, toujours sans interruption de service.<p>
+        <p>Depuis 8 ans, au sein de Mirakl, nous avons mis en place un système de montée de version sans interruption de service avec une base relationnelle.</p>
+        <p>Ce talk est un retour d'expérience présentant les mécanismes que nous avons mis en place pour réaliser ces montées de version sans interruption. Il se concentre sur la partie applicative, et les problématiques engendrées par un tel process. Le but est d'être le plus concret possible, avec des exemples de \"la vraie vie\", notamment quelques astuces pour réaliser ses migrations sans douleur avec des frameworks comme Hibernate ou jOOQ. Les exemples sont donnés en Java avec une base de données PostgreSQL, mais les principes s'appliquent à n'importe quel language et à la plupart des bases de données relationnelles.</p>
+      </p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      date: "11h30 à 12h15"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/GXlYzzzCJatAy7oYtXVD"
+      categories:
+        - "Talk"
+        - "Continuous Delivery"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "ndionisi"
+
+    - name: "Déjeuner"
+      id: "dejeuner"
+      style: "grid-column: 1 / -1;"
+      short_description: ""
+      description: ""
+      salle: ""
+      date: "12h15 à 13h50"
+      categories:
+        - "🍽️"
+        - "🥪"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "À venir"
+      id: "moretocome"
+      short_description: ""
+      description: ""
+      salle: ""
+      date: "14h15 à 15h00"
+      categories:
+        - "?"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "L'étonnante efficacité des petits pas"
+      id: "babystep"
+      style: "grid-row: span 3;"
+      short_description: "<p>\"Qui va lentement va sûrement !\"<p>
+                          <p>Changement de spécifications, changement de code, perte de connaissances, changement de technologie, changement d'équipes, changement de marché... Écrire un logiciel est complexe ! Dans un tel environnement, nous devons avancer par de petits pas. Coder avec des petits pas, c'est diviser le développement en de minuscules incréments.</p>
+                          <p>Et si je vous disais que les petits pas sont la clé pour obtenir à la fois des fonctionnalités ET de la qualité ?</p>"
+      description: "
+      <p>\"Qui va lentement va sûrement !\"<p>
+      <p>Changement de spécifications, changement de code, perte de connaissances, changement de technologie, changement d'équipes, changement de marché... Écrire un logiciel est complexe ! Dans un tel environnement, nous devons avancer par de petits pas. Coder avec des petits pas, c'est diviser le développement en de minuscules incréments.</p>
+      <p>Et si je vous disais que les petits pas sont la clé pour obtenir à la fois des fonctionnalités ET de la qualité ?</p>
+
+      <p>Assistez à cette conférence pour comprendre pourquoi vous devriez apprendre à coder par petits pas MAINTENANT ! De plus:</p>
+      <ul>
+         <li> Vous partagerez vos propres histoires de programmation par petits pas</li>
+         <li> Vous entendrez l'histoire de comment je suis devenu accro aux petits pas</li>
+         <li> Vous découvrirez tous les sujets que les petits pas améliorent: Commits, Risques, Efforts, Tests, CI, CD, Priorisation, Travail d'équipe, Suivi des statuts, Héritage et Refactoring… !</li>
+         <li> Vous comprendrez pourquoi les petits pas sont importants d'un point de vue de la complexité</li>
+         <li> Vous apprendrez qu'on peut faire des petits pas, même dans des environnements difficiles !</li>
+         <li> Vous mettrez votre pied sur le chemin des pas de plus en plus petits</li>
+         <li> Vous vous entraînerez sur une piste de golf de petits pas !</li>
+         <li> ... et je vous reserve une surprise !</li>
+        </ul>
+      <p>Assistez à cette conférence pour (re)découvrir la pratique la plus négligée dans le développement de logiciels !</p>"
+      type: "workshop"
+      #      menu: "babystep"
+      #      salle: "Villard de Lans 2"
+      date: "14h15 à 16h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
+      categories:
+        - "Workshop"
+        - "Petits Pas"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "philippebourgau"
+
+    - name: "Équilibrez le Stress, Maximisez la Collaboration : communiquez sans heurts à l’aide de la Process Communication"
+      id: "processcom"
+      style: "grid-row: span 3;"
+      short_description: "<p>Process Communication (PCM) est un modèle redoutablement efficace dans la gestion du stress et de la collaboration, y compris entre des gens que tout semble opposer. Que ce soit au bureau ou à la maison, celui-ci nous offre des outils pratiques pour naviguer à travers diverses situations, en minimisant les conflits potentiels.</p>"
+      description: "<p>
+      Process Communication (PCM) est un modèle redoutablement efficace dans la gestion du stress et de la collaboration, y compris entre des gens que tout semble opposer. Que ce soit au bureau ou à la maison, celui-ci nous offre des outils pratiques pour naviguer à travers diverses situations, en minimisant les conflits potentiels.</p>
+
+      <p>Cette introduction à PCM vous donnera des outils concrets pour cibler votre communication, régler vos conflits et détendre l'atmosphère au quotidien. Aucun pré-requis n'est nécessaire, venez simplement comme vous êtes, prêt à découvrir comment optimiser vos interactions et réduire les conflits, que ce soit en réunion, en pair ou en mob/ensemble programming.
+      </p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      date: "14h15 à 16h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/llOUSjWwyWSGDT7GaKyy"
+      categories:
+        - "Talk"
+        - "PCM"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "thomaspierrain"
+
+    - name: "DDD et ReBAC : Révolutionner l'access management avec une approche métier"
+      id: "rebac"
+#      menu: "others"
+      short_description: "<p>Lors de cette présentation, explorez comment le Domain Driven Design (DDD) et le Relationship Based Access Control (ReBAC) peuvent révolutionner la gestion des accès en mettant l'accent sur le métier et la collaboration entre les parties prenantes.</p>"
+      description: "<p>Lors de cette présentation, explorez comment le Domain Driven Design (DDD) et le Relationship Based Access Control (ReBAC) peuvent révolutionner la gestion des accès en mettant l'accent sur le métier et la collaboration entre les parties prenantes.</p>
+                    <p>Je partagerai notre expérience chez AGICAP lors de la transition d'un modèle d'autorisation basé sur les rôles (RBAC) vers un modèle ReBAC, en accord avec les dernières recommandations de l'OWASP. Découvrez comment nous avons appliqué les principes du DDD pour mieux appréhender et modéliser les besoins métier en matière d'autorisation, favorisant ainsi un système de gestion des accès plus performant et adaptable.</p>
+                    <p>Ce talk mettra en avant les concepts clés du DDD et du ReBAC, ainsi que les défis et enseignements tirés lors de leur mise en œuvre. Vous repartirez avec une compréhension approfondie de l'importance de placer le domaine métier au cœur de vos systèmes d'autorisation, vous permettant de créer une stratégie de gestion des accès plus solide et flexible.</p>
+        "
+      type: "talk"
+#      salle: "Villard de Lans 2"
+      date: "14h15 à 15h00"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/xhdUvie8CVaKOyFi7JzA"
+      categories:
+        - "Talk"
+        - "DDD"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "paulinejamin"
+
+    - name: "Continuous Delivery : Straight to the Prod"
+      id: "straighttotheprod"
+      #      menu: "open"
+      short_description: "<p>Nous vous proposons un retour d’expérience sur le thème du continuous delivery, de ses avantages et de pratiques permettant d’y parvenir avec le maximum de sérénité, en vous partageant les problèmes rencontrés sur le chemin.</p>"
+      description: "<p>
+      Nous vous proposons un retour d’expérience sur le thème du continuous delivery, de ses avantages et de pratiques permettant d’y parvenir avec le maximum de sérénité, en vous partageant les problèmes rencontrés sur le chemin.</p>
+
+      <p>Cela sera l’occasion de passer en revue quelques exemples de flow de CI/CD, des stratégies de tests, mais aussi de parler de zero-downtime deployment, de monitoring et d’alerting afin de garantir notre qualité de service.
+      </p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      date: "14h15 à 15h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/cuYQo9qYBbNQ0kC53n8c"
+      categories:
+        - "Talk"
+        - "Continuous Delivery"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "carolinedesplanques"
+        - speaker:
+          speakerid: "regismarteau"
+
+    - name: "Pause"
+      id: "pause"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "15h00 à 15h15"
+      categories:
+        - "⍩⃝"
+        - "☕"
+        - "🪅"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "Pause"
+      id: "pause"
+      style: "grid-column: span 2;"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "15h00 à 15h15"
+      categories:
+        - "⍩⃝"
+        - "☕"
+        - "⚡"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "À venir"
+      id: "moretocome"
+      short_description: ""
+      description: ""
+      salle: ""
+      date: "15h15 à 16h00"
+      categories:
+        - "?"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "Functional Habits"
+      id: "functionalhabits"
+      #      menu: "open"
+      short_description: "<p>Certains principes de programmation fonctionnelle sont devenus mainstream dans la plupart des langages. On pense notamment aux lambdas, qui donnent un autre statut aux fonctions. D'autres principes ont été amenés par des librairies, avec plus ou moins de succès. Plus récemment, on voit d'autre formes de typage être intégrées au langage, comme les sealed interfaces/classes en Java, associées au pattern matching.</p>"
+      description: "<p>
+      <p>Certains principes de programmation fonctionnelle sont devenus mainstream dans la plupart des langages. On pense notamment aux lambdas, qui donnent un autre statut aux fonctions. D'autres principes ont été amenés par des librairies, avec plus ou moins de succès. Plus récemment, on voit d'autre formes de typage être intégrées au langage, comme les sealed interfaces/classes en Java, associées au pattern matching.</p>
+      <p>Toutes les équipes ne s'approprient pas ces principes, pour différentes raisons. Parmi elle, j'ai pu constater la peur qu'engendre la programmation fonctionnelle, et particulièrement son rapport aux mathématiques.</p>
+      <p>J'aimerais démystifier cela, et montrer qu'il n'est pas nécessaire de maitriser cet aspect pour s'y engager. J'aimerais aussi partager comment certains de ces principes sont devenus des habitudes dans mon quotidien de développeur, les bénéfices que j'en retire, et comment cela m'a permis de voir mon métier autrement.</p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      date: "15h15 à 16h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/8lxhLEZgCOuy3KQ9vcGx"
+      categories:
+        - "Talk"
+        - "Programmation Fonctionnelle"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "jeromeavoustin"
+
+    - name: "Guerilla Programming : Petit manuel de craft en milieu hostile"
+      id: "Guerilla"
+#      menu: "perfect"
+      short_description: "<p>Tu investis du temps pour te former aux pratiques craft et agiles. Mais dans ton équipe c'est pas toujours si simple. Certaines pratiques sont mal vues, voire carrément interdites. Tu te sens frustré·e.</p>"
+      description: "<p>Tu investis du temps pour te former aux pratiques craft et agiles. Mais dans ton équipe c'est pas toujours si simple. Certaines pratiques sont mal vues, voire carrément interdites. Tu te sens frustré·e.</p>
+
+      <p>Faut-il jeter l’éponge ? Attendre la bonne équipe ?</p>
+
+      <p>Ou est-ce qu’il est temps de se rebeller ?</p>
+
+      <p>Dans ce talk on va trouver comment utiliser tes pratiques préférées en environnement hostile. On verra comment ça peut être éthique et bénéfique pour ta carrière. Et comment te protéger.</p>
+
+      <p>Alors camarade, enfile ton camouflage de dev et rejoint la guérilla.</p>
+      "
+      type: "talk"
+#      salle: "Chamrousse"
+      date: "15h15 à 16h00"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/srtiEffhguNkVELFoo4V"
+      categories:
+        - "Talk"
+        - "Guerilla"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "hadrienmenspellen"
+
+    - name: "Pause"
+      id: "pause"
+      style: "grid-column: 1 / -1;"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "16h00 à 16h15"
+      categories:
+        - "⍩⃝"
+        - "☕"
+        - "👥"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "Model Mitosis : ne plus se tromper entre les microservices et le monolithe"
+      id: "mitosis"
+      #      menu: "open"
+      short_description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>"
+      description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>
+      <p>Finalement, il atteint une masse critique et devient un monolithe de code en spaghetti... Comment pouvons nous déterminer quand il est temps de modulariser notre logiciel ? Comment prendre la décision de le scinder en plusieurs modules ou services ? Comment gérer la différenciation progressive de nos modèles métiers tout en évitant les couplages inutiles ? Il n'est pas facile de découper son logiciel en deux car déterminer les bonnes frontières peut s'avérer être compliqué.</p>
+      <p>Découvrez avec nous le Model Mitosis, une approche dynamique utilisée pour diviser un modèle métier en plusieurs modèles qui seront façonnés et découplés de manière itérative. Gagnez en flexibilité afin de mieux déterminer quand diviser votre logiciel en plusieurs services tout en évitant de payer les coût d'échelle des microservices ou bien de devenir un monolithe distribué.</p>
+      </p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uimjbclpGIUbZ8ei1mrm"
+      categories:
+        - "Talk"
+        - "Microservice"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "julientopçu"
+
+    - name: "À venir"
+      id: "moretocome"
+      short_description: ""
+      description: ""
+      salle: ""
+      date: "16h15 à 17h00"
+      categories:
+        - "?"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "Comprendre et valoriser la sensibilité dans vos équipes grâce au craft."
+      id: "sensibilitecraft"
+      #      menu: "open"
+      short_description: "<p>C’est bien connu, nous avons tous des personnalités différentes ! nos expériences personnelles ou professionnelles nous ont façonné jour après jour, ont fait de nous qui nous sommes, nous ont donné cette personnalité avec cette sensibilité qui nous est propre. Quelle soit plus ou moins exacerbée, notre sensibilité nous guide tous les jours dans nos choix, nous influence inconsciemment dans nos réactions et nos interactions avec autrui.</p>"
+      description: "<p>C’est bien connu, nous avons tous des personnalités différentes ! nos expériences personnelles ou professionnelles nous ont façonné jour après jour, ont fait de nous qui nous sommes, nous ont donné cette personnalité avec cette sensibilité qui nous est propre. Quelle soit plus ou moins exacerbée, notre sensibilité nous guide tous les jours dans nos choix, nous influence inconsciemment dans nos réactions et nos interactions avec autrui.</p>
+        <p>Mais au fait, qu’entendons nous par « sensibilité » ? quel impact peut-elle avoir dans l’organisation d’une équipe ? Et si la pratique du craft aidait a tirer partie de nos différences de sensibilité ?</p>
+        <p>Ensemble, explorons cette facette de nos personnalités et réfléchissons comment le craft peut nous aider à la valoriser.</p>"
+      type: "talk"
+      #      salle: "Villard de Lans 1"
+      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/0D1KpzG6GuOevVZzaDdW"
+      categories:
+        - "Talk"
+        - "Sensibilité"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "sebastienpencreach"
+
+
+    - name: " Les tests E2E : une opportunité pour combiner toutes les compétences de l'équipe"
+      id: "testsE2E"
+#      menu: "decode"
+      short_description: "<p>
+                                Notre équipe est répartie principalement à Meylan et à Tunis.
+                                Cela ne nous empêche pas de travailler en étroite collaboration tous les jours.
+                                Pour apporter de la valeur à nos clients, nous déployons en production plusieurs fois par jour.
+                                Cela a beaucoup d’impact sur notre mode de fonctionnement et notre stratégie de test
+                                Nous vous invitons à écouter l'histoire de la mise en place collégiale des tests bout en bout.</p>"
+      description: "<p>
+      Notre équipe est répartie principalement à Meylan et à Tunis.
+      Cela ne nous empêche pas de travailler en étroite collaboration tous les jours.
+      Pour apporter de la valeur à nos clients, nous déployons en production plusieurs fois par jour.
+      Cela a beaucoup d’impact sur notre mode de fonctionnement et notre stratégie de test
+      Nous vous invitons à écouter l'histoire de la mise en place collégiale des tests bout en bout.</p>
+
+      <p>Dans cette session, vous allez découvrir :
+      <ul>
+        <li> Quels types de tests utilisons-nous dans quel contexte (unitaire, intégration, contrat, bout en bout,...).</li>
+        <li> Comment nous avons profité de toutes les compétences de l'équipe pour mettre en place des tests bout en bout.</li>
+        <li> Comment nous nous sommes partagés les responsabilités.</li>
+        <li> Comment la collaboration nous a ouvert des opportunités pour faire mieux.</li>
+        <li> Pourquoi nous ne gardons que peu de tests de bout en bout.</li>
+      </ul>
+      </p>"
+      type: "talk"
+#      salle: "Autrans 1"
+      date: "16h15 à 17h00"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/mYmx3b9Qgli6NngMNGyC"
+      categories:
+        - "Talk"
+        - "Test"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "besmaelechi"
+        - speaker:
+          speakerid: "mathieucans"
+
+    - name: "Art & Entropie: Du chaos dans ton frontend"
+      id: "chaosfrontend"
+      #      menu: "open"
+      short_description: "<p>Tendance du moment, le Chaos Engineering consiste à étudier le comportement d'un système face à des évènements externes souvent peu probables, mais ici provoqués (crash d'un serveur ou load-balancer, perte du DNS, ...)</p>
+                           <p>Le désordre ainsi généré apporte de nombreux enseignements sur le fonctionnement de nos systèmes, nous permettant par la suite d'améliorer leurs robustesses.</p>"
+      description: "<p>Tendance du moment, le Chaos Engineering consiste à étudier le comportement d'un système face à des évènements externes souvent peu probables, mais ici provoqués (crash d'un serveur ou load-balancer, perte du DNS, ...)</p>
+      <p>Le désordre ainsi généré apporte de nombreux enseignements sur le fonctionnement de nos systèmes, nous permettant par la suite d'améliorer leurs robustesses.</p>
+      <p>Mais étrangement, tous les livres, talks, tutoriels parlant de Chaos Engineering oublient un composant important de nos systèmes. Et pourtant, si il y a bien un périmètre dont l'imprévisibilité, l'incohérence, et le besoin de résilience sont au centre des préoccupations, il s'agit bien du frontend.</p>
+      <p>💥Chaos, frontend, art ancestral japonais 👘: 3 notions qui n’ont à priori rien à voir, mais qui ensemble ouvrent de nouvelles perspectives dans le développement de nos applications.</p>"
+      type: "Talk"
+      #      salle: "Villard de Lans 1"
+      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/A3BSkVAzbKTkq3G8R3Pw"
+      categories:
+        - "Talk"
+        - "Chaos Engineering"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "thibaudcourtoison"
+
+
+    - name: "Fin de la première journée"
+      id: "cheers"
+      style: "grid-column: 1 / -1;"
+      short_description: "AlpesCraft ferme ses portes à 17h45, en espérant vous retrouver pour la seconde journée"
+      description: "AlpesCraft ferme ses portes à 17h45, en espérant vous retrouver pour la seconde journée"
+      type: "closed"
+      categories:
+        - "👋"
+        - "🍻"
+      date: "17h à 17h45"
+      speakers:
+        - speaker:
+          speakerid: "orga"
