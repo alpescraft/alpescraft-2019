@@ -227,6 +227,16 @@ params:
       company: "AlpesCraft"
       bio: ""
 
+    helviragoma:
+      name: "Helvira Goma"
+      photo: "/img/speakers/helvira_goma.png"
+      high_picture: "/img/speakers/helvira_goma.png"
+      href: "https://www.linkedin.com/in/helvira-dev"
+      text: "@helvira_g"
+      mastodon: "https://mastodon.social/@helvira_g@masto.ai"
+      bio: "Helvira Goma is a Paris-based software engineer. Chameleon-like, Helvira Goma divides her time between whispering in computers' ears; participating in international tech events as a speaker, and enticing others to join the other side through her community on Discord: Motiv'Her."
+      short_bio: "Helvira Goma is a Paris-based software engineer"
+
     hadrienmenspellen:
       name: "Hadrien MENS-PELLEN"
       photo: "/img/speakers/Hadrien_MENS-PELLEN.png"
@@ -1253,6 +1263,46 @@ params:
       speakers:
         - speaker:
           speakerid: "thibaudcourtoison"
+
+    - name: "Vous n'êtes pas passionné(e). Et alors ?!"
+      id: "leadbypassion"
+      #      menu: "open"
+      short_description: "
+        <p>Tout le monde connait ce développeur, cette développeuse passionné(e) par son métier.
+            Facilement reconnaissable du fait qu'il/elle passe des heures à coder, même en dehors du travail;
+            se <documente; dont les sujets de conversation tournent souvent autour du code.</p>
+      "
+      description: "
+      <p>Tout le monde connait ce développeur, cette développeuse passionné(e) par son métier.
+      Facilement reconnaissable du fait qu'il/elle passe des heures à coder, même en dehors du travail;
+      se <documente; dont les sujets de conversation tournent souvent autour du code.</p>
+
+      <p>Quand bien même passionné(e), il arrive qu'on ne ressente, ni n'exprime cette passion pour le code.
+      Et facilement, à son contact, le sentiment de malaise peut survenir si on ne ressent pas cette passion.
+      Et ce, même en étant soi-même développeur ou développeuse.</p>
+
+      <p>Ce malaise peut être source d'inquiétude, de doute par rapport à ses propres compétences.
+      En effet, si le passionné consacre des heures à des projets personnels, peut-être le devrions-nous ?</p>
+
+      <p>Mais alors, faut-il être passionné pour être développeur (se)?
+      La passion apporte-t-elle réellement un plus ?
+      L'injonction à la passion dans le dev ne serait-elle pas en fin de compte un piège ?
+      La passion est-elle LE logiciel indispensable à toute personne souhaitant coder ?</p>
+
+      <p>Ici, tout l'objet de cette conférence.</p>
+
+      <p>Bonus: Si vous aimez les vikings, cette conférence est faite pour vous !</p>"
+      type: "Talk"
+      #      salle: "Villard de Lans 1"
+      #      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/Ws5guzbt2XXbvsijlK8r"
+      categories:
+        - "Talk"
+        - "Passion"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "helviragoma"
 
 #
 #    - name: "Fin de la première journée"
