@@ -182,6 +182,9 @@ params:
 #       - name: "VRTICE"
 #         logo: "/img/sponsors/vrtice.png"
 #         url: "https://vrtice.com/"
+       - name: "Julien Lenormand"
+         logo: "/img/sponsors/julien_lenormand_logo.png"
+         url: ""
     apprenti2:
         - name: "Tuleap"
           logo: "/img/sponsors/tuleap.png"
@@ -189,9 +192,6 @@ params:
         - name: "Zenika"
           logo: "/img/sponsors/zenika.png"
           url: "https://www.zenika.com/"
-#       - name: "Bonitasoft"
-#         logo: "/img/sponsors/bonitasoft.png"
-#         url: "https://fr.bonitasoft.com/"
 
 
   # List of Partners
