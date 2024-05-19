@@ -81,11 +81,23 @@
                                 <p><i class="fa fa-building"></i> <span>{{ $speaker.company }}</span></p>
                             {{ end }}
 
+                            {{ if $speaker.linkedin }}
+                                <p><i class="fab fa-linkedin-in"></i> <span><a href="{{ $speaker.linkedin }}" about="linkedin {{ $speaker.name }}">Linkedin</a></span></p>
+                            {{ end }}
                             {{ if $speaker.text }}
-                                <p><i class="fab fa-twitter-square"></i> <span><a href="https://twitter.com/{{ $speaker.text }}" about="twitter {{ $speaker.text }}">{{ $speaker.text }}</a></span></p>
+                                <p><i class="fab fa-twitter-square"></i> <span><a href="https://twitter.com/{{ $speaker.text }}" about="twitter {{ $speaker.text }}">X</a></span></p>
+                            {{ end }}
+                            {{ if $speaker.bluesky }}
+                                <p><i class="fab fa-bluesky"></i> <span><a href="{{ $speaker.bluesky }}" about="mastodon {{ $speaker.name }}">Bluesky</a></span></p>
+                            {{ end }}
+                            {{ if $speaker.site }}
+                                <p><i class="fab fa-house-user"></i> <span><a href="{{ $speaker.site }}" about="website {{ $speaker.name }}">Site Web</a></span></p>
                             {{ end }}
                             {{ if $speaker.mastodon }}
-                            <p><i class="fab fa-mastodon"></i> <span><a href="{{ $speaker.mastodon }}" about="mastodon {{ $speaker.mastodon }}">{{ $speaker.name }}</a></span></p>
+                                <p><i class="fab fa-mastodon"></i> <span><a href="{{ $speaker.mastodon }}" about="mastodon {{ $speaker.name }}">Mastodon</a></span></p>
+                            {{ end }}
+                            {{ if $speaker.github }}
+                                <p><i class="fab fa-github-square"></i> <span><a href="{{ $speaker.github }}" about="Github {{ $speaker.name }}">Github</a></span></p>
                             {{ end }}
                         {{ end }}
                     {{ end }}
