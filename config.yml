@@ -471,6 +471,17 @@ params:
       short_bio: "Yacine est Head of Technology chez Fabriq. Originaire de Rouen, il a travaillé auparavant chez Spendesk, où il y a amorcé l'adoption du DDD."
       bio: "Yacine est Head of Technology chez Fabriq. Originaire de Rouen, il a travaillé auparavant chez Spendesk, où il y a amorcé l'adoption du DDD."
 
+    josianchevalier:
+      name: "Josian Chevalier"
+      photo: "/img/speakers/josian_chevalier.jpg"
+      high_picture: "/img/speakers/josian_chevalier.jpg"
+      href: "https://x.com/JosianChevalier"
+      text: "@JosianChevalier"
+      company: "Shodo"
+      mastodon: ""
+      short_bio: "Coach tech à Shodo, spécialisé dans le Domain Driven Design. Il accompagne les organisations dans la conception de leurs systèmes sociotechniques, les équipes souhaitant améliorer leurs pratiques de code et aide à la reprise en main de projets legacy à risque."
+      bio: "Coach tech à Shodo, spécialisé dans le Domain Driven Design. Il accompagne les organisations dans la conception de leurs systèmes sociotechniques, les équipes souhaitant améliorer leurs pratiques de code et aide à la reprise en main de projets legacy à risque."
+
   Schedule:
     - name: "Accueil"
       id: "accueil"
@@ -1056,6 +1067,8 @@ params:
       speakers:
         - speaker:
           speakerid: "julientopçu"
+        - speaker:
+          speakerid: "josianchevalier"
 
     - name: "À venir"
       id: "moretocome"
