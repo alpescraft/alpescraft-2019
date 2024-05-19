@@ -218,6 +218,47 @@ params:
 #      logo: "/img/partners/jb_beam.webp"
 #      url: "https://www.jetbrains.com/"
 
+  Team:
+    elisevanholsbeeck:
+      name: "Élise Vanholsbeeck"
+      photo: "/img/orga/elise_vanholsbeeck.jpeg"
+      linkedin: "https://www.linkedin.com/in/elise-vanholsbeeck-b4b7b5/"
+
+    xaviernopre:
+      name: "Xavier Nopre"
+      photo: "/img/orga/xavier_nopre.jpg"
+      linkedin: "https://www.linkedin.com/in/xnopre/"
+
+    remysanlaville:
+      name: "Rémy Sanlaville"
+      photo: "/img/orga/remy_sanlaville.jpeg"
+      linkedin: "https://www.linkedin.com/in/sanlaville/"
+
+    johanmartinsson:
+      name: "Johan Martinsson"
+      photo: "/img/orga/johan_martinsson.jpg"
+      linkedin: "https://www.linkedin.com/in/jomartinsson/"
+
+    bastiendavid:
+      name: "Bastien David"
+      photo: "/img/orga/bastien_david.jpeg"
+      linkedin: "https://www.linkedin.com/in/bastien-david-0b89864/"
+
+    yannickchiron:
+      name: "Yannick Chiron"
+      photo: "/img/orga/yannick_chiron.jpeg"
+      linkedin: "https://www.linkedin.com/in/yannickchiron/"
+
+    laurenttardif:
+      name: "Laurent Tardif"
+      photo: "/img/orga/laurent_tardif.jpeg"
+      linkedin: "https://www.linkedin.com/in/laurenttardif/"
+
+    victorgallet:
+      name: "Victor Gallet"
+      photo: "/img/orga/victor_gallet.jpeg"
+      linkedin: "https://www.linkedin.com/in/victor-gallet-047285109/"
+
   SpeakersMap:
     orga:
       name: "Orga"

@@ -42,6 +42,31 @@
         </p>
     </div>
 
+    <h3 class="title">L'Équipe</h3>
+
+    {{ $team := $.Site.Params.team }}
+
+    <div class="container-fluid text-center" style="width: 50%">
+        <div class="row gutters-sm">
+        {{ range $key, $member := $team }}
+            <div class="col-sm-3">
+                <div class="card text-center border-0">
+                    <div class="card-body text-center">
+                        <img src="{{ $member.photo }}" alt="Photo {{ $member.name }}" class="card-img-top img-fluid img-thumbnail rounded-circle shadow-4-strong" loading="lazy">
+                        <div class="card-body">
+                            <h6 class="card-title">{{ $member.name }}</h6>
+                            <p class="card-text">
+                                {{ if $member.linkedin }}
+                                    <p><i class="fab fa-linkedin-in"></i> <span><a href="{{ $member.linkedin }}" about="linkedin {{ $member.name }}">Linkedin</a></span>
+                                {{ end }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+        </div>
+    </div>
 </section>
 
 <!-- Footer -->
