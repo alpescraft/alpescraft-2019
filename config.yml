@@ -103,7 +103,7 @@ params:
     grid:
       - title: "Découvrir"
         icon: "icon-question"
-        text: "Venez découvrir ce qui se cache derrière le Software Craftsmanship"
+        text: "Venez découvrir ce qui se cache derrière le Craft"
       - title: "Apprendre"
         icon: "icon-layers"
         text: "Un lieu d'apprentissage et de partage afin de progresser pour produire des logiciels toujours meilleurs"
