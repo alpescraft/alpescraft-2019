@@ -184,7 +184,7 @@ params:
 #         url: "https://vrtice.com/"
        - name: "Julien Lenormand"
          logo: "/img/sponsors/julien_lenormand_logo.png"
-         url: ""
+         url: "https://www.lenormand-julien.fr"
     apprenti2:
         - name: "Tuleap"
           logo: "/img/sponsors/tuleap.png"
