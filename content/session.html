@@ -57,7 +57,10 @@
 <!--                        <a href="{{ .roti }}" aria-label="feedback">💌 Donnez votre feedback!</a>-->
 <!--                    </h3>-->
                     {{ if (eq .laptop "yes") }}
-                        <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
+                        <p class="requirement"> 🚨 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
+                    {{ end }}
+                    {{ if $slot.requirement }}
+                        <p class="requirement"> 🚨 {{ $slot.requirement }}</p>
                     {{ end }}
 
                     <p>{{ .description | safeHTML }}</p>

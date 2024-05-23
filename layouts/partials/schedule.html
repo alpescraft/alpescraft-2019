@@ -172,7 +172,11 @@
                 </h3>
                 {{ end }}
                 {{ if (eq .laptop "yes") }}
-                    <p class=""> 💡 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
+                    <p class="requirement"> 🚨 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
+                    <br/>
+                {{ end }}
+                {{ if $slot.requirement }}
+                    <p class="requirement"> 🚨 {{ $slot.requirement }}</p>
                     <br/>
                 {{ end }}
 <!--                {{/* else if eq .type "workshop" */}}-->
