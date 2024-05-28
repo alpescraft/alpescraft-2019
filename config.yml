@@ -163,6 +163,7 @@ params:
       - name: "Applied Materials France"
         logo: "/img/sponsors/Applied_Materials_Inc._Logo.svg"
         url: "https://www.appliedmaterials.com/"
+        style: "min-width: 25rem"
 #      - name: "Zenika"
 #        logo: "/img/sponsors/zenika.png"
 #        url: "https://www.zenika.com/"
