@@ -628,22 +628,27 @@ params:
         - speaker:
           speakerid: "orga"
 
-    - name: "Brossage sans rinçage : une histoire de pratiques"
-      id: "romeu"
-      short_description: "<p>
-                             Chaque adoption de chaque pratique se heurte à des problèmes similaires de fétichisation, de dogmatisme, d’application mécanique, de solution miracle et de nihilisme.</p>"
-      description: "<p>
-                       Chaque adoption de chaque pratique se heurte à des problèmes similaires de fétichisation, de dogmatisme, d’application mécanique, de solution miracle et de nihilisme.</p>
-      <p>Chaque modèle de maturité commence par une description de ce que font les gens et devient une prescription des besoins à accomplir.</p>
-      <p>Explorons le fil conducteur de cela et le fait que les chambres d'hôtel manquent généralement de brosses à dents.</p>"
+    - name: "Model Mitosis : ne plus se tromper entre les microservices et le monolithe"
+      id: "mitosis"
+      #      menu: "open"
+      short_description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>"
+      description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>
+      <p>Finalement, il atteint une masse critique et devient un monolithe de code en spaghetti... Comment pouvons nous déterminer quand il est temps de modulariser notre logiciel ? Comment prendre la décision de le scinder en plusieurs modules ou services ? Comment gérer la différenciation progressive de nos modèles métiers tout en évitant les couplages inutiles ? Il n'est pas facile de découper son logiciel en deux car déterminer les bonnes frontières peut s'avérer être compliqué.</p>
+      <p>Découvrez avec nous le Model Mitosis, une approche dynamique utilisée pour diviser un modèle métier en plusieurs modèles qui seront façonnés et découplés de manière itérative. Gagnez en flexibilité afin de mieux déterminer quand diviser votre logiciel en plusieurs services tout en évitant de payer les coût d'échelle des microservices ou bien de devenir un monolithe distribué.</p>
+      </p>"
+      type: "talk"
       salle: "Amphi"
       date: "10h30 à 11h15"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uimjbclpGIUbZ8ei1mrm"
       categories:
         - "Talk"
-        - "🪥"
+        - "Microservice"
+      language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "romeumoura"
+          speakerid: "julientopçu"
+        - speaker:
+          speakerid: "josianchevalier"
 
     - name: "Test Driven Development et Code Legacy : (re)partir sur de bonnes bases."
       id: "legacytdd"
@@ -815,27 +820,23 @@ params:
 #        - speaker:
 #          speakerid: "hackyourjob"
 
-    - name: "Model Mitosis : ne plus se tromper entre les microservices et le monolithe"
-      id: "mitosis"
-      #      menu: "open"
-      short_description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>"
-      description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>
-      <p>Finalement, il atteint une masse critique et devient un monolithe de code en spaghetti... Comment pouvons nous déterminer quand il est temps de modulariser notre logiciel ? Comment prendre la décision de le scinder en plusieurs modules ou services ? Comment gérer la différenciation progressive de nos modèles métiers tout en évitant les couplages inutiles ? Il n'est pas facile de découper son logiciel en deux car déterminer les bonnes frontières peut s'avérer être compliqué.</p>
-      <p>Découvrez avec nous le Model Mitosis, une approche dynamique utilisée pour diviser un modèle métier en plusieurs modèles qui seront façonnés et découplés de manière itérative. Gagnez en flexibilité afin de mieux déterminer quand diviser votre logiciel en plusieurs services tout en évitant de payer les coût d'échelle des microservices ou bien de devenir un monolithe distribué.</p>
-      </p>"
-      type: "talk"
+    - name: "Brossage sans rinçage : une histoire de pratiques"
+      id: "romeu"
+      short_description: "<p>
+                             Chaque adoption de chaque pratique se heurte à des problèmes similaires de fétichisation, de dogmatisme, d’application mécanique, de solution miracle et de nihilisme.</p>"
+      description: "<p>
+                       Chaque adoption de chaque pratique se heurte à des problèmes similaires de fétichisation, de dogmatisme, d’application mécanique, de solution miracle et de nihilisme.</p>
+      <p>Chaque modèle de maturité commence par une description de ce que font les gens et devient une prescription des besoins à accomplir.</p>
+      <p>Explorons le fil conducteur de cela et le fait que les chambres d'hôtel manquent généralement de brosses à dents.</p>"
       salle: "Amphi"
       date: "11h30 à 12h15"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uimjbclpGIUbZ8ei1mrm"
+      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/o7hRny0LFM82t5ubvvv8"
       categories:
         - "Talk"
-        - "Microservice"
-      language: "🇫🇷"
+        - "🪥"
       speakers:
         - speaker:
-          speakerid: "julientopçu"
-        - speaker:
-          speakerid: "josianchevalier"
+          speakerid: "romeumoura"
 
     - name: "À venir"
       id: "moretocome"
@@ -926,8 +927,11 @@ params:
          <li> Vous vous entraînerez sur une piste de golf de petits pas !</li>
          <li> ... et je vous reserve une surprise !</li>
         </ul>
-      <p>Assistez à cette conférence pour (re)découvrir la pratique la plus négligée dans le développement de logiciels !</p>"
+      <p>Assistez à cette conférence pour (re)découvrir la pratique la plus négligée dans le développement de logiciels !</p>
+
+      <p><strong>Pré-requis</strong>: un environnement de développement Java, Python ou Typescript</p>"
       type: "workshop"
+      laptop: "yes"
       #      menu: "babystep"
       salle: "Villard de Lans 1"
       date: "14h15 à 16h00"
