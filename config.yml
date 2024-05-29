@@ -603,7 +603,7 @@ params:
          <p>A la fin de cette session, vous saurez comment introduire la pratique du craft dans toutes les facettes de votre métier, quelle que soit votre activité.</p>
       </p>"
       type: "talk"
-      #      salle: "Villard de Lans 1"
+      salle: "Amphi"
       date: "9h30 - 10h15"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/0MspqZwtBEPc28aamIPe"
       categories:
@@ -628,23 +628,20 @@ params:
         - speaker:
           speakerid: "orga"
 
-    - name: "La Théorie de la Residualité : une perspective nouvelle de l'architecture logicielle"
-      id: "theoriedelaresidulatite"
-      #      menu: "open"
-      short_description: "<p>La théorie de la résidualité est une approche novatrice où l'architecture logicielle d'un système émerge en tant que résultat de l'application de multiples stressors sur ce dernier. Il est bien entendu possible avec de l'expérience de concevoir une architecture solide sans connaître cette théorie, mais il y a des raisons de croire que les heuristiques des approches de conception modernes, telles que le Domain-Driven Design (DDD), pourraient être congruentes, dans une certaine mesure, avec ce que suggère la théorie de la résidualité.</p>"
-      description: "<p>La théorie de la résidualité est une approche novatrice où l'architecture logicielle d'un système émerge en tant que résultat de l'application de multiples stressors sur ce dernier. Il est bien entendu possible avec de l'expérience de concevoir une architecture solide sans connaître cette théorie, mais il y a des raisons de croire que les heuristiques des approches de conception modernes, telles que le Domain-Driven Design (DDD), pourraient être congruentes, dans une certaine mesure, avec ce que suggère la théorie de la résidualité.</p>
-      <p>Dans ce talk avec Cyrille, qui a collaboré avec Barry O'Reilly, l'inventeur de la théorie de la résidualité, vous découvrirez les grandes idées ainsi que les difficultés pour bien comprendre cette théorie initialement déstabilisante, en la comparant à l'état de l'art actuel. L'objectif sera de vous donner une compréhension de cette théorie qui peut sembler familière mais qui s'écarte pourtant des schémas de pensée habituels.</p>"
-      type: "talk"
-      #      salle: "Villard de Lans 1"
+    - name: "Rinse-less brushing: a tale of practices"
+      id: "romeu"
+      short_description: "<p>Every adoption of every practice runs in similar patterns of problems of fetichisation, dogmatism, mechanical application, silver bullets and nihilism.</p>"
+      description: "<p>Every adoption of every practice runs in similar patterns of problems of fetichisation, dogmatism, mechanical application, silver bullets and nihilism.</p>
+      <p>Every maturity model starts as a description of what people do and becomes a prescription of needs to be done.</p>
+      <p>Let's explore the common thread of those and the fact that hotel rooms usually lack toothbrushes.</p>"
+      salle: "Amphi"
       date: "10h30 à 11h15"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/TtdSRMSzc7KYHXYsXN5m"
       categories:
         - "Talk"
-        - "Architecture"
-      language: "🇫🇷"
+        - "🪥"
       speakers:
         - speaker:
-          speakerid: "cyrillemartraire"
+          speakerid: "romeumoura"
 
     - name: "Test Driven Development et Code Legacy : (re)partir sur de bonnes bases."
       id: "legacytdd"
@@ -676,7 +673,7 @@ params:
       "
       type: "workshop"
       laptop: "yes"
-#      salle: "Autrans 1"
+      salle: "Villard de Lans 1"
       date: "10h30 - 12h15"
 #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/KljhuVnGCIweFs4iIIC4"
       categories:
@@ -694,7 +691,7 @@ params:
       short_description: "<p>Plongez dans l'univers du Software Craft avec notre atelier intensif dédié à Github Copilot. Découvrez comment utiliser cet outil pour optimiser vos pratiques de développement (Test-Driven Development : TDD et de Behavior-Driven Development : BDD), allant de la génération d'exemples et de tests unitaires à la création de documentation, en passant par la génération et le refactoring de code.</p>"
       description: "<p>Plongez dans l'univers du Software Craft avec notre atelier intensif dédié à Github Copilot. Découvrez comment utiliser cet outil pour optimiser vos pratiques de développement (Test-Driven Development : TDD et de Behavior-Driven Development : BDD), allant de la génération d'exemples et de tests unitaires à la création de documentation, en passant par la génération et le refactoring de code. À travers un kata pratique, en binôme ou en groupe selon le nombre de participant.e.s, vous apprendrez à intégrer Github Copilot dans vos projets.</p>"
       type: "workshop"
-      #      salle: "Villard de Lans 1"
+      salle: "Villard de Lans 2"
       date: "10h30 à 12h15"
     #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/OoPMXbPetonvzaRrEOHp"
       laptop: "no"
@@ -736,7 +733,7 @@ params:
 
       <p>Bonus: Si vous aimez les vikings, cette conférence est faite pour vous !</p>"
       type: "Talk"
-      #      salle: "Villard de Lans 1"
+      salle: "Autrans 1-2"
       date: "10h30 à 11h15"
     #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/Ws5guzbt2XXbvsijlK8r"
       categories:
@@ -763,7 +760,7 @@ params:
       <p>Retour d'expérience sur l'utilisation de quelques unes de ces techniques sur un projet réel, ce qu'elles ont permis d'identifier, de prendre comme action et les premiers bénéfices qui ont pu en ressortir.</p>
       </p>"
       type: "talk"
-      #      salle: "Villard de Lans 1"
+      salle: "Chamrousse"
       date: "10h30 à 11h15"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/IpgZ7Jkh3m6vXadAXfpT"
       categories:
@@ -816,51 +813,39 @@ params:
 #        - speaker:
 #          speakerid: "hackyourjob"
 
-
-    - name: "Réconcilier Craft et Data-oriented programming"
-      id: "dataoriented"
+    - name: "Model Mitosis : ne plus se tromper entre les microservices et le monolithe"
+      id: "mitosis"
       #      menu: "open"
-      short_description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
-      C'est une discipline particulièrement adaptée aux application Web métier, mais elle jure avec la façon dont sont communément présentées certaines pratiques de Craft.</p>"
-      description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
-        C'est une discipline particulièrement adaptée aux application Web métier, mais elle jure avec la façon dont sont communément présentées certaines pratiques de Craft.</p>
-        <p>Découvrez comment les adapter, afin de bénéficier tout aussi bien des avantages du Data-oriented programming que de ceux du DDD, TDD, Clean code, etc.</p>"
-      type: "talk"
-      #      salle: "Villard de Lans 1"
-      date: "11h30 à 12h15"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/7Hs8eLlUpQhOV6xnF6K1"
-      categories:
-        - "Talk"
-        - "Data"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "yacinehmito"
-
-    - name: "'Tidy First?' de Kent Beck, un guide pratique pour un code durable et rentable"
-      id: "tidyfirst"
-#      style: "grid-row: span 2"
-#      menu: "decode"
-      short_description: "<p>
-                                 \"Tidy First?\", le dernier ouvrage de Kent Beck, est le fruit de plusieurs années de réflexion sur le métier de développeur.</p>
-                                  <p>À travers une quinzaine de patterns, il nous enseigne comment réaliser de petits nettoyages de code qui peuvent considérablement simplifier notre travail quotidien. </p>"
-      description: "<p>
-        \"Tidy First?\", le dernier ouvrage de Kent Beck, est le fruit de plusieurs années de réflexion sur le métier de développeur.</p>
-         <p>À travers une quinzaine de patterns, il nous enseigne comment réaliser de petits nettoyages de code qui peuvent considérablement simplifier notre travail quotidien. </p>
-         <p>En illustrant ces patterns, nous montrerons comment les intégrer de manière efficace dans notre flux de travail. Nous aborderons également les aspects économiques souvent négligés du nettoyage de code : comment investir judicieusement dans la propreté du code pour garantir plus d'options et une valeur à long terme, même si cela signifie parfois sacrifier un peu de valeur immédiate. Que vous soyez un développeur débutant ou un expert chevronné, cette conférence vous fournira des stratégies pratiques pour maintenir un code propre et rentable tout au long de votre parcours de développement logiciel.
+      short_description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>"
+      description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>
+      <p>Finalement, il atteint une masse critique et devient un monolithe de code en spaghetti... Comment pouvons nous déterminer quand il est temps de modulariser notre logiciel ? Comment prendre la décision de le scinder en plusieurs modules ou services ? Comment gérer la différenciation progressive de nos modèles métiers tout en évitant les couplages inutiles ? Il n'est pas facile de découper son logiciel en deux car déterminer les bonnes frontières peut s'avérer être compliqué.</p>
+      <p>Découvrez avec nous le Model Mitosis, une approche dynamique utilisée pour diviser un modèle métier en plusieurs modèles qui seront façonnés et découplés de manière itérative. Gagnez en flexibilité afin de mieux déterminer quand diviser votre logiciel en plusieurs services tout en évitant de payer les coût d'échelle des microservices ou bien de devenir un monolithe distribué.</p>
       </p>"
       type: "talk"
-#      laptop: "yes"
-#      salle: "Autrans 1"
+      salle: "Amphi"
       date: "11h30 à 12h15"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/9Z4oGwkttGIywIH5kwFK"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uimjbclpGIUbZ8ei1mrm"
       categories:
         - "Talk"
-        - "Clean Code"
+        - "Microservice"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "arnaudthiefaine"
+          speakerid: "julientopçu"
+        - speaker:
+          speakerid: "josianchevalier"
+
+    - name: "À venir"
+      id: "moretocome"
+      short_description: ""
+      description: ""
+      salle: "Autrans 1-2"
+      date: "11h30 à 12h15"
+      categories:
+        - "?"
+      speakers:
+        - speaker:
+          speakerid: "orga"
 
     - name: "Montée de version sans interruption"
       id: "continuousdelivery"
@@ -873,7 +858,7 @@ params:
         <p>Ce talk est un retour d'expérience présentant les mécanismes que nous avons mis en place pour réaliser ces montées de version sans interruption. Il se concentre sur la partie applicative, et les problématiques engendrées par un tel process. Le but est d'être le plus concret possible, avec des exemples de \"la vraie vie\", notamment quelques astuces pour réaliser ses migrations sans douleur avec des frameworks comme Hibernate ou jOOQ. Les exemples sont donnés en Java avec une base de données PostgreSQL, mais les principes s'appliquent à n'importe quel language et à la plupart des bases de données relationnelles.</p>
       </p>"
       type: "talk"
-      #      salle: "Villard de Lans 1"
+      salle: "Chamrousse"
       date: "11h30 à 12h15"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/GXlYzzzCJatAy7oYtXVD"
       categories:
@@ -899,17 +884,23 @@ params:
         - speaker:
           speakerid: "orga"
 
-    - name: "À venir"
-      id: "moretocome"
-      short_description: ""
-      description: ""
-      salle: ""
+    - name: "La Théorie de la Residualité : une perspective nouvelle de l'architecture logicielle"
+      id: "theoriedelaresidulatite"
+      #      menu: "open"
+      short_description: "<p>La théorie de la résidualité est une approche novatrice où l'architecture logicielle d'un système émerge en tant que résultat de l'application de multiples stressors sur ce dernier. Il est bien entendu possible avec de l'expérience de concevoir une architecture solide sans connaître cette théorie, mais il y a des raisons de croire que les heuristiques des approches de conception modernes, telles que le Domain-Driven Design (DDD), pourraient être congruentes, dans une certaine mesure, avec ce que suggère la théorie de la résidualité.</p>"
+      description: "<p>La théorie de la résidualité est une approche novatrice où l'architecture logicielle d'un système émerge en tant que résultat de l'application de multiples stressors sur ce dernier. Il est bien entendu possible avec de l'expérience de concevoir une architecture solide sans connaître cette théorie, mais il y a des raisons de croire que les heuristiques des approches de conception modernes, telles que le Domain-Driven Design (DDD), pourraient être congruentes, dans une certaine mesure, avec ce que suggère la théorie de la résidualité.</p>
+      <p>Dans ce talk avec Cyrille, qui a collaboré avec Barry O'Reilly, l'inventeur de la théorie de la résidualité, vous découvrirez les grandes idées ainsi que les difficultés pour bien comprendre cette théorie initialement déstabilisante, en la comparant à l'état de l'art actuel. L'objectif sera de vous donner une compréhension de cette théorie qui peut sembler familière mais qui s'écarte pourtant des schémas de pensée habituels.</p>"
+      type: "talk"
+      salle: "Amphi"
       date: "14h15 à 15h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/TtdSRMSzc7KYHXYsXN5m"
       categories:
-        - "?"
+        - "Talk"
+        - "Architecture"
+      language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "orga"
+          speakerid: "cyrillemartraire"
 
     - name: "L'étonnante efficacité des petits pas"
       id: "babystep"
@@ -936,7 +927,7 @@ params:
       <p>Assistez à cette conférence pour (re)découvrir la pratique la plus négligée dans le développement de logiciels !</p>"
       type: "workshop"
       #      menu: "babystep"
-      #      salle: "Villard de Lans 2"
+      salle: "Villard de Lans 1"
       date: "14h15 à 16h00"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
       categories:
@@ -957,7 +948,7 @@ params:
       <p>Cette introduction à PCM vous donnera des outils concrets pour cibler votre communication, régler vos conflits et détendre l'atmosphère au quotidien. Aucun pré-requis n'est nécessaire, venez simplement comme vous êtes, prêt à découvrir comment optimiser vos interactions et réduire les conflits, que ce soit en réunion, en pair ou en mob/ensemble programming.
       </p>"
       type: "talk"
-      #      salle: "Villard de Lans 1"
+      salle: "Villard de Lans 2"
       date: "14h15 à 16h00"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/llOUSjWwyWSGDT7GaKyy"
       categories:
@@ -977,7 +968,7 @@ params:
                     <p>Ce talk mettra en avant les concepts clés du DDD et du ReBAC, ainsi que les défis et enseignements tirés lors de leur mise en œuvre. Vous repartirez avec une compréhension approfondie de l'importance de placer le domaine métier au cœur de vos systèmes d'autorisation, vous permettant de créer une stratégie de gestion des accès plus solide et flexible.</p>
         "
       type: "talk"
-#      salle: "Villard de Lans 2"
+      salle: "Autrans 1-2"
       date: "14h15 à 15h00"
 #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/xhdUvie8CVaKOyFi7JzA"
       categories:
@@ -998,7 +989,7 @@ params:
       <p>Cela sera l’occasion de passer en revue quelques exemples de flow de CI/CD, des stratégies de tests, mais aussi de parler de zero-downtime deployment, de monitoring et d’alerting afin de garantir notre qualité de service.
       </p>"
       type: "talk"
-      #      salle: "Villard de Lans 1"
+      salle: "Chamrousse"
       date: "14h15 à 15h00"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/cuYQo9qYBbNQ0kC53n8c"
       categories:
@@ -1038,11 +1029,11 @@ params:
         - speaker:
           speakerid: "orga"
 
-    - name: "À venir"
-      id: "moretocome"
+    - name: "Talk surprise"
+      id: "surprise"
       short_description: ""
       description: ""
-      salle: ""
+      salle: "Amphi"
       date: "15h15 à 16h00"
       categories:
         - "?"
@@ -1059,7 +1050,7 @@ params:
       <p>Toutes les équipes ne s'approprient pas ces principes, pour différentes raisons. Parmi elle, j'ai pu constater la peur qu'engendre la programmation fonctionnelle, et particulièrement son rapport aux mathématiques.</p>
       <p>J'aimerais démystifier cela, et montrer qu'il n'est pas nécessaire de maitriser cet aspect pour s'y engager. J'aimerais aussi partager comment certains de ces principes sont devenus des habitudes dans mon quotidien de développeur, les bénéfices que j'en retire, et comment cela m'a permis de voir mon métier autrement.</p>"
       type: "talk"
-      #      salle: "Villard de Lans 1"
+      salle: "Autrans 1-2"
       date: "15h15 à 16h00"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/8lxhLEZgCOuy3KQ9vcGx"
       categories:
@@ -1085,7 +1076,7 @@ params:
       <p>Alors camarade, enfile ton camouflage de dev et rejoint la guérilla.</p>
       "
       type: "talk"
-#      salle: "Chamrousse"
+      salle: "Chamrousse"
       date: "15h15 à 16h00"
 #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/srtiEffhguNkVELFoo4V"
       categories:
@@ -1110,39 +1101,25 @@ params:
         - speaker:
           speakerid: "orga"
 
-    - name: "Model Mitosis : ne plus se tromper entre les microservices et le monolithe"
-      id: "mitosis"
+    - name: "Réconcilier Craft et Data-oriented programming"
+      id: "dataoriented"
       #      menu: "open"
-      short_description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>"
-      description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>
-      <p>Finalement, il atteint une masse critique et devient un monolithe de code en spaghetti... Comment pouvons nous déterminer quand il est temps de modulariser notre logiciel ? Comment prendre la décision de le scinder en plusieurs modules ou services ? Comment gérer la différenciation progressive de nos modèles métiers tout en évitant les couplages inutiles ? Il n'est pas facile de découper son logiciel en deux car déterminer les bonnes frontières peut s'avérer être compliqué.</p>
-      <p>Découvrez avec nous le Model Mitosis, une approche dynamique utilisée pour diviser un modèle métier en plusieurs modèles qui seront façonnés et découplés de manière itérative. Gagnez en flexibilité afin de mieux déterminer quand diviser votre logiciel en plusieurs services tout en évitant de payer les coût d'échelle des microservices ou bien de devenir un monolithe distribué.</p>
-      </p>"
+      short_description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
+      C'est une discipline particulièrement adaptée aux application Web métier, mais elle jure avec la façon dont sont communément présentées certaines pratiques de Craft.</p>"
+      description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
+        C'est une discipline particulièrement adaptée aux application Web métier, mais elle jure avec la façon dont sont communément présentées certaines pratiques de Craft.</p>
+        <p>Découvrez comment les adapter, afin de bénéficier tout aussi bien des avantages du Data-oriented programming que de ceux du DDD, TDD, Clean code, etc.</p>"
       type: "talk"
-      #      salle: "Villard de Lans 1"
+      salle: "Amphi"
       date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uimjbclpGIUbZ8ei1mrm"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/7Hs8eLlUpQhOV6xnF6K1"
       categories:
         - "Talk"
-        - "Microservice"
+        - "Data"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "julientopçu"
-        - speaker:
-          speakerid: "josianchevalier"
-
-    - name: "À venir"
-      id: "moretocome"
-      short_description: ""
-      description: ""
-      salle: ""
-      date: "16h15 à 17h00"
-      categories:
-        - "?"
-      speakers:
-        - speaker:
-          speakerid: "orga"
+          speakerid: "yacinehmito"
 
     - name: "Comprendre et valoriser la sensibilité dans vos équipes grâce au craft."
       id: "sensibilitecraft"
@@ -1152,7 +1129,7 @@ params:
         <p>Mais au fait, qu’entendons nous par « sensibilité » ? quel impact peut-elle avoir dans l’organisation d’une équipe ? Et si la pratique du craft aidait a tirer partie de nos différences de sensibilité ?</p>
         <p>Ensemble, explorons cette facette de nos personnalités et réfléchissons comment le craft peut nous aider à la valoriser.</p>"
       type: "talk"
-      #      salle: "Villard de Lans 1"
+      salle: "Villard de Lans 1"
       date: "16h15 à 17h00"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/0D1KpzG6GuOevVZzaDdW"
       categories:
@@ -1190,7 +1167,7 @@ params:
       </ul>
       </p>"
       type: "talk"
-#      salle: "Autrans 1"
+      salle: "Villard de Lans 2"
       date: "16h15 à 17h00"
 #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/mYmx3b9Qgli6NngMNGyC"
       categories:
@@ -1203,6 +1180,31 @@ params:
         - speaker:
           speakerid: "mathieucans"
 
+    - name: "'Tidy First?' de Kent Beck, un guide pratique pour un code durable et rentable"
+      id: "tidyfirst"
+      #      style: "grid-row: span 2"
+      #      menu: "decode"
+      short_description: "<p>
+                                 \"Tidy First?\", le dernier ouvrage de Kent Beck, est le fruit de plusieurs années de réflexion sur le métier de développeur.</p>
+                                  <p>À travers une quinzaine de patterns, il nous enseigne comment réaliser de petits nettoyages de code qui peuvent considérablement simplifier notre travail quotidien. </p>"
+      description: "<p>
+        \"Tidy First?\", le dernier ouvrage de Kent Beck, est le fruit de plusieurs années de réflexion sur le métier de développeur.</p>
+         <p>À travers une quinzaine de patterns, il nous enseigne comment réaliser de petits nettoyages de code qui peuvent considérablement simplifier notre travail quotidien. </p>
+         <p>En illustrant ces patterns, nous montrerons comment les intégrer de manière efficace dans notre flux de travail. Nous aborderons également les aspects économiques souvent négligés du nettoyage de code : comment investir judicieusement dans la propreté du code pour garantir plus d'options et une valeur à long terme, même si cela signifie parfois sacrifier un peu de valeur immédiate. Que vous soyez un développeur débutant ou un expert chevronné, cette conférence vous fournira des stratégies pratiques pour maintenir un code propre et rentable tout au long de votre parcours de développement logiciel.
+      </p>"
+      type: "talk"
+      #      laptop: "yes"
+      salle: "Autrans 1-2"
+      date: "16h15 à 17h00"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/9Z4oGwkttGIywIH5kwFK"
+      categories:
+        - "Talk"
+        - "Clean Code"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "arnaudthiefaine"
+
     - name: "Art & Entropie: Du chaos dans ton frontend"
       id: "chaosfrontend"
       #      menu: "open"
@@ -1213,7 +1215,7 @@ params:
       <p>Mais étrangement, tous les livres, talks, tutoriels parlant de Chaos Engineering oublient un composant important de nos systèmes. Et pourtant, si il y a bien un périmètre dont l'imprévisibilité, l'incohérence, et le besoin de résilience sont au centre des préoccupations, il s'agit bien du frontend.</p>
       <p>💥Chaos, frontend, art ancestral japonais 👘: 3 notions qui n’ont à priori rien à voir, mais qui ensemble ouvrent de nouvelles perspectives dans le développement de nos applications.</p>"
       type: "Talk"
-      #      salle: "Villard de Lans 1"
+      salle: "Chamrousse"
       date: "16h15 à 17h00"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/A3BSkVAzbKTkq3G8R3Pw"
       categories:
