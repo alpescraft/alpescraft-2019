@@ -421,10 +421,10 @@ params:
       photo: "/img/speakers/romeu_moura.jpeg"
       href: "https://www.linkedin.com/in/romeu/"
       text: "@malk_zameth"
-      company: "Azaé"
-      bio: ""
+      company: ""
+      bio: "Endless conversation — with friends, compilers — on art, equivocacy, Symmathesy, methods, absurdism, dialectic, paradigm jumps, serendipity."
       high_picture: "/img/speakers/romeu_moura.jpeg"
-      short_bio: "Agility & Systems thinking Evangelist"
+      short_bio: "Endless conversation — with friends, compilers — on art, equivocacy, Symmathesy, methods, absurdism, dialectic, paradigm jumps, serendipity."
 
     thibaudcourtoison:
       name: "Thibaud Courtoison"
@@ -820,14 +820,10 @@ params:
 #        - speaker:
 #          speakerid: "hackyourjob"
 
-    - name: "Brossage sans rinçage : une histoire de pratiques"
+    - name: "Rinse-less brushing : une histoire de pratiques"
       id: "romeu"
-      short_description: "<p>
-                             Chaque adoption de chaque pratique se heurte à des problèmes similaires de fétichisation, de dogmatisme, d’application mécanique, de solution miracle et de nihilisme.</p>"
-      description: "<p>
-                       Chaque adoption de chaque pratique se heurte à des problèmes similaires de fétichisation, de dogmatisme, d’application mécanique, de solution miracle et de nihilisme.</p>
-      <p>Chaque modèle de maturité commence par une description de ce que font les gens et devient une prescription des besoins à accomplir.</p>
-      <p>Explorons le fil conducteur de cela et le fait que les chambres d'hôtel manquent généralement de brosses à dents.</p>"
+      short_description: "<p>Chaque adoption de pratiques se retrouve à un moment face à un problème d’adoption mechanique: investiguons le pourquoi !</p>"
+      description: "<p>Chaque adoption de pratiques se retrouve à un moment face à un problème d’adoption mechanique: investiguons le pourquoi !</p>"
       salle: "Amphi"
       date: "11h30 à 12h15"
       #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/o7hRny0LFM82t5ubvvv8"
