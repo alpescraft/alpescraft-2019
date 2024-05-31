@@ -544,6 +544,19 @@ params:
       short_bio: "Coach tech à Shodo, spécialisé dans le Domain Driven Design. Il accompagne les organisations dans la conception de leurs systèmes sociotechniques, les équipes souhaitant améliorer leurs pratiques de code et aide à la reprise en main de projets legacy à risque."
       bio: "Coach tech à Shodo, spécialisé dans le Domain Driven Design. Il accompagne les organisations dans la conception de leurs systèmes sociotechniques, les équipes souhaitant améliorer leurs pratiques de code et aide à la reprise en main de projets legacy à risque."
 
+    woodyzuill:
+      name: "Woody Zuill"
+      photo: "/img/speakers/woody_zuill.jpg"
+      high_picture: "/img/speakers/woody_zuill.jpg"
+      href: "https://x.com/woodyzuill"
+      text: "@woodyzuill"
+      linkedin: "https://fr.linkedin.com/in/woodyzuill"
+      company: ""
+      mastodon: ""
+      short_bio: "Woody Zuill is an Agile and Lean Software Development guide who has been programming computers for 40+ years. He is an originator and pioneer of the Software Teaming (Mob Programming) approach to teamwork in software development, and provides workshops, coaching, and training on team software development. He is also a founder of the \"Beyond Estimates\" discussion, and a frequent speaker at conferences and developer meet-ups all over the world."
+      bio: "Woody Zuill is an Agile and Lean Software Development guide who has been programming computers for 40+ years. He is an originator and pioneer of the Software Teaming (Mob Programming) approach to teamwork in software development, and provides workshops, coaching, and training on team software development. He is also a founder of the \"Beyond Estimates\" discussion, and a frequent speaker at conferences and developer meet-ups all over the world."
+
+
   Schedule:
     - name: "Accueil"
       id: "accueil"
@@ -1031,17 +1044,38 @@ params:
         - speaker:
           speakerid: "orga"
 
-    - name: "Talk surprise"
+    - name: "Software Teaming (Mob Programming) and the Power of Flow"
       id: "surprise"
-      short_description: ""
-      description: ""
+      short_description: "
+        <p>Five people working together at one computer?!  How can that possibly be productive?</p>
+
+        <p>While this is a reasonable question, it's not easily answered - until we begin to understand the power of flow.</p>"
+      description: "
+      <p>Five people working together at one computer?!  How can that possibly be productive?</p>
+
+      <p>While this is a reasonable question, it's not easily answered - until we begin to understand the power of flow.</p>
+
+      <p>Mob Programming grew from one team's quest  to learn how to work well together. Once we started working as a true team we almost immediately noticed that working this way provided better results in a variety of ways:</p>
+      <ul>
+         <li>We were getting more, and more important things done</li>
+         <li>The quality of our work was increasing dramatically</li>
+         <li>Our knowledge, skills, and capabilities were improving rapidly</li>
+         <li>And all while we were having a lot of fun!</li>
+      </ul>
+
+     <p>While we noticed these benefits and more, and it was clear this was due to working well together, we didn't have an understanding of why this was working so wonderfully for us.</p>
+
+     <p>A hint came early on when we recognized we were achieving a one-piece flow similar to the flow in Lean Manufacturing  - but we didn't realize the importance of this until we started exploring the meaning and power of \"flow\".</p>
+
+      <p>In this presentation we'll share the results of that exploration, and see if we can get a better understanding of Mob Programming and the power of flow.</p>"
       salle: "Amphi"
       date: "15h15 à 16h00"
+      language: "🇬🇧"
       categories:
-        - "?"
+        - "Mob Programming"
       speakers:
         - speaker:
-          speakerid: "orga"
+          speakerid: "woodyzuill"
 
     - name: "Functional Habits"
       id: "functionalhabits"
