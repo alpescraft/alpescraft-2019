@@ -473,6 +473,15 @@ params:
       company: "Orange"
       short_bio: "Software Engineer at Orange"
 
+    melaniecordero:
+      name: "Mélanie Cordero"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: "https://www.linkedin.com/in/m%C3%A9lanie-cordero-68b56041/"
+      linkedin: "https://www.linkedin.com/in/m%C3%A9lanie-cordero-68b56041/"
+      bio: ""
+      short_bio: ""
+
     besmaelechi:
       name: "Besma ELECHI"
       photo: "/img/speakers/Besma_ELECHI.jpg"
@@ -840,6 +849,7 @@ params:
       salle: "Amphi"
       date: "11h30 à 12h15"
       #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/o7hRny0LFM82t5ubvvv8"
+      language: "🇫🇷"
       categories:
         - "Talk"
         - "🪥"
@@ -847,17 +857,44 @@ params:
         - speaker:
           speakerid: "romeumoura"
 
-    - name: "À venir"
-      id: "moretocome"
-      short_description: ""
-      description: ""
+    - name: " Les tests E2E : une opportunité pour combiner toutes les compétences de l'équipe"
+      id: "testsE2E"
+      #      menu: "decode"
+      short_description: "<p>
+                                Notre équipe est répartie principalement à Meylan et à Tunis.
+                                Cela ne nous empêche pas de travailler en étroite collaboration tous les jours.
+                                Pour apporter de la valeur à nos clients, nous déployons en production plusieurs fois par jour.
+                                Cela a beaucoup d’impact sur notre mode de fonctionnement et notre stratégie de test
+                                Nous vous invitons à écouter l'histoire de la mise en place collégiale des tests bout en bout.</p>"
+      description: "<p>
+      Notre équipe est répartie principalement à Meylan et à Tunis.
+      Cela ne nous empêche pas de travailler en étroite collaboration tous les jours.
+      Pour apporter de la valeur à nos clients, nous déployons en production plusieurs fois par jour.
+      Cela a beaucoup d’impact sur notre mode de fonctionnement et notre stratégie de test
+      Nous vous invitons à écouter l'histoire de la mise en place collégiale des tests bout en bout.</p>
+
+      <p>Dans cette session, vous allez découvrir :
+      <ul>
+        <li> Quels types de tests utilisons-nous dans quel contexte (unitaire, intégration, contrat, bout en bout,...).</li>
+        <li> Comment nous avons profité de toutes les compétences de l'équipe pour mettre en place des tests bout en bout.</li>
+        <li> Comment nous nous sommes partagés les responsabilités.</li>
+        <li> Comment la collaboration nous a ouvert des opportunités pour faire mieux.</li>
+        <li> Pourquoi nous ne gardons que peu de tests de bout en bout.</li>
+      </ul>
+      </p>"
+      type: "talk"
       salle: "Autrans 1-2"
       date: "11h30 à 12h15"
+      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/mYmx3b9Qgli6NngMNGyC"
       categories:
-        - "?"
+        - "Talk"
+        - "Test"
+      language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "orga"
+          speakerid: "besmaelechi"
+        - speaker:
+          speakerid: "mathieucans"
 
     - name: "Montée de version sans interruption"
       id: "continuousdelivery"
@@ -1177,45 +1214,21 @@ params:
         - speaker:
           speakerid: "sebastienpencreach"
 
-
-    - name: " Les tests E2E : une opportunité pour combiner toutes les compétences de l'équipe"
-      id: "testsE2E"
-#      menu: "decode"
-      short_description: "<p>
-                                Notre équipe est répartie principalement à Meylan et à Tunis.
-                                Cela ne nous empêche pas de travailler en étroite collaboration tous les jours.
-                                Pour apporter de la valeur à nos clients, nous déployons en production plusieurs fois par jour.
-                                Cela a beaucoup d’impact sur notre mode de fonctionnement et notre stratégie de test
-                                Nous vous invitons à écouter l'histoire de la mise en place collégiale des tests bout en bout.</p>"
-      description: "<p>
-      Notre équipe est répartie principalement à Meylan et à Tunis.
-      Cela ne nous empêche pas de travailler en étroite collaboration tous les jours.
-      Pour apporter de la valeur à nos clients, nous déployons en production plusieurs fois par jour.
-      Cela a beaucoup d’impact sur notre mode de fonctionnement et notre stratégie de test
-      Nous vous invitons à écouter l'histoire de la mise en place collégiale des tests bout en bout.</p>
-
-      <p>Dans cette session, vous allez découvrir :
-      <ul>
-        <li> Quels types de tests utilisons-nous dans quel contexte (unitaire, intégration, contrat, bout en bout,...).</li>
-        <li> Comment nous avons profité de toutes les compétences de l'équipe pour mettre en place des tests bout en bout.</li>
-        <li> Comment nous nous sommes partagés les responsabilités.</li>
-        <li> Comment la collaboration nous a ouvert des opportunités pour faire mieux.</li>
-        <li> Pourquoi nous ne gardons que peu de tests de bout en bout.</li>
-      </ul>
-      </p>"
-      type: "talk"
+    - name: "Fonctionnalités, qualité, fréquence, et si on arrêtait d’en vouloir toujours plus ?"
+      id: "moretocome"
+      short_description: "<p>Plus de fonctionnalités, de meilleure qualité et plus souvent. Et si le problème était ailleurs ?</p>"
+      description: "<p>Plus de fonctionnalités, de meilleure qualité et plus souvent. Et si le problème était ailleurs ?</p>
+        <p>Nous vous parlerons de l’approche produit pour mieux comprendre comment le produit réalisé génère des outcomes pour les utilisateurs et des impacts pour l’entreprise.</p>
+        <p>Nous verrons qu’en mettant l’utilisateur au cœur de nos pratiques nous pouvons livrer plus de valeur… avec moins de fonctionnalités !</p>"
       salle: "Villard de Lans 2"
       date: "16h15 à 17h00"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/mYmx3b9Qgli6NngMNGyC"
+      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/8dbcL3fyf1uiQK0YQBxB"
       categories:
-        - "Talk"
-        - "Test"
+        - "Produit"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "besmaelechi"
-        - speaker:
-          speakerid: "mathieucans"
+          speakerid: "melaniecordero"
 
     - name: "'Tidy First?' de Kent Beck, un guide pratique pour un code durable et rentable"
       id: "tidyfirst"
