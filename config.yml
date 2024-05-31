@@ -1045,7 +1045,7 @@ params:
           speakerid: "orga"
 
     - name: "Software Teaming (Mob Programming) and the Power of Flow"
-      id: "surprise"
+      id: "woody"
       short_description: "
         <p>Five people working together at one computer?!  How can that possibly be productive?</p>
 
@@ -1071,6 +1071,7 @@ params:
       salle: "Amphi"
       date: "15h15 à 16h00"
       language: "🇬🇧"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/UjWDQ7KPQ8Z9HG9oppMJ"
       categories:
         - "Mob Programming"
       speakers:
