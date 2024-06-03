@@ -178,7 +178,7 @@
                     <br/>
                 {{ end }}
                 {{ if $slot.requirement }}
-                    <p class="requirement"> 🚨 {{ $slot.requirement }}</p>
+                    <p class="requirement"> 🚨 {{ $slot.requirement | safeHTML }}</p>
                     <br/>
                 {{ end }}
 <!--                {{/* else if eq .type "workshop" */}}-->

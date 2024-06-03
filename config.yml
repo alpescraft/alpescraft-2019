@@ -982,11 +982,11 @@ params:
          <li> Vous vous entraînerez sur une piste de golf de petits pas !</li>
          <li> ... et je vous reserve une surprise !</li>
         </ul>
-      <p>Assistez à cette conférence pour (re)découvrir la pratique la plus négligée dans le développement de logiciels !</p>
+      <p>Assistez à cette conférence pour (re)découvrir la pratique la plus négligée dans le développement de logiciels !</p>"
 
-      <p><strong>Pré-requis</strong>: un environnement de développement Java, Python ou Typescript</p>"
       type: "workshop"
-      laptop: "yes"
+      requirement: "Merci de venir avec un environnement de développement Java, Python ou Typescript ainsi que le répo github <a href=\"https://github.com/kata-baby-steps-at-alpes-craft/kata-babystepsgolf\" target=\"_blank\">kata-babystepsgolf</a> initialisé"
+      laptop: "no"
       #      menu: "babystep"
       salle: "Villard de Lans 1"
       date: "14h15 à 16h00"
