@@ -482,6 +482,15 @@ params:
       bio: ""
       short_bio: ""
 
+    tanguyrobin:
+      name: "Tanguy Robin"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: "https://www.linkedin.com/in/tanguyrobin/"
+      linkedin: "https://www.linkedin.com/in/tanguyrobin/"
+      bio: "Tanguy est consultant et formateur en product management chez Zenika. Tanguy a dévelopé son expertise  de Product Owner dans différents domaines métier (transport, services publics, énergie). Soucieux aussi des enjeux environnementaux liés aux digital, il sait apporter des solutions pour amener le produit vers du GreenIT."
+      short_bio: "Tanguy est consultant et formateur en product management chez Zenika. Tanguy a dévelopé son expertise  de Product Owner dans différents domaines métier (transport, services publics, énergie). Soucieux aussi des enjeux environnementaux liés aux digital, il sait apporter des solutions pour amener le produit vers du GreenIT."
+
     besmaelechi:
       name: "Besma ELECHI"
       photo: "/img/speakers/Besma_ELECHI.jpg"
@@ -1215,7 +1224,7 @@ params:
           speakerid: "sebastienpencreach"
 
     - name: "Fonctionnalités, qualité, fréquence, et si on arrêtait d’en vouloir toujours plus ?"
-      id: "moretocome"
+      id: "toujoursplus"
       short_description: "<p>Plus de fonctionnalités, de meilleure qualité et plus souvent. Et si le problème était ailleurs ?</p>"
       description: "<p>Plus de fonctionnalités, de meilleure qualité et plus souvent. Et si le problème était ailleurs ?</p>
         <p>Nous vous parlerons de l’approche produit pour mieux comprendre comment le produit réalisé génère des outcomes pour les utilisateurs et des impacts pour l’entreprise.</p>
@@ -1229,6 +1238,8 @@ params:
       speakers:
         - speaker:
           speakerid: "melaniecordero"
+        - speaker:
+          speakerid: "tanguyrobin"
 
     - name: "'Tidy First?' de Kent Beck, un guide pratique pour un code durable et rentable"
       id: "tidyfirst"
