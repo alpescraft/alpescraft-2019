@@ -475,8 +475,8 @@ params:
 
     melaniecordero:
       name: "Mélanie Cordero"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/melanie_cordero.png"
+      high_picture: "/img/speakers/melanie_cordero.png"
       href: "https://www.linkedin.com/in/m%C3%A9lanie-cordero-68b56041/"
       linkedin: "https://www.linkedin.com/in/m%C3%A9lanie-cordero-68b56041/"
       bio: ""
@@ -484,8 +484,8 @@ params:
 
     tanguyrobin:
       name: "Tanguy Robin"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/tanguy_robin.jpg"
+      high_picture: "/img/speakers/tanguy_robin.jpg"
       href: "https://www.linkedin.com/in/tanguyrobin/"
       linkedin: "https://www.linkedin.com/in/tanguyrobin/"
       bio: "Tanguy est consultant et formateur en product management chez Zenika. Tanguy a dévelopé son expertise  de Product Owner dans différents domaines métier (transport, services publics, énergie). Soucieux aussi des enjeux environnementaux liés aux digital, il sait apporter des solutions pour amener le produit vers du GreenIT."
