@@ -712,6 +712,7 @@ params:
            <p>Langage: Java / typescript / python… à déterminer en fonction des participants.</p>
       "
       type: "workshop"
+      seating: "20"
       laptop: "yes"
       salle: "Villard de Lans 1"
       date: "10h30 - 12h15"
@@ -731,6 +732,7 @@ params:
       short_description: "<p>Plongez dans l'univers du Software Craft avec notre atelier intensif dédié à Github Copilot. Découvrez comment utiliser cet outil pour optimiser vos pratiques de développement (Test-Driven Development : TDD et de Behavior-Driven Development : BDD), allant de la génération d'exemples et de tests unitaires à la création de documentation, en passant par la génération et le refactoring de code.</p>"
       description: "<p>Plongez dans l'univers du Software Craft avec notre atelier intensif dédié à Github Copilot. Découvrez comment utiliser cet outil pour optimiser vos pratiques de développement (Test-Driven Development : TDD et de Behavior-Driven Development : BDD), allant de la génération d'exemples et de tests unitaires à la création de documentation, en passant par la génération et le refactoring de code. À travers un kata pratique, en binôme ou en groupe selon le nombre de participant.e.s, vous apprendrez à intégrer Github Copilot dans vos projets.</p>"
       type: "workshop"
+      seating: "30"
       salle: "Villard de Lans 2"
       date: "10h30 à 12h15"
     #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/OoPMXbPetonvzaRrEOHp"
@@ -989,7 +991,7 @@ params:
       type: "workshop"
       requirement: "Merci de venir avec un environnement de développement Java, Python ou Typescript ainsi que le répo github <a href=\"https://github.com/kata-baby-steps-at-alpes-craft/kata-babystepsgolf\" target=\"_blank\">kata-babystepsgolf</a> initialisé"
       laptop: "no"
-      #      menu: "babystep"
+      seating: "20"
       salle: "Villard de Lans 1"
       date: "14h15 à 16h00"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
@@ -1011,6 +1013,7 @@ params:
       <p>Cette introduction à PCM vous donnera des outils concrets pour cibler votre communication, régler vos conflits et détendre l'atmosphère au quotidien. Aucun pré-requis n'est nécessaire, venez simplement comme vous êtes, prêt à découvrir comment optimiser vos interactions et réduire les conflits, que ce soit en réunion, en pair ou en mob/ensemble programming.
       </p>"
       type: "talk"
+      seating: "30"
       salle: "Villard de Lans 2"
       date: "14h15 à 16h00"
       #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/llOUSjWwyWSGDT7GaKyy"
