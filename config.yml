@@ -272,6 +272,24 @@ params:
       company: "AlpesCraft"
       bio: ""
 
+    kaizen:
+      name: "KAIZEN Solutions"
+      photo: "/img/sponsors/kaizen.png"
+      href: "https://kaizen-solutions.net/"
+      text: "KAIZEN Solutions"
+      company: "KAIZEN Solutions"
+      class_sponsor: "sponsor"
+      bio: ""
+
+    appliedmaterials:
+      name: "Applied Materials France"
+      photo: "/img/sponsors/Applied_Materials_Inc._Logo.svg"
+      href: "https://www.appliedmaterials.com/"
+      text: "Applied Materials France"
+      company: "Applied Materials France"
+      class_sponsor: "sponsor"
+      bio: ""
+
     helviragoma:
       name: "Helvira Goma"
       photo: "/img/speakers/helvira_goma.png"
@@ -592,39 +610,20 @@ params:
       speakers:
         - speaker:
           speakerid: "orga"
-#
-#    - name: "Mot d'acceuil & Mot du sponsor - Zenika"
-#      id: "zenika"
-#      style: "grid-column: 1 / -1;"
-#      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
-#      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
-#      salle: "Chamrousse"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/6DKkcbEep8FTMwOMN2KC"
-#      date: "9h00 à 9h30"
-#      categories:
-#        - "❤"
-#      speakers:
-#        - speaker:
-#          speakerid: "zenika"
 
-#    - name: "Mot d'accueil & Keynote - eXtreme Programming : LA méthode Agile ?"
-#      id: "keynote"
-#      style: "grid-column: 1 / -1;"
-#      description: "<p>Moins populaire que Kanban et Scrum de nos jours, cette méthode mériterait pourtant d'être connue par tous les développeurs.</p>
-#           En effet, l'eXtreme Programming, qui est l'une des sources d'inspiration du Manifeste Agile, a popularisé de nombreuses pratiques incontournables de notre métier. Nous verrons lesquelles, ainsi que des idées qui pourraient, aujourd'hui encore, vous aider à rendre vos équipes plus efficaces. Ce sera aussi l'occasion de découvrir comment cette méthode a évolué, après son succès initial.
-#        </p>"
-#      short_description: "<p>Moins populaire que Kanban et Scrum de nos jours, cette méthode mériterait pourtant d'être connue par tous les développeurs.</p>"
-#      type: "talk"
-#      salle: "Chamrousse"
-#      date: "9h30 - 10h15"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/GvtQlxeKjfy5DinKu1Cr"
-#      categories:
-#        - "Keynote"
-#        - "XP"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "pascallemerrer"
+    - name: "Mot d'acceuil & Mot du sponsor - KAIZEN Solutions"
+      id: "kaizen"
+      style: "grid-column: 1 / -1;"
+      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
+      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
+      salle: "Amphi"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uzr4PeeT8uAZkOs6YCPS"
+      date: "9h00 à 9h30"
+      categories:
+        - "❤"
+      speakers:
+        - speaker:
+          speakerid: "kaizen"
 
     - name: "Manager par les “pièces” : le fondement du lean qui transforme toute l’entreprise "
       id: "lean"
@@ -839,21 +838,6 @@ params:
         - speaker:
           speakerid: "orga"
 
-#
-#    - name: "Mot du sponsor - HackYourJob"
-#      id: "sponsor2"
-#      style: "grid-column: 1 / -1;"
-#      short_description: ""
-#      description: ""
-#      salle: "Chamrousse"
-#      date: "13h50 à 14h15"
-#      roti: "https://openfeedback.io/oZ5A98sJtlfiCrwGRqMc/2023-06-01/WIUeayHrZviy3pDqMFXL"
-#      categories:
-#        - "❤"
-#      speakers:
-#        - speaker:
-#          speakerid: "hackyourjob"
-
     - name: "Rinse-less brushing : une histoire de pratiques"
       id: "romeu"
       short_description: "<p>Chaque adoption de pratiques se retrouve à un moment face à un problème d’adoption mechanique: investiguons le pourquoi !</p>"
@@ -944,6 +928,21 @@ params:
       speakers:
         - speaker:
           speakerid: "orga"
+
+
+    - name: "Lancement de l'après-midi & Mot du sponsor - Applied Materials France"
+      id: "appliedmaterials"
+      style: "grid-column: 1 / -1;"
+      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
+      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
+      salle: "Amphi"
+      date: "13h50 à 14h15"
+#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/jcaMZuJ5gETjbmjRqhp4"
+      categories:
+        - "❤"
+      speakers:
+        - speaker:
+          speakerid: "appliedmaterials"
 
     - name: "La Théorie de la Residualité : une perspective nouvelle de l'architecture logicielle"
       id: "theoriedelaresidulatite"
