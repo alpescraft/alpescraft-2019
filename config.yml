@@ -193,6 +193,9 @@ params:
         - name: "Zenika"
           logo: "/img/sponsors/zenika.png"
           url: "https://www.zenika.com/"
+        - name: "Energy Pool"
+          logo: "/img/sponsors/energypool.svg"
+          url: "https://www.energy-pool.eu/"
 
 
   # List of Partners
