@@ -611,7 +611,7 @@ params:
         - speaker:
           speakerid: "orga"
 
-    - name: "Mot d'acceuil & Mot du sponsor - KAIZEN Solutions"
+    - name: "Mot d'accueil & Mot du sponsor - KAIZEN Solutions"
       id: "kaizen"
       style: "grid-column: 1 / -1;"
       short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
