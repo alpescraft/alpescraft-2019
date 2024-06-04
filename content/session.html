@@ -39,6 +39,7 @@
                 <section>
                     <h2 class="talk-title">{{ .name }}</h2>
                     <h3 class="talk-date"> {{ if .salle }}📍  Salle {{ .salle }} {{ end }}</h3>
+                    <h3 class="talk-date"> {{ if .seating }} 🪑 Capacité {{ .seating }} places {{ end }}</h3>
                     <h3 class="talk-date"> 🕒 {{ .date }}</h3>
 <!--                    <h3 class="talk-date">🍽️-->
 <!--                        {{ if eq .menu "babystep" }}-->
