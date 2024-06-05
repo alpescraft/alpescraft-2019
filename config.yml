@@ -617,7 +617,7 @@ params:
       short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
       description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
       salle: "Amphi"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uzr4PeeT8uAZkOs6YCPS"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uzr4PeeT8uAZkOs6YCPS"
       date: "9h00 à 9h30"
       categories:
         - "❤"
@@ -638,7 +638,7 @@ params:
       type: "talk"
       salle: "Amphi"
       date: "9h30 - 10h15"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/0MspqZwtBEPc28aamIPe"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/0MspqZwtBEPc28aamIPe"
       categories:
         - "Keynote"
         - "Lean"
@@ -663,7 +663,6 @@ params:
 
     - name: "Model Mitosis : ne plus se tromper entre les microservices et le monolithe"
       id: "mitosis"
-      #      menu: "open"
       short_description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>"
       description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>
       <p>Finalement, il atteint une masse critique et devient un monolithe de code en spaghetti... Comment pouvons nous déterminer quand il est temps de modulariser notre logiciel ? Comment prendre la décision de le scinder en plusieurs modules ou services ? Comment gérer la différenciation progressive de nos modèles métiers tout en évitant les couplages inutiles ? Il n'est pas facile de découper son logiciel en deux car déterminer les bonnes frontières peut s'avérer être compliqué.</p>
@@ -672,7 +671,7 @@ params:
       type: "talk"
       salle: "Amphi"
       date: "10h30 à 11h15"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uimjbclpGIUbZ8ei1mrm"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uimjbclpGIUbZ8ei1mrm"
       categories:
         - "Talk"
         - "Microservice"
@@ -685,7 +684,6 @@ params:
 
     - name: "Test Driven Development et Code Legacy : (re)partir sur de bonnes bases."
       id: "legacytdd"
-#      menu: "perfect"
       style: "grid-row: span 3;"
       short_description: "<p>Dans cette session spéciale débutants en TDD, je vous invite à découvrir et pratiquer cette technique particulière qui fait tant parler… et à la démystifier.</p>
                            <p>Deux ateliers consécutifs de 90 minutes !</p>"
@@ -716,7 +714,7 @@ params:
       laptop: "yes"
       salle: "Villard de Lans 1"
       date: "10h30 - 12h15"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/KljhuVnGCIweFs4iIIC4"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/KljhuVnGCIweFs4iIIC4"
       categories:
         - "Workshop"
         - "TDD"
@@ -735,7 +733,7 @@ params:
       seating: "30"
       salle: "Villard de Lans 2"
       date: "10h30 à 12h15"
-    #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/OoPMXbPetonvzaRrEOHp"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/OoPMXbPetonvzaRrEOHp"
       laptop: "no"
       requirement: "Merci de venir avec un ordinateur et une license Github Copilot ou équivalent, si vous ne l'avez pas ce n'est pas grave, on se débrouillera autrement."
       categories:
@@ -748,7 +746,6 @@ params:
 
     - name: "Vous n'êtes pas passionné(e). Et alors ?!"
       id: "leadbypassion"
-      #      menu: "open"
       short_description: "
         <p>Tout le monde connait ce développeur, cette développeuse passionné(e) par son métier.
             Facilement reconnaissable du fait qu'il/elle passe des heures à coder, même en dehors du travail;
@@ -777,7 +774,7 @@ params:
       type: "Talk"
       salle: "Autrans 1-2"
       date: "10h30 à 11h15"
-    #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/Ws5guzbt2XXbvsijlK8r"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/Ws5guzbt2XXbvsijlK8r"
       categories:
         - "Talk"
         - "Passion"
@@ -804,7 +801,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "10h30 à 11h15"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/IpgZ7Jkh3m6vXadAXfpT"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/IpgZ7Jkh3m6vXadAXfpT"
       categories:
         - "Talk"
         - "Cold Case"
@@ -846,7 +843,7 @@ params:
       description: "<p>Chaque adoption de pratiques se retrouve à un moment face à un problème d’adoption mechanique: investiguons le pourquoi !</p>"
       salle: "Amphi"
       date: "11h30 à 12h15"
-      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/o7hRny0LFM82t5ubvvv8"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/o7hRny0LFM82t5ubvvv8"
       language: "🇫🇷"
       categories:
         - "Talk"
@@ -883,7 +880,7 @@ params:
       type: "talk"
       salle: "Autrans 1-2"
       date: "11h30 à 12h15"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/mYmx3b9Qgli6NngMNGyC"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/mYmx3b9Qgli6NngMNGyC"
       categories:
         - "Talk"
         - "Test"
@@ -907,7 +904,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "11h30 à 12h15"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/GXlYzzzCJatAy7oYtXVD"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/GXlYzzzCJatAy7oYtXVD"
       categories:
         - "Talk"
         - "Continuous Delivery"
@@ -939,7 +936,7 @@ params:
       description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
       salle: "Amphi"
       date: "13h50 à 14h15"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/jcaMZuJ5gETjbmjRqhp4"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/jcaMZuJ5gETjbmjRqhp4"
       categories:
         - "❤"
       speakers:
@@ -955,7 +952,7 @@ params:
       type: "talk"
       salle: "Amphi"
       date: "14h15 à 15h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/TtdSRMSzc7KYHXYsXN5m"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/TtdSRMSzc7KYHXYsXN5m"
       categories:
         - "Talk"
         - "Architecture"
@@ -994,7 +991,7 @@ params:
       seating: "20"
       salle: "Villard de Lans 1"
       date: "14h15 à 16h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
       categories:
         - "Workshop"
         - "Petits Pas"
@@ -1016,7 +1013,7 @@ params:
       seating: "30"
       salle: "Villard de Lans 2"
       date: "14h15 à 16h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/llOUSjWwyWSGDT7GaKyy"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/llOUSjWwyWSGDT7GaKyy"
       categories:
         - "Talk"
         - "PCM"
@@ -1036,7 +1033,7 @@ params:
       type: "talk"
       salle: "Autrans 1-2"
       date: "14h15 à 15h00"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/xhdUvie8CVaKOyFi7JzA"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/xhdUvie8CVaKOyFi7JzA"
       categories:
         - "Talk"
         - "DDD"
@@ -1047,7 +1044,6 @@ params:
 
     - name: "Continuous Delivery : Straight to the Prod"
       id: "straighttotheprod"
-      #      menu: "open"
       short_description: "<p>Nous vous proposons un retour d’expérience sur le thème du continuous delivery, de ses avantages et de pratiques permettant d’y parvenir avec le maximum de sérénité, en vous partageant les problèmes rencontrés sur le chemin.</p>"
       description: "<p>
       Nous vous proposons un retour d’expérience sur le thème du continuous delivery, de ses avantages et de pratiques permettant d’y parvenir avec le maximum de sérénité, en vous partageant les problèmes rencontrés sur le chemin.</p>
@@ -1057,7 +1053,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "14h15 à 15h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/cuYQo9qYBbNQ0kC53n8c"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/cuYQo9qYBbNQ0kC53n8c"
       categories:
         - "Talk"
         - "Continuous Delivery"
@@ -1122,7 +1118,7 @@ params:
       salle: "Amphi"
       date: "15h15 à 16h00"
       language: "🇺🇸"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/UjWDQ7KPQ8Z9HG9oppMJ"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/UjWDQ7KPQ8Z9HG9oppMJ"
       categories:
         - "Mob Programming"
       speakers:
@@ -1140,7 +1136,7 @@ params:
       type: "talk"
       salle: "Autrans 1-2"
       date: "15h15 à 16h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/8lxhLEZgCOuy3KQ9vcGx"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/8lxhLEZgCOuy3KQ9vcGx"
       categories:
         - "Talk"
         - "Programmation Fonctionnelle"
@@ -1151,7 +1147,6 @@ params:
 
     - name: "Guerilla Programming : Petit manuel de craft en milieu hostile"
       id: "Guerilla"
-#      menu: "perfect"
       short_description: "<p>Tu investis du temps pour te former aux pratiques craft et agiles. Mais dans ton équipe c'est pas toujours si simple. Certaines pratiques sont mal vues, voire carrément interdites. Tu te sens frustré·e.</p>"
       description: "<p>Tu investis du temps pour te former aux pratiques craft et agiles. Mais dans ton équipe c'est pas toujours si simple. Certaines pratiques sont mal vues, voire carrément interdites. Tu te sens frustré·e.</p>
 
@@ -1166,7 +1161,7 @@ params:
       type: "talk"
       salle: "Chamrousse"
       date: "15h15 à 16h00"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/srtiEffhguNkVELFoo4V"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/srtiEffhguNkVELFoo4V"
       categories:
         - "Talk"
         - "Guerilla"
@@ -1191,7 +1186,6 @@ params:
 
     - name: "Réconcilier Craft et Data-oriented programming"
       id: "dataoriented"
-      #      menu: "open"
       short_description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
       C'est une discipline particulièrement adaptée aux application Web métier, mais elle jure avec la façon dont sont communément présentées certaines pratiques de Craft.</p>"
       description: "<p>Programmer en \"orienté donnée\", c'est appliquer des principes de programmation pour rendre plus compréhensibles les programmes qui principalement opèrent sur la donnée.
@@ -1200,7 +1194,7 @@ params:
       type: "talk"
       salle: "Amphi"
       date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/7Hs8eLlUpQhOV6xnF6K1"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/7Hs8eLlUpQhOV6xnF6K1"
       categories:
         - "Talk"
         - "Data"
@@ -1219,7 +1213,7 @@ params:
       type: "talk"
       salle: "Villard de Lans 1"
       date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/0D1KpzG6GuOevVZzaDdW"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/0D1KpzG6GuOevVZzaDdW"
       categories:
         - "Talk"
         - "Sensibilité"
@@ -1236,7 +1230,7 @@ params:
         <p>Nous verrons qu’en mettant l’utilisateur au cœur de nos pratiques nous pouvons livrer plus de valeur… avec moins de fonctionnalités !</p>"
       salle: "Villard de Lans 2"
       date: "16h15 à 17h00"
-      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/8dbcL3fyf1uiQK0YQBxB"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/8dbcL3fyf1uiQK0YQBxB"
       categories:
         - "Produit"
       language: "🇫🇷"
@@ -1248,8 +1242,6 @@ params:
 
     - name: "'Tidy First?' de Kent Beck, un guide pratique pour un code durable et rentable"
       id: "tidyfirst"
-      #      style: "grid-row: span 2"
-      #      menu: "decode"
       short_description: "<p>
                                  \"Tidy First?\", le dernier ouvrage de Kent Beck, est le fruit de plusieurs années de réflexion sur le métier de développeur.</p>
                                   <p>À travers une quinzaine de patterns, il nous enseigne comment réaliser de petits nettoyages de code qui peuvent considérablement simplifier notre travail quotidien. </p>"
@@ -1259,10 +1251,9 @@ params:
          <p>En illustrant ces patterns, nous montrerons comment les intégrer de manière efficace dans notre flux de travail. Nous aborderons également les aspects économiques souvent négligés du nettoyage de code : comment investir judicieusement dans la propreté du code pour garantir plus d'options et une valeur à long terme, même si cela signifie parfois sacrifier un peu de valeur immédiate. Que vous soyez un développeur débutant ou un expert chevronné, cette conférence vous fournira des stratégies pratiques pour maintenir un code propre et rentable tout au long de votre parcours de développement logiciel.
       </p>"
       type: "talk"
-      #      laptop: "yes"
       salle: "Autrans 1-2"
       date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/9Z4oGwkttGIywIH5kwFK"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/9Z4oGwkttGIywIH5kwFK"
       categories:
         - "Talk"
         - "Clean Code"
@@ -1283,7 +1274,7 @@ params:
       type: "Talk"
       salle: "Chamrousse"
       date: "16h15 à 17h00"
-      #      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/A3BSkVAzbKTkq3G8R3Pw"
+      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/A3BSkVAzbKTkq3G8R3Pw"
       categories:
         - "Talk"
         - "Chaos Engineering"
