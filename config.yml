@@ -1284,16 +1284,17 @@ params:
           speakerid: "thibaudcourtoison"
 
 
-    - name: "Fin de la première journée"
+    - name: "Mot de la fin"
       id: "cheers"
       style: "grid-column: 1 / -1;"
-      short_description: "AlpesCraft ferme ses portes à 17h45, en espérant vous retrouver pour la seconde journée"
-      description: "AlpesCraft ferme ses portes à 17h45, en espérant vous retrouver pour la seconde journée"
+      short_description: "Retrouvons-nous pour un mot de la fin avant de clôturer la journée autour d'une boisson fraîche. AlpesCraft ferme ses portes à 17h45, en espérant vous retrouver pour la seconde journée"
+      description: "Retrouvons-nous pour un mot de la fin avant de clôturer la journée autour d'une boisson fraîche. AlpesCraft ferme ses portes à 17h45, en espérant vous retrouver pour la seconde journée"
       type: "closed"
       categories:
         - "👋"
         - "🍻"
       date: "17h à 17h45"
+      salle: "Amphi"
       speakers:
         - speaker:
           speakerid: "orga"
