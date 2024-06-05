@@ -103,9 +103,11 @@
   @media (max-width: 600px) {
      ul.schedule-list-article {
          grid-template-columns: repeat(1, 100%) !important;
+         display: grid;
       }
       li.schedule-list-article {
           margin: 2rem 0 2rem 0rem;
+          grid-column: 1 / -1;
       }
   }
 
