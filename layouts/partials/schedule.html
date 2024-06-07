@@ -71,7 +71,7 @@
 <br/>
 <!--<br/>-->
 
-    <ul class="schedule-list-article">
+    <ul class="schedule-list-article" style="grid-template-columns: repeat(3,33%);">
     {{ range $index, $slot := .schedule }}
 
 <!--        {{ if eq $index 4 }}-->
@@ -150,12 +150,12 @@
                 </ul>
             </header>
             <section>
-                <a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">
+<!--                <a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">-->
                     <h2 class="talk-title">{{ .name }}</h2>
-                </a>
-                <h3 class="talk-date"> {{ if .salle }} 📍 Salle {{ .salle }} {{ end }}</h3>
-                <h3 class="talk-date"> {{ if .seating }} 🪑 Capacité {{ .seating }} places {{ end }}</h3>
-                <h3 class="talk-date"> 🕒 {{ .date }}</h3>
+<!--                </a>-->
+<!--                <h3 class="talk-date"> {{ if .salle }} 📍 Salle {{ .salle }} {{ end }}</h3>-->
+<!--                <h3 class="talk-date"> {{ if .seating }} 🪑 Capacité {{ .seating }} places {{ end }}</h3>-->
+<!--                <h3 class="talk-date"> 🕒 {{ .date }}</h3>-->
 <!--                <h3 class="talk-date">🍽️-->
 <!--                    {{ if eq .menu "babystep" }}-->
 <!--                        Premier pas dans le craft-->
@@ -171,23 +171,57 @@
 <!--                </h3>-->
                 {{ if .roti }}
                 <h3 class="talk-date">
-                    <a href="{{ .roti }}" aria-label="feedback" target="_blank">💌 Donnez votre feedback !</a>
+                    <a href="{{ .roti }}" aria-label="feedback" target="_blank">💌 Consultez les feedbacks !</a>
                 </h3>
                 {{ end }}
-                {{ if (eq .laptop "yes") }}
-                    <p class="requirement"> 🚨 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
-                    <br/>
-                {{ end }}
-                {{ if $slot.requirement }}
-                    <p class="requirement"> 🚨 {{ $slot.requirement | safeHTML }}</p>
-                    <br/>
-                {{ end }}
+<!--                {{ if (eq .laptop "yes") }}-->
+<!--                    <p class="requirement"> 🚨 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>-->
+<!--                    <br/>-->
+<!--                {{ end }}-->
+<!--                {{ if $slot.requirement }}-->
+<!--                    <p class="requirement"> 🚨 {{ $slot.requirement | safeHTML }}</p>-->
+<!--                    <br/>-->
+<!--                {{ end }}-->
 <!--                {{/* else if eq .type "workshop" */}}-->
 <!--                    <p class=""> 💡  Ce workshop ne nécessite pas votre machine, uniquement votre envie de découvrir de nouvelles choses et votre bonne humeur !</p>-->
 <!--                    <br/>-->
-                <p>{{ .short_description | safeHTML }}</p>
-                <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>
+                <p>{{ .description | safeHTML }}</p>
+<!--                <p><a href="/session/?talk={{ .id }}" aria-label="Session {{ .name }}" target="_blank">En savoir plus...</a></p>-->
+                {{ range $spk := $slot.speakers }}
+                {{ $speaker := index $speakersmap (string $spk.speakerid) }}
+                {{ if $speaker.name }}
+                <br/>
+                <h3 class="talk-date">
+                    Présentation de {{ $speaker.name }}
+                </h3>
+                {{ if $speaker.bio }}
+                <p>{{ $speaker.bio | safeHTML }}</p>
+                {{ end }}
 
+                {{ if $speaker.company }}
+                <p><i class="fa fa-building"></i> <span>{{ $speaker.company }}</span></p>
+                {{ end }}
+
+                {{ if $speaker.linkedin }}
+                <p><i class="fab fa-linkedin-in"></i> <span><a href="{{ $speaker.linkedin }}" about="linkedin {{ $speaker.name }}">Linkedin</a></span></p>
+                {{ end }}
+                {{ if $speaker.text }}
+                <p><i class="fab fa-twitter-square"></i> <span><a href="https://twitter.com/{{ $speaker.text }}" about="twitter {{ $speaker.text }}">X</a></span></p>
+                {{ end }}
+                {{ if $speaker.bluesky }}
+                <p><i class="fab fa-bluesky"></i> <span><a href="{{ $speaker.bluesky }}" about="mastodon {{ $speaker.name }}">Bluesky</a></span></p>
+                {{ end }}
+                {{ if $speaker.site }}
+                <p><i class="fab fa-house-user"></i> <span><a href="{{ $speaker.site }}" about="website {{ $speaker.name }}">Site Web</a></span></p>
+                {{ end }}
+                {{ if $speaker.mastodon }}
+                <p><i class="fab fa-mastodon"></i> <span><a href="{{ $speaker.mastodon }}" about="mastodon {{ $speaker.name }}">Mastodon</a></span></p>
+                {{ end }}
+                {{ if $speaker.github }}
+                <p><i class="fab fa-github-square"></i> <span><a href="{{ $speaker.github }}" about="Github {{ $speaker.name }}">Github</a></span></p>
+                {{ end }}
+                {{ end }}
+                {{ end }}
             </section>
             <footer>
                 <div class="talk-type">
@@ -215,13 +249,13 @@
                             <li class="schedule-tag">{{ .language }}</li>
                         {{ end }}
                     </ul>
-                    <div class="footer-bottom">
-                        <a aria-label="Ouvrir la session {{ .name }}" class="schedule-link" href="/session/?talk={{ .id }}" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
-                            </svg>
-                        </a>
-                    </div>
+<!--                    <div class="footer-bottom">-->
+<!--                        <a aria-label="Ouvrir la session {{ .name }}" class="schedule-link" href="/session/?talk={{ .id }}" target="_blank">-->
+<!--                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">-->
+<!--                                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>-->
+<!--                            </svg>-->
+<!--                        </a>-->
+<!--                    </div>-->
                 </div>
             </footer>
         </article>
