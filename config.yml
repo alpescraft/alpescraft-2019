@@ -32,11 +32,11 @@ params:
   Sections:
     - home
     - about
-    - sponsors
-    - partners
-    - schedule
-    - billetterie
-    - location
+#    - sponsors
+#    - partners
+#    - schedule
+#    - billetterie
+#    - location
     - newsletter
 
   # Titles which you can translate to other languages
