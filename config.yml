@@ -32,11 +32,11 @@ params:
   Sections:
     - home
     - about
-#    - sponsors
-#    - partners
+    - sponsors
+    - partners
 #    - schedule
 #    - billetterie
-#    - location
+    - location
 
   # Titles which you can translate to other languages
   Titles:
@@ -158,13 +158,13 @@ params:
   # List of Sponsors
   Sponsors:
     master:
-      - name: "KAIZEN Solutions"
-        logo: "/img/sponsors/kaizen.png"
-        url: "https://kaizen-solutions.net/"
-      - name: "Applied Materials France"
-        logo: "/img/sponsors/Applied_Materials_Inc._Logo.svg"
-        url: "https://www.appliedmaterials.com/"
-        style: "min-width: 25rem"
+#      - name: "KAIZEN Solutions"
+#        logo: "/img/sponsors/kaizen.png"
+#        url: "https://kaizen-solutions.net/"
+#      - name: "Applied Materials France"
+#        logo: "/img/sponsors/Applied_Materials_Inc._Logo.svg"
+#        url: "https://www.appliedmaterials.com/"
+#        style: "min-width: 25rem"
 #      - name: "Zenika"
 #        logo: "/img/sponsors/zenika.png"
 #        url: "https://www.zenika.com/"
@@ -174,39 +174,39 @@ params:
 #      - name: "Salesforce"
 #        logo: "/img/sponsors/salesforce.png"
 #        url: "https://www.salesforce.com"
-    apprenti1:
-       - name: "Collaboration Betters The World"
-         logo: "/img/sponsors/cbtw.png"
-         url: "https://collaborationbetterstheworld.com/"
-       - name: "ATEME"
-         logo: "/img/sponsors/ateme.png"
-         url: "https://www.ateme.com/"
+#    apprenti1:
+#       - name: "Collaboration Betters The World"
+#         logo: "/img/sponsors/cbtw.png"
+#         url: "https://collaborationbetterstheworld.com/"
+#       - name: "ATEME"
+#         logo: "/img/sponsors/ateme.png"
+#         url: "https://www.ateme.com/"
 #       - name: "VRTICE"
 #         logo: "/img/sponsors/vrtice.png"
 #         url: "https://vrtice.com/"
-       - name: "Julien Lenormand"
-         logo: "/img/sponsors/julien_lenormand_logo.png"
-         url: "https://www.lenormand-julien.fr"
-    apprenti2:
-        - name: "Tuleap"
-          logo: "/img/sponsors/tuleap.png"
-          url: "https://www.tuleap.org/"
-        - name: "Zenika"
-          logo: "/img/sponsors/zenika.png"
-          url: "https://www.zenika.com/"
-        - name: "Energy Pool"
-          logo: "/img/sponsors/energypool.svg"
-          url: "https://www.energy-pool.eu/"
+#       - name: "Julien Lenormand"
+#         logo: "/img/sponsors/julien_lenormand_logo.png"
+#         url: "https://www.lenormand-julien.fr"
+#    apprenti2:
+#        - name: "Tuleap"
+#          logo: "/img/sponsors/tuleap.png"
+#          url: "https://www.tuleap.org/"
+#        - name: "Zenika"
+#          logo: "/img/sponsors/zenika.png"
+#          url: "https://www.zenika.com/"
+#        - name: "Energy Pool"
+#          logo: "/img/sponsors/energypool.svg"
+#          url: "https://www.energy-pool.eu/"
 
 
   # List of Partners
   Partners:
-#    - name: "néosoft"
-#      logo: "/img/partners/neosoft.png"
-#      url: "https://www.neosoft.fr/"
     - name: "SoCraTes-FR"
       logo: "/img/partners/SoCraTes-FR.webp"
       url: "https://socrates-fr.github.io/"
+#    - name: "néosoft"
+#      logo: "/img/partners/neosoft.png"
+#      url: "https://www.neosoft.fr/"
 #      - name: "AlpesJUG"
 #      logo: "/img/partners/alpesjug.webp"
 #      url: "http://www.alpesjug.org/"
