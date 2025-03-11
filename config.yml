@@ -159,9 +159,9 @@ params:
   # List of Sponsors
   Sponsors:
     master:
-#      - name: "KAIZEN Solutions"
-#        logo: "/img/sponsors/kaizen.png"
-#        url: "https://kaizen-solutions.net/"
+      - name: "KAIZEN Solutions"
+        logo: "/img/sponsors/kaizen.png"
+        url: "https://kaizen-solutions.net/"
 #      - name: "Applied Materials France"
 #        logo: "/img/sponsors/Applied_Materials_Inc._Logo.svg"
 #        url: "https://www.appliedmaterials.com/"
@@ -175,7 +175,10 @@ params:
 #      - name: "Salesforce"
 #        logo: "/img/sponsors/salesforce.png"
 #        url: "https://www.salesforce.com"
-#    apprenti1:
+    apprenti1:
+      - name: "Bonitasoft"
+        logo: "/img/sponsors/bonitasoft.png"
+        url: "https://fr.bonitasoft.com/"
 #       - name: "Collaboration Betters The World"
 #         logo: "/img/sponsors/cbtw.png"
 #         url: "https://collaborationbetterstheworld.com/"
