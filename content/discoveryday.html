@@ -1,0 +1,106 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Event">
+
+{{ partial "head.html" (dict "context" . "pageTitle" "Sponsoring" "pageDescription" "Devenir un sponsor") }}
+
+<body class="discoveryday">
+
+<!-- Navigation -->
+{{ partial "previousEdition/nav.html" . }}
+
+<header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <img loading="lazy" src="/img/logo/color/03-AlpesCraft_Couleurs-M.webp" alt="AlpesCraft logo"
+                     align="middle">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <h1 class="mb-5">AlpesCraft</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    </div>
+</header>
+
+<section class="discoveryday bg-light">
+
+    <h2 class="title" style="padding-top: 1em;">Journée découverte du craft - 23 mai 2025</h2>
+
+    <div class="description lead">
+
+        <p class="lead mb-0">
+            Cette année, AlpesCraft propose une nouveauté : une journée pour découvrir le "craft"
+            (ou "Software Craft" ou "Software Craftsmanship").</p>
+
+        <br/>
+
+        <table>
+            <tbody>
+            <tr>
+                <th>Pour qui ?</th>
+                <td style="">Pour les personnes novices dans le domaine du craft, quel que soit le niveau en développement logiciel</td>
+            </tr>
+            <tr>
+                <th>Objectifs ?</th>
+                <td style="">
+                    Découvrir les fondamentaux du craft pour :
+                    <ul>
+                        <li>Amorcer des actions dans son quotidien professionnel</li>
+                        <li>Mieux comprendre et profiter de la conférence en juin</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Quand ?</th>
+                <td style="">Vendredi 23 mai 2025</td>
+            </tr>
+            <tr>
+                <th>Programme ?</th>
+                <td style="">Le programme de la journée est en cours de finalisation,
+                avec 5 intervenants, qui se succèderont au cours de la journée lors de
+                présentations autour des sujets comme : historique, vocabulaire, refactoring,
+                TDD, état d'esprit, etc...</td>
+            </tr>
+            <tr>
+                <th>Où ?</th>
+                <td style="">Zenika Grenoble</td>
+            </tr>
+            <tr>
+                <th>Combien de place ?</th>
+                <td style="">Environ 15 places pour favoriser les avantages d'un petit groupe, pour un
+                maximum d'échanges et d'interactions entre les participants et les intervenants</td>
+            </tr>
+            <tr>
+                <th>Tarif ?</th>
+                <td style="">25 € / personne pour la journée, incluant l'accueil café, boissons et
+                    mini-viennoiseries, ainsi qu'un plateau repas végétarien pour le midi</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="description lead">
+        <p class="lead mb-0">
+            La journée sera annulée s'il n'y a pas un nombre minimum de participants.
+        </p>
+    </div>
+
+    <div class="row my-auto">
+        <div class="col text-center">
+            <a href="mailto:sponsors@alpescraft.fr">
+                <button type="button" class="sponsoring-btn btn btn-lg btn-info">Je m'inscris</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+{{ partial "footer.html" .Site.Params }}
+
+</body>
+</html>
