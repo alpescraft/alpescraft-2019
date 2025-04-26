@@ -38,9 +38,10 @@
                 </header>
                 <section>
                     <h2 class="talk-title">{{ .name }}</h2>
-                    <h3 class="talk-date"> {{ if .salle }}📍  Salle {{ .salle }} {{ end }}</h3>
-                    <h3 class="talk-date"> {{ if .seating }} 🪑 Capacité {{ .seating }} places {{ end }}</h3>
-                    <h3 class="talk-date"> 🕒 {{ .date }}</h3>
+                    {{ if .level }} <h3 class="talk-date">🧗🏿‍♀️{{ .level }}</h3> {{ end }}
+                    {{ if .salle }} <h3 class="talk-date">📍 Salle {{ .salle }}</h3> {{ end }}
+                    {{ if .seating }} <h3 class="talk-date">🪑 Capacité {{ .seating }} places</h3> {{ end }}
+                    {{ if .salle }} <h3 class="talk-date"> 🕒 {{ .date }}</h3> {{ end }}
 <!--                    <h3 class="talk-date">🍽️-->
 <!--                        {{ if eq .menu "babystep" }}-->
 <!--                        Premier pas dans le craft-->
