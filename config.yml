@@ -31,7 +31,7 @@ params:
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
-    - discoveryday
+    - discovery
     - home
     - about
     - sponsors
@@ -42,7 +42,7 @@ params:
 
   # Titles which you can translate to other languages
   Titles:
-     discoveryday:
+     discovery:
        - title: "Journée découverte"
          icon: "icon-plane"
      home:
