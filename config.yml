@@ -427,6 +427,18 @@ params:
       bio: "Nicolas Carlo est un développeur web en freelance vivant à Montréal. Il aide les gens à développer des logiciels maintenables et partage cette passion avec ses collaborateurs.  Il organise le meetup \"Software Crafters Montréal\" chaque mois, la conférence MenderCon chaque année et il développe des projets open-source sur son temps libre… quand il ne profite pas tout simplement de la vie avec sa famille !"
       short_bio: "Nicolas Carlo est un développeur web en freelance vivant à Montréal. Il aide les gens à développer des logiciels maintenables et partage cette passion avec ses collaborateurs.  Il organise le meetup \"Software Crafters Montréal\" chaque mois, la conférence MenderCon chaque année et il développe des projets open-source sur son temps libre… quand il ne profite pas tout simplement de la vie avec sa famille !"
 
+    silvancabot:
+      name: "Silvan Cabot"
+      photo: "/img/speakers/silvancabot.jpg"
+      high_picture: "/img/speakers/silvancabot.jpg"
+      href: "https://www.linkedin.com/in/silvan-cabot/"
+      linkedin: "https://www.linkedin.com/in/silvan-cabot/"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "J'aide les équipes de direction à concevoir et à maintenir des mécanismes opérationnels simples pour mieux leur stratégie ou leur transformation produit. Je fais ça depuis plus de 20 ans, d'abord depuis les tranchées, puis les comités de direction et aujourd'hui comme consultant."
+      short_bio: "J'aide les équipes de direction à concevoir et à maintenir des mécanismes opérationnels simples pour mieux leur stratégie ou leur transformation produit. Je fais ça depuis plus de 20 ans, d'abord depuis les tranchées, puis les comités de direction et aujourd'hui comme consultant."
+
 
   #    helviragoma:
 #      name: "Helvira Goma"
@@ -1027,6 +1039,38 @@ params:
       speakers:
         - speaker:
           speakerid: "nicolascarlo"
+
+    - name: "Craft & recherche utilisateur"
+      id: "craftAndResearch"
+      #      style: "grid-row: span 3;"
+      short_description: "
+        <p>Les activités de recherche utilisateurs sont essentielles pour mieux comprendre les besoins des personnes qui utiliseront nos logiciels et nos services.</p>
+        <p>Mais elles sont trop souvent faites de manière séquentielle et en amont des équipes de développement: On passe beaucoup de temps à analyser les besoins utilisateurs, à définir comment y répondre et on développe quand on est sur de savoir ce qu'il faut faire pour apporter de la valeur.</p>
+        <p>C'est très bien sur le papier mais en pratique c'est un cycle en V déguisé (et très souvent inconscient)</p>"
+      description: "
+        <p>Les activités de recherche utilisateurs sont essentielles pour mieux comprendre les besoins des personnes qui utiliseront nos logiciels et nos services.</p>
+        <p>Mais elles sont trop souvent faites de manière séquentielle et en amont des équipes de développement: On passe beaucoup de temps à analyser les besoins utilisateurs, à définir comment y répondre et on développe quand on est sur de savoir ce qu'il faut faire pour apporter de la valeur.</p>
+        <p>C'est très bien sur le papier mais en pratique c'est un cycle en V déguisé (et très souvent inconscient)</p>
+  
+        <p>Dans cette atelier, je vous présente une manière d'identifier, prioriser et mener la recherche utilisateur en intégrant tous les acteurs qui le souhaitent dès le départ et de manière très itérative.</p>
+        <p>Nous apprendrons à accepter d'avoir une idée de solution dès le départ, à accepter aussi celles des autres, à les découper, les prioriser et les traiter ensemble.</p>
+        <p>Nous verrons aussi comment éviter de surinvestir quand ce n'est pas nécessaire.</p>
+      "
+      type: "workshop"
+      #requirement: ""
+      laptop: "no"
+      seating: "20"
+      #salle: "Villard de Lans 1"
+      #date: "14h15 à 16h00"
+      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
+      level: "Tout le monde"
+      categories:
+        - "Workshop"
+        - "Recherche utilisateur"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "silvancabot"
 
 #    - name: "Pause"
 #      id: "pause"
