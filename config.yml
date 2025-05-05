@@ -38,13 +38,9 @@ params:
     - schedule
     - billetterie
     - location
-    - discovery
 
   # Titles which you can translate to other languages
   Titles:
-     discovery:
-       - title: "Journée découverte"
-         icon: "icon-plane"
      home:
        - title: "La conférence"
          icon: "icon-home"
