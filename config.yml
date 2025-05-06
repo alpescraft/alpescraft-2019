@@ -831,7 +831,7 @@ params:
           speakerid: "yanncourtel"
 
 
-    - name: "Triangle cherche carré : 3 activité pour mieux apprécier nos différences"
+    - name: "Triangle cherche carré : 3 activités pour mieux apprécier nos différences"
       id: "triangle"
       #      menu: "open"
 #      style: "grid-column: 1 / -1;"
