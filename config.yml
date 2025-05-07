@@ -439,6 +439,29 @@ params:
       bio: "J'aide les équipes de direction à concevoir et à maintenir des mécanismes opérationnels simples pour mieux leur stratégie ou leur transformation produit. Je fais ça depuis plus de 20 ans, d'abord depuis les tranchées, puis les comités de direction et aujourd'hui comme consultant."
       short_bio: "J'aide les équipes de direction à concevoir et à maintenir des mécanismes opérationnels simples pour mieux leur stratégie ou leur transformation produit. Je fais ça depuis plus de 20 ans, d'abord depuis les tranchées, puis les comités de direction et aujourd'hui comme consultant."
 
+    mathieucans:
+      name: "Mathieu Cans"
+      photo: "/img/speakers/mathieu_cans.jpeg"
+      high_picture:  "/img/speakers/mathieu_cans.jpeg"
+      href: "https://www.linkedin.com/in/mathieucans/"
+      linkedin: "https://www.linkedin.com/in/mathieucans/"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Convaincu que la responsabilité collective de la qualité ainsi que l’existence de feedbacks sont au cœur de la réussite des projets informatiques, je développe des produits en équipe par petits incréments."
+      short_bio: "Software Engineer at Orange"
+
+    johanmartinsson:
+      name: "Johan Martinsson"
+      photo: "/img/speakers/johan_martinsson.jpg"
+      high_picture:  "/img/speakers/johan_martinsson.jpg"
+      href: "https://www.linkedin.com/in/jomartinsson/"
+      linkedin: "https://www.linkedin.com/in/jomartinsson/"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Johan Martinsson est développeur freelance, passionné entre autres par le design du code. Fort de plus de 20 ans d’expérience, il consacre les 15 dernières années à aider des équipes à maîtriser le développement guidé par les tests dans plusieurs langages. Il trouve régulièrement de (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs.  Johan a organisé le premier Code Retreat en France, ainsi que le tout premier Legacy Code Retreat mondial avec JB Rainsberger et Rémy Sanlaville. Il est cofondateur du meetup Craft à Grenoble et de la conférence AlpesCraft. Il a aussi longtemps coorganisé le coding dojo grenoblois, SnowCamp et Agile Grenoble."
+      short_bio: "Johan Martinsson est développeur freelance, passionné entre autres par le design du code. Fort de plus de 20 ans d’expérience, il consacre les 15 dernières années à aider des équipes à maîtriser le développement guidé par les tests dans plusieurs langages. Il trouve régulièrement de (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs.  Johan a organisé le premier Code Retreat en France, ainsi que le tout premier Legacy Code Retreat mondial avec JB Rainsberger et Rémy Sanlaville. Il est cofondateur du meetup Craft à Grenoble et de la conférence AlpesCraft. Il a aussi longtemps coorganisé le coding dojo grenoblois, SnowCamp et Agile Grenoble."
 
   #    helviragoma:
 #      name: "Helvira Goma"
@@ -632,17 +655,6 @@ params:
 #            Chanteur rockeur circassien intermittent et papa à temps plein, j'aime également prendre le temps de regarder le vent agiter les feuilles d'un arbre."
 #      short_bio: "Dev .NET depuis 2008, Freelance depuis 2018, Crafter devant l'éternel et debugger de l'infini!"
 #
-#    mathieucans:
-#      name: "Mathieu Cans"
-#      photo: "/img/speakers/mathieu_cans.jpeg"
-#      high_picture:  "/img/speakers/mathieu_cans.jpeg"
-#      href: "https://www.linkedin.com/in/mathieucans/"
-#      linkedin: "https://www.linkedin.com/in/mathieucans/"
-#      github: "https://github.com/mathieucans"
-#      text: "@mathieucans"
-#      bio: "Convaincu que la responsabilité collective de la qualité ainsi que l’existence de feedbacks sont au cœur de la réussite des projets informatiques, je développe des produits en équipe par petits incréments."
-#      company: "Orange"
-#      short_bio: "Software Engineer at Orange"
 #
 #    melaniecordero:
 #      name: "Mélanie Cordero"
@@ -1071,6 +1083,69 @@ params:
       speakers:
         - speaker:
           speakerid: "silvancabot"
+
+    - name: "We don’t need no mock trouble"
+      id: "mocktrouble"
+      #      style: "grid-row: span 3;"
+      short_description: "
+        <p>🧪Vous aimez vraiment écrire des tests avec des mocks ?</p>
+        <p>Ou peut-être...</p>
+  
+        <ul>
+          <li>🧐 Vous avez eu un bug en prod alors que tout était testé  ?</li>
+          <li>🤯 Vous devez modifier trop de tests à chaque refactoring  ?</li>
+          <li>🤨 Vous vous perdez dans les configurations de mocks trop complexes  ?</li>
+          <li>🪳 L’intégration avec des services externes est une source de bugs  ?</li>
+        </ul>
+        <p>Et si le vrai problème... c’était les mocks eux-mêmes ? 👀</p> 
+      "
+      description: "
+        <p>🧪Vous aimez vraiment écrire des tests avec des mocks ?</p>
+        <p>Ou peut-être...</p>
+  
+        <ul>
+          <li>🧐 Vous avez eu un bug en prod alors que tout était testé  ?</li>
+          <li>🤯 Vous devez modifier trop de tests à chaque refactoring  ?</li>
+          <li>🤨 Vous vous perdez dans les configurations de mocks trop complexes  ?</li>
+          <li>🪳 L’intégration avec des services externes est une source de bugs  ?</li>
+        </ul>
+        <br/>
+        <p>Et si le vrai problème... c’était les mocks eux-mêmes ? 👀</p>
+        <p>Dans cet atelier, Johan Martinsson et Mathieu Cans proposent une alternative plus simple et plus fiable, basée sur leur expérience :</p>
+        <p>🎭 Des simulateurs à la place des mocks, validés par des tests de contrat (Adapter Contract Testing).</p>
+        <br/>
+        <p>💡 L’idée ?</p>
+        <ul>
+          <li>➡️ On code un simulateur à la main, qui se comporte comme le vrai service ou la vraie base de données.</li>
+          <li>➡️ On écrit un test d’intégration contre le vrai service — c’est notre contrat.</li>
+          <li>➡️ On réutilise ce même test pour valider le simulateur.</li>
+        </ul>
+        <br/>
+        <p>Résultat : no more trouble 😉👇🏽</p>
+        <ul>
+          <li>  ☑️ Des tests robustes, expressifs, centrés sur le métier et proches de la réalité.</li>
+          <li>  ⛔️ Fini les surprises en prod à cause d’un mock mal calé.</li>
+          <li>  ⛔️ Fini les tests incompréhensibles.</li>
+          <li>  ⛔️ Fini les surprises avec nos dépendances.</li>
+        </ul>
+      "
+      type: "workshop"
+      requirement: "Pour gagner du temps clonez et suivez les requirement des README : <a href=\"https://github.com/adapter-contract-testing/snail-race-kata\">snail-race-kata</a>"
+      laptop: "yes"
+      seating: "40"
+      #salle: "Villard de Lans 1"
+      #date: "14h15 à 16h00"
+      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
+      level: "Public averti"
+      categories:
+        - "Workshop"
+        - "Mock"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "mathieucans"
+        - speaker:
+          speakerid: "johanmartinsson"
 
 #    - name: "Pause"
 #      id: "pause"
