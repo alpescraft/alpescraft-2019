@@ -463,6 +463,42 @@ params:
       bio: "Johan Martinsson est développeur freelance, passionné entre autres par le design du code. Fort de plus de 20 ans d’expérience, il consacre les 15 dernières années à aider des équipes à maîtriser le développement guidé par les tests dans plusieurs langages. Il trouve régulièrement de (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs.  Johan a organisé le premier Code Retreat en France, ainsi que le tout premier Legacy Code Retreat mondial avec JB Rainsberger et Rémy Sanlaville. Il est cofondateur du meetup Craft à Grenoble et de la conférence AlpesCraft. Il a aussi longtemps coorganisé le coding dojo grenoblois, SnowCamp et Agile Grenoble."
       short_bio: "Johan Martinsson est développeur freelance, passionné entre autres par le design du code. Fort de plus de 20 ans d’expérience, il consacre les 15 dernières années à aider des équipes à maîtriser le développement guidé par les tests dans plusieurs langages. Il trouve régulièrement de (bonnes) excuses pour aller montrer un peu de code dans des conférences en France et ailleurs.  Johan a organisé le premier Code Retreat en France, ainsi que le tout premier Legacy Code Retreat mondial avec JB Rainsberger et Rémy Sanlaville. Il est cofondateur du meetup Craft à Grenoble et de la conférence AlpesCraft. Il a aussi longtemps coorganisé le coding dojo grenoblois, SnowCamp et Agile Grenoble."
 
+    juliequille:
+      name: "Julie Quillé"
+      photo: "/img/speakers/juliequille.jpg"
+      high_picture:  "/img/speakers/juliequille.jpg"
+      href: "https://www.linkedin.com/in/juliequille/"
+      linkedin: "https://www.linkedin.com/in/juliequille/"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Passionnée par l’être humain, la psychologie et la sociologie, j’accompagne les personnes et les équipes dans leur cheminement vers plus de responsabilité et de liberté individuelles. La Communication Bienveillante (CNV) est mon outil de prédilection."
+      short_bio: "Passionnée par l’être humain, la psychologie et la sociologie, j’accompagne les personnes et les équipes dans leur cheminement vers plus de responsabilité et de liberté individuelles. La Communication Bienveillante (CNV) est mon outil de prédilection."
+
+    albiezolivier:
+      name: "Olivier Albiez"
+      photo: "/img/speakers/Olivier_Albiez.jpg"
+      high_picture: "/img/speakers/Olivier_Albiez.jpg"
+      href: "https://www.linkedin.com/in/olivieralbiez"
+      linkedin: "https://www.linkedin.com/in/olivieralbiez"
+      text: ""
+      mastodon: "https://mastodon.social/@oalbiez"
+      bluesky: "@aka67.bsky.social"
+      bio: "Je fais de l'accompagnement technique et organisationel chez Azaé, passionné des méthodes de travail et de l’auto-organisation dans les entreprises. Curieux par nature, je suis toujours à la recherche de ce qui peut améliorer le travail collectif d’une organisation. Je suis signataire des manifestes Artisans du Logiciel et Agile."
+      short_bio: "Je fais de l'accompagnement technique et organisationel chez Azaé, passionné des méthodes de travail et de l’auto-organisation dans les entreprises."
+
+    seddikisonia:
+      name: "Sonia Seddiki"
+      photo: "/img/speakers/Sonia_Seddiki.jpeg"
+      high_picture: "/img/speakers/Sonia_Seddiki.jpeg"
+      href: "https://www.linkedin.com/in/soniaseddiki/"
+      linkedin: "https://www.linkedin.com/in/soniaseddiki/"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Développeuse backend passionnée d'investigation numérique, j'aime comprendre le fonctionnement des systèmes."
+      short_bio: "Développeuse backend passionnée d'investigation numérique."
+
   #    helviragoma:
 #      name: "Helvira Goma"
 #      photo: "/img/speakers/helvira_goma.png"
@@ -1146,6 +1182,78 @@ params:
           speakerid: "mathieucans"
         - speaker:
           speakerid: "johanmartinsson"
+
+    - name: "Réduire la confusion avec Cynefin"
+      id: "cynefin"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description: "<p>
+        What do you think ?</p>
+      <p>Il vous est déjà arrivé qu’on vous demande visibilité alors que la seule chose que vous saviez est que vous n’en aviez aucune ? Ou au contraire vous demander de faire roadmap, estimation, projection et comité de pilotage pour un projet sur lequel aucune erreurs n’était possible ?</p>
+      </p>"
+      description: "<p>
+        <p>What do you think ?</p>
+        <p>Il vous est déjà arrivé qu’on vous demande visibilité alors que la seule chose que vous saviez est que vous n’en aviez aucune ? Ou au contraire vous demander de faire roadmap, estimation, projection et comité de pilotage pour un projet sur lequel aucune erreurs n’était possible ?</p>
+        <p>Nous vous invitons à venir découvrir Cynefin. Un outil modélisant plusieurs typologies de relation à une problématique et nous invitant à adapter nos comportements en fonction.</p>
+        <p>Utile pour améliorer l’alignement dans les équipes, augmenter les chances que les décisions que nous prenons fonctionnent ou tout simplement faire le grand saut de réduire la confusion. C’est une petite partie du potentiel de Cynefin que nous vous invitons à découvrir à travers ce talk.
+     </p>"
+      level: "Tout le monde"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+        - "Cynefin"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "juliequille"
+        - speaker:
+          speakerid: "albiezolivier"
+
+    - name: "WannaCry : les dessous d'un ransomware dévastateur"
+      id: "wannacry"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description: "
+            <p>Si WannaCry n'est pas le premier ransomware, il est au moins celui qui a causé le plus de dégâts dans toute l'histoire d'Internet. Infectant plusieurs centaines de milliers d'ordinateurs grâce à une faille présente sur des systèmes Windows obsolètes, il contraindra même Microsoft à publier un patch de sécurité pour des OS qui n'étaient alors plus maintenus.</p>
+  
+        <p>Devant l'ampleur de cette cyberattaque, plusieurs équipes se sont mobilisées afin de freiner sa propagation et d'aider les victimes à récupérer leurs fichiers.</p>
+        <p>Retour sur cette traque de longue haleine, entre cryptographie, rétro-ingénierie et analyse forensique.</p>
+        "
+      description: "
+      <p>Si WannaCry n'est pas le premier ransomware, il est au moins celui qui a causé le plus de dégâts dans toute l'histoire d'Internet. Infectant plusieurs centaines de milliers d'ordinateurs grâce à une faille présente sur des systèmes Windows obsolètes, il contraindra même Microsoft à publier un patch de sécurité pour des OS qui n'étaient alors plus maintenus.</p>
+        <p>Devant l'ampleur de cette cyberattaque, plusieurs équipes se sont mobilisées afin de freiner sa propagation et d'aider les victimes à récupérer leurs fichiers.</p>
+        <p>Retour sur cette traque de longue haleine, entre cryptographie, rétro-ingénierie et analyse forensique.</p>
+        
+        <ol>Pourquoi ça peut vous intéresser 😁
+        <li>L'analyse de malware, c'est un peu comme de l'analyse de code legacy : vous êtes face à un logiciel que vous n'avez pas codé vous-même, mais dont vous allez devoir comprendre le fonctionnement, et le code source est parfois tellement complexe que ça ne vous avance pas toujours de l'avoir...</li>
+        <li>On va parler de logiciel, mais aussi de plein de choses qui tournent autour et dont on ne se soucie pas forcément (mais qui sont tous les petits trucs qui permettent au logiciel de tourner...)</li>
+        <li>On va analyser une scène de crime numérique façon Les Experts Miami 😎 (c'est à peine exagéré)</li>
+        </ol>
+        
+        <ol>
+        Pourquoi ça peut vous faire peur 😱 (et pourquoi venir quand même !)
+        <li>On va regarder du code en assembleur, mais pas besoin d'en avoir déjà lu pour s'y retrouver ici !</li>
+        <li>Cryptographie oblige, on va évoquer quelques notions de maths, mais juste en surface : si vous savez ce qu'est un nombre premier, c'est suffisant</li>
+        <li>On va parler d'allocation mémoire et regarder le contenu de la mémoire allouée à un processus, il y aura plein d'hexadécimal à l'écran, on ne va rien comprendre au début et c'est ok</li>
+        <li>Les noms de Windows et de Microsoft seront régulièrement prononcés (!)</li>
+        </ol>
+     </p>"
+      level: "Tout le monde"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+        - "Ransomware"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "seddikisonia"
+
 
 #    - name: "Pause"
 #      id: "pause"
