@@ -499,6 +499,18 @@ params:
       bio: "Développeuse backend passionnée d'investigation numérique, j'aime comprendre le fonctionnement des systèmes."
       short_bio: "Développeuse backend passionnée d'investigation numérique."
 
+    bossavitlaurent:
+      name: "Laurent Bossavit"
+      photo: "/img/speakers/laurentbossavit.jpeg"
+      high_picture: "/img/speakers/laurentbossavit.jpeg"
+      href: "https://www.linkedin.com/in/bossavit/"
+      linkedin: "https://www.linkedin.com/in/bossavit/"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Laurent Bossavit est agiliste depuis l’époque où ça ne s’appelait pas encore agile, développeur depuis l’époque où l’Internet s’appelait encore Minitel, ex-startupeur d'État chez beta.gouv.fr. et actuellement Consultant Principal chez WeValue. Il aime le café, pratiquer la slackline, lire Bruno Latour et jouer au Go (mais pas en même temps)."
+      short_bio: "Agiliste de la première heure, développeur, ex-startupeur d'État chez beta.gouv.fr, aujourd'hui Consultant Principal chez WeValue."
+
   #    helviragoma:
 #      name: "Helvira Goma"
 #      photo: "/img/speakers/helvira_goma.png"
@@ -1253,6 +1265,35 @@ params:
       speakers:
         - speaker:
           speakerid: "seddikisonia"
+
+    - name: "D'où viennent les bugs ?"
+      id: "bug"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description: "
+      <p>On dit beaucoup de choses au sujet de la qualité logicielle, avec des mots et des concepts compliqués.</p>
+  
+      <p>Et si on passait à côté de l’essentiel ?</p>
+        "
+      description: "
+      <p>On dit beaucoup de choses au sujet de la qualité logicielle, avec des mots et des concepts compliqués.</p>
+  
+      <p>Et si on passait à côté de l’essentiel ?</p>
+  
+      <p>Pour faire le point, je propose de revenir aux fondamentaux, en m’appuyant sur trois décennies d’expérience; de découvrir quelques préceptes de la programmation fonctionnelle; de prendre un peu de recul par rapport aux sirènes de l’IA… bref de partager pourquoi cette question me taraude toujours et les réponses que j’ai pu y apporter.
+     </p>"
+      level: "Public averti"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+        - "Bug"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "bossavitlaurent"
 
 
 #    - name: "Pause"
