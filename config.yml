@@ -1199,13 +1199,9 @@ params:
       id: "cynefin"
       #      menu: "open"
       #      style: "grid-column: 1 / -1;"
-      short_description: "<p>
-        What do you think ?</p>
-      <p>Il vous est déjà arrivé qu’on vous demande visibilité alors que la seule chose que vous saviez est que vous n’en aviez aucune ? Ou au contraire vous demander de faire roadmap, estimation, projection et comité de pilotage pour un projet sur lequel aucune erreurs n’était possible ?</p>
-      </p>"
+      short_description: "<p>Il vous est déjà arrivé qu’on vous demande de la visibilité alors que la seule chose que vous savez est que vous n’en avez aucune ? Ou au contraire on vous demande de faire roadmap, estimation, projection et comité de pilotage pour un projet sur lequel aucune erreur n’est possible ?</p>"
       description: "<p>
-        <p>What do you think ?</p>
-        <p>Il vous est déjà arrivé qu’on vous demande visibilité alors que la seule chose que vous saviez est que vous n’en aviez aucune ? Ou au contraire vous demander de faire roadmap, estimation, projection et comité de pilotage pour un projet sur lequel aucune erreurs n’était possible ?</p>
+        <p>Il vous est déjà arrivé qu’on vous demande de la visibilité alors que la seule chose que vous savez est que vous n’en avez aucune ? Ou au contraire on vous demande de faire roadmap, estimation, projection et comité de pilotage pour un projet sur lequel aucune erreur n’est possible ?</p>
         <p>Nous vous invitons à venir découvrir Cynefin. Un outil modélisant plusieurs typologies de relation à une problématique et nous invitant à adapter nos comportements en fonction.</p>
         <p>Utile pour améliorer l’alignement dans les équipes, augmenter les chances que les décisions que nous prenons fonctionnent ou tout simplement faire le grand saut de réduire la confusion. C’est une petite partie du potentiel de Cynefin que nous vous invitons à découvrir à travers ce talk.
      </p>"
