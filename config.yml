@@ -511,6 +511,19 @@ params:
       bio: "Laurent Bossavit est agiliste depuis l’époque où ça ne s’appelait pas encore agile, développeur depuis l’époque où l’Internet s’appelait encore Minitel, ex-startupeur d'État chez beta.gouv.fr. et actuellement Consultant Principal chez WeValue. Il aime le café, pratiquer la slackline, lire Bruno Latour et jouer au Go (mais pas en même temps)."
       short_bio: "Agiliste de la première heure, développeur, ex-startupeur d'État chez beta.gouv.fr, aujourd'hui Consultant Principal chez WeValue."
 
+    pointeaugaspard:
+      name: "Gaspard Pointeau"
+      photo: "/img/speakers/gaspardpointeau.jpeg"
+      high_picture: "/img/speakers/gaspardpointeau.jpeg"
+      href: "https://www.linkedin.com/in/gaspard-pointeau/"
+      linkedin: "https://www.linkedin.com/in/gaspard-pointeau/"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Développeur et formateur sur le Craft, il est aussi co-organisateur du meetup Ardèch’Drôm Dev."
+      short_bio: "Développeur et formateur sur le Craft, co-organisateur du meetup Ardèch’Drôm Dev."
+
+
   #    helviragoma:
 #      name: "Helvira Goma"
 #      photo: "/img/speakers/helvira_goma.png"
@@ -1291,6 +1304,34 @@ params:
         - speaker:
           speakerid: "bossavitlaurent"
 
+    - name: "Refactorer à fond les manettes"
+      id: "console"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description: "
+            <p>Je vais vous présenter la technologie ultime pour refactorer le code spaghettis, la solution qui règle tous vos problèmes de legacy, une solution hardware à moins de 20€ : la manette de console.
+      Pourquoi payer un clavier avec une centaine de touches et une souris, quand une manette avec une quinzaine de boutons suffit largement ?</p>
+        "
+      description: "
+      <p>Je vais vous présenter la technologie ultime pour refactorer le code spaghettis, la solution qui règle tous vos problèmes de legacy, une solution hardware à moins de 20€ : la manette de console.
+      Pourquoi payer un clavier avec une centaine de touches et une souris, quand une manette avec une quinzaine de boutons suffit largement ?</p>
+  
+      <p>Et si, comme toutes les silver bullets, la stratégie d'utilisation était plus importante que l’outil en lui même ?
+      Et si en travaillant calmement et méthodiquement on pouvait dépatouiller du code bien sale en laissant l'IDE résoudre automatiquement les problèmes ?</p>
+  
+      <p>Du coup live refactoring à la manette, parce que pourquoi pas !</p>"
+      level: "Public novice"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+        - "🎮"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "pointeaugaspard"
 
 #    - name: "Pause"
 #      id: "pause"
