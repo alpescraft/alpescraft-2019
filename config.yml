@@ -523,6 +523,18 @@ params:
       bio: "Développeur et formateur sur le Craft, il est aussi co-organisateur du meetup Ardèch’Drôm Dev."
       short_bio: "Développeur et formateur sur le Craft, co-organisateur du meetup Ardèch’Drôm Dev."
 
+    berlendissimon:
+      name: "Simon Berlendis"
+      photo: "/img/speakers/berlendissimon.jpeg"
+      high_picture: "/img/speakers/berlendissimon.jpeg"
+      href: "https://www.linkedin.com/in/simon-berlendis"
+      linkedin: "https://www.linkedin.com/in/simon-berlendis"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Développeur à Sogilis. J'organise des coding dojos à Grenoble sur meetup depuis 2023."
+      short_bio: "Développeur à Sogilis et organisateur de coding dojos à Grenoble."
+
 
   #    helviragoma:
 #      name: "Helvira Goma"
@@ -1332,6 +1344,37 @@ params:
       speakers:
         - speaker:
           speakerid: "pointeaugaspard"
+
+    - name: "Décollons une fusée ensemble lors d'un coding dojo"
+      id: "codingdojo"
+      #      style: "grid-row: span 3;"
+      short_description: "
+        <p>Atelier pour découvrir les coding dojos.</p>
+        <p>Ce sont des rendez-vous réguliers entre développeurs (de n'importe quel niveau) pour résoudre un exercice de programmation dans un format en mob programming. Le but est de partager nos connaissances et nos pratiques, d'apprendre, de progresser, et surtout de passer un bon moment :)</p> 
+      "
+      description: "
+        <p>Atelier pour découvrir les coding dojos.</p>
+        <p>Ce sont des rendez-vous réguliers entre développeurs (de n'importe quel niveau) pour résoudre un exercice de programmation dans un format en mob programming. Le but est de partager nos connaissances et nos pratiques, d'apprendre, de progresser, et surtout de passer un bon moment :)</p>
+        <p>Dans cet atelier, nous allons programmer les règles du jeu de la vie pour faire décoller une fusée.</p>
+        <p>Décollage, dans 3, 2, 1....</p>
+        </p>
+      "
+      type: "workshop"
+      requirement: "Avoir déjà écrit une ligne de code dans sa vie."
+      laptop: "yes"
+      #seating: "40"
+      #salle: "Villard de Lans 1"
+      #date: "14h15 à 16h00"
+      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
+      level: "Tout le monde"
+      categories:
+        - "Workshop"
+        - "Coding Dojo"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "berlendissimon"
+
 
 #    - name: "Pause"
 #      id: "pause"
