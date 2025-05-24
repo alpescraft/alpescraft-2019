@@ -903,7 +903,7 @@ params:
       #seating: "20"
       #salle: "Villard de Lans 1"
       #date: "14h15 à 16h00"
-      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/Jp7ibMSf6wPD2LMwAX7k"
       level: "Public averti"
       categories:
         - "Workshop"
@@ -932,7 +932,7 @@ params:
       type: "talk"
       salle: ""
       date: ""
-      roti: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/68QyK10xwsOmeprLb1Dm"
       categories:
         - "Talk"
         - "Inclusion"
@@ -956,7 +956,7 @@ params:
       type: "talk"
       salle: ""
       date: ""
-      roti: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/rSQMXhrjI7OVC8ZFXJbI"
       categories:
         - "Talk"
         - "Engagement"
@@ -989,7 +989,7 @@ params:
       type: "talk"
       salle: ""
       date: ""
-      roti: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/QAPlA6Gb1Ec0Y0rasEj4"
       categories:
         - "Talk"
         - "Observabilité"
@@ -1025,7 +1025,7 @@ params:
       type: "talk"
       salle: ""
       date: ""
-      roti: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/JNVzrz691PfokigK1OCR"
       categories:
         - "Talk"
         - "Conflit"
@@ -1054,7 +1054,7 @@ params:
       type: "talk"
       salle: ""
       date: ""
-      roti: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/g7i4yKc8hGCcAVjZ5Gbs"
       categories:
         - "Talk"
         - "Object Calisthenic"
@@ -1084,7 +1084,7 @@ params:
       type: "talk"
       salle: ""
       date: ""
-      roti: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/lwAfjVN35MICIFDy9TID"
       categories:
         - "Talk"
         - "Example Mapping"
@@ -1115,7 +1115,7 @@ params:
       #seating: "40"
       #salle: "Villard de Lans 1"
       #date: "14h15 à 16h00"
-      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/JQ1IuLa7tbbG3dbcFJM9"
       level: "Public averti"
       categories:
         - "Workshop"
@@ -1147,7 +1147,7 @@ params:
       #seating: "20"
       #salle: "Villard de Lans 1"
       #date: "14h15 à 16h00"
-      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/f98XuzqfcpvyTikeQrik"
       level: "Tout le monde"
       categories:
         - "Workshop"
@@ -1208,7 +1208,7 @@ params:
       #seating: "40"
       #salle: "Villard de Lans 1"
       #date: "14h15 à 16h00"
-      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/GrHsAexshmLakLZxJZEe"
       level: "Public averti"
       categories:
         - "Workshop"
@@ -1234,7 +1234,7 @@ params:
       type: "talk"
       salle: ""
       date: ""
-      roti: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/zpIWfxjEYipHLoI9S0pT"
       categories:
         - "Talk"
         - "Cynefin"
@@ -1278,7 +1278,7 @@ params:
       type: "talk"
       salle: ""
       date: ""
-      roti: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/OAaqnQoXpVre5qZs7AOZ"
       categories:
         - "Talk"
         - "Ransomware"
@@ -1307,7 +1307,7 @@ params:
       type: "talk"
       salle: ""
       date: ""
-      roti: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/L68Gfs9VKbgn1FzLT8N2"
       categories:
         - "Talk"
         - "Bug"
@@ -1336,7 +1336,7 @@ params:
       type: "talk"
       salle: ""
       date: ""
-      roti: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/3N9TM4V8SVWiyLTp0b1m"
       categories:
         - "Talk"
         - "🎮"
@@ -1365,7 +1365,7 @@ params:
       #seating: "40"
       #salle: "Villard de Lans 1"
       #date: "14h15 à 16h00"
-      #roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/L3cZ4xsEEhx4mR9xvqnQ"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/pWu1IqfYgVYiCI4LMgE0"
       level: "Tout le monde"
       categories:
         - "Workshop"
