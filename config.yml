@@ -535,6 +535,54 @@ params:
       bio: "Développeur à Sogilis. J'organise des coding dojos à Grenoble sur meetup depuis 2023."
       short_bio: "Développeur à Sogilis et organisateur de coding dojos à Grenoble."
 
+    zouaouisafia:
+      name: "Safia Zouaoui"
+      photo: "/img/speakers/safiazouaoui.jpeg"
+      high_picture: "/img/speakers/safiazouaoui.jpeg"
+      href: "https://www.linkedin.com/in/productpeople-safiazouaoui"
+      linkedin: "https://www.linkedin.com/in/productpeople-safiazouaoui"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Depuis plus de 20 ans, Safia accompagne les équipes produit dans des environnements variés et complexes, en conjuguant besoins utilisateurs, objectifs business et réalités techniques. Sa vision systémique et son sens stratégique lui permettent d’aligner les parties prenantes autour d’une vision claire et de prendre des décisions adaptées aux enjeux. Curieuse, adaptable et engagée, elle imagine des solutions qui ont du sens, en créant des expériences utilisateurs à la fois utiles, cohérentes et durables."
+      short_bio: "Safia accompagne les équipes produit depuis plus de 20 ans avec une approche systémique, stratégique et centrée utilisateur."
+
+    margueritemarine:
+      name: "Marine Marguerite"
+      photo: "/img/speakers/margueritemarine.png"
+      high_picture: "/img/speakers/margueritemarine.png"
+      href: "https://www.linkedin.com/in/marine-marguerite/"
+      linkedin: "https://www.linkedin.com/in/marine-marguerite/"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Product Manager au sein de Zenika et ex-Product Owner chez Bedrock Streaming (45 millions d'utilisateurs en Europe), j'accompagne depuis plus de 7 ans diverses équipes et entreprises à avoir une approche produit centrée sur l'utilisateur et orientée sur l'impact et la valeur 🎯 Que ce soit en pré ou post Market Fit, en B2C, B2B ou B2B2C, mon objectif est de faire le lien entre enjeux business, expérience utilisateur et équipes techniques pour construire un produit numérique innovant et à forte valeur ajoutée 💪"
+      short_bio: "Product Manager chez Zenika, avec 7+ ans d'expérience dans des produits à fort impact en B2C/B2B/B2B2C."
+
+    noprexavier:
+      name: "Xavier Nopre"
+      photo: "/img/speakers/xavier_nopre.png"
+      high_picture: "/img/speakers/xavier_nopre.png"
+      href: "https://www.linkedin.com/in/xnopre/"
+      linkedin: "https://www.linkedin.com/in/xnopre/"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Passionné par le développement et l'agilité, j'aime partager et échanger, surtout autour des bonnes pratiques qui nous permettent de produire, en toute agilité, des applications de qualité et qui répondent aux attentes des utilisateurs."
+      short_bio: "Passionné par le développement et l'agilité, adepte des bonnes pratiques et du partage."
+
+    marquetanthony:
+      name: "Anthony Marquet"
+      photo: "/img/speakers/anthonymarquet.jpeg"
+      high_picture: "/img/speakers/anthonymarquet.jpeg"
+      href: "https://www.linkedin.com/in/anthony-marquet-07507255/"
+      linkedin: "https://www.linkedin.com/in/anthony-marquet-07507255/"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Spécialiste du Delivery Management, j’aime transformer la gestion de projets complexes en succès concrets en mobilisant les équipes, optimisant les budgets et propulsant les initiatives vers leurs objectifs. Motivé par la conduite du changement, je traque les points de friction dans les processus, les outils et les organisations pour les transformer en opportunités d'amélioration. Mon background en développement et DevOps mobile me confère un avantage unique : je parle aussi bien le langage du business que celui de la technique, créant ainsi des ponts efficaces entre vision stratégique et réalisation pratique."
+      short_bio: "Spécialiste du Delivery Management, à l’intersection du business, de la technique et de la conduite du changement."
+
 
   #    helviragoma:
 #      name: "Helvira Goma"
@@ -1375,6 +1423,88 @@ params:
         - speaker:
           speakerid: "berlendissimon"
 
+    - name: "La recette secrète des équipes produit heureuses"
+      id: "recipe"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description: "
+      <p>Construire un produit, c’est bien plus qu’une simple série de tâches à accomplir : c’est l’art de fédérer des talents uniques autour d’une vision claire et inspirante.
+      <p>Cette conférence vous dévoile les secrets pour transformer votre équipe, encourager l’autonomie et garantir que chacun trouve sa place.</p>
+      "
+      description: "
+      <p>Construire un produit, c’est bien plus qu’une simple série de tâches à accomplir : c’est l’art de fédérer des talents uniques autour d’une vision claire et inspirante.
+      <p>Cette conférence vous dévoile les secrets pour transformer votre équipe, encourager l’autonomie et garantir que chacun trouve sa place.</p>
+      <p>Des astuces concrètes et des exemples inspirants vous guideront pour donner à vos équipes le super-pouvoir de l'alignement.</p>"
+      level: "Tout le monde"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/nZcIlhmB8FEjcbE6CR49"
+      categories:
+        - "Talk"
+        - "Équipe"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "zouaouisafia"
+        - speaker:
+          speakerid: "margueritemarine"
+
+    - name: "🕵️ Les Mystères de la Performance ! 🔎"
+      id: "performance"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description: "
+      <p>Bienvenue dans cette enquête, où l’entreprise cherche à identifier les éléments qui freinent sa performance ! Mais attention, les indices sont partout : dans les processus poussiéreux de la salle de réunion, dans les habitudes des équipes, ou encore dans les outils obsolètes du département IT ! Qui ou quoi ralentit la dynamique ?</p>
+      "
+      description: "
+      <p>Bienvenue dans cette enquête, où l’entreprise cherche à identifier les éléments qui freinent sa performance ! Mais attention, les indices sont partout : dans les processus poussiéreux de la salle de réunion, dans les habitudes des équipes, ou encore dans les outils obsolètes du département IT ! Qui ou quoi ralentit la dynamique ?</p>
+  
+      <p>Dans ce talk, nous allons endosser le rôle de détective, prêts à résoudre les mystères de la performance. Avec des témoignages (interviews) et des indices (observations terrain), nous allons chercher à identifier les freins cachés dans l'organisation.</p>
+  
+      <p>🔫 Le Colonel Moutarde a-t-il saboté les processus avec une gestion trop rigide ?</p>
+      <p>🗡️ Madame Pervenche a-t-elle jeté des bâtons dans les roues avec des décisions mal communiquées ?</p>
+      <p>🔧 Monsieur Olive a-t-il causé des pannes à répétition avec des pipelines mal configurés et des déploiements instables ?</p>
+  
+      <p>À travers des exemples concrets et une approche ludique, nous montrerons comment un diagnostic minutieux peut permettre de lever les obstacles et de remettre l’entreprise sur la voie de l’efficacité.</p>
+  
+      <p>Alors, prêts à mener l’enquête et à découvrir les secrets pour améliorer la performance ? 🔦</p>"
+      level: "Tout le monde"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/ykWI1sQkrtVWyca54Bbt"
+      categories:
+        - "Talk"
+        - "Organisation"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "zouaouisafia"
+        - speaker:
+          speakerid: "marquetanthony"
+
+
+    - name: "Les bases du TDD par l'exemple"
+      id: "tdd"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description: "
+      <p>Le TDD (Test Driven Development) est essentiel pour du développement professionnel et agile. Aujourd'hui, cette nécessité est reconnue par la plupart des développeurs. Par contre, le constat au quotidien est toujours le même : très peu de développeurs pratiquent le TDD régulièrement. Pourquoi ? Notamment parce que cette pratique est simple à comprendre mais difficile à mettre en oeuvre. Lors de cette session, en live coding, je montrerai les bases du TDD en pointant quelques astuces et pièges à éviter.</p>"
+      description: "
+      <p>Le TDD (Test Driven Development) est essentiel pour du développement professionnel et agile. Aujourd'hui, cette nécessité est reconnue par la plupart des développeurs. Par contre, le constat au quotidien est toujours le même : très peu de développeurs pratiquent le TDD régulièrement. Pourquoi ? Notamment parce que cette pratique est simple à comprendre mais difficile à mettre en oeuvre. Lors de cette session, en live coding, je montrerai les bases du TDD en pointant quelques astuces et pièges à éviter.</p>"
+      level: "Public novice"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/RJs4QBznPmQmbrepWcqz"
+      categories:
+        - "Talk"
+        - "TDD"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "noprexavier"
 
 #    - name: "Pause"
 #      id: "pause"
