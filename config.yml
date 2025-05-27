@@ -580,6 +580,18 @@ params:
       bio: "Spécialiste du Delivery Management, j’aime transformer la gestion de projets complexes en succès concrets en mobilisant les équipes, optimisant les budgets et propulsant les initiatives vers leurs objectifs. Motivé par la conduite du changement, je traque les points de friction dans les processus, les outils et les organisations pour les transformer en opportunités d'amélioration. Mon background en développement et DevOps mobile me confère un avantage unique : je parle aussi bien le langage du business que celui de la technique, créant ainsi des ponts efficaces entre vision stratégique et réalisation pratique."
       short_bio: "Spécialiste du Delivery Management, à l’intersection du business, de la technique et de la conduite du changement."
 
+    decouchantraphael:
+      name: "Raphaël Decouchant"
+      photo: "/img/speakers/decouchantraphael.png"
+      high_picture: "/img/speakers/decouchantraphael.png"
+      href: ""
+      linkedin: ""
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "Développeur agile pragmatique, adepte de l'esprit critique pour combattre les dogmes. Adepte du mob programming en physique, je m'intéresse à tous les sujets autour du développement logiciel, technique et non technique."
+      short_bio: "Développeur agile pragmatique, passionné par le mob programming et l'esprit critique."
+
 
   #    helviragoma:
 #      name: "Helvira Goma"
@@ -1502,6 +1514,32 @@ params:
       speakers:
         - speaker:
           speakerid: "noprexavier"
+
+    - name: "Trunk Based Development : allégez votre Git"
+      id: "trunkbased"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description: "
+      <p>Libérez-vous des branches et reprenez en main votre tronc !</p>
+      <p>Gestion du cycle de vie des branches, process de validation et bien sûr l'étape du merge qui donne des sueurs froides à nombre de développeuses et développeurs.</p>"
+      description: "
+      <p>Libérez-vous des branches et reprenez en main votre tronc !</p>
+      <p>Gestion du cycle de vie des branches, process de validation et bien sûr l'étape du merge qui donne des sueurs froides à nombre de développeuses et développeurs.</p>
+      <p>Nous explorerons une approche différente de travailler avec Git et discuterons des impacts sur votre manière de travailler seul et en équipe.</p>
+      <p>Coupez les branches et embrasser le tronc.</p>
+      </p>"
+      level: "Tout le monde"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/MdcZUWb34C6Fm1ZVSg26"
+      categories:
+        - "Talk"
+        - "Trunk Based"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "decouchantraphael"
 
 #    - name: "Pause"
 #      id: "pause"
