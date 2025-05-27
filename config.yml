@@ -592,6 +592,18 @@ params:
       bio: "Développeur agile pragmatique, adepte de l'esprit critique pour combattre les dogmes. Adepte du mob programming en physique, je m'intéresse à tous les sujets autour du développement logiciel, technique et non technique."
       short_bio: "Développeur agile pragmatique, passionné par le mob programming et l'esprit critique."
 
+    bastiendavid:
+      name: "Bastien David"
+      photo: "/img/speakers/bastien_david.jpeg"
+      high_picture: "/img/speakers/bastien_david.jpeg"
+      href: "https://www.linkedin.com/in/bastien-david-0b89864/"
+      linkedin: "https://www.linkedin.com/in/bastien-david-0b89864/"
+      text: "@bastien_david"
+      mastodon: ""
+      bluesky: ""
+      bio: "I love to build software, connect with people and explore new ideas with them"
+      short_bio: "I love to build software, connect with people and explore new ideas with them"
+
 
   #    helviragoma:
 #      name: "Helvira Goma"
@@ -1540,6 +1552,32 @@ params:
       speakers:
         - speaker:
           speakerid: "decouchantraphael"
+
+    - name: "Ne me parlez plus de dette technique, je préfère le jardinage"
+      id: "jardinage"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description: "
+      <p>Le terme de dette technique est devenu un fourre-tout, si bien qu’on en trouve plein de définitions et interprétations différentes. La métaphore originale de dette est utile, mais à vouloir l’utiliser partout, tout le temps, on l’a déformée et on ne sait plus de quoi on parle vraiment.
+      Et quoi de plus difficile de trouver une solution adéquate à un problème qu’on ne sait pas bien définir ?</p>
+      "
+      description: "
+      <p>Le terme de dette technique est devenu un fourre-tout, si bien qu’on en trouve plein de définitions et interprétations différentes. La métaphore originale de dette est utile, mais à vouloir l’utiliser partout, tout le temps, on l’a déformée et on ne sait plus de quoi on parle vraiment.
+      Et quoi de plus difficile de trouver une solution adéquate à un problème qu’on ne sait pas bien définir ?</p>
+      <p>Je vous propose d’explorer tout ce que l’on met derrière ce terme de dette technique. Nous verrons que plusieurs problèmes de nature bien différente sont en fait cachés derrière.  Et à partir de là il sera bien plus facile de trouver différentes stratégies concrètes et pratiques pour améliorer la situation, et regagner le contrôle.</p>
+      "
+      level: "Tout le monde"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/MdcZUWb34C6Fm1ZVSg26"
+      categories:
+        - "Talk"
+        - "Dette"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "bastiendavid"
 
 #    - name: "Pause"
 #      id: "pause"
