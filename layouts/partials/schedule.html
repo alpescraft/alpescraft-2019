@@ -71,7 +71,8 @@
 <br/>
 <!--<br/>-->
 
-    <ul class="schedule-list-article" style="grid-template-columns: repeat(3,33%);">
+<!--style="grid-template-columns: repeat(3,33%);"-->
+    <ul class="schedule-list-article">
     {{ range $index, $slot := .schedule }}
 
 <!--        {{ if eq $index 4 }}-->
@@ -156,7 +157,7 @@
                 {{ if .level }} <h3 class="talk-date">🧗🏿‍♀️{{ .level }}</h3> {{ end }}
                 {{ if .salle }} <h3 class="talk-date">📍 Salle {{ .salle }}</h3> {{ end }}
                 {{ if .seating }} <h3 class="talk-date">🪑 Capacité {{ .seating }} places</h3> {{ end }}
-                {{ if .salle }} <h3 class="talk-date"> 🕒 {{ .date }}</h3> {{ end }}
+                {{ if .date }} <h3 class="talk-date"> 🕒 {{ .date }}</h3> {{ end }}
 <!--                <h3 class="talk-date">🍽️-->
 <!--                    {{ if eq .menu "babystep" }}-->
 <!--                        Premier pas dans le craft-->
@@ -171,9 +172,9 @@
 <!--                    {{ end }}-->
 <!--                </h3>-->
                 {{ if .roti }}
-<!--                <h3 class="talk-date">-->
-<!--                    <a href="{{ .roti }}" aria-label="feedback" target="_blank">💌 Donnez du feedbacks !</a>-->
-<!--                </h3>-->
+                <h3 class="talk-date">
+                    <a href="{{ .roti }}" aria-label="feedback" target="_blank">💌 Donnez du feedbacks !</a>
+                </h3>
                 {{ end }}
                 {{ if (eq .laptop "yes") }}
                     <p class="requirement"> 🚨 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>

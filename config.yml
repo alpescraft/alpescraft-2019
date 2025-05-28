@@ -604,6 +604,17 @@ params:
       bio: "I love to build software, connect with people and explore new ideas with them"
       short_bio: "I love to build software, connect with people and explore new ideas with them"
 
+    arnaudlemaire:
+      name: "Arnaud Lemaire"
+      photo: "/img/speakers/arnaud_lemaire.jpeg"
+      high_picture: "/img/speakers/arnaud_lemaire.jpeg"
+      href: "https://www.linkedin.com/in/lilobase/"
+      linkedin: "https://www.linkedin.com/in/lilobase/"
+      text: ""
+      mastodon: ""
+      bluesky: ""
+      bio: "CTO @sunday"
+      short_bio: ""
 
   #    helviragoma:
 #      name: "Helvira Goma"
@@ -901,37 +912,380 @@ params:
 
 
   Schedule:
-#    - name: "Accueil"
-#      id: "accueil"
-#      style: "grid-column: 1 / -1;"
-#      short_description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
-#      description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
-#      date: "8h15 à 9h00"
-#      categories:
-#        - "👋"
-#        - "🥐"
-#        - "☕"
-#      speakers:
-#        - speaker:
-#          speakerid: "orga"
+    - name: "Accueil"
+      id: "accueil"
+      style: "grid-column: 1 / -1;"
+      short_description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
+      description: "AlpesCraft ouvre ses portes à 8h15. Nous serons ravi de vous accueillir autour d'un café, d'un thé et de viennoiseries"
+      date: "8h15 à 9h00"
+      categories:
+        - "👋"
+        - "🥐"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
 
-#    - name: "Mot du sponsor - KAIZEN Solutions"
-#      id: "kaizen"
-##      style: "grid-column: 1 / -1;"
-#      short_description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
-#      description: "<p>Plus qu'un support financier, nos sponsors s'engagent à nos côté dans une démarche de promotion des valeurs 'Craft'. C'est pourquoi il est important qu'ils puissent montrer leur engagement lors de la conférence.</p>"
-#      salle: "Amphi"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uzr4PeeT8uAZkOs6YCPS"
-#      date: "9h00 à 9h30"
-#      categories:
-#        - "❤"
-#      speakers:
-#        - speaker:
-#          speakerid: "kaizen"
+    - name: "Mot d'accueil"
+      id: "intro"
+      menu: "break"
+      style: "grid-column: 1 / -1;"
+      short_description: "<p></p>"
+      description: "<p></p>"
+      salle: "Amphi"
+      roti: ""
+      date: "9h00 à 9h30"
+      categories:
+        - "📣"
+        - "Mot d'accueil"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "Keynote"
+      id: "intro"
+      style: "grid-column: 1 / -1;"
+      short_description: "<p></p>"
+      description: "<p></p>"
+      salle: "Amphi"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/REQJlxiXPgjuisv4yhAn"
+      date: "9h30 à 10h15"
+      categories:
+        - "Keynote"
+      speakers:
+        - speaker:
+          speakerid: "arnaudlemaire"
+
+    - name: "Pause"
+      id: "pause"
+      menu: "break"
+      style: "grid-column: 1 / -1;"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "10h15 à 10h30"
+      categories:
+        - "🥐"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "S'engager, se désengager, se surengager au travail"
+      id: "engage"
+      short_description:  "<p>
+      L’engagement en entreprise est devenu un point essentiel des stratégies RH mais aussi un élément récurrent de la novlangue managériale. Pourtant ce terme est mal compris, confus et parfois confondu avec des concepts voisins comme le sens ou la performance. Nous verrons dans cette présentation ce que signifie l’engagement en entreprise, comment le cultiver et quelles sont ses limites, le tout au travers de différents travaux de recherche en sociologie et psychologie.
+      </p>"
+      description: "<p>
+        L’engagement en entreprise est devenu un point essentiel des stratégies RH mais aussi un élément récurrent de la novlangue managériale. Pourtant ce terme est mal compris, confus et parfois confondu avec des concepts voisins comme le sens ou la performance. Nous verrons dans cette présentation ce que signifie l’engagement en entreprise, comment le cultiver et quelles sont ses limites, le tout au travers de différents travaux de recherche en sociologie et psychologie.
+      </p>"
+      level: "Public averti"
+      type: "talk"
+      salle: "Amphi"
+      date: "10h30 à 11h15"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/rSQMXhrjI7OVC8ZFXJbI"
+      categories:
+        - "Talk"
+        - "Engagement"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "denismigot"
+
+    - name: "Craft & recherche utilisateur"
+      id: "craftAndResearch"
+      style: "grid-row: span 3;"
+      short_description: "
+        <p>Les activités de recherche utilisateurs sont essentielles pour mieux comprendre les besoins des personnes qui utiliseront nos logiciels et nos services.</p>
+        <p>Mais elles sont trop souvent faites de manière séquentielle et en amont des équipes de développement: On passe beaucoup de temps à analyser les besoins utilisateurs, à définir comment y répondre et on développe quand on est sur de savoir ce qu'il faut faire pour apporter de la valeur.</p>
+        <p>C'est très bien sur le papier mais en pratique c'est un cycle en V déguisé (et très souvent inconscient)</p>"
+      description: "
+        <p>Les activités de recherche utilisateurs sont essentielles pour mieux comprendre les besoins des personnes qui utiliseront nos logiciels et nos services.</p>
+        <p>Mais elles sont trop souvent faites de manière séquentielle et en amont des équipes de développement: On passe beaucoup de temps à analyser les besoins utilisateurs, à définir comment y répondre et on développe quand on est sur de savoir ce qu'il faut faire pour apporter de la valeur.</p>
+        <p>C'est très bien sur le papier mais en pratique c'est un cycle en V déguisé (et très souvent inconscient)</p>
+  
+        <p>Dans cette atelier, je vous présente une manière d'identifier, prioriser et mener la recherche utilisateur en intégrant tous les acteurs qui le souhaitent dès le départ et de manière très itérative.</p>
+        <p>Nous apprendrons à accepter d'avoir une idée de solution dès le départ, à accepter aussi celles des autres, à les découper, les prioriser et les traiter ensemble.</p>
+        <p>Nous verrons aussi comment éviter de surinvestir quand ce n'est pas nécessaire.</p>
+      "
+      type: "workshop"
+      laptop: "no"
+      seating: "20"
+      salle: "Villard de Lans 1"
+      date: "10h30 à 12h15"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/f98XuzqfcpvyTikeQrik"
+      level: "Tout le monde"
+      categories:
+        - "Workshop"
+        - "Recherche utilisateur"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "silvancabot"
+
+    - name: "L'art de refactor du code legacy"
+      id: "legacyrefactoring"
+      style: "grid-row: span 3;"
+      short_description: "
+      <p>Refactor, c'est changer la structure du code sans changer son comportement (bugs inclus).</p>
+  
+      <p>Comment savoir si on a bien refactor? En testant le comportement avant et après la modification. Quid si le code n'est pas testé? C'est une définition du code legacy et la meilleure stratégie consiste à écrire des tests avant de refactor…</p>"
+      description: "
+      <p>Refactor, c'est changer la structure du code sans changer son comportement (bugs inclus).</p>
+  
+      <p>Comment savoir si on a bien refactor? En testant le comportement avant et après la modification. Quid si le code n'est pas testé? C'est une définition du code legacy et la meilleure stratégie consiste à écrire des tests avant de refactor…</p>
+  
+      <p>Mais si le code n'est pas facilement testable, il vous faudra refactor le code d'abord pour pouvoir écrire les tests! C'est le paradoxe du code legacy.</p>
+  
+      <p>Dans cet atelier, je vais vous montrer comment se sortir d'une telle situation de manière fiable et sécuritaire. Nous allons identifier ce qui rend les tests compliqués et nous appuyer sur vos outils ainsi que des recettes précises pour refactor suffisamment le code afin de le rendre testable. Le tout, sur un exemple de code concret avec un kata de refactoring assez réaliste.</p>"
+
+      type: "workshop"
+      requirement: "Merci de venir avec un environnement de développement ainsi que le répo github <a href=\"https://github.com/martinsson/Refactoring-Kata-Lift-Pass-Pricing\" target=\"_blank\">Kata Lift Pass Pricing</a> initialisé"
+      laptop: "yes"
+      seating: "30"
+      salle: "Villard de Lans 2"
+      date: "10h30 à 12h15"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/JQ1IuLa7tbbG3dbcFJM9"
+      level: "Public averti"
+      categories:
+        - "Workshop"
+        - "Refactoring Legacy"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "nicolascarlo"
+
+    - name: "Observabilité : au-delà du buzz"
+      id: "observabilite"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description: "<p>
+      Que doit-on entendre derrière le terme Observabilité (O11y en abrégé) ?</p>
+
+      <p>Quel lien avec Opentelemetry, autre buzz-word ?</p>
+  
+      <p>Et surtout, qu'est-ce que ça change concrètement ?</p>"
+      description: "<p>
+      Que doit-on entendre derrière le terme Observabilité (O11y en abrégé) ?</p>
+
+      <p>Quel lien avec Opentelemetry, autre buzz-word ?</p>
+  
+      <p>Et surtout, qu'est-ce que ça change concrètement ?</p>
+  
+      <p>Nous présenterons rapidement les concepts de l'Observabilité, ce qu'ils impliquent dans les équipes applicatives et IT (vous avez dit DevOps ?), pourquoi c'est à la mode, et surtout, nous présenterons quelques exemples en démo \"live\" (avec votre indulgence...) et répondrons même aux questions d'experts ou \"marché\".</p>
+  
+      <p>L'objectif est de parler à tous de ce sujet, que vous soyez observateur ou acteur technique.</p>"
+      level: "Tout le monde"
+      type: "talk"
+      salle: "Autrans 1 & 2"
+      date: "10h30 à 11h15"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/QAPlA6Gb1Ec0Y0rasEj4"
+      categories:
+        - "Talk"
+        - "Observabilité"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "christophenetillard"
+        - speaker:
+          speakerid: "jocelynguillaume"
+
+    - name: "Triangle cherche carré : 3 activités pour mieux apprécier nos différences"
+      id: "triangle"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description:  "<p>
+        Nous allons déconstruire ensemble 3 biais cognitif qui freinent notre acceptation de la différence et donc l'inclusion dans nos équipes. Histoire de parler de ce sujet sous l'angle des softskills, parce que le faire ensemble est au cœur du Craft.
+  Ce sera interactif, dynamique et y'a même des petites formes toutes mignonnes ;)
+      </p>"
+      description: "<p>
+        Nous allons déconstruire ensemble 3 biais cognitif qui freinent notre acceptation de la différence et donc l'inclusion dans nos équipes. Histoire de parler de ce sujet sous l'angle des softskills, parce que le faire ensemble est au cœur du Craft.
+  Ce sera interactif, dynamique et y'a même des petites formes toutes mignonnes ;)
+      </p>"
+      level: "Tout le monde"
+      type: "talk"
+      salle: "Chamrousse"
+      date: "10h30 à 11h15"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/68QyK10xwsOmeprLb1Dm"
+      categories:
+        - "Talk"
+        - "Inclusion"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "annelauregros"
+
+    - name: "Pause"
+      id: "pause"
+      menu: "break"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "11h15 à 11h30"
+      categories:
+        - "🥐"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+
+    - name: "Pause"
+      id: "pause"
+      menu: "break"
+      style: "grid-column: span 2;"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "11h15 à 11h30"
+      categories:
+        - "🥐"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "Réduire la confusion avec Cynefin"
+      id: "cynefin"
+      short_description: "<p>Il vous est déjà arrivé qu’on vous demande de la visibilité alors que la seule chose que vous savez est que vous n’en avez aucune ? Ou au contraire on vous demande de faire roadmap, estimation, projection et comité de pilotage pour un projet sur lequel aucune erreur n’est possible ?</p>"
+      description: "<p>
+        <p>Il vous est déjà arrivé qu’on vous demande de la visibilité alors que la seule chose que vous savez est que vous n’en avez aucune ? Ou au contraire on vous demande de faire roadmap, estimation, projection et comité de pilotage pour un projet sur lequel aucune erreur n’est possible ?</p>
+        <p>Nous vous invitons à venir découvrir Cynefin. Un outil modélisant plusieurs typologies de relation à une problématique et nous invitant à adapter nos comportements en fonction.</p>
+        <p>Utile pour améliorer l’alignement dans les équipes, augmenter les chances que les décisions que nous prenons fonctionnent ou tout simplement faire le grand saut de réduire la confusion. C’est une petite partie du potentiel de Cynefin que nous vous invitons à découvrir à travers ce talk.
+     </p>"
+      level: "Tout le monde"
+      type: "talk"
+      salle: "Amphi"
+      date: "11h30 à 12h15"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/zpIWfxjEYipHLoI9S0pT"
+      categories:
+        - "Talk"
+        - "Cynefin"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "juliequille"
+        - speaker:
+          speakerid: "albiezolivier"
+
+    - name: "\"Make the change easy\" : Apprivoiser le legacy avec les Object Calisthenics"
+      id: "objectcalisthenic"
+      #      menu: "open"
+      #      style: "grid-column: 1 / -1;"
+      short_description: "<p>
+      Avez-vous déjà ouvert un fichier de code legacy et eu l’irrésistible envie de refermer votre IDE ? Rassurez-vous, on a toustes vécu ça ! Mais si on vous disait qu’avec quelques règles simples, ce code peut devenir plus lisible, maintenable et même plaisant à faire évoluer ?</p>
+      "
+      description: "<p>
+      Avez-vous déjà ouvert un fichier de code legacy et eu l’irrésistible envie de refermer votre IDE ? Rassurez-vous, on a toustes vécu ça ! Mais si on vous disait qu’avec quelques règles simples, ce code peut devenir plus lisible, maintenable et même plaisant à faire évoluer ?</p>
+
+      <p>La programmation orientée objet, c’est “easy to learn, hard to master”. Dans cette session, nous vous embarquons dans une session de pair programming en live, où nous appliquerons les Object Calisthenics : 9 règles conçues pour muscler votre code et le rendre plus modulaire. À partir d’une base legacy en Kotlin, nous ferons ensemble un refactoring incrémental pour la transformer en un code robuste, élégant et facile à maintenir.</p>
+
+      <p>Au programme : du fun, du refactoring, et des astuces concrètes, avec en tête la maxime de Kent Beck : “Make the change easy, then make the easy change.</p>
+  
+      <p>Repartez avec une envie irrépressible de rouvrir votre IDE et améliorer votre codebase.</p>
+      "
+      level: "Tout le monde"
+      type: "talk"
+      salle: "Autrans 1 & 2"
+      date: "11h30 à 12h15"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/g7i4yKc8hGCcAVjZ5Gbs"
+      categories:
+        - "Talk"
+        - "Object Calisthenic"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "manoncarbonnel"
+        - speaker:
+          speakerid: "gaelsalaun"
+
+    - name: "Les bases du TDD par l'exemple"
+      id: "tdd"
+      short_description: "
+      <p>Le TDD (Test Driven Development) est essentiel pour du développement professionnel et agile. Aujourd'hui, cette nécessité est reconnue par la plupart des développeurs. Par contre, le constat au quotidien est toujours le même : très peu de développeurs pratiquent le TDD régulièrement. Pourquoi ? Notamment parce que cette pratique est simple à comprendre mais difficile à mettre en oeuvre. Lors de cette session, en live coding, je montrerai les bases du TDD en pointant quelques astuces et pièges à éviter.</p>"
+      description: "
+      <p>Le TDD (Test Driven Development) est essentiel pour du développement professionnel et agile. Aujourd'hui, cette nécessité est reconnue par la plupart des développeurs. Par contre, le constat au quotidien est toujours le même : très peu de développeurs pratiquent le TDD régulièrement. Pourquoi ? Notamment parce que cette pratique est simple à comprendre mais difficile à mettre en oeuvre. Lors de cette session, en live coding, je montrerai les bases du TDD en pointant quelques astuces et pièges à éviter.</p>"
+      level: "Public novice"
+      type: "talk"
+      salle: "Chamrousse"
+      date: "11h30 à 12h15"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/RJs4QBznPmQmbrepWcqz"
+      categories:
+        - "Talk"
+        - "TDD"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "noprexavier"
+
+    - name: "Déjeuner"
+      id: "dejeuner"
+      style: "grid-column: 1 / -1;"
+      short_description: ""
+      description: ""
+      date: "12h15 à 13h50"
+      categories:
+        - "🍽️"
+        - "🥪"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "Lancement de l'après-midi"
+      id: "afternoon"
+      menu: "break"
+      style: "grid-column: 1 / -1;"
+      short_description: ""
+      description: ""
+      salle: "Amphi"
+      date: "13h50 à 14h15"
+      categories:
+        - "📣"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "WannaCry : les dessous d'un ransomware dévastateur"
+      id: "wannacry"
+      short_description: "
+            <p>Si WannaCry n'est pas le premier ransomware, il est au moins celui qui a causé le plus de dégâts dans toute l'histoire d'Internet. Infectant plusieurs centaines de milliers d'ordinateurs grâce à une faille présente sur des systèmes Windows obsolètes, il contraindra même Microsoft à publier un patch de sécurité pour des OS qui n'étaient alors plus maintenus.</p>
+  
+        <p>Devant l'ampleur de cette cyberattaque, plusieurs équipes se sont mobilisées afin de freiner sa propagation et d'aider les victimes à récupérer leurs fichiers.</p>
+        <p>Retour sur cette traque de longue haleine, entre cryptographie, rétro-ingénierie et analyse forensique.</p>
+        "
+      description: "
+      <p>Si WannaCry n'est pas le premier ransomware, il est au moins celui qui a causé le plus de dégâts dans toute l'histoire d'Internet. Infectant plusieurs centaines de milliers d'ordinateurs grâce à une faille présente sur des systèmes Windows obsolètes, il contraindra même Microsoft à publier un patch de sécurité pour des OS qui n'étaient alors plus maintenus.</p>
+        <p>Devant l'ampleur de cette cyberattaque, plusieurs équipes se sont mobilisées afin de freiner sa propagation et d'aider les victimes à récupérer leurs fichiers.</p>
+        <p>Retour sur cette traque de longue haleine, entre cryptographie, rétro-ingénierie et analyse forensique.</p>
+        
+        <ol>Pourquoi ça peut vous intéresser 😁
+        <li>L'analyse de malware, c'est un peu comme de l'analyse de code legacy : vous êtes face à un logiciel que vous n'avez pas codé vous-même, mais dont vous allez devoir comprendre le fonctionnement, et le code source est parfois tellement complexe que ça ne vous avance pas toujours de l'avoir...</li>
+        <li>On va parler de logiciel, mais aussi de plein de choses qui tournent autour et dont on ne se soucie pas forcément (mais qui sont tous les petits trucs qui permettent au logiciel de tourner...)</li>
+        <li>On va analyser une scène de crime numérique façon Les Experts Miami 😎 (c'est à peine exagéré)</li>
+        </ol>
+        
+        <ol>
+        Pourquoi ça peut vous faire peur 😱 (et pourquoi venir quand même !)
+        <li>On va regarder du code en assembleur, mais pas besoin d'en avoir déjà lu pour s'y retrouver ici !</li>
+        <li>Cryptographie oblige, on va évoquer quelques notions de maths, mais juste en surface : si vous savez ce qu'est un nombre premier, c'est suffisant</li>
+        <li>On va parler d'allocation mémoire et regarder le contenu de la mémoire allouée à un processus, il y aura plein d'hexadécimal à l'écran, on ne va rien comprendre au début et c'est ok</li>
+        <li>Les noms de Windows et de Microsoft seront régulièrement prononcés (!)</li>
+        </ol>
+     </p>"
+      level: "Tout le monde"
+      type: "talk"
+      salle: "Amphi"
+      date: "14h15 à 15h"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/OAaqnQoXpVre5qZs7AOZ"
+      categories:
+        - "Talk"
+        - "Ransomware"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "seddikisonia"
 
     - name: "La vie, c’est comme une boîte de chocolats (et de katas)"
       id: "chocolatbox"
-#      style: "grid-row: span 3;"
+      style: "grid-row: span 3;"
       short_description: "
       <p>\"La vie, c’est comme une boîte de chocolats : on ne sait jamais sur quoi on va tomber.\"</p>
       <p>Mais dans cette boîte, chaque chocolat est une pratique pour transformer la qualité de vos développements et inspirer vos collègues.</p>
@@ -969,9 +1323,9 @@ params:
       type: "workshop"
       requirement: "Merci de venir avec un environnement de développement ainsi que le répo github <a href=\"https://github.com/advent-of-craft/2024\" target=\"_blank\">advent-of-craft</a> initialisé"
       laptop: "yes"
-      #seating: "20"
-      #salle: "Villard de Lans 1"
-      #date: "14h15 à 16h00"
+      seating: "20"
+      salle: "Villard de Lans 1"
+      date: "14h15 à 16h00"
       roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/Jp7ibMSf6wPD2LMwAX7k"
       level: "Public averti"
       categories:
@@ -984,251 +1338,9 @@ params:
         - speaker:
           speakerid: "yanncourtel"
 
-
-    - name: "Triangle cherche carré : 3 activités pour mieux apprécier nos différences"
-      id: "triangle"
-      #      menu: "open"
-#      style: "grid-column: 1 / -1;"
-      short_description:  "<p>
-        Nous allons déconstruire ensemble 3 biais cognitif qui freinent notre acceptation de la différence et donc l'inclusion dans nos équipes. Histoire de parler de ce sujet sous l'angle des softskills, parce que le faire ensemble est au cœur du Craft.
-  Ce sera interactif, dynamique et y'a même des petites formes toutes mignonnes ;)
-      </p>"
-      description: "<p>
-        Nous allons déconstruire ensemble 3 biais cognitif qui freinent notre acceptation de la différence et donc l'inclusion dans nos équipes. Histoire de parler de ce sujet sous l'angle des softskills, parce que le faire ensemble est au cœur du Craft.
-  Ce sera interactif, dynamique et y'a même des petites formes toutes mignonnes ;)
-      </p>"
-      level: "Tout le monde"
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/68QyK10xwsOmeprLb1Dm"
-      categories:
-        - "Talk"
-        - "Inclusion"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "annelauregros"
-
-
-    - name: "S'engager, se désengager, se surengager au travail"
-      id: "engage"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
-      short_description:  "<p>
-      L’engagement en entreprise est devenu un point essentiel des stratégies RH mais aussi un élément récurrent de la novlangue managériale. Pourtant ce terme est mal compris, confus et parfois confondu avec des concepts voisins comme le sens ou la performance. Nous verrons dans cette présentation ce que signifie l’engagement en entreprise, comment le cultiver et quelles sont ses limites, le tout au travers de différents travaux de recherche en sociologie et psychologie.
-      </p>"
-      description: "<p>
-        L’engagement en entreprise est devenu un point essentiel des stratégies RH mais aussi un élément récurrent de la novlangue managériale. Pourtant ce terme est mal compris, confus et parfois confondu avec des concepts voisins comme le sens ou la performance. Nous verrons dans cette présentation ce que signifie l’engagement en entreprise, comment le cultiver et quelles sont ses limites, le tout au travers de différents travaux de recherche en sociologie et psychologie.
-      </p>"
-      level: "Public averti"
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/rSQMXhrjI7OVC8ZFXJbI"
-      categories:
-        - "Talk"
-        - "Engagement"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "denismigot"
-
-    - name: "Observabilité : au-delà du buzz"
-      id: "observabilite"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
-      short_description: "<p>
-      Que doit-on entendre derrière le terme Observabilité (O11y en abrégé) ?</p>
-
-      <p>Quel lien avec Opentelemetry, autre buzz-word ?</p>
-  
-      <p>Et surtout, qu'est-ce que ça change concrètement ?</p>"
-      description: "<p>
-      Que doit-on entendre derrière le terme Observabilité (O11y en abrégé) ?</p>
-
-      <p>Quel lien avec Opentelemetry, autre buzz-word ?</p>
-  
-      <p>Et surtout, qu'est-ce que ça change concrètement ?</p>
-  
-      <p>Nous présenterons rapidement les concepts de l'Observabilité, ce qu'ils impliquent dans les équipes applicatives et IT (vous avez dit DevOps ?), pourquoi c'est à la mode, et surtout, nous présenterons quelques exemples en démo \"live\" (avec votre indulgence...) et répondrons même aux questions d'experts ou \"marché\".</p>
-  
-      <p>L'objectif est de parler à tous de ce sujet, que vous soyez observateur ou acteur technique.</p>"
-      level: "Tout le monde"
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/QAPlA6Gb1Ec0Y0rasEj4"
-      categories:
-        - "Talk"
-        - "Observabilité"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "christophenetillard"
-        - speaker:
-          speakerid: "jocelynguillaume"
-
-    - name: "Le conflit, comment le dépasser et rétablir le dialogue ?"
-      id: "conflit"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
-      short_description: "<p>
-      Comment dépasser ces conflits qui entravent nos vies?</p>
-      
-      <p>Comment rétablir un dialogue avec cet autre avec lequel on doit faire?</p>
-      
-      <p>Nous explorerons notre rapport au conflit, ce qu'il provoque en nous, en quoi il nous enferme et nous amène à diaboliser l'autre.</p>"
-      description: "<p>
-      Comment dépasser ces conflits qui entravent nos vies?</p>
-      
-      <p>Comment rétablir un dialogue avec cet autre avec lequel on doit faire?</p>
-  
-      <p>Nous explorerons notre rapport au conflit, ce qu'il provoque en nous, en quoi il nous enferme et nous amène à diaboliser l'autre.</p>
-      <p>Nous verrons comment la médiation peut aider à transformer l’interaction conflictuelle.</p>
-      <p>Quand faire appel à un médiateur ? Quelle est la place du manager ? Quelle différence avec la conciliation ou la négociation raisonnée ?</p>
-      <p>Nous donnerons des exemples et des pistes de réflexions sur ces sujets, en se basant notamment sur les travaux d'Agnès Vandevelde-Rougale (sociologue), Emilie Thivet-Grivel (avocate) et Olivier Chambert-Loir (médiateur).</p>
-     
-     </p>"
-      level: "Tout le monde"
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/JNVzrz691PfokigK1OCR"
-      categories:
-        - "Talk"
-        - "Conflit"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "christophemaldivi"
-
-    - name: "\"Make the change easy\" : Apprivoiser le legacy avec les Object Calisthenics"
-      id: "objectcalisthenic"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
-      short_description: "<p>
-      Avez-vous déjà ouvert un fichier de code legacy et eu l’irrésistible envie de refermer votre IDE ? Rassurez-vous, on a toustes vécu ça ! Mais si on vous disait qu’avec quelques règles simples, ce code peut devenir plus lisible, maintenable et même plaisant à faire évoluer ?</p>
-      "
-      description: "<p>
-      Avez-vous déjà ouvert un fichier de code legacy et eu l’irrésistible envie de refermer votre IDE ? Rassurez-vous, on a toustes vécu ça ! Mais si on vous disait qu’avec quelques règles simples, ce code peut devenir plus lisible, maintenable et même plaisant à faire évoluer ?</p>
-
-      <p>La programmation orientée objet, c’est “easy to learn, hard to master”. Dans cette session, nous vous embarquons dans une session de pair programming en live, où nous appliquerons les Object Calisthenics : 9 règles conçues pour muscler votre code et le rendre plus modulaire. À partir d’une base legacy en Kotlin, nous ferons ensemble un refactoring incrémental pour la transformer en un code robuste, élégant et facile à maintenir.</p>
-
-      <p>Au programme : du fun, du refactoring, et des astuces concrètes, avec en tête la maxime de Kent Beck : “Make the change easy, then make the easy change.</p>
-  
-      <p>Repartez avec une envie irrépressible de rouvrir votre IDE et améliorer votre codebase.</p>
-      "
-      level: "Tout le monde"
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/g7i4yKc8hGCcAVjZ5Gbs"
-      categories:
-        - "Talk"
-        - "Object Calisthenic"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "manoncarbonnel"
-        - speaker:
-          speakerid: "gaelsalaun"
-
-
-    - name: "Dites adieu aux sessions interminables de product backlog refinement avec l'Example Mapping"
-      id: "examplemapping"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
-      short_description: "<p>
-     Vous êtes fatigué des réunions qui semblent ne mener nulle part ? J'ai souvent ressenti cette frustration lors de sessions de product refinement. Ces réunions se transformaient souvent en débats sans fin où il était très compliqué de rester concentré jusqu’à la fin.</p>
-      "
-      description: "<p>
-     Vous êtes fatigué des réunions qui semblent ne mener nulle part ? J'ai souvent ressenti cette frustration lors de sessions de product refinement. Ces réunions se transformaient souvent en débats sans fin où il était très compliqué de rester concentré jusqu’à la fin.</p>
-  
-      <p>Comme le dit Alberto Brandolini, \"c’est l’incompréhension des développeur·euse·s qui part en production\". Si les développeur·euse·s ne comprennent pas ce qui est attendu, il y a de fortes chances que les fonctionnalités livrées soient incorrectes.</p>
-
-      <p>Lors de cette présentation, je partagerai comment nous avons remplacé ces réunions par un atelier beaucoup plus productif : l'Example Mapping. Grâce à cet outil simple et efficace, nous avons réussi à clarifier les besoins et à construire notre backlog de manière collaborative.
-     </p>"
-      level: "Public novice"
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/lwAfjVN35MICIFDy9TID"
-      categories:
-        - "Talk"
-        - "Example Mapping"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "arnaudlanglade"
-
-    - name: "L'art de refactor du code legacy"
-      id: "legacyrefactoring"
-      #      style: "grid-row: span 3;"
-      short_description: "
-      <p>Refactor, c'est changer la structure du code sans changer son comportement (bugs inclus).</p>
-  
-      <p>Comment savoir si on a bien refactor? En testant le comportement avant et après la modification. Quid si le code n'est pas testé? C'est une définition du code legacy et la meilleure stratégie consiste à écrire des tests avant de refactor…</p>"
-      description: "
-      <p>Refactor, c'est changer la structure du code sans changer son comportement (bugs inclus).</p>
-  
-      <p>Comment savoir si on a bien refactor? En testant le comportement avant et après la modification. Quid si le code n'est pas testé? C'est une définition du code legacy et la meilleure stratégie consiste à écrire des tests avant de refactor…</p>
-  
-      <p>Mais si le code n'est pas facilement testable, il vous faudra refactor le code d'abord pour pouvoir écrire les tests! C'est le paradoxe du code legacy.</p>
-  
-      <p>Dans cet atelier, je vais vous montrer comment se sortir d'une telle situation de manière fiable et sécuritaire. Nous allons identifier ce qui rend les tests compliqués et nous appuyer sur vos outils ainsi que des recettes précises pour refactor suffisamment le code afin de le rendre testable. Le tout, sur un exemple de code concret avec un kata de refactoring assez réaliste.</p>"
-
-      type: "workshop"
-      requirement: "Merci de venir avec un environnement de développement ainsi que le répo github <a href=\"https://github.com/martinsson/Refactoring-Kata-Lift-Pass-Pricing\" target=\"_blank\">Kata Lift Pass Pricing</a> initialisé"
-      laptop: "yes"
-      #seating: "40"
-      #salle: "Villard de Lans 1"
-      #date: "14h15 à 16h00"
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/JQ1IuLa7tbbG3dbcFJM9"
-      level: "Public averti"
-      categories:
-        - "Workshop"
-        - "Refactoring Legacy"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "nicolascarlo"
-
-    - name: "Craft & recherche utilisateur"
-      id: "craftAndResearch"
-      #      style: "grid-row: span 3;"
-      short_description: "
-        <p>Les activités de recherche utilisateurs sont essentielles pour mieux comprendre les besoins des personnes qui utiliseront nos logiciels et nos services.</p>
-        <p>Mais elles sont trop souvent faites de manière séquentielle et en amont des équipes de développement: On passe beaucoup de temps à analyser les besoins utilisateurs, à définir comment y répondre et on développe quand on est sur de savoir ce qu'il faut faire pour apporter de la valeur.</p>
-        <p>C'est très bien sur le papier mais en pratique c'est un cycle en V déguisé (et très souvent inconscient)</p>"
-      description: "
-        <p>Les activités de recherche utilisateurs sont essentielles pour mieux comprendre les besoins des personnes qui utiliseront nos logiciels et nos services.</p>
-        <p>Mais elles sont trop souvent faites de manière séquentielle et en amont des équipes de développement: On passe beaucoup de temps à analyser les besoins utilisateurs, à définir comment y répondre et on développe quand on est sur de savoir ce qu'il faut faire pour apporter de la valeur.</p>
-        <p>C'est très bien sur le papier mais en pratique c'est un cycle en V déguisé (et très souvent inconscient)</p>
-  
-        <p>Dans cette atelier, je vous présente une manière d'identifier, prioriser et mener la recherche utilisateur en intégrant tous les acteurs qui le souhaitent dès le départ et de manière très itérative.</p>
-        <p>Nous apprendrons à accepter d'avoir une idée de solution dès le départ, à accepter aussi celles des autres, à les découper, les prioriser et les traiter ensemble.</p>
-        <p>Nous verrons aussi comment éviter de surinvestir quand ce n'est pas nécessaire.</p>
-      "
-      type: "workshop"
-      #requirement: ""
-      laptop: "no"
-      #seating: "20"
-      #salle: "Villard de Lans 1"
-      #date: "14h15 à 16h00"
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/f98XuzqfcpvyTikeQrik"
-      level: "Tout le monde"
-      categories:
-        - "Workshop"
-        - "Recherche utilisateur"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "silvancabot"
-
     - name: "We don’t need no mock trouble"
       id: "mocktrouble"
-      #      style: "grid-row: span 3;"
+      style: "grid-row: span 3;"
       short_description: "
         <p>🧪Vous aimez vraiment écrire des tests avec des mocks ?</p>
         <p>Ou peut-être...</p>
@@ -1274,9 +1386,9 @@ params:
       type: "workshop"
       requirement: "Pour gagner du temps clonez et suivez les requirement des README : <a href=\"https://github.com/adapter-contract-testing/snail-race-kata\">snail-race-kata</a>"
       laptop: "yes"
-      #seating: "40"
-      #salle: "Villard de Lans 1"
-      #date: "14h15 à 16h00"
+      seating: "30"
+      salle: "Villard de Lans 2"
+      date: "14h15 à 16h00"
       roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/GrHsAexshmLakLZxJZEe"
       level: "Public averti"
       categories:
@@ -1289,106 +1401,33 @@ params:
         - speaker:
           speakerid: "johanmartinsson"
 
-    - name: "Réduire la confusion avec Cynefin"
-      id: "cynefin"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
-      short_description: "<p>Il vous est déjà arrivé qu’on vous demande de la visibilité alors que la seule chose que vous savez est que vous n’en avez aucune ? Ou au contraire on vous demande de faire roadmap, estimation, projection et comité de pilotage pour un projet sur lequel aucune erreur n’est possible ?</p>"
-      description: "<p>
-        <p>Il vous est déjà arrivé qu’on vous demande de la visibilité alors que la seule chose que vous savez est que vous n’en avez aucune ? Ou au contraire on vous demande de faire roadmap, estimation, projection et comité de pilotage pour un projet sur lequel aucune erreur n’est possible ?</p>
-        <p>Nous vous invitons à venir découvrir Cynefin. Un outil modélisant plusieurs typologies de relation à une problématique et nous invitant à adapter nos comportements en fonction.</p>
-        <p>Utile pour améliorer l’alignement dans les équipes, augmenter les chances que les décisions que nous prenons fonctionnent ou tout simplement faire le grand saut de réduire la confusion. C’est une petite partie du potentiel de Cynefin que nous vous invitons à découvrir à travers ce talk.
-     </p>"
+    - name: "La recette secrète des équipes produit heureuses"
+      id: "recipe"
+      short_description: "
+      <p>Construire un produit, c’est bien plus qu’une simple série de tâches à accomplir : c’est l’art de fédérer des talents uniques autour d’une vision claire et inspirante.
+      <p>Cette conférence vous dévoile les secrets pour transformer votre équipe, encourager l’autonomie et garantir que chacun trouve sa place.</p>
+      "
+      description: "
+      <p>Construire un produit, c’est bien plus qu’une simple série de tâches à accomplir : c’est l’art de fédérer des talents uniques autour d’une vision claire et inspirante.
+      <p>Cette conférence vous dévoile les secrets pour transformer votre équipe, encourager l’autonomie et garantir que chacun trouve sa place.</p>
+      <p>Des astuces concrètes et des exemples inspirants vous guideront pour donner à vos équipes le super-pouvoir de l'alignement.</p>"
       level: "Tout le monde"
       type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/zpIWfxjEYipHLoI9S0pT"
+      salle: "Autrans 1 & 2"
+      date: "14h15 à 15h"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/nZcIlhmB8FEjcbE6CR49"
       categories:
         - "Talk"
-        - "Cynefin"
+        - "Équipe"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "juliequille"
+          speakerid: "zouaouisafia"
         - speaker:
-          speakerid: "albiezolivier"
-
-    - name: "WannaCry : les dessous d'un ransomware dévastateur"
-      id: "wannacry"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
-      short_description: "
-            <p>Si WannaCry n'est pas le premier ransomware, il est au moins celui qui a causé le plus de dégâts dans toute l'histoire d'Internet. Infectant plusieurs centaines de milliers d'ordinateurs grâce à une faille présente sur des systèmes Windows obsolètes, il contraindra même Microsoft à publier un patch de sécurité pour des OS qui n'étaient alors plus maintenus.</p>
-  
-        <p>Devant l'ampleur de cette cyberattaque, plusieurs équipes se sont mobilisées afin de freiner sa propagation et d'aider les victimes à récupérer leurs fichiers.</p>
-        <p>Retour sur cette traque de longue haleine, entre cryptographie, rétro-ingénierie et analyse forensique.</p>
-        "
-      description: "
-      <p>Si WannaCry n'est pas le premier ransomware, il est au moins celui qui a causé le plus de dégâts dans toute l'histoire d'Internet. Infectant plusieurs centaines de milliers d'ordinateurs grâce à une faille présente sur des systèmes Windows obsolètes, il contraindra même Microsoft à publier un patch de sécurité pour des OS qui n'étaient alors plus maintenus.</p>
-        <p>Devant l'ampleur de cette cyberattaque, plusieurs équipes se sont mobilisées afin de freiner sa propagation et d'aider les victimes à récupérer leurs fichiers.</p>
-        <p>Retour sur cette traque de longue haleine, entre cryptographie, rétro-ingénierie et analyse forensique.</p>
-        
-        <ol>Pourquoi ça peut vous intéresser 😁
-        <li>L'analyse de malware, c'est un peu comme de l'analyse de code legacy : vous êtes face à un logiciel que vous n'avez pas codé vous-même, mais dont vous allez devoir comprendre le fonctionnement, et le code source est parfois tellement complexe que ça ne vous avance pas toujours de l'avoir...</li>
-        <li>On va parler de logiciel, mais aussi de plein de choses qui tournent autour et dont on ne se soucie pas forcément (mais qui sont tous les petits trucs qui permettent au logiciel de tourner...)</li>
-        <li>On va analyser une scène de crime numérique façon Les Experts Miami 😎 (c'est à peine exagéré)</li>
-        </ol>
-        
-        <ol>
-        Pourquoi ça peut vous faire peur 😱 (et pourquoi venir quand même !)
-        <li>On va regarder du code en assembleur, mais pas besoin d'en avoir déjà lu pour s'y retrouver ici !</li>
-        <li>Cryptographie oblige, on va évoquer quelques notions de maths, mais juste en surface : si vous savez ce qu'est un nombre premier, c'est suffisant</li>
-        <li>On va parler d'allocation mémoire et regarder le contenu de la mémoire allouée à un processus, il y aura plein d'hexadécimal à l'écran, on ne va rien comprendre au début et c'est ok</li>
-        <li>Les noms de Windows et de Microsoft seront régulièrement prononcés (!)</li>
-        </ol>
-     </p>"
-      level: "Tout le monde"
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/OAaqnQoXpVre5qZs7AOZ"
-      categories:
-        - "Talk"
-        - "Ransomware"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "seddikisonia"
-
-    - name: "D'où viennent les bugs ?"
-      id: "bug"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
-      short_description: "
-      <p>On dit beaucoup de choses au sujet de la qualité logicielle, avec des mots et des concepts compliqués.</p>
-  
-      <p>Et si on passait à côté de l’essentiel ?</p>
-        "
-      description: "
-      <p>On dit beaucoup de choses au sujet de la qualité logicielle, avec des mots et des concepts compliqués.</p>
-  
-      <p>Et si on passait à côté de l’essentiel ?</p>
-  
-      <p>Pour faire le point, je propose de revenir aux fondamentaux, en m’appuyant sur trois décennies d’expérience; de découvrir quelques préceptes de la programmation fonctionnelle; de prendre un peu de recul par rapport aux sirènes de l’IA… bref de partager pourquoi cette question me taraude toujours et les réponses que j’ai pu y apporter.
-     </p>"
-      level: "Public averti"
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/L68Gfs9VKbgn1FzLT8N2"
-      categories:
-        - "Talk"
-        - "Bug"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "bossavitlaurent"
+          speakerid: "margueritemarine"
 
     - name: "Refactorer à fond les manettes"
       id: "console"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
       short_description: "
             <p>Je vais vous présenter la technologie ultime pour refactorer le code spaghettis, la solution qui règle tous vos problèmes de legacy, une solution hardware à moins de 20€ : la manette de console.
       Pourquoi payer un clavier avec une centaine de touches et une souris, quand une manette avec une quinzaine de boutons suffit largement ?</p>
@@ -1403,8 +1442,8 @@ params:
       <p>Du coup live refactoring à la manette, parce que pourquoi pas !</p>"
       level: "Public novice"
       type: "talk"
-      salle: ""
-      date: ""
+      salle: "Chamrousse"
+      date: "14h15 à 15h"
       roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/3N9TM4V8SVWiyLTp0b1m"
       categories:
         - "Talk"
@@ -1414,9 +1453,95 @@ params:
         - speaker:
           speakerid: "pointeaugaspard"
 
+    - name: "Pause"
+      id: "pause"
+      menu: "break"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "15h à 15h15"
+      categories:
+        - "🥐"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+
+    - name: "Pause"
+      id: "pause"
+      menu: "break"
+      style: "grid-column: span 2;"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "15h à 15h15"
+      categories:
+        - "🥐"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "Le conflit, comment le dépasser et rétablir le dialogue ?"
+      id: "conflit"
+      short_description: "<p>
+      Comment dépasser ces conflits qui entravent nos vies?</p>
+      
+      <p>Comment rétablir un dialogue avec cet autre avec lequel on doit faire?</p>
+      
+      <p>Nous explorerons notre rapport au conflit, ce qu'il provoque en nous, en quoi il nous enferme et nous amène à diaboliser l'autre.</p>"
+      description: "<p>
+      Comment dépasser ces conflits qui entravent nos vies?</p>
+      
+      <p>Comment rétablir un dialogue avec cet autre avec lequel on doit faire?</p>
+  
+      <p>Nous explorerons notre rapport au conflit, ce qu'il provoque en nous, en quoi il nous enferme et nous amène à diaboliser l'autre.</p>
+      <p>Nous verrons comment la médiation peut aider à transformer l’interaction conflictuelle.</p>
+      <p>Quand faire appel à un médiateur ? Quelle est la place du manager ? Quelle différence avec la conciliation ou la négociation raisonnée ?</p>
+      <p>Nous donnerons des exemples et des pistes de réflexions sur ces sujets, en se basant notamment sur les travaux d'Agnès Vandevelde-Rougale (sociologue), Emilie Thivet-Grivel (avocate) et Olivier Chambert-Loir (médiateur).</p>
+     
+     </p>"
+      level: "Tout le monde"
+      type: "talk"
+      salle: "Amphi"
+      date: "15h15 à 16h"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/JNVzrz691PfokigK1OCR"
+      categories:
+        - "Talk"
+        - "Conflit"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "christophemaldivi"
+
+
+    - name: "Dites adieu aux sessions interminables de product backlog refinement avec l'Example Mapping"
+      id: "examplemapping"
+      short_description: "<p>
+     Vous êtes fatigué des réunions qui semblent ne mener nulle part ? J'ai souvent ressenti cette frustration lors de sessions de product refinement. Ces réunions se transformaient souvent en débats sans fin où il était très compliqué de rester concentré jusqu’à la fin.</p>
+      "
+      description: "<p>
+     Vous êtes fatigué des réunions qui semblent ne mener nulle part ? J'ai souvent ressenti cette frustration lors de sessions de product refinement. Ces réunions se transformaient souvent en débats sans fin où il était très compliqué de rester concentré jusqu’à la fin.</p>
+  
+      <p>Comme le dit Alberto Brandolini, \"c’est l’incompréhension des développeur·euse·s qui part en production\". Si les développeur·euse·s ne comprennent pas ce qui est attendu, il y a de fortes chances que les fonctionnalités livrées soient incorrectes.</p>
+
+      <p>Lors de cette présentation, je partagerai comment nous avons remplacé ces réunions par un atelier beaucoup plus productif : l'Example Mapping. Grâce à cet outil simple et efficace, nous avons réussi à clarifier les besoins et à construire notre backlog de manière collaborative.
+     </p>"
+      level: "Public novice"
+      type: "talk"
+      salle: "Autrans 1 & 2"
+      date: "15h15 à 16h"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/lwAfjVN35MICIFDy9TID"
+      categories:
+        - "Talk"
+        - "Example Mapping"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "arnaudlanglade"
+
     - name: "Décollons une fusée ensemble lors d'un coding dojo"
       id: "codingdojo"
-      #      style: "grid-row: span 3;"
+      style: "grid-row: span 3;"
       short_description: "
         <p>Atelier pour découvrir les coding dojos.</p>
         <p>Ce sont des rendez-vous réguliers entre développeurs (de n'importe quel niveau) pour résoudre un exercice de programmation dans un format en mob programming. Le but est de partager nos connaissances et nos pratiques, d'apprendre, de progresser, et surtout de passer un bon moment :)</p> 
@@ -1432,8 +1557,8 @@ params:
       requirement: "Avoir déjà écrit une ligne de code dans sa vie."
       laptop: "yes"
       #seating: "40"
-      #salle: "Villard de Lans 1"
-      #date: "14h15 à 16h00"
+      salle: "Chamrousse"
+      date: "15h15 à 17h"
       roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/pWu1IqfYgVYiCI4LMgE0"
       level: "Tout le monde"
       categories:
@@ -1444,37 +1569,73 @@ params:
         - speaker:
           speakerid: "berlendissimon"
 
-    - name: "La recette secrète des équipes produit heureuses"
-      id: "recipe"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
+    - name: "Pause"
+      id: "pause"
+      menu: "break"
+      style: "grid-column: span 4;"
+      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
+      date: "16h à 16h15"
+      categories:
+        - "🥐"
+        - "☕"
+      speakers:
+        - speaker:
+          speakerid: "orga"
+
+    - name: "D'où viennent les bugs ?"
+      id: "bug"
       short_description: "
-      <p>Construire un produit, c’est bien plus qu’une simple série de tâches à accomplir : c’est l’art de fédérer des talents uniques autour d’une vision claire et inspirante.
-      <p>Cette conférence vous dévoile les secrets pour transformer votre équipe, encourager l’autonomie et garantir que chacun trouve sa place.</p>
-      "
+      <p>On dit beaucoup de choses au sujet de la qualité logicielle, avec des mots et des concepts compliqués.</p>
+  
+      <p>Et si on passait à côté de l’essentiel ?</p>
+        "
       description: "
-      <p>Construire un produit, c’est bien plus qu’une simple série de tâches à accomplir : c’est l’art de fédérer des talents uniques autour d’une vision claire et inspirante.
-      <p>Cette conférence vous dévoile les secrets pour transformer votre équipe, encourager l’autonomie et garantir que chacun trouve sa place.</p>
-      <p>Des astuces concrètes et des exemples inspirants vous guideront pour donner à vos équipes le super-pouvoir de l'alignement.</p>"
-      level: "Tout le monde"
+      <p>On dit beaucoup de choses au sujet de la qualité logicielle, avec des mots et des concepts compliqués.</p>
+  
+      <p>Et si on passait à côté de l’essentiel ?</p>
+  
+      <p>Pour faire le point, je propose de revenir aux fondamentaux, en m’appuyant sur trois décennies d’expérience; de découvrir quelques préceptes de la programmation fonctionnelle; de prendre un peu de recul par rapport aux sirènes de l’IA… bref de partager pourquoi cette question me taraude toujours et les réponses que j’ai pu y apporter.
+     </p>"
+      level: "Public averti"
       type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/nZcIlhmB8FEjcbE6CR49"
+      salle: "Amphi"
+      date: "16h15 à 17h"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/L68Gfs9VKbgn1FzLT8N2"
       categories:
         - "Talk"
-        - "Équipe"
+        - "Bug"
       language: "🇫🇷"
       speakers:
         - speaker:
-          speakerid: "zouaouisafia"
+          speakerid: "bossavitlaurent"
+
+    - name: "Ne me parlez plus de dette technique, je préfère le jardinage"
+      id: "jardinage"
+      short_description: "
+      <p>Le terme de dette technique est devenu un fourre-tout, si bien qu’on en trouve plein de définitions et interprétations différentes. La métaphore originale de dette est utile, mais à vouloir l’utiliser partout, tout le temps, on l’a déformée et on ne sait plus de quoi on parle vraiment.
+      Et quoi de plus difficile de trouver une solution adéquate à un problème qu’on ne sait pas bien définir ?</p>
+      "
+      description: "
+      <p>Le terme de dette technique est devenu un fourre-tout, si bien qu’on en trouve plein de définitions et interprétations différentes. La métaphore originale de dette est utile, mais à vouloir l’utiliser partout, tout le temps, on l’a déformée et on ne sait plus de quoi on parle vraiment.
+      Et quoi de plus difficile de trouver une solution adéquate à un problème qu’on ne sait pas bien définir ?</p>
+      <p>Je vous propose d’explorer tout ce que l’on met derrière ce terme de dette technique. Nous verrons que plusieurs problèmes de nature bien différente sont en fait cachés derrière.  Et à partir de là il sera bien plus facile de trouver différentes stratégies concrètes et pratiques pour améliorer la situation, et regagner le contrôle.</p>
+      "
+      level: "Tout le monde"
+      type: "talk"
+      salle: "Villard de lans 1"
+      date: "16h15 à 17h"
+      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/aJ97fdiFOLtZkpMu4BRN"
+      categories:
+        - "Talk"
+        - "Dette"
+      language: "🇫🇷"
+      speakers:
         - speaker:
-          speakerid: "margueritemarine"
+          speakerid: "bastiendavid"
 
     - name: "🕵️ Les Mystères de la Performance ! 🔎"
       id: "performance"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
       short_description: "
       <p>Bienvenue dans cette enquête, où l’entreprise cherche à identifier les éléments qui freinent sa performance ! Mais attention, les indices sont partout : dans les processus poussiéreux de la salle de réunion, dans les habitudes des équipes, ou encore dans les outils obsolètes du département IT ! Qui ou quoi ralentit la dynamique ?</p>
       "
@@ -1492,8 +1653,8 @@ params:
       <p>Alors, prêts à mener l’enquête et à découvrir les secrets pour améliorer la performance ? 🔦</p>"
       level: "Tout le monde"
       type: "talk"
-      salle: ""
-      date: ""
+      salle: "Villard de lans 2"
+      date: "16h15 à 17h"
       roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/ykWI1sQkrtVWyca54Bbt"
       categories:
         - "Talk"
@@ -1505,32 +1666,8 @@ params:
         - speaker:
           speakerid: "marquetanthony"
 
-
-    - name: "Les bases du TDD par l'exemple"
-      id: "tdd"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
-      short_description: "
-      <p>Le TDD (Test Driven Development) est essentiel pour du développement professionnel et agile. Aujourd'hui, cette nécessité est reconnue par la plupart des développeurs. Par contre, le constat au quotidien est toujours le même : très peu de développeurs pratiquent le TDD régulièrement. Pourquoi ? Notamment parce que cette pratique est simple à comprendre mais difficile à mettre en oeuvre. Lors de cette session, en live coding, je montrerai les bases du TDD en pointant quelques astuces et pièges à éviter.</p>"
-      description: "
-      <p>Le TDD (Test Driven Development) est essentiel pour du développement professionnel et agile. Aujourd'hui, cette nécessité est reconnue par la plupart des développeurs. Par contre, le constat au quotidien est toujours le même : très peu de développeurs pratiquent le TDD régulièrement. Pourquoi ? Notamment parce que cette pratique est simple à comprendre mais difficile à mettre en oeuvre. Lors de cette session, en live coding, je montrerai les bases du TDD en pointant quelques astuces et pièges à éviter.</p>"
-      level: "Public novice"
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/RJs4QBznPmQmbrepWcqz"
-      categories:
-        - "Talk"
-        - "TDD"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "noprexavier"
-
     - name: "Trunk Based Development : allégez votre Git"
       id: "trunkbased"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
       short_description: "
       <p>Libérez-vous des branches et reprenez en main votre tronc !</p>
       <p>Gestion du cycle de vie des branches, process de validation et bien sûr l'étape du merge qui donne des sueurs froides à nombre de développeuses et développeurs.</p>"
@@ -1542,8 +1679,8 @@ params:
       </p>"
       level: "Tout le monde"
       type: "talk"
-      salle: ""
-      date: ""
+      salle: "Autrans 1 & 2"
+      date: "16h15 à 17H"
       roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/MdcZUWb34C6Fm1ZVSg26"
       categories:
         - "Talk"
@@ -1553,314 +1690,20 @@ params:
         - speaker:
           speakerid: "decouchantraphael"
 
-    - name: "Ne me parlez plus de dette technique, je préfère le jardinage"
-      id: "jardinage"
-      #      menu: "open"
-      #      style: "grid-column: 1 / -1;"
-      short_description: "
-      <p>Le terme de dette technique est devenu un fourre-tout, si bien qu’on en trouve plein de définitions et interprétations différentes. La métaphore originale de dette est utile, mais à vouloir l’utiliser partout, tout le temps, on l’a déformée et on ne sait plus de quoi on parle vraiment.
-      Et quoi de plus difficile de trouver une solution adéquate à un problème qu’on ne sait pas bien définir ?</p>
-      "
-      description: "
-      <p>Le terme de dette technique est devenu un fourre-tout, si bien qu’on en trouve plein de définitions et interprétations différentes. La métaphore originale de dette est utile, mais à vouloir l’utiliser partout, tout le temps, on l’a déformée et on ne sait plus de quoi on parle vraiment.
-      Et quoi de plus difficile de trouver une solution adéquate à un problème qu’on ne sait pas bien définir ?</p>
-      <p>Je vous propose d’explorer tout ce que l’on met derrière ce terme de dette technique. Nous verrons que plusieurs problèmes de nature bien différente sont en fait cachés derrière.  Et à partir de là il sera bien plus facile de trouver différentes stratégies concrètes et pratiques pour améliorer la situation, et regagner le contrôle.</p>
-      "
-      level: "Tout le monde"
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/aJ97fdiFOLtZkpMu4BRN"
+    - name: "Mot de clôture"
+      id: "ending"
+      menu: "break"
+      style: "grid-column: 1 / -1;"
+      short_description: ""
+      description: ""
+      salle: "Amphi"
+      date: "17h00 à 17h15"
       categories:
-        - "Talk"
-        - "Dette"
-      language: "🇫🇷"
+        - "📣"
       speakers:
         - speaker:
-          speakerid: "bastiendavid"
+          speakerid: "orga"
 
-#    - name: "Pause"
-#      id: "pause"
-#      style: "grid-column: 1 / -1;"
-#      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
-#      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
-#      date: "10h15 à 10h30"
-#      categories:
-#        - "⍩⃝"
-#        - "🥐"
-#        - "☕"
-#      speakers:
-#        - speaker:
-#          speakerid: "orga"
-
-#    - name: "Model Mitosis : ne plus se tromper entre les microservices et le monolithe"
-#      id: "mitosis"
-#      short_description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>"
-#      description: "<p>Tout comme le développement doit être itératif, le design du logiciel doit changer lorsque le contexte et notre compréhension du problème évoluent. Au fur et à mesure qu'un logiciel se développe pour résoudre plus de problèmes, il devient moins souple dans sa capacité à évoluer. Des tensions apparaissent au sein du modèle métier du logiciel qui peine à rester cohérent.</p>
-#      <p>Finalement, il atteint une masse critique et devient un monolithe de code en spaghetti... Comment pouvons nous déterminer quand il est temps de modulariser notre logiciel ? Comment prendre la décision de le scinder en plusieurs modules ou services ? Comment gérer la différenciation progressive de nos modèles métiers tout en évitant les couplages inutiles ? Il n'est pas facile de découper son logiciel en deux car déterminer les bonnes frontières peut s'avérer être compliqué.</p>
-#      <p>Découvrez avec nous le Model Mitosis, une approche dynamique utilisée pour diviser un modèle métier en plusieurs modèles qui seront façonnés et découplés de manière itérative. Gagnez en flexibilité afin de mieux déterminer quand diviser votre logiciel en plusieurs services tout en évitant de payer les coût d'échelle des microservices ou bien de devenir un monolithe distribué.</p>
-#      </p>"
-#      type: "talk"
-#      salle: "Amphi"
-#      date: "10h30 à 11h15"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/uimjbclpGIUbZ8ei1mrm"
-#      categories:
-#        - "Talk"
-#        - "Microservice"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "julientopçu"
-#        - speaker:
-#          speakerid: "josianchevalier"
-#
-#    - name: "Test Driven Development et Code Legacy : (re)partir sur de bonnes bases."
-#      id: "legacytdd"
-##      style: "grid-row: span 3;"
-#      short_description: "<p>Dans cette session spéciale débutants en TDD, je vous invite à découvrir et pratiquer cette technique particulière qui fait tant parler… et à la démystifier.</p>
-#                           <p>Deux ateliers consécutifs de 90 minutes !</p>"
-#      description: "<p>Dans cette session spéciale débutants en TDD, je vous invite à découvrir et pratiquer cette technique particulière qui fait tant parler… et à la démystifier.</p>
-#          <p>Deux ateliers consécutifs de 90 minutes !</p>
-#          <p>le premier pour découvrir les éléments de base:</p>
-#          <ul>
-#               <li> ToDo List</li>
-#               <li> 0,1,N</li>
-#               <li> Fake it</li>
-#               <li> Triangulate</li>
-#               <li> Obvious Implementation</li>
-#               <li> Test Doubles</li>
-#          </ul>
-#          <p>le second pour adapter la pratique au code legacy:</p>
-#          <ul>
-#               <li>Seam/Command</li>
-#               <li>Characterization Test</li>
-#               <li>Approval Testing</li>
-#               <li>Test/Legacy 5 steps strategy</li>
-#          </ul>
-#          <p>Modalité: présentation + pratique en binômes (venez avec votre laptop)</p>
-#
-#           <p>Langage: Java / typescript / python… à déterminer en fonction des participants.</p>
-#      "
-#      type: "workshop"
-#      seating: "20"
-#      laptop: "yes"
-#      salle: "Villard de Lans 1"
-#      date: "10h30 - 12h15"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/KljhuVnGCIweFs4iIIC4"
-#      categories:
-#        - "Workshop"
-#        - "TDD"
-#        - "Legacy"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "christophethibaut"
-#
-#    - name: "Modern Craft Experience avec Github Copilot"
-#      id: "moderncraft"
-##      style: "grid-row: span 3;"
-#      short_description: "<p>Plongez dans l'univers du Software Craft avec notre atelier intensif dédié à Github Copilot. Découvrez comment utiliser cet outil pour optimiser vos pratiques de développement (Test-Driven Development : TDD et de Behavior-Driven Development : BDD), allant de la génération d'exemples et de tests unitaires à la création de documentation, en passant par la génération et le refactoring de code.</p>"
-#      description: "<p>Plongez dans l'univers du Software Craft avec notre atelier intensif dédié à Github Copilot. Découvrez comment utiliser cet outil pour optimiser vos pratiques de développement (Test-Driven Development : TDD et de Behavior-Driven Development : BDD), allant de la génération d'exemples et de tests unitaires à la création de documentation, en passant par la génération et le refactoring de code. À travers un kata pratique, en binôme ou en groupe selon le nombre de participant.e.s, vous apprendrez à intégrer Github Copilot dans vos projets.</p>"
-#      type: "workshop"
-#      seating: "30"
-#      salle: "Villard de Lans 2"
-#      date: "10h30 à 12h15"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/OoPMXbPetonvzaRrEOHp"
-#      laptop: "no"
-#      requirement: "Merci de venir avec un ordinateur et une license Github Copilot ou équivalent, si vous ne l'avez pas ce n'est pas grave, on se débrouillera autrement."
-#      categories:
-#        - "Workshop"
-#        - "AI"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "dorrabartaguiz"
-#
-#    - name: "Vous n'êtes pas passionné(e). Et alors ?!"
-#      id: "leadbypassion"
-#      short_description: "
-#        <p>Tout le monde connait ce développeur, cette développeuse passionné(e) par son métier.
-#            Facilement reconnaissable du fait qu'il/elle passe des heures à coder, même en dehors du travail;
-#            se <documente; dont les sujets de conversation tournent souvent autour du code.</p>
-#      "
-#      description: "
-#      <p>Tout le monde connait ce développeur, cette développeuse passionné(e) par son métier.
-#      Facilement reconnaissable du fait qu'il/elle passe des heures à coder, même en dehors du travail;
-#      se <documente; dont les sujets de conversation tournent souvent autour du code.</p>
-#
-#      <p>Quand bien même passionné(e), il arrive qu'on ne ressente, ni n'exprime cette passion pour le code.
-#      Et facilement, à son contact, le sentiment de malaise peut survenir si on ne ressent pas cette passion.
-#      Et ce, même en étant soi-même développeur ou développeuse.</p>
-#
-#      <p>Ce malaise peut être source d'inquiétude, de doute par rapport à ses propres compétences.
-#      En effet, si le passionné consacre des heures à des projets personnels, peut-être le devrions-nous ?</p>
-#
-#      <p>Mais alors, faut-il être passionné pour être développeur (se)?
-#      La passion apporte-t-elle réellement un plus ?
-#      L'injonction à la passion dans le dev ne serait-elle pas en fin de compte un piège ?
-#      La passion est-elle LE logiciel indispensable à toute personne souhaitant coder ?</p>
-#
-#      <p>Ici, tout l'objet de cette conférence.</p>
-#
-#      <p>Bonus: Si vous aimez les vikings, cette conférence est faite pour vous !</p>"
-#      type: "Talk"
-#      salle: "Autrans 1-2"
-#      date: "10h30 à 11h15"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/Ws5guzbt2XXbvsijlK8r"
-#      categories:
-#        - "Talk"
-#        - "Passion"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "helviragoma"
-#
-#    - name: "Code Case : les méthodes de la crim adaptées au code!"
-#      id: "codecase"
-#      #      menu: "open"
-#      short_description: "<p>Et si nous nous mettions à tracker nos pain-points comme on track des criminels?</p>
-#                               <p>Et si notre historique git recelait plus d'informations sur notre architecture que nous ne le pensions?</p>
-#                               <p>Et si toutes les traces qui y sont laissées étaient autant d'indices exploitables au même titre qu'une empreinte digitale ou une trace ADN?</p>"
-#      description: "<p>Et si nous nous mettions à tracker nos pain-points comme on track des criminels?</p>
-#      <p>Et si notre historique git recelait plus d'informations sur notre architecture que nous ne le pensions?</p>
-#      <p>Et si toutes les traces qui y sont laissées étaient autant d'indices exploitables au même titre qu'une empreinte digitale ou une trace ADN?</p>
-#
-#      <p>\"Your code as a crime scene\" est un livre de Adam Tornhill qui propose de transposer des techniques d'investigations criminelles reconnues dans le but de débusquer les problématiques de notre code.</p>
-#      <p>L'auteur fournit en parallèle un ensemble d'outils qui prennent tout leur sens à la lecture des méthodes évoquées.</p>
-#
-#      <p>Retour d'expérience sur l'utilisation de quelques unes de ces techniques sur un projet réel, ce qu'elles ont permis d'identifier, de prendre comme action et les premiers bénéfices qui ont pu en ressortir.</p>
-#      </p>"
-#      type: "talk"
-#      salle: "Chamrousse"
-#      date: "10h30 à 11h15"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/IpgZ7Jkh3m6vXadAXfpT"
-#      categories:
-#        - "Talk"
-#        - "Cold Case"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "sylvaincoudert"
-#
-##    - name: "Pause"
-##      id: "pause"
-##      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
-##      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
-##      date: "11h15 à 11h30"
-##      categories:
-##        - "⍩⃝"
-##        - "🥐"
-##        - "☕"
-##      speakers:
-##        - speaker:
-##          speakerid: "orga"
-#
-##    - name: "Pause"
-##      id: "pause"
-##      style: "grid-column: span 2;"
-##      short_description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
-##      description: "Il est temps de faire une petite pause bien méritée! C'est l'occasion idéale pour recharger vos batteries, vous rafraîchir et discuter avec les autres participants en optant pour la technique du Pac-Man"
-##      date: "11h15 à 11h30"
-##      categories:
-##        - "⍩⃝"
-##        - "🥐"
-##        - "☕"
-##      speakers:
-##        - speaker:
-##          speakerid: "orga"
-#
-#    - name: "Rinse-less brushing : une histoire de pratiques"
-#      id: "romeu"
-#      short_description: "<p>Chaque adoption de pratiques se retrouve à un moment face à un problème d’adoption mechanique: investiguons le pourquoi !</p>"
-#      description: "<p>Chaque adoption de pratiques se retrouve à un moment face à un problème d’adoption mechanique: investiguons le pourquoi !</p>"
-#      salle: "Amphi"
-#      date: "11h30 à 12h15"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/o7hRny0LFM82t5ubvvv8"
-#      language: "🇫🇷"
-#      categories:
-#        - "Talk"
-#        - "🪥"
-#      speakers:
-#        - speaker:
-#          speakerid: "romeumoura"
-#
-#    - name: " Les tests E2E : une opportunité pour combiner toutes les compétences de l'équipe"
-#      id: "testsE2E"
-#      #      menu: "decode"
-#      short_description: "<p>
-#                                Notre équipe est répartie principalement à Meylan et à Tunis.
-#                                Cela ne nous empêche pas de travailler en étroite collaboration tous les jours.
-#                                Pour apporter de la valeur à nos clients, nous déployons en production plusieurs fois par jour.
-#                                Cela a beaucoup d’impact sur notre mode de fonctionnement et notre stratégie de test
-#                                Nous vous invitons à écouter l'histoire de la mise en place collégiale des tests bout en bout.</p>"
-#      description: "<p>
-#      Notre équipe est répartie principalement à Meylan et à Tunis.
-#      Cela ne nous empêche pas de travailler en étroite collaboration tous les jours.
-#      Pour apporter de la valeur à nos clients, nous déployons en production plusieurs fois par jour.
-#      Cela a beaucoup d’impact sur notre mode de fonctionnement et notre stratégie de test
-#      Nous vous invitons à écouter l'histoire de la mise en place collégiale des tests bout en bout.</p>
-#
-#      <p>Dans cette session, vous allez découvrir :
-#      <ul>
-#        <li> Quels types de tests utilisons-nous dans quel contexte (unitaire, intégration, contrat, bout en bout,...).</li>
-#        <li> Comment nous avons profité de toutes les compétences de l'équipe pour mettre en place des tests bout en bout.</li>
-#        <li> Comment nous nous sommes partagés les responsabilités.</li>
-#        <li> Comment la collaboration nous a ouvert des opportunités pour faire mieux.</li>
-#        <li> Pourquoi nous ne gardons que peu de tests de bout en bout.</li>
-#      </ul>
-#      </p>"
-#      type: "talk"
-#      salle: "Autrans 1-2"
-#      date: "11h30 à 12h15"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/mYmx3b9Qgli6NngMNGyC"
-#      categories:
-#        - "Talk"
-#        - "Test"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "besmaelechi"
-#        - speaker:
-#          speakerid: "mathieucans"
-#
-#    - name: "Montée de version sans interruption"
-#      id: "continuousdelivery"
-#      #      menu: "open"
-#      short_description: "<p>De plus en plus d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Pour cela, les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.<p>
-#           <p>Les techniques classiques de Rolling Update permettent de réaliser une montée de version sans interruption de service assez facilement. La complexité intervient lorsque l'on gère une base de données relationnelle, et que l'on souhaite faire évoluer son schéma, le tout, toujours sans interruption de service.<p>"
-#      description: "<p>De plus en plus d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Pour cela, les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.<p>
-#        <p>Les techniques classiques de Rolling Update permettent de réaliser une montée de version sans interruption de service assez facilement. La complexité intervient lorsque l'on gère une base de données relationnelle, et que l'on souhaite faire évoluer son schéma, le tout, toujours sans interruption de service.<p>
-#        <p>Depuis 8 ans, au sein de Mirakl, nous avons mis en place un système de montée de version sans interruption de service avec une base relationnelle.</p>
-#        <p>Ce talk est un retour d'expérience présentant les mécanismes que nous avons mis en place pour réaliser ces montées de version sans interruption. Il se concentre sur la partie applicative, et les problématiques engendrées par un tel process. Le but est d'être le plus concret possible, avec des exemples de \"la vraie vie\", notamment quelques astuces pour réaliser ses migrations sans douleur avec des frameworks comme Hibernate ou jOOQ. Les exemples sont donnés en Java avec une base de données PostgreSQL, mais les principes s'appliquent à n'importe quel language et à la plupart des bases de données relationnelles.</p>
-#      </p>"
-#      type: "talk"
-#      salle: "Chamrousse"
-#      date: "11h30 à 12h15"
-#      roti: "https://openfeedback.io/5qxDbXuA0Bnj82THZbBC/0/GXlYzzzCJatAy7oYtXVD"
-#      categories:
-#        - "Talk"
-#        - "Continuous Delivery"
-#      language: "🇫🇷"
-#      speakers:
-#        - speaker:
-#          speakerid: "ndionisi"
-#
-##    - name: "Déjeuner"
-##      id: "dejeuner"
-##      style: "grid-column: 1 / -1;"
-##      short_description: ""
-##      description: ""
-##      salle: ""
-##      date: "12h15 à 13h50"
-##      categories:
-##        - "🍽️"
-##        - "🥪"
-##        - "☕"
-##      speakers:
-##        - speaker:
-##          speakerid: "orga"
-#
-#
 #    - name: "Mot du sponsor - Applied Materials France"
 #      id: "appliedmaterials"
 ##      style: "grid-column: 1 / -1;"

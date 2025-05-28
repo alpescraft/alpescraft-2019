@@ -83,7 +83,7 @@
 
   @media (max-width: 1200px) {
      ul.schedule-list-article {
-        grid-template-columns: repeat(3, 33%) !important;
+        grid-template-columns: repeat(5, 20%) !important;
      }
   }
 
@@ -137,6 +137,9 @@
     }
     &.others {
       background-color: #fce4ec;
+    }
+    &.break {
+      background-color: #eceff1;
     }
 
   }
