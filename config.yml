@@ -152,9 +152,14 @@ params:
                         <li>par les lignes de Bus Chrono 6, 12, 65 et 77, arrêt "Grand Place"</li>
                         <li>par la ligne de Bus Chrono 3, arrêt "Alpexpo"</li>
                         <li>en Tram par la Ligne A, arrêt Pôle Sud – Alpexpo</li>
-                        <li>en voiture, un grand parking gratuit est à votre disposition en face de l’entrée</li>
-                        <li>à <a href="http://www.metromobilite.fr/velo.html" target="_blank"> vélo</a> ou à moto, un parking sera à votre disposition une fois passé les grilles</li>
+                        <li>à vélo ou à moto ou en voiture, parking gratuit dans la cour d'Alpexpo</li>
+                        <ul>
+                          <li>pour les vélos, des supports sont disponible dans la cour d'Alpexpo</li>
+                        </ul>
                       </ul>
+        - paragraph: Vous devrez présenter votre billet au vigile à l'entrée du site, puis à l'entrée du bâtiment pour qu'il soit scanné.
+        - paragraph: Pour des raisons de contexte VigiPirate, un vigile devra contrôler les sacs à l'entrée du bâtiment.
+        - paragraph: Des vestiaires (porte-manteaux) non surveillés seront à disposition.
 
   # List of Sponsors
   Sponsors:

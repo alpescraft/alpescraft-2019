@@ -12,7 +12,7 @@
 
                 <p>Les deux jours se dérouleront à :</p>
                 <p class="text-center"><strong><a target="_blank" href="https://alpexpo.com/acces/" aria-label="Accès Alpexpo">{{ $.venue }}</a></strong></p>
-                <p class="text-center">{{ $.address }}, {{ $.city }}</p>
+                <p class="text-center"><strong>{{ $.address }}, {{ $.city }}</strong></p>
 
                 {{ range .text }}
                 <p>{{ .paragraph | safeHTML }}</p>
