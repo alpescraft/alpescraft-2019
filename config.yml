@@ -947,11 +947,13 @@ params:
         - speaker:
           speakerid: "orga"
 
-    - name: "Keynote"
-      id: "intro"
+    - name: "Keynote : qu’est-ce que ça veut dire être développeur aujourd’hui… et demain ?"
+      id: "keynote"
       style: "grid-column: 1 / -1;"
-      short_description: "<p></p>"
-      description: "<p></p>"
+      short_description: "<p>On parlera des choix qu’on fait, des rôles qu’on peut jouer (et qu’on ne nous propose pas toujours), des trajectoires possibles, et de ce que l’IA, la complexité des systèmes et l’évolution des équipes changent concrètement pour nous.</p>
+      <p>Ce sera une prise de recul sur notre métier, notre impact, notre avenir.</p>"
+      description: "<p>On parlera des choix qu’on fait, des rôles qu’on peut jouer (et qu’on ne nous propose pas toujours), des trajectoires possibles, et de ce que l’IA, la complexité des systèmes et l’évolution des équipes changent concrètement pour nous.</p>
+      <p>Ce sera une prise de recul sur notre métier, notre impact, notre avenir.</p>"
       salle: "Amphi"
       roti: "https://openfeedback.io/ZGGIopadnhAPmQMbrzDm/0/REQJlxiXPgjuisv4yhAn"
       date: "9h30 à 10h15"
