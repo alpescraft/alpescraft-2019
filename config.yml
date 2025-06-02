@@ -947,7 +947,7 @@ params:
         - speaker:
           speakerid: "orga"
 
-    - name: "Keynote : qu’est-ce que ça veut dire être développeur aujourd’hui… et demain ?"
+    - name: "Keynote : From code to consequences"
       id: "keynote"
       style: "grid-column: 1 / -1;"
       short_description: "<p>On parlera des choix qu’on fait, des rôles qu’on peut jouer (et qu’on ne nous propose pas toujours), des trajectoires possibles, et de ce que l’IA, la complexité des systèmes et l’évolution des équipes changent concrètement pour nous.</p>
