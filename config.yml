@@ -5,9 +5,9 @@ canonifyurls: true
 params:
   # Conference info
   Name: "AlpesCraft"
-  Year: "2022"
+  Year: "2025"
   Description: "Découvrir, apprendre et se perfectionner"
-  Date: "5 et 6 Juin 2025"
+  Date: ""
   Venue: "Alpexpo"
   Address: "2 Av. d'Innsbruck"
   City:  "Grenoble"
@@ -33,11 +33,11 @@ params:
   Sections:
     - home
     - about
-    - sponsors
-    - partners
-    - schedule
-    - billetterie
-    - location
+#    - sponsors
+#    - partners
+#    - schedule
+#    - billetterie
+#    - location
 
   # Titles which you can translate to other languages
   Titles:
@@ -75,6 +75,7 @@ params:
     - edition2022
     - edition2023
     - edition2024
+    - edition2025
 
   TitlesPrevious:
     edition2019:
@@ -92,6 +93,9 @@ params:
     edition2024:
       - title: "2024"
         icon: "icon-control-rewind"
+    edition2025:
+      - title: "2025"
+        icon: "icon-control-rewind"
 
   LinksPrevious:
     edition2019: "edition_2019"
@@ -99,6 +103,7 @@ params:
     edition2022: "edition_2022"
     edition2023: "edition_2023"
     edition2024: "edition_2024"
+    edition2025: "edition_2025"
 
   # Icones
   Icones:
