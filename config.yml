@@ -7,7 +7,7 @@ params:
   Name: "AlpesCraft"
   Year: "2025"
   Description: "Découvrir, apprendre et se perfectionner"
-  Date: "4 et 5 Juin 2025 - Grenoble - Alpexpo"
+  Date: "4 et 5 Juin 2025"
   Venue: "Alpexpo"
   Address: "2 Av. d'Innsbruck"
   City:  "Grenoble"
@@ -33,11 +33,11 @@ params:
   Sections:
     - home
     - about
-#    - sponsors
+    - location
+    - sponsors
 #    - partners
 #    - schedule
 #    - billetterie
-#    - location
 
   # Titles which you can translate to other languages
   Titles:
