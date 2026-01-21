@@ -35,9 +35,9 @@ params:
     - about
     - location
     - sponsors
+    - billetterie
 #    - partners
 #    - schedule
-#    - billetterie
 
   # Titles which you can translate to other languages
   Titles:
