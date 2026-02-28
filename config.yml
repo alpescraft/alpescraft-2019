@@ -648,6 +648,72 @@ params:
         <p>Et si vous aimez parler dev, danse traditionnelle, surf ou de pourquoi je n’aime pas le café… je suis là pour ça aussi !</"
       short_bio: ""
 
+    edouardmangel:
+      name: "Edouard Mangel"
+      photo: "/img/speakers/edouardmangel.png"
+      high_picture: "/img/speakers/edouardmangel.png"
+      href: "https://www.linkedin.com/in/edouard-mangel-/"
+      linkedin: "https://www.linkedin.com/in/edouard-mangel-/"
+      bluesky: "https://bsky.app/profile/edouard-m.bsky.social"
+      text: ""
+      mastodon: ""
+      bio: "Dev depuis 2012, je suis freelance depuis 2021. J’ai été : CTO d’une startup (passage du NoCode à C#), développeur senior en FinTech (DDD, TDD, module bancaire), et je suis aujourd’hui CTO hands-on sur un projet à impact. J’accompagne aussi des équipes à reprendre le contrôle de projets qui dérivent. Je co-anime la communauté craft à Strasbourg, Meetup Software Crafters Strasbourg. Je suis aussi organisateur de Bretzel Craft."
+      short_bio: "Freelance, CTO hands-on, co-animateur de la communauté craft à Strasbourg."
+
+    arnaudthiefaine:
+      name: "Arnaud Thiéfaine"
+      photo: "/img/speakers/arnaud_thiefaine.jpeg"
+      high_picture: "/img/speakers/arnaud_thiefaine.jpeg"
+      href: "https://www.linkedin.com/in/arnaudthiefaine/"
+      linkedin: "https://www.linkedin.com/in/arnaudthiefaine/"
+      bluesky: ""
+      text: "https://x.com/arnaudthiefaine"
+      mastodon: ""
+      bio: |
+        À travers les rôles de développeur, leader technique, coach craft et formateur, Arnaud accompagne startups et grandes entreprises dans l’adoption des pratiques du software craft, en les aidant à améliorer leur code au quotidien grâce à des ateliers et un accompagnement sur mesure. Passionné de Domain-Driven Design, il aime explorer de nouveaux métiers et comprendre leurs enjeux pour mieux aligner le code avec la réalité du terrain. Cette curiosité l’a amené à intervenir dans des secteurs variés tels que l’énergie, la réassurance, la finance de marché ou encore le luxe. Engagé dans la transmission des savoirs, il partage régulièrement son expérience à travers conférences, meetups, podcasts et formations, ainsi que par la publication de ressources accessibles à la communauté. Toujours en quête d’amélioration, il s’efforce d’aider les équipes à construire un logiciel plus durable et centré sur la valeur métier. Arnaud est également co-auteur du livre Software Craft : TDD, Clean Code et autres pratiques essentielles aux éditions Dunod.
+      short_bio: "Coach craft, formateur, co-auteur du livre Software Craft."
+
+    christianfinel:
+      name: "Christian Finel"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: "https://www.linkedin.com/in/christian-finel-88b46461/"
+      linkedin: "https://www.linkedin.com/in/christian-finel-88b46461/"
+      bluesky: ""
+      text: ""
+      mastodon: ""
+      bio: "Actif en tant que développeur depuis 2007, il occupe actuellement le poste de Tech Lead au sein de son équipe. Depuis longtemps, il se passionne pour les dynamiques humaines au sein des entreprises où il évolue. Son principal objectif est d'établir une harmonie au sein de l'environnement professionnel. Cela implique la quête d'une organisation, possiblement auto-gérée, qui soit à la fois efficace et respectueuse des individus. Il anime le meetup Craft Your Skills ainsi que des formations et BBLs sur Tech Lead, TDD, BDD, DDD."
+      short_bio: "Tech Lead, animateur Craft Your Skills."
+
+    adelinemorel:
+      name: "Adeline Morel"
+      photo: "/img/speakers/adeline_morel.png"
+      high_picture: "/img/speakers/adeline_morel.png"
+      href: "https://www.linkedin.com/in/adeline-claire-morel/"
+      linkedin: "https://www.linkedin.com/in/adeline-claire-morel/"
+      bluesky: ""
+      text: ""
+      mastodon: ""
+      bio: "Développeuse full-stack chez Open. Mes passions : Photographie, footing, musique (tous genres confondus), finir 4e à Mario Kart, et une passion non dissimulée pour Questions pour un Champion."
+      short_bio: "Développeuse full-stack chez Open."
+
+    emmanuelgaillot:
+      name: "Emmanuel Gaillot"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: ""
+      linkedin: ""
+      bluesky: ""
+      text: ""
+      mastodon: ""
+      bio: |
+        <p>Praticien du code et de la thérapie, Emmanuel Gaillot intervient en tant qu'accompagnateur d'équipes, formateur, programmeur extrême, psychopraticien, codexhibitionniste et agitateur public. Il est un spécialiste de la gestion de projet incrémentale et de la pensée systémique. Par le biais d'armes non-conventionnelles, il aide depuis plus de 20 ans les équipes produisant du logiciel à être plus efficaces dans leur travail, plus fières de leurs résultats et plus heureuses en général.</p>
+        
+        <p>Orateur régulier à de nombreuses conférences sur l'agilité, co-organisateur de la première conférence sur le sujet en France, Emmanuel est l'un des fondateurs de la conférence annuelle <a href="http://agileopenfrance.com" target="_blank">Agile Open France</a> et du <a href="http://www.meetup.com/Dojo-developpement-Paris/" target="_blank">Dojo de développement de Paris</a>. Il a créé <a href="https://changer-grandir.org/" target="_blank">Changer/Grandir</a> pour promouvoir les travaux de Virginia Satir auprès du public francophone et il est l'un des associés de la société (coopérative ouvrière de production) <a href="https://omnicite.fr/" target="_blank">Omnicité</a>.</p>
+        
+        <p>Avec d'autres, il s'occupe de rénover <a href="https://mc-mallaret.fr/" target="_blank">une ferme dans le Massif Central</a> pour créer un lieu de partage et de co-apprentissage.</p>
+      short_bio: "Praticien du code et de la thérapie, spécialiste de la gestion de projet incrémentale."
+
   Schedule:
     - name: "🎮Les quêtes secondaires, ça n'est pas que dans les jeux vidéo !"
       id: "quetesecondaires"
@@ -702,3 +768,110 @@ params:
       speakers:
         - speaker:
           speakerid: "chloeguilbaud"
+
+    - name: "Le seigneur du legacy - la communauté du code"
+      id: "seigneurlegacy"
+      short_description: "<p>À travers le prisme épique du Seigneur des Anneaux, nous explorerons les défis quotidiens du développement logiciel : le couplage fort qui corrompt nos systèmes comme l'Anneau Unique et la dette technique qui s'accumule telle une armée d'Orques.</p>"
+      description: "<p>À travers le prisme épique du Seigneur des Anneaux, nous explorerons les défis quotidiens du développement logiciel : le couplage fort qui corrompt nos systèmes comme l'Anneau Unique et la dette technique qui s'accumule telle une armée d'Orques.</p>"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "edouardmangel"
+
+    - name: "Dev du grenier : Gilded Rose"
+      id: "gildedrose"
+      short_description: "<p>Le kata Gilded Rose est devenu un classique : il permet de montrer comment sécuriser du code legacy à l'aide d'un golden master, et offre un terrain de jeu idéal pour mettre en avant des refactorings spectaculaires.</p>
+
+<p>Mais s'en tenir à ça serait passer à côté de toute la richesse et du potentiel caché de ce kata.</p>"
+      description: "
+<p>Le kata Gilded Rose est devenu un classique : il permet de montrer comment sécuriser du code legacy à l'aide d'un golden master, et offre un terrain de jeu idéal pour mettre en avant des refactorings spectaculaires.</p>
+
+<p>Mais s'en tenir à ça serait passer à côté de toute la richesse et du potentiel caché de ce kata. Dans cet atelier en live-coding fortement interactif, nous prenons Gilded Rose comme point de départ pour explorer d'autres possibilités autour du travail sur le legacy :</p>
+
+<ul>
+  <li><strong>Adopter le bon état d'esprit</strong> : on ne panique pas, on reste lucide, calme et méthodique, et on prend même du plaisir à travailler sur le legacy</li>
+  <li><strong>Sécuriser le code</strong> : nous illustrerons diverses approches pour contruire un filet de sécurité ; au-delà de ça, nous challengerons les limites de la couverture de tests et montrerons comment renforcer la fiabilité de notre golden master</li>
+  <li><strong>Définir une stratégie de refactoring</strong> : il existe plusieurs approches (notamment classique ou ludique), l'important est de ne pas succomber à la facilité (pour éviter les optimums locaux), et nous verrons dans quelle mesure la stratégie de refactoring est étroitement liée à la stratégie de testing</li>
+      </ul>
+      "
+      type: "workshop"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Workshop"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "arnaudthiefaine"
+        - speaker:
+          speakerid: "christianfinel"
+
+    - name: "git reset --hard"
+      id: "gitresethard"
+      short_description: "
+      <p><strong>Et si la poubelle était notre meilleure alliée&nbsp;?</strong></p>
+
+<p>On nous apprend à construire, jamais à détruire.<br>
+Pourtant, l'incapacité à jeter du code est l'un des plus grands freins à la qualité logicielle et à l'efficacité des équipes.</p>
+      "
+      description: "
+<p><strong>Et si la poubelle était notre meilleure alliée&nbsp;?</strong></p>
+
+<p>On nous apprend à construire, jamais à détruire.<br>
+Pourtant, l'incapacité à jeter du code est l'un des plus grands freins à la qualité logicielle et à l'efficacité des équipes.</p>
+
+<p>Derrière la commande <code>git reset --hard</code> se cache un enjeu qui dépasse largement la technique&nbsp;: notre rapport à l'échec.<br>
+Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège du biais des coûts irrécupérables.</p>
+
+<p>Ce talk vous invite à changer de paradigme&nbsp;:</p>
+<ul>
+  <li><strong>Désapprendre l'entêtement</strong> : Comprendre pourquoi notre cerveau nous force à &laquo;&nbsp;sauver&nbsp;&raquo; du mauvais code.</li>
+  <li><strong>Sécurité et stabilité avec la stratégie du retour au vert</strong> : Comment le TDD et les petits pas transforment le &laquo;&nbsp;reset&nbsp;&raquo; en un filet de sécurité pour explorer sans crainte.</li>
+  <li><strong>L'efficacité collective</strong> : Réduire sa charge mentale (et celle de ses collègues) pour garantir des solutions qui répondent aux besoins avec pertinence.</li>
+</ul>
+
+<p><strong>Le message est simple&nbsp;:</strong> l'abandon d'une piste au bon moment n’est pas un aveu d’échec, c’est un choix stratégique.</p>
+
+<p>Venez apprendre à transformer votre bouton &laquo;&nbsp;panique&nbsp;&raquo; en levier de performance.</p>
+
+<p>À l'ère de l'IA, prenons aussi un peu de temps pour (re)parler des fondamentaux&nbsp;!</p>
+      "
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "adelinemorel"
+
+    - name: "La Voie du code : développer du logiciel pour se développer personnellement"
+      id: "voieducode"
+      short_description: "<p>L'acte de programmation est souvent considéré comme un moyen pour atteindre une fin: ajouter des fonctionnalités à un produit existant, apprendre de nouvelles techniques qui brilleront sur un CV, gagner de l'argent, éviter des douleurs vécues par le passé, etc. Un tel acte n'offre qu'une valeur indirecte – qu'il s'agisse d'un effort qui portera (peut-être) ses fruits dans un futur plus ou moins distant, ou d'une tentative de corriger le passé.</p>"
+      description: "
+      <p>L'acte de programmation est souvent considéré comme un moyen pour atteindre une fin: ajouter des fonctionnalités à un produit existant, apprendre de nouvelles techniques qui brilleront sur un CV, gagner de l'argent, éviter des douleurs vécues par le passé, etc. Un tel acte n'offre qu'une valeur indirecte – qu'il s'agisse d'un effort qui portera (peut-être) ses fruits dans un futur plus ou moins distant, ou d'une tentative de corriger le passé. De telles dynamiques nous éloignent de la réalité du moment présent. Elles génèrent déception et souffrance, en exacerbant un contraste entre « ce qui est » ici et maintenant et « ce qui (dans notre imagination) devrait être ». Pourrions-nous envisager l'acte de programmation d'une autre manière, qui serait à la fois source de paix, de joie et d'épanouissement dans le moment présent ?
+
+</p><p>La pratique du yoga a pour but de ressentir une (ré)union entre ce qui se passe « au dedans » (les émotions, les concepts, les souhaits et espoirs) avec ce qui se passe « au dehors » (les phénomènes qui activent nos sens). Il existe de nombreuses méthodes pour atteindre ce but. La programmation pourrait-elle en être une ?
+
+</p><p>Cette session est une invitation à engager une conversation – avec l'espoir de déplacer le centre de gravité de l'acte de programmation vers la recherche d'une expérience de joie et de présence dans le moment présent.
+      </p>"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "emmanuelgaillot"
+
