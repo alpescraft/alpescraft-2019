@@ -699,8 +699,8 @@ params:
 
     emmanuelgaillot:
       name: "Emmanuel Gaillot"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/emmanuelgaillot.jpeg"
+      high_picture: "/img/speakers/emmanuelgaillot.jpeg"
       href: ""
       linkedin: ""
       bluesky: ""
