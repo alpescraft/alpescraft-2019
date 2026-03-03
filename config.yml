@@ -714,6 +714,30 @@ params:
         <p>Avec d'autres, il s'occupe de rénover <a href="https://mc-mallaret.fr/" target="_blank">une ferme dans le Massif Central</a> pour créer un lieu de partage et de co-apprentissage.</p>
       short_bio: "Praticien du code et de la thérapie, spécialiste de la gestion de projet incrémentale."
 
+    guillaumesaintetienne:
+      name: "Guillaume Saint Etienne"
+      photo: "/img/speakers/guillaume_saintetienne.jpeg"
+      high_picture: "/img/speakers/guillaume_saintetienne.jpeg"
+      href: "https://www.linkedin.com/in/guillaumese/?locale=fr_FR"
+      linkedin: "https://www.linkedin.com/in/guillaumese/?locale=fr_FR"
+      bluesky: ""
+      text: ""
+      mastodon: ""
+      bio: "J'ai écrit mes premières lignes de code à l'age de 11 ans sur un ZX81. J'ai développé des écrans Videotex Je suis artisan développeur depuis 30 ans déjà, élève de Laurent Bossavit, Jonathan Peret et Olivier Azeau. J'ai été aussi architecte logiciel, chef de projet, responsable d'équipe , j'ai travaillé pour diverses ESN et éditeurs logiciels, dont Varian Medical Systems pendant 10 ans, actuellement sur le projet ITER. Codeur C# + JS depuis le début, j'ai récemment plongé dans Kotlin avec délectation. Je pense que bien développer c'est: 70% de discussion, 20% de tests, 10% de code."
+      short_bio: "Artisan développeur depuis 30 ans, passionné par le Software Craft."
+
+    clairevandevoorde:
+      name: "Claire Van de Voorde"
+      photo: "/img/speakers/clairevandevoorde.jpeg"
+      high_picture: "/img/speakers/clairevandevoorde.jpeg"
+      href: "https://www.linkedin.com/in/clairevdv/"
+      linkedin: "https://www.linkedin.com/in/clairevdv/"
+      bluesky: ""
+      text: ""
+      mastodon: ""
+      bio: "Claire est Chief Product Officer et Product Advisor. En 10 ans de product management, elle est passée de first Product Manager à Head of Product, principalement en startups B2B. Sa spécialité : l'exploitation, pour transformer des challenges technologiques en leviers de croissance."
+      short_bio: "Chief Product Officer et Product Advisor en startups B2B."
+
   Schedule:
     - name: "🎮Les quêtes secondaires, ça n'est pas que dans les jeux vidéo !"
       id: "quetesecondaires"
@@ -875,3 +899,77 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
         - speaker:
           speakerid: "emmanuelgaillot"
 
+    - name: "Le code est une Res Publica"
+      id: "coderespublica"
+      short_description: |
+        <p>"Une bataille pour le pouvoir"</p>
+
+                        <p>Pour vous, le code n'est surement qu'une suite d'instructions exécutées par une machine ou dans un cloud. Mais il est en réalité tellement plus que cela. Pouvons-nous même, nous faire une idée réelle de tout ce dont il est l'enjeu ?</p>
+
+                        <p>Le code est le vecteur de l'organisation des entreprises, jusqu'à ses idéaux. Ce n'est pas une technique, c'est un miroir. Et si nous osions regarder au travers, pour une fois ?</p>
+      description: |
+                <p>"Une bataille pour le pouvoir"</p>
+
+                <p>Pour vous, le code n'est surement qu'une suite d'instructions exécutées par une machine ou dans un cloud. Mais il est en réalité tellement plus que cela. Pouvons-nous même, nous faire une idée réelle de tout ce dont il est l'enjeu ?</p>
+
+                <p>Le code est le vecteur de l'organisation des entreprises, jusqu'à ses idéaux. Ce n'est pas une technique, c'est un miroir. Et si nous osions regarder au travers, pour une fois ?</p>
+
+                <p>À cause de la diversité à produire du code en entreprise, à cause de la multiplicité formes d'organisations possibles, mais aussi des différents credo ou chapelles qu'ont créées les « faiseurs » de code; j'ai pu voir nombre de conflits, de résultats plus ou moins heureux, plus ou moins achevés.</p>
+
+                <p>Une histoire avec des humains, des chef-fes, des technicien-nes, des testeur-euses, des PO, des SM, EM, CTO... Au final, si tout se passe bien, un ou des produits…</p>
+
+                <p>Et aujourd'hui l'IA qui vient s'en emparer et nous en déposseder ... avec la promesse de la réduire comme simple commodité.</p>
+
+                <p><strong>O' Really ???</strong></p>
+
+                <p>Avant de spéculer, je remets tout cela en perspective avec les grandes Sociétés Humaines et l'organisation du Travail. Et je répondrai à ces 6 questions :</p>
+
+                <ol>
+                    <li>Qu'est-ce que le code ?</li>
+                    <li>Qu'est-ce que le pouvoir de faire du code ?</li>
+                    <li>Y a-t-il une société secrète dans votre compagnie ?</li>
+                    <li>Quels sont les enjeux du pouvoir ?</li>
+                    <li>Quels sont les formes du pouvoir ?</li>
+                    <li>Quelles sont les techniques du pouvoir ?</li>
+                </ol>
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "guillaumesaintetienne"
+
+    - name: "From Lovable to Runnable : du prototype au produit scalable"
+      id: "fromlovabletorunnable"
+      short_description:  |
+        <p>J'ai rejoint une scale-up construite sur des prototypes low-code et IA. Mon boulot : les transformer en produits scalables.</p>
+        
+        <p>Mais c'est pire que de partir d'une feuille blanche : documentation limitée, shortcuts criticables, clients ravis qui ont maintenant de fortes attentes.</p>
+      description: |
+                <p>J'ai rejoint une scale-up construite sur des prototypes low-code et IA. Mon boulot : les transformer en produits scalables.</p>
+
+                <p>Mais c'est pire que de partir d'une feuille blanche : documentation limitée, shortcuts criticables, clients ravis qui ont maintenant de fortes attentes.</p>
+
+                <p>Ayant trouvé peu de talks et ressources sur le sujet, j'ai structuré mon approche :</p>
+
+                <ul>
+                    <li><strong>Identifier les prototypes à industrialiser</strong> (Map)</li>
+                    <li><strong>Aligner les attentes et couper l'inutile</strong> (Align)</li>
+                    <li><strong>Industrialiser le prototype</strong> (Productize)</li>
+                </ul>
+
+                <p>Parce qu'un prototype qui marche trop bien, c'est plus dangereux qu'un prototype qui échoue.</p>
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "clairevandevoorde"
