@@ -738,6 +738,30 @@ params:
       bio: "Claire est Chief Product Officer et Product Advisor. En 10 ans de product management, elle est passée de first Product Manager à Head of Product, principalement en startups B2B. Sa spécialité : l'exploitation, pour transformer des challenges technologiques en leviers de croissance."
       short_bio: "Chief Product Officer et Product Advisor en startups B2B."
 
+    johanrouve:
+      name: "Johan Rouve"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: "https://www.linkedin.com/in/johan-rouve/"
+      linkedin: "https://www.linkedin.com/in/johan-rouve/"
+      bluesky: ""
+      text: ""
+      mastodon: ""
+      bio: "Développeur curieux, j'ai travaillé sur différentes plate-formes, principalement web et mobile, aussi bien coté front que back, dans différents languages.J’ai une forte appétence pour le design et l’ergonomie, et j’aime peaufiner les détails graphiques afin que les utilisateurs aient le meilleur ressenti possible.Et comme la vie ne se limite pas seulement à du code, je me passionne aussi pour le sport et la raclette."
+      short_bio: ""
+
+    bastientran:
+      name: "Johan Rouve"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: "linkedin.com/in/basttran"
+      linkedin: "linkedin.com/in/basttran"
+      bluesky: ""
+      text: ""
+      mastodon: ""
+      bio: "Adoubé développeur par voie de bootcamp en 2019 j'ai longtemps tourné autour du code avant de vraiment tomber dedans !  Après quelques GOTO dans mes plus jeunes années je dirai que j'ai vraiment commencé à coder sous R. Au départ juste pour les stats et la visualisation mais une chose en entrainant une autre on peut vite se retrouver à coder une appli web pour géo-référencer des commentaires... C'est assez naturellement que j'ai choisi de professionnaliser ma pratique du code et d'en faire mon métier.  Depuis 2023 j'ai eu la chance de rejoindre une (très chouette - craft oblige) équipe qui a souhaité adopter une approche plus fonctionnelle et je suis ravi d'avoir pu sauter dans ce train en marche !"
+      short_bio: ""
+
   Schedule:
     - name: "🎮Les quêtes secondaires, ça n'est pas que dans les jeux vidéo !"
       id: "quetesecondaires"
@@ -973,3 +997,26 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       speakers:
         - speaker:
           speakerid: "clairevandevoorde"
+
+    - name: "Maîtrise Typescript par la pratique"
+      id: "maitrisetypescript"
+      short_description:  |
+        <p>Qui n’a jamais mis un type any, car il n’arrivait pas à typer comme il le souhaitait ?</p>
+        <p>Certes, c'est rapide, mais vous perdez la sécurité apportée par TypeScript. Le système de type est très puissant et cet atelier vous permettra d’apprendre à maitriser le langage.</p>
+      description: |
+        <p>Qui n’a jamais mis un type any, car il n’arrivait pas à typer comme il le souhaitait ?</p> 
+        <p>Certes, c'est rapide, mais vous perdez la sécurité apportée par TypeScript. Le système de type est très puissant et cet atelier vous permettra d’apprendre à maitriser le langage dans le langage! Pour cela, nous allons nous inspirer de projets existants pour créer un builder de requêtes SQL. </p>
+        <p>Grâce à un typage avancé, le compilateur TypeScript nous assurera une expérience développeur optimale avec autocomplétion et sécurité de type lors du développement. La sécurité apportée par le compilateur nous permet d’avoir une couche ultra-légère à l’exécution pour des performances optimales. Que vous soyez, débutant ou confirmé, vous êtes tous et toutes les bienvenues. À la fin de cet atelier, vous ne vous sentirez plus jamais démuni à la lecture d’une page de définition TypeScript.</p> 
+        <p>Prérequis : Connaissances de base TypeScript et Votre ordinateur 💻</p>
+      type: "workshop"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Workshop"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "johanrouve"
+        - speaker:
+          speakerid: "bastientran"
