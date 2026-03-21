@@ -762,6 +762,18 @@ params:
       bio: "Adoubé développeur par voie de bootcamp en 2019 j'ai longtemps tourné autour du code avant de vraiment tomber dedans !  Après quelques GOTO dans mes plus jeunes années je dirai que j'ai vraiment commencé à coder sous R. Au départ juste pour les stats et la visualisation mais une chose en entrainant une autre on peut vite se retrouver à coder une appli web pour géo-référencer des commentaires... C'est assez naturellement que j'ai choisi de professionnaliser ma pratique du code et d'en faire mon métier.  Depuis 2023 j'ai eu la chance de rejoindre une (très chouette - craft oblige) équipe qui a souhaité adopter une approche plus fonctionnelle et je suis ravi d'avoir pu sauter dans ce train en marche !"
       short_bio: ""
 
+    marjorieaubert:
+      name: "Marjorie Aubert"
+      photo: "/img/speakers/marjorieaubert.jpeg"
+      high_picture: "/img/speakers/marjorieaubert.jpeg"
+      href: "https://www.linkedin.com/in/marjorie-aubert-full-stack-developer/"
+      linkedin: "https://www.linkedin.com/in/marjorie-aubert-full-stack-developer/"
+      bluesky: ""
+      text: ""
+      mastodon: ""
+      bio: " Marjorie, software et product engineer chez Comet Meetings. Entre deux API récalcitrantes et quelques user stories floues, j'adore partager, échanger, sur les sujets qui composent nos métiers. Hâte de vous rencontrer à Alpes Craft cette année."
+      short_bio: ""
+
     shirleyalmosni:
       name: "Shirley Almosni Ch"
       photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
@@ -801,7 +813,7 @@ params:
       short_bio: ""
 
     jeanpalies:
-      name: "jean Paliès"
+      name: "Jean Paliès"
       photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
       high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
       href: "https://piaille.fr/@jpalies"
@@ -814,6 +826,27 @@ params:
       short_bio: ""
 
   Schedule:
+    - name: "La Voie du code : développer du logiciel pour se développer personnellement"
+      id: "voieducode"
+      short_description: "<p>L'acte de programmation est souvent considéré comme un moyen pour atteindre une fin: ajouter des fonctionnalités à un produit existant, apprendre de nouvelles techniques qui brilleront sur un CV, gagner de l'argent, éviter des douleurs vécues par le passé, etc. Un tel acte n'offre qu'une valeur indirecte – qu'il s'agisse d'un effort qui portera (peut-être) ses fruits dans un futur plus ou moins distant, ou d'une tentative de corriger le passé.</p>"
+      description: "
+      <p>L'acte de programmation est souvent considéré comme un moyen pour atteindre une fin: ajouter des fonctionnalités à un produit existant, apprendre de nouvelles techniques qui brilleront sur un CV, gagner de l'argent, éviter des douleurs vécues par le passé, etc. Un tel acte n'offre qu'une valeur indirecte – qu'il s'agisse d'un effort qui portera (peut-être) ses fruits dans un futur plus ou moins distant, ou d'une tentative de corriger le passé. De telles dynamiques nous éloignent de la réalité du moment présent. Elles génèrent déception et souffrance, en exacerbant un contraste entre « ce qui est » ici et maintenant et « ce qui (dans notre imagination) devrait être ». Pourrions-nous envisager l'acte de programmation d'une autre manière, qui serait à la fois source de paix, de joie et d'épanouissement dans le moment présent ?
+
+</p><p>La pratique du yoga a pour but de ressentir une (ré)union entre ce qui se passe « au dedans » (les émotions, les concepts, les souhaits et espoirs) avec ce qui se passe « au dehors » (les phénomènes qui activent nos sens). Il existe de nombreuses méthodes pour atteindre ce but. La programmation pourrait-elle en être une ?
+
+</p><p>Cette session est une invitation à engager une conversation – avec l'espoir de déplacer le centre de gravité de l'acte de programmation vers la recherche d'une expérience de joie et de présence dans le moment présent.
+      </p>"
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Keynote"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "emmanuelgaillot"
+
     - name: "🎮Les quêtes secondaires, ça n'est pas que dans les jeux vidéo !"
       id: "quetesecondaires"
       short_description:  "<p>
@@ -953,27 +986,6 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
         - speaker:
           speakerid: "adelinemorel"
 
-    - name: "La Voie du code : développer du logiciel pour se développer personnellement"
-      id: "voieducode"
-      short_description: "<p>L'acte de programmation est souvent considéré comme un moyen pour atteindre une fin: ajouter des fonctionnalités à un produit existant, apprendre de nouvelles techniques qui brilleront sur un CV, gagner de l'argent, éviter des douleurs vécues par le passé, etc. Un tel acte n'offre qu'une valeur indirecte – qu'il s'agisse d'un effort qui portera (peut-être) ses fruits dans un futur plus ou moins distant, ou d'une tentative de corriger le passé.</p>"
-      description: "
-      <p>L'acte de programmation est souvent considéré comme un moyen pour atteindre une fin: ajouter des fonctionnalités à un produit existant, apprendre de nouvelles techniques qui brilleront sur un CV, gagner de l'argent, éviter des douleurs vécues par le passé, etc. Un tel acte n'offre qu'une valeur indirecte – qu'il s'agisse d'un effort qui portera (peut-être) ses fruits dans un futur plus ou moins distant, ou d'une tentative de corriger le passé. De telles dynamiques nous éloignent de la réalité du moment présent. Elles génèrent déception et souffrance, en exacerbant un contraste entre « ce qui est » ici et maintenant et « ce qui (dans notre imagination) devrait être ». Pourrions-nous envisager l'acte de programmation d'une autre manière, qui serait à la fois source de paix, de joie et d'épanouissement dans le moment présent ?
-
-</p><p>La pratique du yoga a pour but de ressentir une (ré)union entre ce qui se passe « au dedans » (les émotions, les concepts, les souhaits et espoirs) avec ce qui se passe « au dehors » (les phénomènes qui activent nos sens). Il existe de nombreuses méthodes pour atteindre ce but. La programmation pourrait-elle en être une ?
-
-</p><p>Cette session est une invitation à engager une conversation – avec l'espoir de déplacer le centre de gravité de l'acte de programmation vers la recherche d'une expérience de joie et de présence dans le moment présent.
-      </p>"
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: ""
-      categories:
-        - "Talk"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "emmanuelgaillot"
-
     - name: "Le code est une Res Publica"
       id: "coderespublica"
       short_description: |
@@ -1071,6 +1083,8 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
           speakerid: "johanrouve"
         - speaker:
           speakerid: "bastientran"
+        - speaker:
+          speakerid: "marjorieaubert"
 
     - name: "Petit guide pour prendre des décisions éthiques en entreprise"
       id: "guideethique"
