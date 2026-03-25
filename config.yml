@@ -825,6 +825,18 @@ params:
         20 years of working in IT at various roles, technologies, topologies. I chose software development as a career because I wanted social interactions to be at the heart of what I do.
       short_bio: ""
 
+    pascallemerrer:
+      name: "Pascal Le Merrer"
+      photo: "/img/speakers/pascallemerrer.jpeg"
+      high_picture: "/img/speakers/pascallemerrer.jpeg"
+      href: "https://www.linkedin.com/in/pascal-le-merrer/"
+      linkedin: "https://www.linkedin.com/in/pascal-le-merrer/"
+      bluesky: ""
+      text: ""
+      mastodon: "https://mastodon.social/@pascal_le_merrer"
+      bio: "Pascal est un développeur très expérimenté. Il est aussi formateur, coach agile, et orateur. Curieux de nature, il se forme et expérimente en permanence. Il est convaincu que partager est la façon la plus efficace d'apprendre, et apprécie particulièrement les échanges avec ses pairs. C'est pourquoi il s'investit dans l'organisation d'événements consacrés au développement logiciel (Meetup Software Crafters Rennes, Breizhcamp et SoCraTes Rennes), et il publie une newsletter de veille technologique (http://www.craftletter.fr)"
+      short_bio: ""
+
   Schedule:
     - name: "La Voie du code : développer du logiciel pour se développer personnellement"
       id: "voieducode"
@@ -1154,3 +1166,30 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       speakers:
         - speaker:
           speakerid: "shirleyalmosni"
+
+    - name: "Comment réorganiser un legacy complexe"
+      id: "reorganiserlegacy"
+      short_description: |
+        <p>
+        Je vais vous parler d'un gros projet, avec un métier complexe. La croissance du nombre de contributeurs a été aussi forte que rapide, mais son architecture logicielle n'a pas été maitrisée. Jusqu'au jour où la dette technique est apparue comme un problème majeur, qui freinait le développement du business, et qu'il a fallu se résoudre à traiter.
+        </p>
+      description: |
+        <p>
+        Je vais vous parler d'un gros projet, avec un métier complexe. La croissance du nombre de contributeurs a été aussi forte que rapide, mais son architecture logicielle n'a pas été maitrisée. Jusqu'au jour où la dette technique est apparue comme un problème majeur, qui freinait le développement du business, et qu'il a fallu se résoudre à traiter.
+        </p>
+        <p>
+        Dans ce talk je vous expliquerai comment nous avons procédé, et décrirai les outils et méthodes mis en oeuvre pour réorganiser le code aussi bien que les équipes, tout en continuant à faire évoluer le produit. J'évoquerai aussi les difficultés rencontrées, mais aussi comment cela aurait pu mieux se passer.
+        </p>
+        <p>
+        Vous pourrez alors réutiliser ces outils et méthodes sur vos projets, afin de démêler votre propre plat de spaghettis.
+        </p>
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "pascallemerrer"
