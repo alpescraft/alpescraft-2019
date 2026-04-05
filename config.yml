@@ -837,6 +837,18 @@ params:
       bio: "Pascal est un développeur très expérimenté. Il est aussi formateur, coach agile, et orateur. Curieux de nature, il se forme et expérimente en permanence. Il est convaincu que partager est la façon la plus efficace d'apprendre, et apprécie particulièrement les échanges avec ses pairs. C'est pourquoi il s'investit dans l'organisation d'événements consacrés au développement logiciel (Meetup Software Crafters Rennes, Breizhcamp et SoCraTes Rennes), et il publie une newsletter de veille technologique (http://www.craftletter.fr)"
       short_bio: ""
 
+    roselutz:
+      name: "Rose Lutz"
+      photo: "/img/speakers/roselutz.jpeg"
+      high_picture: "/img/speakers/roselutz.jpeg"
+      href: "https://www.linkedin.com/in/rose-lutz/"
+      linkedin: "https://www.linkedin.com/in/rose-lutz/"
+      bluesky: ""
+      text: ""
+      mastodon: ""
+      bio: "Senior QA, Coach Qualité, Formatrice, Zinzin de la Qualité"
+      short_bio: ""
+
   Schedule:
     - name: "La Voie du code : développer du logiciel pour se développer personnellement"
       id: "voieducode"
@@ -1193,3 +1205,32 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       speakers:
         - speaker:
           speakerid: "pascallemerrer"
+
+    - name: "TDD, BDD, ... SDD ? Leçons apprises du BDD pour ne pas refaire les mêmes erreurs avec l'IA"
+      id: "sdd"
+      short_description: |
+        <p>
+        Le SDD (Spec Driven Development) se présente comme une approche innovante permettant de développer proprement à l'aire de l'ingénierie assistée par l'IA.
+        Mais cette pratique, dont le nom sonne plutôt comme une tautologie, est-elle vraiment si innovante ?
+        </p>
+      description: |
+        <p>
+        Le SDD (Spec Driven Development) se présente comme une approche innovante permettant de développer proprement à l'aire de l'ingénierie assistée par l'IA.
+        </p>
+        <p>
+        Mais cette pratique, dont le nom sonne plutôt comme une tautologie, est-elle vraiment si innovante ?
+        Avec l'arrivée de l'IA, les éternelles questions de qualité, de spécification, d'alignement, de tests, de documentation, ... refont surface et cette méthode, pas plus que les autres, n'apportera de résultats satisfaisants si l'on n'en saisit pas les vrais enjeux.
+        </p>
+        <p>
+        Ce talk propose de présenter les leçons apprises avec le BDD pour mettre en lumière les erreurs à éviter et donner quelques clés pour parvenir à s'approcher du graal de qualité visé par toutes ces pratiques.
+        </p>
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "roselutz"
