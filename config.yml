@@ -740,8 +740,8 @@ params:
 
     johanrouve:
       name: "Johan Rouve"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/johan_rouve.jpg"
+      high_picture: "/img/speakers/johan_rouve.jpg"
       href: "https://www.linkedin.com/in/johan-rouve/"
       linkedin: "https://www.linkedin.com/in/johan-rouve/"
       bluesky: ""
