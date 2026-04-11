@@ -750,6 +750,42 @@ params:
       bio: "Développeur curieux, j'ai travaillé sur différentes plate-formes, principalement web et mobile, aussi bien coté front que back, dans différents languages.J’ai une forte appétence pour le design et l’ergonomie, et j’aime peaufiner les détails graphiques afin que les utilisateurs aient le meilleur ressenti possible.Et comme la vie ne se limite pas seulement à du code, je me passionne aussi pour le sport et la raclette."
       short_bio: ""
 
+    arnaudbailly:
+      name: "Arnaud Bailly"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: "https://www.linkedin.com/in/arnaudbailly/"
+      linkedin: "https://www.linkedin.com/in/arnaudbailly/"
+      bluesky: "https://bsky.app/profile/pankzsoft.net"
+      text: ""
+      mastodon: "https://piaille.fr/@arnaudb"
+      bio: "Arnaud développe des logiciels et aide, accompagne, construit des équipes de développement depuis plus de 30 ans, dans des technologies et des contextes variés. Il est intéressé par tout ce qui a trait au code avec un intérêt particulier pour la programmation fonctionnelle typée."
+      short_bio: ""
+
+    dorianebussi:
+      name: "Doriane Bussi"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: "https://x.com/bussidn"
+      linkedin: ""
+      bluesky: ""
+      text: "https://x.com/bussidn"
+      mastodon: ""
+      bio: "Développeuse back-end (et un peu front aussi) depuis un bon moment déjà, je suis tombée dans le Software Craftsmanship il y a une dizaine d’années… et je n’en suis jamais vraiment sortie.Grande fan de tests, qui ont été ma porte d’entrée dans le craft, de clean code, j’aime explorer les pratiques qui rendent le logiciel plus robuste — et plus agréable à faire évoluer. Entre TDD, programmation fonctionnelle et principes de conception,  je suis toujours partante pour creuser le “comment mieux faire”."
+      short_bio: ""
+
+    ameliemorille:
+      name: "Amélie Morille"
+      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      href: ""
+      linkedin: ""
+      bluesky: ""
+      text: ""
+      mastodon: ""
+      bio: "Issue d'une formation en mécanique et aéronautique, j'ai débuté dans le spatial tout en bifurquant vers l'ingénierie logicielle. Après sept années chez Air France-KLM où j'ai évolué jusqu'au rôle de Tech Lead, je suis aujourd'hui Senior Software Engineer chez sunday. Fondamentalement curieuse, c'est cette envie d'apprendre qui m'a naturellement amenée à toucher à un peu tout techniquement, et à explorer des domaines métiers très différents."
+      short_bio: ""
+
     bastientran:
       name: "Bastien Tran"
       photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
@@ -1234,3 +1270,79 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       speakers:
         - speaker:
           speakerid: "roselutz"
+
+    - name: "TDD, BDD, ... SDD ? Leçons apprises du BDD pour ne pas refaire les mêmes erreurs avec l'IA"
+      id: "sdd"
+      short_description: |
+        <p>
+        Le SDD (Spec Driven Development) se présente comme une approche innovante permettant de développer proprement à l'aire de l'ingénierie assistée par l'IA.
+        Mais cette pratique, dont le nom sonne plutôt comme une tautologie, est-elle vraiment si innovante ?
+        </p>
+      description: |
+        <p>
+        Le SDD (Spec Driven Development) se présente comme une approche innovante permettant de développer proprement à l'aire de l'ingénierie assistée par l'IA.
+        </p>
+        <p>
+        Mais cette pratique, dont le nom sonne plutôt comme une tautologie, est-elle vraiment si innovante ?
+        Avec l'arrivée de l'IA, les éternelles questions de qualité, de spécification, d'alignement, de tests, de documentation, ... refont surface et cette méthode, pas plus que les autres, n'apportera de résultats satisfaisants si l'on n'en saisit pas les vrais enjeux.
+        </p>
+        <p>
+        Ce talk propose de présenter les leçons apprises avec le BDD pour mettre en lumière les erreurs à éviter et donner quelques clés pour parvenir à s'approcher du graal de qualité visé par toutes ces pratiques.
+        </p>
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "roselutz"
+
+    - name: "The Unit Question"
+      id: "unitquestion"
+      short_description: |
+        <p>
+        La notion de « unit » dans les tests unitaires est galvaudée — chacun a sa propre recette, et personne n’est d’accord sur les ingrédients. Dans cet atelier, on passe en cuisine : du code, des tests, et peut‑être quelques remises en question au menu.
+        </p>
+      description: |
+        <p>
+        La notion de « unit » dans les tests unitaires est galvaudée — chacun a sa propre recette, et personne n’est d’accord sur les ingrédients. Dans cet atelier, on passe en cuisine : du code, des tests, et peut‑être quelques remises en question au menu.
+        </p>
+      type: "workshop"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Workshop"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "dorianebussi"
+        - speaker:
+          speakerid: "ameliemorille"
+
+    - name: "7 langages x 7 minutes"
+      id: "49"
+      short_description: |
+        <p>
+        Cette session vous propose de découvrir de manière interactive des langages "alternatifs" en examinant sous différents aspects comment ils permettent de résoudre un problème identique non trivial. Nous parcourrons 7 langages différents issus de différentes traditions et représentant différents paradigmes - Haskell, OCaml, Common Lisp, Prolog, Erlang, Idris, et Forth.
+        </p>
+      description: |
+        <p>
+        Cette session vous propose de découvrir de manière interactive des langages "alternatifs" en examinant sous différents aspects comment ils permettent de résoudre un problème identique non trivial. Nous parcourrons 7 langages différents issus de différentes traditions et représentant différents paradigmes - Haskell, OCaml, Common Lisp, Prolog, Erlang, Idris, et Forth.
+        </p>
+        <p>
+        L'objectif de cette expérience est de découvrir les différentes façons de penser et d'aborder un problème à travers la diversité des langages de programmation. Et surtout de remettre du fun dans la programmation !
+        </p>
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "arnaudbailly"
