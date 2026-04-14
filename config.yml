@@ -810,18 +810,6 @@ params:
       bio: " Marjorie, software et product engineer chez Comet Meetings. Entre deux API récalcitrantes et quelques user stories floues, j'adore partager, échanger, sur les sujets qui composent nos métiers. Hâte de vous rencontrer à Alpes Craft cette année."
       short_bio: ""
 
-    shirleyalmosni:
-      name: "Shirley Almosni Ch"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      href: "https://www.linkedin.com/in/shirley-almosni-chiche/?locale=fr"
-      linkedin: "https://www.linkedin.com/in/shirley-almosni-chiche/?locale=fr"
-      bluesky: "https://bsky.app/profile/tatashishi.bsky.social"
-      text: ""
-      mastodon: ""
-      bio: "Recruteuse IT et agent de carrière"
-      short_bio: ""
-
     marinedumesnil:
       name: "Marine du Mesnil"
       photo: "/img/speakers/marinedumesnil.png"
@@ -1195,25 +1183,6 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       speakers:
         - speaker:
           speakerid: "marinedumesnil"
-
-    - name: "Et si une carrière dans la tech était en réalité plusieurs carrières ?"
-      id: "carrieresmultiple"
-      short_description:  |
-        <p>Il est question de parler carrière en 2026, de faire un focus sur les terrains de jeu du marché informatique tout en allant en profondeur dans la réflexion sur les trajectoires de carrière possibles.
-        Je vous donnerai mes conseils, mon retour d'expérience terrain ainsi que mes conseils pour bâtir un bon track record.</p>
-      description: |
-        <p>Il est question de parler carrière en 2026, de faire un focus sur les terrains de jeu du marché informatique tout en allant en profondeur dans la réflexion sur les trajectoires de carrière possibles.
-        Je vous donnerai mes conseils, mon retour d'expérience terrain ainsi que mes conseils pour bâtir un bon track record.</p>
-      type: "talk"
-      salle: ""
-      date: ""
-      roti: ""
-      categories:
-        - "Talk"
-      language: "🇫🇷"
-      speakers:
-        - speaker:
-          speakerid: "shirleyalmosni"
 
     - name: "Comment réorganiser un legacy complexe"
       id: "reorganiserlegacy"
