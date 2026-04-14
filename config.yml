@@ -825,8 +825,8 @@ params:
 
     ceciliabossard:
       name: "Cécilia Bossard"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/ceciliabossard.jpeg"
+      high_picture: "/img/speakers/ceciliabossard.jpeg"
       href: "https://piaille.fr/@cbossard"
       linkedin: ""
       bluesky: ""
