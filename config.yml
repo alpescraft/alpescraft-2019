@@ -752,8 +752,8 @@ params:
 
     arnaudbailly:
       name: "Arnaud Bailly"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/arnaud-bailly.png"
+      high_picture: "/img/speakers/arnaud-bailly.png"
       href: "https://www.linkedin.com/in/arnaudbailly/"
       linkedin: "https://www.linkedin.com/in/arnaudbailly/"
       bluesky: "https://bsky.app/profile/pankzsoft.net"
