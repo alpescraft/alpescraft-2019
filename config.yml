@@ -776,8 +776,8 @@ params:
 
     ameliemorille:
       name: "Amélie Morille"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/ameliemorille.png"
+      high_picture: "/img/speakers/ameliemorille.png"
       href: ""
       linkedin: ""
       bluesky: ""
@@ -788,8 +788,8 @@ params:
 
     bastientran:
       name: "Bastien Tran"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/basttran.png"
+      high_picture: "/img/speakers/basttran.png"
       href: "linkedin.com/in/basttran"
       linkedin: "linkedin.com/in/basttran"
       bluesky: ""
