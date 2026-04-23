@@ -675,8 +675,8 @@ params:
 
     christianfinel:
       name: "Christian Finel"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/christianfinel.jpg"
+      high_picture: "/img/speakers/christianfinel.jpg"
       href: "https://www.linkedin.com/in/christian-finel-88b46461/"
       linkedin: "https://www.linkedin.com/in/christian-finel-88b46461/"
       bluesky: ""
