@@ -685,6 +685,18 @@ params:
       bio: "Actif en tant que développeur depuis 2007, il occupe actuellement le poste de Tech Lead au sein de son équipe. Depuis longtemps, il se passionne pour les dynamiques humaines au sein des entreprises où il évolue. Son principal objectif est d'établir une harmonie au sein de l'environnement professionnel. Cela implique la quête d'une organisation, possiblement auto-gérée, qui soit à la fois efficace et respectueuse des individus. Il anime le meetup Craft Your Skills ainsi que des formations et BBLs sur Tech Lead, TDD, BDD, DDD."
       short_bio: "Tech Lead, animateur Craft Your Skills."
 
+    sebastienpencreach:
+      name: "Sébastien Pencréach"
+      photo: "/img/speakers/sebastien_pencreach.jpg"
+      high_picture: "/img/speakers/sebastien_pencreach.jpg"
+      href: "https://www.linkedin.com/in/sebpen/"
+      linkedin: "https://www.linkedin.com/in/sebpen/"
+      bluesky: "https://bsky.app/profile/seyb.bsky.social"
+      text: ""
+      mastodon: "https://piaille.fr/@seyb"
+      bio: "Sébastien Pencréach est développeur fullstack et lead technique depuis dix-sept ans. Le web l'a vu apprendre, douter, transmettre, et continue de l'interroger. À travers Soclo Conseil, il accompagne les éditeurs logiciels sur leurs enjeux d'organisation technique. Il s'intéresse à ce qui fait qu'une équipe apprend vraiment, au-delà des outils qu'elle utilise."
+      short_bio: ""
+
     adelinemorel:
       name: "Adeline Morel"
       photo: "/img/speakers/adeline_morel.png"
@@ -1286,3 +1298,30 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       speakers:
         - speaker:
           speakerid: "arnaudbailly"
+
+    - name: "Le web m’a appris à apprendre. Et maintenant ?"
+      id: "webmappredreapprendre"
+      short_description: |
+        <p>
+        Le web n’a pas seulement transformé l’accès à l’information, il a transformé notre manière d’apprendre. En rendant le savoir accessible, navigable et contributif, il nous a appris à chercher, croiser, douter, bref, à construire activement nos connaissances. Après trente ans, le geste d'accès au savoir change à nouveau, et avec lui notre manière de construire ce que nous savons.
+        </p>
+      description: |
+        <p>
+        Le web n’a pas seulement transformé l’accès à l’information, il a transformé notre manière d’apprendre. En rendant le savoir accessible, navigable et contributif, il nous a appris à chercher, croiser, douter, bref, à construire activement nos connaissances. Après trente ans, le geste d'accès au savoir change à nouveau, et avec lui notre manière de construire ce que nous savons.
+        </p>
+        <p>
+        Cette conférence revient sur ce que le web a transformé dans notre rapport à l'apprentissage, sur ce que les sciences cognitives nous disent de la fragilité de ce processus quand l'effort disparaît, et sur ce qui se joue aujourd'hui dans nos pratiques professionnelles. Comment reconnaît-on qu'on a réellement appris quelque chose ? Pourquoi le ressenti d'apprentissage peut-il être trompeur ? Qu'est-ce qui rend une équipe capable d'apprendre au-delà de ses individus ?
+        </p>
+        <p>
+        L'objectif est de repartir avec des pistes pour construire, en tant que professionnels du web, des usages qui soutiennent réellement l’apprentissage plutôt que de s’y substituer.
+        </p>
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "sebastienpencreach"
