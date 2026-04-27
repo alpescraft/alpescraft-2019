@@ -885,6 +885,18 @@ params:
       bio: "Senior QA, Coach Qualité, Formatrice, Zinzin de la Qualité"
       short_bio: ""
 
+    samcranford:
+      name: "Sam Cranford"
+      photo: "/img/speakers/samcranford.jpeg"
+      high_picture: "/img/speakers/samcranford.jpeg"
+      href: "https://www.linkedin.com/in/samcranford/"
+      linkedin: "https://www.linkedin.com/in/samcranford/"
+      bluesky: ""
+      text: ""
+      mastodon: "https://mamot.fr/@nostradamnit"
+      bio: "Artisan de code depuis 25 ans, agiliste depuis le début, qui se fait influencé par le XP User Group de Denver dans les années 2000, expérimenté dans plusieurs domaines, techniques et écosystèmes. Fédérateur des âmes sœurs et amis aux intérêts commun. Brasseur et fermenteur général. Fabricant de sauce piquante."
+      short_bio: ""
+
   Schedule:
     - name: "La Voie du code : développer du logiciel pour se développer personnellement"
       id: "voieducode"
@@ -1325,3 +1337,48 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       speakers:
         - speaker:
           speakerid: "sebastienpencreach"
+
+    - name: "(Software) Architecture facilitation, au delà des ADRs"
+      id: "adrs"
+      short_description: |
+        <p>
+        Architecture logicielle et architectes logiciels : deux concepts souvent mal compris dans le monde de l’informatique.
+        </p>
+        <p>
+        Qui décide de quoi ?
+  
+        Quel est réellement le rôle des architectes dans la conception logicielle ?
+        </p>
+      description: |
+        <p>
+        Architecture logicielle et architectes logiciels : deux concepts souvent mal compris dans le monde de l’informatique.
+        </p>
+        <p>
+        Qui décide de quoi ?
+        
+        Quel est réellement le rôle des architectes dans la conception logicielle ?
+        </p>
+        Trop souvent, l’architecture est associée à des personnes très expérimentées, parfois éloignées du terrain, occasionnellement perchées dans leur tour d’ivoire, qui dictent bonnes pratiques, structures architecturales et grandes lignes à suivre — parfois sans explication ni justification.
+        <p>
+        <p>
+        Pour beaucoup de développeurs, cette description résonne. Et pour de bonnes raisons.
+        </p>
+        <p>
+        Heureusement, il existe des alternatives. D’autres façons de faire de l’architecture, sans diktat ni pouvoir hiérarchique.
+        </p>
+        <p>
+        Largement inspirée du livre Facilitating Software Architecture, cette session explorera comment l’architecture peut émerger des équipes auto‑organisées et autonomes.
+        </p>
+        <p>
+        Nous aborderons les principes, les pratiques et les modes d’organisation qui permettent d’ouvrir la prise de décision au plus grand nombre de collaborateurs.
+        </p>
+      type: "talk"
+      salle: ""
+      date: ""
+      roti: ""
+      categories:
+        - "Talk"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "samcranford"
