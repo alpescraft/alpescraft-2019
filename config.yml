@@ -897,6 +897,19 @@ params:
       bio: "Artisan de code depuis 25 ans, agiliste depuis le début, qui se fait influencé par le XP User Group de Denver dans les années 2000, expérimenté dans plusieurs domaines, techniques et écosystèmes. Fédérateur des âmes sœurs et amis aux intérêts commun. Brasseur et fermenteur général. Fabricant de sauce piquante."
       short_bio: ""
 
+    floristisseyre:
+      name: "Floris Tisseyre"
+      photo: "/img/speakers/floris_TISSEYRE.png"
+      high_picture: "/img/speakers/floris_TISSEYRE.png"
+      href: "www.linkedin.com/in/floris-tisseyre"
+      linkedin: "www.linkedin.com/in/floris-tisseyre"
+      bluesky: ""
+      text: ""
+      mastodon: "https://mamot.fr/@nostradamnit"
+      bio: "Ingénieur logiciel avec plus de 20 ans d’expérience, j’ai travaillé sur des systèmes complexes. Aujourd’hui, je m’intéresse à la manière dont l’IA transforme concrètement notre métier, entre augmentation des capacités et perte progressive de maîtrise."
+      short_bio: ""
+
+
   Schedule:
     - name: "La Voie du code : développer du logiciel pour se développer personnellement"
       id: "voieducode"
@@ -1008,6 +1021,7 @@ params:
       salle: ""
       date: ""
       roti: ""
+      laptop: "yes"
       categories:
         - "Workshop"
       language: "🇫🇷"
@@ -1147,6 +1161,7 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       salle: ""
       date: ""
       roti: ""
+      laptop: "yes"
       categories:
         - "Workshop"
       language: "🇫🇷"
@@ -1278,6 +1293,7 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       salle: ""
       date: ""
       roti: ""
+      laptop: "yes"
       categories:
         - "Workshop"
       language: "🇫🇷"
@@ -1382,3 +1398,33 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       speakers:
         - speaker:
           speakerid: "samcranford"
+
+
+    - name: "IA = Ingénieur Augmenté / Ingénieur Aliéné"
+      id: "iaingenieuraugmente"
+      short_description: |
+        <p>
+        L’IA peut nous aider à nous dépasser. Elle peut aussi nous conduire, parfois très vite, à une forme de capitulation intellectuelle : arrêter de comprendre, accepter sans vérifier, déléguer sans vraiment choisir.        Architecture logicielle et architectes logiciels : deux concepts souvent mal compris dans le monde de l’informatique.
+        </p>
+      description: |
+        <p>
+        L’IA peut nous aider à nous dépasser. Elle peut aussi nous conduire, parfois très vite, à une forme de capitulation intellectuelle : arrêter de comprendre, accepter sans vérifier, déléguer sans vraiment choisir.
+        </p>
+        <p>
+        Dans cet atelier, les participants travailleront en petits groupes sur un même problème d’ingénierie, avec deux manières différentes d’utiliser l’IA. L’objectif n’est pas de produire “la meilleure solution”, mais d’observer ce qui se passe : ce que l’on comprend, ce que l’on délègue, ce que l’on accepte… et ce que l’on n’est plus capable d’expliquer.
+        </p>
+        <p>
+        On ne cherchera pas une méthode idéale, mais à identifier, dans la pratique, où se situe la frontière entre un ingénieur réellement augmenté… et un ingénieur qui commence à s’effacer derrière ses outils.
+        </p>
+      type: "workshop"
+      salle: ""
+      date: ""
+      roti: ""
+      laptop: "no"
+      requirement: "Les participants devront amener leur ordinateur (minimum 1 ordi pour 3 participants)."
+      categories:
+        - "Workshop"
+      language: "🇫🇷"
+      speakers:
+        - speaker:
+          speakerid: "floristisseyre"
