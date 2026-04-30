@@ -850,8 +850,8 @@ params:
 
     jeanpalies:
       name: "Jean Paliès"
-      photo: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
-      high_picture: "/img/logo/color/03-AlpesCraft_Couleurs-M.webp"
+      photo: "/img/speakers/jeanpalies.jpg"
+      high_picture: "/img/speakers/jeanpalies.jpg"
       href: "https://piaille.fr/@jpalies"
       linkedin: ""
       bluesky: ""
@@ -1404,7 +1404,7 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       id: "iaingenieuraugmente"
       short_description: |
         <p>
-        L’IA peut nous aider à nous dépasser. Elle peut aussi nous conduire, parfois très vite, à une forme de capitulation intellectuelle : arrêter de comprendre, accepter sans vérifier, déléguer sans vraiment choisir.        Architecture logicielle et architectes logiciels : deux concepts souvent mal compris dans le monde de l’informatique.
+        L’IA peut nous aider à nous dépasser. Elle peut aussi nous conduire, parfois très vite, à une forme de capitulation intellectuelle : arrêter de comprendre, accepter sans vérifier, déléguer sans vraiment choisir.
         </p>
       description: |
         <p>
