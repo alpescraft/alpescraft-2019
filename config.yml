@@ -175,6 +175,9 @@ params:
       - name: "Tuleap"
         logo: "/img/sponsors/tuleap.png"
         url: "https://www.tuleap.org/"
+      - name: "KAIZEN Solutions"
+        logo: "/img/sponsors/kaizen.png"
+        url: "https://kaizen-solutions.net/"
 #        style: "min-width: 25rem"
 #      - name: "Zenika"
 #        logo: "/img/sponsors/zenika.png"
@@ -185,7 +188,8 @@ params:
 #      - name: "Salesforce"
 #        logo: "/img/sponsors/salesforce.png"
 #        url: "https://www.salesforce.com"
-    apprenti1:
+#    apprenti1:
+    novice:
       - name: "Sogilis"
         logo: "/img/sponsors/sogilis.png"
         url: "https://sogilis.com/"
