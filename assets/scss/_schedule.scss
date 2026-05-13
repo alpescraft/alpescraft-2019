@@ -74,7 +74,7 @@
       display: grid;
        padding: 0px;
        list-style-type: none;
-      grid-template-columns: repeat(2, 50%);
+      grid-template-columns: repeat(5, 20%);
   }
 
   li.schedule-list-article {
@@ -142,6 +142,18 @@
       background-color: #eceff1;
     }
 
+
+    &.workshop {
+      background-color: #f3e5f5;
+    }
+
+    &.session {
+      background-color: #e1f5fe;
+    }
+
+    &.officehours {
+      background-color: #e0f2f1;
+    }
   }
 
   .schedule-speaker {
