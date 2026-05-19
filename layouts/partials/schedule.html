@@ -12,8 +12,36 @@
 <p class="lead pl-3">
     La première journée d'AlpesCraft est une journée de conférences et d'ateliers pour découvrir de nouvelles pratiques
     et perfectionner ses compétences.
+    Cette année nous vous proposons trois formats : Talk, Workshop et Office Hours.
 <!--    <a href="/schedule/programme_2025.pdf" aria-label="Télécharger le programme en PDF" target="_blank">Télécharger le programme en PDF</a>-->
 </p>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
+    <div class="schedule-list-article">
+        <article class="talk session">
+            <section>
+                <h5>Talk</h5>
+                <p>Une présentation où des expertes et experts viennent vous partager un sujet qui leur tient à coeur.</p>
+            </section>
+        </article>
+    </div>
+    <div class="schedule-list-article">
+        <article class="talk workshop">
+            <section>
+                <h5>Workshop</h5>
+                <p>Ici, c'est vous qui êtes actrices et acteurs : vous améliorez vos compétences par la pratique.</p>
+            </section>
+        </article>
+    </div>
+    <div class="schedule-list-article">
+        <article class="talk officehours">
+            <section>
+                <h5>Office Hours</h5>
+                <p>une personne avec une expertise sur un sujet est à votre disposition pour répondre à toutes vos questions, des plus simples au plus avancées. C’est vous qui faites la session, et l’oratrice ou l’orateur est là pour explorer le sujet avec vous et apporter son expertise.</p>
+            </section>
+        </article>
+    </div>
+</div>
 
 <!--<div class="row my-auto">-->
 <!--    <div class="col text-center">-->
@@ -79,15 +107,6 @@
 <!--        <p class="lead pl-3" style="grid-column: 1 / -1;">-->
 <!--            Si vous êtes en manque d’inspiration pour choisir les sessions ou que vous hésitez, nous vous avons préparé des menus. Ils ne sont là qu’à titre indicatif et nous vous encourageons à suivre vos envies et inspirations du moment.-->
 <!--        </p>-->
-<!--        <li class="schedule-list-article">-->
-<!--            <article class="talk babystep">-->
-<!--                <section>-->
-<!--                    <h2 class="talk-title">Premiers pas dans le craft</h2>-->
-<!--                    <p>Vous découvrez le craft et vous chercher un ensemble de pratiques ou d’idées pour vous permettre de découvrir ce nouvel univers qui s’ouvre à vous.-->
-<!--                        Ce menu vous permettra de découvrir les bases des tests et des pratiques, et de découvrir et d’expérimenter des pratiques collaboratives de travail</p>-->
-<!--                </section>-->
-<!--            </article>-->
-<!--        </li>-->
 <!--        <li class="schedule-list-article">-->
 <!--            <article class="talk perfect">-->
 <!--                <section>-->
@@ -177,7 +196,7 @@
                 </h3>
                 <h3 class="talk-date">ℹ️
                     {{ if eq .menu "officehours" }}
-                    Une présentation où des expertes et experts viennent vous partager un sujet qui leur tient à coeur.
+                    Une personne avec une expertise sur un sujet est à votre disposition pour répondre à toutes vos questions, des plus simples au plus avancées. C’est vous qui faites la session, et l’oratrice ou l’orateur est là pour explorer le sujet avec vous et apporter son expertise.
                     {{ else if eq .menu "session" }}
                     Une présentation où des expertes et experts viennent vous partager un sujet qui leur tient à coeur.
                     {{ else if eq .menu "workshop" }}
