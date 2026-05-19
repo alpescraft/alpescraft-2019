@@ -42,22 +42,18 @@
                     {{ if .salle }} <h3 class="talk-date">📍 Salle {{ .salle }}</h3> {{ end }}
                     {{ if .seating }} <h3 class="talk-date">🪑 Capacité {{ .seating }} places</h3> {{ end }}
                     {{ if .salle }} <h3 class="talk-date"> 🕒 {{ .date }}</h3> {{ end }}
-<!--                    <h3 class="talk-date">🍽️-->
-<!--                        {{ if eq .menu "babystep" }}-->
-<!--                        Premier pas dans le craft-->
-<!--                        {{ else if eq .menu "decode" }}-->
-<!--                        Faut pas décoder quand même-->
-<!--                        {{ else if eq .menu "open" }}-->
-<!--                        Vers de nouveaux horizons-->
-<!--                        {{ else if eq .menu "perfect" }}-->
-<!--                        Un pas de plus dans le craft-->
-<!--                        {{ else if eq .menu "others" }}-->
-<!--                        Et ailleurs, ça se passe comment ?-->
-<!--                        {{ end }}-->
-<!--                    </h3>-->
-<!--                    <h3 class="talk-date">-->
-<!--                        <a href="{{ .roti }}" aria-label="feedback">💌 Donnez votre feedback!</a>-->
-<!--                    </h3>-->
+                    <h3 class="talk-date">
+                        <a href="{{ .roti }}" aria-label="feedback">💌 Donnez votre feedback!</a>
+                    </h3>
+                    <h3 class="talk-date">ℹ️
+                        {{ if eq .menu "officehours" }}
+                        Une présentation où des expertes et experts viennent vous partager un sujet qui leur tient à coeur.
+                        {{ else if eq .menu "session" }}
+                        Une présentation où des expertes et experts viennent vous partager un sujet qui leur tient à coeur.
+                        {{ else if eq .menu "workshop" }}
+                        Ici, c'est vous qui êtes actrices et acteurs : vous améliorez vos compétences par la pratique.
+                        {{ end }}
+                    </h3>
                     {{ if (eq .laptop "yes") }}
                         <p class="requirement"> 🚨 Il s'agit d'un workshop, n'oubliez pas de venir avec votre machine et de valider les pré-requis.</p>
                     {{ end }}

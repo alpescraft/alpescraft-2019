@@ -914,6 +914,19 @@ params:
       short_bio: ""
 
 
+    jonathanlaurent:
+      name: "Jonathan Laurent"
+      photo: "/img/speakers/jonathan-laurent.webp"
+      high_picture: "/img/speakers/jonathan-laurent.webp"
+      href: "https://www.linkedin.com/in/jonathan-laurent/"
+      linkedin: "https://www.linkedin.com/in/jonathan-laurent/"
+      bluesky: ""
+      text: ""
+      mastodon: "https://mastodon.social/@johjo"
+      bio: "Après l’avoir découvert en 2014 et redécouvert en 2017, j’ai fait de ma vie une quête autour du Test Driven Development.  Tech lead au sein de la société Efficacity, je pratique TDD et le mob programming quotidiennement.  Je partage volontiers ma passion du craft et des pratiques qui lui sont associées dans les couloirs des conférences."
+      short_bio: ""
+
+
   Schedule:
     - name: "Accueil"
       id: "accueil"
@@ -1239,7 +1252,7 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
         - speaker:
           speakerid: "marinedumesnil"
 
-    - name: "Office Hours - Techniques de tests alternatives"
+    - name: "Office Hour - Techniques de tests alternatives"
       id: "ohtestsalternatives"
       short_description: |
         <p></p>
@@ -1251,7 +1264,7 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       menu: "officehours"
       roti: "https://openfeedback.io/G3OclbOgxYyPStZCSV7i/0/tx98HG8sGHp5XJn6XrpC"
       categories:
-        - "Office Hours"
+        - "Office Hour"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -1522,7 +1535,7 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
         - speaker:
           speakerid: "edouardmangel"
 
-    - name: "Office Hours - Mikado"
+    - name: "Office Hour - Mikado"
       id: "ohmikado"
       short_description: |
         <p></p>
@@ -1534,7 +1547,7 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       menu: "officehours"
       roti: "https://openfeedback.io/G3OclbOgxYyPStZCSV7i/0/vZNeMH7bD63zPzXbRaJ9"
       categories:
-        - "Office Hours"
+        - "Office Hour"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -1582,7 +1595,7 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
         - speaker:
           speakerid: "pascallemerrer"
 
-    - name: "Office Hours - TDD"
+    - name: "Office Hour - TDD"
       id: "ohtdd"
       short_description: |
         <p></p>
@@ -1594,7 +1607,7 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       menu: "officehours"
       roti: "https://openfeedback.io/G3OclbOgxYyPStZCSV7i/0/qo6MYCx1My08YEFmTeeN"
       categories:
-        - "Office Hours"
+        - "Office Hour"
       language: "🇫🇷"
       speakers:
         - speaker:
@@ -1655,8 +1668,8 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
         - speaker:
           speakerid: "virginiepageaud"
 
-    - name: "Office Hours - Faire moins, mais mieux : comment retrouver du focus quand tout semble prioritaire ?"
-      id: "ohtestsalternatives"
+    - name: "Office Hour - Faire moins, mais mieux : comment retrouver du focus quand tout semble prioritaire ?"
+      id: "ohfairemoinsmieux"
       short_description: |
         <p></p>
       description: |
@@ -1667,7 +1680,7 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
       menu: "officehours"
       roti: "https://openfeedback.io/G3OclbOgxYyPStZCSV7i/0/tx98HG8sGHp5XJn6XrpC"
       categories:
-        - "Office Hours"
+        - "Office Hour"
       language: "🇫🇷"
       speakers:
         - speaker:
