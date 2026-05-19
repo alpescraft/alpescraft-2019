@@ -909,7 +909,7 @@ params:
       linkedin: "www.linkedin.com/in/floris-tisseyre"
       bluesky: ""
       text: ""
-      mastodon: "https://mamot.fr/@nostradamnit"
+      mastodon: ""
       bio: "Ingénieur logiciel avec plus de 20 ans d’expérience, j’ai travaillé sur des systèmes complexes. Aujourd’hui, je m’intéresse à la manière dont l’IA transforme concrètement notre métier, entre augmentation des capacités et perte progressive de maîtrise."
       short_bio: ""
 
