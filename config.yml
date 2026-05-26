@@ -1255,9 +1255,11 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
     - name: "Office Hour - Techniques de tests alternatives"
       id: "ohtestsalternatives"
       short_description: |
-        <p></p>
+        <p>Arnaud tiendra une session spéciale au format office hours : un format où vous venez avec vos questions sur le thème et Arnaud pourra y répondre.</p>
+        <p>Comment tester notre code ? Quelles approches alternatives, souvent complémentaires, permettent d'améliorer encore notre confiance dans la qualité de notre logiciel ? C'est ce qu'on explorera dans cette session, alors si vous avez des questions sur des pratiques comme property based testing, model based testing, simulation testing ou autres, vous êtes au bon endroit.</p>
       description: |
-        <p></p>
+        <p>Arnaud tiendra une session spéciale au format office hours : un format où vous venez avec vos questions sur le thème et Arnaud pourra y répondre.</p>
+        <p>Comment tester notre code ? Quelles approches alternatives, souvent complémentaires, permettent d'améliorer encore notre confiance dans la qualité de notre logiciel ? C'est ce qu'on explorera dans cette session, alors si vous avez des questions sur des pratiques comme property based testing, model based testing, simulation testing ou autres, vous êtes au bon endroit.</p>
       type: "talk"
       salle: "Chamrousse"
       date: "11h30 à 12h15"
@@ -1538,9 +1540,11 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
     - name: "Office Hour - Mikado"
       id: "ohmikado"
       short_description: |
-        <p></p>
+        <p>Sam tiendra une session spéciale au format office hours : un format où vous venez avec vos questions sur le thème et Sam pourra y répondre.
+        Cette session autour de Mikado method vous permettra de découvrir comment améliorer vos refactorings, ou de pousser un peu plus loin votre pratique. Une pratique indispensable à avoir dans sa boîte à outil.</p>
       description: |
-        <p></p>
+        <p>Sam tiendra une session spéciale au format office hours : un format où vous venez avec vos questions sur le thème et Sam pourra y répondre.
+        Cette session autour de Mikado method vous permettra de découvrir comment améliorer vos refactorings, ou de pousser un peu plus loin votre pratique. Une pratique indispensable à avoir dans sa boîte à outil.</p>
       type: "talk"
       salle: "Chamrousse"
       date: "15h15 à 16h"
@@ -1598,9 +1602,12 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
     - name: "Office Hour - TDD"
       id: "ohtdd"
       short_description: |
-        <p></p>
+        <p>
+        Jonathan tiendra une session spéciale au format office hours : un format où vous venez avec vos questions sur le thème et Jonathan pourra y répondre.
+        Vous pensez tout savoir sur le TDD ? Venez découvrir les perspectives de quelqu'un qui a passé énormément de temps à affiner sa pratique, et pourra vous partager son art.</p>
       description: |
-        <p></p>
+        <p>Jonathan tiendra une session spéciale au format office hours : un format où vous venez avec vos questions sur le thème et Jonathan pourra y répondre.
+        Vous pensez tout savoir sur le TDD ? Venez découvrir les perspectives de quelqu'un qui a passé énormément de temps à affiner sa pratique, et pourra vous partager son art.</p>
       type: "talk"
       salle: "Villard de Lans 1"
       date: "16h15 à 17h"
@@ -1671,9 +1678,13 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
     - name: "Office Hour - Faire moins, mais mieux : comment retrouver du focus quand tout semble prioritaire ?"
       id: "ohfairemoinsmieux"
       short_description: |
-        <p></p>
+        <p>Chloé tiendra une session spéciale au format office hours : un format où vous venez avec vos questions sur le thème et Chloé pourra y répondre.
+        Vous vous êtes déjà questionnés par rapport à votre rapport au travail, à l’attention et à la performance ? Forte de son expertise Chloé partagera les clés pour canaliser son attention et avancer sur l’essentiel sans charge mentale ni culpabilité.
+        Et si vous voulez en savoir plus : <a href="http://chloe-guilbaud.com/" target="_blank">http://chloe-guilbaud.com/</a></p>
       description: |
-        <p></p>
+        <p>Chloé tiendra une session spéciale au format office hours : un format où vous venez avec vos questions sur le thème et Chloé pourra y répondre.
+        Vous vous êtes déjà questionnés par rapport à votre rapport au travail, à l’attention et à la performance ? Forte de son expertise Chloé partagera les clés pour canaliser son attention et avancer sur l’essentiel sans charge mentale ni culpabilité.
+        Et si vous voulez en savoir plus : <a href="http://chloe-guilbaud.com/" target="_blank">http://chloe-guilbaud.com/</a></p>
       type: "talk"
       salle: "Chamrousse"
       date: "16h15 à 17h"
