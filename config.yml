@@ -645,11 +645,22 @@ params:
       text: ""
       mastodon: ""
       bluesky: ""
-      bio: "
-        <p>Ingénieure logiciel passionnée par l’<strong>architecture de systèmes complexes</strong>, je suis aussi co-fondatrice du collectif nantais <strong>Hi Web !</strong> : une équipe engagée, majoritairement féminine, qui accompagne les entrepreneures dans leur stratégie digitale.</p>
-        <p><strong>Code solide</strong> et <strong>sororité</strong>, mon parcours navigue entre <strong>tech</strong>, <strong>entreprenariat</strong> et <strong>empowerment féminin</strong>. Aujourd’hui, j’explore ces mondes à travers deux projets incubés à la <strong>Cantine du Numérique</strong> : l’un sur la <strong>productivité sans charge mentale</strong>, l’autre pour rassembler et connecter des personnes ayant vécu des <strong>chocs émotionnels similaires</strong>. Deux sujets très différents, mais un même fil rouge : l’envie de créer, en code comme en société, des <strong>projets rassembleurs et libérateurs</strong>.</p>
-        <p>J’interviens dans des événements comme la <strong>DevFest Nantes</strong>, <strong>Nantes Digital Week</strong> ou <strong>Who Runs The Tech</strong>, toujours avec la même envie : <strong>rendre la technique vivante et accessible à tou·tes.</strong></p>
-        <p>Et si vous aimez parler dev, danse traditionnelle, surf ou de pourquoi je n’aime pas le café… je suis là pour ça aussi !</"
+      bio: |
+        <p>Ingénieure logiciel, entrepreneure et conférencière, je suis spécialisée en productivité personnelle et neurosciences cognitives.</p>
+
+        <p>Après plusieurs années à concevoir des systèmes techniques complexes, je me suis intéressée à un autre système complexe : notre manière de travailler quand tout va vite, que tout semble urgent, et que notre attention est sollicitée en permanence.</p>
+
+        <p>Mon sujet : <b>la productivité sans charge mentale</b>.</p>
+        <p>Pas celle qui pousse à faire toujours plus. Celle qui aide à retrouver de la clarté, réduire la dispersion et remettre son énergie au bon endroit.</p>
+
+        <p>Aujourd’hui, à travers mes conférences et mes accompagnements, j’aide les personnes très sollicitées à retrouver de la clarté, réduire leur charge mentale et construire une productivité plus simple, plus humaine et plus durable.</p>
+          
+        <p>Depuis 2019, je conçois des systèmes d'organisation personnalisés, ancrés dans les <b>neurosciences cognitives</b>, testés avec des équipes, des freelances, des managers et dans ma propre pratique d'entrepreneure.</p>
+        
+        <p>Cofondatrice du collectif nantais Hi Web!, et j’interviens dans des événements comme DevFest Nantes, Nantes Digital Week ou Who Runs The Tech. J’explore aussi des projets à impact autour de la tech engagée, de la pair-aidance et de l’empowerment féminin. J'explore des sujets très différents mais un même fil rouge : l’envie de créer, en code comme en société, des projets rassembleurs et libérateurs.</p>
+          
+        <p>Et si vous avez envie de parler dev, danse traditionnelle, surf ou de pourquoi je n’aime pas le café… je suis aussi là pour ça.</p>
+
       short_bio: ""
 
     edouardmangel:
@@ -1007,10 +1018,10 @@ params:
         On nous vend la productivité comme une course sans fin à la performance. Résultat ? Des journées surchargées, du stress et une to-do list qui ne désemplit jamais. Spoiler : ce n’est pas comme ça qu’on avance.
         </p>
         <p>👉 Et si la vraie productivité, c’était d’en faire MOINS, mais MIEUX ?
-        Dans ce quickie ultra-efficace (sans blabla), initiation à l’Art de la Flemme Productive : des méthodes simples et redoutables pour travailler plus intelligemment, en faire moins… et obtenir de meilleurs résultats.
+        Dans ce talk ultra-efficace (sans blabla), initiation à l’Art de la Flemme Productive : des méthodes simples et redoutables pour travailler plus intelligemment, en faire moins… et obtenir de meilleurs résultats.
         </p>
         <p>
-        🔥 30 minutes pour comprendre comment en faire MOINS tout en obtenant PLUS. Avec des outils concrets, applicables dès maintenant.
+        🔥 45 minutes pour comprendre comment en faire MOINS tout en obtenant PLUS. Avec des outils concrets, applicables dès maintenant.
         </p>"
       type: "talk"
       salle: "Amphi"
@@ -1675,16 +1686,16 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
         - speaker:
           speakerid: "virginiepageaud"
 
-    - name: "Office Hour - Faire moins, mais mieux : comment retrouver du focus quand tout semble prioritaire ?"
+    - name: "Office Hour - Faire moins, mais mieux : comment savoir par quoi commencer quand tout semble prioritaire ?"
       id: "ohfairemoinsmieux"
       short_description: |
         <p>Chloé tiendra une session spéciale au format office hours : un format où vous venez avec vos questions sur le thème et Chloé pourra y répondre.
         Vous vous êtes déjà questionnés par rapport à votre rapport au travail, à l’attention et à la performance ? Forte de son expertise Chloé partagera les clés pour canaliser son attention et avancer sur l’essentiel sans charge mentale ni culpabilité.
-        Et si vous voulez en savoir plus : <a href="http://chloe-guilbaud.com/" target="_blank">http://chloe-guilbaud.com/</a></p>
+        Et si vous voulez en savoir plus : <a href="http://chloe-guilbaud.com/" target="_blank">http://chloe-guilbaud.fr/</a></p>
       description: |
         <p>Chloé tiendra une session spéciale au format office hours : un format où vous venez avec vos questions sur le thème et Chloé pourra y répondre.
         Vous vous êtes déjà questionnés par rapport à votre rapport au travail, à l’attention et à la performance ? Forte de son expertise Chloé partagera les clés pour canaliser son attention et avancer sur l’essentiel sans charge mentale ni culpabilité.
-        Et si vous voulez en savoir plus : <a href="http://chloe-guilbaud.com/" target="_blank">http://chloe-guilbaud.com/</a></p>
+        Et si vous voulez en savoir plus : <a href="http://chloe-guilbaud.com/" target="_blank">http://chloe-guilbaud.fr/</a></p>
       type: "talk"
       salle: "Chamrousse"
       date: "16h15 à 17h"
