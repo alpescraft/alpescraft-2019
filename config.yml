@@ -1442,10 +1442,10 @@ Pourquoi nous entêtons-nous sur des pistes sans issue&nbsp;? C’est le piège 
         </p>
       description: |
         <p>
-        Cette session vous propose de découvrir de manière interactive des langages "alternatifs" en examinant sous différents aspects comment ils permettent de résoudre un problème identique non trivial. Nous parcourrons 7 langages différents issus de différentes traditions et représentant différents paradigmes - Haskell, OCaml, Common Lisp, Prolog, Erlang, Idris, et Forth.
+        Cette session vous propose de découvrir des langages "alternatifs" et l'implantation d'un même logiciel dans différents paradigmes. Nous parcourrons des langages issus de traditions et représentant des paradigmes différents, depuis Javascript jusqu'à Agda en passant par Haskell et Forth, pour tenter de comprendre comment ces langages permettent d'approfondir la compréhension d'un problème.
         </p>
         <p>
-        L'objectif de cette expérience est de découvrir les différentes façons de penser et d'aborder un problème à travers la diversité des langages de programmation. Et surtout de remettre du fun dans la programmation !
+        L'objectif de cette expérience est d'expliciter de quelle manière la diversité des langages de programmation permet de construire une "théorie" englobant le logiciel et le problème qu'il résout. Il s'agit par ailleurs d'examiner comment les outils de développement basés sur des LLMs contribuent, ou pas, au processus d'apprentissage par le code. Et surtout, le but est de donner envie d'explorer de nouveaux horizons pour remettre du fun dans la programmation !
         </p>
       type: "talk"
       salle: "Chamrousse"
