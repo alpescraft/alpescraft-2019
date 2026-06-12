@@ -7,7 +7,7 @@ params:
   Name: "AlpesCraft"
   Year: "2025"
   Description: "Découvrir, apprendre et se perfectionner"
-  Date: "4 et 5 Juin 2026 - Grenoble - Alpexpo"
+  Date: "Rendez-vous en 2027 !"
   Venue: "Alpexpo"
   Address: "2 Av. d'Innsbruck"
   City:  "Grenoble"
@@ -33,11 +33,11 @@ params:
   Sections:
     - home
     - about
-    - location
-    - sponsors
-    - partners
-    - billetterie
-    - schedule
+#    - location
+#    - sponsors
+#    - partners
+#    - billetterie
+#    - schedule
 
   # Titles which you can translate to other languages
   Titles:
@@ -76,6 +76,7 @@ params:
     - edition2023
     - edition2024
     - edition2025
+    - edition2026
 
   TitlesPrevious:
     edition2019:
@@ -96,6 +97,9 @@ params:
     edition2025:
       - title: "2025"
         icon: "icon-control-rewind"
+    edition2026:
+      - title: "2026"
+        icon: "icon-control-rewind"
 
   LinksPrevious:
     edition2019: "edition_2019"
@@ -104,6 +108,7 @@ params:
     edition2023: "edition_2023"
     edition2024: "edition_2024"
     edition2025: "edition_2025"
+    edition2026: "edition_2026"
 
   # Icones
   Icones:
